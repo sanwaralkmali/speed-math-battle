@@ -1,0 +1,2008 @@
+{
+    "title": "Number Navigator: Real vs. Complex Realms",
+    "description": "Explore the fascinating world of numbers! Classify numbers as real, rational, irrational, integers, whole, natural, imaginary, or complex.",
+    "waves": 5,
+    "timePerQuestion": 25,
+    "questions": [
+      {
+        "id": 1,
+        "wave": 1,
+        "question": "To which number set does 5 belong?",
+        "choices": ["Natural Numbers", "Irrational Numbers", "Imaginary Numbers", "Complex Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 2,
+        "wave": 1,
+        "question": "Is 0 a Whole Number?",
+        "choices": ["Yes", "No", "Sometimes", "Only in special cases"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 3,
+        "wave": 1,
+        "question": "Which set includes -3?",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Rational Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 4,
+        "wave": 1,
+        "question": "Is 1/2 a Rational Number?",
+        "choices": ["Yes", "No", "Sometimes", "Only as a decimal"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 5,
+        "wave": 1,
+        "question": "To what group does 3.14 belong?",
+        "choices": ["Integers", "Irrational Numbers", "Rational Numbers", "Natural Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 6,
+        "wave": 1,
+        "question": "Which of these is a Real Number?",
+        "choices": ["2i", "√(-4)", "7", "3 + 2i"],
+        "answer": "7",
+        "points": 10
+      },
+      {
+        "id": 7,
+        "wave": 1,
+        "question": "True or False: All Natural Numbers are Whole Numbers.",
+        "choices": ["True", "False"],
+        "answer": "True",
+        "points": 10
+      },
+      {
+        "id": 8,
+        "wave": 1,
+        "question": "Which set does not contain negative numbers?",
+        "choices": ["Integers", "Rational Numbers", "Whole Numbers", "Real Numbers"],
+        "answer": "Whole Numbers",
+        "points": 10
+      },
+      {
+        "id": 9,
+        "wave": 1,
+        "question": "Is √(9) a Natural Number?",
+        "choices": ["Yes", "No", "Sometimes", "Only if negative"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 10,
+        "wave": 1,
+        "question": "What kind of number is -1?",
+        "choices": ["Natural", "Whole", "Integer", "Irrational"],
+        "answer": "Integer",
+        "points": 10
+      },
+      {
+        "id": 11,
+        "wave": 1,
+        "question": "Does 0 belong to the Natural Numbers?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 12,
+        "wave": 1,
+        "question": "All Integers are also which type of number?",
+        "choices": ["Natural", "Whole", "Rational", "Irrational"],
+        "answer": "Rational",
+        "points": 10
+      },
+      {
+        "id": 13,
+        "wave": 1,
+        "question": "Is 0.25 a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 14,
+        "wave": 1,
+        "question": "Which of these is an example of an Imaginary Number?",
+        "choices": ["5", "-2", "i", "1.5"],
+        "answer": "i",
+        "points": 10
+      },
+      {
+        "id": 15,
+        "wave": 1,
+        "question": "What is the most general category for 2 + 3i?",
+        "choices": ["Real Numbers", "Imaginary Numbers", "Complex Numbers", "Rational Numbers"],
+        "answer": "Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 16,
+        "wave": 1,
+        "question": "Can a number be both Rational and Irrational?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 17,
+        "wave": 1,
+        "question": "Which set does NOT include fractions?",
+        "choices": ["Rational Numbers", "Integers", "Real Numbers", "Complex Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 18,
+        "wave": 1,
+        "question": "Is √(2) a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 19,
+        "wave": 1,
+        "question": "Which of these is NOT a Whole Number?",
+        "choices": ["7", "0", "-1", "100"],
+        "answer": "-1",
+        "points": 10
+      },
+      {
+        "id": 20,
+        "wave": 1,
+        "question": "All Imaginary Numbers are also what kind of numbers?",
+        "choices": ["Real", "Rational", "Complex", "Integer"],
+        "answer": "Complex",
+        "points": 10
+      },
+      {
+        "id": 21,
+        "wave": 1,
+        "question": "Which group contains counting numbers (1, 2, 3...)?",
+        "choices": ["Whole Numbers", "Natural Numbers", "Integers", "Rational Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 22,
+        "wave": 1,
+        "question": "Is 5.0 a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 23,
+        "wave": 1,
+        "question": "Which number is an integer but not a natural number?",
+        "choices": ["8", "0", "4", "2.5"],
+        "answer": "0",
+        "points": 10
+      },
+      {
+        "id": 24,
+        "wave": 1,
+        "question": "True or False: All Real Numbers are Rational Numbers.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "points": 10
+      },
+      {
+        "id": 25,
+        "wave": 1,
+        "question": "Which example represents an Imaginary Number?",
+        "choices": ["√(2)", "pi", "√(-9)", "3"],
+        "answer": "√(-9)",
+        "points": 10
+      },
+      {
+        "id": 26,
+        "wave": 1,
+        "question": "Is 3/4 a Whole Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 27,
+        "wave": 1,
+        "question": "Which of the following is a Natural Number?",
+        "choices": ["-5", "0", "1", "1/2"],
+        "answer": "1",
+        "points": 10
+      },
+      {
+        "id": 28,
+        "wave": 1,
+        "question": "Does the set of Integers include both positive and negative whole numbers?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 29,
+        "wave": 1,
+        "question": "To which set does 0.333... (repeating) belong?",
+        "choices": ["Irrational Numbers", "Rational Numbers", "Integers", "Natural Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 30,
+        "wave": 1,
+        "question": "Is -2.5 a Real Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 31,
+        "wave": 1,
+        "question": "Which is a characteristic of Irrational Numbers?",
+        "choices": ["Can be written as a fraction", "Have terminating decimals", "Have non-repeating, non-terminating decimals", "Are only negative"],
+        "answer": "Have non-repeating, non-terminating decimals",
+        "points": 10
+      },
+      {
+        "id": 32,
+        "wave": 1,
+        "question": "The number 7 can be classified as all of the following EXCEPT:",
+        "choices": ["Natural Number", "Whole Number", "Integer", "Irrational Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 33,
+        "wave": 1,
+        "question": "What is the real part of the complex number 4 + 7i?",
+        "choices": ["4", "7", "i", "4i"],
+        "answer": "4",
+        "points": 10
+      },
+      {
+        "id": 34,
+        "wave": 1,
+        "question": "What is the imaginary part of the complex number 6 - 2i?",
+        "choices": ["6", "-2", "i", "2i"],
+        "answer": "-2",
+        "points": 10
+      },
+      {
+        "id": 35,
+        "wave": 1,
+        "question": "Is 5i a Complex Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 36,
+        "wave": 1,
+        "question": "Which number is both an Integer and a Rational Number?",
+        "choices": ["√(3)", "1/3", "-8", "pi"],
+        "answer": "-8",
+        "points": 10
+      },
+      {
+        "id": 37,
+        "wave": 1,
+        "question": "Can a Real Number also be a Complex Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 38,
+        "wave": 1,
+        "question": "Which set is a subset of the Real Numbers?",
+        "choices": ["Imaginary Numbers", "Complex Numbers", "Rational Numbers", "All of the above"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 39,
+        "wave": 1,
+        "question": "Does the number 1.23456... (non-repeating) belong to Rational Numbers?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 40,
+        "wave": 1,
+        "question": "Which term describes numbers like -2, -1, 0, 1, 2...?",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Rational Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 41,
+        "wave": 1,
+        "question": "Is 'i' a Real Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 42,
+        "wave": 1,
+        "question": "Which category contains both real and imaginary parts?",
+        "choices": ["Real Numbers", "Imaginary Numbers", "Complex Numbers", "Rational Numbers"],
+        "answer": "Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 43,
+        "wave": 1,
+        "question": "True or False: All Whole Numbers are Natural Numbers.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "points": 10
+      },
+      {
+        "id": 44,
+        "wave": 1,
+        "question": "Which number is an example of a Natural Number?",
+        "choices": ["-4", "0", "9", "0.5"],
+        "answer": "9",
+        "points": 10
+      },
+      {
+        "id": 45,
+        "wave": 1,
+        "question": "Is 0 a positive number?",
+        "choices": ["Yes", "No", "Both", "Neither"],
+        "answer": "Neither",
+        "points": 10
+      },
+      {
+        "id": 46,
+        "wave": 1,
+        "question": "Numbers that can be expressed as a fraction p/q where q is not zero are called:",
+        "choices": ["Irrational", "Integers", "Rational", "Real"],
+        "answer": "Rational",
+        "points": 10
+      },
+      {
+        "id": 47,
+        "wave": 1,
+        "question": "Which number does not belong to the set of Integers?",
+        "choices": ["10", "-7", "0", "3/2"],
+        "answer": "3/2",
+        "points": 10
+      },
+      {
+        "id": 48,
+        "wave": 1,
+        "question": "Is pi (π) a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 49,
+        "wave": 1,
+        "question": "All numbers on the number line are considered:",
+        "choices": ["Imaginary Numbers", "Complex Numbers", "Real Numbers", "Rational Numbers"],
+        "answer": "Real Numbers",
+        "points": 10
+      },
+      {
+        "id": 50,
+        "wave": 1,
+        "question": "Can an Imaginary Number have a real part?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 51,
+        "wave": 2,
+        "question": "Which of these is the most specific classification for 7?",
+        "choices": ["Integer", "Rational Number", "Natural Number", "Real Number"],
+        "answer": "Natural Number",
+        "points": 10
+      },
+      {
+        "id": 52,
+        "wave": 2,
+        "question": "Classify -10/2.",
+        "choices": ["Rational Number, Integer", "Irrational Number", "Whole Number", "Natural Number"],
+        "answer": "Rational Number, Integer",
+        "points": 10
+      },
+      {
+        "id": 53,
+        "wave": 2,
+        "question": "Which set contains numbers like √3 and π?",
+        "choices": ["Rational Numbers", "Integers", "Irrational Numbers", "Whole Numbers"],
+        "answer": "Irrational Numbers",
+        "points": 10
+      },
+      {
+        "id": 54,
+        "wave": 2,
+        "question": "A number that can be written as a terminating or repeating decimal is a:",
+        "choices": ["Irrational Number", "Rational Number", "Imaginary Number", "Natural Number"],
+        "answer": "Rational Number",
+        "points": 10
+      },
+      {
+        "id": 55,
+        "wave": 2,
+        "question": "Is 4.000... (repeating zeros) a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 56,
+        "wave": 2,
+        "question": "Which statement is true?",
+        "choices": ["All Real Numbers are Rational.", "All Irrational Numbers are Integers.", "All Rational Numbers are Real.", "All Imaginary Numbers are Real."],
+        "answer": "All Rational Numbers are Real.",
+        "points": 10
+      },
+      {
+        "id": 57,
+        "wave": 2,
+        "question": "To which set does the result of 5 - 5 belong?",
+        "choices": ["Natural Numbers", "Integers", "Irrational Numbers", "Imaginary Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 58,
+        "wave": 2,
+        "question": "Which choice is an example of an Imaginary Number?",
+        "choices": ["√(16)", "√(-16)", "4/2", "0"],
+        "answer": "√(-16)",
+        "points": 10
+      },
+      {
+        "id": 59,
+        "wave": 2,
+        "question": "A number in the form a + bi, where 'b' is not zero, is a:",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Rational Number"],
+        "answer": "Complex Number",
+        "points": 10
+      },
+      {
+        "id": 60,
+        "wave": 2,
+        "question": "Is 0.121121112... (pattern of increasing 1s) a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 61,
+        "wave": 2,
+        "question": "Which classification correctly describes -2/3?",
+        "choices": ["Integer", "Natural Number", "Rational Number", "Whole Number"],
+        "answer": "Rational Number",
+        "points": 10
+      },
+      {
+        "id": 62,
+        "wave": 2,
+        "question": "Can a number be an Integer and a Whole Number simultaneously?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 63,
+        "wave": 2,
+        "question": "Which group includes numbers like 1, 2, 3, ...?",
+        "choices": ["Whole Numbers", "Natural Numbers", "Integers", "Rational Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 64,
+        "wave": 2,
+        "question": "Identify the Irrational Number:",
+        "choices": ["√(4)", "0.5", "pi/2", "3/1"],
+        "answer": "pi/2",
+        "points": 10
+      },
+      {
+        "id": 65,
+        "wave": 2,
+        "question": "What kind of number is -√(25)?",
+        "choices": ["Natural Number", "Whole Number", "Integer", "Irrational Number"],
+        "answer": "Integer",
+        "points": 10
+      },
+      {
+        "id": 66,
+        "wave": 2,
+        "question": "All Imaginary Numbers have a real part of zero. True or False?",
+        "choices": ["True", "False"],
+        "answer": "True",
+        "points": 10
+      },
+      {
+        "id": 67,
+        "wave": 2,
+        "question": "Which number is both a Rational Number and an Integer?",
+        "choices": ["√(7)", "3.14159...", "-12", "1/4"],
+        "answer": "-12",
+        "points": 10
+      },
+      {
+        "id": 68,
+        "wave": 2,
+        "question": "The number 0 is a member of which set, but not the Natural Numbers?",
+        "choices": ["Integers", "Whole Numbers", "Rational Numbers", "Real Numbers"],
+        "answer": "Whole Numbers",
+        "points": 10
+      },
+      {
+        "id": 69,
+        "wave": 2,
+        "question": "What is the result of 2 + 0i in simplest complex form?",
+        "choices": ["2i", "0", "2", "2+i"],
+        "answer": "2",
+        "points": 10
+      },
+      {
+        "id": 70,
+        "wave": 2,
+        "question": "Which set includes all numbers that can be plotted on a number line?",
+        "choices": ["Imaginary Numbers", "Complex Numbers", "Real Numbers", "Rational Numbers"],
+        "answer": "Real Numbers",
+        "points": 10
+      },
+      {
+        "id": 71,
+        "wave": 2,
+        "question": "Identify the number that is a Whole Number but not a Natural Number.",
+        "choices": ["5", "-2", "0", "1/2"],
+        "answer": "0",
+        "points": 10
+      },
+      {
+        "id": 72,
+        "wave": 2,
+        "question": "Which of these is classified as an Irrational Number?",
+        "choices": ["7/8", "0.125", "√7", "-3"],
+        "answer": "√7",
+        "points": 10
+      },
+      {
+        "id": 73,
+        "wave": 2,
+        "question": "Which statement is FALSE?",
+        "choices": ["Every integer is a rational number.", "Every natural number is an integer.", "Every rational number is an integer.", "Every real number is a complex number."],
+        "answer": "Every rational number is an integer.",
+        "points": 10
+      },
+      {
+        "id": 74,
+        "wave": 2,
+        "question": "To which number set does the decimal 0.777... (repeating) belong?",
+        "choices": ["Irrational Numbers", "Rational Numbers", "Integers", "Natural Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 75,
+        "wave": 2,
+        "question": "Which is the correct classification for the number -5?",
+        "choices": ["Natural Number", "Whole Number", "Integer", "Irrational Number"],
+        "answer": "Integer",
+        "points": 10
+      },
+      {
+        "id": 76,
+        "wave": 2,
+        "question": "The square root of a non-perfect square is an example of an:",
+        "choices": ["Integer", "Rational Number", "Irrational Number", "Natural Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 77,
+        "wave": 2,
+        "question": "Which number is both a Real Number and an Imaginary Number?",
+        "choices": ["0", "i", "2 + i", "None"],
+        "answer": "None",
+        "points": 10
+      },
+      {
+        "id": 78,
+        "wave": 2,
+        "question": "The set of all numbers a + bi, where 'a' and 'b' are real numbers, is called:",
+        "choices": ["Real Numbers", "Imaginary Numbers", "Complex Numbers", "Rational Numbers"],
+        "answer": "Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 79,
+        "wave": 2,
+        "question": "What is the imaginary part of -3i?",
+        "choices": ["-3", "0", "3", "i"],
+        "answer": "-3",
+        "points": 10
+      },
+      {
+        "id": 80,
+        "wave": 2,
+        "question": "Is -0.6 a Whole Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 81,
+        "wave": 2,
+        "question": "Which number is a Natural Number?",
+        "choices": ["-10", "1/3", "√16", "0"],
+        "answer": "√16",
+        "points": 10
+      },
+      {
+        "id": 82,
+        "wave": 2,
+        "question": "True or False: Every Real Number is either Rational or Irrational.",
+        "choices": ["True", "False"],
+        "answer": "True",
+        "points": 10
+      },
+      {
+        "id": 83,
+        "wave": 2,
+        "question": "Which set is a superset of the Natural Numbers?",
+        "choices": ["Integers", "Whole Numbers", "Rational Numbers", "All of the above"],
+        "answer": "All of the above",
+        "points": 10
+      },
+      {
+        "id": 84,
+        "wave": 2,
+        "question": "The number 0.123456789101112... (digits of natural numbers) is:",
+        "choices": ["Rational", "Irrational", "Integer", "Whole"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 85,
+        "wave": 2,
+        "question": "Which number is an Integer but not a Whole Number?",
+        "choices": ["7", "0", "-5", "2.0"],
+        "answer": "-5",
+        "points": 10
+      },
+      {
+        "id": 86,
+        "wave": 2,
+        "question": "Which of these numbers is NOT a Real Number?",
+        "choices": ["4", "-1/2", "√-25", "0.75"],
+        "answer": "√-25",
+        "points": 10
+      },
+      {
+        "id": 87,
+        "wave": 2,
+        "question": "What is the classification of √1/4?",
+        "choices": ["Irrational", "Integer", "Rational", "Whole"],
+        "answer": "Rational",
+        "points": 10
+      },
+      {
+        "id": 88,
+        "wave": 2,
+        "question": "The set {..., -2, -1, 0, 1, 2, ...} is known as:",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Rational Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 89,
+        "wave": 2,
+        "question": "Is √(5) a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 90,
+        "wave": 2,
+        "question": "Which type of number can be represented by a finite or repeating decimal?",
+        "choices": ["Irrational", "Imaginary", "Rational", "Complex"],
+        "answer": "Rational",
+        "points": 10
+      },
+      {
+        "id": 91,
+        "wave": 2,
+        "question": "Which example is an Imaginary Number?",
+        "choices": ["pi", "e", "√(-1)", "0"],
+        "answer": "√(-1)",
+        "points": 10
+      },
+      {
+        "id": 92,
+        "wave": 2,
+        "question": "A number that can be expressed as a non-terminating, non-repeating decimal is:",
+        "choices": ["Rational", "Integer", "Irrational", "Whole"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 93,
+        "wave": 2,
+        "question": "Can a number be a Complex Number without being a Real Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 94,
+        "wave": 2,
+        "question": "What is the real part of -6i?",
+        "choices": ["-6", "0", "6", "i"],
+        "answer": "0",
+        "points": 10
+      },
+      {
+        "id": 95,
+        "wave": 2,
+        "question": "What is the imaginary part of 12?",
+        "choices": ["12", "0", "i", "12i"],
+        "answer": "0",
+        "points": 10
+      },
+      {
+        "id": 96,
+        "wave": 2,
+        "question": "Which set of numbers is represented by the symbol \\mathbb{N}?",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Real Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 97,
+        "wave": 2,
+        "question": "Which set of numbers is represented by the symbol \\mathbb{Z}?",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Rational Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 98,
+        "wave": 2,
+        "question": "Which set of numbers is represented by the symbol \\mathbb{Q}?",
+        "choices": ["Natural Numbers", "Integers", "Rational Numbers", "Irrational Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 99,
+        "wave": 2,
+        "question": "Which set of numbers is represented by the symbol \\mathbb{R}?",
+        "choices": ["Rational Numbers", "Irrational Numbers", "Complex Numbers", "Real Numbers"],
+        "answer": "Real Numbers",
+        "points": 10
+      },
+      {
+        "id": 100,
+        "wave": 2,
+        "question": "Which set of numbers is represented by the symbol \\mathbb{C}?",
+        "choices": ["Real Numbers", "Imaginary Numbers", "Complex Numbers", "Rational Numbers"],
+        "answer": "Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 101,
+        "wave": 3,
+        "question": "To which number set does -√7 belong?",
+        "choices": ["Rational Numbers", "Integers", "Irrational Numbers", "Natural Numbers"],
+        "answer": "Irrational Numbers",
+        "points": 10
+      },
+      {
+        "id": 102,
+        "wave": 3,
+        "question": "Is the sum of two Rational Numbers always Rational?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 103,
+        "wave": 3,
+        "question": "Which number is both a Whole Number and a Real Number, but not a Natural Number?",
+        "choices": ["-3", "1", "0", "1/2"],
+        "answer": "0",
+        "points": 10
+      },
+      {
+        "id": 104,
+        "wave": 3,
+        "question": "The number 1.4142135... (non-repeating) is an example of a(n):",
+        "choices": ["Rational Number", "Integer", "Irrational Number", "Whole Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 105,
+        "wave": 3,
+        "question": "Can a Complex Number have both a non-zero real part and a non-zero imaginary part?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 106,
+        "wave": 3,
+        "question": "Which choice is an example of a number that is an Integer but not a Whole Number?",
+        "choices": ["5", "0", "-10", "1.5"],
+        "answer": "-10",
+        "points": 10
+      },
+      {
+        "id": 107,
+        "wave": 3,
+        "question": "The product of a non-zero Rational Number and an Irrational Number is always:",
+        "choices": ["Rational", "Irrational", "Integer", "Whole"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 108,
+        "wave": 3,
+        "question": "What is the result of i²?",
+        "choices": ["1", "-1", "i", "-i"],
+        "answer": "-1",
+        "points": 10
+      },
+      {
+        "id": 109,
+        "wave": 3,
+        "question": "Is 3 + 0i an Imaginary Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 110,
+        "wave": 3,
+        "question": "Which of these numbers is NOT a Real Number?",
+        "choices": ["-15", "pi", "√(10)", "√(-49)"],
+        "answer": "√(-49)",
+        "points": 10
+      },
+      {
+        "id": 111,
+        "wave": 3,
+        "question": "Which set describes the union of Rational and Irrational Numbers?",
+        "choices": ["Integers", "Real Numbers", "Complex Numbers", "Natural Numbers"],
+        "answer": "Real Numbers",
+        "points": 10
+      },
+      {
+        "id": 112,
+        "wave": 3,
+        "question": "The sum of a Real Number and an Imaginary Number (where neither is zero) is always a:",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Rational Number"],
+        "answer": "Complex Number",
+        "points": 10
+      },
+      {
+        "id": 113,
+        "wave": 3,
+        "question": "What is the conjugate of the complex number 2 + 5i?",
+        "choices": ["2 - 5i", "-2 + 5i", "5 + 2i", "5 - 2i"],
+        "answer": "2 - 5i",
+        "points": 10
+      },
+      {
+        "id": 114,
+        "wave": 3,
+        "question": "Which classification applies to all Natural Numbers, Whole Numbers, and Integers?",
+        "choices": ["Irrational Numbers", "Rational Numbers", "Imaginary Numbers", "Complex Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 115,
+        "wave": 3,
+        "question": "If a number is non-terminating AND non-repeating, it is:",
+        "choices": ["Rational", "Integer", "Irrational", "Whole"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 116,
+        "wave": 3,
+        "question": "Which of these is a subset of the Integers?",
+        "choices": ["Rational Numbers", "Natural Numbers", "Irrational Numbers", "Imaginary Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 117,
+        "wave": 3,
+        "question": "The number 'e' (Euler's number) is an example of a(n):",
+        "choices": ["Rational Number", "Integer", "Irrational Number", "Natural Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 118,
+        "wave": 3,
+        "question": "Is the set of Real Numbers a subset of the Complex Numbers?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 119,
+        "wave": 3,
+        "question": "Which number classification contains \\pi and \\√{2} but not 1/3 or 5?",
+        "choices": ["Rational Numbers", "Real Numbers", "Irrational Numbers", "Integers"],
+        "answer": "Irrational Numbers",
+        "points": 10
+      },
+      {
+        "id": 120,
+        "wave": 3,
+        "question": "What kind of number is (2+3i) + (4-i)?",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Rational Number"],
+        "answer": "Complex Number",
+        "points": 10
+      },
+      {
+        "id": 121,
+        "wave": 3,
+        "question": "Identify the set that includes both -5 and 3.2.",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Rational Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 122,
+        "wave": 3,
+        "question": "Is the number 0.1010010001... (pattern with increasing zeros) Rational or Irrational?",
+        "choices": ["Rational", "Irrational"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 123,
+        "wave": 3,
+        "question": "The multiplicative inverse of an integer (other than 0, 1, -1) is typically a(n):",
+        "choices": ["Integer", "Natural Number", "Rational Number", "Whole Number"],
+        "answer": "Rational Number",
+        "points": 10
+      },
+      {
+        "id": 124,
+        "wave": 3,
+        "question": "What is the absolute value of 3 + 4i?",
+        "choices": ["3", "4", "5", "7"],
+        "answer": "5",
+        "points": 10
+      },
+      {
+        "id": 125,
+        "wave": 3,
+        "question": "If a number cannot be expressed as a ratio of two integers, it is called:",
+        "choices": ["Rational", "Imaginary", "Irrational", "Complex"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 126,
+        "wave": 3,
+        "question": "Which of these represents an Imaginary Number?",
+        "choices": ["\\√{10}", "\\√[3]{-8}", "\\√{-2}", "0.5"],
+        "answer": "\\√{-2}",
+        "points": 10
+      },
+      {
+        "id": 127,
+        "wave": 3,
+        "question": "The square of an imaginary number (e.g., (2i)^2) is always a:",
+        "choices": ["Positive Real Number", "Negative Real Number", "Imaginary Number", "Complex Number"],
+        "answer": "Negative Real Number",
+        "points": 10
+      },
+      {
+        "id": 128,
+        "wave": 3,
+        "question": "Which of the following is a rational number that is also an integer?",
+        "choices": ["-1/2", "\\√{4}", "\\pi", "0.333..."],
+        "answer": "\\√{4}",
+        "points": 10
+      },
+      {
+        "id": 129,
+        "wave": 3,
+        "question": "Which statement best describes the relationship between Rational and Irrational Numbers?",
+        "choices": ["They overlap", "They are disjoint", "Rational numbers are a subset of irrational", "Irrational numbers are a subset of rational"],
+        "answer": "They are disjoint",
+        "points": 10
+      },
+      {
+        "id": 130,
+        "wave": 3,
+        "question": "To which set does the number e^{\\pi i} belong?",
+        "choices": ["Real Numbers", "Imaginary Numbers", "Complex Numbers", "Irrational Numbers"],
+        "answer": "Real Numbers",
+        "points": 10
+      },
+      {
+        "id": 131,
+        "wave": 3,
+        "question": "A number that can be written as a non-terminating decimal, but has a repeating block of digits, is:",
+        "choices": ["Irrational", "Integer", "Rational", "Whole"],
+        "answer": "Rational",
+        "points": 10
+      },
+      {
+        "id": 132,
+        "wave": 3,
+        "question": "Which number is both a Rational Number and an Imaginary Number?",
+        "choices": ["0", "i", "2i", "None"],
+        "answer": "None",
+        "points": 10
+      },
+      {
+        "id": 133,
+        "wave": 3,
+        "question": "The square root of a positive Real Number can be:",
+        "choices": ["Only Rational", "Only Irrational", "Either Rational or Irrational", "Only Imaginary"],
+        "answer": "Either Rational or Irrational",
+        "points": 10
+      },
+      {
+        "id": 134,
+        "wave": 3,
+        "question": "What is the most inclusive set for all numbers?",
+        "choices": ["Real Numbers", "Complex Numbers", "Rational Numbers", "Imaginary Numbers"],
+        "answer": "Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 135,
+        "wave": 3,
+        "question": "Which of these is a perfect square of a Rational Number?",
+        "choices": ["\\√{5}", "1.44", "e^2", "\\pi^2"],
+        "answer": "1.44",
+        "points": 10
+      },
+      {
+        "id": 136,
+        "wave": 3,
+        "question": "The set of numbers {0, 1, 2, 3, ...} is known as:",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Rational Numbers"],
+        "answer": "Whole Numbers",
+        "points": 10
+      },
+      {
+        "id": 137,
+        "wave": 3,
+        "question": "If a number is an integer, it is automatically also a:",
+        "choices": ["Natural Number", "Irrational Number", "Rational Number", "Imaginary Number"],
+        "answer": "Rational Number",
+        "points": 10
+      },
+      {
+        "id": 138,
+        "wave": 3,
+        "question": "Which number is an integer but not a natural number and not a whole number?",
+        "choices": ["5", "0", "-8", "3.1"],
+        "answer": "-8",
+        "points": 10
+      },
+      {
+        "id": 139,
+        "wave": 3,
+        "question": "Which of these numbers is equivalent to 2i?",
+        "choices": ["\\√{-4}", "\\√{4}", "-2i", "2"],
+        "answer": "\\√{-4}",
+        "points": 10
+      },
+      {
+        "id": 140,
+        "wave": 3,
+        "question": "The decimal representation of an Irrational Number is always:",
+        "choices": ["Terminating", "Repeating", "Non-terminating and Non-repeating", "Finite"],
+        "answer": "Non-terminating and Non-repeating",
+        "points": 10
+      },
+      {
+        "id": 141,
+        "wave": 3,
+        "question": "If a number is of the form a+bi where b=0, it is a:",
+        "choices": ["Imaginary Number", "Complex Number", "Real Number", "Irrational Number"],
+        "answer": "Real Number",
+        "points": 10
+      },
+      {
+        "id": 142,
+        "wave": 3,
+        "question": "Which statement is true regarding the relationship between sets of numbers?",
+        "choices": ["Natural \\subset Integers \\subset Rational \\subset Real \\subset Complex", "Natural \\subset Whole \\subset Integers \\subset Real \\subset Complex", "Integers \\subset Rational \\subset Irrational \\subset Real", "Complex \\subset Real \\subset Rational \\subset Integers"],
+        "answer": "Natural \\subset Whole \\subset Integers \\subset Rational \\subset Real \\subset Complex",
+        "points": 10
+      },
+      {
+        "id": 143,
+        "wave": 3,
+        "question": "What is the product of two Imaginary Numbers (e.g., (2i)(3i))?",
+        "choices": ["Imaginary Number", "Positive Real Number", "Negative Real Number", "Complex Number"],
+        "answer": "Negative Real Number",
+        "points": 10
+      },
+      {
+        "id": 144,
+        "wave": 3,
+        "question": "Which of these is a number that is Real but not Rational?",
+        "choices": ["0.5", "3/4", "\\√{11}", "-2"],
+        "answer": "\\√{11}",
+        "points": 10
+      },
+      {
+        "id": 145,
+        "wave": 3,
+        "question": "The set of numbers that includes all terminating and repeating decimals is:",
+        "choices": ["Irrational Numbers", "Integers", "Rational Numbers", "Whole Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 146,
+        "wave": 3,
+        "question": "Can a Natural Number also be a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 147,
+        "wave": 3,
+        "question": "Which operation on two Real Numbers can result in an Imaginary Number?",
+        "choices": ["Addition", "Subtraction", "Multiplication", "Taking the square root"],
+        "answer": "Taking the square root",
+        "points": 10
+      },
+      {
+        "id": 148,
+        "wave": 3,
+        "question": "Which symbol represents the set of Whole Numbers?",
+        "choices": ["\\mathbb{N}", "\\mathbb{Z}", "\\mathbb{W}", "\\mathbb{Q}"],
+        "answer": "\\mathbb{W}",
+        "points": 10
+      },
+      {
+        "id": 149,
+        "wave": 3,
+        "question": "If a number is of the form a+bi where a=0 and b \\neq 0, it is a:",
+        "choices": ["Real Number", "Complex Number", "Imaginary Number", "Rational Number"],
+        "answer": "Imaginary Number",
+        "points": 10
+      },
+      {
+        "id": 150,
+        "wave": 3,
+        "question": "Which of these numbers is NOT an Integer?",
+        "choices": ["-7", "0", "1/5", "12"],
+        "answer": "1/5",
+        "points": 10
+      },
+      {
+        "id": 151,
+        "wave": 4,
+        "question": "Which of the following numbers belongs to \\mathbb{Q} but not \\mathbb{Z}?",
+        "choices": ["-5", "0", "2/3", "\\√{2}"],
+        "answer": "2/3",
+        "points": 10
+      },
+      {
+        "id": 152,
+        "wave": 4,
+        "question": "What is the most precise classification for \\√[3]{-27}?",
+        "choices": ["Natural Number", "Whole Number", "Integer", "Irrational Number"],
+        "answer": "Integer",
+        "points": 10
+      },
+      {
+        "id": 153,
+        "wave": 4,
+        "question": "Can a Real Number be expressed in the form a+bi?",
+        "choices": ["Yes, when b=0", "Yes, when a=0", "No, never", "Only if a and b are both integers"],
+        "answer": "Yes, when b=0",
+        "points": 10
+      },
+      {
+        "id": 154,
+        "wave": 4,
+        "question": "The solution to x^2 = -9 belongs to which set?",
+        "choices": ["Real Numbers", "Rational Numbers", "Imaginary Numbers", "Integers"],
+        "answer": "Imaginary Numbers",
+        "points": 10
+      },
+      {
+        "id": 155,
+        "wave": 4,
+        "question": "Identify the number that is a Real Number but NOT a Rational Number.",
+        "choices": ["0.121212...", "\\√{12}", "1/4", "-7"],
+        "answer": "\\√{12}",
+        "points": 10
+      },
+      {
+        "id": 156,
+        "wave": 4,
+        "question": "Which set includes all numbers that can be written as a terminating decimal?",
+        "choices": ["Irrational Numbers", "Integers", "Rational Numbers", "Whole Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 157,
+        "wave": 4,
+        "question": "The intersection of the set of Rational Numbers and the set of Irrational Numbers is:",
+        "choices": ["The set of Real Numbers", "The empty set", "The set of Integers", "The set of Natural Numbers"],
+        "answer": "The empty set",
+        "points": 10
+      },
+      {
+        "id": 158,
+        "wave": 4,
+        "question": "What is the most precise classification for \\√{0.25}?",
+        "choices": ["Irrational Number", "Integer", "Rational Number", "Natural Number"],
+        "answer": "Rational Number",
+        "points": 10
+      },
+      {
+        "id": 159,
+        "wave": 4,
+        "question": "The complex number a+bi is a Real Number if:",
+        "choices": ["a=0", "b=0", "a \\neq 0", "b \\neq 0"],
+        "answer": "b=0",
+        "points": 10
+      },
+      {
+        "id": 160,
+        "wave": 4,
+        "question": "Which of these is NOT a Complex Number?",
+        "choices": ["5i", "7", "2 + 3i", "None of these (all are complex numbers)"],
+        "answer": "None of these (all are complex numbers)",
+        "points": 10
+      },
+      {
+        "id": 161,
+        "wave": 4,
+        "question": "If a number belongs to the set of Integers, does it necessarily belong to the set of Natural Numbers?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 162,
+        "wave": 4,
+        "question": "Which of the following is an example of a number that is a Rational Number but not an Integer?",
+        "choices": ["-4", "0", "1/3", "2"],
+        "answer": "1/3",
+        "points": 10
+      },
+      {
+        "id": 163,
+        "wave": 4,
+        "question": "What is the sum of an Irrational Number and a Rational Number?",
+        "choices": ["Always Rational", "Always Irrational", "Sometimes Rational, sometimes Irrational", "Always Integer"],
+        "answer": "Always Irrational",
+        "points": 10
+      },
+      {
+        "id": 164,
+        "wave": 4,
+        "question": "Which set forms the smallest group of numbers that includes 0.5 and -0.5?",
+        "choices": ["Integers", "Natural Numbers", "Rational Numbers", "Real Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 165,
+        "wave": 4,
+        "question": "The number i^3 simplifies to:",
+        "choices": ["1", "-1", "i", "-i"],
+        "answer": "-i",
+        "points": 10
+      },
+      {
+        "id": 166,
+        "wave": 4,
+        "question": "Consider the number 0.123456789101112.... To which set does it belong?",
+        "choices": ["Rational Numbers", "Irrational Numbers", "Integers", "Whole Numbers"],
+        "answer": "Irrational Numbers",
+        "points": 10
+      },
+      {
+        "id": 167,
+        "wave": 4,
+        "question": "Which of these numbers is NOT a Real Number?",
+        "choices": ["\\√{5}", "3/7", "8i", "-100"],
+        "answer": "8i",
+        "points": 10
+      },
+      {
+        "id": 168,
+        "wave": 4,
+        "question": "The set of all numbers a+bi where b \\neq 0 are called:",
+        "choices": ["Real Numbers", "Purely Imaginary Numbers", "Non-real Complex Numbers", "Rational Numbers"],
+        "answer": "Non-real Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 169,
+        "wave": 4,
+        "question": "What is the most general category for a number like \\√[4]{-16}?",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Irrational Number"],
+        "answer": "Complex Number",
+        "points": 10
+      },
+      {
+        "id": 170,
+        "wave": 4,
+        "question": "True or False: The product of two Irrational Numbers is always Irrational.",
+        "choices": ["True", "False"],
+        "answer": "False",
+        "points": 10
+      },
+      {
+        "id": 171,
+        "wave": 4,
+        "question": "To which set does the number \\√{1} belong?",
+        "choices": ["Irrational Numbers", "Natural Numbers", "Integers", "Rational Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 172,
+        "wave": 4,
+        "question": "Consider the number (0.12)^3. What is its most precise classification?",
+        "choices": ["Irrational Number", "Integer", "Rational Number", "Natural Number"],
+        "answer": "Rational Number",
+        "points": 10
+      },
+      {
+        "id": 173,
+        "wave": 4,
+        "question": "Which of these statements is always true?",
+        "choices": ["An integer is always a natural number.", "A rational number is always an integer.", "A real number is always complex.", "An imaginary number is always real."],
+        "answer": "A real number is always complex.",
+        "points": 10
+      },
+      {
+        "id": 174,
+        "wave": 4,
+        "question": "The set of Natural Numbers is also known as the set of:",
+        "choices": ["Counting Numbers", "Whole Numbers", "Non-negative Integers", "Rational Numbers"],
+        "answer": "Counting Numbers",
+        "points": 10
+      },
+      {
+        "id": 175,
+        "wave": 4,
+        "question": "Which of the following is a number that is a Real Number, but not a Whole Number?",
+        "choices": ["5", "0", "-2", "1.7"],
+        "answer": "1.7",
+        "points": 10
+      },
+      {
+        "id": 176,
+        "wave": 4,
+        "question": "If x is a Rational Number and y is an Irrational Number, then x+y is:",
+        "choices": ["Rational", "Irrational", "Integer", "Complex"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 177,
+        "wave": 4,
+        "question": "The set of numbers describes:",
+        "choices": ["Natural Numbers", "Whole Numbers", "Non-negative Real Numbers", "Rational Numbers"],
+        "answer": "Non-negative Real Numbers",
+        "points": 10
+      },
+      {
+        "id": 178,
+        "wave": 4,
+        "question": "What is the imaginary part of 4 - \\√{-16}?",
+        "choices": ["4", "-4", "4i", "-4i"],
+        "answer": "-4",
+        "points": 10
+      },
+      {
+        "id": 179,
+        "wave": 4,
+        "question": "Which number is both an Integer and a Natural Number?",
+        "choices": ["-6", "0", "13", "2/5"],
+        "answer": "13",
+        "points": 10
+      },
+      {
+        "id": 180,
+        "wave": 4,
+        "question": "The square root of a negative number is always a(n):",
+        "choices": ["Real Number", "Rational Number", "Imaginary Number", "Integer"],
+        "answer": "Imaginary Number",
+        "points": 10
+      },
+      {
+        "id": 181,
+        "wave": 4,
+        "question": "Which symbol is used for the set of all integers?",
+        "choices": ["\\mathbb{N}", "\\mathbb{Z}", "\\mathbb{W}", "\\mathbb{I}"],
+        "answer": "\\mathbb{Z}",
+        "points": 10
+      },
+      {
+        "id": 182,
+        "wave": 4,
+        "question": "The complex conjugate of a-bi is:",
+        "choices": ["a+bi", "-a+bi", "b-ai", "b+ai"],
+        "answer": "a+bi",
+        "points": 10
+      },
+      {
+        "id": 183,
+        "wave": 4,
+        "question": "Can the sum of two Irrational Numbers be a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 184,
+        "wave": 4,
+        "question": "Identify the number that is a Whole Number but not a Natural Number.",
+        "choices": ["7", "-4", "0", "0.5"],
+        "answer": "0",
+        "points": 10
+      },
+      {
+        "id": 185,
+        "wave": 4,
+        "question": "Which set is defined as numbers that can be written as a fraction p/q, where q \\neq 0?",
+        "choices": ["Integers", "Irrational Numbers", "Rational Numbers", "Real Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 186,
+        "wave": 4,
+        "question": "If a number is non-real, it must be a(n):",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Irrational Number"],
+        "answer": "Complex Number",
+        "points": 10
+      },
+      {
+        "id": 187,
+        "wave": 4,
+        "question": "The set of numbers {1, 2, 3, ...} is:",
+        "choices": ["Whole Numbers", "Natural Numbers", "Integers", "Rational Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 188,
+        "wave": 4,
+        "question": "Which of these numbers is equivalent to i^4?",
+        "choices": ["-1", "1", "i", "-i"],
+        "answer": "1",
+        "points": 10
+      },
+      {
+        "id": 189,
+        "wave": 4,
+        "question": "To which set does \\√[3]{-8} belong?",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Irrational Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 190,
+        "wave": 4,
+        "question": "Is the number 2 + 0i considered a purely Imaginary Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 191,
+        "wave": 4,
+        "question": "Which of the following numbers is an example of a number that is Real but not a Whole Number?",
+        "choices": ["-1", "3.14", "7", "0"],
+        "answer": "3.14",
+        "points": 10
+      },
+      {
+        "id": 192,
+        "wave": 4,
+        "question": "The product of two Imaginary Numbers is always a:",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Rational Number"],
+        "answer": "Real Number",
+        "points": 10
+      },
+      {
+        "id": 193,
+        "wave": 4,
+        "question": "Which symbol represents the set of all Real Numbers?",
+        "choices": ["\\mathbb{R}", "\\mathbb{I}", "\\mathbb{C}", "\\mathbb{Q}"],
+        "answer": "\\mathbb{R}",
+        "points": 10
+      },
+      {
+        "id": 194,
+        "wave": 4,
+        "question": "Consider the number \\√{25}. Its most precise classification is:",
+        "choices": ["Rational Number", "Irrational Number", "Natural Number", "Integer"],
+        "answer": "Natural Number",
+        "points": 10
+      },
+      {
+        "id": 195,
+        "wave": 4,
+        "question": "Which of these numbers cannot be classified as a Rational Number?",
+        "choices": ["0.7", "-5/2", "\\√{3}", "10"],
+        "answer": "\\√{3}",
+        "points": 10
+      },
+      {
+        "id": 196,
+        "wave": 4,
+        "question": "The complex number a+bi is an Imaginary Number if:",
+        "choices": ["a=0 and b \\neq 0", "b=0", "a \\neq 0", "b \\neq 0"],
+        "answer": "a=0 and b \\neq 0",
+        "points": 10
+      },
+      {
+        "id": 197,
+        "wave": 4,
+        "question": "Is the number 1.73205... (non-repeating, non-terminating) a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 198,
+        "wave": 4,
+        "question": "What is the result of dividing a non-zero Real Number by a non-zero Imaginary Number?",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Rational Number"],
+        "answer": "Imaginary Number",
+        "points": 10
+      },
+      {
+        "id": 199,
+        "wave": 4,
+        "question": "The set of numbers that includes all integers and all fractions is called:",
+        "choices": ["Natural Numbers", "Whole Numbers", "Rational Numbers", "Irrational Numbers"],
+        "answer": "Rational Numbers",
+        "points": 10
+      },
+      {
+        "id": 200,
+        "wave": 4,
+        "question": "Which statement is true about the classification of numbers?",
+        "choices": ["All Complex Numbers are Real Numbers.", "All Imaginary Numbers are Real Numbers.", "All Real Numbers are Imaginary Numbers.", "All Rational Numbers are Complex Numbers."],
+        "answer": "All Rational Numbers are Complex Numbers.",
+        "points": 10
+      },
+      {
+        "id": 201,
+        "wave": 5,
+        "question": "Which of the following is an example of a number that is a Real Number, but not a Rational Number, and not an Integer?",
+        "choices": ["0", "-5", "\\√{7}", "1/2"],
+        "answer": "\\√{7}",
+        "points": 10
+      },
+      {
+        "id": 202,
+        "wave": 5,
+        "question": "Consider the equation x^2 + 1 = 0. The solution(s) for x belong to which set?",
+        "choices": ["Real Numbers", "Rational Numbers", "Imaginary Numbers", "Natural Numbers"],
+        "answer": "Imaginary Numbers",
+        "points": 10
+      },
+      {
+        "id": 203,
+        "wave": 5,
+        "question": "The number i^{100} simplifies to:",
+        "choices": ["1", "-1", "i", "-i"],
+        "answer": "1",
+        "points": 10
+      },
+      {
+        "id": 204,
+        "wave": 5,
+        "question": "What is the most precise classification for \\frac{0.121212...}{2}?",
+        "choices": ["Irrational Number", "Rational Number", "Integer", "Whole Number"],
+        "answer": "Rational Number",
+        "points": 10
+      },
+      {
+        "id": 205,
+        "wave": 5,
+        "question": "If x is a non-zero Rational Number and y is an Irrational Number, then x/y is always:",
+        "choices": ["Rational", "Irrational", "Integer", "Complex"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 206,
+        "wave": 5,
+        "question": "Which of these numbers is both a Real Number and a Complex Number, but not an Imaginary Number (purely)?",
+        "choices": ["5i", "7", "2 + 3i", "\\√{-1}"],
+        "answer": "7",
+        "points": 10
+      },
+      {
+        "id": 207,
+        "wave": 5,
+        "question": "The complex conjugate of 3i is:",
+        "choices": ["-3i", "3i", "-3", "3"],
+        "answer": "-3i",
+        "points": 10
+      },
+      {
+        "id": 208,
+        "wave": 5,
+        "question": "Which Venn Diagram accurately depicts the relationship between Real Numbers and Complex Numbers?",
+        "choices": ["Real numbers are a subset of Complex numbers.", "Complex numbers are a subset of Real numbers.", "They are disjoint sets.", "They are the same set."],
+        "answer": "Real numbers are a subset of Complex numbers.",
+        "points": 10
+      },
+      {
+        "id": 209,
+        "wave": 5,
+        "question": "Consider the value of \\pi^2. What is its most precise classification?",
+        "choices": ["Rational Number", "Integer", "Irrational Number", "Natural Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 210,
+        "wave": 5,
+        "question": "The number i^{201} simplifies to:",
+        "choices": ["1", "-1", "i", "-i"],
+        "answer": "i",
+        "points": 10
+      },
+      {
+        "id": 211,
+        "wave": 5,
+        "question": "If a number is an Integer, it cannot be a(n):",
+        "choices": ["Rational Number", "Real Number", "Irrational Number", "Complex Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 212,
+        "wave": 5,
+        "question": "Which of these is a number that is a Rational Number, but not a Whole Number?",
+        "choices": ["4", "0", "-2/3", "\\√{9}"],
+        "answer": "-2/3",
+        "points": 10
+      },
+      {
+        "id": 213,
+        "wave": 5,
+        "question": "The product of an Imaginary Number and its conjugate is always a:",
+        "choices": ["Positive Real Number", "Negative Real Number", "Imaginary Number", "Complex Number"],
+        "answer": "Positive Real Number",
+        "points": 10
+      },
+      {
+        "id": 214,
+        "wave": 5,
+        "question": "What is the reciprocal of i?",
+        "choices": ["1", "-1", "i", "-i"],
+        "answer": "-i",
+        "points": 10
+      },
+      {
+        "id": 215,
+        "wave": 5,
+        "question": "Which of the following is a number that is Complex but not Real?",
+        "choices": ["7", "-5i", "0", "1/2"],
+        "answer": "-5i",
+        "points": 10
+      },
+      {
+        "id": 216,
+        "wave": 5,
+        "question": "Is the number \\√{-3} + 2 a Purely Imaginary Number?",
+        "choices": ["Yes", "No"],
+        "answer": "No",
+        "points": 10
+      },
+      {
+        "id": 217,
+        "wave": 5,
+        "question": "The set of numbers x such that x^2 = 5 includes:",
+        "choices": ["Only Rational Numbers", "Only Irrational Numbers", "Both Rational and Irrational Numbers", "Only Integers"],
+        "answer": "Only Irrational Numbers",
+        "points": 10
+      },
+      {
+        "id": 218,
+        "wave": 5,
+        "question": "What is the most precise classification for \\frac{\\pi}{2}?",
+        "choices": ["Rational Number", "Integer", "Irrational Number", "Natural Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 219,
+        "wave": 5,
+        "question": "Which set is a proper subset of the Integers?",
+        "choices": ["Rational Numbers", "Whole Numbers", "Real Numbers", "Complex Numbers"],
+        "answer": "Whole Numbers",
+        "points": 10
+      },
+      {
+        "id": 220,
+        "wave": 5,
+        "question": "The result of (1+i)(1-i) is a:",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Irrational Number"],
+        "answer": "Real Number",
+        "points": 10
+      },
+      {
+        "id": 221,
+        "wave": 5,
+        "question": "Which of these statements is FALSE?",
+        "choices": ["Every integer is a real number.", "Every imaginary number is a complex number.", "Every rational number is an irrational number.", "Every natural number is a whole number."],
+        "answer": "Every rational number is an irrational number.",
+        "points": 10
+      },
+      {
+        "id": 222,
+        "wave": 5,
+        "question": "If a number is a Natural Number, it cannot be:",
+        "choices": ["Whole", "Integer", "Rational", "Irrational"],
+        "answer": "Irrational",
+        "points": 10
+      },
+      {
+        "id": 223,
+        "wave": 5,
+        "question": "What is the most general category for all possible numbers in mathematics?",
+        "choices": ["Real Numbers", "Rational Numbers", "Complex Numbers", "Imaginary Numbers"],
+        "answer": "Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 224,
+        "wave": 5,
+        "question": "The set of all numbers of the form bi where b \\neq 0 is called:",
+        "choices": ["Real Numbers", "Imaginary Numbers", "Complex Numbers", "Irrational Numbers"],
+        "answer": "Imaginary Numbers",
+        "points": 10
+      },
+      {
+        "id": 225,
+        "wave": 5,
+        "question": "Which of the following is a number that is an Integer, but not a Natural Number, and not a Whole Number?",
+        "choices": ["-10", "0", "5", "-0.5"],
+        "answer": "-10",
+        "points": 10
+      },
+      {
+        "id": 226,
+        "wave": 5,
+        "question": "The union of the set of Real Numbers and the set of Purely Imaginary Numbers is:",
+        "choices": ["Real Numbers", "Imaginary Numbers", "Complex Numbers", "Rational Numbers"],
+        "answer": "Complex Numbers",
+        "points": 10
+      },
+      {
+        "id": 227,
+        "wave": 5,
+        "question": "If a number is non-zero and has a non-terminating, non-repeating decimal representation, it is a(n):",
+        "choices": ["Rational Number", "Integer", "Irrational Number", "Whole Number"],
+        "answer": "Irrational Number",
+        "points": 10
+      },
+      {
+        "id": 228,
+        "wave": 5,
+        "question": "The equation x^2 = -1 has solutions in which number set?",
+        "choices": ["Real Numbers", "Rational Numbers", "Imaginary Numbers", "Integers"],
+        "answer": "Imaginary Numbers",
+        "points": 10
+      },
+      {
+        "id": 229,
+        "wave": 5,
+        "question": "Which of these numbers is equivalent to i^{-1}?",
+        "choices": ["1", "-1", "i", "-i"],
+        "answer": "-i",
+        "points": 10
+      },
+      {
+        "id": 230,
+        "wave": 5,
+        "question": "The set of positive integers is equivalent to:",
+        "choices": ["Whole Numbers", "Natural Numbers", "Rational Numbers", "Real Numbers"],
+        "answer": "Natural Numbers",
+        "points": 10
+      },
+      {
+        "id": 231,
+        "wave": 5,
+        "question": "Which of the following describes a number that is Real but not a Natural Number?",
+        "choices": ["5", "0", "-2", "All of the above"],
+        "answer": "All of the above",
+        "points": 10
+      },
+      {
+        "id": 232,
+        "wave": 5,
+        "question": "The difference between two Irrational Numbers can be:",
+        "choices": ["Always Irrational", "Always Rational", "Either Rational or Irrational", "Always Integer"],
+        "answer": "Either Rational or Irrational",
+        "points": 10
+      },
+      {
+        "id": 233,
+        "wave": 5,
+        "question": "Which type of number can be represented by a point on the number line?",
+        "choices": ["Imaginary Numbers", "Complex Numbers", "Real Numbers", "None of the above"],
+        "answer": "Real Numbers",
+        "points": 10
+      },
+      {
+        "id": 234,
+        "wave": 5,
+        "question": "The absolute value of an Imaginary Number bi is:",
+        "choices": ["b", "-b", "|b|", "\\√{b}"],
+        "answer": "|b|",
+        "points": 10
+      },
+      {
+        "id": 235,
+        "wave": 5,
+        "question": "Which of the following is a Rational Number?",
+        "choices": ["\\√{10}", "0.12345...", "e", "-5/4"],
+        "answer": "-5/4",
+        "points": 10
+      },
+      {
+        "id": 236,
+        "wave": 5,
+        "question": "The solution set for x^2 = 4 belongs to:",
+        "choices": ["Natural Numbers", "Integers", "Rational Numbers", "All of the above"],
+        "answer": "All of the above",
+        "points": 10
+      },
+      {
+        "id": 237,
+        "wave": 5,
+        "question": "If a number is not Real, it must be:",
+        "choices": ["Rational", "Irrational", "Imaginary (purely)", "Non-real Complex"],
+        "answer": "Non-real Complex",
+        "points": 10
+      },
+      {
+        "id": 238,
+        "wave": 5,
+        "question": "Which of these is a number that is an Integer but not a Natural Number?",
+        "choices": ["9", "0", "1/2", "1.0"],
+        "answer": "0",
+        "points": 10
+      },
+      {
+        "id": 239,
+        "wave": 5,
+        "question": "The complex number a+bi is purely Imaginary if:",
+        "choices": ["a=0", "b=0", "a=0 and b \\neq 0", "a \\neq 0 and b=0"],
+        "answer": "a=0 and b \\neq 0",
+        "points": 10
+      },
+      {
+        "id": 240,
+        "wave": 5,
+        "question": "Which number classification includes numbers that can be both positive and negative, but not fractions or decimals?",
+        "choices": ["Natural Numbers", "Whole Numbers", "Integers", "Rational Numbers"],
+        "answer": "Integers",
+        "points": 10
+      },
+      {
+        "id": 241,
+        "wave": 5,
+        "question": "Is the number 0.123123123... (repeating '123' block) a Rational Number?",
+        "choices": ["Yes", "No"],
+        "answer": "Yes",
+        "points": 10
+      },
+      {
+        "id": 242,
+        "wave": 5,
+        "question": "The argument of a non-zero Real Number can be:",
+        "choices": ["0 or \\pi", "\\pi/2 or 3\\pi/2", "Any angle", "Always 0"],
+        "answer": "0 or \\pi",
+        "points": 10
+      },
+      {
+        "id": 243,
+        "wave": 5,
+        "question": "The set of Rational Numbers is dense, meaning:",
+        "choices": ["There are no irrational numbers between any two rational numbers.", "There is always an irrational number between any two rational numbers.", "There is always a rational number between any two real numbers.", "There are no numbers between any two rational numbers."],
+        "answer": "There is always a rational number between any two real numbers.",
+        "points": 10
+      },
+      {
+        "id": 244,
+        "wave": 5,
+        "question": "Which property is unique to Imaginary Numbers?",
+        "choices": ["Their square is positive.", "They can be plotted on a number line.", "Their square is negative.", "They are always integers."],
+        "answer": "Their square is negative.",
+        "points": 10
+      },
+      {
+        "id": 245,
+        "wave": 5,
+        "question": "What is the most specific classification for -7/1?",
+        "choices": ["Natural Number", "Whole Number", "Integer", "Rational Number"],
+        "answer": "Integer",
+        "points": 10
+      },
+      {
+        "id": 246,
+        "wave": 5,
+        "question": "Which statement is true about the classification of numbers?",
+        "choices": ["All Whole Numbers are Natural Numbers.", "All Integers are Whole Numbers.", "All Imaginary Numbers are Real Numbers.", "All Real Numbers are Rational Numbers."],
+        "answer": "All Integers are Whole Numbers.",
+        "points": 10
+      },
+      {
+        "id": 247,
+        "wave": 5,
+        "question": "The number i^{4n+3} where n is an integer simplifies to:",
+        "choices": ["1", "-1", "i", "-i"],
+        "answer": "-i",
+        "points": 10
+      },
+      {
+        "id": 248,
+        "wave": 5,
+        "question": "Which of these numbers is an example of a number that is a Real Number but not an Integer?",
+        "choices": ["-5", "0", "2/3", "8"],
+        "answer": "2/3",
+        "points": 10
+      },
+      {
+        "id": 249,
+        "wave": 5,
+        "question": "If z = a+bi is a Complex Number, then z + \\bar{z} (its conjugate) is always a:",
+        "choices": ["Real Number", "Imaginary Number", "Complex Number", "Rational Number"],
+        "answer": "Real Number",
+        "points": 10
+      },
+      {
+        "id": 250,
+        "wave": 5,
+        "question": "Which of these is the most specific classification for √{49}?",
+        "choices": ["Integer", "Rational Number", "Natural Number", "Real Number"],
+        "answer": "Natural Number",
+        "points": 10
+      }
+    ]
+  }

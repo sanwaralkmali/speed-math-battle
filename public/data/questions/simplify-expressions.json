@@ -1,0 +1,1378 @@
+{
+  "title": "Simplify Expression ",
+  "description": "score up!",
+  "waves": 5,
+  "timePerQuestion": 30,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Evaluate x + 5 when x = 3.",
+      "choices": ["8", "2", "15", "53"],
+      "answer": "8",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Evaluate 2y when y = 4.",
+      "choices": ["6", "8", "24", "2"],
+      "answer": "8",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Evaluate a - 7 when a = 10.",
+      "choices": ["3", "17", "-3", "70"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Evaluate 3x when x = 2.",
+      "choices": ["5", "6", "32", "23"],
+      "answer": "6",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Evaluate b + 8 when b = -2.",
+      "choices": ["10", "-10", "6", "-6"],
+      "answer": "6",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Apply the distributive property: 2(x + 3).",
+      "choices": ["2x + 6", "2x + 3", "x + 6", "2x + 5"],
+      "answer": "2x + 6",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Apply the distributive property: 3(y + 1).",
+      "choices": ["3y + 1", "3y + 3", "y + 3", "3y + 4"],
+      "answer": "3y + 3",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Combine like terms: 4x + 2x.",
+      "choices": ["6x", "8x", "6x²", "2x"],
+      "answer": "6x",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Combine like terms: 5y + 3y.",
+      "choices": ["8y", "15y", "8y²", "53y"],
+      "answer": "8y",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Evaluate m - 3 when m = 8.",
+      "choices": ["5", "11", "-5", "24"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Apply the distributive property: 4(a + 2).",
+      "choices": ["4a + 8", "4a + 2", "a + 8", "4a + 6"],
+      "answer": "4a + 8",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Combine like terms: 7z + z.",
+      "choices": ["8z", "7z", "7z²", "z"],
+      "answer": "8z",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Evaluate 5n when n = 1.",
+      "choices": ["5", "1", "51", "6"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Apply the distributive property: 6(x + 4).",
+      "choices": ["6x + 24", "6x + 4", "x + 24", "6x + 10"],
+      "answer": "6x + 24",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Combine like terms: 9p + 4p.",
+      "choices": ["13p", "36p", "13p²", "5p"],
+      "answer": "13p",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Evaluate k + 6 when k = -1.",
+      "choices": ["5", "7", "-7", "-5"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Apply the distributive property: 5(m + 3).",
+      "choices": ["5m + 15", "5m + 3", "m + 15", "5m + 8"],
+      "answer": "5m + 15",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Combine like terms: 8t + 2t.",
+      "choices": ["10t", "16t", "10t²", "6t"],
+      "answer": "10t",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Evaluate 4w when w = 3.",
+      "choices": ["12", "7", "43", "34"],
+      "answer": "12",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Apply the distributive property: 7(n + 1).",
+      "choices": ["7n + 7", "7n + 1", "n + 7", "7n + 8"],
+      "answer": "7n + 7",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Combine like terms: 6r + 3r.",
+      "choices": ["9r", "18r", "9r²", "3r"],
+      "answer": "9r",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Evaluate s - 4 when s = 9.",
+      "choices": ["5", "13", "-5", "36"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Apply the distributive property: 3(q + 5).",
+      "choices": ["3q + 15", "3q + 5", "q + 15", "3q + 8"],
+      "answer": "3q + 15",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Combine like terms: 10v + v.",
+      "choices": ["11v", "10v", "10v²", "v"],
+      "answer": "11v",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Evaluate 6d when d = 2.",
+      "choices": ["12", "8", "62", "26"],
+      "answer": "12",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Apply the distributive property: 8(h + 2).",
+      "choices": ["8h + 16", "8h + 2", "h + 16", "8h + 10"],
+      "answer": "8h + 16",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Combine like terms: 12j + 3j.",
+      "choices": ["15j", "36j", "15j²", "9j"],
+      "answer": "15j",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Evaluate f + 9 when f = -3.",
+      "choices": ["6", "12", "-12", "-6"],
+      "answer": "6",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Apply the distributive property: 9(c + 1).",
+      "choices": ["9c + 9", "9c + 1", "c + 9", "9c + 10"],
+      "answer": "9c + 9",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Combine like terms: 5e + 7e.",
+      "choices": ["12e", "35e", "12e²", "2e"],
+      "answer": "12e",
+      "points": 10
+    },
+
+    {
+      "id": 31,
+      "wave": 2,
+      "question": "Evaluate 7g when g = 1.",
+      "choices": ["7", "1", "71", "8"],
+      "answer": "7",
+      "points": 15
+    },
+    {
+      "id": 32,
+      "wave": 2,
+      "question": "Apply the distributive property: 2(u + 6).",
+      "choices": ["2u + 12", "2u + 6", "u + 12", "2u + 8"],
+      "answer": "2u + 12",
+      "points": 15
+    },
+    {
+      "id": 33,
+      "wave": 2,
+      "question": "Combine like terms: 11w + 2w.",
+      "choices": ["13w", "22w", "13w²", "9w"],
+      "answer": "13w",
+      "points": 15
+    },
+    {
+      "id": 34,
+      "wave": 2,
+      "question": "Evaluate i - 5 when i = 12.",
+      "choices": ["7", "17", "-7", "60"],
+      "answer": "7",
+      "points": 15
+    },
+    {
+      "id": 35,
+      "wave": 2,
+      "question": "Apply the distributive property: 4(l + 3).",
+      "choices": ["4l + 12", "4l + 3", "l + 12", "4l + 7"],
+      "answer": "4l + 12",
+      "points": 15
+    },
+    {
+      "id": 36,
+      "wave": 2,
+      "question": "Combine like terms: 14x + x.",
+      "choices": ["15x", "14x", "14x²", "x"],
+      "answer": "15x",
+      "points": 15
+    },
+    {
+      "id": 37,
+      "wave": 2,
+      "question": "Evaluate 8o when o = 0.",
+      "choices": ["0", "8", "80", "88"],
+      "answer": "0",
+      "points": 15
+    },
+    {
+      "id": 38,
+      "wave": 2,
+      "question": "Apply the distributive property: 3(r + 4).",
+      "choices": ["3r + 12", "3r + 4", "r + 12", "3r + 7"],
+      "answer": "3r + 12",
+      "points": 15
+    },
+    {
+      "id": 39,
+      "wave": 2,
+      "question": "Combine like terms: 6a + 5a.",
+      "choices": ["11a", "30a", "11a²", "1a"],
+      "answer": "11a",
+      "points": 15
+    },
+    {
+      "id": 40,
+      "wave": 2,
+      "question": "Evaluate b + 2 when b = 7.",
+      "choices": ["9", "5", "14", "27"],
+      "answer": "9",
+      "points": 15
+    },
+    {
+      "id": 41,
+      "wave": 2,
+      "question": "Apply the distributive property: 5(t + 2).",
+      "choices": ["5t + 10", "5t + 2", "t + 10", "5t + 7"],
+      "answer": "5t + 10",
+      "points": 15
+    },
+    {
+      "id": 42,
+      "wave": 2,
+      "question": "Combine like terms: 13y + 4y.",
+      "choices": ["17y", "52y", "17y²", "9y"],
+      "answer": "17y",
+      "points": 15
+    },
+    {
+      "id": 43,
+      "wave": 2,
+      "question": "Evaluate 9z when z = 1.",
+      "choices": ["9", "1", "91", "10"],
+      "answer": "9",
+      "points": 15
+    },
+    {
+      "id": 44,
+      "wave": 2,
+      "question": "Apply the distributive property: 6(p + 1).",
+      "choices": ["6p + 6", "6p + 1", "p + 6", "6p + 7"],
+      "answer": "6p + 6",
+      "points": 15
+    },
+    {
+      "id": 45,
+      "wave": 2,
+      "question": "Combine like terms: 8m + 6m.",
+      "choices": ["14m", "48m", "14m²", "2m"],
+      "answer": "14m",
+      "points": 15
+    },
+    {
+      "id": 46,
+      "wave": 2,
+      "question": "Evaluate c - 1 when c = 5.",
+      "choices": ["4", "6", "-4", "5"],
+      "answer": "4",
+      "points": 15
+    },
+    {
+      "id": 47,
+      "wave": 2,
+      "question": "Apply the distributive property: 7(d + 3).",
+      "choices": ["7d + 21", "7d + 3", "d + 21", "7d + 10"],
+      "answer": "7d + 21",
+      "points": 15
+    },
+    {
+      "id": 48,
+      "wave": 2,
+      "question": "Combine like terms: 15n + n.",
+      "choices": ["16n", "15n", "15n²", "n"],
+      "answer": "16n",
+      "points": 15
+    },
+    {
+      "id": 49,
+      "wave": 2,
+      "question": "Evaluate 10k when k = 2.",
+      "choices": ["20", "12", "102", "210"],
+      "answer": "20",
+      "points": 15
+    },
+    {
+      "id": 50,
+      "wave": 2,
+      "question": "Apply the distributive property: 2(s + 8).",
+      "choices": ["2s + 16", "2s + 8", "s + 16", "2s + 10"],
+      "answer": "2s + 16",
+      "points": 15
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Evaluate 3x + 7 when x = -2.",
+      "choices": ["1", "13", "-13", "-1"],
+      "answer": "1",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Evaluate 2y - 5 when y = 8.",
+      "choices": ["11", "21", "3", "16"],
+      "answer": "11",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Apply the distributive property: -3(x + 4).",
+      "choices": ["-3x - 12", "-3x + 4", "3x - 12", "-3x + 12"],
+      "answer": "-3x - 12",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Apply the distributive property: 4(2a - 3).",
+      "choices": ["8a - 12", "8a + 12", "6a - 7", "2a - 12"],
+      "answer": "8a - 12",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Combine like terms: 7x + 3y + 2x.",
+      "choices": ["9x + 3y", "12xy", "7x + 5y", "12x + y"],
+      "answer": "9x + 3y",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Combine like terms: 5m - 2m + 8.",
+      "choices": ["3m + 8", "11m", "3m - 8", "5m + 6"],
+      "answer": "3m + 8",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Evaluate -4n + 6 when n = 3.",
+      "choices": ["-6", "18", "-18", "6"],
+      "answer": "-6",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Apply the distributive property: 5(3x - 2).",
+      "choices": ["15x - 10", "15x + 10", "8x - 7", "3x - 10"],
+      "answer": "15x - 10",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Combine like terms: 8p + 4q - 3p.",
+      "choices": ["5p + 4q", "9pq", "11p - 3q", "8p + q"],
+      "answer": "5p + 4q",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Evaluate 6 - 2t when t = -1.",
+      "choices": ["8", "4", "-8", "-4"],
+      "answer": "8",
+      "points": 15
+    },
+
+    {
+      "id": 61,
+      "wave": 3,
+      "question": "Apply the distributive property: -2(4y - 5).",
+      "choices": ["-8y + 10", "-8y - 10", "8y + 10", "-8y - 5"],
+      "answer": "-8y + 10",
+      "points": 20
+    },
+    {
+      "id": 62,
+      "wave": 3,
+      "question": "Combine like terms: 12a - 7a + 5b.",
+      "choices": ["5a + 5b", "12a + 5b", "5a - 7b", "19a + 5b"],
+      "answer": "5a + 5b",
+      "points": 20
+    },
+    {
+      "id": 63,
+      "wave": 3,
+      "question": "Evaluate 5x - 8 when x = 4.",
+      "choices": ["12", "28", "-3", "32"],
+      "answer": "12",
+      "points": 20
+    },
+    {
+      "id": 64,
+      "wave": 3,
+      "question": "Apply the distributive property: 6(x + 2y).",
+      "choices": ["6x + 12y", "6x + 2y", "8xy", "6x + 8y"],
+      "answer": "6x + 12y",
+      "points": 20
+    },
+    {
+      "id": 65,
+      "wave": 3,
+      "question": "Combine like terms: 9z - 4 + 3z + 7.",
+      "choices": ["12z + 3", "12z - 3", "6z + 11", "9z + 6"],
+      "answer": "12z + 3",
+      "points": 20
+    },
+    {
+      "id": 66,
+      "wave": 3,
+      "question": "Evaluate -3w + 12 when w = -2.",
+      "choices": ["18", "6", "-18", "-6"],
+      "answer": "18",
+      "points": 20
+    },
+    {
+      "id": 67,
+      "wave": 3,
+      "question": "Apply the distributive property: 7(2m - 4).",
+      "choices": ["14m - 28", "14m + 28", "9m - 11", "2m - 28"],
+      "answer": "14m - 28",
+      "points": 20
+    },
+    {
+      "id": 68,
+      "wave": 3,
+      "question": "Combine like terms: 15r + 6s - 8r + 4s.",
+      "choices": ["7r + 10s", "23rs", "15r + 2s", "7r + 2s"],
+      "answer": "7r + 10s",
+      "points": 20
+    },
+    {
+      "id": 69,
+      "wave": 3,
+      "question": "Evaluate 4y + 9 when y = -3.",
+      "choices": ["-3", "21", "-21", "3"],
+      "answer": "-3",
+      "points": 20
+    },
+    {
+      "id": 70,
+      "wave": 3,
+      "question": "Apply the distributive property: -5(2k + 3).",
+      "choices": ["-10k - 15", "-10k + 15", "10k - 15", "-10k + 3"],
+      "answer": "-10k - 15",
+      "points": 20
+    },
+    {
+      "id": 71,
+      "wave": 3,
+      "question": "Combine like terms: 20v - 12v + 8.",
+      "choices": ["8v + 8", "32v + 8", "8v - 8", "20v + 4"],
+      "answer": "8v + 8",
+      "points": 20
+    },
+    {
+      "id": 72,
+      "wave": 3,
+      "question": "Evaluate 7 - 5h when h = 2.",
+      "choices": ["-3", "17", "-17", "3"],
+      "answer": "-3",
+      "points": 20
+    },
+    {
+      "id": 73,
+      "wave": 3,
+      "question": "Apply the distributive property: 8(3n - 1).",
+      "choices": ["24n - 8", "24n + 8", "11n - 9", "3n - 8"],
+      "answer": "24n - 8",
+      "points": 20
+    },
+    {
+      "id": 74,
+      "wave": 3,
+      "question": "Combine like terms: 6t + 9u - 2t + 5u.",
+      "choices": ["4t + 14u", "22tu", "8t + 4u", "4t + 4u"],
+      "answer": "4t + 14u",
+      "points": 20
+    },
+    {
+      "id": 75,
+      "wave": 3,
+      "question": "Evaluate -2j - 4 when j = 5.",
+      "choices": ["-14", "6", "-6", "14"],
+      "answer": "-14",
+      "points": 20
+    },
+    {
+      "id": 76,
+      "wave": 3,
+      "question": "Apply the distributive property: 9(x - 3y).",
+      "choices": ["9x - 27y", "9x + 27y", "6x - 12y", "9x - 3y"],
+      "answer": "9x - 27y",
+      "points": 20
+    },
+    {
+      "id": 77,
+      "wave": 3,
+      "question": "Combine like terms: 18c - 11c + 5d.",
+      "choices": ["7c + 5d", "29c + 5d", "7c - 11d", "18c + 5d"],
+      "answer": "7c + 5d",
+      "points": 20
+    },
+    {
+      "id": 78,
+      "wave": 3,
+      "question": "Evaluate 3q + 15 when q = -4.",
+      "choices": ["3", "27", "-27", "-3"],
+      "answer": "3",
+      "points": 20
+    },
+    {
+      "id": 79,
+      "wave": 3,
+      "question": "Apply the distributive property: -4(5g - 2).",
+      "choices": ["-20g + 8", "-20g - 8", "20g + 8", "-20g - 2"],
+      "answer": "-20g + 8",
+      "points": 20
+    },
+    {
+      "id": 80,
+      "wave": 3,
+      "question": "Combine like terms: 25e - 18e + 12f.",
+      "choices": ["7e + 12f", "43e + 12f", "7e - 18f", "25e + 12f"],
+      "answer": "7e + 12f",
+      "points": 20
+    },
+    {
+      "id": 81,
+      "wave": 3,
+      "question": "Evaluate 8 - 3l when l = -1.",
+      "choices": ["11", "5", "-5", "-11"],
+      "answer": "11",
+      "points": 20
+    },
+    {
+      "id": 82,
+      "wave": 3,
+      "question": "Apply the distributive property: 12(2i + 1).",
+      "choices": ["24i + 12", "24i + 1", "14i + 13", "2i + 12"],
+      "answer": "24i + 12",
+      "points": 20
+    },
+    {
+      "id": 83,
+      "wave": 3,
+      "question": "Combine like terms: 14x + 8y - 9x + 3y.",
+      "choices": ["5x + 11y", "31xy", "23x + 5y", "5x + 5y"],
+      "answer": "5x + 11y",
+      "points": 20
+    },
+    {
+      "id": 84,
+      "wave": 3,
+      "question": "Evaluate -6b + 20 when b = 3.",
+      "choices": ["2", "38", "-38", "-2"],
+      "answer": "2",
+      "points": 20
+    },
+    {
+      "id": 85,
+      "wave": 3,
+      "question": "Apply the distributive property: 10(4p - 7).",
+      "choices": ["40p - 70", "40p + 70", "14p - 17", "4p - 70"],
+      "answer": "40p - 70",
+      "points": 20
+    },
+    {
+      "id": 86,
+      "wave": 3,
+      "question": "Combine like terms: 22s + 15t - 16s + 9t.",
+      "choices": ["6s + 24t", "62st", "38s + 6t", "6s + 6t"],
+      "answer": "6s + 24t",
+      "points": 20
+    },
+    {
+      "id": 87,
+      "wave": 3,
+      "question": "Evaluate 5f - 18 when f = 6.",
+      "choices": ["12", "48", "-48", "-12"],
+      "answer": "12",
+      "points": 20
+    },
+    {
+      "id": 88,
+      "wave": 3,
+      "question": "Apply the distributive property: -7(3o + 4).",
+      "choices": ["-21o - 28", "-21o + 28", "21o - 28", "-21o + 4"],
+      "answer": "-21o - 28",
+      "points": 20
+    },
+    {
+      "id": 89,
+      "wave": 3,
+      "question": "Combine like terms: 30w - 24w + 17z.",
+      "choices": ["6w + 17z", "54w + 17z", "6w - 24z", "30w + 17z"],
+      "answer": "6w + 17z",
+      "points": 20
+    },
+    {
+      "id": 90,
+      "wave": 3,
+      "question": "Evaluate 12 - 4r when r = -2.",
+      "choices": ["20", "4", "-4", "-20"],
+      "answer": "20",
+      "points": 20
+    },
+
+    {
+      "id": 91,
+      "wave": 4,
+      "question": "Apply the distributive property: 15(2x - 5).",
+      "choices": ["30x - 75", "30x + 75", "17x - 20", "2x - 75"],
+      "answer": "30x - 75",
+      "points": 25
+    },
+    {
+      "id": 92,
+      "wave": 4,
+      "question": "Combine like terms: 28a + 12b - 19a + 8b.",
+      "choices": ["9a + 20b", "67ab", "47a + 4b", "9a + 4b"],
+      "answer": "9a + 20b",
+      "points": 25
+    },
+    {
+      "id": 93,
+      "wave": 4,
+      "question": "Evaluate -8m + 24 when m = 4.",
+      "choices": ["-8", "56", "-56", "8"],
+      "answer": "-8",
+      "points": 25
+    },
+    {
+      "id": 94,
+      "wave": 4,
+      "question": "Apply the distributive property: 11(6d - 3).",
+      "choices": ["66d - 33", "66d + 33", "17d - 14", "6d - 33"],
+      "answer": "66d - 33",
+      "points": 25
+    },
+    {
+      "id": 95,
+      "wave": 4,
+      "question": "Combine like terms: 35k + 28n - 27k + 15n.",
+      "choices": ["8k + 43n", "105kn", "62k + 13n", "8k + 13n"],
+      "answer": "8k + 43n",
+      "points": 25
+    },
+    {
+      "id": 96,
+      "wave": 4,
+      "question": "Evaluate 7v - 21 when v = 5.",
+      "choices": ["14", "56", "-56", "-14"],
+      "answer": "14",
+      "points": 25
+    },
+    {
+      "id": 97,
+      "wave": 4,
+      "question": "Apply the distributive property: -9(4u + 6).",
+      "choices": ["-36u - 54", "-36u + 54", "36u - 54", "-36u + 6"],
+      "answer": "-36u - 54",
+      "points": 25
+    },
+    {
+      "id": 98,
+      "wave": 4,
+      "question": "Combine like terms: 45y - 32y + 25z.",
+      "choices": ["13y + 25z", "77y + 25z", "13y - 32z", "45y + 25z"],
+      "answer": "13y + 25z",
+      "points": 25
+    },
+    {
+      "id": 99,
+      "wave": 4,
+      "question": "Evaluate 18 - 6q when q = -3.",
+      "choices": ["36", "0", "-36", "12"],
+      "answer": "36",
+      "points": 25
+    },
+    {
+      "id": 100,
+      "wave": 4,
+      "question": "Apply the distributive property: 13(5h - 8).",
+      "choices": ["65h - 104", "65h + 104", "18h - 21", "5h - 104"],
+      "answer": "65h - 104",
+      "points": 25
+    },
+
+    {
+      "id": 101,
+      "wave": 4,
+      "question": "Evaluate 2x² + 5x - 3 when x = -2.",
+      "choices": ["-5", "15", "-15", "5"],
+      "answer": "-5",
+      "points": 25
+    },
+    {
+      "id": 102,
+      "wave": 4,
+      "question": "Evaluate 3y² - 4y + 7 when y = 3.",
+      "choices": ["22", "34", "-2", "16"],
+      "answer": "22",
+      "points": 25
+    },
+    {
+      "id": 103,
+      "wave": 4,
+      "question": "Apply the distributive property: -3(2x - 4y + 5).",
+      "choices": [
+        "-6x + 12y - 15",
+        "-6x - 12y - 15",
+        "6x + 12y + 15",
+        "-6x + 12y + 15"
+      ],
+      "answer": "-6x + 12y - 15",
+      "points": 25
+    },
+    {
+      "id": 104,
+      "wave": 4,
+      "question": "Apply the distributive property: 4(3a + 2b - 5c).",
+      "choices": [
+        "12a + 8b - 20c",
+        "12a - 8b + 20c",
+        "7a + 6b - 9c",
+        "12a + 8b + 20c"
+      ],
+      "answer": "12a + 8b - 20c",
+      "points": 25
+    },
+    {
+      "id": 105,
+      "wave": 4,
+      "question": "Combine like terms: 5x² + 3x + 2x² - 7x + 4.",
+      "choices": [
+        "7x² - 4x + 4",
+        "10x² - 4x + 4",
+        "7x² + 10x + 4",
+        "5x² - 4x + 6"
+      ],
+      "answer": "7x² - 4x + 4",
+      "points": 25
+    },
+    {
+      "id": 106,
+      "wave": 4,
+      "question": "Combine like terms: 8m + 6n - 3m + 9p - 4n + 2p.",
+      "choices": [
+        "5m + 2n + 11p",
+        "11m + 10n + 11p",
+        "5m + 10n + 7p",
+        "8m + 2n + 11p"
+      ],
+      "answer": "5m + 2n + 11p",
+      "points": 25
+    },
+    {
+      "id": 107,
+      "wave": 4,
+      "question": "Evaluate -x² + 6x - 8 when x = 4.",
+      "choices": ["-8", "8", "24", "-24"],
+      "answer": "-8",
+      "points": 25
+    },
+    {
+      "id": 108,
+      "wave": 4,
+      "question": "Apply the distributive property: 5(2x² - 3x + 1).",
+      "choices": [
+        "10x² - 15x + 5",
+        "10x² + 15x - 5",
+        "7x² - 8x + 6",
+        "10x² - 15x - 5"
+      ],
+      "answer": "10x² - 15x + 5",
+      "points": 25
+    },
+    {
+      "id": 109,
+      "wave": 4,
+      "question": "Combine like terms: 12y² - 8y + 3y² + 5y - 7.",
+      "choices": [
+        "15y² - 3y - 7",
+        "15y² + 13y - 7",
+        "9y² - 3y - 4",
+        "12y² - 3y - 2"
+      ],
+      "answer": "15y² - 3y - 7",
+      "points": 25
+    },
+    {
+      "id": 110,
+      "wave": 4,
+      "question": "Evaluate 4a² - 7a + 2 when a = -1.",
+      "choices": ["13", "-1", "9", "-9"],
+      "answer": "13",
+      "points": 25
+    },
+    {
+      "id": 111,
+      "wave": 4,
+      "question": "Apply the distributive property: -2(4x² + 3y - 6z).",
+      "choices": [
+        "-8x² - 6y + 12z",
+        "-8x² + 6y - 12z",
+        "8x² - 6y + 12z",
+        "-8x² - 6y - 12z"
+      ],
+      "answer": "-8x² - 6y + 12z",
+      "points": 25
+    },
+    {
+      "id": 112,
+      "wave": 4,
+      "question": "Combine like terms: 9t² + 4s + 6t² - 2s + 8t - 3.",
+      "choices": [
+        "15t² + 2s + 8t - 3",
+        "15t² + 6s + 8t - 3",
+        "9t² + 2s + 8t + 3",
+        "15t² + 2s - 3"
+      ],
+      "answer": "15t² + 2s + 8t - 3",
+      "points": 25
+    },
+    {
+      "id": 113,
+      "wave": 4,
+      "question": "Evaluate 2b² + 3b - 5 when b = 3.",
+      "choices": ["22", "40", "4", "13"],
+      "answer": "22",
+      "points": 25
+    },
+    {
+      "id": 114,
+      "wave": 4,
+      "question": "Apply the distributive property: 6(x² - 4y + 3z).",
+      "choices": [
+        "6x² - 24y + 18z",
+        "6x² + 24y - 18z",
+        "7x² - 10y + 9z",
+        "6x² - 24y - 18z"
+      ],
+      "answer": "6x² - 24y + 18z",
+      "points": 25
+    },
+    {
+      "id": 115,
+      "wave": 4,
+      "question": "Combine like terms: 7c² - 5c + 4d² + 2c - 3c² + d².",
+      "choices": [
+        "4c² - 3c + 5d²",
+        "10c² - 3c + 5d²",
+        "4c² - 7c + 3d²",
+        "7c² - 3c + 5d²"
+      ],
+      "answer": "4c² - 3c + 5d²",
+      "points": 25
+    },
+    {
+      "id": 116,
+      "wave": 4,
+      "question": "Evaluate -3f² + 8f - 1 when f = 2.",
+      "choices": ["3", "-1", "27", "-17"],
+      "answer": "3",
+      "points": 25
+    },
+    {
+      "id": 117,
+      "wave": 4,
+      "question": "Apply the distributive property: -4(2g² - 5h + 7).",
+      "choices": [
+        "-8g² + 20h - 28",
+        "-8g² - 20h - 28",
+        "8g² + 20h + 28",
+        "-8g² + 20h + 28"
+      ],
+      "answer": "-8g² + 20h - 28",
+      "points": 25
+    },
+    {
+      "id": 118,
+      "wave": 4,
+      "question": "Combine like terms: 11k² + 8j - 7k² + 3k + 5j - 2.",
+      "choices": [
+        "4k² + 13j + 3k - 2",
+        "4k² + 3j + 3k - 2",
+        "18k² + 13j + 3k - 2",
+        "4k² + 13j - 2"
+      ],
+      "answer": "4k² + 13j + 3k - 2",
+      "points": 25
+    },
+    {
+      "id": 119,
+      "wave": 4,
+      "question": "Evaluate 5m² - 2m + 6 when m = -2.",
+      "choices": ["30", "14", "2", "26"],
+      "answer": "30",
+      "points": 25
+    },
+
+    {
+      "id": 120,
+      "wave": 4,
+      "question": "Apply the distributive property: 7(3n² + 4p - 2q).",
+      "choices": [
+        "21n² + 28p - 14q",
+        "21n² - 28p + 14q",
+        "10n² + 11p - 9q",
+        "21n² + 28p + 14q"
+      ],
+      "answer": "21n² + 28p - 14q",
+      "points": 25
+    },
+    {
+      "id": 121,
+      "wave": 5,
+      "question": "Combine like terms: 14r² - 9r + 6r² + 12r - 8 + 3r².",
+      "choices": [
+        "23r² + 3r - 8",
+        "23r² - 21r - 8",
+        "20r² + 3r - 5",
+        "14r² + 3r - 5"
+      ],
+      "answer": "23r² + 3r - 8",
+      "points": 30
+    },
+    {
+      "id": 122,
+      "wave": 5,
+      "question": "Evaluate 6w² + w - 10 when w = -3.",
+      "choices": ["35", "-13", "41", "23"],
+      "answer": "35",
+      "points": 30
+    },
+    {
+      "id": 123,
+      "wave": 5,
+      "question": "Apply the distributive property: -5(4x² - 6y + 8z).",
+      "choices": [
+        "-20x² + 30y - 40z",
+        "-20x² - 30y - 40z",
+        "20x² + 30y + 40z",
+        "-20x² + 30y + 40z"
+      ],
+      "answer": "-20x² + 30y - 40z",
+      "points": 30
+    },
+    {
+      "id": 124,
+      "wave": 5,
+      "question": "Combine like terms: 18v² + 7u - 12v² + 4v + 9u - 6.",
+      "choices": [
+        "6v² + 16u + 4v - 6",
+        "6v² + 2u + 4v - 6",
+        "30v² + 16u + 4v - 6",
+        "6v² + 16u - 6"
+      ],
+      "answer": "6v² + 16u + 4v - 6",
+      "points": 30
+    },
+    {
+      "id": 125,
+      "wave": 5,
+      "question": "Evaluate -4l² + 9l - 2 when l = 2.",
+      "choices": ["0", "28", "-4", "12"],
+      "answer": "0",
+      "points": 30
+    },
+    {
+      "id": 126,
+      "wave": 5,
+      "question": "Apply the distributive property: 8(2s² - 3t + 5u).",
+      "choices": [
+        "16s² - 24t + 40u",
+        "16s² + 24t - 40u",
+        "10s² - 11t + 13u",
+        "16s² - 24t - 40u"
+      ],
+      "answer": "16s² - 24t + 40u",
+      "points": 30
+    },
+    {
+      "id": 127,
+      "wave": 5,
+      "question": "Combine like terms: 25e² - 15e + 8e² + 7e - 12 + 4e².",
+      "choices": [
+        "37e² - 8e - 12",
+        "37e² + 22e - 12",
+        "33e² - 8e - 8",
+        "25e² - 8e - 8"
+      ],
+      "answer": "37e² - 8e - 12",
+      "points": 30
+    },
+    {
+      "id": 128,
+      "wave": 5,
+      "question": "Evaluate 7q² - 5q + 3 when q = -1.",
+      "choices": ["15", "-5", "1", "9"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 129,
+      "wave": 5,
+      "question": "Apply the distributive property: -6(3i² + 7j - 4k).",
+      "choices": [
+        "-18i² - 42j + 24k",
+        "-18i² + 42j - 24k",
+        "18i² - 42j + 24k",
+        "-18i² - 42j - 24k"
+      ],
+      "answer": "-18i² - 42j + 24k",
+      "points": 30
+    },
+    {
+      "id": 130,
+      "wave": 5,
+      "question": "Combine like terms: 32h² + 11g - 18h² + 6h + 8g - 9.",
+      "choices": [
+        "14h² + 19g + 6h - 9",
+        "14h² + 3g + 6h - 9",
+        "50h² + 19g + 6h - 9",
+        "14h² + 19g - 9"
+      ],
+      "answer": "14h² + 19g + 6h - 9",
+      "points": 30
+    },
+    {
+      "id": 131,
+      "wave": 5,
+      "question": "Evaluate 8d² + 3d - 7 when d = -2.",
+      "choices": ["19", "-1", "41", "25"],
+      "answer": "19",
+      "points": 30
+    },
+    {
+      "id": 132,
+      "wave": 5,
+      "question": "Apply the distributive property: 9(4o² - 2p + 6q).",
+      "choices": [
+        "36o² - 18p + 54q",
+        "36o² + 18p - 54q",
+        "13o² - 11p + 15q",
+        "36o² - 18p - 54q"
+      ],
+      "answer": "36o² - 18p + 54q",
+      "points": 30
+    },
+    {
+      "id": 133,
+      "wave": 5,
+      "question": "Combine like terms: 42z² - 28z + 15z² + 19z - 16 + 7z².",
+      "choices": [
+        "64z² - 9z - 16",
+        "64z² + 47z - 16",
+        "57z² - 9z - 9",
+        "42z² - 9z - 9"
+      ],
+      "answer": "64z² - 9z - 16",
+      "points": 30
+    },
+    {
+      "id": 134,
+      "wave": 5,
+      "question": "Evaluate -2c² + 7c - 4 when c = 3.",
+      "choices": ["-1", "35", "-13", "17"],
+      "answer": "-1",
+      "points": 30
+    },
+    {
+      "id": 135,
+      "wave": 5,
+      "question": "Apply the distributive property: -7(5a² + 3b - 8c).",
+      "choices": [
+        "-35a² - 21b + 56c",
+        "-35a² + 21b - 56c",
+        "35a² - 21b + 56c",
+        "-35a² - 21b - 56c"
+      ],
+      "answer": "-35a² - 21b + 56c",
+      "points": 30
+    },
+    {
+      "id": 136,
+      "wave": 5,
+      "question": "Combine like terms: 29x² + 14y - 21x² + 8x + 12y - 5.",
+      "choices": [
+        "8x² + 26y + 8x - 5",
+        "8x² + 2y + 8x - 5",
+        "50x² + 26y + 8x - 5",
+        "8x² + 26y - 5"
+      ],
+      "answer": "8x² + 26y + 8x - 5",
+      "points": 30
+    },
+    {
+      "id": 137,
+      "wave": 5,
+      "question": "Evaluate 9n² - 4n + 1 when n = -1.",
+      "choices": ["14", "6", "-4", "4"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 138,
+      "wave": 5,
+      "question": "Apply the distributive property: 10(6f² - 4g + 2h).",
+      "choices": [
+        "60f² - 40g + 20h",
+        "60f² + 40g - 20h",
+        "16f² - 14g + 12h",
+        "60f² - 40g - 20h"
+      ],
+      "answer": "60f² - 40g + 20h",
+      "points": 30
+    },
+    {
+      "id": 139,
+      "wave": 5,
+      "question": "Combine like terms: 48w² - 35w + 22w² + 28w - 19 + 12w².",
+      "choices": [
+        "82w² - 7w - 19",
+        "82w² + 63w - 19",
+        "70w² - 7w - 7",
+        "48w² - 7w - 7"
+      ],
+      "answer": "82w² - 7w - 19",
+      "points": 30
+    },
+    {
+      "id": 140,
+      "wave": 5,
+      "question": "Evaluate -5t² + 12t - 6 when t = 2.",
+      "choices": ["-2", "38", "-26", "14"],
+      "answer": "-2",
+      "points": 30
+    },
+    {
+      "id": 141,
+      "wave": 5,
+      "question": "Apply the distributive property: -8(2r² + 5s - 3t).",
+      "choices": [
+        "-16r² - 40s + 24t",
+        "-16r² + 40s - 24t",
+        "16r² - 40s + 24t",
+        "-16r² - 40s - 24t"
+      ],
+      "answer": "-16r² - 40s + 24t",
+      "points": 30
+    },
+    {
+      "id": 142,
+      "wave": 5,
+      "question": "Combine like terms: 56v² + 23u - 38v² + 15v + 17u - 8.",
+      "choices": [
+        "18v² + 40u + 15v - 8",
+        "18v² + 6u + 15v - 8",
+        "94v² + 40u + 15v - 8",
+        "18v² + 40u - 8"
+      ],
+      "answer": "18v² + 40u + 15v - 8",
+      "points": 30
+    },
+    {
+      "id": 143,
+      "wave": 5,
+      "question": "Evaluate 6j² + 8j - 3 when j = -3.",
+      "choices": ["21", "75", "-33", "45"],
+      "answer": "21",
+      "points": 30
+    },
+    {
+      "id": 144,
+      "wave": 5,
+      "question": "Apply the distributive property: 12(3k² - 7l + 4m).",
+      "choices": [
+        "36k² - 84l + 48m",
+        "36k² + 84l - 48m",
+        "15k² - 19l + 16m",
+        "36k² - 84l - 48m"
+      ],
+      "answer": "36k² - 84l + 48m",
+      "points": 30
+    },
+    {
+      "id": 145,
+      "wave": 5,
+      "question": "Combine like terms: 63p² - 42p + 28p² + 35p - 21 + 16p².",
+      "choices": [
+        "107p² - 7p - 21",
+        "107p² + 77p - 21",
+        "91p² - 7p - 7",
+        "63p² - 7p - 7"
+      ],
+      "answer": "107p² - 7p - 21",
+      "points": 30
+    },
+    {
+      "id": 146,
+      "wave": 5,
+      "question": "Evaluate -7q² + 15q - 8 when q = 2.",
+      "choices": ["-6", "50", "-36", "22"],
+      "answer": "-6",
+      "points": 30
+    },
+    {
+      "id": 147,
+      "wave": 5,
+      "question": "Apply the distributive property: -9(4x² + 6y - 5z).",
+      "choices": [
+        "-36x² - 54y + 45z",
+        "-36x² + 54y - 45z",
+        "36x² - 54y + 45z",
+        "-36x² - 54y - 45z"
+      ],
+      "answer": "-36x² - 54y + 45z",
+      "points": 30
+    },
+    {
+      "id": 148,
+      "wave": 5,
+      "question": "Combine like terms: 72b² + 31a - 49b² + 24b + 26a - 12.",
+      "choices": [
+        "23b² + 57a + 24b - 12",
+        "23b² + 5a + 24b - 12",
+        "121b² + 57a + 24b - 12",
+        "23b² + 57a - 12"
+      ],
+      "answer": "23b² + 57a + 24b - 12",
+      "points": 30
+    },
+    {
+      "id": 149,
+      "wave": 5,
+      "question": "Evaluate 10e² - 6e + 2 when e = -1.",
+      "choices": ["18", "-4", "6", "14"],
+      "answer": "18",
+      "points": 30
+    },
+    {
+      "id": 150,
+      "wave": 5,
+      "question": "Apply the distributive property: 15(2d² - 8f + 3g).",
+      "choices": [
+        "30d² - 120f + 45g",
+        "30d² + 120f - 45g",
+        "17d² - 23f + 18g",
+        "30d² - 120f - 45g"
+      ],
+      "answer": "30d² - 120f + 45g",
+      "points": 30
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+{
+    "title": "Basics Scientific Notation Challenge",
+    "description": "Master the art of converting numbers to and from scientific notation!",
+    "waves": 5,
+    "timePerQuestion": 25,
+    "questions": [
+      {
+        "id": 1,
+        "wave": 1,
+        "question": "Convert 3,400 to scientific notation.",
+        "choices": ["3.4 x 10²", "3.4 x 10³", "34 x 10²", "0.34 x 10⁴"],
+        "answer": "3.4 x 10³",
+        "points": 10
+      },
+      {
+        "id": 2,
+        "wave": 1,
+        "question": "Convert 0.0056 to scientific notation.",
+        "choices": ["5.6 x 10¯²", "5.6 x 10¯³", "0.56 x 10¯²", "56 x 10¯⁴"],
+        "answer": "5.6 x 10¯³",
+        "points": 10
+      },
+      {
+        "id": 3,
+        "wave": 1,
+        "question": "Write 7.8 x 10⁴ in standard form.",
+        "choices": ["780", "7,800", "78,000", "780,000"],
+        "answer": "78,000",
+        "points": 10
+      },
+      {
+        "id": 4,
+        "wave": 1,
+        "question": "Write 2.1 x 10¯² in standard form.",
+        "choices": ["0.0021", "0.021", "0.21", "2.10"],
+        "answer": "0.021",
+        "points": 10
+      },
+      {
+        "id": 5,
+        "wave": 1,
+        "question": "Which of these is correctly written in scientific notation?",
+        "choices": ["12.5 x 10³", "0.8 x 10¯⁵", "4.7 x 10⁶", "10 x 10²"],
+        "answer": "4.7 x 10⁶",
+        "points": 10
+      },
+      {
+        "id": 6,
+        "wave": 1,
+        "question": "Convert 90,000,000 to scientific notation.",
+        "choices": ["9 x 10⁶", "9 x 10⁷", "90 x 10⁶", "0.9 x 10⁸"],
+        "answer": "9 x 10⁷",
+        "points": 10
+      },
+      {
+        "id": 7,
+        "wave": 1,
+        "question": "Convert 0.000003 to scientific notation.",
+        "choices": ["3 x 10¯⁵", "3 x 10¯⁶", "3 x 10⁶", "0.3 x 10¯⁵"],
+        "answer": "3 x 10¯⁶",
+        "points": 10
+      },
+      {
+        "id": 8,
+        "wave": 1,
+        "question": "What is 1 x 10⁰ in standard form?",
+        "choices": ["0", "1", "10", "0.1"],
+        "answer": "1",
+        "points": 10
+      },
+      {
+        "id": 9,
+        "wave": 1,
+        "question": "Write 500 in scientific notation.",
+        "choices": ["5 x 10¹", "5 x 10²", "50 x 10¹", "0.5 x 10³"],
+        "answer": "5 x 10²",
+        "points": 10
+      },
+      {
+        "id": 10,
+        "wave": 1,
+        "question": "Convert 0.8 to scientific notation.",
+        "choices": ["8 x 10⁰", "8 x 10¯¹", "0.8 x 10¹", "80 x 10¯²"],
+        "answer": "8 x 10¯¹",
+        "points": 10
+      },
+      {
+        "id": 11,
+        "wave": 1,
+        "question": "The number 6,700,000 has how many places moved for scientific notation?",
+        "choices": ["4", "5", "6", "7"],
+        "answer": "6",
+        "points": 10
+      },
+      {
+        "id": 12,
+        "wave": 1,
+        "question": "The number 0.000092 has an exponent of what in scientific notation?",
+        "choices": ["-4", "-5", "-6", "-7"],
+        "answer": "-5",
+        "points": 10
+      },
+      {
+        "id": 13,
+        "wave": 1,
+        "question": "Convert 4.0 x 10¹ to standard form.",
+        "choices": ["0.4", "4", "40", "400"],
+        "answer": "40",
+        "points": 10
+      },
+      {
+        "id": 14,
+        "wave": 1,
+        "question": "Convert 1.0 x 10¯³ to standard form.",
+        "choices": ["0.001", "0.01", "0.1", "1.0"],
+        "answer": "0.001",
+        "points": 10
+      },
+      {
+        "id": 15,
+        "wave": 1,
+        "question": "Which of these numbers is equivalent to 1.5 x 10³?",
+        "choices": ["150", "1,500", "15,000", "0.0015"],
+        "answer": "1,500",
+        "points": 10
+      },
+      {
+        "id": 16,
+        "wave": 1,
+        "question": "Convert 8,100,000,000 to scientific notation.",
+        "choices": ["8.1 x 10⁸", "8.1 x 10⁹", "81 x 10⁸", "0.81 x 10¹⁰"],
+        "answer": "8.1 x 10⁹",
+        "points": 10
+      },
+      {
+        "id": 17,
+        "wave": 1,
+        "question": "Convert 0.00000045 to scientific notation.",
+        "choices": ["4.5 x 10¯⁶", "4.5 x 10¯⁷", "4.5 x 10¯⁸", "0.45 x 10¯⁶"],
+        "answer": "4.5 x 10¯⁷",
+        "points": 10
+      },
+      {
+        "id": 18,
+        "wave": 1,
+        "question": "Write 6.02 x 10² in standard form.",
+        "choices": ["60.2", "602", "6,020", "0.0602"],
+        "answer": "602",
+        "points": 10
+      },
+      {
+        "id": 19,
+        "wave": 1,
+        "question": "Write 9.8 x 10¯¹ in standard form.",
+        "choices": ["0.098", "0.98", "9.8", "98"],
+        "answer": "0.98",
+        "points": 10
+      },
+      {
+        "id": 20,
+        "wave": 1,
+        "question": "Scientific notation uses powers of which number?",
+        "choices": ["2", "5", "10", "100"],
+        "answer": "10",
+        "points": 10
+      },
+      {
+        "id": 21,
+        "wave": 1,
+        "question": "Convert 120 to scientific notation.",
+        "choices": ["1.2 x 10¹", "1.2 x 10²", "12 x 10¹", "0.12 x 10³"],
+        "answer": "1.2 x 10²",
+        "points": 10
+      },
+      {
+        "id": 22,
+        "wave": 1,
+        "question": "Convert 0.07 to scientific notation.",
+        "choices": ["7 x 10¯¹", "7 x 10¯²", "7 x 10²", "0.7 x 10¯¹"],
+        "answer": "7 x 10¯²",
+        "points": 10
+      },
+      {
+        "id": 23,
+        "wave": 1,
+        "question": "Write 4.5 x 10⁰ in standard form.",
+        "choices": ["0.45", "4.5", "45", "450"],
+        "answer": "4.5",
+        "points": 10
+      },
+      {
+        "id": 24,
+        "wave": 1,
+        "question": "How many decimal places do you move for 10¯⁴?",
+        "choices": ["2 to the right", "3 to the left", "4 to the right", "4 to the left"],
+        "answer": "4 to the left",
+        "points": 10
+      },
+      {
+        "id": 25,
+        "wave": 1,
+        "question": "The number 1,230,000 in scientific notation starts with:",
+        "choices": ["1.23", "12.3", "0.123", "123"],
+        "answer": "1.23",
+        "points": 10
+      },
+      {
+        "id": 26,
+        "wave": 1,
+        "question": "Convert 0.000000001 to scientific notation.",
+        "choices": ["1 x 10¯⁸", "1 x 10¯⁹", "1 x 10¯¹⁰", "10 x 10¯¹⁰"],
+        "answer": "1 x 10¯⁹",
+        "points": 10
+      },
+      {
+        "id": 27,
+        "wave": 1,
+        "question": "Write 5.9 x 10⁵ in standard form.",
+        "choices": ["59,000", "590,000", "5,900,000", "0.000059"],
+        "answer": "590,000",
+        "points": 10
+      },
+      {
+        "id": 28,
+        "wave": 1,
+        "question": "The coefficient in scientific notation must be between:",
+        "choices": ["0 and 1", "1 and 10", "10 and 100", "Any positive number"],
+        "answer": "1 and 10",
+        "points": 10
+      },
+      {
+        "id": 29,
+        "wave": 1,
+        "question": "Convert 7 to scientific notation.",
+        "choices": ["0.7 x 10¹", "7 x 10⁰", "70 x 10¯¹", "7 x 10¹"],
+        "answer": "7 x 10⁰",
+        "points": 10
+      },
+      {
+        "id": 30,
+        "wave": 1,
+        "question": "Write 3.2 x 10¯⁴ in standard form.",
+        "choices": ["0.00032", "0.0032", "0.032", "0.32"],
+        "answer": "0.00032",
+        "points": 10
+      },
+      {
+        "id": 31,
+        "wave": 2,
+        "question": "Convert 1,234,000 to scientific notation.",
+        "choices": ["1.234 x 10⁵", "1.234 x 10⁶", "12.34 x 10⁵", "0.1234 x 10⁷"],
+        "answer": "1.234 x 10⁶",
+        "points": 15
+      },
+      {
+        "id": 32,
+        "wave": 2,
+        "question": "Convert 0.0000789 to scientific notation.",
+        "choices": ["7.89 x 10¯⁴", "7.89 x 10¯⁵", "7.89 x 10¯⁶", "0.789 x 10¯⁴"],
+        "answer": "7.89 x 10¯⁵",
+        "points": 15
+      },
+      {
+        "id": 33,
+        "wave": 2,
+        "question": "Write 9.12 x 10⁷ in standard form.",
+        "choices": ["9,120,000", "91,200,000", "912,000,000", "0.000000912"],
+        "answer": "91,200,000",
+        "points": 15
+      },
+      {
+        "id": 34,
+        "wave": 2,
+        "question": "Write 3.05 x 10¯⁶ in standard form.",
+        "choices": ["0.00000305", "0.0000305", "0.000305", "0.00305"],
+        "answer": "0.00000305",
+        "points": 15
+      },
+      {
+        "id": 35,
+        "wave": 2,
+        "question": "Which of these is NOT correctly written in scientific notation?",
+        "choices": ["8.9 x 10¹⁰", "1.0 x 10¯³", "0.99 x 10²", "5.2 x 10⁰"],
+        "answer": "0.99 x 10²",
+        "points": 15
+      },
+      {
+        "id": 36,
+        "wave": 2,
+        "question": "The mass of the Earth is approximately 5,972,000,000,000,000,000,000,000 kg. In scientific notation, this is:",
+        "choices": ["5.972 x 10²1 kg", "5.972 x 10²4 kg", "59.72 x 10²3 kg", "5.972 x 10¯²4 kg"],
+        "answer": "5.972 x 10²4 kg",
+        "points": 15
+      },
+      {
+        "id": 37,
+        "wave": 2,
+        "question": "The diameter of a hydrogen atom is about 0.000000000106 meters. In scientific notation, this is:",
+        "choices": ["1.06 x 10¯⁹ m", "1.06 x 10¯¹⁰ m", "1.06 x 10¯¹1 m", "10.6 x 10¯¹⁰ m"],
+        "answer": "1.06 x 10¯¹⁰ m",
+        "points": 15
+      },
+      {
+        "id": 38,
+        "wave": 2,
+        "question": "Write 2.00 x 10¯⁰ in standard form.",
+        "choices": ["0.02", "0.2", "2.00", "200"],
+        "answer": "2.00",
+        "points": 15
+      },
+      {
+        "id": 39,
+        "wave": 2,
+        "question": "Which represents 1,000,000 in scientific notation?",
+        "choices": ["1 x 10⁵", "1 x 10⁶", "10 x 10⁵", "100 x 10⁴"],
+        "answer": "1 x 10⁶",
+        "points": 15
+      },
+      {
+        "id": 40,
+        "wave": 2,
+        "question": "Convert 0.00000008 to scientific notation.",
+        "choices": ["8 x 10¯⁷", "8 x 10¯⁸", "8 x 10¯⁹", "0.8 x 10¯⁷"],
+        "answer": "8 x 10¯⁸",
+        "points": 15
+      },
+      {
+        "id": 41,
+        "wave": 2,
+        "question": "What is 4.7 x 10² in standard form?",
+        "choices": ["47", "470", "4,700", "0.047"],
+        "answer": "470",
+        "points": 15
+      },
+      {
+        "id": 42,
+        "wave": 2,
+        "question": "How many decimal places is the exponent for 5.2 x 10¯⁸?",
+        "choices": ["7 to the right", "8 to the right", "7 to the left", "8 to the left"],
+        "answer": "8 to the left",
+        "points": 15
+      },
+      {
+        "id": 43,
+        "wave": 2,
+        "question": "To convert 0.0005 to scientific notation, you move the decimal point ___ places to the ___.",
+        "choices": ["3, right", "4, right", "3, left", "4, left"],
+        "answer": "4, right",
+        "points": 15
+      },
+      {
+        "id": 44,
+        "wave": 2,
+        "question": "Which of these is equivalent to 6.1 x 10¯⁴?",
+        "choices": ["61,000", "0.00061", "0.0061", "6,100"],
+        "answer": "0.00061",
+        "points": 15
+      },
+      {
+        "id": 45,
+        "wave": 2,
+        "question": "The number 45,000 in scientific notation has a coefficient of:",
+        "choices": ["45", "4.5", "0.45", "450"],
+        "answer": "4.5",
+        "points": 15
+      },
+      {
+        "id": 46,
+        "wave": 2,
+        "question": "Convert 100,000,000,000 to scientific notation.",
+        "choices": ["1 x 10⁹", "1 x 10¹⁰", "1 x 10¹1", "1 x 10¹2"],
+        "answer": "1 x 10¹1",
+        "points": 15
+      },
+      {
+        "id": 47,
+        "wave": 2,
+        "question": "Convert 0.000000000001 to scientific notation.",
+        "choices": ["1 x 10¯¹1", "1 x 10¯¹2", "1 x 10¯¹3", "0.1 x 10¯¹1"],
+        "answer": "1 x 10¯¹2",
+        "points": 15
+      },
+      {
+        "id": 48,
+        "wave": 2,
+        "question": "Write 7.001 x 10³ in standard form.",
+        "choices": ["70.01", "700.1", "7,001", "70,010"],
+        "answer": "7,001",
+        "points": 15
+      },
+      {
+        "id": 49,
+        "wave": 2,
+        "question": "Write 2.3 x 10¯⁰ in standard form.",
+        "choices": ["0.023", "0.23", "2.3", "23"],
+        "answer": "2.3",
+        "points": 15
+      },
+      {
+        "id": 50,
+        "wave": 2,
+        "question": "When the exponent in scientific notation is positive, the standard form number is:",
+        "choices": ["A decimal less than 1", "A whole number", "A large number", "Always negative"],
+        "answer": "A large number",
+        "points": 15
+      },
+      {
+        "id": 51,
+        "wave": 3,
+        "question": "Convert 1.5 x 10⁸ meters (approximate distance from Earth to Sun) to standard form.",
+        "choices": ["15,000,000 m", "150,000,000 m", "1,500,000,000 m", "0.00000015 m"],
+        "answer": "150,000,000 m",
+        "points": 20
+      },
+      {
+        "id": 52,
+        "wave": 3,
+        "question": "A virus has a diameter of 2.5 x 10¯⁷ meters. Convert this to standard form.",
+        "choices": ["0.000000025 m", "0.00000025 m", "0.0000025 m", "0.000025 m"],
+        "answer": "0.00000025 m",
+        "points": 20
+      },
+      {
+        "id": 53,
+        "wave": 3,
+        "question": "The speed of light is approximately 299,792,458 meters per second. Write this in scientific notation.",
+        "choices": ["2.99792458 x 10⁷ m/s", "2.99792458 x 10⁸ m/s", "2.99792458 x 10⁹ m/s", "29.9792458 x 10⁷ m/s"],
+        "answer": "2.99792458 x 10⁸ m/s",
+        "points": 20
+      },
+      {
+        "id": 54,
+        "wave": 3,
+        "question": "A typical human hair is about 0.000017 meters thick. Write this in scientific notation.",
+        "choices": ["1.7 x 10¯⁴ m", "1.7 x 10¯⁵ m", "1.7 x 10¯⁶ m", "17 x 10¯⁶ m"],
+        "answer": "1.7 x 10¯⁵ m",
+        "points": 20
+      },
+      {
+        "id": 55,
+        "wave": 3,
+        "question": "Which of these numbers is written correctly in scientific notation?",
+        "choices": ["0.75 x 10⁵", "10 x 10¯²", "6.022 x 10²3", "25.0 x 10¹"],
+        "answer": "6.022 x 10²3",
+        "points": 20
+      },
+      {
+        "id": 56,
+        "wave": 3,
+        "question": "Convert 8.6 x 10⁹ to standard form.",
+        "choices": ["860,000,000", "8,600,000,000", "86,000,000,000", "0.0000000086"],
+        "answer": "8,600,000,000",
+        "points": 20
+      },
+      {
+        "id": 57,
+        "wave": 3,
+        "question": "Convert 1.99 x 10¯¹ to standard form.",
+        "choices": ["0.0199", "0.199", "1.99", "19.9"],
+        "answer": "0.199",
+        "points": 20
+      },
+      {
+        "id": 58,
+        "wave": 3,
+        "question": "A quantity of 3.0 x 10¯⁴ is equivalent to:",
+        "choices": ["0.00003", "0.0003", "0.003", "0.03"],
+        "answer": "0.0003",
+        "points": 20
+      },
+      {
+        "id": 59,
+        "wave": 3,
+        "question": "Write 0.0000000000000000000000000000016 kg (mass of an electron) in scientific notation.",
+        "choices": ["1.6 x 10¯²9 kg", "1.6 x 10¯³0 kg", "1.6 x 10¯³1 kg", "16 x 10¯³2 kg"],
+        "answer": "1.6 x 10¯³0 kg",
+        "points": 20
+      },
+      {
+        "id": 60,
+        "wave": 3,
+        "question": "How many digits are in the standard form of 2.5 x 10⁶?",
+        "choices": ["5", "6", "7", "8"],
+        "answer": "7",
+        "points": 20
+      },
+      {
+        "id": 61,
+        "wave": 3,
+        "question": "Convert 7.123 x 10⁴ to standard form.",
+        "choices": ["7,123", "71,230", "712,300", "7,123,000"],
+        "answer": "71,230",
+        "points": 20
+      },
+      {
+        "id": 62,
+        "wave": 3,
+        "question": "Convert 0.000000905 to scientific notation.",
+        "choices": ["9.05 x 10¯⁶", "9.05 x 10¯⁷", "9.05 x 10¯⁸", "0.905 x 10¯⁶"],
+        "answer": "9.05 x 10¯⁷",
+        "points": 20
+      },
+      {
+        "id": 63,
+        "wave": 3,
+        "question": "A quantity of 4.00 x 10⁰ is equivalent to:",
+        "choices": ["0.4", "4.0", "40.0", "400.0"],
+        "answer": "4.0",
+        "points": 20
+      },
+      {
+        "id": 64,
+        "wave": 3,
+        "question": "Which of these is the correct scientific notation for 5,000,000,000,000?",
+        "choices": ["5 x 10¹1", "5 x 10¹2", "5 x 10¹3", "50 x 10¹1"],
+        "answer": "5 x 10¹2",
+        "points": 20
+      },
+      {
+        "id": 65,
+        "wave": 3,
+        "question": "To write 9.0 x 10¯⁹ in standard form, you would move the decimal point:",
+        "choices": ["9 places to the right", "9 places to the left", "8 places to the right", "8 places to the left"],
+        "answer": "9 places to the left",
+        "points": 20
+      },
+      {
+        "id": 66,
+        "wave": 3,
+        "question": "The mass of a dust particle is 7.5 x 10¯¹⁰ grams. What is this in standard form?",
+        "choices": ["0.00000000075 g", "0.0000000075 g", "0.000000075 g", "0.00000075 g"],
+        "answer": "0.00000000075 g",
+        "points": 20
+      },
+      {
+        "id": 67,
+        "wave": 3,
+        "question": "Convert 0.00000000042 to scientific notation.",
+        "choices": ["4.2 x 10¯⁹", "4.2 x 10¯¹⁰", "4.2 x 10¯¹1", "0.42 x 10¯⁹"],
+        "answer": "4.2 x 10¯¹⁰",
+        "points": 20
+      },
+      {
+        "id": 68,
+        "wave": 3,
+        "question": "Which of these numbers is equivalent to 1.00 x 10¹?",
+        "choices": ["0.1", "1", "10", "100"],
+        "answer": "10",
+        "points": 20
+      },
+      {
+        "id": 69,
+        "wave": 3,
+        "question": "When converting a very small number (like 0.00001) to scientific notation, the exponent will be:",
+        "choices": ["Positive", "Negative", "Zero", "Undefined"],
+        "answer": "Negative",
+        "points": 20
+      },
+      {
+        "id": 70,
+        "wave": 3,
+        "question": "Convert 65,400,000 to scientific notation.",
+        "choices": ["6.54 x 10⁶", "6.54 x 10⁷", "6.54 x 10⁸", "65.4 x 10⁶"],
+        "answer": "6.54 x 10⁷",
+        "points": 20
+      },
+      {
+        "id": 71,
+        "wave": 4,
+        "question": "The approximate number of stars in the observable universe is 1.0 x 10²⁴. Express this in standard form.",
+        "choices": ["1,000,000,000,000,000,000,000,000", "100,000,000,000,000,000,000,000", "10,000,000,000,000,000,000,000", "1,000,000,000,000,000,000,000"],
+        "answer": "1,000,000,000,000,000,000,000,000",
+        "points": 25
+      },
+      {
+        "id": 72,
+        "wave": 4,
+        "question": "The wavelength of X-rays can be as small as 1.0 x 10¯¹⁰ meters. Convert this to standard form.",
+        "choices": ["0.00000000001 m", "0.0000000001 m", "0.000000001 m", "0.00000001 m"],
+        "answer": "0.0000000001 m",
+        "points": 25
+      },
+      {
+        "id": 73,
+        "wave": 4,
+        "question": "The total amount of water on Earth is estimated at 1,386,000,000 cubic kilometers. Write this in scientific notation.",
+        "choices": ["1.386 x 10⁸ km³", "1.386 x 10⁹ km³", "1.386 x 10¹⁰ km³", "13.86 x 10⁸ km³"],
+        "answer": "1.386 x 10⁹ km³",
+        "points": 25
+      },
+      {
+        "id": 74,
+        "wave": 4,
+        "question": "A speck of dust weighs approximately 0.000000000753 kg. Express this in scientific notation.",
+        "choices": ["7.53 x 10¯⁹ kg", "7.53 x 10¯¹⁰ kg", "7.53 x 10¯¹1 kg", "0.753 x 10¯⁹ kg"],
+        "answer": "7.53 x 10¯¹⁰ kg",
+        "points": 25
+      },
+      {
+        "id": 75,
+        "wave": 4,
+        "question": "Which of the following numbers is not in correct scientific notation?",
+        "choices": ["3.14 x 10¯⁵", "9.99 x 10¹5", "0.5 x 10⁷", "1.0 x 10⁰"],
+        "answer": "0.5 x 10⁷",
+        "points": 25
+      },
+      {
+        "id": 76,
+        "wave": 4,
+        "question": "When converting 7.25 x 10¯³ to standard form, the decimal point moves how many places and in what direction?",
+        "choices": ["3 places right", "3 places left", "2 places right", "2 places left"],
+        "answer": "3 places left",
+        "points": 25
+      },
+      {
+        "id": 77,
+        "wave": 4,
+        "question": "The distance light travels in one year (a light-year) is approximately 9.461 x 10¹⁵ meters. Write this in standard form.",
+        "choices": ["94,610,000,000,000 m", "946,100,000,000,000 m", "9,461,000,000,000,000 m", "94,610,000,000,000,000 m"],
+        "answer": "9,461,000,000,000,000 m",
+        "points": 25
+      },
+      {
+        "id": 78,
+        "wave": 4,
+        "question": "The diameter of a red blood cell is about 0.000007 meters. In scientific notation, this is:",
+        "choices": ["7 x 10¯⁵ m", "7 x 10¯⁶ m", "7 x 10¯⁷ m", "7 x 10¯⁸ m"],
+        "answer": "7 x 10¯⁶ m",
+        "points": 25
+      },
+      {
+        "id": 79,
+        "wave": 4,
+        "question": "What is the equivalent of 3.0 x 10⁰ in standard form?",
+        "choices": ["0.3", "3.0", "30", "300"],
+        "answer": "3.0",
+        "points": 25
+      },
+      {
+        "id": 80,
+        "wave": 4,
+        "question": "Which represents a very large number in scientific notation?",
+        "choices": ["5.0 x 10¯¹⁰", "2.1 x 10⁰", "9.8 x 10⁷", "1.2 x 10¯³"],
+        "answer": "9.8 x 10⁷",
+        "points": 25
+      },
+      {
+        "id": 81,
+        "wave": 4,
+        "question": "Convert 6.78 x 10¹² to standard form.",
+        "choices": ["678,000,000,000", "6,780,000,000,000", "67,800,000,000,000", "678,000,000,000,000"],
+        "answer": "6,780,000,000,000",
+        "points": 25
+      },
+      {
+        "id": 82,
+        "wave": 4,
+        "question": "The mass of a proton is approximately 0.00000000000000000000000000167 kg. Write this in scientific notation.",
+        "choices": ["1.67 x 10¯²6 kg", "1.67 x 10¯²7 kg", "1.67 x 10¯²8 kg", "16.7 x 10¯²7 kg"],
+        "answer": "1.67 x 10¯²7 kg",
+        "points": 25
+      },
+      {
+        "id": 83,
+        "wave": 4,
+        "question": "The number 0.0000000000000000000000000000000001 (one septillionth) is equal to:",
+        "choices": ["1 x 10¯³⁰", "1 x 10¯³³", "1 x 10¯³⁶", "1 x 10¯³⁹"],
+        "answer": "1 x 10¯³³",
+        "points": 25
+      },
+      {
+        "id": 84,
+        "wave": 4,
+        "question": "Which of these is the scientific notation for 25,000,000?",
+        "choices": ["2.5 x 10⁶", "2.5 x 10⁷", "25 x 10⁶", "0.25 x 10⁸"],
+        "answer": "2.5 x 10⁷",
+        "points": 25
+      },
+      {
+        "id": 85,
+        "wave": 4,
+        "question": "To convert 4.9 x 10⁵ to standard form, you move the decimal point:",
+        "choices": ["5 places left", "5 places right", "4 places left", "4 places right"],
+        "answer": "5 places right",
+        "points": 25
+      },
+      {
+        "id": 86,
+        "wave": 4,
+        "question": "A typical bacterium is about 2.0 x 10¯⁶ meters long. What is this in standard form?",
+        "choices": ["0.0000002 m", "0.000002 m", "0.00002 m", "0.0002 m"],
+        "answer": "0.000002 m",
+        "points": 25
+      },
+      {
+        "id": 87,
+        "wave": 4,
+        "question": "Convert 99,900,000,000 to scientific notation.",
+        "choices": ["9.99 x 10¹⁰", "9.99 x 10¹¹", "99.9 x 10¹⁰", "0.999 x 10¹¹"],
+        "answer": "9.99 x 10¹⁰",
+        "points": 25
+      },
+      {
+        "id": 88,
+        "wave": 4,
+        "question": "Write 1.000 x 10⁰ in standard form.",
+        "choices": ["0.001", "1.000", "10.00", "100.0"],
+        "answer": "1.000",
+        "points": 25
+      },
+      {
+        "id": 89,
+        "wave": 4,
+        "question": "When the exponent in scientific notation is negative, the standard form number is:",
+        "choices": ["A large number", "A number between 1 and 10", "A decimal between 0 and 1", "Always negative"],
+        "answer": "A decimal between 0 and 1",
+        "points": 25
+      },
+      {
+        "id": 90,
+        "wave": 4,
+        "question": "The distance from the Earth to the Moon is approximately 3.84 x 10⁸ meters. How many zeros are there in the standard form of this number?",
+        "choices": ["6", "7", "8", "9"],
+        "answer": "6",
+        "points": 25
+      },
+      {
+        "id": 91,
+        "wave": 5,
+        "question": "The human brain contains approximately 8.6 x 10¹⁰ neurons. Write this number in standard form.",
+        "choices": ["8,600,000,000", "86,000,000,000", "860,000,000,000", "8,600,000,000,000"],
+        "answer": "86,000,000,000",
+        "points": 30
+      },
+      {
+        "id": 92,
+        "wave": 5,
+        "question": "The diameter of an atomic nucleus can be as small as 1.75 x 10¯¹⁵ meters. Convert this to standard form.",
+        "choices": ["0.000000000000000175 m", "0.00000000000000175 m", "0.0000000000000175 m", "0.000000000000175 m"],
+        "answer": "0.00000000000000175 m",
+        "points": 30
+      },
+      {
+        "id": 93,
+        "wave": 5,
+        "question": "If a number in scientific notation has an exponent of -x (x > 0), it means the standard form number is:",
+        "choices": ["A large number with x zeros at the end.", "A decimal with x zeros after the decimal point and before the first non-zero digit.", "A decimal with x-1 zeros after the decimal point and before the first non-zero digit.", "A number with x decimal places."],
+        "answer": "A decimal with x-1 zeros after the decimal point and before the first non-zero digit.",
+        "points": 30
+      }
+    ]
+}
