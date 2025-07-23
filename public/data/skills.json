@@ -16,5 +16,7 @@
   "classification-numbers": ["classification-numbers"],
   "basic-scientific-notation": ["basic-scientific-notation"],
   "operations-scientific-notation": ["operations-scientific-notation"],
-  "simplify-expressions": ["simplify-expressions"]
+  "simplify-expressions": ["simplify-expressions"],
+  "solving-equations": ["solving-equations"],
+  "solving-inequalities": ["solving-inequalities"]
 }

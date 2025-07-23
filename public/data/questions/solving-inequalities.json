@@ -1,0 +1,3258 @@
+{
+  "title": "SOLVING INEQUALITIES",
+  "description": "Solve the INEQUALITIES to score up!",
+  "waves": 5,
+  "timePerQuestion": 45,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Solve x + 2 < 5.",
+      "choices": [
+        "x < 3",
+        "x < 7",
+        "x > 3",
+        "x > 7"
+      ],
+      "answer": "x < 3",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Solve y - 4 ≤ 1.",
+      "choices": [
+        "y ≤ 5",
+        "y ≤ 3",
+        "y ≥ 5",
+        "y ≥ 3"
+      ],
+      "answer": "y ≤ 5",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Solve 3x > 9.",
+      "choices": [
+        "x > 3",
+        "x < 3",
+        "x > 27",
+        "x < 27"
+      ],
+      "answer": "x > 3",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Solve n + 7 ≥ 10.",
+      "choices": [
+        "n ≥ 3",
+        "n ≤ 3",
+        "n ≥ 17",
+        "n ≤ 17"
+      ],
+      "answer": "n ≥ 3",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Solve x - 1 < 0.",
+      "choices": [
+        "x < 1",
+        "x > 1",
+        "x < -1",
+        "x > -1"
+      ],
+      "answer": "x < 1",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Solve 5a ≤ 15.",
+      "choices": [
+        "a ≤ 3",
+        "a ≥ 3",
+        "a ≤ 5",
+        "a ≥ 5"
+      ],
+      "answer": "a ≤ 3",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Solve k + 8 > 12.",
+      "choices": [
+        "k > 4",
+        "k < 4",
+        "k > 20",
+        "k < 20"
+      ],
+      "answer": "k > 4",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Solve z - 5 ≥ -2.",
+      "choices": [
+        "z ≥ 3",
+        "z ≤ 3",
+        "z ≥ 7",
+        "z ≤ 7"
+      ],
+      "answer": "z ≥ 3",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Solve 2m < 8.",
+      "choices": [
+        "m < 4",
+        "m > 4",
+        "m < 16",
+        "m > 16"
+      ],
+      "answer": "m < 4",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Solve x + 9 ≤ 11.",
+      "choices": [
+        "x ≤ 2",
+        "x ≥ 2",
+        "x ≤ 20",
+        "x ≥ 20"
+      ],
+      "answer": "x ≤ 2",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Solve y - 3 > 1.",
+      "choices": [
+        "y > 4",
+        "y < 4",
+        "y > -2",
+        "y < -2"
+      ],
+      "answer": "y > 4",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Solve 4n ≥ 12.",
+      "choices": [
+        "n ≥ 3",
+        "n ≤ 3",
+        "n ≥ 48",
+        "n ≤ 48"
+      ],
+      "answer": "n ≥ 3",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Solve p + 6 < 7.",
+      "choices": [
+        "p < 1",
+        "p > 1",
+        "p < 13",
+        "p > 13"
+      ],
+      "answer": "p < 1",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Solve x - 2 ≤ 3.",
+      "choices": [
+        "x ≤ 5",
+        "x ≥ 5",
+        "x ≤ -1",
+        "x ≥ -1"
+      ],
+      "answer": "x ≤ 5",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Solve 6t > 18.",
+      "choices": [
+        "t > 3",
+        "t < 3",
+        "t > 108",
+        "t < 108"
+      ],
+      "answer": "t > 3",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Solve a + 4 ≥ 4.",
+      "choices": [
+        "a ≥ 0",
+        "a ≤ 0",
+        "a ≥ 8",
+        "a ≤ 8"
+      ],
+      "answer": "a ≥ 0",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Solve b - 1 < 2.",
+      "choices": [
+        "b < 3",
+        "b > 3",
+        "b < -1",
+        "b > -1"
+      ],
+      "answer": "b < 3",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Solve 2x ≤ 10.",
+      "choices": [
+        "x ≤ 5",
+        "x ≥ 5",
+        "x ≤ 20",
+        "x ≥ 20"
+      ],
+      "answer": "x ≤ 5",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Solve y + 5 > 9.",
+      "choices": [
+        "y > 4",
+        "y < 4",
+        "y > 14",
+        "y < 14"
+      ],
+      "answer": "y > 4",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Solve z - 6 ≤ 0.",
+      "choices": [
+        "z ≤ 6",
+        "z ≥ 6",
+        "z ≤ -6",
+        "z ≥ -6"
+      ],
+      "answer": "z ≤ 6",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Solve 3k ≥ 6.",
+      "choices": [
+        "k ≥ 2",
+        "k ≤ 2",
+        "k ≥ 18",
+        "k ≤ 18"
+      ],
+      "answer": "k ≥ 2",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Solve m + 1 < 4.",
+      "choices": [
+        "m < 3",
+        "m > 3",
+        "m < 5",
+        "m > 5"
+      ],
+      "answer": "m < 3",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Solve n - 7 ≥ -3.",
+      "choices": [
+        "n ≥ 4",
+        "n ≤ 4",
+        "n ≥ 10",
+        "n ≤ 10"
+      ],
+      "answer": "n ≥ 4",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Solve 5p ≤ 5.",
+      "choices": [
+        "p ≤ 1",
+        "p ≥ 1",
+        "p ≤ 25",
+        "p ≥ 25"
+      ],
+      "answer": "p ≤ 1",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Solve x + 3 > 6.",
+      "choices": [
+        "x > 3",
+        "x < 3",
+        "x > 9",
+        "x < 9"
+      ],
+      "answer": "x > 3",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Solve y - 2 < 0.",
+      "choices": [
+        "y < 2",
+        "y > 2",
+        "y < -2",
+        "y > -2"
+      ],
+      "answer": "y < 2",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Solve 4q ≥ 8.",
+      "choices": [
+        "q ≥ 2",
+        "q ≤ 2",
+        "q ≥ 32",
+        "q ≤ 32"
+      ],
+      "answer": "q ≥ 2",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Solve a + 10 ≤ 15.",
+      "choices": [
+        "a ≤ 5",
+        "a ≥ 5",
+        "a ≤ 25",
+        "a ≥ 25"
+      ],
+      "answer": "a ≤ 5",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Solve b - 3 > 0.",
+      "choices": [
+        "b > 3",
+        "b < 3",
+        "b > -3",
+        "b < -3"
+      ],
+      "answer": "b > 3",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Solve 2c < 6.",
+      "choices": [
+        "c < 3",
+        "c > 3",
+        "c < 12",
+        "c > 12"
+      ],
+      "answer": "c < 3",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "Solve d + 8 ≥ 8.",
+      "choices": [
+        "d ≥ 0",
+        "d ≤ 0",
+        "d ≥ 16",
+        "d ≤ 16"
+      ],
+      "answer": "d ≥ 0",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Solve e - 4 ≤ 2.",
+      "choices": [
+        "e ≤ 6",
+        "e ≥ 6",
+        "e ≤ -2",
+        "e ≥ -2"
+      ],
+      "answer": "e ≤ 6",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Solve 5f > 10.",
+      "choices": [
+        "f > 2",
+        "f < 2",
+        "f > 50",
+        "f < 50"
+      ],
+      "answer": "f > 2",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Solve g + 2 < 5.",
+      "choices": [
+        "g < 3",
+        "g > 3",
+        "g < 7",
+        "g > 7"
+      ],
+      "answer": "g < 3",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Solve h - 1 ≥ 1.",
+      "choices": [
+        "h ≥ 2",
+        "h ≤ 2",
+        "h ≥ 0",
+        "h ≤ 0"
+      ],
+      "answer": "h ≥ 2",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Solve 6j ≤ 18.",
+      "choices": [
+        "j ≤ 3",
+        "j ≥ 3",
+        "j ≤ 108",
+        "j ≥ 108"
+      ],
+      "answer": "j ≤ 3",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "Solve k + 5 > 7.",
+      "choices": [
+        "k > 2",
+        "k < 2",
+        "k > 12",
+        "k < 12"
+      ],
+      "answer": "k > 2",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Solve m - 3 < 4.",
+      "choices": [
+        "m < 7",
+        "m > 7",
+        "m < 1",
+        "m > 1"
+      ],
+      "answer": "m < 7",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Solve 2n ≥ 4.",
+      "choices": [
+        "n ≥ 2",
+        "n ≤ 2",
+        "n ≥ 8",
+        "n ≤ 8"
+      ],
+      "answer": "n ≥ 2",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Solve p + 4 ≤ 8.",
+      "choices": [
+        "p ≤ 4",
+        "p ≥ 4",
+        "p ≤ 12",
+        "p ≥ 12"
+      ],
+      "answer": "p ≤ 4",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Solve q - 5 > 2.",
+      "choices": [
+        "q > 7",
+        "q < 7",
+        "q > -3",
+        "q < -3"
+      ],
+      "answer": "q > 7",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Solve 3r < 9.",
+      "choices": [
+        "r < 3",
+        "r > 3",
+        "r < 27",
+        "r > 27"
+      ],
+      "answer": "r < 3",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "Solve s + 6 ≥ 6.",
+      "choices": [
+        "s ≥ 0",
+        "s ≤ 0",
+        "s ≥ 12",
+        "s ≤ 12"
+      ],
+      "answer": "s ≥ 0",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Solve t - 2 ≤ 5.",
+      "choices": [
+        "t ≤ 7",
+        "t ≥ 7",
+        "t ≤ 3",
+        "t ≥ 3"
+      ],
+      "answer": "t ≤ 7",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Solve 4u > 12.",
+      "choices": [
+        "u > 3",
+        "u < 3",
+        "u > 48",
+        "u < 48"
+      ],
+      "answer": "u > 3",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "Solve v + 1 < 3.",
+      "choices": [
+        "v < 2",
+        "v > 2",
+        "v < 4",
+        "v > 4"
+      ],
+      "answer": "v < 2",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Solve w - 4 ≥ 0.",
+      "choices": [
+        "w ≥ 4",
+        "w ≤ 4",
+        "w ≥ -4",
+        "w ≤ -4"
+      ],
+      "answer": "w ≥ 4",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Solve 5x ≤ 20.",
+      "choices": [
+        "x ≤ 4",
+        "x ≥ 4",
+        "x ≤ 100",
+        "x ≥ 100"
+      ],
+      "answer": "x ≤ 4",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "Solve y + 7 > 10.",
+      "choices": [
+        "y > 3",
+        "y < 3",
+        "y > 17",
+        "y < 17"
+      ],
+      "answer": "y > 3",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Solve z - 1 ≤ 1.",
+      "choices": [
+        "z ≤ 2",
+        "z ≥ 2",
+        "z ≤ 0",
+        "z ≥ 0"
+      ],
+      "answer": "z ≤ 2",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Solve 2x + 1 < 7.",
+      "choices": [
+        "x < 3",
+        "x > 3",
+        "x < 4",
+        "x > 4"
+      ],
+      "answer": "x < 3",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Solve 3y - 2 ≥ 10.",
+      "choices": [
+        "y ≥ 4",
+        "y ≤ 4",
+        "y ≥ 12",
+        "y ≤ 12"
+      ],
+      "answer": "y ≥ 4",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Solve 4z + 3 ≤ 11.",
+      "choices": [
+        "z ≤ 2",
+        "z ≥ 2",
+        "z ≤ 8",
+        "z ≥ 8"
+      ],
+      "answer": "z ≤ 2",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Solve 2a - 5 > 1.",
+      "choices": [
+        "a > 3",
+        "a < 3",
+        "a > 6",
+        "a < 6"
+      ],
+      "answer": "a > 3",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Solve 5b + 1 ≥ 6.",
+      "choices": [
+        "b ≥ 1",
+        "b ≤ 1",
+        "b ≥ 7",
+        "b ≤ 7"
+      ],
+      "answer": "b ≥ 1",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Solve 3c - 4 < 5.",
+      "choices": [
+        "c < 3",
+        "c > 3",
+        "c < 9",
+        "c > 9"
+      ],
+      "answer": "c < 3",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Solve 2d + 3 ≤ 9.",
+      "choices": [
+        "d ≤ 3",
+        "d ≥ 3",
+        "d ≤ 6",
+        "d ≥ 6"
+      ],
+      "answer": "d ≤ 3",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Solve 4e - 1 > 7.",
+      "choices": [
+        "e > 2",
+        "e < 2",
+        "e > 8",
+        "e < 8"
+      ],
+      "answer": "e > 2",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Solve 6f + 2 ≥ 14.",
+      "choices": [
+        "f ≥ 2",
+        "f ≤ 2",
+        "f ≥ 12",
+        "f ≤ 12"
+      ],
+      "answer": "f ≥ 2",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Solve 2g - 3 < 5.",
+      "choices": [
+        "g < 4",
+        "g > 4",
+        "g < 7",
+        "g > 7"
+      ],
+      "answer": "g < 4",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Solve 3h + 4 ≤ 10.",
+      "choices": [
+        "h ≤ 2",
+        "h ≥ 2",
+        "h ≤ 6",
+        "h ≥ 6"
+      ],
+      "answer": "h ≤ 2",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Solve 5j - 2 > 8.",
+      "choices": [
+        "j > 2",
+        "j < 2",
+        "j > 6",
+        "j < 6"
+      ],
+      "answer": "j > 2",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Solve 4k + 1 ≥ 5.",
+      "choices": [
+        "k ≥ 1",
+        "k ≤ 1",
+        "k ≥ 4",
+        "k ≤ 4"
+      ],
+      "answer": "k ≥ 1",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Solve 2m - 6 < 2.",
+      "choices": [
+        "m < 4",
+        "m > 4",
+        "m < 8",
+        "m > 8"
+      ],
+      "answer": "m < 4",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Solve 3n + 2 ≤ 8.",
+      "choices": [
+        "n ≤ 2",
+        "n ≥ 2",
+        "n ≤ 6",
+        "n ≥ 6"
+      ],
+      "answer": "n ≤ 2",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Solve 5p - 3 > 12.",
+      "choices": [
+        "p > 3",
+        "p < 3",
+        "p > 9",
+        "p < 9"
+      ],
+      "answer": "p > 3",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Solve 2q + 4 ≥ 6.",
+      "choices": [
+        "q ≥ 1",
+        "q ≤ 1",
+        "q ≥ 5",
+        "q ≤ 5"
+      ],
+      "answer": "q ≥ 1",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Solve 4r - 5 < 11.",
+      "choices": [
+        "r < 4",
+        "r > 4",
+        "r < 16",
+        "r > 16"
+      ],
+      "answer": "r < 4",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Solve 3s + 1 ≤ 7.",
+      "choices": [
+        "s ≤ 2",
+        "s ≥ 2",
+        "s ≤ 8",
+        "s ≥ 8"
+      ],
+      "answer": "s ≤ 2",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Solve 6t - 2 > 10.",
+      "choices": [
+        "t > 2",
+        "t < 2",
+        "t > 8",
+        "t < 8"
+      ],
+      "answer": "t > 2",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Solve 2u + 5 ≥ 9.",
+      "choices": [
+        "u ≥ 2",
+        "u ≤ 2",
+        "u ≥ 7",
+        "u ≤ 7"
+      ],
+      "answer": "u ≥ 2",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Solve 5v - 4 < 11.",
+      "choices": [
+        "v < 3",
+        "v > 3",
+        "v < 15",
+        "v > 15"
+      ],
+      "answer": "v < 3",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Solve 3w + 2 ≤ 5.",
+      "choices": [
+        "w ≤ 1",
+        "w ≥ 1",
+        "w ≤ 7",
+        "w ≥ 7"
+      ],
+      "answer": "w ≤ 1",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Solve 4x - 3 > 9.",
+      "choices": [
+        "x > 3",
+        "x < 3",
+        "x > 12",
+        "x < 12"
+      ],
+      "answer": "x > 3",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Solve 2y + 6 ≥ 10.",
+      "choices": [
+        "y ≥ 2",
+        "y ≤ 2",
+        "y ≥ 8",
+        "y ≤ 8"
+      ],
+      "answer": "y ≥ 2",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Solve 3z - 1 < 8.",
+      "choices": [
+        "z < 3",
+        "z > 3",
+        "z < 9",
+        "z > 9"
+      ],
+      "answer": "z < 3",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Solve 5a + 2 ≤ 12.",
+      "choices": [
+        "a ≤ 2",
+        "a ≥ 2",
+        "a ≤ 10",
+        "a ≥ 10"
+      ],
+      "answer": "a ≤ 2",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Solve 2b - 4 > 2.",
+      "choices": [
+        "b > 3",
+        "b < 3",
+        "b > 6",
+        "b < 6"
+      ],
+      "answer": "b > 3",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Solve 4c + 3 ≥ 11.",
+      "choices": [
+        "c ≥ 2",
+        "c ≤ 2",
+        "c ≥ 8",
+        "c ≤ 8"
+      ],
+      "answer": "c ≥ 2",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Solve 3d - 2 < 7.",
+      "choices": [
+        "d < 3",
+        "d > 3",
+        "d < 9",
+        "d > 9"
+      ],
+      "answer": "d < 3",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Solve 6e + 1 ≤ 19.",
+      "choices": [
+        "e ≤ 3",
+        "e ≥ 3",
+        "e ≤ 18",
+        "e ≥ 18"
+      ],
+      "answer": "e ≤ 3",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Solve 2f - 1 > 5.",
+      "choices": [
+        "f > 3",
+        "f < 3",
+        "f > 6",
+        "f < 6"
+      ],
+      "answer": "f > 3",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Solve 5g + 4 ≥ 9.",
+      "choices": [
+        "g ≥ 1",
+        "g ≤ 1",
+        "g ≥ 5",
+        "g ≤ 5"
+      ],
+      "answer": "g ≥ 1",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Solve 3h - 5 < 10.",
+      "choices": [
+        "h < 5",
+        "h > 5",
+        "h < 15",
+        "h > 15"
+      ],
+      "answer": "h < 5",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Solve 4j + 2 ≤ 14.",
+      "choices": [
+        "j ≤ 3",
+        "j ≥ 3",
+        "j ≤ 12",
+        "j ≥ 12"
+      ],
+      "answer": "j ≤ 3",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Solve 2k - 6 > 0.",
+      "choices": [
+        "k > 3",
+        "k < 3",
+        "k > 6",
+        "k < 6"
+      ],
+      "answer": "k > 3",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Solve 5m + 3 ≥ 8.",
+      "choices": [
+        "m ≥ 1",
+        "m ≤ 1",
+        "m ≥ 5",
+        "m ≤ 5"
+      ],
+      "answer": "m ≥ 1",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Solve 3n - 4 < 5.",
+      "choices": [
+        "n < 3",
+        "n > 3",
+        "n < 9",
+        "n > 9"
+      ],
+      "answer": "n < 3",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Solve 2p + 5 ≤ 11.",
+      "choices": [
+        "p ≤ 3",
+        "p ≥ 3",
+        "p ≤ 8",
+        "p ≥ 8"
+      ],
+      "answer": "p ≤ 3",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Solve 4q - 3 > 5.",
+      "choices": [
+        "q > 2",
+        "q < 2",
+        "q > 8",
+        "q < 8"
+      ],
+      "answer": "q > 2",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Solve 3r + 2 ≥ 8.",
+      "choices": [
+        "r ≥ 2",
+        "r ≤ 2",
+        "r ≥ 6",
+        "r ≤ 6"
+      ],
+      "answer": "r ≥ 2",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Solve 5s - 1 < 14.",
+      "choices": [
+        "s < 3",
+        "s > 3",
+        "s < 15",
+        "s > 15"
+      ],
+      "answer": "s < 3",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Solve 2t + 4 ≤ 10.",
+      "choices": [
+        "t ≤ 3",
+        "t ≥ 3",
+        "t ≤ 6",
+        "t ≥ 6"
+      ],
+      "answer": "t ≤ 3",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Solve 6u - 2 > 10.",
+      "choices": [
+        "u > 2",
+        "u < 2",
+        "u > 8",
+        "u < 8"
+      ],
+      "answer": "u > 2",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Solve 3v + 1 ≥ 7.",
+      "choices": [
+        "v ≥ 2",
+        "v ≤ 2",
+        "v ≥ 6",
+        "v ≤ 6"
+      ],
+      "answer": "v ≥ 2",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Solve 4w - 2 < 10.",
+      "choices": [
+        "w < 3",
+        "w > 3",
+        "w < 12",
+        "w > 12"
+      ],
+      "answer": "w < 3",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Solve 2x + 3 ≤ 9.",
+      "choices": [
+        "x ≤ 3",
+        "x ≥ 3",
+        "x ≤ 6",
+        "x ≥ 6"
+      ],
+      "answer": "x ≤ 3",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Solve 5y - 4 > 6.",
+      "choices": [
+        "y > 2",
+        "y < 2",
+        "y > 10",
+        "y < 10"
+      ],
+      "answer": "y > 2",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Solve 3z + 5 ≥ 11.",
+      "choices": [
+        "z ≥ 2",
+        "z ≤ 2",
+        "z ≥ 8",
+        "z ≤ 8"
+      ],
+      "answer": "z ≥ 2",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Solve 6a - 3 < 15.",
+      "choices": [
+        "a < 3",
+        "a > 3",
+        "a < 18",
+        "a > 18"
+      ],
+      "answer": "a < 3",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Solve 2x + 5 < 11.",
+      "choices": [
+        "x < 3",
+        "x > 3",
+        "x < 8",
+        "x > 8"
+      ],
+      "answer": "x < 3",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Solve 3y - 4 ≥ 8.",
+      "choices": [
+        "y ≥ 4",
+        "y ≤ 4",
+        "y ≥ 12",
+        "y ≤ 12"
+      ],
+      "answer": "y ≥ 4",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Solve 4z + 2 ≤ 18.",
+      "choices": [
+        "z ≤ 4",
+        "z ≥ 4",
+        "z ≤ 16",
+        "z ≥ 16"
+      ],
+      "answer": "z ≤ 4",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Solve 5a - 3 > 12.",
+      "choices": [
+        "a > 3",
+        "a < 3",
+        "a > 15",
+        "a < 15"
+      ],
+      "answer": "a > 3",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Solve 2b + 7 ≥ 11.",
+      "choices": [
+        "b ≥ 2",
+        "b ≤ 2",
+        "b ≥ 9",
+        "b ≤ 9"
+      ],
+      "answer": "b ≥ 2",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Solve 3c - 5 < 10.",
+      "choices": [
+        "c < 5",
+        "c > 5",
+        "c < 15",
+        "c > 15"
+      ],
+      "answer": "c < 5",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Solve 4d + 1 ≤ 13.",
+      "choices": [
+        "d ≤ 3",
+        "d ≥ 3",
+        "d ≤ 12",
+        "d ≥ 12"
+      ],
+      "answer": "d ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Solve 2e - 4 > 6.",
+      "choices": [
+        "e > 5",
+        "e < 5",
+        "e > 10",
+        "e < 10"
+      ],
+      "answer": "e > 5",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Solve 5f + 2 ≥ 17.",
+      "choices": [
+        "f ≥ 3",
+        "f ≤ 3",
+        "f ≥ 15",
+        "f ≤ 15"
+      ],
+      "answer": "f ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Solve 3g - 2 < 7.",
+      "choices": [
+        "g < 3",
+        "g > 3",
+        "g < 9",
+        "g > 9"
+      ],
+      "answer": "g < 3",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Solve 2h + 6 ≤ 12.",
+      "choices": [
+        "h ≤ 3",
+        "h ≥ 3",
+        "h ≤ 9",
+        "h ≥ 9"
+      ],
+      "answer": "h ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Solve 4j - 5 > 11.",
+      "choices": [
+        "j > 4",
+        "j < 4",
+        "j > 16",
+        "j < 16"
+      ],
+      "answer": "j > 4",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Solve 3k + 4 ≥ 10.",
+      "choices": [
+        "k ≥ 2",
+        "k ≤ 2",
+        "k ≥ 6",
+        "k ≤ 6"
+      ],
+      "answer": "k ≥ 2",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Solve 5m - 1 < 14.",
+      "choices": [
+        "m < 3",
+        "m > 3",
+        "m < 15",
+        "m > 15"
+      ],
+      "answer": "m < 3",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Solve 2n + 3 ≤ 9.",
+      "choices": [
+        "n ≤ 3",
+        "n ≥ 3",
+        "n ≤ 6",
+        "n ≥ 6"
+      ],
+      "answer": "n ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Solve 4p - 2 > 10.",
+      "choices": [
+        "p > 3",
+        "p < 3",
+        "p > 12",
+        "p < 12"
+      ],
+      "answer": "p > 3",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Solve 3q + 5 ≥ 14.",
+      "choices": [
+        "q ≥ 3",
+        "q ≤ 3",
+        "q ≥ 9",
+        "q ≤ 9"
+      ],
+      "answer": "q ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Solve 2r - 4 < 6.",
+      "choices": [
+        "r < 5",
+        "r > 5",
+        "r < 10",
+        "r > 10"
+      ],
+      "answer": "r < 5",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Solve 5s + 1 ≤ 11.",
+      "choices": [
+        "s ≤ 2",
+        "s ≥ 2",
+        "s ≤ 10",
+        "s ≥ 10"
+      ],
+      "answer": "s ≤ 2",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Solve 3t - 5 > 7.",
+      "choices": [
+        "t > 4",
+        "t < 4",
+        "t > 12",
+        "t < 12"
+      ],
+      "answer": "t > 4",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Solve 4u + 3 ≤ 15.",
+      "choices": [
+        "u ≤ 3",
+        "u ≥ 3",
+        "u ≤ 12",
+        "u ≥ 12"
+      ],
+      "answer": "u ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Solve 2v - 1 ≥ 5.",
+      "choices": [
+        "v ≥ 3",
+        "v ≤ 3",
+        "v ≥ 7",
+        "v ≤ 7"
+      ],
+      "answer": "v ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Solve 3w + 2 < 11.",
+      "choices": [
+        "w < 3",
+        "w > 3",
+        "w < 9",
+        "w > 9"
+      ],
+      "answer": "w < 3",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Solve 5x - 2 ≥ 13.",
+      "choices": [
+        "x ≥ 3",
+        "x ≤ 3",
+        "x ≥ 11",
+        "x ≤ 11"
+      ],
+      "answer": "x ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Solve 2y + 4 < 10.",
+      "choices": [
+        "y < 3",
+        "y > 3",
+        "y < 6",
+        "y > 6"
+      ],
+      "answer": "y < 3",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Solve 4z - 3 ≥ 9.",
+      "choices": [
+        "z ≥ 3",
+        "z ≤ 3",
+        "z ≥ 12",
+        "z ≤ 12"
+      ],
+      "answer": "z ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Solve 3a + 1 ≤ 10.",
+      "choices": [
+        "a ≤ 3",
+        "a ≥ 3",
+        "a ≤ 9",
+        "a ≥ 9"
+      ],
+      "answer": "a ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Solve 2b - 5 > 1.",
+      "choices": [
+        "b > 3",
+        "b < 3",
+        "b > 6",
+        "b < 6"
+      ],
+      "answer": "b > 3",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Solve 5c + 2 ≥ 12.",
+      "choices": [
+        "c ≥ 2",
+        "c ≤ 2",
+        "c ≥ 10",
+        "c ≤ 10"
+      ],
+      "answer": "c ≥ 2",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Solve 3d - 4 < 8.",
+      "choices": [
+        "d < 4",
+        "d > 4",
+        "d < 12",
+        "d > 12"
+      ],
+      "answer": "d < 4",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Solve 4e + 1 ≤ 13.",
+      "choices": [
+        "e ≤ 3",
+        "e ≥ 3",
+        "e ≤ 12",
+        "e ≥ 12"
+      ],
+      "answer": "e ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Solve 2f - 3 > 5.",
+      "choices": [
+        "f > 4",
+        "f < 4",
+        "f > 8",
+        "f < 8"
+      ],
+      "answer": "f > 4",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Solve 5g + 3 ≥ 18.",
+      "choices": [
+        "g ≥ 3",
+        "g ≤ 3",
+        "g ≥ 15",
+        "g ≤ 15"
+      ],
+      "answer": "g ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Solve 3h - 2 < 7.",
+      "choices": [
+        "h < 3",
+        "h > 3",
+        "h < 9",
+        "h > 9"
+      ],
+      "answer": "h < 3",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Solve 2j + 5 ≤ 11.",
+      "choices": [
+        "j ≤ 3",
+        "j ≥ 3",
+        "j ≤ 8",
+        "j ≥ 8"
+      ],
+      "answer": "j ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Solve 4k - 1 > 11.",
+      "choices": [
+        "k > 3",
+        "k < 3",
+        "k > 12",
+        "k < 12"
+      ],
+      "answer": "k > 3",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Solve 3m + 4 ≥ 10.",
+      "choices": [
+        "m ≥ 2",
+        "m ≤ 2",
+        "m ≥ 6",
+        "m ≤ 6"
+      ],
+      "answer": "m ≥ 2",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Solve 5n - 2 < 13.",
+      "choices": [
+        "n < 3",
+        "n > 3",
+        "n < 15",
+        "n > 15"
+      ],
+      "answer": "n < 3",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Solve 2p + 6 ≤ 12.",
+      "choices": [
+        "p ≤ 3",
+        "p ≥ 3",
+        "p ≤ 6",
+        "p ≥ 6"
+      ],
+      "answer": "p ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Solve 3q - 5 > 7.",
+      "choices": [
+        "q > 4",
+        "q < 4",
+        "q > 12",
+        "q < 12"
+      ],
+      "answer": "q > 4",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Solve 4r + 3 ≤ 15.",
+      "choices": [
+        "r ≤ 3",
+        "r ≥ 3",
+        "r ≤ 12",
+        "r ≥ 12"
+      ],
+      "answer": "r ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Solve 2s - 4 ≥ 2.",
+      "choices": [
+        "s ≥ 3",
+        "s ≤ 3",
+        "s ≥ 6",
+        "s ≤ 6"
+      ],
+      "answer": "s ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Solve 5t + 1 ≤ 16.",
+      "choices": [
+        "t ≤ 3",
+        "t ≥ 3",
+        "t ≤ 15",
+        "t ≥ 15"
+      ],
+      "answer": "t ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Solve 3u - 2 > 7.",
+      "choices": [
+        "u > 3",
+        "u < 3",
+        "u > 9",
+        "u < 9"
+      ],
+      "answer": "u > 3",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Solve 4v + 2 ≤ 14.",
+      "choices": [
+        "v ≤ 3",
+        "v ≥ 3",
+        "v ≤ 12",
+        "v ≥ 12"
+      ],
+      "answer": "v ≤ 3",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Solve 2w - 1 ≥ 5.",
+      "choices": [
+        "w ≥ 3",
+        "w ≤ 3",
+        "w ≥ 6",
+        "w ≤ 6"
+      ],
+      "answer": "w ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Solve 3x + 4 < 13.",
+      "choices": [
+        "x < 3",
+        "x > 3",
+        "x < 9",
+        "x > 9"
+      ],
+      "answer": "x < 3",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Solve 5y - 3 ≥ 12.",
+      "choices": [
+        "y ≥ 3",
+        "y ≤ 3",
+        "y ≥ 15",
+        "y ≤ 15"
+      ],
+      "answer": "y ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Solve 2z + 5 < 11.",
+      "choices": [
+        "z < 3",
+        "z > 3",
+        "z < 6",
+        "z > 6"
+      ],
+      "answer": "z < 3",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Solve 4a - 2 ≥ 10.",
+      "choices": [
+        "a ≥ 3",
+        "a ≤ 3",
+        "a ≥ 12",
+        "a ≤ 12"
+      ],
+      "answer": "a ≥ 3",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Solve 3x + 7 < 22.",
+      "choices": [
+        "x < 5",
+        "x > 5",
+        "x < 15",
+        "x > 15"
+      ],
+      "answer": "x < 5",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Solve 4y - 5 ≥ 19.",
+      "choices": [
+        "y ≥ 6",
+        "y ≤ 6",
+        "y ≥ 24",
+        "y ≤ 24"
+      ],
+      "answer": "y ≥ 6",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Solve 2z + 9 ≤ 21.",
+      "choices": [
+        "z ≤ 6",
+        "z ≥ 6",
+        "z ≤ 12",
+        "z ≥ 12"
+      ],
+      "answer": "z ≤ 6",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Solve 5a - 8 > 17.",
+      "choices": [
+        "a > 5",
+        "a < 5",
+        "a > 25",
+        "a < 25"
+      ],
+      "answer": "a > 5",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Solve 3b + 6 ≥ 21.",
+      "choices": [
+        "b ≥ 5",
+        "b ≤ 5",
+        "b ≥ 15",
+        "b ≤ 15"
+      ],
+      "answer": "b ≥ 5",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Solve 4c - 7 < 17.",
+      "choices": [
+        "c < 6",
+        "c > 6",
+        "c < 24",
+        "c > 24"
+      ],
+      "answer": "c < 6",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Solve 2d + 11 ≤ 25.",
+      "choices": [
+        "d ≤ 7",
+        "d ≥ 7",
+        "d ≤ 14",
+        "d ≥ 14"
+      ],
+      "answer": "d ≤ 7",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Solve 5e - 9 > 21.",
+      "choices": [
+        "e > 6",
+        "e < 6",
+        "e > 30",
+        "e < 30"
+      ],
+      "answer": "e > 6",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Solve 3f + 8 ≥ 23.",
+      "choices": [
+        "f ≥ 5",
+        "f ≤ 5",
+        "f ≥ 15",
+        "f ≤ 15"
+      ],
+      "answer": "f ≥ 5",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Solve 4g - 6 < 18.",
+      "choices": [
+        "g < 6",
+        "g > 6",
+        "g < 24",
+        "g > 24"
+      ],
+      "answer": "g < 6",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Solve 2h + 13 ≤ 29.",
+      "choices": [
+        "h ≤ 8",
+        "h ≥ 8",
+        "h ≤ 16",
+        "h ≥ 16"
+      ],
+      "answer": "h ≤ 8",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Solve 5j - 7 > 18.",
+      "choices": [
+        "j > 5",
+        "j < 5",
+        "j > 25",
+        "j < 25"
+      ],
+      "answer": "j > 5",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Solve 3k + 9 ≥ 24.",
+      "choices": [
+        "k ≥ 5",
+        "k ≤ 5",
+        "k ≥ 15",
+        "k ≤ 15"
+      ],
+      "answer": "k ≥ 5",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Solve 4m - 5 < 19.",
+      "choices": [
+        "m < 6",
+        "m > 6",
+        "m < 24",
+        "m > 24"
+      ],
+      "answer": "m < 6",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Solve 2n + 7 ≤ 19.",
+      "choices": [
+        "n ≤ 6",
+        "n ≥ 6",
+        "n ≤ 12",
+        "n ≥ 12"
+      ],
+      "answer": "n ≤ 6",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Solve 5p - 8 > 22.",
+      "choices": [
+        "p > 6",
+        "p < 6",
+        "p > 30",
+        "p < 30"
+      ],
+      "answer": "p > 6",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Solve 3q + 8 ≥ 23.",
+      "choices": [
+        "q ≥ 5",
+        "q ≤ 5",
+        "q ≥ 15",
+        "q ≤ 15"
+      ],
+      "answer": "q ≥ 5",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Solve 4r - 9 < 15.",
+      "choices": [
+        "r < 6",
+        "r > 6",
+        "r < 24",
+        "r > 24"
+      ],
+      "answer": "r < 6",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Solve 2s + 5 ≤ 17.",
+      "choices": [
+        "s ≤ 6",
+        "s ≥ 6",
+        "s ≤ 12",
+        "s ≥ 12"
+      ],
+      "answer": "s ≤ 6",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Solve 5t - 6 > 19.",
+      "choices": [
+        "t > 5",
+        "t < 5",
+        "t > 25",
+        "t < 25"
+      ],
+      "answer": "t > 5",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Solve 3u + 7 ≥ 22.",
+      "choices": [
+        "u ≥ 5",
+        "u ≤ 5",
+        "u ≥ 15",
+        "u ≤ 15"
+      ],
+      "answer": "u ≥ 5",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Solve 4v - 3 < 21.",
+      "choices": [
+        "v < 6",
+        "v > 6",
+        "v < 24",
+        "v > 24"
+      ],
+      "answer": "v < 6",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Solve 2w + 9 ≤ 25.",
+      "choices": [
+        "w ≤ 8",
+        "w ≥ 8",
+        "w ≤ 18",
+        "w ≥ 18"
+      ],
+      "answer": "w ≤ 8",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Solve 5x - 7 > 18.",
+      "choices": [
+        "x > 5",
+        "x < 5",
+        "x > 25",
+        "x < 25"
+      ],
+      "answer": "x > 5",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Solve 3y + 8 ≥ 26.",
+      "choices": [
+        "y ≥ 6",
+        "y ≤ 6",
+        "y ≥ 18",
+        "y ≤ 18"
+      ],
+      "answer": "y ≥ 6",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Solve 4z - 5 < 19.",
+      "choices": [
+        "z < 6",
+        "z > 6",
+        "z < 24",
+        "z > 24"
+      ],
+      "answer": "z < 6",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Solve 2a + 11 ≤ 27.",
+      "choices": [
+        "a ≤ 8",
+        "a ≥ 8",
+        "a ≤ 16",
+        "a ≥ 16"
+      ],
+      "answer": "a ≤ 8",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Solve 5b - 8 > 17.",
+      "choices": [
+        "b > 5",
+        "b < 5",
+        "b > 25",
+        "b < 25"
+      ],
+      "answer": "b > 5",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Solve 3c + 9 ≥ 30.",
+      "choices": [
+        "c ≥ 7",
+        "c ≤ 7",
+        "c ≥ 21",
+        "c ≤ 21"
+      ],
+      "answer": "c ≥ 7",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Solve 4d - 7 < 21.",
+      "choices": [
+        "d < 7",
+        "d > 7",
+        "d < 28",
+        "d > 28"
+      ],
+      "answer": "d < 7",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Solve 2e + 13 ≤ 33.",
+      "choices": [
+        "e ≤ 10",
+        "e ≥ 10",
+        "e ≤ 20",
+        "e ≥ 20"
+      ],
+      "answer": "e ≤ 10",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Solve 5f - 9 > 21.",
+      "choices": [
+        "f > 6",
+        "f < 6",
+        "f > 30",
+        "f < 30"
+      ],
+      "answer": "f > 6",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Solve 3g + 10 ≥ 31.",
+      "choices": [
+        "g ≥ 7",
+        "g ≤ 7",
+        "g ≥ 21",
+        "g ≤ 21"
+      ],
+      "answer": "g ≥ 7",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Solve 4h - 8 < 20.",
+      "choices": [
+        "h < 7",
+        "h > 7",
+        "h < 28",
+        "h > 28"
+      ],
+      "answer": "h < 7",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Solve 2j + 15 ≤ 35.",
+      "choices": [
+        "j ≤ 10",
+        "j ≥ 10",
+        "j ≤ 20",
+        "j ≥ 20"
+      ],
+      "answer": "j ≤ 10",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Solve 5k - 10 > 25.",
+      "choices": [
+        "k > 7",
+        "k < 7",
+        "k > 35",
+        "k < 35"
+      ],
+      "answer": "k > 7",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Solve 3m + 11 ≥ 32.",
+      "choices": [
+        "m ≥ 7",
+        "m ≤ 7",
+        "m ≥ 21",
+        "m ≤ 21"
+      ],
+      "answer": "m ≥ 7",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Solve 4n - 9 < 19.",
+      "choices": [
+        "n < 7",
+        "n > 7",
+        "n < 28",
+        "n > 28"
+      ],
+      "answer": "n < 7",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Solve 2p + 17 ≤ 39.",
+      "choices": [
+        "p ≤ 11",
+        "p ≥ 11",
+        "p ≤ 22",
+        "p ≥ 22"
+      ],
+      "answer": "p ≤ 11",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Solve 5q - 11 > 24.",
+      "choices": [
+        "q > 7",
+        "q < 7",
+        "q > 35",
+        "q < 35"
+      ],
+      "answer": "q > 7",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Solve 3r + 12 ≥ 33.",
+      "choices": [
+        "r ≥ 7",
+        "r ≤ 7",
+        "r ≥ 21",
+        "r ≤ 21"
+      ],
+      "answer": "r ≥ 7",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Solve 4s - 10 < 18.",
+      "choices": [
+        "s < 7",
+        "s > 7",
+        "s < 28",
+        "s > 28"
+      ],
+      "answer": "s < 7",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Solve 2t + 19 ≤ 43.",
+      "choices": [
+        "t ≤ 12",
+        "t ≥ 12",
+        "t ≤ 24",
+        "t ≥ 24"
+      ],
+      "answer": "t ≤ 12",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Solve 5u - 12 > 23.",
+      "choices": [
+        "u > 7",
+        "u < 7",
+        "u > 35",
+        "u < 35"
+      ],
+      "answer": "u > 7",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Solve 3v + 13 ≥ 34.",
+      "choices": [
+        "v ≥ 7",
+        "v ≤ 7",
+        "v ≥ 21",
+        "v ≤ 21"
+      ],
+      "answer": "v ≥ 7",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Solve 4w - 11 < 21.",
+      "choices": [
+        "w < 8",
+        "w > 8",
+        "w < 32",
+        "w > 32"
+      ],
+      "answer": "w < 8",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Solve 2x + 21 ≤ 47.",
+      "choices": [
+        "x ≤ 13",
+        "x ≥ 13",
+        "x ≤ 26",
+        "x ≥ 26"
+      ],
+      "answer": "x ≤ 13",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Solve 5y - 13 > 27.",
+      "choices": [
+        "y > 8",
+        "y < 8",
+        "y > 40",
+        "y < 40"
+      ],
+      "answer": "y > 8",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Solve 3z + 14 ≥ 35.",
+      "choices": [
+        "z ≥ 7",
+        "z ≤ 7",
+        "z ≥ 21",
+        "z ≤ 21"
+      ],
+      "answer": "z ≥ 7",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Solve 4a - 12 < 20.",
+      "choices": [
+        "a < 8",
+        "a > 8",
+        "a < 32",
+        "a > 32"
+      ],
+      "answer": "a < 8",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Solve 3x + 8 < 2x + 20.",
+      "choices": [
+        "x < 12",
+        "x > 12",
+        "x < 4",
+        "x > 4"
+      ],
+      "answer": "x < 12",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Solve 4y - 5 ≥ 2y + 11.",
+      "choices": [
+        "y ≥ 8",
+        "y ≤ 8",
+        "y ≥ 3",
+        "y ≤ 3"
+      ],
+      "answer": "y ≥ 8",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Solve 5z + 3 ≤ 3z + 19.",
+      "choices": [
+        "z ≤ 8",
+        "z ≥ 8",
+        "z ≤ 11",
+        "z ≥ 11"
+      ],
+      "answer": "z ≤ 8",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Solve 6a - 7 > 3a + 8.",
+      "choices": [
+        "a > 5",
+        "a < 5",
+        "a > 15",
+        "a < 15"
+      ],
+      "answer": "a > 5",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Solve 2b + 9 ≥ 5b - 6.",
+      "choices": [
+        "b ≤ 5",
+        "b ≥ 5",
+        "b ≤ 3",
+        "b ≥ 3"
+      ],
+      "answer": "b ≤ 5",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Solve 7c - 4 < 3c + 16.",
+      "choices": [
+        "c < 5",
+        "c > 5",
+        "c < 20",
+        "c > 20"
+      ],
+      "answer": "c < 5",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Solve 4d + 11 ≤ 2d + 25.",
+      "choices": [
+        "d ≤ 7",
+        "d ≥ 7",
+        "d ≤ 14",
+        "d ≥ 14"
+      ],
+      "answer": "d ≤ 7",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Solve 5e - 12 > 2e + 9.",
+      "choices": [
+        "e > 7",
+        "e < 7",
+        "e > 21",
+        "e < 21"
+      ],
+      "answer": "e > 7",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Solve 3f + 8 ≥ 6f - 10.",
+      "choices": [
+        "f ≤ 6",
+        "f ≥ 6",
+        "f ≤ 2",
+        "f ≥ 2"
+      ],
+      "answer": "f ≤ 6",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Solve 8g - 5 < 3g + 20.",
+      "choices": [
+        "g < 5",
+        "g > 5",
+        "g < 25",
+        "g > 25"
+      ],
+      "answer": "g < 5",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Solve 6h + 4 ≤ 4h + 24.",
+      "choices": [
+        "h ≤ 10",
+        "h ≥ 10",
+        "h ≤ 20",
+        "h ≥ 20"
+      ],
+      "answer": "h ≤ 10",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Solve 7j - 9 > 2j + 21.",
+      "choices": [
+        "j > 6",
+        "j < 6",
+        "j > 30",
+        "j < 30"
+      ],
+      "answer": "j > 6",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Solve 4k + 15 ≥ 2k + 35.",
+      "choices": [
+        "k ≥ 10",
+        "k ≤ 10",
+        "k ≥ 20",
+        "k ≤ 20"
+      ],
+      "answer": "k ≥ 10",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Solve 5m - 8 < 2m + 13.",
+      "choices": [
+        "m < 7",
+        "m > 7",
+        "m < 21",
+        "m > 21"
+      ],
+      "answer": "m < 7",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Solve 3n + 12 ≤ 6n - 9.",
+      "choices": [
+        "n ≥ 7",
+        "n ≤ 7",
+        "n ≥ 3",
+        "n ≤ 3"
+      ],
+      "answer": "n ≥ 7",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Solve 9p - 7 > 4p + 18.",
+      "choices": [
+        "p > 5",
+        "p < 5",
+        "p > 25",
+        "p < 25"
+      ],
+      "answer": "p > 5",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Solve 2q + 17 ≥ 5q - 4.",
+      "choices": [
+        "q ≤ 7",
+        "q ≥ 7",
+        "q ≤ 13",
+        "q ≥ 13"
+      ],
+      "answer": "q ≤ 7",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Solve 6r - 5 < 2r + 19.",
+      "choices": [
+        "r < 6",
+        "r > 6",
+        "r < 24",
+        "r > 24"
+      ],
+      "answer": "r < 6",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Solve 4s + 20 ≤ 2s + 50.",
+      "choices": [
+        "s ≤ 15",
+        "s ≥ 15",
+        "s ≤ 30",
+        "s ≥ 30"
+      ],
+      "answer": "s ≤ 15",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Solve 7t - 11 > 3t + 17.",
+      "choices": [
+        "t > 7",
+        "t < 7",
+        "t > 28",
+        "t < 28"
+      ],
+      "answer": "t > 7",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Solve 3u + 18 ≥ 6u - 9.",
+      "choices": [
+        "u ≤ 9",
+        "u ≥ 9",
+        "u ≤ 27",
+        "u ≥ 27"
+      ],
+      "answer": "u ≤ 9",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Solve 8v - 15 < 3v + 20.",
+      "choices": [
+        "v < 7",
+        "v > 7",
+        "v < 35",
+        "v > 35"
+      ],
+      "answer": "v < 7",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Solve 5w + 22 ≤ 3w + 48.",
+      "choices": [
+        "w ≤ 13",
+        "w ≥ 13",
+        "w ≤ 26",
+        "w ≥ 26"
+      ],
+      "answer": "w ≤ 13",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Solve 6x - 13 > 2x + 23.",
+      "choices": [
+        "x > 9",
+        "x < 9",
+        "x > 36",
+        "x < 36"
+      ],
+      "answer": "x > 9",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Solve 4y + 25 ≥ 2y + 55.",
+      "choices": [
+        "y ≥ 15",
+        "y ≤ 15",
+        "y ≥ 30",
+        "y ≤ 30"
+      ],
+      "answer": "y ≥ 15",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Solve 7z - 18 < 3z + 22.",
+      "choices": [
+        "z < 10",
+        "z > 10",
+        "z < 40",
+        "z > 40"
+      ],
+      "answer": "z < 10",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Solve 3a + 26 ≤ 6a - 10.",
+      "choices": [
+        "a ≥ 12",
+        "a ≤ 12",
+        "a ≥ 36",
+        "a ≤ 36"
+      ],
+      "answer": "a ≥ 12",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Solve 9b - 20 > 4b + 15.",
+      "choices": [
+        "b > 7",
+        "b < 7",
+        "b > 35",
+        "b < 35"
+      ],
+      "answer": "b > 7",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Solve 2c + 29 ≥ 5c - 7.",
+      "choices": [
+        "c ≤ 12",
+        "c ≥ 12",
+        "c ≤ 36",
+        "c ≥ 36"
+      ],
+      "answer": "c ≤ 12",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Solve 6d - 19 < 2d + 25.",
+      "choices": [
+        "d < 11",
+        "d > 11",
+        "d < 44",
+        "d > 44"
+      ],
+      "answer": "d < 11",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Solve 4e + 30 ≤ 2e + 70.",
+      "choices": [
+        "e ≤ 20",
+        "e ≥ 20",
+        "e ≤ 40",
+        "e ≥ 40"
+      ],
+      "answer": "e ≤ 20",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Solve 7f - 21 > 3f + 27.",
+      "choices": [
+        "f > 12",
+        "f < 12",
+        "f > 48",
+        "f < 48"
+      ],
+      "answer": "f > 12",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Solve 3g + 31 ≥ 6g - 14.",
+      "choices": [
+        "g ≤ 15",
+        "g ≥ 15",
+        "g ≤ 45",
+        "g ≥ 45"
+      ],
+      "answer": "g ≤ 15",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Solve 8h - 22 < 3h + 33.",
+      "choices": [
+        "h < 11",
+        "h > 11",
+        "h < 55",
+        "h > 55"
+      ],
+      "answer": "h < 11",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Solve 5j + 32 ≤ 3j + 62.",
+      "choices": [
+        "j ≤ 15",
+        "j ≥ 15",
+        "j ≤ 30",
+        "j ≥ 30"
+      ],
+      "answer": "j ≤ 15",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Solve 6k - 23 > 2k + 37.",
+      "choices": [
+        "k > 15",
+        "k < 15",
+        "k > 60",
+        "k < 60"
+      ],
+      "answer": "k > 15",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Solve 4m + 33 ≥ 2m + 73.",
+      "choices": [
+        "m ≥ 20",
+        "m ≤ 20",
+        "m ≥ 40",
+        "m ≤ 40"
+      ],
+      "answer": "m ≥ 20",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Solve 7n - 24 < 3n + 36.",
+      "choices": [
+        "n < 15",
+        "n > 15",
+        "n < 60",
+        "n > 60"
+      ],
+      "answer": "n < 15",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Solve 3p + 34 ≤ 6p - 13.",
+      "choices": [
+        "p ≥ 15.67",
+        "p ≤ 15.67",
+        "p ≥ 47",
+        "p ≤ 47"
+      ],
+      "answer": "p ≥ 15.67",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Solve 9q - 25 > 4q + 30.",
+      "choices": [
+        "q > 11",
+        "q < 11",
+        "q > 55",
+        "q < 55"
+      ],
+      "answer": "q > 11",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Solve 2r + 35 ≥ 5r - 10.",
+      "choices": [
+        "r ≤ 15",
+        "r ≥ 15",
+        "r ≤ 45",
+        "r ≥ 45"
+      ],
+      "answer": "r ≤ 15",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Solve 6s - 26 < 2s + 38.",
+      "choices": [
+        "s < 16",
+        "s > 16",
+        "s < 64",
+        "s > 64"
+      ],
+      "answer": "s < 16",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Solve 4t + 36 ≤ 2t + 76.",
+      "choices": [
+        "t ≤ 20",
+        "t ≥ 20",
+        "t ≤ 40",
+        "t ≥ 40"
+      ],
+      "answer": "t ≤ 20",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Solve 7u - 27 > 3u + 41.",
+      "choices": [
+        "u > 17",
+        "u < 17",
+        "u > 68",
+        "u < 68"
+      ],
+      "answer": "u > 17",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Solve 3v + 37 ≥ 6v - 14.",
+      "choices": [
+        "v ≤ 17",
+        "v ≥ 17",
+        "v ≤ 51",
+        "v ≥ 51"
+      ],
+      "answer": "v ≤ 17",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Solve 8w - 28 < 3w + 42.",
+      "choices": [
+        "w < 14",
+        "w > 14",
+        "w < 70",
+        "w > 70"
+      ],
+      "answer": "w < 14",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Solve 5x + 38 ≤ 3x + 78.",
+      "choices": [
+        "x ≤ 20",
+        "x ≥ 20",
+        "x ≤ 40",
+        "x ≥ 40"
+      ],
+      "answer": "x ≤ 20",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Solve 6y - 29 > 2y + 43.",
+      "choices": [
+        "y > 18",
+        "y < 18",
+        "y > 72",
+        "y < 72"
+      ],
+      "answer": "y > 18",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Solve 4z + 39 ≥ 2z + 89.",
+      "choices": [
+        "z ≥ 25",
+        "z ≤ 25",
+        "z ≥ 50",
+        "z ≤ 50"
+      ],
+      "answer": "z ≥ 25",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Solve 7a - 30 < 3a + 50.",
+      "choices": [
+        "a < 20",
+        "a > 20",
+        "a < 80",
+        "a > 80"
+      ],
+      "answer": "a < 20",
+      "points": 30
+    }
+  ]
+}
