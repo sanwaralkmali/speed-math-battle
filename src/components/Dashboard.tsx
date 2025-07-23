@@ -1,20 +1,46 @@
-import { useState, useEffect } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Button } from '@/components/ui/button';
-import { Zap, Play } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Zap, Play } from "lucide-react";
+import { useRef } from "react";
 
 interface SkillsData {
   [group: string]: string[];
 }
 
 const PLAYER_COLORS = [
-  { name: 'Blue', class: 'bg-blue-200', border: 'border-blue-400', value: 'blue' },
-  { name: 'Green', class: 'bg-green-200', border: 'border-green-400', value: 'green' },
-  { name: 'Yellow', class: 'bg-yellow-200', border: 'border-yellow-400', value: 'yellow' },
-  { name: 'Pink', class: 'bg-pink-200', border: 'border-pink-400', value: 'pink' },
-  { name: 'Purple', class: 'bg-purple-200', border: 'border-purple-400', value: 'purple' },
+  {
+    name: "Blue",
+    class: "bg-blue-200",
+    border: "border-blue-400",
+    value: "blue",
+  },
+  {
+    name: "Green",
+    class: "bg-green-200",
+    border: "border-green-400",
+    value: "green",
+  },
+  {
+    name: "Yellow",
+    class: "bg-yellow-200",
+    border: "border-yellow-400",
+    value: "yellow",
+  },
+  {
+    name: "Pink",
+    class: "bg-pink-200",
+    border: "border-pink-400",
+    value: "pink",
+  },
+  {
+    name: "Purple",
+    class: "bg-purple-200",
+    border: "border-purple-400",
+    value: "purple",
+  },
 ];
 
 interface DashboardProps {
@@ -33,7 +59,7 @@ function DashboardFooter() {
     <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background font-cairo mt-8">
       <div className="container mx-auto">
         <p>
-          Educational Game 2025 | Created for Educational purposes By{' '}
+          Educational Game 2025 | Created for Educational purposes By{" "}
           <a
             href="https://sanwaralkmali.github.io/"
             target="_blank"
@@ -48,27 +74,43 @@ function DashboardFooter() {
   );
 }
 
+// Helper to fetch skill title from question JSON
+async function fetchSkillTitle(skill: string): Promise<string | null> {
+  try {
+    const res = await fetch(`/data/questions/${skill}.json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.title || null;
+  } catch {
+    return null;
+  }
+}
+
 export default function Dashboard({ onStartGame }: DashboardProps) {
-  const [player1Name, setPlayer1Name] = useState('Player 1');
-  const [player2Name, setPlayer2Name] = useState('Player 2');
+  const [player1Name, setPlayer1Name] = useState("Player 1");
+  const [player2Name, setPlayer2Name] = useState("Player 2");
   const [player1Color, setPlayer1Color] = useState(PLAYER_COLORS[0].value);
   const [player2Color, setPlayer2Color] = useState(PLAYER_COLORS[1].value);
   const [skills, setSkills] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null);
   const [notFound, setNotFound] = useState(false);
+  const [skillTitles, setSkillTitles] = useState<{ [skill: string]: string }>(
+    {}
+  );
+  const fetchedTitles = useRef<{ [skill: string]: boolean }>({});
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const group = params.get('skill');
+    const group = params.get("skill");
     if (!group) {
       setSkills([]);
       setLoading(false);
       setNotFound(true);
       return;
     }
-    fetch('/data/skills.json')
-      .then(res => res.json())
+    fetch("/data/skills.json")
+      .then((res) => res.json())
       .then((data: SkillsData) => {
         if (data[group]) {
           setSkills(data[group]);
@@ -85,6 +127,21 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
         setLoading(false);
       });
   }, []);
+
+  // Fetch titles for all skills in the group
+  useEffect(() => {
+    if (skills.length === 0) return;
+    skills.forEach((skill) => {
+      if (!fetchedTitles.current[skill]) {
+        fetchedTitles.current[skill] = true;
+        fetchSkillTitle(skill).then((title) => {
+          if (title) {
+            setSkillTitles((prev) => ({ ...prev, [skill]: title }));
+          }
+        });
+      }
+    });
+  }, [skills]);
 
   const handleSkillClick = (skill: string) => {
     setSelectedSkill(skill);
@@ -107,7 +164,9 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-gaming flex items-center justify-center">
-        <div className="animate-pulse-glow text-2xl font-bold text-primary">Loading...</div>
+        <div className="animate-pulse-glow text-2xl font-bold text-primary">
+          Loading...
+        </div>
       </div>
     );
   }
@@ -115,7 +174,9 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
   if (notFound) {
     return (
       <div className="min-h-screen bg-gradient-gaming flex items-center justify-center p-4">
-        <div className="text-2xl font-bold text-destructive">No skill group selected or group not found.</div>
+        <div className="text-2xl font-bold text-destructive">
+          No skill group selected or group not found.
+        </div>
       </div>
     );
   }
@@ -130,7 +191,9 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
               Speed Math Battle
             </h1>
           </div>
-          <p className="text-xl text-muted-foreground">Who will be the fastest math master?</p>
+          <p className="text-xl text-muted-foreground">
+            Who will be the fastest math master?
+          </p>
         </div>
 
         {/* Player Names and Color Selection */}
@@ -149,7 +212,17 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
                 <button
                   key={color.value}
                   type="button"
-                  className={`w-7 h-7 rounded-full border-2 focus:outline-none transition-all duration-150 ${color.class} ${player1Color === color.value ? color.border + ' ring-2 ring-offset-2 ring-blue-400' : 'border-transparent'} ${sameColor && player1Color === color.value ? 'border-red-500 ring-red-400' : ''} hover:scale-110`}
+                  className={`w-7 h-7 rounded-full border-2 focus:outline-none transition-all duration-150 ${
+                    color.class
+                  } ${
+                    player1Color === color.value
+                      ? color.border + " ring-2 ring-offset-2 ring-blue-400"
+                      : "border-transparent"
+                  } ${
+                    sameColor && player1Color === color.value
+                      ? "border-red-500 ring-red-400"
+                      : ""
+                  } hover:scale-110`}
                   aria-label={color.name}
                   onClick={() => setPlayer1Color(color.value)}
                 />
@@ -170,7 +243,17 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
                 <button
                   key={color.value}
                   type="button"
-                  className={`w-7 h-7 rounded-full border-2 focus:outline-none transition-all duration-150 ${color.class} ${player2Color === color.value ? color.border + ' ring-2 ring-offset-2 ring-pink-400' : 'border-transparent'} ${sameColor && player2Color === color.value ? 'border-red-500 ring-red-400' : ''} hover:scale-110`}
+                  className={`w-7 h-7 rounded-full border-2 focus:outline-none transition-all duration-150 ${
+                    color.class
+                  } ${
+                    player2Color === color.value
+                      ? color.border + " ring-2 ring-offset-2 ring-pink-400"
+                      : "border-transparent"
+                  } ${
+                    sameColor && player2Color === color.value
+                      ? "border-red-500 ring-red-400"
+                      : ""
+                  } hover:scale-110`}
                   aria-label={color.name}
                   onClick={() => setPlayer2Color(color.value)}
                 />
@@ -194,12 +277,18 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
           {skills.map((skill) => (
             <Card
               key={skill}
-              className={`w-full cursor-pointer transition-transform duration-200 border bg-card/80 px-4 py-4 shadow-md flex flex-col justify-center rounded-lg ${selectedSkill === skill ? 'ring-2 ring-primary scale-105 border-primary' : 'hover:scale-105 hover:shadow-lg border-border'}`}
+              className={`w-full cursor-pointer transition-transform duration-200 border bg-card/80 px-4 py-4 shadow-md flex flex-col justify-center rounded-lg ${
+                selectedSkill === skill
+                  ? "ring-2 ring-primary scale-105 border-primary"
+                  : "hover:scale-105 hover:shadow-lg border-border"
+              }`}
               onClick={() => handleSkillClick(skill)}
-              style={{ minHeight: 80, maxWidth: 400, margin: '0 auto' }}
+              style={{ minHeight: 80, maxWidth: 400, margin: "0 auto" }}
             >
               <CardHeader className="p-2 pb-0 flex-1 flex items-center justify-center">
-                <CardTitle className="capitalize text-center text-lg leading-tight w-full">{skill.replace(/-/g, ' ')}</CardTitle>
+                <CardTitle className="capitalize text-center text-lg leading-tight w-full">
+                  {skillTitles[skill] || skill.replace(/-/g, " ")}
+                </CardTitle>
               </CardHeader>
             </Card>
           ))}
@@ -208,7 +297,12 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
         {/* Start Game Button */}
         <Button
           onClick={handleStartGame}
-          disabled={!selectedSkill || !player1Name.trim() || !player2Name.trim() || sameColor}
+          disabled={
+            !selectedSkill ||
+            !player1Name.trim() ||
+            !player2Name.trim() ||
+            sameColor
+          }
           variant="gaming"
           size="xl"
           className="w-full animate-scale-in mt-8"

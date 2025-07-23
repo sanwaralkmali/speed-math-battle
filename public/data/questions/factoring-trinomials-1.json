@@ -1,8 +1,8 @@
 {
-  "title": "Factoring Trinomials",
+  "title": "Factoring Trinomials (x² + bx + c)",
   "description": "Factor trinomials of the form x² + bx + c",
   "waves": 5,
-  "timePerQuestion": 15,
+  "timePerQuestion": 90,
   "questions": [
     {
       "id": 1,
