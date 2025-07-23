@@ -1,0 +1,2754 @@
+{
+  "title": "Factoring Trinomials (ax² + bx + c) – 250 Unique Questions",
+  "description": "Factor each trinomial of the form ax² + bx + c.  All choices are distinct; difficulty rises gradually.",
+  "waves": 5,
+  "timePerQuestion": 15,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Factor: 2x² + 5x + 2",
+      "choices": [
+        "(2x + 1)(x + 2)",
+        "(2x + 2)(x + 1)",
+        "(x + 1)(x + 2)",
+        "(2x + 1)(x + 1)"
+      ],
+      "answer": "(2x + 1)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Factor: 2x² + 3x + 1",
+      "choices": [
+        "(2x + 1)(x + 1)",
+        "(x + 1)(x + 1)",
+        "(2x + 2)(x + 1)",
+        "(x + 1)(2x + 3)"
+      ],
+      "answer": "(2x + 1)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Factor: 3x² + 4x + 1",
+      "choices": [
+        "(3x + 1)(x + 1)",
+        "(x + 1)(3x + 1)",
+        "(3x + 3)(x + 1)",
+        "(x + 1)(x + 1)"
+      ],
+      "answer": "(3x + 1)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Factor: 2x² + 7x + 3",
+      "choices": [
+        "(2x + 1)(x + 3)",
+        "(x + 1)(2x + 3)",
+        "(2x + 3)(x + 1)",
+        "(x + 3)(x + 1)"
+      ],
+      "answer": "(2x + 1)(x + 3)",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Factor: 3x² + 8x + 4",
+      "choices": [
+        "(3x + 2)(x + 2)",
+        "(3x + 4)(x + 1)",
+        "(x + 2)(x + 2)",
+        "(3x + 1)(x + 4)"
+      ],
+      "answer": "(3x + 2)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Factor: 2x² + 5x + 3",
+      "choices": [
+        "(2x + 3)(x + 1)",
+        "(2x + 1)(x + 3)",
+        "(x + 1)(x + 3)",
+        "(2x + 3)(x + 3)"
+      ],
+      "answer": "(2x + 3)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Factor: 4x² + 4x + 1",
+      "choices": [
+        "(2x + 1)(2x + 1)",
+        "(4x + 1)(x + 1)",
+        "(x + 1)(x + 1)",
+        "(2x + 2)(2x + 1)"
+      ],
+      "answer": "(2x + 1)(2x + 1)",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Factor: 3x² + 7x + 2",
+      "choices": [
+        "(3x + 1)(x + 2)",
+        "(3x + 2)(x + 1)",
+        "(x + 2)(x + 1)",
+        "(3x + 1)(x + 1)"
+      ],
+      "answer": "(3x + 1)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Factor: 2x² + 9x + 4",
+      "choices": [
+        "(2x + 1)(x + 4)",
+        "(2x + 4)(x + 1)",
+        "(x + 4)(x + 1)",
+        "(2x + 2)(x + 2)"
+      ],
+      "answer": "(2x + 1)(x + 4)",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Factor: 5x² + 6x + 1",
+      "choices": [
+        "(5x + 1)(x + 1)",
+        "(5x + 1)(x + 5)",
+        "(x + 1)(x + 1)",
+        "(5x + 5)(x + 1)"
+      ],
+      "answer": "(5x + 1)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Factor: 2x² + 7x + 5",
+      "choices": [
+        "(2x + 5)(x + 1)",
+        "(2x + 1)(x + 5)",
+        "(x + 5)(x + 1)",
+        "(2x + 5)(x + 2)"
+      ],
+      "answer": "(2x + 5)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Factor: 3x² + 10x + 8",
+      "choices": [
+        "(3x + 4)(x + 2)",
+        "(3x + 2)(x + 4)",
+        "(x + 2)(x + 4)",
+        "(3x + 8)(x + 1)"
+      ],
+      "answer": "(3x + 4)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Factor: 4x² + 7x + 3",
+      "choices": [
+        "(4x + 3)(x + 1)",
+        "(4x + 1)(x + 3)",
+        "(x + 3)(x + 1)",
+        "(2x + 3)(2x + 1)"
+      ],
+      "answer": "(4x + 3)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Factor: 2x² + 11x + 5",
+      "choices": [
+        "(2x + 1)(x + 5)",
+        "(2x + 5)(x + 1)",
+        "(x + 5)(x + 1)",
+        "(2x + 5)(x + 2)"
+      ],
+      "answer": "(2x + 1)(x + 5)",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Factor: 3x² + 11x + 6",
+      "choices": [
+        "(3x + 2)(x + 3)",
+        "(3x + 6)(x + 1)",
+        "(x + 2)(x + 3)",
+        "(3x + 3)(x + 2)"
+      ],
+      "answer": "(3x + 2)(x + 3)",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Factor: 5x² + 11x + 2",
+      "choices": [
+        "(5x + 1)(x + 2)",
+        "(5x + 2)(x + 1)",
+        "(x + 2)(x + 1)",
+        "(5x + 1)(x + 1)"
+      ],
+      "answer": "(5x + 1)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Factor: 2x² + 9x + 7",
+      "choices": [
+        "(2x + 7)(x + 1)",
+        "(2x + 1)(x + 7)",
+        "(x + 7)(x + 1)",
+        "(2x + 7)(x + 2)"
+      ],
+      "answer": "(2x + 7)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Factor: 4x² + 8x + 3",
+      "choices": [
+        "(2x + 1)(2x + 3)",
+        "(4x + 1)(x + 3)",
+        "(2x + 3)(2x + 2)",
+        "(x + 3)(x + 1)"
+      ],
+      "answer": "(2x + 1)(2x + 3)",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Factor: 3x² + 14x + 8",
+      "choices": [
+        "(3x + 2)(x + 4)",
+        "(3x + 4)(x + 2)",
+        "(x + 4)(x + 2)",
+        "(3x + 8)(x + 1)"
+      ],
+      "answer": "(3x + 2)(x + 4)",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Factor: 5x² + 12x + 4",
+      "choices": [
+        "(5x + 2)(x + 2)",
+        "(5x + 4)(x + 1)",
+        "(x + 2)(x + 2)",
+        "(5x + 1)(x + 4)"
+      ],
+      "answer": "(5x + 2)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Factor: 2x² + 13x + 6",
+      "choices": [
+        "(2x + 1)(x + 6)",
+        "(2x + 6)(x + 1)",
+        "(x + 6)(x + 1)",
+        "(2x + 3)(x + 2)"
+      ],
+      "answer": "(2x + 1)(x + 6)",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Factor: 3x² + 13x + 10",
+      "choices": [
+        "(3x + 10)(x + 1)",
+        "(3x + 2)(x + 5)",
+        "(x + 10)(x + 1)",
+        "(3x + 5)(x + 2)"
+      ],
+      "answer": "(3x + 10)(x + 1)",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Factor: 4x² + 11x + 6",
+      "choices": [
+        "(4x + 3)(x + 2)",
+        "(4x + 2)(x + 3)",
+        "(x + 3)(x + 2)",
+        "(2x + 3)(2x + 2)"
+      ],
+      "answer": "(4x + 3)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Factor: 6x² + 11x + 3",
+      "choices": [
+        "(3x + 1)(2x + 3)",
+        "(2x + 1)(3x + 3)",
+        "(6x + 1)(x + 3)",
+        "(x + 1)(6x + 3)"
+      ],
+      "answer": "(3x + 1)(2x + 3)",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Factor: 2x² + 15x + 7",
+      "choices": [
+        "(2x + 1)(x + 7)",
+        "(2x + 7)(x + 1)",
+        "(x + 7)(x + 1)",
+        "(2x + 7)(x + 2)"
+      ],
+      "answer": "(2x + 1)(x + 7)",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Factor: 3x² + 16x + 5",
+      "choices": [
+        "(3x + 1)(x + 5)",
+        "(3x + 5)(x + 1)",
+        "(x + 5)(x + 1)",
+        "(3x + 1)(x + 1)"
+      ],
+      "answer": "(3x + 1)(x + 5)",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Factor: 5x² + 13x + 6",
+      "choices": [
+        "(5x + 3)(x + 2)",
+        "(5x + 2)(x + 3)",
+        "(x + 3)(x + 2)",
+        "(5x + 6)(x + 1)"
+      ],
+      "answer": "(5x + 3)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Factor: 4x² + 12x + 5",
+      "choices": [
+        "(2x + 1)(2x + 5)",
+        "(4x + 1)(x + 5)",
+        "(x + 5)(x + 1)",
+        "(2x + 5)(2x + 1)"
+      ],
+      "answer": "(2x + 1)(2x + 5)",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Factor: 2x² + 17x + 8",
+      "choices": [
+        "(2x + 1)(x + 8)",
+        "(2x + 8)(x + 1)",
+        "(x + 8)(x + 1)",
+        "(2x + 4)(x + 4)"
+      ],
+      "answer": "(2x + 1)(x + 8)",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Factor: 3x² + 17x + 10",
+      "choices": [
+        "(3x + 2)(x + 5)",
+        "(3x + 5)(x + 2)",
+        "(x + 5)(x + 2)",
+        "(3x + 1)(x + 10)"
+      ],
+      "answer": "(3x + 2)(x + 5)",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "Factor: 5x² + 16x + 12",
+      "choices": [
+        "(5x + 4)(x + 3)",
+        "(5x + 3)(x + 4)",
+        "(x + 4)(x + 3)",
+        "(5x + 6)(x + 2)"
+      ],
+      "answer": "(5x + 4)(x + 3)",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Factor: 6x² + 13x + 5",
+      "choices": [
+        "(3x + 5)(2x + 1)",
+        "(2x + 5)(3x + 1)",
+        "(6x + 5)(x + 1)",
+        "(x + 5)(x + 1)"
+      ],
+      "answer": "(3x + 5)(2x + 1)",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Factor: 2x² + 19x + 9",
+      "choices": [
+        "(2x + 1)(x + 9)",
+        "(2x + 9)(x + 1)",
+        "(x + 9)(x + 1)",
+        "(2x + 3)(x + 3)"
+      ],
+      "answer": "(2x + 1)(x + 9)",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Factor: 4x² + 13x + 10",
+      "choices": [
+        "(4x + 5)(x + 2)",
+        "(4x + 2)(x + 5)",
+        "(x + 5)(x + 2)",
+        "(2x + 5)(2x + 1)"
+      ],
+      "answer": "(4x + 5)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Factor: 3x² + 19x + 6",
+      "choices": [
+        "(3x + 1)(x + 6)",
+        "(3x + 6)(x + 1)",
+        "(x + 6)(x + 1)",
+        "(3x + 2)(x + 3)"
+      ],
+      "answer": "(3x + 1)(x + 6)",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Factor: 5x² + 16x + 12",
+      "choices": [
+        "(5x + 6)(x + 2)",
+        "(5x + 4)(x + 3)",
+        "(x + 6)(x + 2)",
+        "(5x + 12)(x + 1)"
+      ],
+      "answer": "(5x + 6)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "Factor: 2x² + 21x + 10",
+      "choices": [
+        "(2x + 1)(x + 10)",
+        "(2x + 10)(x + 1)",
+        "(x + 10)(x + 1)",
+        "(2x + 5)(x + 4)"
+      ],
+      "answer": "(2x + 1)(x + 10)",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Factor: 3x² + 20x + 12",
+      "choices": [
+        "(3x + 2)(x + 6)",
+        "(3x + 6)(x + 2)",
+        "(x + 6)(x + 2)",
+        "(3x + 4)(x + 3)"
+      ],
+      "answer": "(3x + 2)(x + 6)",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Factor: 4x² + 15x + 14",
+      "choices": [
+        "(4x + 7)(x + 2)",
+        "(4x + 2)(x + 7)",
+        "(x + 7)(x + 2)",
+        "(2x + 7)(2x + 2)"
+      ],
+      "answer": "(4x + 7)(x + 2)",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Factor: 6x² + 19x + 10",
+      "choices": [
+        "(3x + 2)(2x + 5)",
+        "(2x + 2)(3x + 5)",
+        "(6x + 10)(x + 1)",
+        "(x + 5)(x + 2)"
+      ],
+      "answer": "(3x + 2)(2x + 5)",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Factor: 2x² + 23x + 11",
+      "choices": [
+        "(2x + 1)(x + 11)",
+        "(2x + 11)(x + 1)",
+        "(x + 11)(x + 1)",
+        "(2x + 11)(x + 2)"
+      ],
+      "answer": "(2x + 1)(x + 11)",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Factor: 3x² + 25x + 28",
+      "choices": [
+        "(3x + 4)(x + 7)",
+        "(3x + 7)(x + 4)",
+        "(x + 7)(x + 4)",
+        "(3x + 14)(x + 2)"
+      ],
+      "answer": "(3x + 4)(x + 7)",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "Factor: 5x² + 21x + 18",
+      "choices": [
+        "(5x + 6)(x + 3)",
+        "(5x + 3)(x + 6)",
+        "(x + 6)(x + 3)",
+        "(5x + 9)(x + 2)"
+      ],
+      "answer": "(5x + 6)(x + 3)",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Factor: 4x² + 19x + 15",
+      "choices": [
+        "(4x + 5)(x + 3)",
+        "(4x + 3)(x + 5)",
+        "(x + 5)(x + 3)",
+        "(2x + 5)(2x + 3)"
+      ],
+      "answer": "(4x + 5)(x + 3)",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Factor: 2x² + 25x + 12",
+      "choices": [
+        "(2x + 1)(x + 12)",
+        "(2x + 12)(x + 1)",
+        "(x + 12)(x + 1)",
+        "(2x + 3)(x + 4)"
+      ],
+      "answer": "(2x + 1)(x + 12)",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "Factor: 3x² + 28x + 32",
+      "choices": [
+        "(3x + 4)(x + 8)",
+        "(3x + 8)(x + 4)",
+        "(x + 8)(x + 4)",
+        "(3x + 16)(x + 2)"
+      ],
+      "answer": "(3x + 4)(x + 8)",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Factor: 5x² + 26x + 24",
+      "choices": [
+        "(5x + 4)(x + 6)",
+        "(5x + 6)(x + 4)",
+        "(x + 6)(x + 4)",
+        "(5x + 8)(x + 3)"
+      ],
+      "answer": "(5x + 4)(x + 6)",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Factor: 6x² + 23x + 10",
+      "choices": [
+        "(3x + 2)(2x + 5)",
+        "(2x + 2)(3x + 5)",
+        "(6x + 5)(x + 2)",
+        "(x + 5)(x + 2)"
+      ],
+      "answer": "(3x + 2)(2x + 5)",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "Factor: 2x² + 27x + 13",
+      "choices": [
+        "(2x + 1)(x + 13)",
+        "(2x + 13)(x + 1)",
+        "(x + 13)(x + 1)",
+        "(2x + 13)(x + 2)"
+      ],
+      "answer": "(2x + 1)(x + 13)",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Factor: 3x² + 32x + 32",
+      "choices": [
+        "(3x + 8)(x + 4)",
+        "(3x + 4)(x + 8)",
+        "(x + 8)(x + 4)",
+        "(3x + 16)(x + 2)"
+      ],
+      "answer": "(3x + 8)(x + 4)",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Factor: 2x² + 7x + 6",
+      "choices": [
+        "(2x + 3)(x + 2)",
+        "(2x + 2)(x + 3)",
+        "(x + 3)(x + 2)",
+        "(2x + 6)(x + 1)"
+      ],
+      "answer": "(2x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Factor: 3x² + 10x + 8",
+      "choices": [
+        "(3x + 4)(x + 2)",
+        "(3x + 2)(x + 4)",
+        "(x + 4)(x + 2)",
+        "(3x + 8)(x + 1)"
+      ],
+      "answer": "(3x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Factor: 4x² + 12x + 5",
+      "choices": [
+        "(2x + 1)(2x + 5)",
+        "(4x + 1)(x + 5)",
+        "(x + 5)(x + 1)",
+        "(4x + 5)(x + 1)"
+      ],
+      "answer": "(2x + 1)(2x + 5)",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Factor: 2x² + 11x + 12",
+      "choices": [
+        "(2x + 3)(x + 4)",
+        "(2x + 4)(x + 3)",
+        "(x + 4)(x + 3)",
+        "(2x + 6)(x + 2)"
+      ],
+      "answer": "(2x + 3)(x + 4)",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Factor: 3x² + 14x + 15",
+      "choices": [
+        "(3x + 5)(x + 3)",
+        "(3x + 3)(x + 5)",
+        "(x + 5)(x + 3)",
+        "(3x + 15)(x + 1)"
+      ],
+      "answer": "(3x + 5)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Factor: 5x² + 13x + 6",
+      "choices": [
+        "(5x + 3)(x + 2)",
+        "(5x + 2)(x + 3)",
+        "(x + 3)(x + 2)",
+        "(5x + 6)(x + 1)"
+      ],
+      "answer": "(5x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Factor: 4x² + 13x + 10",
+      "choices": [
+        "(4x + 5)(x + 2)",
+        "(4x + 2)(x + 5)",
+        "(x + 5)(x + 2)",
+        "(2x + 5)(2x + 2)"
+      ],
+      "answer": "(4x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Factor: 2x² + 13x + 15",
+      "choices": [
+        "(2x + 3)(x + 5)",
+        "(2x + 5)(x + 3)",
+        "(x + 5)(x + 3)",
+        "(2x + 15)(x + 1)"
+      ],
+      "answer": "(2x + 3)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Factor: 3x² + 16x + 20",
+      "choices": [
+        "(3x + 10)(x + 2)",
+        "(3x + 4)(x + 5)",
+        "(x + 10)(x + 2)",
+        "(3x + 5)(x + 4)"
+      ],
+      "answer": "(3x + 10)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Factor: 6x² + 17x + 12",
+      "choices": [
+        "(3x + 4)(2x + 3)",
+        "(2x + 4)(3x + 3)",
+        "(6x + 4)(x + 3)",
+        "(x + 4)(x + 3)"
+      ],
+      "answer": "(3x + 4)(2x + 3)",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Factor: 2x² + 15x + 14",
+      "choices": [
+        "(2x + 7)(x + 2)",
+        "(2x + 2)(x + 7)",
+        "(x + 7)(x + 2)",
+        "(2x + 14)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Factor: 3x² + 17x + 10",
+      "choices": [
+        "(3x + 10)(x + 1)",
+        "(3x + 2)(x + 5)",
+        "(x + 10)(x + 1)",
+        "(3x + 5)(x + 2)"
+      ],
+      "answer": "(3x + 10)(x + 1)",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Factor: 4x² + 15x + 14",
+      "choices": [
+        "(4x + 7)(x + 2)",
+        "(4x + 2)(x + 7)",
+        "(x + 7)(x + 2)",
+        "(2x + 7)(2x + 2)"
+      ],
+      "answer": "(4x + 7)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Factor: 5x² + 16x + 12",
+      "choices": [
+        "(5x + 4)(x + 3)",
+        "(5x + 3)(x + 4)",
+        "(x + 4)(x + 3)",
+        "(5x + 6)(x + 2)"
+      ],
+      "answer": "(5x + 4)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Factor: 2x² + 17x + 21",
+      "choices": [
+        "(2x + 7)(x + 3)",
+        "(2x + 3)(x + 7)",
+        "(x + 7)(x + 3)",
+        "(2x + 21)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Factor: 3x² + 19x + 28",
+      "choices": [
+        "(3x + 7)(x + 4)",
+        "(3x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(3x + 14)(x + 2)"
+      ],
+      "answer": "(3x + 7)(x + 4)",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Factor: 4x² + 19x + 15",
+      "choices": [
+        "(4x + 5)(x + 3)",
+        "(4x + 3)(x + 5)",
+        "(x + 5)(x + 3)",
+        "(2x + 5)(2x + 3)"
+      ],
+      "answer": "(4x + 5)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Factor: 6x² + 19x + 10",
+      "choices": [
+        "(3x + 2)(2x + 5)",
+        "(2x + 2)(3x + 5)",
+        "(6x + 10)(x + 1)",
+        "(x + 5)(x + 2)"
+      ],
+      "answer": "(3x + 2)(2x + 5)",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Factor: 2x² + 19x + 24",
+      "choices": [
+        "(2x + 3)(x + 8)",
+        "(2x + 8)(x + 3)",
+        "(x + 8)(x + 3)",
+        "(2x + 4)(x + 6)"
+      ],
+      "answer": "(2x + 3)(x + 8)",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Factor: 3x² + 20x + 25",
+      "choices": [
+        "(3x + 5)(x + 5)",
+        "(3x + 25)(x + 1)",
+        "(x + 5)(x + 5)",
+        "(3x + 1)(x + 25)"
+      ],
+      "answer": "(3x + 5)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Factor: 5x² + 21x + 18",
+      "choices": [
+        "(5x + 6)(x + 3)",
+        "(5x + 3)(x + 6)",
+        "(x + 6)(x + 3)",
+        "(5x + 9)(x + 2)"
+      ],
+      "answer": "(5x + 6)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Factor: 4x² + 21x + 20",
+      "choices": [
+        "(4x + 5)(x + 4)",
+        "(4x + 4)(x + 5)",
+        "(x + 5)(x + 4)",
+        "(2x + 5)(2x + 5)"
+      ],
+      "answer": "(4x + 5)(x + 4)",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Factor: 2x² + 23x + 30",
+      "choices": [
+        "(2x + 5)(x + 6)",
+        "(2x + 6)(x + 5)",
+        "(x + 6)(x + 5)",
+        "(2x + 10)(x + 3)"
+      ],
+      "answer": "(2x + 5)(x + 6)",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Factor: 3x² + 22x + 24",
+      "choices": [
+        "(3x + 4)(x + 6)",
+        "(3x + 6)(x + 4)",
+        "(x + 6)(x + 4)",
+        "(3x + 8)(x + 3)"
+      ],
+      "answer": "(3x + 4)(x + 6)",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Factor: 6x² + 23x + 15",
+      "choices": [
+        "(3x + 5)(2x + 3)",
+        "(2x + 5)(3x + 3)",
+        "(6x + 15)(x + 1)",
+        "(x + 5)(x + 3)"
+      ],
+      "answer": "(3x + 5)(2x + 3)",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Factor: 2x² + 25x + 33",
+      "choices": [
+        "(2x + 11)(x + 3)",
+        "(2x + 3)(x + 11)",
+        "(x + 11)(x + 3)",
+        "(2x + 33)(x + 1)"
+      ],
+      "answer": "(2x + 11)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Factor: 3x² + 25x + 28",
+      "choices": [
+        "(3x + 7)(x + 4)",
+        "(3x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(3x + 14)(x + 2)"
+      ],
+      "answer": "(3x + 7)(x + 4)",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Factor: 4x² + 23x + 15",
+      "choices": [
+        "(4x + 5)(x + 3)",
+        "(4x + 3)(x + 5)",
+        "(x + 5)(x + 3)",
+        "(2x + 5)(2x + 3)"
+      ],
+      "answer": "(4x + 5)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Factor: 5x² + 24x + 20",
+      "choices": [
+        "(5x + 4)(x + 5)",
+        "(5x + 5)(x + 4)",
+        "(x + 5)(x + 4)",
+        "(5x + 10)(x + 2)"
+      ],
+      "answer": "(5x + 4)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Factor: 2x² + 27x + 36",
+      "choices": [
+        "(2x + 9)(x + 4)",
+        "(2x + 4)(x + 9)",
+        "(x + 9)(x + 4)",
+        "(2x + 12)(x + 3)"
+      ],
+      "answer": "(2x + 9)(x + 4)",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Factor: 3x² + 26x + 35",
+      "choices": [
+        "(3x + 7)(x + 5)",
+        "(3x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(3x + 35)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Factor: 4x² + 25x + 25",
+      "choices": [
+        "(4x + 5)(x + 5)",
+        "(2x + 5)²",
+        "(x + 5)²",
+        "(4x + 25)(x + 1)"
+      ],
+      "answer": "(4x + 5)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Factor: 6x² + 25x + 14",
+      "choices": [
+        "(3x + 7)(2x + 2)",
+        "(3x + 2)(2x + 7)",
+        "(6x + 14)(x + 1)",
+        "(x + 7)(x + 2)"
+      ],
+      "answer": "(3x + 2)(2x + 7)",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Factor: 2x² + 29x + 35",
+      "choices": [
+        "(2x + 7)(x + 5)",
+        "(2x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(2x + 35)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Factor: 3x² + 28x + 45",
+      "choices": [
+        "(3x + 9)(x + 5)",
+        "(3x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(3x + 15)(x + 3)"
+      ],
+      "answer": "(3x + 5)(x + 9)",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Factor: 4x² + 27x + 20",
+      "choices": [
+        "(4x + 5)(x + 4)",
+        "(4x + 4)(x + 5)",
+        "(x + 5)(x + 4)",
+        "(2x + 5)(2x + 4)"
+      ],
+      "answer": "(4x + 5)(x + 4)",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Factor: 5x² + 26x + 24",
+      "choices": [
+        "(5x + 4)(x + 6)",
+        "(5x + 6)(x + 4)",
+        "(x + 6)(x + 4)",
+        "(5x + 8)(x + 3)"
+      ],
+      "answer": "(5x + 4)(x + 6)",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Factor: 2x² + 31x + 30",
+      "choices": [
+        "(2x + 15)(x + 2)",
+        "(2x + 10)(x + 3)",
+        "(x + 15)(x + 2)",
+        "(2x + 6)(x + 5)"
+      ],
+      "answer": "(2x + 15)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Factor: 3x² + 32x + 35",
+      "choices": [
+        "(3x + 7)(x + 5)",
+        "(3x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(3x + 35)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Factor: 4x² + 31x + 30",
+      "choices": [
+        "(4x + 5)(x + 6)",
+        "(4x + 6)(x + 5)",
+        "(x + 6)(x + 5)",
+        "(2x + 5)(2x + 6)"
+      ],
+      "answer": "(4x + 5)(x + 6)",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Factor: 5x² + 31x + 30",
+      "choices": [
+        "(5x + 6)(x + 5)",
+        "(5x + 5)(x + 6)",
+        "(x + 6)(x + 5)",
+        "(5x + 10)(x + 3)"
+      ],
+      "answer": "(5x + 6)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Factor: 6x² + 29x + 20",
+      "choices": [
+        "(3x + 4)(2x + 5)",
+        "(2x + 4)(3x + 5)",
+        "(6x + 20)(x + 1)",
+        "(x + 5)(x + 4)"
+      ],
+      "answer": "(3x + 4)(2x + 5)",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Factor: 2x² + 33x + 40",
+      "choices": [
+        "(2x + 8)(x + 5)",
+        "(2x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(2x + 10)(x + 4)"
+      ],
+      "answer": "(2x + 8)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Factor: 3x² + 34x + 35",
+      "choices": [
+        "(3x + 7)(x + 5)",
+        "(3x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(3x + 35)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Factor: 4x² + 33x + 35",
+      "choices": [
+        "(4x + 7)(x + 5)",
+        "(4x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(2x + 7)(2x + 5)"
+      ],
+      "answer": "(4x + 7)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Factor: 5x² + 32x + 35",
+      "choices": [
+        "(5x + 7)(x + 5)",
+        "(5x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(5x + 15)(x + 2)"
+      ],
+      "answer": "(5x + 7)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Factor: 5x² + 32x + 35",
+      "choices": [
+        "(5x + 7)(x + 5)",
+        "(5x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(5x + 35)(x + 1)"
+      ],
+      "answer": "(5x + 7)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Factor: 6x² + 31x + 35",
+      "choices": [
+        "(3x + 7)(2x + 5)",
+        "(2x + 7)(3x + 5)",
+        "(6x + 35)(x + 1)",
+        "(x + 7)(x + 5)"
+      ],
+      "answer": "(3x + 7)(2x + 5)",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Factor: 2x² + 35x + 48",
+      "choices": [
+        "(2x + 3)(x + 16)",
+        "(2x + 16)(x + 3)",
+        "(x + 16)(x + 3)",
+        "(2x + 8)(x + 6)"
+      ],
+      "answer": "(2x + 3)(x + 16)",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Factor: 3x² + 35x + 50",
+      "choices": [
+        "(3x + 10)(x + 5)",
+        "(3x + 5)(x + 10)",
+        "(x + 10)(x + 5)",
+        "(3x + 25)(x + 2)"
+      ],
+      "answer": "(3x + 10)(x + 5)",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Factor: 4x² + 35x + 49",
+      "choices": [
+        "(4x + 7)(x + 7)",
+        "(2x + 7)(2x + 7)",
+        "(x + 7)²",
+        "(4x + 49)(x + 1)"
+      ],
+      "answer": "(4x + 7)(x + 7)",
+      "points": 15
+    },
+
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Factor: 2x² + 9x + 10",
+      "choices": [
+        "(2x + 5)(x + 2)",
+        "(2x + 2)(x + 5)",
+        "(x + 5)(x + 2)",
+        "(2x + 10)(x + 1)"
+      ],
+      "answer": "(2x + 5)(x + 2)",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Factor: 3x² + 14x + 16",
+      "choices": [
+        "(3x + 8)(x + 2)",
+        "(3x + 2)(x + 8)",
+        "(x + 8)(x + 2)",
+        "(3x + 4)(x + 4)"
+      ],
+      "answer": "(3x + 8)(x + 2)",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Factor: 4x² + 20x + 21",
+      "choices": [
+        "(2x + 3)(2x + 7)",
+        "(4x + 3)(x + 7)",
+        "(x + 7)(x + 3)",
+        "(2x + 7)(2x + 3)"
+      ],
+      "answer": "(2x + 3)(2x + 7)",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Factor: 5x² + 18x + 16",
+      "choices": [
+        "(5x + 8)(x + 2)",
+        "(5x + 2)(x + 8)",
+        "(x + 8)(x + 2)",
+        "(5x + 4)(x + 4)"
+      ],
+      "answer": "(5x + 8)(x + 2)",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Factor: 2x² + 11x + 15",
+      "choices": [
+        "(2x + 5)(x + 3)",
+        "(2x + 3)(x + 5)",
+        "(x + 5)(x + 3)",
+        "(2x + 15)(x + 1)"
+      ],
+      "answer": "(2x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Factor: 3x² + 17x + 20",
+      "choices": [
+        "(3x + 5)(x + 4)",
+        "(3x + 4)(x + 5)",
+        "(x + 5)(x + 4)",
+        "(3x + 20)(x + 1)"
+      ],
+      "answer": "(3x + 5)(x + 4)",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Factor: 4x² + 21x + 20",
+      "choices": [
+        "(4x + 5)(x + 4)",
+        "(4x + 4)(x + 5)",
+        "(x + 5)(x + 4)",
+        "(2x + 5)(2x + 4)"
+      ],
+      "answer": "(4x + 5)(x + 4)",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Factor: 6x² + 21x + 18",
+      "choices": [
+        "(3x + 6)(2x + 3)",
+        "(2x + 6)(3x + 3)",
+        "(6x + 6)(x + 3)",
+        "(x + 6)(x + 3)"
+      ],
+      "answer": "(3x + 6)(2x + 3)",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Factor: 2x² + 13x + 21",
+      "choices": [
+        "(2x + 7)(x + 3)",
+        "(2x + 3)(x + 7)",
+        "(x + 7)(x + 3)",
+        "(2x + 21)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Factor: 3x² + 19x + 28",
+      "choices": [
+        "(3x + 7)(x + 4)",
+        "(3x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(3x + 28)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 4)",
+      "points": 20
+    },
+
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Factor: 2x² + 11x + 14",
+      "choices": [
+        "(2x + 7)(x + 2)",
+        "(2x + 2)(x + 7)",
+        "(x + 7)(x + 2)",
+        "(2x + 14)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 2)",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Factor: 3x² + 19x + 28",
+      "choices": [
+        "(3x + 7)(x + 4)",
+        "(3x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(3x + 28)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 4)",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Factor: 4x² + 23x + 15",
+      "choices": [
+        "(4x + 5)(x + 3)",
+        "(4x + 3)(x + 5)",
+        "(x + 5)(x + 3)",
+        "(2x + 5)(2x + 3)"
+      ],
+      "answer": "(4x + 5)(x + 3)",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Factor: 5x² + 26x + 24",
+      "choices": [
+        "(5x + 6)(x + 4)",
+        "(5x + 4)(x + 6)",
+        "(x + 6)(x + 4)",
+        "(5x + 8)(x + 3)"
+      ],
+      "answer": "(5x + 6)(x + 4)",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Factor: 6x² + 25x + 14",
+      "choices": [
+        "(3x + 2)(2x + 7)",
+        "(2x + 2)(3x + 7)",
+        "(6x + 14)(x + 1)",
+        "(x + 7)(x + 2)"
+      ],
+      "answer": "(3x + 2)(2x + 7)",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Factor: 2x² + 15x + 22",
+      "choices": [
+        "(2x + 11)(x + 2)",
+        "(2x + 2)(x + 11)",
+        "(x + 11)(x + 2)",
+        "(2x + 22)(x + 1)"
+      ],
+      "answer": "(2x + 11)(x + 2)",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Factor: 3x² + 22x + 35",
+      "choices": [
+        "(3x + 7)(x + 5)",
+        "(3x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(3x + 35)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Factor: 4x² + 25x + 14",
+      "choices": [
+        "(4x + 7)(x + 2)",
+        "(4x + 2)(x + 7)",
+        "(x + 7)(x + 2)",
+        "(2x + 7)(2x + 2)"
+      ],
+      "answer": "(4x + 7)(x + 2)",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Factor: 5x² + 27x + 18",
+      "choices": [
+        "(5x + 6)(x + 3)",
+        "(5x + 3)(x + 6)",
+        "(x + 6)(x + 3)",
+        "(5x + 9)(x + 2)"
+      ],
+      "answer": "(5x + 6)(x + 3)",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Factor: 6x² + 29x + 20",
+      "choices": [
+        "(3x + 4)(2x + 5)",
+        "(2x + 4)(3x + 5)",
+        "(6x + 20)(x + 1)",
+        "(x + 5)(x + 4)"
+      ],
+      "answer": "(3x + 4)(2x + 5)",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Factor: 2x² + 17x + 30",
+      "choices": [
+        "(2x + 15)(x + 2)",
+        "(2x + 10)(x + 3)",
+        "(x + 15)(x + 2)",
+        "(2x + 6)(x + 5)"
+      ],
+      "answer": "(2x + 15)(x + 2)",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Factor: 3x² + 25x + 28",
+      "choices": [
+        "(3x + 7)(x + 4)",
+        "(3x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(3x + 14)(x + 2)"
+      ],
+      "answer": "(3x + 7)(x + 4)",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Factor: 4x² + 27x + 18",
+      "choices": [
+        "(4x + 3)(x + 6)",
+        "(4x + 6)(x + 3)",
+        "(x + 6)(x + 3)",
+        "(2x + 3)(2x + 6)"
+      ],
+      "answer": "(4x + 3)(x + 6)",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Factor: 5x² + 28x + 15",
+      "choices": [
+        "(5x + 3)(x + 5)",
+        "(5x + 5)(x + 3)",
+        "(x + 5)(x + 3)",
+        "(5x + 15)(x + 1)"
+      ],
+      "answer": "(5x + 3)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Factor: 6x² + 31x + 35",
+      "choices": [
+        "(3x + 7)(2x + 5)",
+        "(2x + 7)(3x + 5)",
+        "(6x + 35)(x + 1)",
+        "(x + 7)(x + 5)"
+      ],
+      "answer": "(3x + 7)(2x + 5)",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Factor: 2x² + 19x + 35",
+      "choices": [
+        "(2x + 7)(x + 5)",
+        "(2x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(2x + 35)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Factor: 3x² + 29x + 40",
+      "choices": [
+        "(3x + 8)(x + 5)",
+        "(3x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(3x + 20)(x + 2)"
+      ],
+      "answer": "(3x + 8)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Factor: 4x² + 29x + 30",
+      "choices": [
+        "(4x + 5)(x + 6)",
+        "(4x + 6)(x + 5)",
+        "(x + 6)(x + 5)",
+        "(2x + 5)(2x + 6)"
+      ],
+      "answer": "(4x + 5)(x + 6)",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Factor: 5x² + 29x + 20",
+      "choices": [
+        "(5x + 4)(x + 5)",
+        "(5x + 5)(x + 4)",
+        "(x + 5)(x + 4)",
+        "(5x + 20)(x + 1)"
+      ],
+      "answer": "(5x + 4)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Factor: 6x² + 35x + 36",
+      "choices": [
+        "(3x + 9)(2x + 4)",
+        "(3x + 4)(2x + 9)",
+        "(6x + 36)(x + 1)",
+        "(x + 9)(x + 4)"
+      ],
+      "answer": "(3x + 4)(2x + 9)",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Factor: 2x² + 21x + 40",
+      "choices": [
+        "(2x + 8)(x + 5)",
+        "(2x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(2x + 10)(x + 4)"
+      ],
+      "answer": "(2x + 8)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Factor: 3x² + 31x + 40",
+      "choices": [
+        "(3x + 8)(x + 5)",
+        "(3x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(3x + 20)(x + 2)"
+      ],
+      "answer": "(3x + 8)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Factor: 4x² + 31x + 30",
+      "choices": [
+        "(4x + 5)(x + 6)",
+        "(4x + 6)(x + 5)",
+        "(x + 6)(x + 5)",
+        "(2x + 5)(2x + 6)"
+      ],
+      "answer": "(4x + 5)(x + 6)",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Factor: 5x² + 33x + 28",
+      "choices": [
+        "(5x + 7)(x + 4)",
+        "(5x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(5x + 14)(x + 2)"
+      ],
+      "answer": "(5x + 7)(x + 4)",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Factor: 6x² + 37x + 30",
+      "choices": [
+        "(3x + 5)(2x + 6)",
+        "(3x + 6)(2x + 5)",
+        "(6x + 30)(x + 1)",
+        "(x + 6)(x + 5)"
+      ],
+      "answer": "(3x + 5)(2x + 6)",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Factor: 2x² + 23x + 45",
+      "choices": [
+        "(2x + 9)(x + 5)",
+        "(2x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(2x + 15)(x + 3)"
+      ],
+      "answer": "(2x + 9)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Factor: 3x² + 35x + 50",
+      "choices": [
+        "(3x + 10)(x + 5)",
+        "(3x + 5)(x + 10)",
+        "(x + 10)(x + 5)",
+        "(3x + 25)(x + 2)"
+      ],
+      "answer": "(3x + 10)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Factor: 4x² + 35x + 49",
+      "choices": [
+        "(4x + 7)(x + 7)",
+        "(2x + 7)(2x + 7)",
+        "(x + 7)²",
+        "(4x + 49)(x + 1)"
+      ],
+      "answer": "(4x + 7)(x + 7)",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Factor: 5x² + 37x + 42",
+      "choices": [
+        "(5x + 7)(x + 6)",
+        "(5x + 6)(x + 7)",
+        "(x + 7)(x + 6)",
+        "(5x + 21)(x + 2)"
+      ],
+      "answer": "(5x + 7)(x + 6)",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Factor: 6x² + 41x + 35",
+      "choices": [
+        "(3x + 7)(2x + 5)",
+        "(2x + 7)(3x + 5)",
+        "(6x + 35)(x + 1)",
+        "(x + 7)(x + 5)"
+      ],
+      "answer": "(3x + 7)(2x + 5)",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Factor: 2x² + 25x + 63",
+      "choices": [
+        "(2x + 9)(x + 7)",
+        "(2x + 7)(x + 9)",
+        "(x + 9)(x + 7)",
+        "(2x + 21)(x + 3)"
+      ],
+      "answer": "(2x + 9)(x + 7)",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Factor: 3x² + 37x + 40",
+      "choices": [
+        "(3x + 8)(x + 5)",
+        "(3x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(3x + 40)(x + 1)"
+      ],
+      "answer": "(3x + 8)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Factor: 4x² + 37x + 33",
+      "choices": [
+        "(4x + 11)(x + 3)",
+        "(4x + 3)(x + 11)",
+        "(x + 11)(x + 3)",
+        "(2x + 11)(2x + 3)"
+      ],
+      "answer": "(4x + 11)(x + 3)",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Factor: 5x² + 39x + 40",
+      "choices": [
+        "(5x + 8)(x + 5)",
+        "(5x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(5x + 40)(x + 1)"
+      ],
+      "answer": "(5x + 8)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Factor: 6x² + 43x + 36",
+      "choices": [
+        "(3x + 9)(2x + 4)",
+        "(3x + 4)(2x + 9)",
+        "(6x + 36)(x + 1)",
+        "(x + 9)(x + 4)"
+      ],
+      "answer": "(3x + 4)(2x + 9)",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Factor: 2x² + 27x + 70",
+      "choices": [
+        "(2x + 14)(x + 5)",
+        "(2x + 10)(x + 7)",
+        "(x + 14)(x + 5)",
+        "(2x + 7)(x + 10)"
+      ],
+      "answer": "(2x + 10)(x + 7)",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Factor: 3x² + 38x + 40",
+      "choices": [
+        "(3x + 10)(x + 4)",
+        "(3x + 4)(x + 10)",
+        "(x + 10)(x + 4)",
+        "(3x + 20)(x + 2)"
+      ],
+      "answer": "(3x + 10)(x + 4)",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Factor: 4x² + 39x + 35",
+      "choices": [
+        "(4x + 7)(x + 5)",
+        "(4x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(2x + 7)(2x + 5)"
+      ],
+      "answer": "(4x + 7)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Factor: 5x² + 41x + 42",
+      "choices": [
+        "(5x + 7)(x + 6)",
+        "(5x + 6)(x + 7)",
+        "(x + 7)(x + 6)",
+        "(5x + 21)(x + 2)"
+      ],
+      "answer": "(5x + 7)(x + 6)",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Factor: 6x² + 45x + 36",
+      "choices": [
+        "(3x + 12)(2x + 3)",
+        "(3x + 3)(2x + 12)",
+        "(6x + 36)(x + 1)",
+        "(x + 12)(x + 3)"
+      ],
+      "answer": "(3x + 12)(2x + 3)",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Factor: 2x² + 29x + 88",
+      "choices": [
+        "(2x + 11)(x + 8)",
+        "(2x + 8)(x + 11)",
+        "(x + 11)(x + 8)",
+        "(2x + 22)(x + 4)"
+      ],
+      "answer": "(2x + 11)(x + 8)",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Factor: 3x² + 41x + 40",
+      "choices": [
+        "(3x + 8)(x + 5)",
+        "(3x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(3x + 40)(x + 1)"
+      ],
+      "answer": "(3x + 8)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Factor: 4x² + 43x + 42",
+      "choices": [
+        "(4x + 7)(x + 6)",
+        "(4x + 6)(x + 7)",
+        "(x + 7)(x + 6)",
+        "(2x + 7)(2x + 6)"
+      ],
+      "answer": "(4x + 7)(x + 6)",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Factor: 5x² + 44x + 35",
+      "choices": [
+        "(5x + 7)(x + 5)",
+        "(5x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(5x + 35)(x + 1)"
+      ],
+      "answer": "(5x + 7)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Factor: 6x² + 47x + 35",
+      "choices": [
+        "(3x + 7)(2x + 5)",
+        "(2x + 7)(3x + 5)",
+        "(6x + 35)(x + 1)",
+        "(x + 7)(x + 5)"
+      ],
+      "answer": "(3x + 7)(2x + 5)",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Factor: 2x² + 31x + 108",
+      "choices": [
+        "(2x + 27)(x + 4)",
+        "(2x + 12)(x + 9)",
+        "(x + 27)(x + 4)",
+        "(2x + 18)(x + 6)"
+      ],
+      "answer": "(2x + 27)(x + 4)",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Factor: 3x² + 46x + 45",
+      "choices": [
+        "(3x + 15)(x + 3)",
+        "(3x + 9)(x + 5)",
+        "(x + 15)(x + 3)",
+        "(3x + 45)(x + 1)"
+      ],
+      "answer": "(3x + 15)(x + 3)",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Factor: 4x² + 47x + 45",
+      "choices": [
+        "(4x + 9)(x + 5)",
+        "(4x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(2x + 9)(2x + 5)"
+      ],
+      "answer": "(4x + 9)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Factor: 5x² + 46x + 45",
+      "choices": [
+        "(5x + 9)(x + 5)",
+        "(5x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(5x + 45)(x + 1)"
+      ],
+      "answer": "(5x + 9)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Factor: 6x² + 49x + 45",
+      "choices": [
+        "(3x + 9)(2x + 5)",
+        "(3x + 5)(2x + 9)",
+        "(6x + 45)(x + 1)",
+        "(x + 9)(x + 5)"
+      ],
+      "answer": "(3x + 5)(2x + 9)",
+      "points": 25
+    },
+
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Factor: 2x² + 13x + 21",
+      "choices": [
+        "(2x + 7)(x + 3)",
+        "(2x + 3)(x + 7)",
+        "(x + 7)(x + 3)",
+        "(2x + 21)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Factor: 3x² + 19x + 28",
+      "choices": [
+        "(3x + 7)(x + 4)",
+        "(3x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(3x + 28)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 4)",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Factor: 4x² + 23x + 15",
+      "choices": [
+        "(4x + 5)(x + 3)",
+        "(4x + 3)(x + 5)",
+        "(x + 5)(x + 3)",
+        "(2x + 5)(2x + 3)"
+      ],
+      "answer": "(4x + 5)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Factor: 5x² + 27x + 18",
+      "choices": [
+        "(5x + 6)(x + 3)",
+        "(5x + 3)(x + 6)",
+        "(x + 6)(x + 3)",
+        "(5x + 9)(x + 2)"
+      ],
+      "answer": "(5x + 6)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Factor: 6x² + 29x + 20",
+      "choices": [
+        "(3x + 4)(2x + 5)",
+        "(2x + 4)(3x + 5)",
+        "(6x + 20)(x + 1)",
+        "(x + 5)(x + 4)"
+      ],
+      "answer": "(3x + 4)(2x + 5)",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Factor: 2x² + 15x + 22",
+      "choices": [
+        "(2x + 11)(x + 2)",
+        "(2x + 2)(x + 11)",
+        "(x + 11)(x + 2)",
+        "(2x + 22)(x + 1)"
+      ],
+      "answer": "(2x + 11)(x + 2)",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Factor: 3x² + 22x + 35",
+      "choices": [
+        "(3x + 7)(x + 5)",
+        "(3x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(3x + 35)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Factor: 4x² + 25x + 14",
+      "choices": [
+        "(4x + 7)(x + 2)",
+        "(4x + 2)(x + 7)",
+        "(x + 7)(x + 2)",
+        "(2x + 7)(2x + 2)"
+      ],
+      "answer": "(4x + 7)(x + 2)",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Factor: 5x² + 28x + 15",
+      "choices": [
+        "(5x + 3)(x + 5)",
+        "(5x + 5)(x + 3)",
+        "(x + 5)(x + 3)",
+        "(5x + 15)(x + 1)"
+      ],
+      "answer": "(5x + 3)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Factor: 6x² + 31x + 35",
+      "choices": [
+        "(3x + 7)(2x + 5)",
+        "(2x + 7)(3x + 5)",
+        "(6x + 35)(x + 1)",
+        "(x + 7)(x + 5)"
+      ],
+      "answer": "(3x + 7)(2x + 5)",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Factor: 2x² + 17x + 30",
+      "choices": [
+        "(2x + 15)(x + 2)",
+        "(2x + 10)(x + 3)",
+        "(x + 15)(x + 2)",
+        "(2x + 6)(x + 5)"
+      ],
+      "answer": "(2x + 15)(x + 2)",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Factor: 3x² + 25x + 28",
+      "choices": [
+        "(3x + 7)(x + 4)",
+        "(3x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(3x + 28)(x + 1)"
+      ],
+      "answer": "(3x + 7)(x + 4)",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Factor: 4x² + 29x + 30",
+      "choices": [
+        "(4x + 5)(x + 6)",
+        "(4x + 6)(x + 5)",
+        "(x + 6)(x + 5)",
+        "(2x + 5)(2x + 6)"
+      ],
+      "answer": "(4x + 5)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Factor: 5x² + 33x + 28",
+      "choices": [
+        "(5x + 7)(x + 4)",
+        "(5x + 4)(x + 7)",
+        "(x + 7)(x + 4)",
+        "(5x + 14)(x + 2)"
+      ],
+      "answer": "(5x + 7)(x + 4)",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Factor: 6x² + 37x + 30",
+      "choices": [
+        "(3x + 5)(2x + 6)",
+        "(3x + 6)(2x + 5)",
+        "(6x + 30)(x + 1)",
+        "(x + 6)(x + 5)"
+      ],
+      "answer": "(3x + 5)(2x + 6)",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Factor: 2x² + 19x + 35",
+      "choices": [
+        "(2x + 7)(x + 5)",
+        "(2x + 5)(x + 7)",
+        "(x + 7)(x + 5)",
+        "(2x + 35)(x + 1)"
+      ],
+      "answer": "(2x + 7)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Factor: 3x² + 29x + 40",
+      "choices": [
+        "(3x + 8)(x + 5)",
+        "(3x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(3x + 40)(x + 1)"
+      ],
+      "answer": "(3x + 8)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Factor: 4x² + 31x + 33",
+      "choices": [
+        "(4x + 11)(x + 3)",
+        "(4x + 3)(x + 11)",
+        "(x + 11)(x + 3)",
+        "(2x + 11)(2x + 3)"
+      ],
+      "answer": "(4x + 11)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Factor: 5x² + 37x + 42",
+      "choices": [
+        "(5x + 7)(x + 6)",
+        "(5x + 6)(x + 7)",
+        "(x + 7)(x + 6)",
+        "(5x + 21)(x + 2)"
+      ],
+      "answer": "(5x + 7)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Factor: 6x² + 41x + 35",
+      "choices": [
+        "(3x + 7)(2x + 5)",
+        "(2x + 7)(3x + 5)",
+        "(6x + 35)(x + 1)",
+        "(x + 7)(x + 5)"
+      ],
+      "answer": "(3x + 7)(2x + 5)",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Factor: 2x² + 21x + 40",
+      "choices": [
+        "(2x + 8)(x + 5)",
+        "(2x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(2x + 10)(x + 4)"
+      ],
+      "answer": "(2x + 8)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Factor: 3x² + 31x + 40",
+      "choices": [
+        "(3x + 8)(x + 5)",
+        "(3x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(3x + 40)(x + 1)"
+      ],
+      "answer": "(3x + 8)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Factor: 4x² + 37x + 33",
+      "choices": [
+        "(4x + 11)(x + 3)",
+        "(4x + 3)(x + 11)",
+        "(x + 11)(x + 3)",
+        "(2x + 11)(2x + 3)"
+      ],
+      "answer": "(4x + 11)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Factor: 5x² + 39x + 40",
+      "choices": [
+        "(5x + 8)(x + 5)",
+        "(5x + 5)(x + 8)",
+        "(x + 8)(x + 5)",
+        "(5x + 40)(x + 1)"
+      ],
+      "answer": "(5x + 8)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Factor: 6x² + 43x + 36",
+      "choices": [
+        "(3x + 9)(2x + 4)",
+        "(3x + 4)(2x + 9)",
+        "(6x + 36)(x + 1)",
+        "(x + 9)(x + 4)"
+      ],
+      "answer": "(3x + 4)(2x + 9)",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Factor: 2x² + 23x + 45",
+      "choices": [
+        "(2x + 9)(x + 5)",
+        "(2x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(2x + 15)(x + 3)"
+      ],
+      "answer": "(2x + 9)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Factor: 3x² + 38x + 45",
+      "choices": [
+        "(3x + 15)(x + 3)",
+        "(3x + 9)(x + 5)",
+        "(x + 15)(x + 3)",
+        "(3x + 45)(x + 1)"
+      ],
+      "answer": "(3x + 15)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Factor: 4x² + 47x + 45",
+      "choices": [
+        "(4x + 9)(x + 5)",
+        "(4x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(2x + 9)(2x + 5)"
+      ],
+      "answer": "(4x + 9)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Factor: 5x² + 46x + 45",
+      "choices": [
+        "(5x + 9)(x + 5)",
+        "(5x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(5x + 45)(x + 1)"
+      ],
+      "answer": "(5x + 9)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Factor: 6x² + 49x + 45",
+      "choices": [
+        "(3x + 9)(2x + 5)",
+        "(3x + 5)(2x + 9)",
+        "(6x + 45)(x + 1)",
+        "(x + 9)(x + 5)"
+      ],
+      "answer": "(3x + 5)(2x + 9)",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Factor: 2x² + 25x + 48",
+      "choices": [
+        "(2x + 16)(x + 3)",
+        "(2x + 12)(x + 4)",
+        "(x + 16)(x + 3)",
+        "(2x + 8)(x + 6)"
+      ],
+      "answer": "(2x + 16)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Factor: 3x² + 41x + 48",
+      "choices": [
+        "(3x + 16)(x + 3)",
+        "(3x + 3)(x + 16)",
+        "(x + 16)(x + 3)",
+        "(3x + 24)(x + 2)"
+      ],
+      "answer": "(3x + 16)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Factor: 4x² + 49x + 45",
+      "choices": [
+        "(4x + 9)(x + 5)",
+        "(4x + 5)(x + 9)",
+        "(x + 9)(x + 5)",
+        "(2x + 9)(2x + 5)"
+      ],
+      "answer": "(4x + 9)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Factor: 5x² + 51x + 46",
+      "choices": [
+        "(5x + 23)(x + 2)",
+        "(5x + 2)(x + 23)",
+        "(x + 23)(x + 2)",
+        "(5x + 46)(x + 1)"
+      ],
+      "answer": "(5x + 23)(x + 2)",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Factor: 6x² + 55x + 49",
+      "choices": [
+        "(3x + 7)(2x + 7)",
+        "(2x + 7)(3x + 7)",
+        "(6x + 49)(x + 1)",
+        "(x + 7)(x + 7)"
+      ],
+      "answer": "(3x + 7)(2x + 7)",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Factor: 2x² + 27x + 50",
+      "choices": [
+        "(2x + 25)(x + 2)",
+        "(2x + 10)(x + 5)",
+        "(x + 25)(x + 2)",
+        "(2x + 50)(x + 1)"
+      ],
+      "answer": "(2x + 25)(x + 2)",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Factor: 3x² + 46x + 45",
+      "choices": [
+        "(3x + 45)(x + 1)",
+        "(3x + 15)(x + 3)",
+        "(x + 45)(x + 1)",
+        "(3x + 9)(x + 5)"
+      ],
+      "answer": "(3x + 15)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Factor: 4x² + 51x + 50",
+      "choices": [
+        "(4x + 25)(x + 2)",
+        "(4x + 10)(x + 5)",
+        "(x + 25)(x + 2)",
+        "(2x + 25)(2x + 2)"
+      ],
+      "answer": "(4x + 25)(x + 2)",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Factor: 5x² + 54x + 49",
+      "choices": [
+        "(5x + 49)(x + 1)",
+        "(5x + 7)(x + 7)",
+        "(x + 49)(x + 1)",
+        "(5x + 35)(x + 1.4)"
+      ],
+      "answer": "(5x + 7)(x + 7)",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Factor: 6x² + 59x + 50",
+      "choices": [
+        "(3x + 10)(2x + 5)",
+        "(2x + 10)(3x + 5)",
+        "(6x + 50)(x + 1)",
+        "(x + 10)(x + 5)"
+      ],
+      "answer": "(3x + 10)(2x + 5)",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Factor: 2x² + 29x + 60",
+      "choices": [
+        "(2x + 20)(x + 3)",
+        "(2x + 12)(x + 5)",
+        "(x + 20)(x + 3)",
+        "(2x + 15)(x + 4)"
+      ],
+      "answer": "(2x + 15)(x + 4)",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Factor: 3x² + 50x + 48",
+      "choices": [
+        "(3x + 16)(x + 3)",
+        "(3x + 12)(x + 4)",
+        "(x + 16)(x + 3)",
+        "(3x + 24)(x + 2)"
+      ],
+      "answer": "(3x + 16)(x + 3)",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Factor: 4x² + 55x + 36",
+      "choices": [
+        "(4x + 9)(x + 4)",
+        "(4x + 4)(x + 9)",
+        "(x + 9)(x + 4)",
+        "(2x + 9)(2x + 4)"
+      ],
+      "answer": "(4x + 9)(x + 4)",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Factor: 5x² + 58x + 49",
+      "choices": [
+        "(5x + 49)(x + 1)",
+        "(5x + 7)(x + 7)",
+        "(x + 49)(x + 1)",
+        "(5x + 35)(x + 1.4)"
+      ],
+      "answer": "(5x + 7)(x + 7)",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Factor: 6x² + 61x + 60",
+      "choices": [
+        "(3x + 12)(2x + 5)",
+        "(3x + 5)(2x + 12)",
+        "(6x + 60)(x + 1)",
+        "(x + 12)(x + 5)"
+      ],
+      "answer": "(3x + 5)(2x + 12)",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Factor: 2x² + 31x + 70",
+      "choices": [
+        "(2x + 14)(x + 5)",
+        "(2x + 10)(x + 7)",
+        "(x + 14)(x + 5)",
+        "(2x + 35)(x + 2)"
+      ],
+      "answer": "(2x + 14)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Factor: 3x² + 55x + 50",
+      "choices": [
+        "(3x + 50)(x + 1)",
+        "(3x + 10)(x + 5)",
+        "(x + 50)(x + 1)",
+        "(3x + 25)(x + 2)"
+      ],
+      "answer": "(3x + 10)(x + 5)",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Factor: 4x² + 59x + 60",
+      "choices": [
+        "(4x + 15)(x + 4)",
+        "(4x + 12)(x + 5)",
+        "(x + 15)(x + 4)",
+        "(2x + 15)(2x + 4)"
+      ],
+      "answer": "(4x + 15)(x + 4)",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Factor: 5x² + 62x + 60",
+      "choices": [
+        "(5x + 30)(x + 2)",
+        "(5x + 12)(x + 5)",
+        "(x + 30)(x + 2)",
+        "(5x + 20)(x + 3)"
+      ],
+      "answer": "(5x + 30)(x + 2)",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Factor: 6x² + 65x + 60",
+      "choices": [
+        "(3x + 20)(2x + 3)",
+        "(3x + 12)(2x + 5)",
+        "(6x + 60)(x + 1)",
+        "(x + 20)(x + 3)"
+      ],
+      "answer": "(3x + 20)(2x + 3)",
+      "points": 30
+    }
+  ]
+}

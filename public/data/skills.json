@@ -19,5 +19,6 @@
   "simplify-expressions": ["simplify-expressions"],
   "solving-equations": ["solving-equations"],
   "solving-inequalities": ["solving-inequalities"],
-  "factoring": ["gcf-factoring", "factoring-by-grouping"]
+  "factoring": ["gcf-factoring", "factoring-by-grouping"],
+  "factoring-trinomials": ["factoring-trinomials-1", "factoring-trinomials-2"]
 }
