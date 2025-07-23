@@ -1,0 +1,103 @@
+{
+  "skills": [
+    {
+      "skill": "simplify-expressions",
+      "title": "Simplify Expressions",
+      "gameTypes": [
+        {
+          "type": "simplifying-terms",
+          "title": "Simplify Showdown",
+          "questions": [
+            {
+              "question": "Simplify: 2x + 3x - 4",
+              "options": ["5x - 4", "2x - 1", "x - 4", "4x + 4"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 4y - 2y + 7",
+              "options": ["2y + 7", "6y + 7", "2y - 7", "y + 7"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 3a + 2b - a + 4b",
+              "options": ["2a + 6b", "4a + 2b", "3a + 6b", "a + 6b"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 5m - 3m + 2n - n",
+              "options": ["2m + n", "8m + 3n", "2m - n", "5m + n"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 7p + 4 - 3p - 1",
+              "options": ["4p + 3", "10p + 5", "4p - 3", "7p + 3"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 2(x + 3) - 4",
+              "options": ["2x + 2", "2x + 6", "2x - 4", "x + 2"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 3(2y - 1) + 5",
+              "options": ["6y + 2", "6y - 3", "5y + 4", "6y + 8"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 4z + 6z - 2z",
+              "options": ["8z", "12z", "2z", "10z"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 9w - 5w + 3w - w",
+              "options": ["6w", "18w", "8w", "4w"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Simplify: 2(3k + 4) - 2k",
+              "options": ["4k + 8", "6k + 6", "8k + 8", "4k + 6"],
+              "answerIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "solving-equations",
+      "title": "Solving Equations",
+      "gameTypes": [
+        {
+          "type": "one-step-equations",
+          "title": "Equation Solver",
+          "questions": [
+            {
+              "question": "Solve: x + 5 = 12",
+              "options": ["x = 7", "x = 17", "x = 5", "x = 12"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Solve: 3y = 21",
+              "options": ["y = 7", "y = 24", "y = 18", "y = 63"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Solve: z - 8 = 15",
+              "options": ["z = 23", "z = 7", "z = -7", "z = 120"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Solve: 4a = 32",
+              "options": ["a = 8", "a = 28", "a = 36", "a = 128"],
+              "answerIndex": 0
+            },
+            {
+              "question": "Solve: b + 9 = 20",
+              "options": ["b = 11", "b = 29", "b = 9", "b = 180"],
+              "answerIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
