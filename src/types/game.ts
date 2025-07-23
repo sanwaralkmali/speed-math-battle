@@ -1,7 +1,10 @@
 export interface Question {
+  id?: number;
+  wave?: number;
   question: string;
-  options: string[];
-  answerIndex: number;
+  choices: string[];
+  answer: string;
+  points?: number;
 }
 
 export interface GameType {
@@ -23,7 +26,7 @@ export interface GameData {
 export interface Player {
   name: string;
   score: number;
-  color: 'player1' | 'player2';
+  color: string; // allow any string for color
 }
 
 export interface GameState {
