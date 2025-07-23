@@ -1,0 +1,1208 @@
+{
+  "title": "Greatest Common Factor",
+  "description": "Find the Greatest Common Factor of the numbers",
+  "waves": 5,
+  "timePerQuestion": 30,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "What is the GCF of 2 and 4?",
+      "choices": ["1", "2", "4", "8"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Find the GCF of 3 and 6.",
+      "choices": ["1", "2", "3", "6"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "What is the GCF of 5 and 10?",
+      "choices": ["1", "2", "5", "10"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Find the GCF of 4 and 8.",
+      "choices": ["1", "2", "4", "8"],
+      "answer": "4",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "What is the GCF of 6 and 9?",
+      "choices": ["1", "2", "3", "9"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Find the GCF of 7 and 14.",
+      "choices": ["1", "2", "7", "14"],
+      "answer": "7",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "What is the GCF of 8 and 12?",
+      "choices": ["2", "4", "6", "8"],
+      "answer": "4",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Find the GCF of 9 and 12.",
+      "choices": ["1", "2", "3", "6"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "What is the GCF of 10 and 15?",
+      "choices": ["1", "5", "10", "15"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Find the GCF of 12 and 16.",
+      "choices": ["2", "4", "8", "12"],
+      "answer": "4",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "What is the GCF of 14 and 21?",
+      "choices": ["1", "2", "7", "14"],
+      "answer": "7",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Find the GCF of 15 and 20.",
+      "choices": ["1", "5", "10", "15"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "What is the GCF of 16 and 20?",
+      "choices": ["2", "4", "8", "16"],
+      "answer": "4",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Find the GCF of 18 and 24.",
+      "choices": ["3", "6", "9", "12"],
+      "answer": "6",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "What is the GCF of 20 and 25?",
+      "choices": ["1", "5", "10", "20"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Find the GCF of 21 and 28.",
+      "choices": ["1", "3", "7", "14"],
+      "answer": "7",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "What is the GCF of 24 and 30?",
+      "choices": ["2", "3", "6", "12"],
+      "answer": "6",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Find the GCF of 25 and 30.",
+      "choices": ["1", "5", "10", "15"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "What is the GCF of 27 and 36?",
+      "choices": ["3", "6", "9", "12"],
+      "answer": "9",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Find the GCF of 28 and 35.",
+      "choices": ["1", "4", "7", "14"],
+      "answer": "7",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "What is the GCF of 30 and 40?",
+      "choices": ["5", "10", "15", "20"],
+      "answer": "10",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Find the GCF of 32 and 40.",
+      "choices": ["2", "4", "8", "16"],
+      "answer": "8",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "What is the GCF of 36 and 45?",
+      "choices": ["3", "5", "9", "15"],
+      "answer": "9",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Find the GCF of 40 and 50.",
+      "choices": ["2", "5", "10", "20"],
+      "answer": "10",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "What is the GCF of 42 and 56?",
+      "choices": ["2", "7", "14", "21"],
+      "answer": "14",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Find the GCF of 45 and 60.",
+      "choices": ["5", "15", "20", "30"],
+      "answer": "15",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "What is the GCF of 48 and 60?",
+      "choices": ["6", "12", "16", "24"],
+      "answer": "12",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Find the GCF of 50 and 75?",
+      "choices": ["5", "15", "25", "50"],
+      "answer": "25",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "What is the GCF of 54 and 72?",
+      "choices": ["6", "9", "18", "27"],
+      "answer": "18",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Find the GCF of 60 and 90?",
+      "choices": ["10", "15", "30", "60"],
+      "answer": "30",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "What is the GCF of 2, 4 and 6?",
+      "choices": ["1", "2", "4", "6"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Find the GCF of 3, 6 and 9.",
+      "choices": ["1", "2", "3", "9"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "What is the GCF of 4, 6 and 8?",
+      "choices": ["1", "2", "4", "6"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Find the GCF of 5, 10 and 15?",
+      "choices": ["1", "5", "10", "15"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "What is the GCF of 6, 9 and 12?",
+      "choices": ["1", "3", "6", "9"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Find the GCF of 8, 12 and 16?",
+      "choices": ["2", "4", "8", "12"],
+      "answer": "4",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "What is the GCF of 9, 12 and 15?",
+      "choices": ["1", "3", "6", "9"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Find the GCF of 10, 15 and 20?",
+      "choices": ["1", "5", "10", "15"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "What is the GCF of 12, 16 and 20?",
+      "choices": ["2", "4", "8", "12"],
+      "answer": "4",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Find the GCF of 14, 21 and 28?",
+      "choices": ["1", "2", "7", "14"],
+      "answer": "7",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 2,
+      "question": "What is the GCF of 18 and 24?",
+      "choices": ["3", "6", "9", "12"],
+      "answer": "6",
+      "points": 15
+    },
+    {
+      "id": 42,
+      "wave": 2,
+      "question": "Find the GCF of 20 and 30?",
+      "choices": ["5", "10", "15", "20"],
+      "answer": "10",
+      "points": 15
+    },
+    {
+      "id": 43,
+      "wave": 2,
+      "question": "What is the GCF of 21 and 35?",
+      "choices": ["1", "3", "7", "14"],
+      "answer": "7",
+      "points": 15
+    },
+    {
+      "id": 44,
+      "wave": 2,
+      "question": "Find the GCF of 24 and 36?",
+      "choices": ["6", "12", "18", "24"],
+      "answer": "12",
+      "points": 15
+    },
+    {
+      "id": 45,
+      "wave": 2,
+      "question": "What is the GCF of 25 and 40?",
+      "choices": ["1", "5", "10", "20"],
+      "answer": "5",
+      "points": 15
+    },
+    {
+      "id": 46,
+      "wave": 2,
+      "question": "Find the GCF of 27 and 45?",
+      "choices": ["3", "5", "9", "15"],
+      "answer": "9",
+      "points": 15
+    },
+    {
+      "id": 47,
+      "wave": 2,
+      "question": "What is the GCF of 28 and 42?",
+      "choices": ["2", "7", "14", "21"],
+      "answer": "14",
+      "points": 15
+    },
+    {
+      "id": 48,
+      "wave": 2,
+      "question": "Find the GCF of 30 and 45?",
+      "choices": ["5", "15", "30", "45"],
+      "answer": "15",
+      "points": 15
+    },
+    {
+      "id": 49,
+      "wave": 2,
+      "question": "What is the GCF of 32 and 48?",
+      "choices": ["8", "16", "24", "32"],
+      "answer": "16",
+      "points": 15
+    },
+    {
+      "id": 50,
+      "wave": 2,
+      "question": "Find the GCF of 35 and 50?",
+      "choices": ["1", "5", "7", "25"],
+      "answer": "5",
+      "points": 15
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "What is the GCF of 36 and 48?",
+      "choices": ["6", "12", "18", "24"],
+      "answer": "12",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Find the GCF of 40 and 60?",
+      "choices": ["10", "20", "40", "60"],
+      "answer": "20",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "What is the GCF of 42 and 56?",
+      "choices": ["2", "7", "14", "28"],
+      "answer": "14",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Find the GCF of 45 and 60?",
+      "choices": ["5", "15", "30", "45"],
+      "answer": "15",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "What is the GCF of 48 and 64?",
+      "choices": ["8", "16", "24", "32"],
+      "answer": "16",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Find the GCF of 50 and 75?",
+      "choices": ["5", "15", "25", "50"],
+      "answer": "25",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "What is the GCF of 54 and 72?",
+      "choices": ["6", "9", "18", "27"],
+      "answer": "18",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Find the GCF of 60 and 80?",
+      "choices": ["10", "20", "40", "60"],
+      "answer": "20",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "What is the GCF of 63 and 84?",
+      "choices": ["7", "21", "28", "42"],
+      "answer": "21",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Find the GCF of 70 and 90?",
+      "choices": ["5", "10", "15", "35"],
+      "answer": "10",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 3,
+      "question": "What is the GCF of 18, 24 and 30?",
+      "choices": ["2", "3", "6", "12"],
+      "answer": "6",
+      "points": 20
+    },
+    {
+      "id": 62,
+      "wave": 3,
+      "question": "Find the GCF of 20, 30 and 40?",
+      "choices": ["5", "10", "20", "30"],
+      "answer": "10",
+      "points": 20
+    },
+    {
+      "id": 63,
+      "wave": 3,
+      "question": "What is the GCF of 21, 28 and 35?",
+      "choices": ["1", "7", "14", "21"],
+      "answer": "7",
+      "points": 20
+    },
+    {
+      "id": 64,
+      "wave": 3,
+      "question": "Find the GCF of 24, 36 and 48?",
+      "choices": ["6", "12", "24", "36"],
+      "answer": "12",
+      "points": 20
+    },
+    {
+      "id": 65,
+      "wave": 3,
+      "question": "What is the GCF of 25, 35 and 45?",
+      "choices": ["1", "5", "15", "25"],
+      "answer": "5",
+      "points": 20
+    },
+    {
+      "id": 66,
+      "wave": 3,
+      "question": "Find the GCF of 27, 36 and 45?",
+      "choices": ["3", "9", "18", "27"],
+      "answer": "9",
+      "points": 20
+    },
+    {
+      "id": 67,
+      "wave": 3,
+      "question": "What is the GCF of 30, 42 and 54?",
+      "choices": ["3", "6", "12", "18"],
+      "answer": "6",
+      "points": 20
+    },
+    {
+      "id": 68,
+      "wave": 3,
+      "question": "Find the GCF of 32, 48 and 64?",
+      "choices": ["8", "16", "32", "48"],
+      "answer": "16",
+      "points": 20
+    },
+    {
+      "id": 69,
+      "wave": 3,
+      "question": "What is the GCF of 35, 49 and 63?",
+      "choices": ["1", "7", "14", "21"],
+      "answer": "7",
+      "points": 20
+    },
+    {
+      "id": 70,
+      "wave": 3,
+      "question": "Find the GCF of 40, 60 and 80?",
+      "choices": ["10", "20", "40", "60"],
+      "answer": "20",
+      "points": 20
+    },
+    {
+      "id": 71,
+      "wave": 4,
+      "question": "What is the GCF of 48 and 60?",
+      "choices": ["6", "12", "24", "30"],
+      "answer": "12",
+      "points": 25
+    },
+    {
+      "id": 72,
+      "wave": 4,
+      "question": "Find the GCF of 54 and 72?",
+      "choices": ["9", "18", "27", "36"],
+      "answer": "18",
+      "points": 25
+    },
+    {
+      "id": 73,
+      "wave": 4,
+      "question": "What is the GCF of 60 and 75?",
+      "choices": ["5", "15", "25", "30"],
+      "answer": "15",
+      "points": 25
+    },
+    {
+      "id": 74,
+      "wave": 4,
+      "question": "Find the GCF of 63 and 84?",
+      "choices": ["7", "21", "28", "42"],
+      "answer": "21",
+      "points": 25
+    },
+    {
+      "id": 75,
+      "wave": 4,
+      "question": "What is the GCF of 64 and 80?",
+      "choices": ["8", "16", "32", "40"],
+      "answer": "16",
+      "points": 25
+    },
+    {
+      "id": 76,
+      "wave": 4,
+      "question": "Find the GCF of 70 and 84?",
+      "choices": ["7", "14", "28", "35"],
+      "answer": "14",
+      "points": 25
+    },
+    {
+      "id": 77,
+      "wave": 4,
+      "question": "What is the GCF of 72 and 90?",
+      "choices": ["6", "9", "18", "36"],
+      "answer": "18",
+      "points": 25
+    },
+    {
+      "id": 78,
+      "wave": 4,
+      "question": "Find the GCF of 75 and 90?",
+      "choices": ["5", "15", "25", "45"],
+      "answer": "15",
+      "points": 25
+    },
+    {
+      "id": 79,
+      "wave": 4,
+      "question": "What is the GCF of 80 and 100?",
+      "choices": ["10", "20", "40", "80"],
+      "answer": "20",
+      "points": 25
+    },
+    {
+      "id": 80,
+      "wave": 4,
+      "question": "Find the GCF of 81 and 99?",
+      "choices": ["3", "9", "11", "27"],
+      "answer": "9",
+      "points": 25
+    },
+    {
+      "id": 81,
+      "wave": 4,
+      "question": "What is the GCF of 48, 60 and 72?",
+      "choices": ["6", "12", "24", "36"],
+      "answer": "12",
+      "points": 25
+    },
+    {
+      "id": 82,
+      "wave": 4,
+      "question": "Find the GCF of 54, 72 and 90?",
+      "choices": ["9", "18", "27", "36"],
+      "answer": "18",
+      "points": 25
+    },
+    {
+      "id": 83,
+      "wave": 4,
+      "question": "What is the GCF of 60, 75 and 90?",
+      "choices": ["5", "15", "25", "45"],
+      "answer": "15",
+      "points": 25
+    },
+    {
+      "id": 84,
+      "wave": 4,
+      "question": "Find the GCF of 63, 84 and 105?",
+      "choices": ["7", "21", "42", "63"],
+      "answer": "21",
+      "points": 25
+    },
+    {
+      "id": 85,
+      "wave": 4,
+      "question": "What is the GCF of 64, 80 and 96?",
+      "choices": ["8", "16", "32", "48"],
+      "answer": "16",
+      "points": 25
+    },
+    {
+      "id": 86,
+      "wave": 4,
+      "question": "Find the GCF of 70, 84 and 98?",
+      "choices": ["7", "14", "28", "49"],
+      "answer": "14",
+      "points": 25
+    },
+    {
+      "id": 87,
+      "wave": 4,
+      "question": "What is the GCF of 72, 90 and 108?",
+      "choices": ["6", "9", "18", "36"],
+      "answer": "18",
+      "points": 25
+    },
+    {
+      "id": 88,
+      "wave": 4,
+      "question": "Find the GCF of 75, 90 and 105?",
+      "choices": ["5", "15", "25", "45"],
+      "answer": "15",
+      "points": 25
+    },
+    {
+      "id": 89,
+      "wave": 4,
+      "question": "What is the GCF of 80, 100 and 120?",
+      "choices": ["10", "20", "40", "60"],
+      "answer": "20",
+      "points": 25
+    },
+    {
+      "id": 90,
+      "wave": 4,
+      "question": "Find the GCF of 81, 99 and 117?",
+      "choices": ["3", "9", "11", "27"],
+      "answer": "9",
+      "points": 25
+    },
+    {
+      "id": 91,
+      "wave": 5,
+      "question": "What is the GCF of 36 and 48?",
+      "choices": ["6", "12", "18", "24"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 92,
+      "wave": 5,
+      "question": "Find the GCF of 45 and 60?",
+      "choices": ["15", "5", "45", "30"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 93,
+      "wave": 5,
+      "question": "What is the GCF of 42 and 56?",
+      "choices": ["7", "14", "21", "28"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 94,
+      "wave": 5,
+      "question": "Find the GCF of 48 and 64?",
+      "choices": ["8", "16", "24", "32"],
+      "answer": "16",
+      "points": 30
+    },
+    {
+      "id": 95,
+      "wave": 5,
+      "question": "What is the GCF of 54 and 72?",
+      "choices": ["9", "18", "27", "36"],
+      "answer": "18",
+      "points": 30
+    },
+    {
+      "id": 96,
+      "wave": 5,
+      "question": "Find the GCF of 60 and 75?",
+      "choices": ["15", "5", "25", "30"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 97,
+      "wave": 5,
+      "question": "What is the GCF of 63 and 84?",
+      "choices": ["21", "7", "42", "63"],
+      "answer": "21",
+      "points": 30
+    },
+    {
+      "id": 98,
+      "wave": 5,
+      "question": "Find the GCF of 72 and 90?",
+      "choices": ["18", "9", "36", "45"],
+      "answer": "18",
+      "points": 30
+    },
+    {
+      "id": 99,
+      "wave": 5,
+      "question": "What is the GCF of 48, 60 and 72?",
+      "choices": ["12", "6", "24", "36"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 100,
+      "wave": 5,
+      "question": "Find the GCF of 54, 72 and 90?",
+      "choices": ["18", "9", "36", "27"],
+      "answer": "18",
+      "points": 30
+    },
+    {
+      "id": 101,
+      "wave": 5,
+      "question": "What is the GCF of 60, 75 and 90?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 102,
+      "wave": 5,
+      "question": "Find the GCF of 63, 84 and 105?",
+      "choices": ["21", "7", "42", "35"],
+      "answer": "21",
+      "points": 30
+    },
+    {
+      "id": 103,
+      "wave": 5,
+      "question": "What is the GCF of 64, 80 and 96?",
+      "choices": ["16", "8", "32", "48"],
+      "answer": "16",
+      "points": 30
+    },
+    {
+      "id": 104,
+      "wave": 5,
+      "question": "Find the GCF of 72, 90 and 108?",
+      "choices": ["18", "9", "36", "27"],
+      "answer": "18",
+      "points": 30
+    },
+    {
+      "id": 105,
+      "wave": 5,
+      "question": "What is the GCF of 75, 90 and 105?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 106,
+      "wave": 5,
+      "question": "Find the GCF of 80, 100 and 120?",
+      "choices": ["20", "10", "40", "60"],
+      "answer": "20",
+      "points": 30
+    },
+    {
+      "id": 107,
+      "wave": 5,
+      "question": "What is the GCF of 81, 99 and 117?",
+      "choices": ["9", "3", "27", "11"],
+      "answer": "9",
+      "points": 30
+    },
+    {
+      "id": 108,
+      "wave": 5,
+      "question": "Find the GCF of 84, 96 and 108?",
+      "choices": ["12", "6", "24", "36"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 109,
+      "wave": 5,
+      "question": "What is the GCF of 90, 105 and 120?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 110,
+      "wave": 5,
+      "question": "Find the GCF of 96, 108 and 120?",
+      "choices": ["12", "6", "24", "48"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 111,
+      "wave": 5,
+      "question": "What is the GCF of 100, 120 and 140?",
+      "choices": ["20", "10", "40", "60"],
+      "answer": "20",
+      "points": 30
+    },
+    {
+      "id": 112,
+      "wave": 5,
+      "question": "Find the GCF of 105, 120 and 135?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 113,
+      "wave": 5,
+      "question": "What is the GCF of 108, 120 and 132?",
+      "choices": ["12", "6", "24", "36"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 114,
+      "wave": 5,
+      "question": "Find the GCF of 112, 126 and 140?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 115,
+      "wave": 5,
+      "question": "What is the GCF of 120, 135 and 150?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 116,
+      "wave": 5,
+      "question": "Find the GCF of 126, 140 and 154?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 117,
+      "wave": 5,
+      "question": "What is the GCF of 132, 144 and 156?",
+      "choices": ["12", "6", "24", "36"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 118,
+      "wave": 5,
+      "question": "Find the GCF of 135, 150 and 165?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 119,
+      "wave": 5,
+      "question": "What is the GCF of 140, 154 and 168?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 120,
+      "wave": 5,
+      "question": "Find the GCF of 144, 156 and 168?",
+      "choices": ["12", "6", "24", "36"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 121,
+      "wave": 5,
+      "question": "What is the GCF of 150, 165 and 180?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 122,
+      "wave": 5,
+      "question": "Find the GCF of 154, 168 and 182?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 123,
+      "wave": 5,
+      "question": "What is the GCF of 156, 168 and 180?",
+      "choices": ["12", "6", "24", "36"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 124,
+      "wave": 5,
+      "question": "Find the GCF of 165, 180 and 195?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 125,
+      "wave": 5,
+      "question": "What is the GCF of 168, 182 and 196?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 126,
+      "wave": 5,
+      "question": "Find the GCF of 180, 195 and 210?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 127,
+      "wave": 5,
+      "question": "What is the GCF of 182, 196 and 210?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 128,
+      "wave": 5,
+      "question": "Find the GCF of 195, 210 and 225?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 129,
+      "wave": 5,
+      "question": "What is the GCF of 196, 210 and 224?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 130,
+      "wave": 5,
+      "question": "Find the GCF of 210, 225 and 240?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 131,
+      "wave": 5,
+      "question": "What is the GCF of 224, 238 and 252?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 132,
+      "wave": 5,
+      "question": "Find the GCF of 225, 240 and 255?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 133,
+      "wave": 5,
+      "question": "What is the GCF of 238, 252 and 266?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 134,
+      "wave": 5,
+      "question": "Find the GCF of 240, 255 and 270?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 135,
+      "wave": 5,
+      "question": "What is the GCF of 252, 266 and 280?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 136,
+      "wave": 5,
+      "question": "Find the GCF of 255, 270 and 285?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 137,
+      "wave": 5,
+      "question": "What is the GCF of 266, 280 and 294?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 138,
+      "wave": 5,
+      "question": "Find the GCF of 270, 285 and 300?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 139,
+      "wave": 5,
+      "question": "What is the GCF of 280, 294 and 308?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 140,
+      "wave": 5,
+      "question": "Find the GCF of 285, 300 and 315?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 141,
+      "wave": 5,
+      "question": "What is the GCF of 294, 308 and 322?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 142,
+      "wave": 5,
+      "question": "Find the GCF of 300, 315 and 330?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 143,
+      "wave": 5,
+      "question": "What is the GCF of 308, 322 and 336?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 144,
+      "wave": 5,
+      "question": "Find the GCF of 315, 330 and 345?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 145,
+      "wave": 5,
+      "question": "What is the GCF of 322, 336 and 350?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 146,
+      "wave": 5,
+      "question": "Find the GCF of 330, 345 and 360?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 147,
+      "wave": 5,
+      "question": "What is the GCF of 336, 350 and 364?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 148,
+      "wave": 5,
+      "question": "Find the GCF of 345, 360 and 375?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 149,
+      "wave": 5,
+      "question": "What is the GCF of 350, 364 and 378?",
+      "choices": ["14", "7", "28", "42"],
+      "answer": "14",
+      "points": 30
+    },
+    {
+      "id": 150,
+      "wave": 5,
+      "question": "Find the GCF of 360, 375 and 390?",
+      "choices": ["15", "5", "30", "45"],
+      "answer": "15",
+      "points": 30
+    }
+  ]
+}

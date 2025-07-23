@@ -1,0 +1,2947 @@
+{
+  "title": "Factoring by Grouping",
+  "description": "Factor the given expression by grouping",
+  "waves": 5,
+  "timePerQuestion": 75,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 3x + 2x + 6",
+      "choices": [
+        "(x + 2)(x + 3)",
+        "(x + 1)(x + 6)",
+        "(x + 2)(x + 4)",
+        "(x + 3)(x + 3)"
+      ],
+      "answer": "(x + 2)(x + 3)",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 5x + 4x + 20",
+      "choices": [
+        "(x + 4)(x + 5)",
+        "(x + 2)(x + 10)",
+        "(x + 1)(x + 20)",
+        "(x + 5)(x + 4)"
+      ],
+      "answer": "(x + 4)(x + 5)",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 4x + 3x + 12",
+      "choices": [
+        "(x + 3)(x + 4)",
+        "(x + 2)(x + 6)",
+        "(x + 1)(x + 12)",
+        "(x + 4)(x + 3)"
+      ],
+      "answer": "(x + 3)(x + 4)",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 2x + 5x + 10",
+      "choices": [
+        "(x + 2)(x + 5)",
+        "(x + 1)(x + 10)",
+        "(x + 5)(x + 2)",
+        "(x + 2)(x + 6)"
+      ],
+      "answer": "(x + 2)(x + 5)",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 7x + 3x + 21",
+      "choices": [
+        "(x + 3)(x + 7)",
+        "(x + 1)(x + 21)",
+        "(x + 7)(x + 3)",
+        "(x + 3)(x + 8)"
+      ],
+      "answer": "(x + 3)(x + 7)",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 6x + 2x + 12",
+      "choices": [
+        "(x + 2)(x + 6)",
+        "(x + 3)(x + 4)",
+        "(x + 1)(x + 12)",
+        "(x + 6)(x + 2)"
+      ],
+      "answer": "(x + 2)(x + 6)",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 8x + 4x + 32",
+      "choices": [
+        "(x + 4)(x + 8)",
+        "(x + 2)(x + 16)",
+        "(x + 1)(x + 32)",
+        "(x + 8)(x + 4)"
+      ],
+      "answer": "(x + 4)(x + 8)",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 9x + 3x + 27",
+      "choices": [
+        "(x + 3)(x + 9)",
+        "(x + 1)(x + 27)",
+        "(x + 9)(x + 3)",
+        "(x + 3)(x + 10)"
+      ],
+      "answer": "(x + 3)(x + 9)",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 5x + 6x + 30",
+      "choices": [
+        "(x + 5)(x + 6)",
+        "(x + 2)(x + 15)",
+        "(x + 1)(x + 30)",
+        "(x + 6)(x + 5)"
+      ],
+      "answer": "(x + 5)(x + 6)",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 10x + 2x + 20",
+      "choices": [
+        "(x + 2)(x + 10)",
+        "(x + 1)(x + 20)",
+        "(x + 5)(x + 4)",
+        "(x + 10)(x + 2)"
+      ],
+      "answer": "(x + 2)(x + 10)",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 4x + 6x + 24",
+      "choices": [
+        "(x + 4)(x + 6)",
+        "(x + 2)(x + 12)",
+        "(x + 3)(x + 8)",
+        "(x + 6)(x + 4)"
+      ],
+      "answer": "(x + 4)(x + 6)",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 7x + 5x + 35",
+      "choices": [
+        "(x + 5)(x + 7)",
+        "(x + 1)(x + 35)",
+        "(x + 7)(x + 5)",
+        "(x + 5)(x + 8)"
+      ],
+      "answer": "(x + 5)(x + 7)",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 8x + 6x + 48",
+      "choices": [
+        "(x + 6)(x + 8)",
+        "(x + 2)(x + 24)",
+        "(x + 4)(x + 12)",
+        "(x + 8)(x + 6)"
+      ],
+      "answer": "(x + 6)(x + 8)",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 9x + 6x + 54",
+      "choices": [
+        "(x + 6)(x + 9)",
+        "(x + 3)(x + 18)",
+        "(x + 2)(x + 27)",
+        "(x + 9)(x + 6)"
+      ],
+      "answer": "(x + 6)(x + 9)",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 11x + 5x + 55",
+      "choices": [
+        "(x + 5)(x + 11)",
+        "(x + 1)(x + 55)",
+        "(x + 11)(x + 5)",
+        "(x + 5)(x + 12)"
+      ],
+      "answer": "(x + 5)(x + 11)",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 12x + 3x + 36",
+      "choices": [
+        "(x + 3)(x + 12)",
+        "(x + 4)(x + 9)",
+        "(x + 6)(x + 6)",
+        "(x + 12)(x + 3)"
+      ],
+      "answer": "(x + 3)(x + 12)",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 13x + 2x + 26",
+      "choices": [
+        "(x + 2)(x + 13)",
+        "(x + 1)(x + 26)",
+        "(x + 13)(x + 2)",
+        "(x + 2)(x + 14)"
+      ],
+      "answer": "(x + 2)(x + 13)",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 14x + 3x + 42",
+      "choices": [
+        "(x + 3)(x + 14)",
+        "(x + 2)(x + 21)",
+        "(x + 6)(x + 7)",
+        "(x + 14)(x + 3)"
+      ],
+      "answer": "(x + 3)(x + 14)",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 15x + 4x + 60",
+      "choices": [
+        "(x + 4)(x + 15)",
+        "(x + 5)(x + 12)",
+        "(x + 6)(x + 10)",
+        "(x + 15)(x + 4)"
+      ],
+      "answer": "(x + 4)(x + 15)",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 16x + 5x + 80",
+      "choices": [
+        "(x + 5)(x + 16)",
+        "(x + 4)(x + 20)",
+        "(x + 8)(x + 10)",
+        "(x + 16)(x + 5)"
+      ],
+      "answer": "(x + 5)(x + 16)",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 2x + 7x + 14",
+      "choices": [
+        "(x + 2)(x + 7)",
+        "(x + 1)(x + 14)",
+        "(x + 7)(x + 2)",
+        "(x + 2)(x + 8)"
+      ],
+      "answer": "(x + 2)(x + 7)",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 3x + 8x + 24",
+      "choices": [
+        "(x + 3)(x + 8)",
+        "(x + 2)(x + 12)",
+        "(x + 4)(x + 6)",
+        "(x + 8)(x + 3)"
+      ],
+      "answer": "(x + 3)(x + 8)",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 4x + 9x + 36",
+      "choices": [
+        "(x + 4)(x + 9)",
+        "(x + 3)(x + 12)",
+        "(x + 6)(x + 6)",
+        "(x + 9)(x + 4)"
+      ],
+      "answer": "(x + 4)(x + 9)",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 5x + 10x + 50",
+      "choices": [
+        "(x + 5)(x + 10)",
+        "(x + 2)(x + 25)",
+        "(x + 10)(x + 5)",
+        "(x + 5)(x + 11)"
+      ],
+      "answer": "(x + 5)(x + 10)",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 6x + 11x + 66",
+      "choices": [
+        "(x + 6)(x + 11)",
+        "(x + 3)(x + 22)",
+        "(x + 11)(x + 6)",
+        "(x + 6)(x + 12)"
+      ],
+      "answer": "(x + 6)(x + 11)",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 7x + 12x + 84",
+      "choices": [
+        "(x + 7)(x + 12)",
+        "(x + 6)(x + 14)",
+        "(x + 12)(x + 7)",
+        "(x + 7)(x + 13)"
+      ],
+      "answer": "(x + 7)(x + 12)",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 8x + 13x + 104",
+      "choices": [
+        "(x + 8)(x + 13)",
+        "(x + 4)(x + 26)",
+        "(x + 13)(x + 8)",
+        "(x + 8)(x + 14)"
+      ],
+      "answer": "(x + 8)(x + 13)",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 9x + 14x + 126",
+      "choices": [
+        "(x + 9)(x + 14)",
+        "(x + 7)(x + 18)",
+        "(x + 14)(x + 9)",
+        "(x + 9)(x + 15)"
+      ],
+      "answer": "(x + 9)(x + 14)",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 10x + 15x + 150",
+      "choices": [
+        "(x + 10)(x + 15)",
+        "(x + 5)(x + 30)",
+        "(x + 15)(x + 10)",
+        "(x + 10)(x + 16)"
+      ],
+      "answer": "(x + 10)(x + 15)",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 11x + 16x + 176",
+      "choices": [
+        "(x + 11)(x + 16)",
+        "(x + 8)(x + 22)",
+        "(x + 16)(x + 11)",
+        "(x + 11)(x + 17)"
+      ],
+      "answer": "(x + 11)(x + 16)",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 12x + 17x + 204",
+      "choices": [
+        "(x + 12)(x + 17)",
+        "(x + 6)(x + 34)",
+        "(x + 17)(x + 12)",
+        "(x + 12)(x + 18)"
+      ],
+      "answer": "(x + 12)(x + 17)",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 13x + 18x + 234",
+      "choices": [
+        "(x + 13)(x + 18)",
+        "(x + 9)(x + 26)",
+        "(x + 18)(x + 13)",
+        "(x + 13)(x + 19)"
+      ],
+      "answer": "(x + 13)(x + 18)",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 14x + 19x + 266",
+      "choices": [
+        "(x + 14)(x + 19)",
+        "(x + 7)(x + 38)",
+        "(x + 19)(x + 14)",
+        "(x + 14)(x + 20)"
+      ],
+      "answer": "(x + 14)(x + 19)",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 15x + 20x + 300",
+      "choices": [
+        "(x + 15)(x + 20)",
+        "(x + 10)(x + 30)",
+        "(x + 20)(x + 15)",
+        "(x + 15)(x + 21)"
+      ],
+      "answer": "(x + 15)(x + 20)",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 16x + 21x + 336",
+      "choices": [
+        "(x + 16)(x + 21)",
+        "(x + 12)(x + 28)",
+        "(x + 21)(x + 16)",
+        "(x + 16)(x + 22)"
+      ],
+      "answer": "(x + 16)(x + 21)",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 17x + 22x + 374",
+      "choices": [
+        "(x + 17)(x + 22)",
+        "(x + 11)(x + 34)",
+        "(x + 22)(x + 17)",
+        "(x + 17)(x + 23)"
+      ],
+      "answer": "(x + 17)(x + 22)",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 18x + 23x + 414",
+      "choices": [
+        "(x + 18)(x + 23)",
+        "(x + 9)(x + 46)",
+        "(x + 23)(x + 18)",
+        "(x + 18)(x + 24)"
+      ],
+      "answer": "(x + 18)(x + 23)",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 19x + 24x + 456",
+      "choices": [
+        "(x + 19)(x + 24)",
+        "(x + 12)(x + 38)",
+        "(x + 24)(x + 19)",
+        "(x + 19)(x + 25)"
+      ],
+      "answer": "(x + 19)(x + 24)",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 20x + 25x + 500",
+      "choices": [
+        "(x + 20)(x + 25)",
+        "(x + 10)(x + 50)",
+        "(x + 25)(x + 20)",
+        "(x + 20)(x + 26)"
+      ],
+      "answer": "(x + 20)(x + 25)",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 21x + 26x + 546",
+      "choices": [
+        "(x + 21)(x + 26)",
+        "(x + 13)(x + 42)",
+        "(x + 26)(x + 21)",
+        "(x + 21)(x + 27)"
+      ],
+      "answer": "(x + 21)(x + 26)",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 22x + 27x + 594",
+      "choices": [
+        "(x + 22)(x + 27)",
+        "(x + 11)(x + 54)",
+        "(x + 27)(x + 22)",
+        "(x + 22)(x + 28)"
+      ],
+      "answer": "(x + 22)(x + 27)",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 23x + 28x + 644",
+      "choices": [
+        "(x + 23)(x + 28)",
+        "(x + 14)(x + 46)",
+        "(x + 28)(x + 23)",
+        "(x + 23)(x + 29)"
+      ],
+      "answer": "(x + 23)(x + 28)",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 24x + 29x + 696",
+      "choices": [
+        "(x + 24)(x + 29)",
+        "(x + 12)(x + 58)",
+        "(x + 29)(x + 24)",
+        "(x + 24)(x + 30)"
+      ],
+      "answer": "(x + 24)(x + 29)",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 25x + 30x + 750",
+      "choices": [
+        "(x + 25)(x + 30)",
+        "(x + 15)(x + 50)",
+        "(x + 30)(x + 25)",
+        "(x + 25)(x + 31)"
+      ],
+      "answer": "(x + 25)(x + 30)",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 26x + 31x + 806",
+      "choices": [
+        "(x + 26)(x + 31)",
+        "(x + 13)(x + 62)",
+        "(x + 31)(x + 26)",
+        "(x + 26)(x + 32)"
+      ],
+      "answer": "(x + 26)(x + 31)",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 27x + 32x + 864",
+      "choices": [
+        "(x + 27)(x + 32)",
+        "(x + 16)(x + 54)",
+        "(x + 32)(x + 27)",
+        "(x + 27)(x + 33)"
+      ],
+      "answer": "(x + 27)(x + 32)",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 28x + 33x + 924",
+      "choices": [
+        "(x + 28)(x + 33)",
+        "(x + 14)(x + 66)",
+        "(x + 33)(x + 28)",
+        "(x + 28)(x + 34)"
+      ],
+      "answer": "(x + 28)(x + 33)",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 29x + 34x + 986",
+      "choices": [
+        "(x + 29)(x + 34)",
+        "(x + 17)(x + 58)",
+        "(x + 34)(x + 29)",
+        "(x + 29)(x + 35)"
+      ],
+      "answer": "(x + 29)(x + 34)",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 30x + 35x + 1050",
+      "choices": [
+        "(x + 30)(x + 35)",
+        "(x + 15)(x + 70)",
+        "(x + 35)(x + 30)",
+        "(x + 30)(x + 36)"
+      ],
+      "answer": "(x + 30)(x + 35)",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Factor by grouping: x² + 31x + 36x + 1116",
+      "choices": [
+        "(x + 31)(x + 36)",
+        "(x + 18)(x + 62)",
+        "(x + 36)(x + 31)",
+        "(x + 31)(x + 37)"
+      ],
+      "answer": "(x + 31)(x + 36)",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Factor by grouping: 2x² + 6x + 3x + 9",
+      "choices": [
+        "(2x + 3)(x + 3)",
+        "(x + 3)(2x + 3)",
+        "(2x + 1)(x + 9)",
+        "(x + 1)(2x + 9)"
+      ],
+      "answer": "(2x + 3)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Factor by grouping: 3x² + 9x + 2x + 6",
+      "choices": [
+        "(3x + 2)(x + 3)",
+        "(x + 3)(3x + 2)",
+        "(3x + 1)(x + 6)",
+        "(x + 2)(3x + 3)"
+      ],
+      "answer": "(3x + 2)(x + 3)",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Factor by grouping: 4x² + 8x + 3x + 6",
+      "choices": [
+        "(4x + 3)(x + 2)",
+        "(x + 2)(4x + 3)",
+        "(4x + 1)(x + 6)",
+        "(x + 1)(4x + 6)"
+      ],
+      "answer": "(4x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Factor by grouping: 5x² + 10x + 2x + 4",
+      "choices": [
+        "(5x + 2)(x + 2)",
+        "(x + 2)(5x + 2)",
+        "(5x + 1)(x + 4)",
+        "(x + 1)(5x + 4)"
+      ],
+      "answer": "(5x + 2)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Factor by grouping: 6x² + 12x + 5x + 10",
+      "choices": [
+        "(6x + 5)(x + 2)",
+        "(x + 2)(6x + 5)",
+        "(6x + 1)(x + 10)",
+        "(x + 5)(6x + 2)"
+      ],
+      "answer": "(6x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Factor by grouping: 7x² + 14x + 3x + 6",
+      "choices": [
+        "(7x + 3)(x + 2)",
+        "(x + 2)(7x + 3)",
+        "(7x + 1)(x + 6)",
+        "(x + 3)(7x + 2)"
+      ],
+      "answer": "(7x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Factor by grouping: 8x² + 16x + 5x + 10",
+      "choices": [
+        "(8x + 5)(x + 2)",
+        "(x + 2)(8x + 5)",
+        "(8x + 1)(x + 10)",
+        "(x + 5)(8x + 2)"
+      ],
+      "answer": "(8x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Factor by grouping: 9x² + 18x + 4x + 8",
+      "choices": [
+        "(9x + 4)(x + 2)",
+        "(x + 2)(9x + 4)",
+        "(9x + 1)(x + 8)",
+        "(x + 4)(9x + 2)"
+      ],
+      "answer": "(9x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Factor by grouping: 10x² + 20x + 3x + 6",
+      "choices": [
+        "(10x + 3)(x + 2)",
+        "(x + 2)(10x + 3)",
+        "(10x + 1)(x + 6)",
+        "(x + 3)(10x + 2)"
+      ],
+      "answer": "(10x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Factor by grouping: 11x² + 22x + 4x + 8",
+      "choices": [
+        "(11x + 4)(x + 2)",
+        "(x + 2)(11x + 4)",
+        "(11x + 1)(x + 8)",
+        "(x + 4)(11x + 2)"
+      ],
+      "answer": "(11x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Factor by grouping: 12x² + 24x + 5x + 10",
+      "choices": [
+        "(12x + 5)(x + 2)",
+        "(x + 2)(12x + 5)",
+        "(12x + 1)(x + 10)",
+        "(x + 5)(12x + 2)"
+      ],
+      "answer": "(12x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Factor by grouping: 13x² + 26x + 3x + 6",
+      "choices": [
+        "(13x + 3)(x + 2)",
+        "(x + 2)(13x + 3)",
+        "(13x + 1)(x + 6)",
+        "(x + 3)(13x + 2)"
+      ],
+      "answer": "(13x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Factor by grouping: 14x² + 28x + 6x + 12",
+      "choices": [
+        "(14x + 6)(x + 2)",
+        "(x + 2)(14x + 6)",
+        "(14x + 2)(x + 6)",
+        "(7x + 3)(x + 4)"
+      ],
+      "answer": "(14x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Factor by grouping: 15x² + 30x + 4x + 8",
+      "choices": [
+        "(15x + 4)(x + 2)",
+        "(x + 2)(15x + 4)",
+        "(15x + 1)(x + 8)",
+        "(x + 4)(15x + 2)"
+      ],
+      "answer": "(15x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Factor by grouping: 16x² + 32x + 5x + 10",
+      "choices": [
+        "(16x + 5)(x + 2)",
+        "(x + 2)(16x + 5)",
+        "(16x + 1)(x + 10)",
+        "(x + 5)(16x + 2)"
+      ],
+      "answer": "(16x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Factor by grouping: 17x² + 34x + 4x + 8",
+      "choices": [
+        "(17x + 4)(x + 2)",
+        "(x + 2)(17x + 4)",
+        "(17x + 1)(x + 8)",
+        "(x + 4)(17x + 2)"
+      ],
+      "answer": "(17x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Factor by grouping: 18x² + 36x + 6x + 12",
+      "choices": [
+        "(18x + 6)(x + 2)",
+        "(x + 2)(18x + 6)",
+        "(18x + 2)(x + 6)",
+        "(9x + 3)(x + 4)"
+      ],
+      "answer": "(18x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Factor by grouping: 19x² + 38x + 3x + 6",
+      "choices": [
+        "(19x + 3)(x + 2)",
+        "(x + 2)(19x + 3)",
+        "(19x + 1)(x + 6)",
+        "(x + 3)(19x + 2)"
+      ],
+      "answer": "(19x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Factor by grouping: 20x² + 40x + 5x + 10",
+      "choices": [
+        "(20x + 5)(x + 2)",
+        "(x + 2)(20x + 5)",
+        "(20x + 1)(x + 10)",
+        "(x + 5)(20x + 2)"
+      ],
+      "answer": "(20x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Factor by grouping: 21x² + 42x + 7x + 14",
+      "choices": [
+        "(21x + 7)(x + 2)",
+        "(x + 2)(21x + 7)",
+        "(21x + 1)(x + 14)",
+        "(7x + 7)(3x + 2)"
+      ],
+      "answer": "(21x + 7)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Factor by grouping: 22x² + 44x + 6x + 12",
+      "choices": [
+        "(22x + 6)(x + 2)",
+        "(x + 2)(22x + 6)",
+        "(22x + 2)(x + 6)",
+        "(11x + 3)(2x + 4)"
+      ],
+      "answer": "(22x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Factor by grouping: 23x² + 46x + 5x + 10",
+      "choices": [
+        "(23x + 5)(x + 2)",
+        "(x + 2)(23x + 5)",
+        "(23x + 1)(x + 10)",
+        "(x + 5)(23x + 2)"
+      ],
+      "answer": "(23x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Factor by grouping: 24x² + 48x + 4x + 8",
+      "choices": [
+        "(24x + 4)(x + 2)",
+        "(x + 2)(24x + 4)",
+        "(24x + 1)(x + 8)",
+        "(x + 4)(24x + 2)"
+      ],
+      "answer": "(24x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Factor by grouping: 25x² + 50x + 3x + 6",
+      "choices": [
+        "(25x + 3)(x + 2)",
+        "(x + 2)(25x + 3)",
+        "(25x + 1)(x + 6)",
+        "(x + 3)(25x + 2)"
+      ],
+      "answer": "(25x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Factor by grouping: 26x² + 52x + 6x + 12",
+      "choices": [
+        "(26x + 6)(x + 2)",
+        "(x + 2)(26x + 6)",
+        "(26x + 2)(x + 6)",
+        "(13x + 3)(2x + 4)"
+      ],
+      "answer": "(26x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Factor by grouping: 27x² + 54x + 5x + 10",
+      "choices": [
+        "(27x + 5)(x + 2)",
+        "(x + 2)(27x + 5)",
+        "(27x + 1)(x + 10)",
+        "(x + 5)(27x + 2)"
+      ],
+      "answer": "(27x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Factor by grouping: 28x² + 56x + 4x + 8",
+      "choices": [
+        "(28x + 4)(x + 2)",
+        "(x + 2)(28x + 4)",
+        "(28x + 1)(x + 8)",
+        "(x + 4)(28x + 2)"
+      ],
+      "answer": "(28x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Factor by grouping: 29x² + 58x + 3x + 6",
+      "choices": [
+        "(29x + 3)(x + 2)",
+        "(x + 2)(29x + 3)",
+        "(29x + 1)(x + 6)",
+        "(x + 3)(29x + 2)"
+      ],
+      "answer": "(29x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Factor by grouping: 30x² + 60x + 6x + 12",
+      "choices": [
+        "(30x + 6)(x + 2)",
+        "(x + 2)(30x + 6)",
+        "(30x + 2)(x + 6)",
+        "(15x + 3)(2x + 4)"
+      ],
+      "answer": "(30x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Factor by grouping: 31x² + 62x + 5x + 10",
+      "choices": [
+        "(31x + 5)(x + 2)",
+        "(x + 2)(31x + 5)",
+        "(31x + 1)(x + 10)",
+        "(x + 5)(31x + 2)"
+      ],
+      "answer": "(31x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Factor by grouping: 32x² + 64x + 4x + 8",
+      "choices": [
+        "(32x + 4)(x + 2)",
+        "(x + 2)(32x + 4)",
+        "(32x + 1)(x + 8)",
+        "(x + 4)(32x + 2)"
+      ],
+      "answer": "(32x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Factor by grouping: 33x² + 66x + 3x + 6",
+      "choices": [
+        "(33x + 3)(x + 2)",
+        "(x + 2)(33x + 3)",
+        "(33x + 1)(x + 6)",
+        "(x + 3)(33x + 2)"
+      ],
+      "answer": "(33x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Factor by grouping: 34x² + 68x + 6x + 12",
+      "choices": [
+        "(34x + 6)(x + 2)",
+        "(x + 2)(34x + 6)",
+        "(34x + 2)(x + 6)",
+        "(17x + 3)(2x + 4)"
+      ],
+      "answer": "(34x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Factor by grouping: 35x² + 70x + 5x + 10",
+      "choices": [
+        "(35x + 5)(x + 2)",
+        "(x + 2)(35x + 5)",
+        "(35x + 1)(x + 10)",
+        "(x + 5)(35x + 2)"
+      ],
+      "answer": "(35x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Factor by grouping: 36x² + 72x + 4x + 8",
+      "choices": [
+        "(36x + 4)(x + 2)",
+        "(x + 2)(36x + 4)",
+        "(36x + 1)(x + 8)",
+        "(x + 4)(36x + 2)"
+      ],
+      "answer": "(36x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Factor by grouping: 37x² + 74x + 3x + 6",
+      "choices": [
+        "(37x + 3)(x + 2)",
+        "(x + 2)(37x + 3)",
+        "(37x + 1)(x + 6)",
+        "(x + 3)(37x + 2)"
+      ],
+      "answer": "(37x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Factor by grouping: 38x² + 76x + 6x + 12",
+      "choices": [
+        "(38x + 6)(x + 2)",
+        "(x + 2)(38x + 6)",
+        "(38x + 2)(x + 6)",
+        "(19x + 3)(2x + 4)"
+      ],
+      "answer": "(38x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Factor by grouping: 39x² + 78x + 5x + 10",
+      "choices": [
+        "(39x + 5)(x + 2)",
+        "(x + 2)(39x + 5)",
+        "(39x + 1)(x + 10)",
+        "(x + 5)(39x + 2)"
+      ],
+      "answer": "(39x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Factor by grouping: 40x² + 80x + 4x + 8",
+      "choices": [
+        "(40x + 4)(x + 2)",
+        "(x + 2)(40x + 4)",
+        "(40x + 1)(x + 8)",
+        "(x + 4)(40x + 2)"
+      ],
+      "answer": "(40x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Factor by grouping: 41x² + 82x + 3x + 6",
+      "choices": [
+        "(41x + 3)(x + 2)",
+        "(x + 2)(41x + 3)",
+        "(41x + 1)(x + 6)",
+        "(x + 3)(41x + 2)"
+      ],
+      "answer": "(41x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Factor by grouping: 42x² + 84x + 6x + 12",
+      "choices": [
+        "(42x + 6)(x + 2)",
+        "(x + 2)(42x + 6)",
+        "(42x + 2)(x + 6)",
+        "(21x + 3)(2x + 4)"
+      ],
+      "answer": "(42x + 6)(x + 2)",
+      "points": 15
+    },
+
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Factor by grouping: 43x² + 86x + 5x + 10",
+      "choices": [
+        "(43x + 5)(x + 2)",
+        "(x + 2)(43x + 5)",
+        "(43x + 1)(x + 10)",
+        "(x + 5)(43x + 2)"
+      ],
+      "answer": "(43x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Factor by grouping: 44x² + 88x + 4x + 8",
+      "choices": [
+        "(44x + 4)(x + 2)",
+        "(x + 2)(44x + 4)",
+        "(44x + 1)(x + 8)",
+        "(x + 4)(44x + 2)"
+      ],
+      "answer": "(44x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Factor by grouping: 45x² + 90x + 3x + 6",
+      "choices": [
+        "(45x + 3)(x + 2)",
+        "(x + 2)(45x + 3)",
+        "(45x + 1)(x + 6)",
+        "(x + 3)(45x + 2)"
+      ],
+      "answer": "(45x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Factor by grouping: 46x² + 92x + 6x + 12",
+      "choices": [
+        "(46x + 6)(x + 2)",
+        "(x + 2)(46x + 6)",
+        "(46x + 2)(x + 6)",
+        "(23x + 3)(2x + 4)"
+      ],
+      "answer": "(46x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Factor by grouping: 47x² + 94x + 5x + 10",
+      "choices": [
+        "(47x + 5)(x + 2)",
+        "(x + 2)(47x + 5)",
+        "(47x + 1)(x + 10)",
+        "(x + 5)(47x + 2)"
+      ],
+      "answer": "(47x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Factor by grouping: 48x² + 96x + 4x + 8",
+      "choices": [
+        "(48x + 4)(x + 2)",
+        "(x + 2)(48x + 4)",
+        "(48x + 1)(x + 8)",
+        "(x + 4)(48x + 2)"
+      ],
+      "answer": "(48x + 4)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Factor by grouping: 49x² + 98x + 3x + 6",
+      "choices": [
+        "(49x + 3)(x + 2)",
+        "(x + 2)(49x + 3)",
+        "(49x + 1)(x + 6)",
+        "(x + 3)(49x + 2)"
+      ],
+      "answer": "(49x + 3)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Factor by grouping: 50x² + 100x + 6x + 12",
+      "choices": [
+        "(50x + 6)(x + 2)",
+        "(x + 2)(50x + 6)",
+        "(50x + 2)(x + 6)",
+        "(25x + 3)(2x + 4)"
+      ],
+      "answer": "(50x + 6)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Factor by grouping: 51x² + 102x + 5x + 10",
+      "choices": [
+        "(51x + 5)(x + 2)",
+        "(x + 2)(51x + 5)",
+        "(51x + 1)(x + 10)",
+        "(x + 5)(51x + 2)"
+      ],
+      "answer": "(51x + 5)(x + 2)",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Factor by grouping: 2x² + 8x + 3x + 12",
+      "choices": [
+        "(2x + 3)(x + 4)",
+        "(x + 4)(2x + 3)",
+        "(2x + 1)(x + 12)",
+        "(x + 1)(2x + 12)"
+      ],
+      "answer": "(2x + 3)(x + 4)",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Factor by grouping: 3x² + 12x + 4x + 16",
+      "choices": [
+        "(3x + 4)(x + 4)",
+        "(x + 4)(3x + 4)",
+        "(3x + 1)(x + 16)",
+        "(x + 1)(3x + 16)"
+      ],
+      "answer": "(3x + 4)(x + 4)",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Factor by grouping: 4x² + 20x + 3x + 15",
+      "choices": [
+        "(4x + 3)(x + 5)",
+        "(x + 5)(4x + 3)",
+        "(4x + 1)(x + 15)",
+        "(x + 1)(4x + 15)"
+      ],
+      "answer": "(4x + 3)(x + 5)",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Factor by grouping: 5x² + 15x + 2x + 6",
+      "choices": [
+        "(5x + 2)(x + 3)",
+        "(x + 3)(5x + 2)",
+        "(5x + 1)(x + 6)",
+        "(x + 1)(5x + 6)"
+      ],
+      "answer": "(5x + 2)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Factor by grouping: 6x² + 18x + 5x + 15",
+      "choices": [
+        "(6x + 5)(x + 3)",
+        "(x + 3)(6x + 5)",
+        "(6x + 1)(x + 15)",
+        "(x + 1)(6x + 15)"
+      ],
+      "answer": "(6x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Factor by grouping: 7x² + 21x + 4x + 12",
+      "choices": [
+        "(7x + 4)(x + 3)",
+        "(x + 3)(7x + 4)",
+        "(7x + 1)(x + 12)",
+        "(x + 1)(7x + 12)"
+      ],
+      "answer": "(7x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Factor by grouping: 8x² + 24x + 3x + 9",
+      "choices": [
+        "(8x + 3)(x + 3)",
+        "(x + 3)(8x + 3)",
+        "(8x + 1)(x + 9)",
+        "(x + 1)(8x + 9)"
+      ],
+      "answer": "(8x + 3)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Factor by grouping: 9x² + 27x + 6x + 18",
+      "choices": [
+        "(9x + 6)(x + 3)",
+        "(x + 3)(9x + 6)",
+        "(9x + 2)(x + 9)",
+        "(3x + 2)(3x + 9)"
+      ],
+      "answer": "(9x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Factor by grouping: 10x² + 30x + 7x + 21",
+      "choices": [
+        "(10x + 7)(x + 3)",
+        "(x + 3)(10x + 7)",
+        "(10x + 1)(x + 21)",
+        "(x + 1)(10x + 21)"
+      ],
+      "answer": "(10x + 7)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Factor by grouping: 11x² + 33x + 4x + 12",
+      "choices": [
+        "(11x + 4)(x + 3)",
+        "(x + 3)(11x + 4)",
+        "(11x + 1)(x + 12)",
+        "(x + 1)(11x + 12)"
+      ],
+      "answer": "(11x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Factor by grouping: 12x² + 36x + 5x + 15",
+      "choices": [
+        "(12x + 5)(x + 3)",
+        "(x + 3)(12x + 5)",
+        "(12x + 1)(x + 15)",
+        "(x + 1)(12x + 15)"
+      ],
+      "answer": "(12x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Factor by grouping: 13x² + 39x + 6x + 18",
+      "choices": [
+        "(13x + 6)(x + 3)",
+        "(x + 3)(13x + 6)",
+        "(13x + 2)(x + 9)",
+        "(x + 2)(13x + 9)"
+      ],
+      "answer": "(13x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Factor by grouping: 14x² + 42x + 4x + 12",
+      "choices": [
+        "(14x + 4)(x + 3)",
+        "(x + 3)(14x + 4)",
+        "(14x + 2)(x + 6)",
+        "(7x + 2)(2x + 6)"
+      ],
+      "answer": "(14x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Factor by grouping: 15x² + 45x + 3x + 9",
+      "choices": [
+        "(15x + 3)(x + 3)",
+        "(x + 3)(15x + 3)",
+        "(15x + 1)(x + 9)",
+        "(5x + 1)(3x + 9)"
+      ],
+      "answer": "(15x + 3)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Factor by grouping: 16x² + 48x + 5x + 15",
+      "choices": [
+        "(16x + 5)(x + 3)",
+        "(x + 3)(16x + 5)",
+        "(16x + 1)(x + 15)",
+        "(x + 1)(16x + 15)"
+      ],
+      "answer": "(16x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Factor by grouping: 17x² + 51x + 6x + 18",
+      "choices": [
+        "(17x + 6)(x + 3)",
+        "(x + 3)(17x + 6)",
+        "(17x + 2)(x + 9)",
+        "(x + 2)(17x + 9)"
+      ],
+      "answer": "(17x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Factor by grouping: 18x² + 54x + 4x + 12",
+      "choices": [
+        "(18x + 4)(x + 3)",
+        "(x + 3)(18x + 4)",
+        "(18x + 2)(x + 6)",
+        "(9x + 2)(2x + 6)"
+      ],
+      "answer": "(18x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Factor by grouping: 19x² + 57x + 5x + 15",
+      "choices": [
+        "(19x + 5)(x + 3)",
+        "(x + 3)(19x + 5)",
+        "(19x + 1)(x + 15)",
+        "(x + 1)(19x + 15)"
+      ],
+      "answer": "(19x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Factor by grouping: 20x² + 60x + 3x + 9",
+      "choices": [
+        "(20x + 3)(x + 3)",
+        "(x + 3)(20x + 3)",
+        "(20x + 1)(x + 9)",
+        "(5x + 1)(4x + 9)"
+      ],
+      "answer": "(20x + 3)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Factor by grouping: 21x² + 63x + 7x + 21",
+      "choices": [
+        "(21x + 7)(x + 3)",
+        "(x + 3)(21x + 7)",
+        "(21x + 1)(x + 21)",
+        "(7x + 7)(3x + 3)"
+      ],
+      "answer": "(21x + 7)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Factor by grouping: 22x² + 66x + 5x + 15",
+      "choices": [
+        "(22x + 5)(x + 3)",
+        "(x + 3)(22x + 5)",
+        "(22x + 1)(x + 15)",
+        "(x + 1)(22x + 15)"
+      ],
+      "answer": "(22x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Factor by grouping: 23x² + 69x + 4x + 12",
+      "choices": [
+        "(23x + 4)(x + 3)",
+        "(x + 3)(23x + 4)",
+        "(23x + 1)(x + 12)",
+        "(x + 1)(23x + 12)"
+      ],
+      "answer": "(23x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Factor by grouping: 24x² + 72x + 6x + 18",
+      "choices": [
+        "(24x + 6)(x + 3)",
+        "(x + 3)(24x + 6)",
+        "(24x + 2)(x + 9)",
+        "(8x + 3)(3x + 6)"
+      ],
+      "answer": "(24x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Factor by grouping: 25x² + 75x + 5x + 15",
+      "choices": [
+        "(25x + 5)(x + 3)",
+        "(x + 3)(25x + 5)",
+        "(25x + 1)(x + 15)",
+        "(5x + 1)(5x + 15)"
+      ],
+      "answer": "(25x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Factor by grouping: 26x² + 78x + 4x + 12",
+      "choices": [
+        "(26x + 4)(x + 3)",
+        "(x + 3)(26x + 4)",
+        "(26x + 2)(x + 6)",
+        "(13x + 2)(2x + 6)"
+      ],
+      "answer": "(26x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Factor by grouping: 27x² + 81x + 3x + 9",
+      "choices": [
+        "(27x + 3)(x + 3)",
+        "(x + 3)(27x + 3)",
+        "(27x + 1)(x + 9)",
+        "(9x + 1)(3x + 9)"
+      ],
+      "answer": "(27x + 3)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Factor by grouping: 28x² + 84x + 7x + 21",
+      "choices": [
+        "(28x + 7)(x + 3)",
+        "(x + 3)(28x + 7)",
+        "(28x + 1)(x + 21)",
+        "(7x + 7)(4x + 3)"
+      ],
+      "answer": "(28x + 7)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Factor by grouping: 29x² + 87x + 6x + 18",
+      "choices": [
+        "(29x + 6)(x + 3)",
+        "(x + 3)(29x + 6)",
+        "(29x + 2)(x + 9)",
+        "(x + 2)(29x + 9)"
+      ],
+      "answer": "(29x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Factor by grouping: 30x² + 90x + 5x + 15",
+      "choices": [
+        "(30x + 5)(x + 3)",
+        "(x + 3)(30x + 5)",
+        "(30x + 1)(x + 15)",
+        "(5x + 1)(6x + 15)"
+      ],
+      "answer": "(30x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Factor by grouping: 31x² + 93x + 4x + 12",
+      "choices": [
+        "(31x + 4)(x + 3)",
+        "(x + 3)(31x + 4)",
+        "(31x + 1)(x + 12)",
+        "(x + 1)(31x + 12)"
+      ],
+      "answer": "(31x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Factor by grouping: 32x² + 96x + 8x + 24",
+      "choices": [
+        "(32x + 8)(x + 3)",
+        "(x + 3)(32x + 8)",
+        "(32x + 2)(x + 12)",
+        "(8x + 2)(4x + 12)"
+      ],
+      "answer": "(32x + 8)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Factor by grouping: 33x² + 99x + 6x + 18",
+      "choices": [
+        "(33x + 6)(x + 3)",
+        "(x + 3)(33x + 6)",
+        "(33x + 2)(x + 9)",
+        "(11x + 2)(3x + 9)"
+      ],
+      "answer": "(33x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Factor by grouping: 34x² + 102x + 5x + 15",
+      "choices": [
+        "(34x + 5)(x + 3)",
+        "(x + 3)(34x + 5)",
+        "(34x + 1)(x + 15)",
+        "(x + 1)(34x + 15)"
+      ],
+      "answer": "(34x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Factor by grouping: 35x² + 105x + 7x + 21",
+      "choices": [
+        "(35x + 7)(x + 3)",
+        "(x + 3)(35x + 7)",
+        "(35x + 1)(x + 21)",
+        "(7x + 7)(5x + 3)"
+      ],
+      "answer": "(35x + 7)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Factor by grouping: 36x² + 108x + 6x + 18",
+      "choices": [
+        "(36x + 6)(x + 3)",
+        "(x + 3)(36x + 6)",
+        "(36x + 2)(x + 9)",
+        "(12x + 2)(3x + 9)"
+      ],
+      "answer": "(36x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Factor by grouping: 37x² + 111x + 5x + 15",
+      "choices": [
+        "(37x + 5)(x + 3)",
+        "(x + 3)(37x + 5)",
+        "(37x + 1)(x + 15)",
+        "(x + 1)(37x + 15)"
+      ],
+      "answer": "(37x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Factor by grouping: 38x² + 114x + 4x + 12",
+      "choices": [
+        "(38x + 4)(x + 3)",
+        "(x + 3)(38x + 4)",
+        "(38x + 2)(x + 6)",
+        "(19x + 2)(2x + 6)"
+      ],
+      "answer": "(38x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Factor by grouping: 39x² + 117x + 3x + 9",
+      "choices": [
+        "(39x + 3)(x + 3)",
+        "(x + 3)(39x + 3)",
+        "(39x + 1)(x + 9)",
+        "(13x + 1)(3x + 9)"
+      ],
+      "answer": "(39x + 3)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Factor by grouping: 40x² + 120x + 8x + 24",
+      "choices": [
+        "(40x + 8)(x + 3)",
+        "(x + 3)(40x + 8)",
+        "(40x + 2)(x + 12)",
+        "(10x + 2)(4x + 12)"
+      ],
+      "answer": "(40x + 8)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Factor by grouping: 41x² + 123x + 6x + 18",
+      "choices": [
+        "(41x + 6)(x + 3)",
+        "(x + 3)(41x + 6)",
+        "(41x + 2)(x + 9)",
+        "(x + 2)(41x + 9)"
+      ],
+      "answer": "(41x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Factor by grouping: 42x² + 126x + 7x + 21",
+      "choices": [
+        "(42x + 7)(x + 3)",
+        "(x + 3)(42x + 7)",
+        "(42x + 1)(x + 21)",
+        "(14x + 7)(3x + 3)"
+      ],
+      "answer": "(42x + 7)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Factor by grouping: 43x² + 129x + 5x + 15",
+      "choices": [
+        "(43x + 5)(x + 3)",
+        "(x + 3)(43x + 5)",
+        "(43x + 1)(x + 15)",
+        "(x + 1)(43x + 15)"
+      ],
+      "answer": "(43x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Factor by grouping: 44x² + 132x + 4x + 12",
+      "choices": [
+        "(44x + 4)(x + 3)",
+        "(x + 3)(44x + 4)",
+        "(44x + 2)(x + 6)",
+        "(11x + 2)(4x + 6)"
+      ],
+      "answer": "(44x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Factor by grouping: 45x² + 135x + 8x + 24",
+      "choices": [
+        "(45x + 8)(x + 3)",
+        "(x + 3)(45x + 8)",
+        "(45x + 2)(x + 12)",
+        "(15x + 2)(3x + 12)"
+      ],
+      "answer": "(45x + 8)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Factor by grouping: 46x² + 138x + 6x + 18",
+      "choices": [
+        "(46x + 6)(x + 3)",
+        "(x + 3)(46x + 6)",
+        "(46x + 2)(x + 9)",
+        "(23x + 2)(2x + 6)"
+      ],
+      "answer": "(46x + 6)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Factor by grouping: 47x² + 141x + 5x + 15",
+      "choices": [
+        "(47x + 5)(x + 3)",
+        "(x + 3)(47x + 5)",
+        "(47x + 1)(x + 15)",
+        "(x + 1)(47x + 15)"
+      ],
+      "answer": "(47x + 5)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Factor by grouping: 48x² + 144x + 4x + 12",
+      "choices": [
+        "(48x + 4)(x + 3)",
+        "(x + 3)(48x + 4)",
+        "(48x + 2)(x + 6)",
+        "(16x + 2)(3x + 6)"
+      ],
+      "answer": "(48x + 4)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Factor by grouping: 49x² + 147x + 3x + 9",
+      "choices": [
+        "(49x + 3)(x + 3)",
+        "(x + 3)(49x + 3)",
+        "(49x + 1)(x + 9)",
+        "(7x + 1)(7x + 9)"
+      ],
+      "answer": "(49x + 3)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Factor by grouping: 50x² + 150x + 7x + 21",
+      "choices": [
+        "(50x + 7)(x + 3)",
+        "(x + 3)(50x + 7)",
+        "(50x + 1)(x + 21)",
+        "(25x + 7)(2x + 3)"
+      ],
+      "answer": "(50x + 7)(x + 3)",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Factor by grouping: 2x² + 10x + 3x + 15",
+      "choices": [
+        "(2x + 3)(x + 5)",
+        "(x + 5)(2x + 3)",
+        "(2x + 1)(x + 15)",
+        "(x + 1)(2x + 15)"
+      ],
+      "answer": "(2x + 3)(x + 5)",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Factor by grouping: 3x² + 15x + 4x + 20",
+      "choices": [
+        "(3x + 4)(x + 5)",
+        "(x + 5)(3x + 4)",
+        "(3x + 1)(x + 20)",
+        "(x + 1)(3x + 20)"
+      ],
+      "answer": "(3x + 4)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Factor by grouping: 4x² + 20x + 5x + 25",
+      "choices": [
+        "(4x + 5)(x + 5)",
+        "(x + 5)(4x + 5)",
+        "(4x + 1)(x + 25)",
+        "(x + 1)(4x + 25)"
+      ],
+      "answer": "(4x + 5)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Factor by grouping: 5x² + 25x + 6x + 30",
+      "choices": [
+        "(5x + 6)(x + 5)",
+        "(x + 5)(5x + 6)",
+        "(5x + 1)(x + 30)",
+        "(x + 1)(5x + 30)"
+      ],
+      "answer": "(5x + 6)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Factor by grouping: 6x² + 30x + 7x + 35",
+      "choices": [
+        "(6x + 7)(x + 5)",
+        "(x + 5)(6x + 7)",
+        "(6x + 1)(x + 35)",
+        "(x + 1)(6x + 35)"
+      ],
+      "answer": "(6x + 7)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Factor by grouping: 7x² + 35x + 8x + 40",
+      "choices": [
+        "(7x + 8)(x + 5)",
+        "(x + 5)(7x + 8)",
+        "(7x + 1)(x + 40)",
+        "(x + 1)(7x + 40)"
+      ],
+      "answer": "(7x + 8)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Factor by grouping: 8x² + 40x + 9x + 45",
+      "choices": [
+        "(8x + 9)(x + 5)",
+        "(x + 5)(8x + 9)",
+        "(8x + 1)(x + 45)",
+        "(x + 1)(8x + 45)"
+      ],
+      "answer": "(8x + 9)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Factor by grouping: 9x² + 45x + 10x + 50",
+      "choices": [
+        "(9x + 10)(x + 5)",
+        "(x + 5)(9x + 10)",
+        "(9x + 1)(x + 50)",
+        "(x + 1)(9x + 50)"
+      ],
+      "answer": "(9x + 10)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Factor by grouping: 10x² + 50x + 11x + 55",
+      "choices": [
+        "(10x + 11)(x + 5)",
+        "(x + 5)(10x + 11)",
+        "(10x + 1)(x + 55)",
+        "(x + 1)(10x + 55)"
+      ],
+      "answer": "(10x + 11)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Factor by grouping: 11x² + 55x + 12x + 60",
+      "choices": [
+        "(11x + 12)(x + 5)",
+        "(x + 5)(11x + 12)",
+        "(11x + 1)(x + 60)",
+        "(x + 1)(11x + 60)"
+      ],
+      "answer": "(11x + 12)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Factor by grouping: 12x² + 60x + 13x + 65",
+      "choices": [
+        "(12x + 13)(x + 5)",
+        "(x + 5)(12x + 13)",
+        "(12x + 1)(x + 65)",
+        "(x + 1)(12x + 65)"
+      ],
+      "answer": "(12x + 13)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Factor by grouping: 13x² + 65x + 14x + 70",
+      "choices": [
+        "(13x + 14)(x + 5)",
+        "(x + 5)(13x + 14)",
+        "(13x + 1)(x + 70)",
+        "(x + 1)(13x + 70)"
+      ],
+      "answer": "(13x + 14)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Factor by grouping: 14x² + 70x + 15x + 75",
+      "choices": [
+        "(14x + 15)(x + 5)",
+        "(x + 5)(14x + 15)",
+        "(14x + 1)(x + 75)",
+        "(x + 1)(14x + 75)"
+      ],
+      "answer": "(14x + 15)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Factor by grouping: 15x² + 75x + 16x + 80",
+      "choices": [
+        "(15x + 16)(x + 5)",
+        "(x + 5)(15x + 16)",
+        "(15x + 1)(x + 80)",
+        "(x + 1)(15x + 80)"
+      ],
+      "answer": "(15x + 16)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Factor by grouping: 16x² + 80x + 17x + 85",
+      "choices": [
+        "(16x + 17)(x + 5)",
+        "(x + 5)(16x + 17)",
+        "(16x + 1)(x + 85)",
+        "(x + 1)(16x + 85)"
+      ],
+      "answer": "(16x + 17)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Factor by grouping: 17x² + 85x + 18x + 90",
+      "choices": [
+        "(17x + 18)(x + 5)",
+        "(x + 5)(17x + 18)",
+        "(17x + 1)(x + 90)",
+        "(x + 1)(17x + 90)"
+      ],
+      "answer": "(17x + 18)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Factor by grouping: 18x² + 90x + 19x + 95",
+      "choices": [
+        "(18x + 19)(x + 5)",
+        "(x + 5)(18x + 19)",
+        "(18x + 1)(x + 95)",
+        "(x + 1)(18x + 95)"
+      ],
+      "answer": "(18x + 19)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Factor by grouping: 19x² + 95x + 20x + 100",
+      "choices": [
+        "(19x + 20)(x + 5)",
+        "(x + 5)(19x + 20)",
+        "(19x + 1)(x + 100)",
+        "(x + 1)(19x + 100)"
+      ],
+      "answer": "(19x + 20)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Factor by grouping: 20x² + 100x + 21x + 105",
+      "choices": [
+        "(20x + 21)(x + 5)",
+        "(x + 5)(20x + 21)",
+        "(20x + 1)(x + 105)",
+        "(x + 1)(20x + 105)"
+      ],
+      "answer": "(20x + 21)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Factor by grouping: 21x² + 105x + 22x + 110",
+      "choices": [
+        "(21x + 22)(x + 5)",
+        "(x + 5)(21x + 22)",
+        "(21x + 1)(x + 110)",
+        "(x + 1)(21x + 110)"
+      ],
+      "answer": "(21x + 22)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Factor by grouping: 22x² + 110x + 23x + 115",
+      "choices": [
+        "(22x + 23)(x + 5)",
+        "(x + 5)(22x + 23)",
+        "(22x + 1)(x + 115)",
+        "(x + 1)(22x + 115)"
+      ],
+      "answer": "(22x + 23)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Factor by grouping: 23x² + 115x + 24x + 120",
+      "choices": [
+        "(23x + 24)(x + 5)",
+        "(x + 5)(23x + 24)",
+        "(23x + 1)(x + 120)",
+        "(x + 1)(23x + 120)"
+      ],
+      "answer": "(23x + 24)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Factor by grouping: 24x² + 120x + 25x + 125",
+      "choices": [
+        "(24x + 25)(x + 5)",
+        "(x + 5)(24x + 25)",
+        "(24x + 1)(x + 125)",
+        "(x + 1)(24x + 125)"
+      ],
+      "answer": "(24x + 25)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Factor by grouping: 25x² + 125x + 26x + 130",
+      "choices": [
+        "(25x + 26)(x + 5)",
+        "(x + 5)(25x + 26)",
+        "(25x + 1)(x + 130)",
+        "(x + 1)(25x + 130)"
+      ],
+      "answer": "(25x + 26)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Factor by grouping: 26x² + 130x + 27x + 135",
+      "choices": [
+        "(26x + 27)(x + 5)",
+        "(x + 5)(26x + 27)",
+        "(26x + 1)(x + 135)",
+        "(x + 1)(26x + 135)"
+      ],
+      "answer": "(26x + 27)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Factor by grouping: 27x² + 135x + 28x + 140",
+      "choices": [
+        "(27x + 28)(x + 5)",
+        "(x + 5)(27x + 28)",
+        "(27x + 1)(x + 140)",
+        "(x + 1)(27x + 140)"
+      ],
+      "answer": "(27x + 28)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Factor by grouping: 28x² + 140x + 29x + 145",
+      "choices": [
+        "(28x + 29)(x + 5)",
+        "(x + 5)(28x + 29)",
+        "(28x + 1)(x + 145)",
+        "(x + 1)(28x + 145)"
+      ],
+      "answer": "(28x + 29)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Factor by grouping: 29x² + 145x + 30x + 150",
+      "choices": [
+        "(29x + 30)(x + 5)",
+        "(x + 5)(29x + 30)",
+        "(29x + 1)(x + 150)",
+        "(x + 1)(29x + 150)"
+      ],
+      "answer": "(29x + 30)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Factor by grouping: 30x² + 150x + 31x + 155",
+      "choices": [
+        "(30x + 31)(x + 5)",
+        "(x + 5)(30x + 31)",
+        "(30x + 1)(x + 155)",
+        "(x + 1)(30x + 155)"
+      ],
+      "answer": "(30x + 31)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Factor by grouping: 31x² + 155x + 32x + 160",
+      "choices": [
+        "(31x + 32)(x + 5)",
+        "(x + 5)(31x + 32)",
+        "(31x + 1)(x + 160)",
+        "(x + 1)(31x + 160)"
+      ],
+      "answer": "(31x + 32)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Factor by grouping: 32x² + 160x + 33x + 165",
+      "choices": [
+        "(32x + 33)(x + 5)",
+        "(x + 5)(32x + 33)",
+        "(32x + 1)(x + 165)",
+        "(x + 1)(32x + 165)"
+      ],
+      "answer": "(32x + 33)(x + 5)",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 5,
+      "question": "Factor by grouping: 2x² + 12x + 5x + 30",
+      "choices": [
+        "(2x + 5)(x + 6)",
+        "(x + 6)(2x + 5)",
+        "(2x + 1)(x + 30)",
+        "(x + 1)(2x + 30)"
+      ],
+      "answer": "(2x + 5)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 182,
+      "wave": 5,
+      "question": "Factor by grouping: 3x² + 18x + 7x + 42",
+      "choices": [
+        "(3x + 7)(x + 6)",
+        "(x + 6)(3x + 7)",
+        "(3x + 1)(x + 42)",
+        "(x + 1)(3x + 42)"
+      ],
+      "answer": "(3x + 7)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 183,
+      "wave": 5,
+      "question": "Factor by grouping: 4x² + 24x + 9x + 54",
+      "choices": [
+        "(4x + 9)(x + 6)",
+        "(x + 6)(4x + 9)",
+        "(4x + 1)(x + 54)",
+        "(x + 1)(4x + 54)"
+      ],
+      "answer": "(4x + 9)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 184,
+      "wave": 5,
+      "question": "Factor by grouping: 5x² + 30x + 11x + 66",
+      "choices": [
+        "(5x + 11)(x + 6)",
+        "(x + 6)(5x + 11)",
+        "(5x + 1)(x + 66)",
+        "(x + 1)(5x + 66)"
+      ],
+      "answer": "(5x + 11)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 185,
+      "wave": 5,
+      "question": "Factor by grouping: 6x² + 36x + 13x + 78",
+      "choices": [
+        "(6x + 13)(x + 6)",
+        "(x + 6)(6x + 13)",
+        "(6x + 1)(x + 78)",
+        "(x + 1)(6x + 78)"
+      ],
+      "answer": "(6x + 13)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 186,
+      "wave": 5,
+      "question": "Factor by grouping: 7x² + 42x + 15x + 90",
+      "choices": [
+        "(7x + 15)(x + 6)",
+        "(x + 6)(7x + 15)",
+        "(7x + 1)(x + 90)",
+        "(x + 1)(7x + 90)"
+      ],
+      "answer": "(7x + 15)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 187,
+      "wave": 5,
+      "question": "Factor by grouping: 8x² + 48x + 17x + 102",
+      "choices": [
+        "(8x + 17)(x + 6)",
+        "(x + 6)(8x + 17)",
+        "(8x + 1)(x + 102)",
+        "(x + 1)(8x + 102)"
+      ],
+      "answer": "(8x + 17)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 188,
+      "wave": 5,
+      "question": "Factor by grouping: 9x² + 54x + 19x + 114",
+      "choices": [
+        "(9x + 19)(x + 6)",
+        "(x + 6)(9x + 19)",
+        "(9x + 1)(x + 114)",
+        "(x + 1)(9x + 114)"
+      ],
+      "answer": "(9x + 19)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 189,
+      "wave": 5,
+      "question": "Factor by grouping: 10x² + 60x + 21x + 126",
+      "choices": [
+        "(10x + 21)(x + 6)",
+        "(x + 6)(10x + 21)",
+        "(10x + 1)(x + 126)",
+        "(x + 1)(10x + 126)"
+      ],
+      "answer": "(10x + 21)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 190,
+      "wave": 5,
+      "question": "Factor by grouping: 11x² + 66x + 23x + 138",
+      "choices": [
+        "(11x + 23)(x + 6)",
+        "(x + 6)(11x + 23)",
+        "(11x + 1)(x + 138)",
+        "(x + 1)(11x + 138)"
+      ],
+      "answer": "(11x + 23)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 191,
+      "wave": 5,
+      "question": "Factor by grouping: 12x² + 72x + 25x + 150",
+      "choices": [
+        "(12x + 25)(x + 6)",
+        "(x + 6)(12x + 25)",
+        "(12x + 1)(x + 150)",
+        "(x + 1)(12x + 150)"
+      ],
+      "answer": "(12x + 25)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 192,
+      "wave": 5,
+      "question": "Factor by grouping: 13x² + 78x + 27x + 162",
+      "choices": [
+        "(13x + 27)(x + 6)",
+        "(x + 6)(13x + 27)",
+        "(13x + 1)(x + 162)",
+        "(x + 1)(13x + 162)"
+      ],
+      "answer": "(13x + 27)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 193,
+      "wave": 5,
+      "question": "Factor by grouping: 14x² + 84x + 29x + 174",
+      "choices": [
+        "(14x + 29)(x + 6)",
+        "(x + 6)(14x + 29)",
+        "(14x + 1)(x + 174)",
+        "(x + 1)(14x + 174)"
+      ],
+      "answer": "(14x + 29)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 194,
+      "wave": 5,
+      "question": "Factor by grouping: 15x² + 90x + 31x + 186",
+      "choices": [
+        "(15x + 31)(x + 6)",
+        "(x + 6)(15x + 31)",
+        "(15x + 1)(x + 186)",
+        "(x + 1)(15x + 186)"
+      ],
+      "answer": "(15x + 31)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 195,
+      "wave": 5,
+      "question": "Factor by grouping: 16x² + 96x + 33x + 198",
+      "choices": [
+        "(16x + 33)(x + 6)",
+        "(x + 6)(16x + 33)",
+        "(16x + 1)(x + 198)",
+        "(x + 1)(16x + 198)"
+      ],
+      "answer": "(16x + 33)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 196,
+      "wave": 5,
+      "question": "Factor by grouping: 17x² + 102x + 35x + 210",
+      "choices": [
+        "(17x + 35)(x + 6)",
+        "(x + 6)(17x + 35)",
+        "(17x + 1)(x + 210)",
+        "(x + 1)(17x + 210)"
+      ],
+      "answer": "(17x + 35)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 196,
+      "wave": 5,
+      "question": "Factor by grouping: 17x² + 102x + 35x + 210",
+      "choices": [
+        "(17x + 35)(x + 6)",
+        "(x + 6)(17x + 35)",
+        "(17x + 1)(x + 210)",
+        "(x + 1)(17x + 210)"
+      ],
+      "answer": "(17x + 35)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 197,
+      "wave": 5,
+      "question": "Factor by grouping: 18x² + 108x + 37x + 222",
+      "choices": [
+        "(18x + 37)(x + 6)",
+        "(x + 6)(18x + 37)",
+        "(18x + 1)(x + 222)",
+        "(x + 1)(18x + 222)"
+      ],
+      "answer": "(18x + 37)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 198,
+      "wave": 5,
+      "question": "Factor by grouping: 19x² + 114x + 39x + 234",
+      "choices": [
+        "(19x + 39)(x + 6)",
+        "(x + 6)(19x + 39)",
+        "(19x + 1)(x + 234)",
+        "(x + 1)(19x + 234)"
+      ],
+      "answer": "(19x + 39)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 199,
+      "wave": 5,
+      "question": "Factor by grouping: 20x² + 120x + 41x + 246",
+      "choices": [
+        "(20x + 41)(x + 6)",
+        "(x + 6)(20x + 41)",
+        "(20x + 1)(x + 246)",
+        "(x + 1)(20x + 246)"
+      ],
+      "answer": "(20x + 41)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 200,
+      "wave": 5,
+      "question": "Factor by grouping: 21x² + 126x + 43x + 258",
+      "choices": [
+        "(21x + 43)(x + 6)",
+        "(x + 6)(21x + 43)",
+        "(21x + 1)(x + 258)",
+        "(x + 1)(21x + 258)"
+      ],
+      "answer": "(21x + 43)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Factor by grouping: 22x² + 132x + 45x + 270",
+      "choices": [
+        "(22x + 45)(x + 6)",
+        "(x + 6)(22x + 45)",
+        "(22x + 1)(x + 270)",
+        "(x + 1)(22x + 270)"
+      ],
+      "answer": "(22x + 45)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Factor by grouping: 23x² + 138x + 47x + 282",
+      "choices": [
+        "(23x + 47)(x + 6)",
+        "(x + 6)(23x + 47)",
+        "(23x + 1)(x + 282)",
+        "(x + 1)(23x + 282)"
+      ],
+      "answer": "(23x + 47)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Factor by grouping: 24x² + 144x + 49x + 294",
+      "choices": [
+        "(24x + 49)(x + 6)",
+        "(x + 6)(24x + 49)",
+        "(24x + 1)(x + 294)",
+        "(x + 1)(24x + 294)"
+      ],
+      "answer": "(24x + 49)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Factor by grouping: 25x² + 150x + 51x + 306",
+      "choices": [
+        "(25x + 51)(x + 6)",
+        "(x + 6)(25x + 51)",
+        "(25x + 1)(x + 306)",
+        "(x + 1)(25x + 306)"
+      ],
+      "answer": "(25x + 51)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Factor by grouping: 26x² + 156x + 53x + 318",
+      "choices": [
+        "(26x + 53)(x + 6)",
+        "(x + 6)(26x + 53)",
+        "(26x + 1)(x + 318)",
+        "(x + 1)(26x + 318)"
+      ],
+      "answer": "(26x + 53)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Factor by grouping: 27x² + 162x + 55x + 330",
+      "choices": [
+        "(27x + 55)(x + 6)",
+        "(x + 6)(27x + 55)",
+        "(27x + 1)(x + 330)",
+        "(x + 1)(27x + 330)"
+      ],
+      "answer": "(27x + 55)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Factor by grouping: 28x² + 168x + 57x + 342",
+      "choices": [
+        "(28x + 57)(x + 6)",
+        "(x + 6)(28x + 57)",
+        "(28x + 1)(x + 342)",
+        "(x + 1)(28x + 342)"
+      ],
+      "answer": "(28x + 57)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Factor by grouping: 29x² + 174x + 59x + 354",
+      "choices": [
+        "(29x + 59)(x + 6)",
+        "(x + 6)(29x + 59)",
+        "(29x + 1)(x + 354)",
+        "(x + 1)(29x + 354)"
+      ],
+      "answer": "(29x + 59)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Factor by grouping: 30x² + 180x + 61x + 366",
+      "choices": [
+        "(30x + 61)(x + 6)",
+        "(x + 6)(30x + 61)",
+        "(30x + 1)(x + 366)",
+        "(x + 1)(30x + 366)"
+      ],
+      "answer": "(30x + 61)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Factor by grouping: 31x² + 186x + 63x + 378",
+      "choices": [
+        "(31x + 63)(x + 6)",
+        "(x + 6)(31x + 63)",
+        "(31x + 1)(x + 378)",
+        "(x + 1)(31x + 378)"
+      ],
+      "answer": "(31x + 63)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Factor by grouping: 32x² + 192x + 65x + 390",
+      "choices": [
+        "(32x + 65)(x + 6)",
+        "(x + 6)(32x + 65)",
+        "(32x + 1)(x + 390)",
+        "(x + 1)(32x + 390)"
+      ],
+      "answer": "(32x + 65)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Factor by grouping: 33x² + 198x + 67x + 402",
+      "choices": [
+        "(33x + 67)(x + 6)",
+        "(x + 6)(33x + 67)",
+        "(33x + 1)(x + 402)",
+        "(x + 1)(33x + 402)"
+      ],
+      "answer": "(33x + 67)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Factor by grouping: 34x² + 204x + 69x + 414",
+      "choices": [
+        "(34x + 69)(x + 6)",
+        "(x + 6)(34x + 69)",
+        "(34x + 1)(x + 414)",
+        "(x + 1)(34x + 414)"
+      ],
+      "answer": "(34x + 69)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Factor by grouping: 35x² + 210x + 71x + 426",
+      "choices": [
+        "(35x + 71)(x + 6)",
+        "(x + 6)(35x + 71)",
+        "(35x + 1)(x + 426)",
+        "(x + 1)(35x + 426)"
+      ],
+      "answer": "(35x + 71)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Factor by grouping: 36x² + 216x + 73x + 438",
+      "choices": [
+        "(36x + 73)(x + 6)",
+        "(x + 6)(36x + 73)",
+        "(36x + 1)(x + 438)",
+        "(x + 1)(36x + 438)"
+      ],
+      "answer": "(36x + 73)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Factor by grouping: 37x² + 222x + 75x + 450",
+      "choices": [
+        "(37x + 75)(x + 6)",
+        "(x + 6)(37x + 75)",
+        "(37x + 1)(x + 450)",
+        "(x + 1)(37x + 450)"
+      ],
+      "answer": "(37x + 75)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Factor by grouping: 38x² + 228x + 77x + 462",
+      "choices": [
+        "(38x + 77)(x + 6)",
+        "(x + 6)(38x + 77)",
+        "(38x + 1)(x + 462)",
+        "(x + 1)(38x + 462)"
+      ],
+      "answer": "(38x + 77)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Factor by grouping: 39x² + 234x + 79x + 474",
+      "choices": [
+        "(39x + 79)(x + 6)",
+        "(x + 6)(39x + 79)",
+        "(39x + 1)(x + 474)",
+        "(x + 1)(39x + 474)"
+      ],
+      "answer": "(39x + 79)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Factor by grouping: 40x² + 240x + 81x + 486",
+      "choices": [
+        "(40x + 81)(x + 6)",
+        "(x + 6)(40x + 81)",
+        "(40x + 1)(x + 486)",
+        "(x + 1)(40x + 486)"
+      ],
+      "answer": "(40x + 81)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Factor by grouping: 41x² + 246x + 83x + 498",
+      "choices": [
+        "(41x + 83)(x + 6)",
+        "(x + 6)(41x + 83)",
+        "(41x + 1)(x + 498)",
+        "(x + 1)(41x + 498)"
+      ],
+      "answer": "(41x + 83)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Factor by grouping: 42x² + 252x + 85x + 510",
+      "choices": [
+        "(42x + 85)(x + 6)",
+        "(x + 6)(42x + 85)",
+        "(42x + 1)(x + 510)",
+        "(x + 1)(42x + 510)"
+      ],
+      "answer": "(42x + 85)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Factor by grouping: 43x² + 258x + 87x + 522",
+      "choices": [
+        "(43x + 87)(x + 6)",
+        "(x + 6)(43x + 87)",
+        "(43x + 1)(x + 522)",
+        "(x + 1)(43x + 522)"
+      ],
+      "answer": "(43x + 87)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Factor by grouping: 44x² + 264x + 89x + 534",
+      "choices": [
+        "(44x + 89)(x + 6)",
+        "(x + 6)(44x + 89)",
+        "(44x + 1)(x + 534)",
+        "(x + 1)(44x + 534)"
+      ],
+      "answer": "(44x + 89)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Factor by grouping: 45x² + 270x + 91x + 546",
+      "choices": [
+        "(45x + 91)(x + 6)",
+        "(x + 6)(45x + 91)",
+        "(45x + 1)(x + 546)",
+        "(x + 1)(45x + 546)"
+      ],
+      "answer": "(45x + 91)(x + 6)",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Factor by grouping: 46x² + 276x + 93x + 558",
+      "choices": [
+        "(46x + 93)(x + 6)",
+        "(x + 6)(46x + 93)",
+        "(46x + 1)(x + 558)",
+        "(x + 1)(46x + 558)"
+      ],
+      "answer": "(46x + 93)(x + 6)",
+      "points": 30
+    }
+  ]
+}

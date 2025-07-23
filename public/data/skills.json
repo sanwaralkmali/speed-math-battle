@@ -18,5 +18,6 @@
   "operations-scientific-notation": ["operations-scientific-notation"],
   "simplify-expressions": ["simplify-expressions"],
   "solving-equations": ["solving-equations"],
-  "solving-inequalities": ["solving-inequalities"]
+  "solving-inequalities": ["solving-inequalities"],
+  "factoring": ["gcf-factoring", "factoring-by-grouping"]
 }
