@@ -20,5 +20,8 @@
   "solving-equations": ["solving-equations"],
   "solving-inequalities": ["solving-inequalities"],
   "factoring": ["gcf-factoring", "factoring-by-grouping"],
-  "factoring-trinomials": ["factoring-trinomials-1", "factoring-trinomials-2"]
+  "factoring-trinomials": ["factoring-trinomials-1", "factoring-trinomials-2"],
+  "perfect-squares": ["perfect-squares"],
+  "difference-squares": ["difference-squares"],
+  "difference-sum-of-cubes": ["difference-sum-of-cubes"]
 }

@@ -1,0 +1,1517 @@
+{
+  "title": "Perfect Square Trinomials",
+  "description": "Factor each trinomial as a perfect square: a² ± 2ab + b² = (a ± b)²",
+  "waves": 5,
+  "timePerQuestion": 180,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Factor: x² + 2x + 1",
+      "choices": ["(x + 1)²", "(x − 1)²", "(x + 1)(x − 1)", "(x² + 1)"],
+      "answer": "(x + 1)²",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Factor: y² + 4y + 4",
+      "choices": ["(y + 2)²", "(y − 2)²", "(y + 2)(y − 2)", "(y² + 2)"],
+      "answer": "(y + 2)²",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Factor: z² + 6z + 9",
+      "choices": ["(z + 3)²", "(z − 3)²", "(z + 3)(z − 3)", "(z² + 3)"],
+      "answer": "(z + 3)²",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Factor: a² + 8a + 16",
+      "choices": ["(a + 4)²", "(a − 4)²", "(a + 4)(a − 4)", "(a² + 4)"],
+      "answer": "(a + 4)²",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Factor: b² + 10b + 25",
+      "choices": ["(b + 5)²", "(b − 5)²", "(b + 5)(b − 5)", "(b² + 5)"],
+      "answer": "(b + 5)²",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Factor: c² − 2c + 1",
+      "choices": ["(c − 1)²", "(c + 1)²", "(c − 1)(c + 1)", "(c² + 1)"],
+      "answer": "(c − 1)²",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Factor: d² − 4d + 4",
+      "choices": ["(d − 2)²", "(d + 2)²", "(d − 2)(d + 2)", "(d² + 2)"],
+      "answer": "(d − 2)²",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Factor: e² − 6e + 9",
+      "choices": ["(e − 3)²", "(e + 3)²", "(e − 3)(e + 3)", "(e² + 3)"],
+      "answer": "(e − 3)²",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Factor: f² − 8f + 16",
+      "choices": ["(f − 4)²", "(f + 4)²", "(f − 4)(f + 4)", "(f² + 4)"],
+      "answer": "(f − 4)²",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Factor: g² − 10g + 25",
+      "choices": ["(g − 5)²", "(g + 5)²", "(g − 5)(g + 5)", "(g² + 5)"],
+      "answer": "(g − 5)²",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Factor: h² + 12h + 36",
+      "choices": ["(h + 6)²", "(h − 6)²", "(h + 6)(h − 6)", "(h² + 6)"],
+      "answer": "(h + 6)²",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Factor: j² − 12j + 36",
+      "choices": ["(j − 6)²", "(j + 6)²", "(j − 6)(j + 6)", "(j² + 6)"],
+      "answer": "(j − 6)²",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Factor: k² + 14k + 49",
+      "choices": ["(k + 7)²", "(k − 7)²", "(k + 7)(k − 7)", "(k² + 7)"],
+      "answer": "(k + 7)²",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Factor: m² − 14m + 49",
+      "choices": ["(m − 7)²", "(m + 7)²", "(m − 7)(m + 7)", "(m² + 7)"],
+      "answer": "(m − 7)²",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Factor: n² + 16n + 64",
+      "choices": ["(n + 8)²", "(n − 8)²", "(n + 8)(n − 8)", "(n² + 8)"],
+      "answer": "(n + 8)²",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Factor: p² − 16p + 64",
+      "choices": ["(p − 8)²", "(p + 8)²", "(p − 8)(p + 8)", "(p² + 8)"],
+      "answer": "(p − 8)²",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Factor: q² + 18q + 81",
+      "choices": ["(q + 9)²", "(q − 9)²", "(q + 9)(q − 9)", "(q² + 9)"],
+      "answer": "(q + 9)²",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Factor: r² − 18r + 81",
+      "choices": ["(r − 9)²", "(r + 9)²", "(r − 9)(r + 9)", "(r² + 9)"],
+      "answer": "(r − 9)²",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Factor: s² + 20s + 100",
+      "choices": ["(s + 10)²", "(s − 10)²", "(s + 10)(s − 10)", "(s² + 10)"],
+      "answer": "(s + 10)²",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Factor: t² − 20t + 100",
+      "choices": ["(t − 10)²", "(t + 10)²", "(t − 10)(t + 10)", "(t² + 10)"],
+      "answer": "(t − 10)²",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Factor: u² + 22u + 121",
+      "choices": ["(u + 11)²", "(u − 11)²", "(u + 11)(u − 11)", "(u² + 11)"],
+      "answer": "(u + 11)²",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Factor: v² − 22v + 121",
+      "choices": ["(v − 11)²", "(v + 11)²", "(v − 11)(v + 11)", "(v² + 11)"],
+      "answer": "(v − 11)²",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Factor: w² + 24w + 144",
+      "choices": ["(w + 12)²", "(w − 12)²", "(w + 12)(w − 12)", "(w² + 12)"],
+      "answer": "(w + 12)²",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Factor: z² − 24z + 144",
+      "choices": ["(z − 12)²", "(z + 12)²", "(z − 12)(z + 12)", "(z² + 12)"],
+      "answer": "(z − 12)²",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Factor: x² + 26x + 169",
+      "choices": ["(x + 13)²", "(x − 13)²", "(x + 13)(x − 13)", "(x² + 13)"],
+      "answer": "(x + 13)²",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Factor: y² − 26y + 169",
+      "choices": ["(y − 13)²", "(y + 13)²", "(y − 13)(y + 13)", "(y² + 13)"],
+      "answer": "(y − 13)²",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Factor: a² + 28a + 196",
+      "choices": ["(a + 14)²", "(a − 14)²", "(a + 14)(a − 14)", "(a² + 14)"],
+      "answer": "(a + 14)²",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Factor: b² − 28b + 196",
+      "choices": ["(b − 14)²", "(b + 14)²", "(b − 14)(b + 14)", "(b² + 14)"],
+      "answer": "(b − 14)²",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Factor: c² + 30c + 225",
+      "choices": ["(c + 15)²", "(c − 15)²", "(c + 15)(c − 15)", "(c² + 15)"],
+      "answer": "(c + 15)²",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Factor: d² − 30d + 225",
+      "choices": ["(d − 15)²", "(d + 15)²", "(d − 15)(d + 15)", "(d² + 15)"],
+      "answer": "(d − 15)²",
+      "points": 10
+    },
+
+    {
+      "id": 31,
+      "wave": 2,
+      "question": "Factor: y² − 10y + 25",
+      "choices": ["(y − 5)²", "(y + 5)²", "(y − 5)(y + 5)", "(y² + 5)"],
+      "answer": "(y − 5)²",
+      "points": 15
+    },
+    {
+      "id": 32,
+      "wave": 2,
+      "question": "Factor: x² + 12x + 36",
+      "choices": ["(x + 6)²", "(x − 6)²", "(x + 6)(x − 6)", "(x² + 6)"],
+      "answer": "(x + 6)²",
+      "points": 15
+    },
+    {
+      "id": 33,
+      "wave": 2,
+      "question": "Factor: a² − 14a + 49",
+      "choices": ["(a − 7)²", "(a + 7)²", "(a − 7)(a + 7)", "(a² + 7)"],
+      "answer": "(a − 7)²",
+      "points": 15
+    },
+    {
+      "id": 34,
+      "wave": 2,
+      "question": "Factor: b² + 16b + 64",
+      "choices": ["(b + 8)²", "(b − 8)²", "(b + 8)(b − 8)", "(b² + 8)"],
+      "answer": "(b + 8)²",
+      "points": 15
+    },
+    {
+      "id": 35,
+      "wave": 2,
+      "question": "Factor: c² − 18c + 81",
+      "choices": ["(c − 9)²", "(c + 9)²", "(c − 9)(c + 9)", "(c² + 9)"],
+      "answer": "(c − 9)²",
+      "points": 15
+    },
+    {
+      "id": 36,
+      "wave": 2,
+      "question": "Factor: d² + 20d + 100",
+      "choices": ["(d + 10)²", "(d − 10)²", "(d + 10)(d − 10)", "(d² + 10)"],
+      "answer": "(d + 10)²",
+      "points": 15
+    },
+    {
+      "id": 37,
+      "wave": 2,
+      "question": "Factor: e² − 22e + 121",
+      "choices": ["(e − 11)²", "(e + 11)²", "(e − 11)(e + 11)", "(e² + 11)"],
+      "answer": "(e − 11)²",
+      "points": 15
+    },
+    {
+      "id": 38,
+      "wave": 2,
+      "question": "Factor: f² + 24f + 144",
+      "choices": ["(f + 12)²", "(f − 12)²", "(f + 12)(f − 12)", "(f² + 12)"],
+      "answer": "(f + 12)²",
+      "points": 15
+    },
+    {
+      "id": 39,
+      "wave": 2,
+      "question": "Factor: g² − 26g + 169",
+      "choices": ["(g − 13)²", "(g + 13)²", "(g − 13)(g + 13)", "(g² + 13)"],
+      "answer": "(g − 13)²",
+      "points": 15
+    },
+    {
+      "id": 40,
+      "wave": 2,
+      "question": "Factor: h² + 28h + 196",
+      "choices": ["(h + 14)²", "(h − 14)²", "(h + 14)(h − 14)", "(h² + 14)"],
+      "answer": "(h + 14)²",
+      "points": 15
+    },
+    {
+      "id": 41,
+      "wave": 2,
+      "question": "Factor: j² − 30j + 225",
+      "choices": ["(j − 15)²", "(j + 15)²", "(j − 15)(j + 15)", "(j² + 15)"],
+      "answer": "(j − 15)²",
+      "points": 15
+    },
+    {
+      "id": 42,
+      "wave": 2,
+      "question": "Factor: k² + 32k + 256",
+      "choices": ["(k + 16)²", "(k − 16)²", "(k + 16)(k − 16)", "(k² + 16)"],
+      "answer": "(k + 16)²",
+      "points": 15
+    },
+    {
+      "id": 43,
+      "wave": 2,
+      "question": "Factor: m² − 34m + 289",
+      "choices": ["(m − 17)²", "(m + 17)²", "(m − 17)(m + 17)", "(m² + 17)"],
+      "answer": "(m − 17)²",
+      "points": 15
+    },
+    {
+      "id": 44,
+      "wave": 2,
+      "question": "Factor: n² + 36n + 324",
+      "choices": ["(n + 18)²", "(n − 18)²", "(n + 18)(n − 18)", "(n² + 18)"],
+      "answer": "(n + 18)²",
+      "points": 15
+    },
+    {
+      "id": 45,
+      "wave": 2,
+      "question": "Factor: p² − 38p + 361",
+      "choices": ["(p − 19)²", "(p + 19)²", "(p − 19)(p + 19)", "(p² + 19)"],
+      "answer": "(p − 19)²",
+      "points": 15
+    },
+    {
+      "id": 46,
+      "wave": 2,
+      "question": "Factor: q² + 40q + 400",
+      "choices": ["(q + 20)²", "(q − 20)²", "(q + 20)(q − 20)", "(q² + 20)"],
+      "answer": "(q + 20)²",
+      "points": 15
+    },
+    {
+      "id": 47,
+      "wave": 2,
+      "question": "Factor: r² − 42r + 441",
+      "choices": ["(r − 21)²", "(r + 21)²", "(r − 21)(r + 21)", "(r² + 21)"],
+      "answer": "(r − 21)²",
+      "points": 15
+    },
+    {
+      "id": 48,
+      "wave": 2,
+      "question": "Factor: s² + 44s + 484",
+      "choices": ["(s + 22)²", "(s − 22)²", "(s + 22)(s − 22)", "(s² + 22)"],
+      "answer": "(s + 22)²",
+      "points": 15
+    },
+    {
+      "id": 49,
+      "wave": 2,
+      "question": "Factor: t² − 46t + 529",
+      "choices": ["(t − 23)²", "(t + 23)²", "(t − 23)(t + 23)", "(t² + 23)"],
+      "answer": "(t − 23)²",
+      "points": 15
+    },
+    {
+      "id": 50,
+      "wave": 2,
+      "question": "Factor: u² + 48u + 576",
+      "choices": ["(u + 24)²", "(u − 24)²", "(u + 24)(u − 24)", "(u² + 24)"],
+      "answer": "(u + 24)²",
+      "points": 15
+    },
+
+    {
+      "id": 51,
+      "wave": 3,
+      "question": "Factor: 4x² + 12x + 9",
+      "choices": ["(2x + 3)²", "(2x − 3)²", "(2x + 3)(2x − 3)", "(4x² + 3)"],
+      "answer": "(2x + 3)²",
+      "points": 20
+    },
+    {
+      "id": 52,
+      "wave": 3,
+      "question": "Factor: 9y² − 12y + 4",
+      "choices": ["(3y − 2)²", "(3y + 2)²", "(3y − 2)(3y + 2)", "(9y² + 2)"],
+      "answer": "(3y − 2)²",
+      "points": 20
+    },
+    {
+      "id": 53,
+      "wave": 3,
+      "question": "Factor: 16a² + 40a + 25",
+      "choices": ["(4a + 5)²", "(4a − 5)²", "(4a + 5)(4a − 5)", "(16a² + 5)"],
+      "answer": "(4a + 5)²",
+      "points": 20
+    },
+    {
+      "id": 54,
+      "wave": 3,
+      "question": "Factor: 25b² − 30b + 9",
+      "choices": ["(5b − 3)²", "(5b + 3)²", "(5b − 3)(5b + 3)", "(25b² + 3)"],
+      "answer": "(5b − 3)²",
+      "points": 20
+    },
+    {
+      "id": 55,
+      "wave": 3,
+      "question": "Factor: 49c² + 28c + 4",
+      "choices": ["(7c + 2)²", "(7c − 2)²", "(7c + 2)(7c − 2)", "(49c² + 2)"],
+      "answer": "(7c + 2)²",
+      "points": 20
+    },
+    {
+      "id": 56,
+      "wave": 3,
+      "question": "Factor: 64d² − 48d + 9",
+      "choices": ["(8d − 3)²", "(8d + 3)²", "(8d − 3)(8d + 3)", "(64d² + 3)"],
+      "answer": "(8d − 3)²",
+      "points": 20
+    },
+    {
+      "id": 57,
+      "wave": 3,
+      "question": "Factor: 81e² + 36e + 4",
+      "choices": ["(9e + 2)²", "(9e − 2)²", "(9e + 2)(9e − 2)", "(81e² + 2)"],
+      "answer": "(9e + 2)²",
+      "points": 20
+    },
+    {
+      "id": 58,
+      "wave": 3,
+      "question": "Factor: 100f² − 60f + 9",
+      "choices": [
+        "(10f − 3)²",
+        "(10f + 3)²",
+        "(10f − 3)(10f + 3)",
+        "(100f² + 3)"
+      ],
+      "answer": "(10f − 3)²",
+      "points": 20
+    },
+    {
+      "id": 59,
+      "wave": 3,
+      "question": "Factor: 121g² + 44g + 4",
+      "choices": [
+        "(11g + 2)²",
+        "(11g − 2)²",
+        "(11g + 2)(11g − 2)",
+        "(121g² + 2)"
+      ],
+      "answer": "(11g + 2)²",
+      "points": 20
+    },
+    {
+      "id": 60,
+      "wave": 3,
+      "question": "Factor: 144h² − 24h + 1",
+      "choices": [
+        "(12h − 1)²",
+        "(12h + 1)²",
+        "(12h − 1)(12h + 1)",
+        "(144h² + 1)"
+      ],
+      "answer": "(12h − 1)²",
+      "points": 20
+    },
+    {
+      "id": 61,
+      "wave": 3,
+      "question": "Factor: 169j² + 52j + 4",
+      "choices": [
+        "(13j + 2)²",
+        "(13j − 2)²",
+        "(13j + 2)(13j − 2)",
+        "(169j² + 2)"
+      ],
+      "answer": "(13j + 2)²",
+      "points": 20
+    },
+    {
+      "id": 62,
+      "wave": 3,
+      "question": "Factor: 196k² − 70k + 25",
+      "choices": [
+        "(14k − 5)²",
+        "(14k + 5)²",
+        "(14k − 5)(14k + 5)",
+        "(196k² + 5)"
+      ],
+      "answer": "(14k − 5)²",
+      "points": 20
+    },
+    {
+      "id": 63,
+      "wave": 3,
+      "question": "Factor: 225m² + 60m + 4",
+      "choices": [
+        "(15m + 2)²",
+        "(15m − 2)²",
+        "(15m + 2)(15m − 2)",
+        "(225m² + 2)"
+      ],
+      "answer": "(15m + 2)²",
+      "points": 20
+    },
+    {
+      "id": 64,
+      "wave": 3,
+      "question": "Factor: 256n² − 32n + 1",
+      "choices": [
+        "(16n − 1)²",
+        "(16n + 1)²",
+        "(16n − 1)(16n + 1)",
+        "(256n² + 1)"
+      ],
+      "answer": "(16n − 1)²",
+      "points": 20
+    },
+    {
+      "id": 65,
+      "wave": 3,
+      "question": "Factor: 289p² + 68p + 4",
+      "choices": [
+        "(17p + 2)²",
+        "(17p − 2)²",
+        "(17p + 2)(17p − 2)",
+        "(289p² + 2)"
+      ],
+      "answer": "(17p + 2)²",
+      "points": 20
+    },
+    {
+      "id": 66,
+      "wave": 3,
+      "question": "Factor: 324q² − 72q + 4",
+      "choices": [
+        "(18q − 2)²",
+        "(18q + 2)²",
+        "(18q − 2)(18q + 2)",
+        "(324q² + 2)"
+      ],
+      "answer": "(18q − 2)²",
+      "points": 20
+    },
+    {
+      "id": 67,
+      "wave": 3,
+      "question": "Factor: 361r² + 76r + 4",
+      "choices": [
+        "(19r + 2)²",
+        "(19r − 2)²",
+        "(19r + 2)(19r − 2)",
+        "(361r² + 2)"
+      ],
+      "answer": "(19r + 2)²",
+      "points": 20
+    },
+    {
+      "id": 68,
+      "wave": 3,
+      "question": "Factor: 400s² − 80s + 16",
+      "choices": [
+        "(20s − 4)²",
+        "(20s + 4)²",
+        "(20s − 4)(20s + 4)",
+        "(400s² + 4)"
+      ],
+      "answer": "(20s − 4)²",
+      "points": 20
+    },
+    {
+      "id": 69,
+      "wave": 3,
+      "question": "Factor: 441t² + 84t + 4",
+      "choices": [
+        "(21t + 2)²",
+        "(21t − 2)²",
+        "(21t + 2)(21t − 2)",
+        "(441t² + 2)"
+      ],
+      "answer": "(21t + 2)²",
+      "points": 20
+    },
+    {
+      "id": 70,
+      "wave": 3,
+      "question": "Factor: 484u² − 88u + 4",
+      "choices": [
+        "(22u − 2)²",
+        "(22u + 2)²",
+        "(22u − 2)(22u + 2)",
+        "(484u² + 2)"
+      ],
+      "answer": "(22u − 2)²",
+      "points": 20
+    },
+    {
+      "id": 71,
+      "wave": 3,
+      "question": "Factor: 529v² + 92v + 4",
+      "choices": [
+        "(23v + 2)²",
+        "(23v − 2)²",
+        "(23v + 2)(23v − 2)",
+        "(529v² + 2)"
+      ],
+      "answer": "(23v + 2)²",
+      "points": 20
+    },
+    {
+      "id": 72,
+      "wave": 3,
+      "question": "Factor: 576w² − 96w + 4",
+      "choices": [
+        "(24w − 2)²",
+        "(24w + 2)²",
+        "(24w − 2)(24w + 2)",
+        "(576w² + 2)"
+      ],
+      "answer": "(24w − 2)²",
+      "points": 20
+    },
+    {
+      "id": 73,
+      "wave": 3,
+      "question": "Factor: 625x² + 100x + 4",
+      "choices": [
+        "(25x + 2)²",
+        "(25x − 2)²",
+        "(25x + 2)(25x − 2)",
+        "(625x² + 2)"
+      ],
+      "answer": "(25x + 2)²",
+      "points": 20
+    },
+    {
+      "id": 74,
+      "wave": 3,
+      "question": "Factor: 676y² − 104y + 4",
+      "choices": [
+        "(26y − 2)²",
+        "(26y + 2)²",
+        "(26y − 2)(26y + 2)",
+        "(676y² + 2)"
+      ],
+      "answer": "(26y − 2)²",
+      "points": 20
+    },
+    {
+      "id": 75,
+      "wave": 3,
+      "question": "Factor: 729z² + 108z + 4",
+      "choices": [
+        "(27z + 2)²",
+        "(27z − 2)²",
+        "(27z + 2)(27z − 2)",
+        "(729z² + 2)"
+      ],
+      "answer": "(27z + 2)²",
+      "points": 20
+    },
+    {
+      "id": 76,
+      "wave": 3,
+      "question": "Factor: 784a² − 112a + 4",
+      "choices": [
+        "(28a − 2)²",
+        "(28a + 2)²",
+        "(28a − 2)(28a + 2)",
+        "(784a² + 2)"
+      ],
+      "answer": "(28a − 2)²",
+      "points": 20
+    },
+    {
+      "id": 77,
+      "wave": 3,
+      "question": "Factor: 841b² + 116b + 4",
+      "choices": [
+        "(29b + 2)²",
+        "(29b − 2)²",
+        "(29b + 2)(29b − 2)",
+        "(841b² + 2)"
+      ],
+      "answer": "(29b + 2)²",
+      "points": 20
+    },
+    {
+      "id": 78,
+      "wave": 3,
+      "question": "Factor: 900c² − 120c + 4",
+      "choices": [
+        "(30c − 2)²",
+        "(30c + 2)²",
+        "(30c − 2)(30c + 2)",
+        "(900c² + 2)"
+      ],
+      "answer": "(30c − 2)²",
+      "points": 20
+    },
+    {
+      "id": 79,
+      "wave": 3,
+      "question": "Factor: 961d² + 124d + 4",
+      "choices": [
+        "(31d + 2)²",
+        "(31d − 2)²",
+        "(31d + 2)(31d − 2)",
+        "(961d² + 2)"
+      ],
+      "answer": "(31d + 2)²",
+      "points": 20
+    },
+    {
+      "id": 80,
+      "wave": 3,
+      "question": "Factor: 1024e² − 128e + 4",
+      "choices": [
+        "(32e − 2)²",
+        "(32e + 2)²",
+        "(32e − 2)(32e + 2)",
+        "(1024e² + 2)"
+      ],
+      "answer": "(32e − 2)²",
+      "points": 20
+    },
+
+    {
+      "id": 81,
+      "wave": 4,
+      "question": "Factor: 9a² − 12ab + 4b²",
+      "choices": [
+        "(3a − 2b)²",
+        "(3a + 2b)²",
+        "(3a − 2b)(3a + 2b)",
+        "(9a² − 2b)"
+      ],
+      "answer": "(3a − 2b)²",
+      "points": 25
+    },
+    {
+      "id": 82,
+      "wave": 4,
+      "question": "Factor: 16x² + 24xy + 9y²",
+      "choices": [
+        "(4x + 3y)²",
+        "(4x − 3y)²",
+        "(4x + 3y)(4x − 3y)",
+        "(16x² + 9y)"
+      ],
+      "answer": "(4x + 3y)²",
+      "points": 25
+    },
+    {
+      "id": 83,
+      "wave": 4,
+      "question": "Factor: 25m² − 20mn + 4n²",
+      "choices": [
+        "(5m − 2n)²",
+        "(5m + 2n)²",
+        "(5m − 2n)(5m + 2n)",
+        "(25m² − 4n)"
+      ],
+      "answer": "(5m − 2n)²",
+      "points": 25
+    },
+    {
+      "id": 84,
+      "wave": 4,
+      "question": "Factor: 49p² + 28pq + 4q²",
+      "choices": [
+        "(7p + 2q)²",
+        "(7p − 2q)²",
+        "(7p + 2q)(7p − 2q)",
+        "(49p² + 4q)"
+      ],
+      "answer": "(7p + 2q)²",
+      "points": 25
+    },
+    {
+      "id": 85,
+      "wave": 4,
+      "question": "Factor: 64r² − 48rs + 9s²",
+      "choices": [
+        "(8r − 3s)²",
+        "(8r + 3s)²",
+        "(8r − 3s)(8r + 3s)",
+        "(64r² − 9s)"
+      ],
+      "answer": "(8r − 3s)²",
+      "points": 25
+    },
+    {
+      "id": 86,
+      "wave": 4,
+      "question": "Factor: 81u² + 36uv + 4v²",
+      "choices": [
+        "(9u + 2v)²",
+        "(9u − 2v)²",
+        "(9u + 2v)(9u − 2v)",
+        "(81u² + 4v)"
+      ],
+      "answer": "(9u + 2v)²",
+      "points": 25
+    },
+    {
+      "id": 87,
+      "wave": 4,
+      "question": "Factor: 100x² − 60xy + 9y²",
+      "choices": [
+        "(10x − 3y)²",
+        "(10x + 3y)²",
+        "(10x − 3y)(10x + 3y)",
+        "(100x² − 9y)"
+      ],
+      "answer": "(10x − 3y)²",
+      "points": 25
+    },
+    {
+      "id": 88,
+      "wave": 4,
+      "question": "Factor: 121a² + 44ab + 4b²",
+      "choices": [
+        "(11a + 2b)²",
+        "(11a − 2b)²",
+        "(11a + 2b)(11a − 2b)",
+        "(121a² + 4b)"
+      ],
+      "answer": "(11a + 2b)²",
+      "points": 25
+    },
+    {
+      "id": 89,
+      "wave": 4,
+      "question": "Factor: 144c² − 48cd + 4d²",
+      "choices": [
+        "(12c − 2d)²",
+        "(12c + 2d)²",
+        "(12c − 2d)(12c + 2d)",
+        "(144c² − 4d)"
+      ],
+      "answer": "(12c − 2d)²",
+      "points": 25
+    },
+    {
+      "id": 90,
+      "wave": 4,
+      "question": "Factor: 169e² + 52ef + 4f²",
+      "choices": [
+        "(13e + 2f)²",
+        "(13e − 2f)²",
+        "(13e + 2f)(13e − 2f)",
+        "(169e² + 4f)"
+      ],
+      "answer": "(13e + 2f)²",
+      "points": 25
+    },
+    {
+      "id": 91,
+      "wave": 4,
+      "question": "Factor: 196g² − 28gh + h²",
+      "choices": [
+        "(14g − h)²",
+        "(14g + h)²",
+        "(14g − h)(14g + h)",
+        "(196g² − h)"
+      ],
+      "answer": "(14g − h)²",
+      "points": 25
+    },
+    {
+      "id": 92,
+      "wave": 4,
+      "question": "Factor: 225i² + 60ij + 4j²",
+      "choices": [
+        "(15i + 2j)²",
+        "(15i − 2j)²",
+        "(15i + 2j)(15i − 2j)",
+        "(225i² + 4j)"
+      ],
+      "answer": "(15i + 2j)²",
+      "points": 25
+    },
+    {
+      "id": 93,
+      "wave": 4,
+      "question": "Factor: 256k² − 96kl + 9l²",
+      "choices": [
+        "(16k − 3l)²",
+        "(16k + 3l)²",
+        "(16k − 3l)(16k + 3l)",
+        "(256k² − 9l)"
+      ],
+      "answer": "(16k − 3l)²",
+      "points": 25
+    },
+    {
+      "id": 94,
+      "wave": 4,
+      "question": "Factor: 289m² + 102mn + 9n²",
+      "choices": [
+        "(17m + 3n)²",
+        "(17m − 3n)²",
+        "(17m + 3n)(17m − 3n)",
+        "(289m² + 9n)"
+      ],
+      "answer": "(17m + 3n)²",
+      "points": 25
+    },
+    {
+      "id": 95,
+      "wave": 4,
+      "question": "Factor: 324p² − 72pq + 4q²",
+      "choices": [
+        "(18p − 2q)²",
+        "(18p + 2q)²",
+        "(18p − 2q)(18p + 2q)",
+        "(324p² − 4q)"
+      ],
+      "answer": "(18p − 2q)²",
+      "points": 25
+    },
+    {
+      "id": 96,
+      "wave": 4,
+      "question": "Factor: 361r² + 76rs + 4s²",
+      "choices": [
+        "(19r + 2s)²",
+        "(19r − 2s)²",
+        "(19r + 2s)(19r − 2s)",
+        "(361r² + 4s)"
+      ],
+      "answer": "(19r + 2s)²",
+      "points": 25
+    },
+    {
+      "id": 97,
+      "wave": 4,
+      "question": "Factor: 400t² − 80tu + 4u²",
+      "choices": [
+        "(20t − 2u)²",
+        "(20t + 2u)²",
+        "(20t − 2u)(20t + 2u)",
+        "(400t² − 4u)"
+      ],
+      "answer": "(20t − 2u)²",
+      "points": 25
+    },
+    {
+      "id": 98,
+      "wave": 4,
+      "question": "Factor: 441v² + 84vw + 4w²",
+      "choices": [
+        "(21v + 2w)²",
+        "(21v − 2w)²",
+        "(21v + 2w)(21v − 2w)",
+        "(441v² + 4w)"
+      ],
+      "answer": "(21v + 2w)²",
+      "points": 25
+    },
+    {
+      "id": 99,
+      "wave": 4,
+      "question": "Factor: 484x² − 88xy + 4y²",
+      "choices": [
+        "(22x − 2y)²",
+        "(22x + 2y)²",
+        "(22x − 2y)(22x + 2y)",
+        "(484x² − 4y)"
+      ],
+      "answer": "(22x − 2y)²",
+      "points": 25
+    },
+    {
+      "id": 100,
+      "wave": 4,
+      "question": "Factor: 529a² + 92ab + 4b²",
+      "choices": [
+        "(23a + 2b)²",
+        "(23a − 2b)²",
+        "(23a + 2b)(23a − 2b)",
+        "(529a² + 4b)"
+      ],
+      "answer": "(23a + 2b)²",
+      "points": 25
+    },
+    {
+      "id": 101,
+      "wave": 4,
+      "question": "Factor: 576c² − 48cd + d²",
+      "choices": [
+        "(24c − d)²",
+        "(24c + d)²",
+        "(24c − d)(24c + d)",
+        "(576c² − d)"
+      ],
+      "answer": "(24c − d)²",
+      "points": 25
+    },
+    {
+      "id": 102,
+      "wave": 4,
+      "question": "Factor: 625e² + 100ef + 4f²",
+      "choices": [
+        "(25e + 2f)²",
+        "(25e − 2f)²",
+        "(25e + 2f)(25e − 2f)",
+        "(625e² + 4f)"
+      ],
+      "answer": "(25e + 2f)²",
+      "points": 25
+    },
+    {
+      "id": 103,
+      "wave": 4,
+      "question": "Factor: 676g² − 104gh + 4h²",
+      "choices": [
+        "(26g − 2h)²",
+        "(26g + 2h)²",
+        "(26g − 2h)(26g + 2h)",
+        "(676g² − 4h)"
+      ],
+      "answer": "(26g − 2h)²",
+      "points": 25
+    },
+    {
+      "id": 104,
+      "wave": 4,
+      "question": "Factor: 729i² + 108ij + 4j²",
+      "choices": [
+        "(27i + 2j)²",
+        "(27i − 2j)²",
+        "(27i + 2j)(27i − 2j)",
+        "(729i² + 4j)"
+      ],
+      "answer": "(27i + 2j)²",
+      "points": 25
+    },
+    {
+      "id": 105,
+      "wave": 4,
+      "question": "Factor: 784k² − 112kl + 4l²",
+      "choices": [
+        "(28k − 2l)²",
+        "(28k + 2l)²",
+        "(28k − 2l)(28k + 2l)",
+        "(784k² − 4l)"
+      ],
+      "answer": "(28k − 2l)²",
+      "points": 25
+    },
+    {
+      "id": 106,
+      "wave": 4,
+      "question": "Factor: 841m² + 116mn + 4n²",
+      "choices": [
+        "(29m + 2n)²",
+        "(29m − 2n)²",
+        "(29m + 2n)(29m − 2n)",
+        "(841m² + 4n)"
+      ],
+      "answer": "(29m + 2n)²",
+      "points": 25
+    },
+    {
+      "id": 107,
+      "wave": 4,
+      "question": "Factor: 900p² − 120pq + 4q²",
+      "choices": [
+        "(30p − 2q)²",
+        "(30p + 2q)²",
+        "(30p − 2q)(30p + 2q)",
+        "(900p² − 4q)"
+      ],
+      "answer": "(30p − 2q)²",
+      "points": 25
+    },
+
+    {
+      "id": 108,
+      "wave": 5,
+      "question": "Factor: 16x² − 24x + 9",
+      "choices": ["(4x − 3)²", "(4x + 3)²", "(4x − 3)(4x + 3)", "(16x² − 3)"],
+      "answer": "(4x − 3)²",
+      "points": 30
+    },
+    {
+      "id": 109,
+      "wave": 5,
+      "question": "Factor: 25y² + 20y + 4",
+      "choices": ["(5y + 2)²", "(5y − 2)²", "(5y + 2)(5y − 2)", "(25y² + 2)"],
+      "answer": "(5y + 2)²",
+      "points": 30
+    },
+    {
+      "id": 110,
+      "wave": 5,
+      "question": "Factor: 36a² − 60a + 25",
+      "choices": ["(6a − 5)²", "(6a + 5)²", "(6a − 5)(6a + 5)", "(36a² − 5)"],
+      "answer": "(6a − 5)²",
+      "points": 30
+    },
+    {
+      "id": 111,
+      "wave": 5,
+      "question": "Factor: 49b² + 42b + 9",
+      "choices": ["(7b + 3)²", "(7b − 3)²", "(7b + 3)(7b − 3)", "(49b² + 3)"],
+      "answer": "(7b + 3)²",
+      "points": 30
+    },
+    {
+      "id": 112,
+      "wave": 5,
+      "question": "Factor: 64c² − 48c + 9",
+      "choices": ["(8c − 3)²", "(8c + 3)²", "(8c − 3)(8c + 3)", "(64c² − 3)"],
+      "answer": "(8c − 3)²",
+      "points": 30
+    },
+    {
+      "id": 113,
+      "wave": 5,
+      "question": "Factor: 81d² + 36d + 4",
+      "choices": ["(9d + 2)²", "(9d − 2)²", "(9d + 2)(9d − 2)", "(81d² + 2)"],
+      "answer": "(9d + 2)²",
+      "points": 30
+    },
+    {
+      "id": 114,
+      "wave": 5,
+      "question": "Factor: 100e² − 80e + 16",
+      "choices": [
+        "(10e − 4)²",
+        "(10e + 4)²",
+        "(10e − 4)(10e + 4)",
+        "(100e² − 4)"
+      ],
+      "answer": "(10e − 4)²",
+      "points": 30
+    },
+    {
+      "id": 115,
+      "wave": 5,
+      "question": "Factor: 121f² + 44f + 4",
+      "choices": [
+        "(11f + 2)²",
+        "(11f − 2)²",
+        "(11f + 2)(11f − 2)",
+        "(121f² + 2)"
+      ],
+      "answer": "(11f + 2)²",
+      "points": 30
+    },
+    {
+      "id": 116,
+      "wave": 5,
+      "question": "Factor: 144g² − 72g + 9",
+      "choices": [
+        "(12g − 3)²",
+        "(12g + 3)²",
+        "(12g − 3)(12g + 3)",
+        "(144g² − 3)"
+      ],
+      "answer": "(12g − 3)²",
+      "points": 30
+    },
+    {
+      "id": 117,
+      "wave": 5,
+      "question": "Factor: 169h² + 52h + 4",
+      "choices": [
+        "(13h + 2)²",
+        "(13h − 2)²",
+        "(13h + 2)(13h − 2)",
+        "(169h² + 2)"
+      ],
+      "answer": "(13h + 2)²",
+      "points": 30
+    },
+    {
+      "id": 118,
+      "wave": 5,
+      "question": "Factor: 196j² − 56j + 4",
+      "choices": [
+        "(14j − 2)²",
+        "(14j + 2)²",
+        "(14j − 2)(14j + 2)",
+        "(196j² − 2)"
+      ],
+      "answer": "(14j − 2)²",
+      "points": 30
+    },
+    {
+      "id": 119,
+      "wave": 5,
+      "question": "Factor: 225k² + 60k + 4",
+      "choices": [
+        "(15k + 2)²",
+        "(15k − 2)²",
+        "(15k + 2)(15k − 2)",
+        "(225k² + 2)"
+      ],
+      "answer": "(15k + 2)²",
+      "points": 30
+    },
+    {
+      "id": 120,
+      "wave": 5,
+      "question": "Factor: 256m² − 96m + 9",
+      "choices": [
+        "(16m − 3)²",
+        "(16m + 3)²",
+        "(16m − 3)(16m + 3)",
+        "(256m² − 3)"
+      ],
+      "answer": "(16m − 3)²",
+      "points": 30
+    },
+    {
+      "id": 121,
+      "wave": 5,
+      "question": "Factor: 289n² + 68n + 4",
+      "choices": [
+        "(17n + 2)²",
+        "(17n − 2)²",
+        "(17n + 2)(17n − 2)",
+        "(289n² + 2)"
+      ],
+      "answer": "(17n + 2)²",
+      "points": 30
+    },
+    {
+      "id": 122,
+      "wave": 5,
+      "question": "Factor: 324p² − 72p + 4",
+      "choices": [
+        "(18p − 2)²",
+        "(18p + 2)²",
+        "(18p − 2)(18p + 2)",
+        "(324p² − 2)"
+      ],
+      "answer": "(18p − 2)²",
+      "points": 30
+    },
+    {
+      "id": 123,
+      "wave": 5,
+      "question": "Factor: 361q² + 76q + 4",
+      "choices": [
+        "(19q + 2)²",
+        "(19q − 2)²",
+        "(19q + 2)(19q − 2)",
+        "(361q² + 2)"
+      ],
+      "answer": "(19q + 2)²",
+      "points": 30
+    },
+    {
+      "id": 124,
+      "wave": 5,
+      "question": "Factor: 400r² − 120r + 9",
+      "choices": [
+        "(20r − 3)²",
+        "(20r + 3)²",
+        "(20r − 3)(20r + 3)",
+        "(400r² − 3)"
+      ],
+      "answer": "(20r − 3)²",
+      "points": 30
+    },
+    {
+      "id": 125,
+      "wave": 5,
+      "question": "Factor: 441s² + 84s + 4",
+      "choices": [
+        "(21s + 2)²",
+        "(21s − 2)²",
+        "(21s + 2)(21s − 2)",
+        "(441s² + 2)"
+      ],
+      "answer": "(21s + 2)²",
+      "points": 30
+    },
+    {
+      "id": 126,
+      "wave": 5,
+      "question": "Factor: 484t² − 88t + 4",
+      "choices": [
+        "(22t − 2)²",
+        "(22t + 2)²",
+        "(22t − 2)(22t + 2)",
+        "(484t² − 2)"
+      ],
+      "answer": "(22t − 2)²",
+      "points": 30
+    },
+    {
+      "id": 127,
+      "wave": 5,
+      "question": "Factor: 529u² + 92u + 4",
+      "choices": [
+        "(23u + 2)²",
+        "(23u − 2)²",
+        "(23u + 2)(23u − 2)",
+        "(529u² + 2)"
+      ],
+      "answer": "(23u + 2)²",
+      "points": 30
+    },
+    {
+      "id": 128,
+      "wave": 5,
+      "question": "Factor: 576v² − 96v + 4",
+      "choices": [
+        "(24v − 2)²",
+        "(24v + 2)²",
+        "(24v − 2)(24v + 2)",
+        "(576v² − 2)"
+      ],
+      "answer": "(24v − 2)²",
+      "points": 30
+    },
+    {
+      "id": 129,
+      "wave": 5,
+      "question": "Factor: 625w² + 100w + 4",
+      "choices": [
+        "(25w + 2)²",
+        "(25w − 2)²",
+        "(25w + 2)(25w − 2)",
+        "(625w² + 2)"
+      ],
+      "answer": "(25w + 2)²",
+      "points": 30
+    },
+    {
+      "id": 130,
+      "wave": 5,
+      "question": "Factor: 676x² − 104x + 4",
+      "choices": [
+        "(26x − 2)²",
+        "(26x + 2)²",
+        "(26x − 2)(26x + 2)",
+        "(676x² − 2)"
+      ],
+      "answer": "(26x − 2)²",
+      "points": 30
+    },
+    {
+      "id": 131,
+      "wave": 5,
+      "question": "Factor: 729y² + 108y + 4",
+      "choices": [
+        "(27y + 2)²",
+        "(27y − 2)²",
+        "(27y + 2)(27y − 2)",
+        "(729y² + 2)"
+      ],
+      "answer": "(27y + 2)²",
+      "points": 30
+    },
+    {
+      "id": 132,
+      "wave": 5,
+      "question": "Factor: 784z² − 112z + 4",
+      "choices": [
+        "(28z − 2)²",
+        "(28z + 2)²",
+        "(28z − 2)(28z + 2)",
+        "(784z² − 2)"
+      ],
+      "answer": "(28z − 2)²",
+      "points": 30
+    },
+    {
+      "id": 133,
+      "wave": 5,
+      "question": "Factor: 841a² + 116a + 4",
+      "choices": [
+        "(29a + 2)²",
+        "(29a − 2)²",
+        "(29a + 2)(29a − 2)",
+        "(841a² + 2)"
+      ],
+      "answer": "(29a + 2)²",
+      "points": 30
+    },
+    {
+      "id": 134,
+      "wave": 5,
+      "question": "Factor: 900b² − 120b + 4",
+      "choices": [
+        "(30b − 2)²",
+        "(30b + 2)²",
+        "(30b − 2)(30b + 2)",
+        "(900b² − 2)"
+      ],
+      "answer": "(30b − 2)²",
+      "points": 30
+    },
+    {
+      "id": 135,
+      "wave": 5,
+      "question": "Factor: 961c² + 124c + 4",
+      "choices": [
+        "(31c + 2)²",
+        "(31c − 2)²",
+        "(31c + 2)(31c − 2)",
+        "(961c² + 2)"
+      ],
+      "answer": "(31c + 2)²",
+      "points": 30
+    },
+    {
+      "id": 136,
+      "wave": 5,
+      "question": "Factor: 1024d² − 128d + 4",
+      "choices": [
+        "(32d − 2)²",
+        "(32d + 2)²",
+        "(32d − 2)(32d + 2)",
+        "(1024d² − 2)"
+      ],
+      "answer": "(32d − 2)²",
+      "points": 30
+    },
+    {
+      "id": 137,
+      "wave": 5,
+      "question": "Factor: 1089e² + 132e + 4",
+      "choices": [
+        "(33e + 2)²",
+        "(33e − 2)²",
+        "(33e + 2)(33e − 2)",
+        "(1089e² + 2)"
+      ],
+      "answer": "(33e + 2)²",
+      "points": 30
+    },
+    {
+      "id": 138,
+      "wave": 5,
+      "question": "Factor: 1156f² − 136f + 4",
+      "choices": [
+        "(34f − 2)²",
+        "(34f + 2)²",
+        "(34f − 2)(34f + 2)",
+        "(1156f² − 2)"
+      ],
+      "answer": "(34f − 2)²",
+      "points": 30
+    },
+    {
+      "id": 139,
+      "wave": 5,
+      "question": "Factor: 1225g² + 140g + 4",
+      "choices": [
+        "(35g + 2)²",
+        "(35g − 2)²",
+        "(35g + 2)(35g − 2)",
+        "(1225g² + 2)"
+      ],
+      "answer": "(35g + 2)²",
+      "points": 30
+    },
+    {
+      "id": 140,
+      "wave": 5,
+      "question": "Factor: 1296h² − 144h + 4",
+      "choices": [
+        "(36h − 2)²",
+        "(36h + 2)²",
+        "(36h − 2)(36h + 2)",
+        "(1296h² − 2)"
+      ],
+      "answer": "(36h − 2)²",
+      "points": 30
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Zap, Play } from "lucide-react";
 import { useRef } from "react";
+import { useState as useReactState } from "react";
 
 interface SkillsData {
   [group: string]: string[];
@@ -56,20 +57,18 @@ interface DashboardProps {
 // Footer component
 function DashboardFooter() {
   return (
-    <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background font-cairo mt-8">
-      <div className="container mx-auto">
-        <p>
-          Educational Game 2025 | Created for Educational purposes By{" "}
-          <a
-            href="https://sanwaralkmali.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
-            Salah Alkmali
-          </a>
-        </p>
-      </div>
+    <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background font-cairo flex-shrink-0">
+      <p>
+        Educational Game 2025 | Created for Educational purposes By{" "}
+        <a
+          href="https://sanwaralkmali.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:underline"
+        >
+          Salah Alkmali
+        </a>
+      </p>
     </footer>
   );
 }
@@ -86,6 +85,20 @@ async function fetchSkillTitle(skill: string): Promise<string | null> {
   }
 }
 
+// Responsive hook to detect small screens
+function useIsSmallScreen() {
+  const [isSmall, setIsSmall] = useReactState(false);
+  useEffect(() => {
+    function check() {
+      setIsSmall(window.innerWidth < 700);
+    }
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+  return isSmall;
+}
+
 export default function Dashboard({ onStartGame }: DashboardProps) {
   const [player1Name, setPlayer1Name] = useState("Player 1");
   const [player2Name, setPlayer2Name] = useState("Player 2");
@@ -99,6 +112,8 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
     {}
   );
   const fetchedTitles = useRef<{ [skill: string]: boolean }>({});
+  const isSmallScreen = useIsSmallScreen();
+  const [hideWarning, setHideWarning] = useReactState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -181,9 +196,36 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
     );
   }
 
+  // Show warning overlay on small screens
+  if (isSmallScreen && !hideWarning) {
+    return (
+      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background/95 p-6">
+        <div className="max-w-md w-full bg-yellow-100 border-2 border-yellow-400 rounded-xl shadow-lg p-6 text-center">
+          <div className="text-4xl mb-4">⚠️</div>
+          <h2 className="text-2xl font-bold text-yellow-700 mb-2">
+            Keyboard Required
+          </h2>
+          <p className="text-yellow-800 mb-4">
+            This game can only be played on a device with a keyboard.
+            <br />
+            For the best experience, please use a computer or a large screen
+            device with a physical keyboard.
+            <br />
+            <span className="block mt-2 text-base text-muted-foreground">
+              Phones and small screens are not supported.
+            </span>
+          </p>
+          <Button variant="outline" onClick={() => setHideWarning(true)}>
+            I Understand
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="min-h-screen bg-gradient-gaming flex flex-col justify-between p-4">
-      <div className="w-full max-w-2xl space-y-8 mx-auto flex-1 flex flex-col justify-center">
+    <div className="min-h-screen bg-gradient-gaming flex flex-col p-0">
+      <div className="w-full max-w-2xl space-y-8 mx-auto flex-1 flex flex-col justify-center p-4">
         {/* Game Title */}
         <div className="text-center space-y-4">
           <div className="flex items-center justify-center gap-3">
@@ -310,6 +352,44 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
           <Play className="w-5 h-5 mr-2" />
           Start Game
         </Button>
+        {/* How to Play Card */}
+        <Card className="border-2 border-yellow-400 bg-card/90 backdrop-blur-sm mb-0">
+          <CardHeader>
+            <CardTitle className="text-xl font-bold text-yellow-600 flex items-center gap-2">
+              <span role="img" aria-label="game">
+                🎮
+              </span>{" "}
+              Game Rules
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ul className="text-sm text-muted-foreground space-y-1">
+              <li>
+                • Each player uses their own keys to answer (QWER for Player 1,
+                UIOP for Player 2).
+              </li>
+              <li>
+                • This Game can only be played with a device that uses a
+                keyboard.
+              </li>
+              <li>• Get the answer right to earn points!</li>
+              <li>• If you answer wrong, you lose the same points.</li>
+              <li>
+                • Each question shows how many points you can win or lose.
+              </li>
+              <li>• Try to get the highest score!</li>
+
+              <li>
+                • If you pick a wrong answer, that option is locked for both
+                players.
+              </li>
+              <li>
+                • If all 3 wrong options are picked, the question is skipped.
+              </li>
+              <li>• The player with the most points at the end wins!</li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
       <DashboardFooter />
     </div>

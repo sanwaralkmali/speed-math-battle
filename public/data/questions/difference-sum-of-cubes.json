@@ -1,0 +1,1637 @@
+{
+  "title": "Sum and Difference of Cubes",
+  "description": "Factor each expression using the identities: a³ + b³ = (a + b)(a² − ab + b²) and a³ − b³ = (a − b)(a² + ab + b²)",
+  "waves": 5,
+  "timePerQuestion": 180,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Factor: x³ + 1",
+      "choices": [
+        "(x + 1)(x² − x + 1)",
+        "(x − 1)(x² + x + 1)",
+        "(x + 1)³",
+        "(x³ − 1)"
+      ],
+      "answer": "(x + 1)(x² − x + 1)",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Factor: y³ − 1",
+      "choices": [
+        "(y − 1)(y² + y + 1)",
+        "(y + 1)(y² − y + 1)",
+        "(y − 1)³",
+        "(y³ + 1)"
+      ],
+      "answer": "(y − 1)(y² + y + 1)",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Factor: a³ + 8",
+      "choices": [
+        "(a + 2)(a² − 2a + 4)",
+        "(a − 2)(a² + 2a + 4)",
+        "(a + 2)³",
+        "(a³ − 8)"
+      ],
+      "answer": "(a + 2)(a² − 2a + 4)",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Factor: b³ − 8",
+      "choices": [
+        "(b − 2)(b² + 2b + 4)",
+        "(b + 2)(b² − 2b + 4)",
+        "(b − 2)³",
+        "(b³ + 8)"
+      ],
+      "answer": "(b − 2)(b² + 2b + 4)",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Factor: c³ + 27",
+      "choices": [
+        "(c + 3)(c² − 3c + 9)",
+        "(c − 3)(c² + 3c + 9)",
+        "(c + 3)³",
+        "(c³ − 27)"
+      ],
+      "answer": "(c + 3)(c² − 3c + 9)",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Factor: d³ − 27",
+      "choices": [
+        "(d − 3)(d² + 3d + 9)",
+        "(d + 3)(d² − 3d + 9)",
+        "(d − 3)³",
+        "(d³ + 27)"
+      ],
+      "answer": "(d − 3)(d² + 3d + 9)",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Factor: e³ + 64",
+      "choices": [
+        "(e + 4)(e² − 4e + 16)",
+        "(e − 4)(e² + 4e + 16)",
+        "(e + 4)³",
+        "(e³ − 64)"
+      ],
+      "answer": "(e + 4)(e² − 4e + 16)",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Factor: f³ − 64",
+      "choices": [
+        "(f − 4)(f² + 4f + 16)",
+        "(f + 4)(f² − 4f + 16)",
+        "(f − 4)³",
+        "(f³ + 64)"
+      ],
+      "answer": "(f − 4)(f² + 4f + 16)",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Factor: g³ + 125",
+      "choices": [
+        "(g + 5)(g² − 5g + 25)",
+        "(g − 5)(g² + 5g + 25)",
+        "(g + 5)³",
+        "(g³ − 125)"
+      ],
+      "answer": "(g + 5)(g² − 5g + 25)",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Factor: h³ − 125",
+      "choices": [
+        "(h − 5)(h² + 5h + 25)",
+        "(h + 5)(h² − 5h + 25)",
+        "(h − 5)³",
+        "(h³ + 125)"
+      ],
+      "answer": "(h − 5)(h² + 5h + 25)",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Factor: k³ + 216",
+      "choices": [
+        "(k + 6)(k² − 6k + 36)",
+        "(k − 6)(k² + 6k + 36)",
+        "(k + 6)³",
+        "(k³ − 216)"
+      ],
+      "answer": "(k + 6)(k² − 6k + 36)",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Factor: m³ − 216",
+      "choices": [
+        "(m − 6)(m² + 6m + 36)",
+        "(m + 6)(m² − 6m + 36)",
+        "(m − 6)³",
+        "(m³ + 216)"
+      ],
+      "answer": "(m − 6)(m² + 6m + 36)",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Factor: n³ + 1000",
+      "choices": [
+        "(n + 10)(n² − 10n + 100)",
+        "(n − 10)(n² + 10n + 100)",
+        "(n + 10)³",
+        "(n³ − 1000)"
+      ],
+      "answer": "(n + 10)(n² − 10n + 100)",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Factor: p³ − 1000",
+      "choices": [
+        "(p − 10)(p² + 10p + 100)",
+        "(p + 10)(p² − 10p + 100)",
+        "(p − 10)³",
+        "(p³ + 1000)"
+      ],
+      "answer": "(p − 10)(p² + 10p + 100)",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Factor: q³ + 343",
+      "choices": [
+        "(q + 7)(q² − 7q + 49)",
+        "(q − 7)(q² + 7q + 49)",
+        "(q + 7)³",
+        "(q³ − 343)"
+      ],
+      "answer": "(q + 7)(q² − 7q + 49)",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Factor: r³ − 343",
+      "choices": [
+        "(r − 7)(r² + 7r + 49)",
+        "(r + 7)(r² − 7r + 49)",
+        "(r − 7)³",
+        "(r³ + 343)"
+      ],
+      "answer": "(r − 7)(r² + 7r + 49)",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Factor: s³ + 512",
+      "choices": [
+        "(s + 8)(s² − 8s + 64)",
+        "(s − 8)(s² + 8s + 64)",
+        "(s + 8)³",
+        "(s³ − 512)"
+      ],
+      "answer": "(s + 8)(s² − 8s + 64)",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Factor: t³ − 512",
+      "choices": [
+        "(t − 8)(t² + 8t + 64)",
+        "(t + 8)(t² − 8t + 64)",
+        "(t − 8)³",
+        "(t³ + 512)"
+      ],
+      "answer": "(t − 8)(t² + 8t + 64)",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Factor: u³ + 729",
+      "choices": [
+        "(u + 9)(u² − 9u + 81)",
+        "(u − 9)(u² + 9u + 81)",
+        "(u + 9)³",
+        "(u³ − 729)"
+      ],
+      "answer": "(u + 9)(u² − 9u + 81)",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Factor: v³ − 729",
+      "choices": [
+        "(v − 9)(v² + 9v + 81)",
+        "(v + 9)(v² − 9v + 81)",
+        "(v − 9)³",
+        "(v³ + 729)"
+      ],
+      "answer": "(v − 9)(v² + 9v + 81)",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Factor: w³ + 1",
+      "choices": [
+        "(w + 1)(w² − w + 1)",
+        "(w − 1)(w² + w + 1)",
+        "(w + 1)³",
+        "(w³ − 1)"
+      ],
+      "answer": "(w + 1)(w² − w + 1)",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Factor: x³ − 8",
+      "choices": [
+        "(x − 2)(x² + 2x + 4)",
+        "(x + 2)(x² − 2x + 4)",
+        "(x − 2)³",
+        "(x³ + 8)"
+      ],
+      "answer": "(x − 2)(x² + 2x + 4)",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Factor: y³ + 27",
+      "choices": [
+        "(y + 3)(y² − 3y + 9)",
+        "(y − 3)(y² + 3y + 9)",
+        "(y + 3)³",
+        "(y³ − 27)"
+      ],
+      "answer": "(y + 3)(y² − 3y + 9)",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Factor: z³ − 64",
+      "choices": [
+        "(z − 4)(z² + 4z + 16)",
+        "(z + 4)(z² − 4z + 16)",
+        "(z − 4)³",
+        "(z³ + 64)"
+      ],
+      "answer": "(z − 4)(z² + 4z + 16)",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Factor: a³ + 125",
+      "choices": [
+        "(a + 5)(a² − 5a + 25)",
+        "(a − 5)(a² + 5a + 25)",
+        "(a + 5)³",
+        "(a³ − 125)"
+      ],
+      "answer": "(a + 5)(a² − 5a + 25)",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Factor: b³ − 125",
+      "choices": [
+        "(b − 5)(b² + 5b + 25)",
+        "(b + 5)(b² − 5b + 25)",
+        "(b − 5)³",
+        "(b³ + 125)"
+      ],
+      "answer": "(b − 5)(b² + 5b + 25)",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Factor: c³ + 216",
+      "choices": [
+        "(c + 6)(c² − 6c + 36)",
+        "(c − 6)(c² + 6c + 36)",
+        "(c + 6)³",
+        "(c³ − 216)"
+      ],
+      "answer": "(c + 6)(c² − 6c + 36)",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Factor: d³ − 216",
+      "choices": [
+        "(d − 6)(d² + 6d + 36)",
+        "(d + 6)(d² − 6d + 36)",
+        "(d − 6)³",
+        "(d³ + 216)"
+      ],
+      "answer": "(d − 6)(d² + 6d + 36)",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Factor: e³ + 1000",
+      "choices": [
+        "(e + 10)(e² − 10e + 100)",
+        "(e − 10)(e² + 10e + 100)",
+        "(e + 10)³",
+        "(e³ − 1000)"
+      ],
+      "answer": "(e + 10)(e² − 10e + 100)",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Factor: f³ − 1000",
+      "choices": [
+        "(f − 10)(f² + 10f + 100)",
+        "(f + 10)(f² − 10f + 100)",
+        "(f − 10)³",
+        "(f³ + 1000)"
+      ],
+      "answer": "(f − 10)(f² + 10f + 100)",
+      "points": 10
+    },
+
+    {
+      "id": 31,
+      "wave": 2,
+      "question": "Factor: 8x³ + 1",
+      "choices": [
+        "(2x + 1)(4x² − 2x + 1)",
+        "(2x − 1)(4x² + 2x + 1)",
+        "(2x + 1)³",
+        "(8x³ − 1)"
+      ],
+      "answer": "(2x + 1)(4x² − 2x + 1)",
+      "points": 15
+    },
+    {
+      "id": 32,
+      "wave": 2,
+      "question": "Factor: 27y³ − 8",
+      "choices": [
+        "(3y − 2)(9y² + 6y + 4)",
+        "(3y + 2)(9y² − 6y + 4)",
+        "(3y − 2)³",
+        "(27y³ + 8)"
+      ],
+      "answer": "(3y − 2)(9y² + 6y + 4)",
+      "points": 15
+    },
+    {
+      "id": 33,
+      "wave": 2,
+      "question": "Factor: 64a³ + 27",
+      "choices": [
+        "(4a + 3)(16a² − 12a + 9)",
+        "(4a − 3)(16a² + 12a + 9)",
+        "(4a + 3)³",
+        "(64a³ − 27)"
+      ],
+      "answer": "(4a + 3)(16a² − 12a + 9)",
+      "points": 15
+    },
+    {
+      "id": 34,
+      "wave": 2,
+      "question": "Factor: 125b³ − 64",
+      "choices": [
+        "(5b − 4)(25b² + 20b + 16)",
+        "(5b + 4)(25b² − 20b + 16)",
+        "(5b − 4)³",
+        "(125b³ + 64)"
+      ],
+      "answer": "(5b − 4)(25b² + 20b + 16)",
+      "points": 15
+    },
+    {
+      "id": 35,
+      "wave": 2,
+      "question": "Factor: 216c³ + 125",
+      "choices": [
+        "(6c + 5)(36c² − 30c + 25)",
+        "(6c − 5)(36c² + 30c + 25)",
+        "(6c + 5)³",
+        "(216c³ − 125)"
+      ],
+      "answer": "(6c + 5)(36c² − 30c + 25)",
+      "points": 15
+    },
+    {
+      "id": 36,
+      "wave": 2,
+      "question": "Factor: 343d³ − 216",
+      "choices": [
+        "(7d − 6)(49d² + 42d + 36)",
+        "(7d + 6)(49d² − 42d + 36)",
+        "(7d − 6)³",
+        "(343d³ + 216)"
+      ],
+      "answer": "(7d − 6)(49d² + 42d + 36)",
+      "points": 15
+    },
+    {
+      "id": 37,
+      "wave": 2,
+      "question": "Factor: 512e³ + 343",
+      "choices": [
+        "(8e + 7)(64e² − 56e + 49)",
+        "(8e − 7)(64e² + 56e + 49)",
+        "(8e + 7)³",
+        "(512e³ − 343)"
+      ],
+      "answer": "(8e + 7)(64e² − 56e + 49)",
+      "points": 15
+    },
+    {
+      "id": 38,
+      "wave": 2,
+      "question": "Factor: 729f³ − 512",
+      "choices": [
+        "(9f − 8)(81f² + 72f + 64)",
+        "(9f + 8)(81f² − 72f + 64)",
+        "(9f − 8)³",
+        "(729f³ + 512)"
+      ],
+      "answer": "(9f − 8)(81f² + 72f + 64)",
+      "points": 15
+    },
+    {
+      "id": 39,
+      "wave": 2,
+      "question": "Factor: 1000g³ + 729",
+      "choices": [
+        "(10g + 9)(100g² − 90g + 81)",
+        "(10g − 9)(100g² + 90g + 81)",
+        "(10g + 9)³",
+        "(1000g³ − 729)"
+      ],
+      "answer": "(10g + 9)(100g² − 90g + 81)",
+      "points": 15
+    },
+    {
+      "id": 40,
+      "wave": 2,
+      "question": "Factor: 1331h³ − 1000",
+      "choices": [
+        "(11h − 10)(121h² + 110h + 100)",
+        "(11h + 10)(121h² − 110h + 100)",
+        "(11h − 10)³",
+        "(1331h³ + 1000)"
+      ],
+      "answer": "(11h − 10)(121h² + 110h + 100)",
+      "points": 15
+    },
+    {
+      "id": 41,
+      "wave": 2,
+      "question": "Factor: 8x³ − 1",
+      "choices": [
+        "(2x − 1)(4x² + 2x + 1)",
+        "(2x + 1)(4x² − 2x + 1)",
+        "(2x − 1)³",
+        "(8x³ + 1)"
+      ],
+      "answer": "(2x − 1)(4x² + 2x + 1)",
+      "points": 15
+    },
+    {
+      "id": 42,
+      "wave": 2,
+      "question": "Factor: 27y³ + 8",
+      "choices": [
+        "(3y + 2)(9y² − 6y + 4)",
+        "(3y − 2)(9y² + 6y + 4)",
+        "(3y + 2)³",
+        "(27y³ − 8)"
+      ],
+      "answer": "(3y + 2)(9y² − 6y + 4)",
+      "points": 15
+    },
+    {
+      "id": 43,
+      "wave": 2,
+      "question": "Factor: 64a³ − 27",
+      "choices": [
+        "(4a − 3)(16a² + 12a + 9)",
+        "(4a + 3)(16a² − 12a + 9)",
+        "(4a − 3)³",
+        "(64a³ + 27)"
+      ],
+      "answer": "(4a − 3)(16a² + 12a + 9)",
+      "points": 15
+    },
+    {
+      "id": 44,
+      "wave": 2,
+      "question": "Factor: 125b³ + 64",
+      "choices": [
+        "(5b + 4)(25b² − 20b + 16)",
+        "(5b − 4)(25b² + 20b + 16)",
+        "(5b + 4)³",
+        "(125b³ − 64)"
+      ],
+      "answer": "(5b + 4)(25b² − 20b + 16)",
+      "points": 15
+    },
+    {
+      "id": 45,
+      "wave": 2,
+      "question": "Factor: 216c³ − 125",
+      "choices": [
+        "(6c − 5)(36c² + 30c + 25)",
+        "(6c + 5)(36c² − 30c + 25)",
+        "(6c − 5)³",
+        "(216c³ + 125)"
+      ],
+      "answer": "(6c − 5)(36c² + 30c + 25)",
+      "points": 15
+    },
+    {
+      "id": 46,
+      "wave": 2,
+      "question": "Factor: 343d³ + 216",
+      "choices": [
+        "(7d + 6)(49d² − 42d + 36)",
+        "(7d − 6)(49d² + 42d + 36)",
+        "(7d + 6)³",
+        "(343d³ − 216)"
+      ],
+      "answer": "(7d + 6)(49d² − 42d + 36)",
+      "points": 15
+    },
+    {
+      "id": 47,
+      "wave": 2,
+      "question": "Factor: 512e³ − 343",
+      "choices": [
+        "(8e − 7)(64e² + 56e + 49)",
+        "(8e + 7)(64e² − 56e + 49)",
+        "(8e − 7)³",
+        "(512e³ + 343)"
+      ],
+      "answer": "(8e − 7)(64e² + 56e + 49)",
+      "points": 15
+    },
+    {
+      "id": 48,
+      "wave": 2,
+      "question": "Factor: 729f³ + 512",
+      "choices": [
+        "(9f + 8)(81f² − 72f + 64)",
+        "(9f − 8)(81f² + 72f + 64)",
+        "(9f + 8)³",
+        "(729f³ − 512)"
+      ],
+      "answer": "(9f + 8)(81f² − 72f + 64)",
+      "points": 15
+    },
+    {
+      "id": 49,
+      "wave": 2,
+      "question": "Factor: 1000g³ − 729",
+      "choices": [
+        "(10g − 9)(100g² + 90g + 81)",
+        "(10g + 9)(100g² − 90g + 81)",
+        "(10g − 9)³",
+        "(1000g³ + 729)"
+      ],
+      "answer": "(10g − 9)(100g² + 90g + 81)",
+      "points": 15
+    },
+    {
+      "id": 50,
+      "wave": 2,
+      "question": "Factor: 1331h³ + 1000",
+      "choices": [
+        "(11h + 10)(121h² − 110h + 100)",
+        "(11h − 10)(121h² + 110h + 100)",
+        "(11h + 10)³",
+        "(1331h³ − 1000)"
+      ],
+      "answer": "(11h + 10)(121h² − 110h + 100)",
+      "points": 15
+    },
+
+    {
+      "id": 51,
+      "wave": 3,
+      "question": "Factor: x⁶ + 1",
+      "choices": [
+        "(x² + 1)(x⁴ − x² + 1)",
+        "(x² − 1)(x⁴ + x² + 1)",
+        "(x³ + 1)(x³ − 1)",
+        "(x⁶ − 1)"
+      ],
+      "answer": "(x² + 1)(x⁴ − x² + 1)",
+      "points": 20
+    },
+    {
+      "id": 52,
+      "wave": 3,
+      "question": "Factor: y⁶ − 1",
+      "choices": [
+        "(y² − 1)(y⁴ + y² + 1)",
+        "(y² + 1)(y⁴ − y² + 1)",
+        "(y³ − 1)(y³ + 1)",
+        "(y⁶ + 1)"
+      ],
+      "answer": "(y² − 1)(y⁴ + y² + 1)",
+      "points": 20
+    },
+    {
+      "id": 53,
+      "wave": 3,
+      "question": "Factor: a³b³ + 8",
+      "choices": [
+        "(ab + 2)(a²b² − 2ab + 4)",
+        "(ab − 2)(a²b² + 2ab + 4)",
+        "(ab + 2)³",
+        "(a³b³ − 8)"
+      ],
+      "answer": "(ab + 2)(a²b² − 2ab + 4)",
+      "points": 20
+    },
+    {
+      "id": 54,
+      "wave": 3,
+      "question": "Factor: c³d³ − 27",
+      "choices": [
+        "(cd − 3)(c²d² + 3cd + 9)",
+        "(cd + 3)(c²d² − 3cd + 9)",
+        "(cd − 3)³",
+        "(c³d³ + 27)"
+      ],
+      "answer": "(cd − 3)(c²d² + 3cd + 9)",
+      "points": 20
+    },
+    {
+      "id": 55,
+      "wave": 3,
+      "question": "Factor: 8x³y³ + 1",
+      "choices": [
+        "(2xy + 1)(4x²y² − 2xy + 1)",
+        "(2xy − 1)(4x²y² + 2xy + 1)",
+        "(2xy + 1)³",
+        "(8x³y³ − 1)"
+      ],
+      "answer": "(2xy + 1)(4x²y² − 2xy + 1)",
+      "points": 20
+    },
+    {
+      "id": 56,
+      "wave": 3,
+      "question": "Factor: 27u³v³ − 1",
+      "choices": [
+        "(3uv − 1)(9u²v² + 3uv + 1)",
+        "(3uv + 1)(9u²v² − 3uv + 1)",
+        "(3uv − 1)³",
+        "(27u³v³ + 1)"
+      ],
+      "answer": "(3uv − 1)(9u²v² + 3uv + 1)",
+      "points": 20
+    },
+    {
+      "id": 57,
+      "wave": 3,
+      "question": "Factor: 64m³ + 27n³",
+      "choices": [
+        "(4m + 3n)(16m² − 12mn + 9n²)",
+        "(4m − 3n)(16m² + 12mn + 9n²)",
+        "(4m + 3n)³",
+        "(64m³ − 27n³)"
+      ],
+      "answer": "(4m + 3n)(16m² − 12mn + 9n²)",
+      "points": 20
+    },
+    {
+      "id": 58,
+      "wave": 3,
+      "question": "Factor: 125p³ − 64q³",
+      "choices": [
+        "(5p − 4q)(25p² + 20pq + 16q²)",
+        "(5p + 4q)(25p² − 20pq + 16q²)",
+        "(5p − 4q)³",
+        "(125p³ + 64q³)"
+      ],
+      "answer": "(5p − 4q)(25p² + 20pq + 16q²)",
+      "points": 20
+    },
+    {
+      "id": 59,
+      "wave": 3,
+      "question": "Factor: 216x³ + 125y³",
+      "choices": [
+        "(6x + 5y)(36x² − 30xy + 25y²)",
+        "(6x − 5y)(36x² + 30xy + 25y²)",
+        "(6x + 5y)³",
+        "(216x³ − 125y³)"
+      ],
+      "answer": "(6x + 5y)(36x² − 30xy + 25y²)",
+      "points": 20
+    },
+    {
+      "id": 60,
+      "wave": 3,
+      "question": "Factor: 343a³ − 216b³",
+      "choices": [
+        "(7a − 6b)(49a² + 42ab + 36b²)",
+        "(7a + 6b)(49a² − 42ab + 36b²)",
+        "(7a − 6b)³",
+        "(343a³ + 216b³)"
+      ],
+      "answer": "(7a − 6b)(49a² + 42ab + 36b²)",
+      "points": 20
+    },
+    {
+      "id": 61,
+      "wave": 3,
+      "question": "Factor: 512c³ + 27d³",
+      "choices": [
+        "(8c + 3d)(64c² − 24cd + 9d²)",
+        "(8c − 3d)(64c² + 24cd + 9d²)",
+        "(8c + 3d)³",
+        "(512c³ − 27d³)"
+      ],
+      "answer": "(8c + 3d)(64c² − 24cd + 9d²)",
+      "points": 20
+    },
+    {
+      "id": 62,
+      "wave": 3,
+      "question": "Factor: 729e³ − 64f³",
+      "choices": [
+        "(9e − 4f)(81e² + 36ef + 16f²)",
+        "(9e + 4f)(81e² − 36ef + 16f²)",
+        "(9e − 4f)³",
+        "(729e³ + 64f³)"
+      ],
+      "answer": "(9e − 4f)(81e² + 36ef + 16f²)",
+      "points": 20
+    },
+    {
+      "id": 63,
+      "wave": 3,
+      "question": "Factor: 1000g³ + h³",
+      "choices": [
+        "(10g + h)(100g² − 10gh + h²)",
+        "(10g − h)(100g² + 10gh + h²)",
+        "(10g + h)³",
+        "(1000g³ − h³)"
+      ],
+      "answer": "(10g + h)(100g² − 10gh + h²)",
+      "points": 20
+    },
+    {
+      "id": 64,
+      "wave": 3,
+      "question": "Factor: 1331i³ − j³",
+      "choices": [
+        "(11i − j)(121i² + 11ij + j²)",
+        "(11i + j)(121i² − 11ij + j²)",
+        "(11i − j)³",
+        "(1331i³ + j³)"
+      ],
+      "answer": "(11i − j)(121i² + 11ij + j²)",
+      "points": 20
+    },
+    {
+      "id": 65,
+      "wave": 3,
+      "question": "Factor: x³ + 27y³",
+      "choices": [
+        "(x + 3y)(x² − 3xy + 9y²)",
+        "(x − 3y)(x² + 3xy + 9y²)",
+        "(x + 3y)³",
+        "(x³ − 27y³)"
+      ],
+      "answer": "(x + 3y)(x² − 3xy + 9y²)",
+      "points": 20
+    },
+    {
+      "id": 66,
+      "wave": 3,
+      "question": "Factor: 8a³ − b³",
+      "choices": [
+        "(2a − b)(4a² + 2ab + b²)",
+        "(2a + b)(4a² − 2ab + b²)",
+        "(2a − b)³",
+        "(8a³ + b³)"
+      ],
+      "answer": "(2a − b)(4a² + 2ab + b²)",
+      "points": 20
+    },
+    {
+      "id": 67,
+      "wave": 3,
+      "question": "Factor: 27m³ + 8n³",
+      "choices": [
+        "(3m + 2n)(9m² − 6mn + 4n²)",
+        "(3m − 2n)(9m² + 6mn + 4n²)",
+        "(3m + 2n)³",
+        "(27m³ − 8n³)"
+      ],
+      "answer": "(3m + 2n)(9m² − 6mn + 4n²)",
+      "points": 20
+    },
+    {
+      "id": 68,
+      "wave": 3,
+      "question": "Factor: 64p³ − 27q³",
+      "choices": [
+        "(4p − 3q)(16p² + 12pq + 9q²)",
+        "(4p + 3q)(16p² − 12pq + 9q²)",
+        "(4p − 3q)³",
+        "(64p³ + 27q³)"
+      ],
+      "answer": "(4p − 3q)(16p² + 12pq + 9q²)",
+      "points": 20
+    },
+    {
+      "id": 69,
+      "wave": 3,
+      "question": "Factor: 125r³ + 64s³",
+      "choices": [
+        "(5r + 4s)(25r² − 20rs + 16s²)",
+        "(5r − 4s)(25r² + 20rs + 16s²)",
+        "(5r + 4s)³",
+        "(125r³ − 64s³)"
+      ],
+      "answer": "(5r + 4s)(25r² − 20rs + 16s²)",
+      "points": 20
+    },
+    {
+      "id": 70,
+      "wave": 3,
+      "question": "Factor: 216u³ − 125v³",
+      "choices": [
+        "(6u − 5v)(36u² + 30uv + 25v²)",
+        "(6u + 5v)(36u² − 30uv + 25v²)",
+        "(6u − 5v)³",
+        "(216u³ + 125v³)"
+      ],
+      "answer": "(6u − 5v)(36u² + 30uv + 25v²)",
+      "points": 20
+    },
+    {
+      "id": 71,
+      "wave": 3,
+      "question": "Factor: 343x³ + 216y³",
+      "choices": [
+        "(7x + 6y)(49x² − 42xy + 36y²)",
+        "(7x − 6y)(49x² + 42xy + 36y²)",
+        "(7x + 6y)³",
+        "(343x³ − 216y³)"
+      ],
+      "answer": "(7x + 6y)(49x² − 42xy + 36y²)",
+      "points": 20
+    },
+    {
+      "id": 72,
+      "wave": 3,
+      "question": "Factor: 512a³ − 343b³",
+      "choices": [
+        "(8a − 7b)(64a² + 56ab + 49b²)",
+        "(8a + 7b)(64a² − 56ab + 49b²)",
+        "(8a − 7b)³",
+        "(512a³ + 343b³)"
+      ],
+      "answer": "(8a − 7b)(64a² + 56ab + 49b²)",
+      "points": 20
+    },
+    {
+      "id": 73,
+      "wave": 3,
+      "question": "Factor: 729c³ + 512d³",
+      "choices": [
+        "(9c + 8d)(81c² − 72cd + 64d²)",
+        "(9c − 8d)(81c² + 72cd + 64d²)",
+        "(9c + 8d)³",
+        "(729c³ − 512d³)"
+      ],
+      "answer": "(9c + 8d)(81c² − 72cd + 64d²)",
+      "points": 20
+    },
+    {
+      "id": 74,
+      "wave": 3,
+      "question": "Factor: 1000e³ − 729f³",
+      "choices": [
+        "(10e − 9f)(100e² + 90ef + 81f²)",
+        "(10e + 9f)(100e² − 90ef + 81f²)",
+        "(10e − 9f)³",
+        "(1000e³ + 729f³)"
+      ],
+      "answer": "(10e − 9f)(100e² + 90ef + 81f²)",
+      "points": 20
+    },
+    {
+      "id": 75,
+      "wave": 3,
+      "question": "Factor: 1331g³ + 1000h³",
+      "choices": [
+        "(11g + 10h)(121g² − 110gh + 100h²)",
+        "(11g − 10h)(121g² + 110gh + 100h²)",
+        "(11g + 10h)³",
+        "(1331g³ − 1000h³)"
+      ],
+      "answer": "(11g + 10h)(121g² − 110gh + 100h²)",
+      "points": 20
+    },
+    {
+      "id": 76,
+      "wave": 3,
+      "question": "Factor: x³y³ + 8",
+      "choices": [
+        "(xy + 2)(x²y² − 2xy + 4)",
+        "(xy − 2)(x²y² + 2xy + 4)",
+        "(xy + 2)³",
+        "(x³y³ − 8)"
+      ],
+      "answer": "(xy + 2)(x²y² − 2xy + 4)",
+      "points": 20
+    },
+    {
+      "id": 77,
+      "wave": 3,
+      "question": "Factor: a³b³ − 27",
+      "choices": [
+        "(ab − 3)(a²b² + 3ab + 9)",
+        "(ab + 3)(a²b² − 3ab + 9)",
+        "(ab − 3)³",
+        "(a³b³ + 27)"
+      ],
+      "answer": "(ab − 3)(a²b² + 3ab + 9)",
+      "points": 20
+    },
+    {
+      "id": 78,
+      "wave": 3,
+      "question": "Factor: 8x³y³ + 1",
+      "choices": [
+        "(2xy + 1)(4x²y² − 2xy + 1)",
+        "(2xy − 1)(4x²y² + 2xy + 1)",
+        "(2xy + 1)³",
+        "(8x³y³ − 1)"
+      ],
+      "answer": "(2xy + 1)(4x²y² − 2xy + 1)",
+      "points": 20
+    },
+    {
+      "id": 79,
+      "wave": 3,
+      "question": "Factor: 27u³v³ − 1",
+      "choices": [
+        "(3uv − 1)(9u²v² + 3uv + 1)",
+        "(3uv + 1)(9u²v² − 3uv + 1)",
+        "(3uv − 1)³",
+        "(27u³v³ + 1)"
+      ],
+      "answer": "(3uv − 1)(9u²v² + 3uv + 1)",
+      "points": 20
+    },
+    {
+      "id": 80,
+      "wave": 3,
+      "question": "Factor: 64m³n³ + 125",
+      "choices": [
+        "(4mn + 5)(16m²n² − 20mn + 25)",
+        "(4mn − 5)(16m²n² + 20mn + 25)",
+        "(4mn + 5)³",
+        "(64m³n³ − 125)"
+      ],
+      "answer": "(4mn + 5)(16m²n² − 20mn + 25)",
+      "points": 20
+    },
+
+    {
+      "id": 81,
+      "wave": 4,
+      "question": "Factor: x⁶ + y⁶",
+      "choices": [
+        "(x² + y²)(x⁴ − x²y² + y⁴)",
+        "(x³ + y³)(x³ − y³)",
+        "(x + y)(x⁵ − x⁴y + x³y² − x²y³ + xy⁴ − y⁵)",
+        "(x² − y²)(x⁴ + x²y² + y⁴)"
+      ],
+      "answer": "(x² + y²)(x⁴ − x²y² + y⁴)",
+      "points": 25
+    },
+    {
+      "id": 82,
+      "wave": 4,
+      "question": "Factor: x⁶ − y⁶",
+      "choices": [
+        "(x³ − y³)(x³ + y³)",
+        "(x² − y²)(x⁴ + x²y² + y⁴)",
+        "(x − y)(x⁵ + x⁴y + x³y² + x²y³ + xy⁴ + y⁵)",
+        "(x² + y²)(x⁴ − x²y² + y⁴)"
+      ],
+      "answer": "(x³ − y³)(x³ + y³)",
+      "points": 25
+    },
+    {
+      "id": 83,
+      "wave": 4,
+      "question": "Factor: 8x³ + y³",
+      "choices": [
+        "(2x + y)(4x² − 2xy + y²)",
+        "(2x − y)(4x² + 2xy + y²)",
+        "(2x + y)³",
+        "(8x³ − y³)"
+      ],
+      "answer": "(2x + y)(4x² − 2xy + y²)",
+      "points": 25
+    },
+    {
+      "id": 84,
+      "wave": 4,
+      "question": "Factor: 27a³ − 8b³",
+      "choices": [
+        "(3a − 2b)(9a² + 6ab + 4b²)",
+        "(3a + 2b)(9a² − 6ab + 4b²)",
+        "(3a − 2b)³",
+        "(27a³ + 8b³)"
+      ],
+      "answer": "(3a − 2b)(9a² + 6ab + 4b²)",
+      "points": 25
+    },
+    {
+      "id": 85,
+      "wave": 4,
+      "question": "Factor: 64x³ + 125y³",
+      "choices": [
+        "(4x + 5y)(16x² − 20xy + 25y²)",
+        "(4x − 5y)(16x² + 20xy + 25y²)",
+        "(4x + 5y)³",
+        "(64x³ − 125y³)"
+      ],
+      "answer": "(4x + 5y)(16x² − 20xy + 25y²)",
+      "points": 25
+    },
+    {
+      "id": 86,
+      "wave": 4,
+      "question": "Factor: 216a³ − 343b³",
+      "choices": [
+        "(6a − 7b)(36a² + 42ab + 49b²)",
+        "(6a + 7b)(36a² − 42ab + 49b²)",
+        "(6a − 7b)³",
+        "(216a³ + 343b³)"
+      ],
+      "answer": "(6a − 7b)(36a² + 42ab + 49b²)",
+      "points": 25
+    },
+    {
+      "id": 87,
+      "wave": 4,
+      "question": "Factor: 512x³ + 27y³",
+      "choices": [
+        "(8x + 3y)(64x² − 24xy + 9y²)",
+        "(8x − 3y)(64x² + 24xy + 9y²)",
+        "(8x + 3y)³",
+        "(512x³ − 27y³)"
+      ],
+      "answer": "(8x + 3y)(64x² − 24xy + 9y²)",
+      "points": 25
+    },
+    {
+      "id": 88,
+      "wave": 4,
+      "question": "Factor: 1000m³ − 729n³",
+      "choices": [
+        "(10m − 9n)(100m² + 90mn + 81n²)",
+        "(10m + 9n)(100m² − 90mn + 81n²)",
+        "(10m − 9n)³",
+        "(1000m³ + 729n³)"
+      ],
+      "answer": "(10m − 9n)(100m² + 90mn + 81n²)",
+      "points": 25
+    },
+    {
+      "id": 89,
+      "wave": 4,
+      "question": "Factor: 1331p³ + 512q³",
+      "choices": [
+        "(11p + 8q)(121p² − 88pq + 64q²)",
+        "(11p − 8q)(121p² + 88pq + 64q²)",
+        "(11p + 8q)³",
+        "(1331p³ − 512q³)"
+      ],
+      "answer": "(11p + 8q)(121p² − 88pq + 64q²)",
+      "points": 25
+    },
+    {
+      "id": 90,
+      "wave": 4,
+      "question": "Factor: 27x³y³ + 64z³",
+      "choices": [
+        "(3xy + 4z)(9x²y² − 12xyz + 16z²)",
+        "(3xy − 4z)(9x²y² + 12xyz + 16z²)",
+        "(3xy + 4z)³",
+        "(27x³y³ − 64z³)"
+      ],
+      "answer": "(3xy + 4z)(9x²y² − 12xyz + 16z²)",
+      "points": 25
+    },
+    {
+      "id": 91,
+      "wave": 4,
+      "question": "Factor: 64a³b³ − 125c³",
+      "choices": [
+        "(4ab − 5c)(16a²b² + 20abc + 25c²)",
+        "(4ab + 5c)(16a²b² − 20abc + 25c²)",
+        "(4ab − 5c)³",
+        "(64a³b³ + 125c³)"
+      ],
+      "answer": "(4ab − 5c)(16a²b² + 20abc + 25c²)",
+      "points": 25
+    },
+    {
+      "id": 92,
+      "wave": 4,
+      "question": "Factor: 216x³ + y³z³",
+      "choices": [
+        "(6x + yz)(36x² − 6xyz + y²z²)",
+        "(6x − yz)(36x² + 6xyz + y²z²)",
+        "(6x + yz)³",
+        "(216x³ − y³z³)"
+      ],
+      "answer": "(6x + yz)(36x² − 6xyz + y²z²)",
+      "points": 25
+    },
+    {
+      "id": 93,
+      "wave": 4,
+      "question": "Factor: 343a³ − 8b³c³",
+      "choices": [
+        "(7a − 2bc)(49a² + 14abc + 4b²c²)",
+        "(7a + 2bc)(49a² − 14abc + 4b²c²)",
+        "(7a − 2bc)³",
+        "(343a³ + 8b³c³)"
+      ],
+      "answer": "(7a − 2bc)(49a² + 14abc + 4b²c²)",
+      "points": 25
+    },
+    {
+      "id": 94,
+      "wave": 4,
+      "question": "Factor: 512p³q³ + 27r³",
+      "choices": [
+        "(8pq + 3r)(64p²q² − 24pqr + 9r²)",
+        "(8pq − 3r)(64p²q² + 24pqr + 9r²)",
+        "(8pq + 3r)³",
+        "(512p³q³ − 27r³)"
+      ],
+      "answer": "(8pq + 3r)(64p²q² − 24pqr + 9r²)",
+      "points": 25
+    },
+    {
+      "id": 95,
+      "wave": 4,
+      "question": "Factor: 729x³ − 64y³z³",
+      "choices": [
+        "(9x − 4yz)(81x² + 36xyz + 16y²z²)",
+        "(9x + 4yz)(81x² − 36xyz + 16y²z²)",
+        "(9x − 4yz)³",
+        "(729x³ + 64y³z³)"
+      ],
+      "answer": "(9x − 4yz)(81x² + 36xyz + 16y²z²)",
+      "points": 25
+    },
+    {
+      "id": 96,
+      "wave": 4,
+      "question": "Factor: 1000a³ + b³c³d³",
+      "choices": [
+        "(10a + bcd)(100a² − 10abcd + b²c²d²)",
+        "(10a − bcd)(100a² + 10abcd + b²c²d²)",
+        "(10a + bcd)³",
+        "(1000a³ − b³c³d³)"
+      ],
+      "answer": "(10a + bcd)(100a² − 10abcd + b²c²d²)",
+      "points": 25
+    },
+    {
+      "id": 97,
+      "wave": 4,
+      "question": "Factor: 1331m³n³ − 512p³",
+      "choices": [
+        "(11mn − 8p)(121m²n² + 88mnp + 64p²)",
+        "(11mn + 8p)(121m²n² − 88mnp + 64p²)",
+        "(11mn − 8p)³",
+        "(1331m³n³ + 512p³)"
+      ],
+      "answer": "(11mn − 8p)(121m²n² + 88mnp + 64p²)",
+      "points": 25
+    },
+    {
+      "id": 98,
+      "wave": 4,
+      "question": "Factor: x⁹ − y⁹",
+      "choices": [
+        "(x³ − y³)(x⁶ + x³y³ + y⁶)",
+        "(x³ + y³)(x⁶ − x³y³ + y⁶)",
+        "(x − y)(x⁸ + x⁷y + x⁶y² + x⁵y³ + x⁴y⁴ + x³y⁵ + x²y⁶ + xy⁷ + y⁸)",
+        "(x³ − y³)(x³ + y³)"
+      ],
+      "answer": "(x³ − y³)(x⁶ + x³y³ + y⁶)",
+      "points": 25
+    },
+    {
+      "id": 99,
+      "wave": 4,
+      "question": "Factor: x⁹ + y⁹",
+      "choices": [
+        "(x³ + y³)(x⁶ − x³y³ + y⁶)",
+        "(x³ − y³)(x⁶ + x³y³ + y⁶)",
+        "(x + y)(x⁸ − x⁷y + x⁶y² − x⁵y³ + x⁴y⁴ − x³y⁵ + x²y⁶ − xy⁷ + y⁸)",
+        "(x³ + y³)(x³ − y³)"
+      ],
+      "answer": "(x³ + y³)(x⁶ − x³y³ + y⁶)",
+      "points": 25
+    },
+    {
+      "id": 100,
+      "wave": 4,
+      "question": "Factor: x¹² + 1",
+      "choices": [
+        "(x⁴ + 1)(x⁸ − x⁴ + 1)",
+        "(x² + 1)(x¹⁰ − x⁸ + x⁶ − x⁴ + x² + 1)",
+        "(x⁶ + 1)(x⁶ − 1)",
+        "(x⁴ − 1)(x⁸ + x⁴ + 1)"
+      ],
+      "answer": "(x⁴ + 1)(x⁸ − x⁴ + 1)",
+      "points": 25
+    },
+    {
+      "id": 101,
+      "wave": 4,
+      "question": "Factor: x¹² − 1",
+      "choices": [
+        "(x⁴ − 1)(x⁸ + x⁴ + 1)",
+        "(x² − 1)(x¹⁰ + x⁸ + x⁶ + x⁴ + x² + 1)",
+        "(x⁶ − 1)(x⁶ + 1)",
+        "(x⁴ + 1)(x⁸ − x⁴ + 1)"
+      ],
+      "answer": "(x⁴ − 1)(x⁸ + x⁴ + 1)",
+      "points": 25
+    },
+    {
+      "id": 102,
+      "wave": 4,
+      "question": "Factor: x⁶ + 64",
+      "choices": [
+        "(x² + 4)(x⁴ − 4x² + 16)",
+        "(x² − 4)(x⁴ + 4x² + 16)",
+        "(x³ + 8)(x³ − 8)",
+        "(x² + 4)(x⁴ + 4x² + 16)"
+      ],
+      "answer": "(x² + 4)(x⁴ − 4x² + 16)",
+      "points": 25
+    },
+    {
+      "id": 103,
+      "wave": 4,
+      "question": "Factor: x⁶ − 64",
+      "choices": [
+        "(x² − 4)(x⁴ + 4x² + 16)",
+        "(x² + 4)(x⁴ − 4x² + 16)",
+        "(x³ − 8)(x³ + 8)",
+        "(x² − 4)(x⁴ − 4x² + 16)"
+      ],
+      "answer": "(x² − 4)(x⁴ + 4x² + 16)",
+      "points": 25
+    },
+    {
+      "id": 104,
+      "wave": 4,
+      "question": "Factor: x³y⁶ + z⁹",
+      "choices": [
+        "(xy² + z³)(x²y⁴ − xy²z³ + z⁶)",
+        "(xy² − z³)(x²y⁴ + xy²z³ + z⁶)",
+        "(xy² + z³)³",
+        "(x³y⁶ − z⁹)"
+      ],
+      "answer": "(xy² + z³)(x²y⁴ − xy²z³ + z⁶)",
+      "points": 25
+    },
+    {
+      "id": 105,
+      "wave": 4,
+      "question": "Factor: a⁶b⁶ − c⁹",
+      "choices": [
+        "(a²b² − c³)(a⁴b⁴ + a²b²c³ + c⁶)",
+        "(a²b² + c³)(a⁴b⁴ − a²b²c³ + c⁶)",
+        "(a²b² − c³)³",
+        "(a⁶b⁶ + c⁹)"
+      ],
+      "answer": "(a²b² − c³)(a⁴b⁴ + a²b²c³ + c⁶)",
+      "points": 25
+    },
+
+    {
+      "id": 106,
+      "wave": 5,
+      "question": "Factor: x³ + y³ + z³ − 3xyz",
+      "choices": [
+        "(x + y + z)(x² + y² + z² − xy − yz − zx)",
+        "(x + y − z)(x² + y² + z² − xy + yz − zx)",
+        "(x − y − z)(x² + y² + z² + xy + yz + zx)",
+        "(x + y + z)³"
+      ],
+      "answer": "(x + y + z)(x² + y² + z² − xy − yz − zx)",
+      "points": 30
+    },
+    {
+      "id": 107,
+      "wave": 5,
+      "question": "Factor: a³ + b³ − 3ab(a + b)",
+      "choices": [
+        "(a + b)(a² − ab + b²) − 3ab(a + b)",
+        "(a + b)³",
+        "(a + b)(a² − 4ab + b²)",
+        "(a − b)³"
+      ],
+      "answer": "(a + b)(a² − 4ab + b²)",
+      "points": 30
+    },
+    {
+      "id": 108,
+      "wave": 5,
+      "question": "Factor: 8x³ + 27y³ + z³ − 18xyz",
+      "choices": [
+        "(2x + 3y + z)(4x² + 9y² + z² − 6xy − 3yz − 2xz)",
+        "(2x + 3y − z)(4x² + 9y² + z² − 6xy + 3yz + 2xz)",
+        "(2x + 3y + z)³",
+        "(8x³ + 27y³ + z³ + 18xyz)"
+      ],
+      "answer": "(2x + 3y + z)(4x² + 9y² + z² − 6xy − 3yz − 2xz)",
+      "points": 30
+    },
+    {
+      "id": 109,
+      "wave": 5,
+      "question": "Factor: 27a³ + 64b³ + c³ − 36abc",
+      "choices": [
+        "(3a + 4b + c)(9a² + 16b² + c² − 12ab − 4bc − 3ac)",
+        "(3a + 4b − c)(9a² + 16b² + c² − 12ab + 4bc + 3ac)",
+        "(3a + 4b + c)³",
+        "(27a³ + 64b³ + c³ + 36abc)"
+      ],
+      "answer": "(3a + 4b + c)(9a² + 16b² + c² − 12ab − 4bc − 3ac)",
+      "points": 30
+    },
+    {
+      "id": 110,
+      "wave": 5,
+      "question": "Factor: 64x³ + 125y³ + z³ − 60xyz",
+      "choices": [
+        "(4x + 5y + z)(16x² + 25y² + z² − 20xy − 5yz − 4xz)",
+        "(4x + 5y − z)(16x² + 25y² + z² − 20xy + 5yz + 4xz)",
+        "(4x + 5y + z)³",
+        "(64x³ + 125y³ + z³ + 60xyz)"
+      ],
+      "answer": "(4x + 5y + z)(16x² + 25y² + z² − 20xy − 5yz − 4xz)",
+      "points": 30
+    },
+    {
+      "id": 111,
+      "wave": 5,
+      "question": "Factor: 125a³ + 216b³ + 8c³ − 180abc",
+      "choices": [
+        "(5a + 6b + 2c)(25a² + 36b² + 4c² − 30ab − 12bc − 10ac)",
+        "(5a + 6b − 2c)(25a² + 36b² + 4c² − 30ab + 12bc + 10ac)",
+        "(5a + 6b + 2c)³",
+        "(125a³ + 216b³ + 8c³ + 180abc)"
+      ],
+      "answer": "(5a + 6b + 2c)(25a² + 36b² + 4c² − 30ab − 12bc − 10ac)",
+      "points": 30
+    },
+    {
+      "id": 112,
+      "wave": 5,
+      "question": "Factor: 216x³ + 343y³ + 27z³ − 378xyz",
+      "choices": [
+        "(6x + 7y + 3z)(36x² + 49y² + 9z² − 42xy − 21yz − 18xz)",
+        "(6x + 7y − 3z)(36x² + 49y² + 9z² − 42xy + 21yz + 18xz)",
+        "(6x + 7y + 3z)³",
+        "(216x³ + 343y³ + 27z³ + 378xyz)"
+      ],
+      "answer": "(6x + 7y + 3z)(36x² + 49y² + 9z² − 42xy − 21yz − 18xz)",
+      "points": 30
+    },
+    {
+      "id": 113,
+      "wave": 5,
+      "question": "Factor: x⁹ + y⁹",
+      "choices": [
+        "(x³ + y³)(x⁶ − x³y³ + y⁶)",
+        "(x³ − y³)(x⁶ + x³y³ + y⁶)",
+        "(x + y)(x⁸ − x⁷y + x⁶y² − x⁵y³ + x⁴y⁴ − x³y⁵ + x²y⁶ − xy⁷ + y⁸)",
+        "(x³ + y³)(x³ − y³)"
+      ],
+      "answer": "(x³ + y³)(x⁶ − x³y³ + y⁶)",
+      "points": 30
+    },
+    {
+      "id": 114,
+      "wave": 5,
+      "question": "Factor: x⁹ − y⁹",
+      "choices": [
+        "(x³ − y³)(x⁶ + x³y³ + y⁶)",
+        "(x³ + y³)(x⁶ − x³y³ + y⁶)",
+        "(x − y)(x⁸ + x⁷y + x⁶y² + x⁵y³ + x⁴y⁴ + x³y⁵ + x²y⁶ + xy⁷ + y⁸)",
+        "(x³ − y³)(x³ + y³)"
+      ],
+      "answer": "(x³ − y³)(x⁶ + x³y³ + y⁶)",
+      "points": 30
+    },
+    {
+      "id": 115,
+      "wave": 5,
+      "question": "Factor: x¹² + y¹²",
+      "choices": [
+        "(x⁴ + y⁴)(x⁸ − x⁴y⁴ + y⁸)",
+        "(x² + y²)(x¹⁰ − x⁸y² + x⁶y⁴ − x⁴y⁶ + x²y⁸ + y¹⁰)",
+        "(x⁶ + y⁶)(x⁶ − y⁶)",
+        "(x² + y²)(x¹⁰ + x⁸y² + x⁶y⁴ + x⁴y⁶ + x²y⁸ + y¹⁰)"
+      ],
+      "answer": "(x⁴ + y⁴)(x⁸ − x⁴y⁴ + y⁸)",
+      "points": 30
+    },
+    {
+      "id": 116,
+      "wave": 5,
+      "question": "Factor: x¹² − y¹²",
+      "choices": [
+        "(x⁴ − y⁴)(x⁸ + x⁴y⁴ + y⁸)",
+        "(x² − y²)(x¹⁰ + x⁸y² + x⁶y⁴ + x⁴y⁶ + x²y⁸ + y¹⁰)",
+        "(x⁶ − y⁶)(x⁶ + y⁶)",
+        "(x² − y²)(x¹⁰ − x⁸y² + x⁶y⁴ − x⁴y⁶ + x²y⁸ − y¹⁰)"
+      ],
+      "answer": "(x⁴ − y⁴)(x⁸ + x⁴y⁴ + y⁸)",
+      "points": 30
+    },
+    {
+      "id": 117,
+      "wave": 5,
+      "question": "Factor: x⁹ + 8y⁹",
+      "choices": [
+        "(x³ + 2y³)(x⁶ − 2x³y³ + 4y⁶)",
+        "(x³ − 2y³)(x⁶ + 2x³y³ + 4y⁶)",
+        "(x + 2y)(x⁸ − 2x⁷y + 4x⁶y² − 8x⁵y³ + 16x⁴y⁴ − 32x³y⁵ + 64x²y⁶ − 128xy⁷ + 256y⁸)",
+        "(x³ + 2y³)(x³ − 2y³)"
+      ],
+      "answer": "(x³ + 2y³)(x⁶ − 2x³y³ + 4y⁶)",
+      "points": 30
+    },
+    {
+      "id": 118,
+      "wave": 5,
+      "question": "Factor: x⁹ − 8y⁹",
+      "choices": [
+        "(x³ − 2y³)(x⁶ + 2x³y³ + 4y⁶)",
+        "(x³ + 2y³)(x⁶ − 2x³y³ + 4y⁶)",
+        "(x − 2y)(x⁸ + 2x⁷y + 4x⁶y² + 8x⁵y³ + 16x⁴y⁴ + 32x³y⁵ + 64x²y⁶ + 128xy⁷ + 256y⁸)",
+        "(x³ − 2y³)(x³ + 2y³)"
+      ],
+      "answer": "(x³ − 2y³)(x⁶ + 2x³y³ + 4y⁶)",
+      "points": 30
+    },
+    {
+      "id": 119,
+      "wave": 5,
+      "question": "Factor: x¹⁵ + y¹⁵",
+      "choices": [
+        "(x⁵ + y⁵)(x¹⁰ − x⁵y⁵ + y¹⁰)",
+        "(x³ + y³)(x¹² − x⁹y³ + x⁶y⁶ − x³y⁹ + y¹²)",
+        "(x + y)(x¹⁴ − x¹³y + x¹²y² − ... + y¹⁴)",
+        "(x⁵ + y⁵)(x¹⁰ + x⁵y⁵ + y¹⁰)"
+      ],
+      "answer": "(x⁵ + y⁵)(x¹⁰ − x⁵y⁵ + y¹⁰)",
+      "points": 30
+    },
+    {
+      "id": 120,
+      "wave": 5,
+      "question": "Factor: x¹⁵ − y¹⁵",
+      "choices": [
+        "(x³ − y³)(x¹² + x⁹y³ + x⁶y⁶ + x³y⁹ + y¹²)",
+        "(x⁵ − y⁵)(x¹⁰ + x⁵y⁵ + y¹⁰)",
+        "(x − y)(x¹⁴ + x¹³y + x¹²y² + ... + y¹⁴)",
+        "(x³ + y³)(x¹² − x⁹y³ + x⁶y⁶ − x³y⁹ + y¹²)"
+      ],
+      "answer": "(x³ − y³)(x¹² + x⁹y³ + x⁶y⁶ + x³y⁹ + y¹²)",
+      "points": 30
+    },
+    {
+      "id": 121,
+      "wave": 5,
+      "question": "Factor: x²¹ + y²¹",
+      "choices": [
+        "(x⁷ + y⁷)(x¹⁴ − x⁷y⁷ + y¹⁴)",
+        "(x³ + y³)(x¹⁸ − x¹⁵y³ + x¹²y⁶ − ... + y¹⁸)",
+        "(x + y)(x²⁰ − x¹⁹y + x¹⁸y² − ... + y²⁰)",
+        "(x⁷ + y⁷)(x¹⁴ + x⁷y⁷ + y¹⁴)"
+      ],
+      "answer": "(x⁷ + y⁷)(x¹⁴ − x⁷y⁷ + y¹⁴)",
+      "points": 30
+    },
+    {
+      "id": 122,
+      "wave": 5,
+      "question": "Factor: x²¹ − y²¹",
+      "choices": [
+        "(x⁷ − y⁷)(x¹⁴ + x⁷y⁷ + y¹⁴)",
+        "(x³ − y³)(x¹⁸ + x¹⁵y³ + x¹²y⁶ + ... + y¹⁸)",
+        "(x − y)(x²⁰ + x¹⁹y + x¹⁸y² + ... + y²⁰)",
+        "(x⁷ − y⁷)(x¹⁴ − x⁷y⁷ + y¹⁴)"
+      ],
+      "answer": "(x⁷ − y⁷)(x¹⁴ + x⁷y⁷ + y¹⁴)",
+      "points": 30
+    },
+    {
+      "id": 123,
+      "wave": 5,
+      "question": "Factor: x²⁴ + y²⁴",
+      "choices": [
+        "(x⁸ + y⁸)(x¹⁶ − x⁸y⁸ + y¹⁶)",
+        "(x⁴ + y⁴)(x²⁰ − x¹⁶y⁴ + x¹²y⁸ − ... + y²⁰)",
+        "(x² + y²)(x²² − x²⁰y² + x¹⁸y⁴ − ... + y²²)",
+        "(x⁸ + y⁸)(x¹⁶ + x⁸y⁸ + y¹⁶)"
+      ],
+      "answer": "(x⁸ + y⁸)(x¹⁶ − x⁸y⁸ + y¹⁶)",
+      "points": 30
+    },
+    {
+      "id": 124,
+      "wave": 5,
+      "question": "Factor: x²⁴ − y²⁴",
+      "choices": [
+        "(x⁴ − y⁴)(x²⁰ + x¹⁶y⁴ + x¹²y⁸ + x⁸y¹² + x⁴y¹⁶ + y²⁰)",
+        "(x⁸ − y⁸)(x¹⁶ + x⁸y⁸ + y¹⁶)",
+        "(x² − y²)(x²² + x²⁰y² + x¹⁸y⁴ + ... + y²²)",
+        "(x⁴ + y⁴)(x²⁰ − x¹⁶y⁴ + x¹²y⁸ − ... + y²⁰)"
+      ],
+      "answer": "(x⁴ − y⁴)(x²⁰ + x¹⁶y⁴ + x¹²y⁸ + x⁸y¹² + x⁴y¹⁶ + y²⁰)",
+      "points": 30
+    },
+    {
+      "id": 125,
+      "wave": 5,
+      "question": "Factor: x³⁰ + y³⁰",
+      "choices": [
+        "(x¹⁰ + y¹⁰)(x²⁰ − x¹⁰y¹⁰ + y²⁰)",
+        "(x⁵ + y⁵)(x²⁵ − x²⁰y⁵ + x¹⁵y¹⁰ − ... + y²⁵)",
+        "(x² + y²)(x²⁸ − x²⁶y² + x²⁴y⁴ − ... + y²⁸)",
+        "(x¹⁰ + y¹⁰)(x²⁰ + x¹⁰y¹⁰ + y²⁰)"
+      ],
+      "answer": "(x¹⁰ + y¹⁰)(x²⁰ − x¹⁰y¹⁰ + y²⁰)",
+      "points": 30
+    }
+  ]
+}
