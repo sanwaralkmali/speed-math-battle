@@ -24,5 +24,6 @@
   "perfect-squares": ["perfect-squares"],
   "difference-of-squares": ["difference-of-squares"],
   "difference-sum-of-cubes": ["difference-sum-of-cubes"],
-  "solving-equations-by-factoring": ["solving-equations-by-factoring"]
+  "solving-equations-by-factoring": ["solving-equations-by-factoring"],
+  "quadratic-formula": ["quadratic-formula"]
 }
