@@ -1,0 +1,1492 @@
+{
+  "title": "Understanding Polynomial Terminology",
+  "description": "A quiz to test your understanding of polynomial terminology.",
+  "waves": 5,
+  "timePerQuestion": 30,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "How many terms are in 7x + 4?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "What is the coefficient of x in 5x – 9?",
+      "choices": ["5", "-9", "1", "0"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Identify the constant term in 3y + 8.",
+      "choices": ["8", "3", "y", "0"],
+      "answer": "8",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "How many terms are in 2m?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "What is the coefficient of y in –4y?",
+      "choices": ["-4", "4", "y", "0"],
+      "answer": "-4",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Identify the constant in 6x.",
+      "choices": ["0", "6", "x", "1"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "How many terms are in 9?",
+      "choices": ["1", "2", "0", "3"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "What is the coefficient of x in x + 3?",
+      "choices": ["1", "3", "x", "0"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Identify the constant term in –2.",
+      "choices": ["-2", "2", "0", "1"],
+      "answer": "-2",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "How many terms are in 4k – 1?",
+      "choices": ["2", "1", "3", "0"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "What is the coefficient of z in 0z + 5?",
+      "choices": ["0", "5", "z", "1"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Identify the constant term in 7a + 0.",
+      "choices": ["0", "7", "a", "1"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "How many terms are in –9x?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "What is the coefficient of x in –x?",
+      "choices": ["-1", "1", "x", "0"],
+      "answer": "-1",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Identify the constant term in 12.",
+      "choices": ["12", "0", "1", "12"],
+      "answer": "12",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "How many terms are in 3x + 7y?",
+      "choices": ["2", "1", "3", "0"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "What is the coefficient of y in 8x + 2y?",
+      "choices": ["2", "8", "y", "0"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Identify the constant term in 5x – 3y + 9.",
+      "choices": ["9", "5", "-3", "0"],
+      "answer": "9",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "How many terms are in 4x – 5y + 2?",
+      "choices": ["3", "2", "1", "4"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "What is the coefficient of x in x – 1?",
+      "choices": ["1", "-1", "0", "2"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Identify the constant term in 0.",
+      "choices": ["0", "1", "-1", "undefined"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "How many terms are in 6x²?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "What is the coefficient of x² in 3x²?",
+      "choices": ["3", "2", "x²", "1"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Identify the constant term in 2x² + 5.",
+      "choices": ["5", "2", "x²", "0"],
+      "answer": "5",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "How many terms are in 9x² – 4x?",
+      "choices": ["2", "1", "3", "0"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "What is the coefficient of x in 9x² – 4x?",
+      "choices": ["-4", "9", "x", "4"],
+      "answer": "-4",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Identify the constant term in 9x² – 4x.",
+      "choices": ["0", "-4", "9", "x"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "How many terms are in –7x² + 3x – 1?",
+      "choices": ["3", "2", "1", "4"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "What is the coefficient of x² in –7x² + 3x – 1?",
+      "choices": ["-7", "3", "-1", "7"],
+      "answer": "-7",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Identify the constant term in –7x² + 3x – 1.",
+      "choices": ["-1", "-7", "3", "1"],
+      "answer": "-1",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "How many terms are in 5x² + 0x – 9?",
+      "choices": ["2", "3", "1", "4"],
+      "answer": "3",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "What is the coefficient of x in 5x² + 0x – 9?",
+      "choices": ["0", "5", "-9", "x"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Identify the constant term in 5x² + 0x – 9.",
+      "choices": ["-9", "5", "0", "9"],
+      "answer": "-9",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "How many terms are in 1?",
+      "choices": ["1", "0", "2", "undefined"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "What is the degree of 7x?",
+      "choices": ["1", "0", "7", "x"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "What is the degree of –4?",
+      "choices": ["0", "1", "-4", "undefined"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "What is the degree of 5x²?",
+      "choices": ["2", "5", "1", "0"],
+      "answer": "2",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "What is the degree of 3x + 2?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "What is the degree of 8?",
+      "choices": ["0", "1", "8", "undefined"],
+      "answer": "0",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "What is the degree of x² + x + 1?",
+      "choices": ["2", "1", "0", "3"],
+      "answer": "2",
+      "points": 10
+    },
+
+    {
+      "id": 41,
+      "wave": 2,
+      "question": "How many terms are in 4x² – 3x + 7?",
+      "choices": ["3", "2", "1", "4"],
+      "answer": "3",
+      "points": 15
+    },
+    {
+      "id": 42,
+      "wave": 2,
+      "question": "What is the leading coefficient of 5x² – 2x + 9?",
+      "choices": ["5", "-2", "9", "1"],
+      "answer": "5",
+      "points": 15
+    },
+    {
+      "id": 43,
+      "wave": 2,
+      "question": "What is the constant term of 6x³ – x + 4?",
+      "choices": ["4", "6", "-1", "0"],
+      "answer": "4",
+      "points": 15
+    },
+    {
+      "id": 44,
+      "wave": 2,
+      "question": "Identify the degree of 3y³ – 2y + 8.",
+      "choices": ["3", "2", "1", "0"],
+      "answer": "3",
+      "points": 15
+    },
+    {
+      "id": 45,
+      "wave": 2,
+      "question": "How many terms are in –2x⁴?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
+      "points": 15
+    },
+    {
+      "id": 46,
+      "wave": 2,
+      "question": "What is the coefficient of x³ in 7x³ – 5x² + 4x – 1?",
+      "choices": ["7", "-5", "4", "-1"],
+      "answer": "7",
+      "points": 15
+    },
+    {
+      "id": 47,
+      "wave": 2,
+      "question": "What is the leading term of 9x² – 11x + 2?",
+      "choices": ["9x²", "-11x", "2", "9"],
+      "answer": "9x²",
+      "points": 15
+    },
+    {
+      "id": 48,
+      "wave": 2,
+      "question": "Identify the constant term of 8m³ – 3m.",
+      "choices": ["0", "8", "-3", "m"],
+      "answer": "0",
+      "points": 15
+    },
+    {
+      "id": 49,
+      "wave": 2,
+      "question": "What is the degree of 4x⁵ – 7x² + x – 3?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 15
+    },
+    {
+      "id": 50,
+      "wave": 2,
+      "question": "How many terms are in 5x²y + 3xy – 2?",
+      "choices": ["3", "2", "1", "4"],
+      "answer": "3",
+      "points": 15
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "What is the coefficient of xy in 5x²y + 3xy – 2?",
+      "choices": ["3", "5", "-2", "0"],
+      "answer": "3",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "What is the leading term of 12a⁴ – 6a² + a?",
+      "choices": ["12a⁴", "-6a²", "a", "12"],
+      "answer": "12a⁴",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Identify the constant term of 2x³ – 5x² + 7.",
+      "choices": ["7", "2", "-5", "0"],
+      "answer": "7",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "What is the degree of –3x²y³ + 4xy – 9?",
+      "choices": ["5", "3", "2", "1"],
+      "answer": "5",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "How many terms are in p² – 2pq + q²?",
+      "choices": ["3", "2", "1", "4"],
+      "answer": "3",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "What is the leading coefficient of 14x⁴ – x³ + 2x?",
+      "choices": ["14", "-1", "2", "0"],
+      "answer": "14",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "What is the constant term of 6x³ – 9x²?",
+      "choices": ["0", "6", "-9", "x²"],
+      "answer": "0",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Identify the degree of 7.",
+      "choices": ["0", "1", "7", "undefined"],
+      "answer": "0",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "How many terms are in 5x² – 3xy + y² – 4?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "What is the leading term of –x⁵ + 3x² – x + 8?",
+      "choices": ["-x⁵", "3x²", "-x", "8"],
+      "answer": "-x⁵",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "What is the coefficient of x²y in 2x²y – xy + 7?",
+      "choices": ["2", "-1", "7", "0"],
+      "answer": "2",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Identify the constant term of 9x² – 4x + 11.",
+      "choices": ["11", "9", "-4", "x"],
+      "answer": "11",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "What is the degree of 3x⁴ + 5x³ – 2x + 1?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "How many terms are in 2a²b – 3ab²?",
+      "choices": ["2", "1", "3", "4"],
+      "answer": "2",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "What is the leading coefficient of –5x³ + 2x² – x?",
+      "choices": ["-5", "2", "-1", "0"],
+      "answer": "-5",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Identify the constant term of 4y³ – 7y.",
+      "choices": ["0", "4", "-7", "y"],
+      "answer": "0",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "What is the degree of 6x²y² – 3xy + 9?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "How many terms are in –7?",
+      "choices": ["1", "0", "2", "undefined"],
+      "answer": "1",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "What is the leading term of 10x² – 5x + 3?",
+      "choices": ["10x²", "-5x", "3", "10"],
+      "answer": "10x²",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Identify the constant term of 3x⁴ – 2x³ + x² – x + 6.",
+      "choices": ["6", "3", "-2", "1"],
+      "answer": "6",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "What is the degree of 8x³y – 4xy² + 2?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "How many terms are in 1 + x + x² + x³?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "What is the leading coefficient of –x² + 3x – 4?",
+      "choices": ["-1", "3", "-4", "1"],
+      "answer": "-1",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Identify the constant term of –2x⁵ + 7x³ – 3x² + 9.",
+      "choices": ["9", "-2", "7", "-3"],
+      "answer": "9",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "What is the degree of 5x + 6?",
+      "choices": ["1", "0", "5", "2"],
+      "answer": "1",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "How many terms are in 4x² – 9?",
+      "choices": ["2", "1", "3", "4"],
+      "answer": "2",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "What is the leading term of 6x³ – 5x² + 2x – 1?",
+      "choices": ["6x³", "-5x²", "2x", "-1"],
+      "answer": "6x³",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Identify the constant term of 7x⁴ + 3x² – 11.",
+      "choices": ["-11", "7", "3", "0"],
+      "answer": "-11",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "What is the degree of –3x² + 5x – 8?",
+      "choices": ["2", "1", "0", "3"],
+      "answer": "2",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "How many terms are in 0?",
+      "choices": ["1", "0", "2", "undefined"],
+      "answer": "1",
+      "points": 15
+    },
+
+    {
+      "id": 81,
+      "wave": 3,
+      "question": "What is the degree of 4x³y² – 2xy⁴ + 7?",
+      "choices": ["5", "3", "2", "4"],
+      "answer": "5",
+      "points": 20
+    },
+    {
+      "id": 82,
+      "wave": 3,
+      "question": "Identify the leading coefficient of 2x⁵ – 3x³ + x – 4.",
+      "choices": ["2", "-3", "1", "-4"],
+      "answer": "2",
+      "points": 20
+    },
+    {
+      "id": 83,
+      "wave": 3,
+      "question": "How many terms are in 6x²y – 3xy² + y³ – 5?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 20
+    },
+    {
+      "id": 84,
+      "wave": 3,
+      "question": "What is the constant term of 9x⁴ – 7x² + 3x?",
+      "choices": ["0", "9", "-7", "3"],
+      "answer": "0",
+      "points": 20
+    },
+    {
+      "id": 85,
+      "wave": 3,
+      "question": "What is the leading term of –x⁴ + 5x³ – 2x² + x – 6?",
+      "choices": ["-x⁴", "5x³", "-2x²", "x"],
+      "answer": "-x⁴",
+      "points": 20
+    },
+    {
+      "id": 86,
+      "wave": 3,
+      "question": "Identify the coefficient of x²y in 3x²y – 4xy² + 2y³.",
+      "choices": ["3", "-4", "2", "0"],
+      "answer": "3",
+      "points": 20
+    },
+    {
+      "id": 87,
+      "wave": 3,
+      "question": "What is the degree of 7x²y³z?",
+      "choices": ["6", "5", "3", "2"],
+      "answer": "6",
+      "points": 20
+    },
+    {
+      "id": 88,
+      "wave": 3,
+      "question": "How many terms are in x³ – 2x²y + xy² – y³?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 20
+    },
+    {
+      "id": 89,
+      "wave": 3,
+      "question": "Identify the leading coefficient of 12x⁴ – 8x³ + 5x – 9.",
+      "choices": ["12", "-8", "5", "-9"],
+      "answer": "12",
+      "points": 20
+    },
+    {
+      "id": 90,
+      "wave": 3,
+      "question": "What is the constant term of 15x³y² – 10xy + 7?",
+      "choices": ["7", "15", "-10", "0"],
+      "answer": "7",
+      "points": 20
+    },
+    {
+      "id": 91,
+      "wave": 3,
+      "question": "What is the degree of 2x + 3y + 4z?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
+      "points": 20
+    },
+    {
+      "id": 92,
+      "wave": 3,
+      "question": "How many terms are in 8x² – 6xy + y² – 4x + 2?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 20
+    },
+    {
+      "id": 93,
+      "wave": 3,
+      "question": "Identify the leading term of 5x³ – 2x²y + 7xy² – y³.",
+      "choices": ["5x³", "-2x²y", "7xy²", "-y³"],
+      "answer": "5x³",
+      "points": 20
+    },
+    {
+      "id": 94,
+      "wave": 3,
+      "question": "What is the coefficient of y² in 4x² – 3y² + 2xy?",
+      "choices": ["-3", "4", "2", "0"],
+      "answer": "-3",
+      "points": 20
+    },
+    {
+      "id": 95,
+      "wave": 3,
+      "question": "What is the degree of 9x⁴y⁵?",
+      "choices": ["9", "4", "5", "4+5"],
+      "answer": "9",
+      "points": 20
+    },
+    {
+      "id": 96,
+      "wave": 3,
+      "question": "How many terms are in 1 – x + x² – x³ + x⁴?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 20
+    },
+    {
+      "id": 97,
+      "wave": 3,
+      "question": "Identify the constant term of 6a³b² – 4ab + 11.",
+      "choices": ["11", "6", "-4", "0"],
+      "answer": "11",
+      "points": 20
+    },
+    {
+      "id": 98,
+      "wave": 3,
+      "question": "What is the leading coefficient of –7x⁴ + 3x² – x + 8?",
+      "choices": ["-7", "3", "-1", "8"],
+      "answer": "-7",
+      "points": 20
+    },
+    {
+      "id": 99,
+      "wave": 3,
+      "question": "How many terms are in 9x²y + 5xy² – 3y³?",
+      "choices": ["3", "2", "1", "4"],
+      "answer": "3",
+      "points": 20
+    },
+    {
+      "id": 100,
+      "wave": 3,
+      "question": "What is the degree of 2x² + 3xy + y²?",
+      "choices": ["2", "1", "3", "0"],
+      "answer": "2",
+      "points": 20
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Identify the leading term of 11x⁵ – 9x³ + 6x – 2.",
+      "choices": ["11x⁵", "-9x³", "6x", "-2"],
+      "answer": "11x⁵",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "What is the coefficient of x³ in 4x³ – 2x² + x – 7?",
+      "choices": ["4", "-2", "1", "-7"],
+      "answer": "4",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "How many terms are in x⁴ – x³ + x² – x + 1?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "What is the constant term of 8x²y – 3xy² + 5?",
+      "choices": ["5", "8", "-3", "0"],
+      "answer": "5",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Identify the degree of 6x³y²z.",
+      "choices": ["6", "3", "2", "1"],
+      "answer": "6",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "What is the leading coefficient of –2x⁶ + 4x⁴ – x² + 9?",
+      "choices": ["-2", "4", "-1", "9"],
+      "answer": "-2",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "How many terms are in 7x² – 5xy + 3y² – 2x + 4y – 1?",
+      "choices": ["6", "5", "4", "3"],
+      "answer": "6",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "What is the coefficient of xy in 7x² – 5xy + 3y²?",
+      "choices": ["-5", "7", "3", "0"],
+      "answer": "-5",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Identify the constant term of 13x⁴ – 2x³ + x – 6.",
+      "choices": ["-6", "13", "-2", "1"],
+      "answer": "-6",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "What is the degree of 5x²y³ – 4xy⁴ + 3y⁵?",
+      "choices": ["5", "2", "3", "4"],
+      "answer": "5",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "What is the leading term of 3x²y – 5xy² + 7y³?",
+      "choices": ["7y³", "3x²y", "-5xy²", "0"],
+      "answer": "7y³",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "How many terms are in 2x³ – 3x² + 4x – 5?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Identify the coefficient of x² in x⁴ – 2x³ + 3x² – x + 1.",
+      "choices": ["3", "1", "-2", "-1"],
+      "answer": "3",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "What is the constant term of 4x⁵ – 6x³ + 2x?",
+      "choices": ["0", "4", "-6", "2"],
+      "answer": "0",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "What is the degree of 9x + 7y + 5z?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "How many terms are in 6x²y² – 4xy + 9?",
+      "choices": ["3", "2", "1", "4"],
+      "answer": "3",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Identify the leading coefficient of –4x³ + 2x² – x + 5.",
+      "choices": ["-4", "2", "-1", "5"],
+      "answer": "-4",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "What is the constant term of 15x⁴ – 10x² + 8?",
+      "choices": ["8", "15", "-10", "0"],
+      "answer": "8",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "What is the degree of 11x²y⁴z?",
+      "choices": ["7", "2", "4", "1"],
+      "answer": "7",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "How many terms are in 0?",
+      "choices": ["1", "0", "2", "undefined"],
+      "answer": "1",
+      "points": 20
+    },
+
+    {
+      "id": 121,
+      "wave": 4,
+      "question": "What is the degree of 3x²y³ – 5xy⁴ + 7x⁵?",
+      "choices": ["5", "4", "3", "7"],
+      "answer": "5",
+      "points": 25
+    },
+    {
+      "id": 122,
+      "wave": 4,
+      "question": "Identify the leading coefficient of 8x⁴ – 2x³y + 5x²y² – y⁴.",
+      "choices": ["8", "-2", "5", "-1"],
+      "answer": "8",
+      "points": 25
+    },
+    {
+      "id": 123,
+      "wave": 4,
+      "question": "How many terms are in 2x³ – 4x²y + 3xy² – y³ + 1?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 25
+    },
+    {
+      "id": 124,
+      "wave": 4,
+      "question": "What is the constant term of 6x³y – 9x²y² + 4xy³ – 7?",
+      "choices": ["-7", "6", "-9", "4"],
+      "answer": "-7",
+      "points": 25
+    },
+    {
+      "id": 125,
+      "wave": 4,
+      "question": "Arrange 5x + 3x³ – 2 + 4x² in descending order.",
+      "choices": [
+        "3x³ + 4x² + 5x – 2",
+        "5x + 3x³ + 4x² – 2",
+        "-2 + 5x + 4x² + 3x³",
+        "4x² + 5x + 3x³ – 2"
+      ],
+      "answer": "3x³ + 4x² + 5x – 2",
+      "points": 25
+    },
+    {
+      "id": 126,
+      "wave": 4,
+      "question": "Identify the leading term after arranging 2 – x + 3x² – 4x³.",
+      "choices": ["-4x³", "3x²", "-x", "2"],
+      "answer": "-4x³",
+      "points": 25
+    },
+    {
+      "id": 127,
+      "wave": 4,
+      "question": "What is the coefficient of x²y in 7x²y – 5xy² + 3y³ – 8?",
+      "choices": ["7", "-5", "3", "-8"],
+      "answer": "7",
+      "points": 25
+    },
+    {
+      "id": 128,
+      "wave": 4,
+      "question": "How many terms are in 4x⁴ – 3x³y + 2x²y² – xy³ + y⁴?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 25
+    },
+    {
+      "id": 129,
+      "wave": 4,
+      "question": "What is the degree of 9x³y²z – 4xy⁴ + 2z⁵?",
+      "choices": ["6", "5", "4", "3"],
+      "answer": "6",
+      "points": 25
+    },
+    {
+      "id": 130,
+      "wave": 4,
+      "question": "Identify the leading coefficient after arranging –2 + 5x² – 3x⁴.",
+      "choices": ["-3", "5", "-2", "0"],
+      "answer": "-3",
+      "points": 25
+    },
+    {
+      "id": 131,
+      "wave": 4,
+      "question": "What is the constant term of 3x⁵ – 2x³ + 4x² – 7x + 10?",
+      "choices": ["10", "3", "-2", "-7"],
+      "answer": "10",
+      "points": 25
+    },
+    {
+      "id": 132,
+      "wave": 4,
+      "question": "Arrange –1 + 6x – 2x² + x³ in ascending order.",
+      "choices": [
+        "-1 + 6x – 2x² + x³",
+        "x³ – 2x² + 6x – 1",
+        "6x – 2x² + x³ – 1",
+        "-1 + x³ – 2x² + 6x"
+      ],
+      "answer": "-1 + 6x – 2x² + x³",
+      "points": 25
+    },
+    {
+      "id": 133,
+      "wave": 4,
+      "question": "Identify the leading term of 4x³y – 7x²y² + 3xy³ – 5y⁴.",
+      "choices": ["4x³y", "-7x²y²", "3xy³", "-5y⁴"],
+      "answer": "4x³y",
+      "points": 25
+    },
+    {
+      "id": 134,
+      "wave": 4,
+      "question": "What is the coefficient of x³ in 2x³ – 5x² + 7x – 1?",
+      "choices": ["2", "-5", "7", "-1"],
+      "answer": "2",
+      "points": 25
+    },
+    {
+      "id": 135,
+      "wave": 4,
+      "question": "How many terms are in 8x⁴ – 6x³ + 4x² – 2x + 9?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 25
+    },
+    {
+      "id": 136,
+      "wave": 4,
+      "question": "What is the degree of 5x²y³ – 2xy⁴ + 7y⁵?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 25
+    },
+    {
+      "id": 137,
+      "wave": 4,
+      "question": "Identify the leading coefficient of 11x⁶ – 5x⁴ + 3x² – 1.",
+      "choices": ["11", "-5", "3", "-1"],
+      "answer": "11",
+      "points": 25
+    },
+    {
+      "id": 138,
+      "wave": 4,
+      "question": "What is the constant term of 14x⁵ – 9x³ + 2x² – 6x + 4?",
+      "choices": ["4", "14", "-9", "2"],
+      "answer": "4",
+      "points": 25
+    },
+    {
+      "id": 139,
+      "wave": 4,
+      "question": "Arrange 7 – 3x² + 5x⁴ – x in descending order.",
+      "choices": [
+        "5x⁴ – 3x² – x + 7",
+        "7 – 3x² + 5x⁴ – x",
+        "-x + 7 – 3x² + 5x⁴",
+        "5x⁴ – x – 3x² + 7"
+      ],
+      "answer": "5x⁴ – 3x² – x + 7",
+      "points": 25
+    },
+    {
+      "id": 140,
+      "wave": 4,
+      "question": "Identify the leading term after arranging 3 – 2x + 4x³ – x².",
+      "choices": ["4x³", "-x²", "-2x", "3"],
+      "answer": "4x³",
+      "points": 25
+    },
+    {
+      "id": 141,
+      "wave": 4,
+      "question": "What is the coefficient of x²y³ in –2x²y³ + 5xy – 7?",
+      "choices": ["-2", "5", "-7", "0"],
+      "answer": "-2",
+      "points": 25
+    },
+    {
+      "id": 142,
+      "wave": 4,
+      "question": "How many terms are in 6x³ – 9x²y + 3xy² – y³?",
+      "choices": ["4", "3", "2", "1"],
+      "answer": "4",
+      "points": 25
+    },
+    {
+      "id": 143,
+      "wave": 4,
+      "question": "What is the degree of 12x⁴y² – 5x³y³ + 2xy⁵?",
+      "choices": ["6", "5", "4", "3"],
+      "answer": "6",
+      "points": 25
+    },
+    {
+      "id": 144,
+      "wave": 4,
+      "question": "Identify the leading coefficient of –6x⁵ + 4x³ – 2x + 9.",
+      "choices": ["-6", "4", "-2", "9"],
+      "answer": "-6",
+      "points": 25
+    },
+    {
+      "id": 145,
+      "wave": 4,
+      "question": "What is the constant term of 5x⁴ – 3x³ + 2x² – x + 8?",
+      "choices": ["8", "5", "-3", "2"],
+      "answer": "8",
+      "points": 25
+    },
+    {
+      "id": 146,
+      "wave": 4,
+      "question": "Arrange –4 + 2x – 5x³ + x² in ascending order.",
+      "choices": [
+        "-4 + 2x + x² – 5x³",
+        "-5x³ + x² + 2x – 4",
+        "x² – 5x³ + 2x – 4",
+        "2x – 4 + x² – 5x³"
+      ],
+      "answer": "-4 + 2x + x² – 5x³",
+      "points": 25
+    },
+    {
+      "id": 147,
+      "wave": 4,
+      "question": "Identify the leading term of 9x³ – 7x²y + 5xy² – 3y³.",
+      "choices": ["9x³", "-7x²y", "5xy²", "-3y³"],
+      "answer": "9x³",
+      "points": 25
+    },
+    {
+      "id": 148,
+      "wave": 4,
+      "question": "What is the coefficient of x⁴ in 4x⁴ – 3x³ + 2x² – x + 1?",
+      "choices": ["4", "-3", "2", "-1"],
+      "answer": "4",
+      "points": 25
+    },
+    {
+      "id": 149,
+      "wave": 4,
+      "question": "How many terms are in x⁵ – x⁴ + x³ – x² + x – 1?",
+      "choices": ["6", "5", "4", "3"],
+      "answer": "6",
+      "points": 25
+    },
+    {
+      "id": 150,
+      "wave": 4,
+      "question": "What is the degree of 7x³y² – 4xy⁴ + 2y⁵?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 25
+    },
+
+    {
+      "id": 151,
+      "wave": 5,
+      "question": "What is the degree of 3x²y⁴z³ – 5xy⁵z² + 7x³y²z⁴?",
+      "choices": ["9", "8", "7", "6"],
+      "answer": "9",
+      "points": 30
+    },
+    {
+      "id": 152,
+      "wave": 5,
+      "question": "Identify the leading coefficient of –2x⁷y³ + 4x⁵y⁵ – x³y⁷.",
+      "choices": ["-2", "4", "-1", "0"],
+      "answer": "-2",
+      "points": 30
+    },
+    {
+      "id": 153,
+      "wave": 5,
+      "question": "How many terms are in 6x⁴y² – 8x³y³ + 2x²y⁴ – 4xy⁵ + y⁶?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 30
+    },
+    {
+      "id": 154,
+      "wave": 5,
+      "question": "What is the constant term of 5x⁵y – 3x⁴y² + 2x³y³ – x²y⁴ + 7?",
+      "choices": ["7", "5", "-3", "2"],
+      "answer": "7",
+      "points": 30
+    },
+    {
+      "id": 155,
+      "wave": 5,
+      "question": "Arrange 4x²y³ + 3x⁴y – 2x³y² + 1 in descending order of degree.",
+      "choices": [
+        "3x⁴y – 2x³y² + 4x²y³ + 1",
+        "4x²y³ + 3x⁴y – 2x³y² + 1",
+        "1 + 4x²y³ – 2x³y² + 3x⁴y",
+        "3x⁴y + 4x²y³ – 2x³y² + 1"
+      ],
+      "answer": "3x⁴y – 2x³y² + 4x²y³ + 1",
+      "points": 30
+    },
+    {
+      "id": 156,
+      "wave": 5,
+      "question": "Identify the leading term after arranging –3 + 2x²y – 5x³y² + x⁴y.",
+      "choices": ["x⁴y", "-5x³y²", "2x²y", "-3"],
+      "answer": "x⁴y",
+      "points": 30
+    },
+    {
+      "id": 157,
+      "wave": 5,
+      "question": "What is the coefficient of x³y² in 7x³y² – 4x²y³ + 2xy⁴ – 9?",
+      "choices": ["7", "-4", "2", "-9"],
+      "answer": "7",
+      "points": 30
+    },
+    {
+      "id": 158,
+      "wave": 5,
+      "question": "How many terms are in 10x⁶ – 8x⁴y² + 6x²y⁴ – 4y⁶ + 2?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 30
+    },
+    {
+      "id": 159,
+      "wave": 5,
+      "question": "What is the degree of 9x⁴y³z² – 7x³y⁴z³ + 5x²y⁵z⁴?",
+      "choices": ["9", "8", "7", "6"],
+      "answer": "9",
+      "points": 30
+    },
+    {
+      "id": 160,
+      "wave": 5,
+      "question": "Identify the leading coefficient of 12x⁵y⁴ – 9x⁴y⁵ + 6x³y⁶ – 3x²y⁷.",
+      "choices": ["12", "-9", "6", "-3"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 161,
+      "wave": 5,
+      "question": "What is the constant term of 8x⁴y³ – 5x³y⁴ + 2x²y⁵ – xy⁶ + 3?",
+      "choices": ["3", "8", "-5", "2"],
+      "answer": "3",
+      "points": 30
+    },
+    {
+      "id": 162,
+      "wave": 5,
+      "question": "Arrange 6x³y – 4x²y² + 2xy³ – y⁴ + 5 in ascending order.",
+      "choices": [
+        "5 + 2xy³ – y⁴ – 4x²y² + 6x³y",
+        "5 + 6x³y – 4x²y² + 2xy³ – y⁴",
+        "-y⁴ + 2xy³ – 4x²y² + 6x³y + 5",
+        "5 – y⁴ + 2xy³ – 4x²y² + 6x³y"
+      ],
+      "answer": "5 – y⁴ + 2xy³ – 4x²y² + 6x³y",
+      "points": 30
+    },
+    {
+      "id": 163,
+      "wave": 5,
+      "question": "Identify the leading term of 13x⁶y² – 11x⁵y³ + 9x⁴y⁴ – 7x³y⁵ + 5x²y⁶.",
+      "choices": ["13x⁶y²", "-11x⁵y³", "9x⁴y⁴", "-7x³y⁵"],
+      "answer": "13x⁶y²",
+      "points": 30
+    },
+    {
+      "id": 164,
+      "wave": 5,
+      "question": "What is the coefficient of x⁵y⁴ in 15x⁵y⁴ – 12x⁴y⁵ + 9x³y⁶ – 6x²y⁷ + 3xy⁸?",
+      "choices": ["15", "-12", "9", "-6"],
+      "answer": "15",
+      "points": 30
+    },
+    {
+      "id": 165,
+      "wave": 5,
+      "question": "How many terms are in 14x⁷ – 12x⁶y + 10x⁵y² – 8x⁴y³ + 6x³y⁴ – 4x²y⁵ + 2xy⁶ – y⁷?",
+      "choices": ["8", "7", "6", "5"],
+      "answer": "8",
+      "points": 30
+    },
+    {
+      "id": 166,
+      "wave": 5,
+      "question": "What is the degree of 18x⁵y⁴z³ – 15x⁴y⁵z⁴ + 12x³y⁶z⁵?",
+      "choices": ["12", "11", "10", "9"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 167,
+      "wave": 5,
+      "question": "Identify the leading coefficient of –20x⁸y³ + 16x⁷y⁴ – 12x⁶y⁵ + 8x⁵y⁶ – 4x⁴y⁷.",
+      "choices": ["-20", "16", "-12", "8"],
+      "answer": "-20",
+      "points": 30
+    },
+    {
+      "id": 168,
+      "wave": 5,
+      "question": "What is the constant term of 21x⁶y⁵ – 18x⁵y⁶ + 15x⁴y⁷ – 12x³y⁸ + 9x²y⁹ – 6xy¹⁰ + 3y¹¹ – 7?",
+      "choices": ["-7", "21", "-18", "15"],
+      "answer": "-7",
+      "points": 30
+    },
+    {
+      "id": 169,
+      "wave": 5,
+      "question": "Arrange 10x⁴y² – 8x³y³ + 6x²y⁴ – 4xy⁵ + 2y⁶ – 1 in descending order.",
+      "choices": [
+        "10x⁴y² – 8x³y³ + 6x²y⁴ – 4xy⁵ + 2y⁶ – 1",
+        "-1 + 2y⁶ – 4xy⁵ + 6x²y⁴ – 8x³y³ + 10x⁴y²",
+        "2y⁶ – 4xy⁵ + 6x²y⁴ – 8x³y³ + 10x⁴y² – 1",
+        "10x⁴y² + 2y⁶ – 8x³y³ + 6x²y⁴ – 4xy⁵ – 1"
+      ],
+      "answer": "10x⁴y² – 8x³y³ + 6x²y⁴ – 4xy⁵ + 2y⁶ – 1",
+      "points": 30
+    },
+    {
+      "id": 170,
+      "wave": 5,
+      "question": "Identify the leading term after arranging –7 + 3x⁵y² – 5x⁴y³ + x³y⁴ – 2x²y⁵.",
+      "choices": ["3x⁵y²", "-5x⁴y³", "x³y⁴", "-2x²y⁵"],
+      "answer": "3x⁵y²",
+      "points": 30
+    },
+    {
+      "id": 171,
+      "wave": 5,
+      "question": "What is the coefficient of x⁶y³ in 25x⁶y³ – 20x⁵y⁴ + 15x⁴y⁵ – 10x³y⁶ + 5x²y⁷?",
+      "choices": ["25", "-20", "15", "-10"],
+      "answer": "25",
+      "points": 30
+    },
+    {
+      "id": 172,
+      "wave": 5,
+      "question": "How many terms are in the expansion (x + y)⁵?",
+      "choices": ["6", "5", "4", "7"],
+      "answer": "6",
+      "points": 30
+    },
+    {
+      "id": 173,
+      "wave": 5,
+      "question": "What is the degree of 12x⁷y²z – 9x⁶y³z² + 6x⁵y⁴z³ – 3x⁴y⁵z⁴?",
+      "choices": ["10", "9", "8", "7"],
+      "answer": "10",
+      "points": 30
+    },
+    {
+      "id": 174,
+      "wave": 5,
+      "question": "Identify the leading coefficient of –30x¹⁰y² + 24x⁹y³ – 18x⁸y⁴ + 12x⁷y⁵ – 6x⁶y⁶.",
+      "choices": ["-30", "24", "-18", "12"],
+      "answer": "-30",
+      "points": 30
+    },
+    {
+      "id": 175,
+      "wave": 5,
+      "question": "What is the constant term of 27x⁹y⁷ – 24x⁸y⁸ + 21x⁷y⁹ – 18x⁶y¹⁰ + 15x⁵y¹¹ – 12x⁴y¹² + 9x³y¹³ – 6x²y¹⁴ + 3xy¹⁵ – y¹⁶ + 4?",
+      "choices": ["4", "27", "-24", "21"],
+      "answer": "4",
+      "points": 30
+    },
+    {
+      "id": 176,
+      "wave": 5,
+      "question": "Arrange 18x⁵y⁴ – 15x⁴y⁵ + 12x³y⁶ – 9x²y⁷ + 6xy⁸ – 3y⁹ + 7 in ascending order.",
+      "choices": [
+        "7 – 3y⁹ + 6xy⁸ – 9x²y⁷ + 12x³y⁶ – 15x⁴y⁵ + 18x⁵y⁴",
+        "18x⁵y⁴ – 15x⁴y⁵ + 12x³y⁶ – 9x²y⁷ + 6xy⁸ – 3y⁹ + 7",
+        "-3y⁹ + 6xy⁸ – 9x²y⁷ + 12x³y⁶ – 15x⁴y⁵ + 18x⁵y⁴ + 7",
+        "7 + 18x⁵y⁴ – 15x⁴y⁵ + 12x³y⁶ – 9x²y⁷ + 6xy⁸ – 3y⁹"
+      ],
+      "answer": "7 – 3y⁹ + 6xy⁸ – 9x²y⁷ + 12x³y⁶ – 15x⁴y⁵ + 18x⁵y⁴",
+      "points": 30
+    },
+    {
+      "id": 177,
+      "wave": 5,
+      "question": "Identify the leading term after arranging 2 – 6x²y³ + 4x⁴y – 8x³y² + 10xy⁴.",
+      "choices": ["4x⁴y", "-6x²y³", "-8x³y²", "10xy⁴"],
+      "answer": "4x⁴y",
+      "points": 30
+    },
+    {
+      "id": 178,
+      "wave": 5,
+      "question": "What is the coefficient of x⁷y⁵ in 35x⁷y⁵ – 30x⁶y⁶ + 25x⁵y⁷ – 20x⁴y⁸ + 15x³y⁹ – 10x²y¹⁰ + 5xy¹¹?",
+      "choices": ["35", "-30", "25", "-20"],
+      "answer": "35",
+      "points": 30
+    },
+    {
+      "id": 179,
+      "wave": 5,
+      "question": "How many terms are in the polynomial 1 – x + x² – x³ + x⁴ – x⁵ + x⁶ – x⁷ + x⁸ – x⁹ + x¹⁰?",
+      "choices": ["11", "10", "9", "12"],
+      "answer": "11",
+      "points": 30
+    },
+    {
+      "id": 180,
+      "wave": 5,
+      "question": "What is the degree of 100x¹⁰y⁹z⁸ – 90x⁹y¹⁰z⁸ + 80x⁸y¹⁰z⁹?",
+      "choices": ["27", "26", "25", "24"],
+      "answer": "27",
+      "points": 30
+    }
+  ]
+}
