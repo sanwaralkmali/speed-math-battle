@@ -18,6 +18,7 @@ import {
   Trophy,
   Sparkles,
   HelpCircle,
+  TrendingUp,
 } from "lucide-react";
 import { useRef } from "react";
 import { useState as useReactState } from "react";
@@ -64,6 +65,33 @@ const PLAYER_COLORS = [
   },
 ];
 
+const DIFFICULTY_LEVELS = [
+  {
+    name: "Easy",
+    value: "easy",
+    description: "Perfect for beginners",
+    icon: "😊",
+    color: "from-green-400 to-emerald-500",
+    questions: "10 questions (3-3-3-1 waves)",
+  },
+  {
+    name: "Medium",
+    value: "medium",
+    description: "Balanced challenge",
+    icon: "😐",
+    color: "from-yellow-400 to-orange-500",
+    questions: "10 questions (2-2-2-2-2 waves)",
+  },
+  {
+    name: "Hard",
+    value: "hard",
+    description: "For math experts",
+    icon: "😰",
+    color: "from-red-400 to-pink-500",
+    questions: "10 questions (1-1-2-3-3 waves)",
+  },
+];
+
 interface DashboardProps {
   onStartGame: (params: {
     player1Name: string;
@@ -71,6 +99,7 @@ interface DashboardProps {
     player1Color: string;
     player2Color: string;
     skill: string;
+    difficulty: string;
   }) => void;
 }
 
@@ -172,20 +201,20 @@ function useIsSmallScreen() {
 }
 
 export default function Dashboard({ onStartGame }: DashboardProps) {
-  const [player1Name, setPlayer1Name] = useState("Player 1");
-  const [player2Name, setPlayer2Name] = useState("Player 2");
+  const [player1Name, setPlayer1Name] = useState("");
+  const [player2Name, setPlayer2Name] = useState("");
   const [player1Color, setPlayer1Color] = useState(PLAYER_COLORS[0].value);
   const [player2Color, setPlayer2Color] = useState(PLAYER_COLORS[1].value);
   const [skills, setSkills] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null);
   const [notFound, setNotFound] = useState(false);
+  const [selectedDifficulty, setSelectedDifficulty] = useState("medium");
   const [skillTitles, setSkillTitles] = useState<{ [skill: string]: string }>(
     {}
   );
   const fetchedTitles = useRef<{ [skill: string]: boolean }>({});
   const isSmallScreen = useIsSmallScreen();
-  const [hideWarning, setHideWarning] = useReactState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -235,64 +264,49 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
   };
 
   const handleStartGame = () => {
-    if (selectedSkill && player1Name.trim() && player2Name.trim()) {
+    if (selectedSkill) {
+      // Use default names if inputs are empty
+      const p1Name = player1Name.trim() || "Player 1";
+      const p2Name = player2Name.trim() || "Player 2";
+
       onStartGame({
-        player1Name: player1Name.trim(),
-        player2Name: player2Name.trim(),
+        player1Name: p1Name,
+        player2Name: p2Name,
         player1Color,
         player2Color,
         skill: selectedSkill,
+        difficulty: selectedDifficulty,
       });
     }
   };
 
   const sameColor = player1Color === player2Color;
 
+  // Show loading screen
   if (loading) {
     return (
-      <div className="h-screen bg-gradient-fun flex items-center justify-center">
-        <div className="text-center space-y-2">
-          <div className="animate-bounce-gentle text-4xl">🎮</div>
-          <div className="text-lg font-bold text-primary animate-pulse">
-            Loading...
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (notFound) {
-    return (
-      <div className="h-screen bg-gradient-fun flex items-center justify-center p-4">
-        <div className="text-center space-y-2">
-          <div className="text-4xl animate-float">❓</div>
-          <div className="text-lg font-bold text-destructive">
-            No skill group selected.
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Show warning overlay on small screens
-  if (isSmallScreen && !hideWarning) {
-    return (
-      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background/95 p-4">
-        <div className="max-w-sm w-full bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-400 rounded-xl shadow-lg p-4 text-center">
-          <div className="text-4xl mb-3 animate-bounce-gentle">⚠️</div>
-          <h2 className="text-lg font-bold text-yellow-700 mb-2">
-            Keyboard Required
-          </h2>
-          <p className="text-sm text-yellow-800 mb-3">
-            This game needs a keyboard to play!
+      <div className="min-h-screen bg-gradient-fun flex flex-col items-center justify-center p-4">
+        <div className="text-center space-y-4">
+          <div className="text-4xl animate-bounce-gentle">⚡</div>
+          <h2 className="text-lg font-bold text-primary">Loading Skills...</h2>
+          <p className="text-sm text-muted-foreground">
+            Preparing your math battle!
           </p>
-          <Button
-            variant="outline"
-            onClick={() => setHideWarning(true)}
-            className="text-sm px-4 py-1"
-          >
-            Got it! 👍
-          </Button>
+        </div>
+      </div>
+    );
+  }
+
+  // Show not found screen
+  if (!skills || skills.length === 0) {
+    return (
+      <div className="min-h-screen bg-gradient-fun flex flex-col items-center justify-center p-4">
+        <div className="text-center space-y-4">
+          <div className="text-4xl animate-bounce-gentle">😕</div>
+          <h2 className="text-lg font-bold text-primary">No Skills Found</h2>
+          <p className="text-sm text-muted-foreground">
+            No skill group selected.
+          </p>
         </div>
       </div>
     );
@@ -327,88 +341,90 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
                 Players
               </CardTitle>
             </CardHeader>
-            <CardContent className="space-y-2">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                {/* Player 1 */}
-                <div className="space-y-1 p-2 bg-gradient-to-br from-blue-50 to-cyan-50 rounded border border-blue-200">
-                  <Label className="text-xs font-semibold text-blue-700 flex items-center gap-1">
-                    <span className="text-lg">👤</span>
-                    Player 1 (QWER)
-                  </Label>
-                  <Input
-                    value={player1Name}
-                    onChange={(e) => setPlayer1Name(e.target.value)}
-                    className="text-xs h-7 border border-blue-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-200"
-                    placeholder="Player 1 name"
-                  />
-                  <div className="flex gap-1 justify-center">
-                    {PLAYER_COLORS.map((color) => (
-                      <button
-                        key={color.value}
-                        type="button"
-                        className={`w-6 h-6 rounded-full border focus:outline-none transition-all duration-200 text-xs ${
-                          color.class
-                        } ${
-                          player1Color === color.value
-                            ? color.border + " ring-1 ring-blue-200 scale-110"
-                            : "border-transparent hover:scale-110"
-                        } ${
-                          sameColor && player1Color === color.value
-                            ? "border-red-500 ring-red-200"
-                            : ""
-                        }`}
-                        aria-label={color.name}
-                        onClick={() => setPlayer1Color(color.value)}
-                      >
-                        {color.emoji}
-                      </button>
-                    ))}
-                  </div>
+            <CardContent className="space-y-3">
+              {/* Player 1 */}
+              <div className="flex items-center gap-2">
+                <div className="flex gap-1">
+                  {PLAYER_COLORS.map((color) => (
+                    <button
+                      key={color.value}
+                      className={`w-6 h-6 rounded-full border-2 transition-all ${
+                        player1Color === color.value
+                          ? `${color.class} ${color.border} scale-110`
+                          : "bg-gray-200 border-gray-300 hover:scale-105"
+                      }`}
+                      onClick={() => setPlayer1Color(color.value)}
+                    >
+                      <span className="text-xs">{color.emoji}</span>
+                    </button>
+                  ))}
                 </div>
-
-                {/* Player 2 */}
-                <div className="space-y-1 p-2 bg-gradient-to-br from-pink-50 to-purple-50 rounded border border-pink-200">
-                  <Label className="text-xs font-semibold text-pink-700 flex items-center gap-1">
-                    <span className="text-lg">👤</span>
-                    Player 2 (UIOP)
-                  </Label>
-                  <Input
-                    value={player2Name}
-                    onChange={(e) => setPlayer2Name(e.target.value)}
-                    className="text-xs h-7 border border-pink-300 focus:border-pink-500 focus:ring-1 focus:ring-pink-200"
-                    placeholder="Player 2 name"
-                  />
-                  <div className="flex gap-1 justify-center">
-                    {PLAYER_COLORS.map((color) => (
-                      <button
-                        key={color.value}
-                        type="button"
-                        className={`w-6 h-6 rounded-full border focus:outline-none transition-all duration-200 text-xs ${
-                          color.class
-                        } ${
-                          player2Color === color.value
-                            ? color.border + " ring-1 ring-pink-200 scale-110"
-                            : "border-transparent hover:scale-110"
-                        } ${
-                          sameColor && player2Color === color.value
-                            ? "border-red-500 ring-red-200"
-                            : ""
-                        }`}
-                        aria-label={color.name}
-                        onClick={() => setPlayer2Color(color.value)}
-                      >
-                        {color.emoji}
-                      </button>
-                    ))}
-                  </div>
-                </div>
+                <Input
+                  value={player1Name}
+                  onChange={(e) => setPlayer1Name(e.target.value)}
+                  className="flex-1 text-sm"
+                  placeholder="Player 1 name"
+                />
               </div>
 
-              {sameColor && (
-                <div className="text-center text-xs text-red-600 font-semibold bg-red-50 p-1 rounded border border-red-200">
-                  ⚠️ Choose different colors!
+              {/* Player 2 */}
+              <div className="flex items-center gap-2">
+                <div className="flex gap-1">
+                  {PLAYER_COLORS.map((color) => (
+                    <button
+                      key={color.value}
+                      className={`w-6 h-6 rounded-full border-2 transition-all ${
+                        player2Color === color.value
+                          ? `${color.class} ${color.border} scale-110`
+                          : "bg-gray-200 border-gray-300 hover:scale-105"
+                      }`}
+                      onClick={() => setPlayer2Color(color.value)}
+                    >
+                      <span className="text-xs">{color.emoji}</span>
+                    </button>
+                  ))}
+                </div>
+                <Input
+                  value={player2Name}
+                  onChange={(e) => setPlayer2Name(e.target.value)}
+                  className="flex-1 text-sm"
+                  placeholder="Player 2 name"
+                />
+              </div>
+
+              {/* Same Color Warning */}
+              {player1Color === player2Color && (
+                <div className="text-xs text-orange-600 bg-orange-50 p-2 rounded-lg border border-orange-200">
+                  ⚠️ Players have the same color! Choose different colors.
                 </div>
               )}
+            </CardContent>
+          </Card>
+
+          {/* Difficulty Selection */}
+          <Card className="bg-white/90 backdrop-blur-sm border border-primary/20 shadow-lg">
+            <CardHeader className="text-center pb-1">
+              <CardTitle className="text-sm font-bold text-primary flex items-center justify-center gap-1">
+                <TrendingUp className="w-4 h-4" />
+                Difficulty
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="flex gap-1">
+                {DIFFICULTY_LEVELS.map((difficulty) => (
+                  <button
+                    key={difficulty.value}
+                    className={`flex-1 py-1.5 px-2 rounded-md border font-medium text-xs transition-all duration-200 ${
+                      selectedDifficulty === difficulty.value
+                        ? `bg-gradient-to-r ${difficulty.color} border-transparent text-white shadow-sm`
+                        : "bg-white border-gray-200 text-gray-700 hover:border-primary/50 hover:bg-gray-50"
+                    }`}
+                    onClick={() => setSelectedDifficulty(difficulty.value)}
+                  >
+                    {difficulty.name}
+                  </button>
+                ))}
+              </div>
             </CardContent>
           </Card>
 
