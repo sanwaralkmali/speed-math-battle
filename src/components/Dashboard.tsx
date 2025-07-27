@@ -3,7 +3,22 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Zap, Play } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import {
+  Zap,
+  Play,
+  Users,
+  Target,
+  Trophy,
+  Sparkles,
+  HelpCircle,
+} from "lucide-react";
 import { useRef } from "react";
 import { useState as useReactState } from "react";
 
@@ -14,33 +29,38 @@ interface SkillsData {
 const PLAYER_COLORS = [
   {
     name: "Blue",
-    class: "bg-blue-200",
-    border: "border-blue-400",
+    class: "bg-blue-400",
+    border: "border-blue-600",
     value: "blue",
+    emoji: "🔵",
   },
   {
     name: "Green",
-    class: "bg-green-200",
-    border: "border-green-400",
+    class: "bg-green-400",
+    border: "border-green-600",
     value: "green",
+    emoji: "🟢",
   },
   {
     name: "Yellow",
-    class: "bg-yellow-200",
-    border: "border-yellow-400",
+    class: "bg-yellow-400",
+    border: "border-yellow-600",
     value: "yellow",
+    emoji: "🟡",
   },
   {
     name: "Pink",
-    class: "bg-pink-200",
-    border: "border-pink-400",
+    class: "bg-pink-400",
+    border: "border-pink-600",
     value: "pink",
+    emoji: "🩷",
   },
   {
     name: "Purple",
-    class: "bg-purple-200",
-    border: "border-purple-400",
+    class: "bg-purple-400",
+    border: "border-purple-600",
     value: "purple",
+    emoji: "🟣",
   },
 ];
 
@@ -57,19 +77,71 @@ interface DashboardProps {
 // Footer component
 function DashboardFooter() {
   return (
-    <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background font-cairo flex-shrink-0">
-      <p>
-        Educational Game 2025 | Created for Educational purposes By{" "}
+    <footer className="w-full py-3 text-center text-sm text-muted-foreground border-t bg-background/80 backdrop-blur-sm font-cairo flex-shrink-0">
+      <p className="text-sm">
+        🎓 Educational Game 2025 | Created with ❤️ by{" "}
         <a
           href="https://sanwaralkmali.github.io/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary hover:underline"
+          className="text-primary hover:underline font-semibold"
         >
           Salah Alkmali
         </a>
       </p>
     </footer>
+  );
+}
+
+// Instructions Modal Component
+function InstructionsModal() {
+  return (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button variant="outline" size="sm" className="gap-1 h-7 px-2 text-xs">
+          <HelpCircle className="w-3 h-3" />
+          Help
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="max-w-sm">
+        <DialogHeader>
+          <DialogTitle className="text-lg font-bold text-yellow-700 flex items-center gap-2">
+            <Trophy className="w-4 h-4" />
+            How to Play
+          </DialogTitle>
+        </DialogHeader>
+        <div className="space-y-2 text-xs">
+          <div className="flex items-center gap-2">
+            <span className="text-sm">🎮</span>
+            <span>
+              <strong>Player 1:</strong> Use QWER keys
+            </span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-sm">🎮</span>
+            <span>
+              <strong>Player 2:</strong> Use UIOP keys
+            </span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-sm">✅</span>
+            <span>Right answer = Earn points!</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-sm">❌</span>
+            <span>Wrong answer = Lose points</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-sm">🔒</span>
+            <span>Wrong options get locked</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-sm">🏆</span>
+            <span>Highest score wins!</span>
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
   );
 }
 
@@ -178,9 +250,12 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-gaming flex items-center justify-center">
-        <div className="animate-pulse-glow text-2xl font-bold text-primary">
-          Loading...
+      <div className="h-screen bg-gradient-fun flex items-center justify-center">
+        <div className="text-center space-y-2">
+          <div className="animate-bounce-gentle text-4xl">🎮</div>
+          <div className="text-lg font-bold text-primary animate-pulse">
+            Loading...
+          </div>
         </div>
       </div>
     );
@@ -188,9 +263,12 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
 
   if (notFound) {
     return (
-      <div className="min-h-screen bg-gradient-gaming flex items-center justify-center p-4">
-        <div className="text-2xl font-bold text-destructive">
-          No skill group selected or group not found.
+      <div className="h-screen bg-gradient-fun flex items-center justify-center p-4">
+        <div className="text-center space-y-2">
+          <div className="text-4xl animate-float">❓</div>
+          <div className="text-lg font-bold text-destructive">
+            No skill group selected.
+          </div>
         </div>
       </div>
     );
@@ -199,24 +277,21 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
   // Show warning overlay on small screens
   if (isSmallScreen && !hideWarning) {
     return (
-      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background/95 p-6">
-        <div className="max-w-md w-full bg-yellow-100 border-2 border-yellow-400 rounded-xl shadow-lg p-6 text-center">
-          <div className="text-4xl mb-4">⚠️</div>
-          <h2 className="text-2xl font-bold text-yellow-700 mb-2">
+      <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background/95 p-4">
+        <div className="max-w-sm w-full bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-400 rounded-xl shadow-lg p-4 text-center">
+          <div className="text-4xl mb-3 animate-bounce-gentle">⚠️</div>
+          <h2 className="text-lg font-bold text-yellow-700 mb-2">
             Keyboard Required
           </h2>
-          <p className="text-yellow-800 mb-4">
-            This game can only be played on a device with a keyboard.
-            <br />
-            For the best experience, please use a computer or a large screen
-            device with a physical keyboard.
-            <br />
-            <span className="block mt-2 text-base text-muted-foreground">
-              Phones and small screens are not supported.
-            </span>
+          <p className="text-sm text-yellow-800 mb-3">
+            This game needs a keyboard to play!
           </p>
-          <Button variant="outline" onClick={() => setHideWarning(true)}>
-            I Understand
+          <Button
+            variant="outline"
+            onClick={() => setHideWarning(true)}
+            className="text-sm px-4 py-1"
+          >
+            Got it! 👍
           </Button>
         </div>
       </div>
@@ -224,173 +299,179 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-gaming flex flex-col p-0">
-      <div className="w-full max-w-2xl space-y-8 mx-auto flex-1 flex flex-col justify-center p-4">
-        {/* Game Title */}
-        <div className="text-center space-y-4">
-          <div className="flex items-center justify-center gap-3">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-player1 to-player2 bg-clip-text text-transparent">
+    <div className="min-h-screen bg-gradient-fun flex flex-col">
+      {/* Compact Header */}
+      <div className="relative overflow-hidden bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50 border-b border-border/50">
+        <div className="absolute inset-0 bg-gradient-fun opacity-30"></div>
+        <div className="relative z-10 text-center py-2 px-4">
+          <div className="flex items-center justify-center gap-1 sm:gap-2 mb-1">
+            <div className="text-xl sm:text-2xl animate-float">⚡</div>
+            <h1 className="text-lg sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent truncate">
               Speed Math Battle
             </h1>
+            <div className="text-xl sm:text-2xl animate-float">🎯</div>
           </div>
-          <p className="text-xl text-muted-foreground">
-            Who will be the fastest math master?
+          <p className="text-xs text-muted-foreground font-medium">
+            Ready to become a math champion? 🏆
           </p>
         </div>
-
-        {/* Player Names and Color Selection */}
-        <div className="grid grid-cols-2 gap-4">
-          {/* Player 1 */}
-          <div className="space-y-2">
-            <Label className="font-semibold">Player 1 (QWER)</Label>
-            <Input
-              value={player1Name}
-              onChange={(e) => setPlayer1Name(e.target.value)}
-              className="border-player1/30 focus:border-player1/60"
-              placeholder="Enter player 1 name"
-            />
-            <div className="flex gap-2 mt-2 justify-center">
-              {PLAYER_COLORS.map((color) => (
-                <button
-                  key={color.value}
-                  type="button"
-                  className={`w-7 h-7 rounded-full border-2 focus:outline-none transition-all duration-150 ${
-                    color.class
-                  } ${
-                    player1Color === color.value
-                      ? color.border + " ring-2 ring-offset-2 ring-blue-400"
-                      : "border-transparent"
-                  } ${
-                    sameColor && player1Color === color.value
-                      ? "border-red-500 ring-red-400"
-                      : ""
-                  } hover:scale-110`}
-                  aria-label={color.name}
-                  onClick={() => setPlayer1Color(color.value)}
-                />
-              ))}
-            </div>
-          </div>
-          {/* Player 2 */}
-          <div className="space-y-2">
-            <Label className="font-semibold">Player 2 (UIOP)</Label>
-            <Input
-              value={player2Name}
-              onChange={(e) => setPlayer2Name(e.target.value)}
-              className="border-player2/30 focus:border-player2/60"
-              placeholder="Enter player 2 name"
-            />
-            <div className="flex gap-2 mt-2 justify-center">
-              {PLAYER_COLORS.map((color) => (
-                <button
-                  key={color.value}
-                  type="button"
-                  className={`w-7 h-7 rounded-full border-2 focus:outline-none transition-all duration-150 ${
-                    color.class
-                  } ${
-                    player2Color === color.value
-                      ? color.border + " ring-2 ring-offset-2 ring-pink-400"
-                      : "border-transparent"
-                  } ${
-                    sameColor && player2Color === color.value
-                      ? "border-red-500 ring-red-400"
-                      : ""
-                  } hover:scale-110`}
-                  aria-label={color.name}
-                  onClick={() => setPlayer2Color(color.value)}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-        {sameColor && (
-          <div className="text-center text-sm text-red-500 font-medium mt-2">
-            Players must choose different colors.
-          </div>
-        )}
-
-        {/* Skill Selection Instruction */}
-        <div className="text-center text-base font-medium text-muted-foreground mt-2 mb-1">
-          Choose a skill to play
-        </div>
-
-        {/* Skill Cards - responsive, one per row on mobile */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 justify-items-center items-stretch mt-2">
-          {skills.map((skill) => (
-            <Card
-              key={skill}
-              className={`w-full cursor-pointer transition-transform duration-200 border bg-card/80 px-4 py-4 shadow-md flex flex-col justify-center rounded-lg ${
-                selectedSkill === skill
-                  ? "ring-2 ring-primary scale-105 border-primary"
-                  : "hover:scale-105 hover:shadow-lg border-border"
-              }`}
-              onClick={() => handleSkillClick(skill)}
-              style={{ minHeight: 80, maxWidth: 400, margin: "0 auto" }}
-            >
-              <CardHeader className="p-2 pb-0 flex-1 flex items-center justify-center">
-                <CardTitle className="capitalize text-center text-lg leading-tight w-full">
-                  {skillTitles[skill] || skill.replace(/-/g, " ")}
-                </CardTitle>
-              </CardHeader>
-            </Card>
-          ))}
-        </div>
-
-        {/* Start Game Button */}
-        <Button
-          onClick={handleStartGame}
-          disabled={
-            !selectedSkill ||
-            !player1Name.trim() ||
-            !player2Name.trim() ||
-            sameColor
-          }
-          variant="gaming"
-          size="xl"
-          className="w-full animate-scale-in mt-8"
-        >
-          <Play className="w-5 h-5 mr-2" />
-          Start Game
-        </Button>
-        {/* How to Play Card */}
-        <Card className="border-2 border-yellow-400 bg-card/90 backdrop-blur-sm mb-0">
-          <CardHeader>
-            <CardTitle className="text-xl font-bold text-yellow-600 flex items-center gap-2">
-              <span role="img" aria-label="game">
-                🎮
-              </span>{" "}
-              Game Rules
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <ul className="text-sm text-muted-foreground space-y-1">
-              <li>
-                • Each player uses their own keys to answer (QWER for Player 1,
-                UIOP for Player 2).
-              </li>
-              <li>
-                • This Game can only be played with a device that uses a
-                keyboard.
-              </li>
-              <li>• Get the answer right to earn points!</li>
-              <li>• If you answer wrong, you lose the same points.</li>
-              <li>
-                • Each question shows how many points you can win or lose.
-              </li>
-              <li>• Try to get the highest score!</li>
-
-              <li>
-                • If you pick a wrong answer, that option is locked for both
-                players.
-              </li>
-              <li>
-                • If all 3 wrong options are picked, the question is skipped.
-              </li>
-              <li>• The player with the most points at the end wins!</li>
-            </ul>
-          </CardContent>
-        </Card>
       </div>
+
+      <div className="flex-1 flex flex-col justify-center p-3">
+        <div className="w-full max-w-2xl lg:max-w-3xl mx-auto space-y-3">
+          {/* Compact Player Setup */}
+          <Card className="bg-white/90 backdrop-blur-sm border border-primary/20 shadow-lg">
+            <CardHeader className="text-center pb-1">
+              <CardTitle className="text-sm font-bold text-primary flex items-center justify-center gap-1">
+                <Users className="w-4 h-4" />
+                Players
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                {/* Player 1 */}
+                <div className="space-y-1 p-2 bg-gradient-to-br from-blue-50 to-cyan-50 rounded border border-blue-200">
+                  <Label className="text-xs font-semibold text-blue-700 flex items-center gap-1">
+                    <span className="text-lg">👤</span>
+                    Player 1 (QWER)
+                  </Label>
+                  <Input
+                    value={player1Name}
+                    onChange={(e) => setPlayer1Name(e.target.value)}
+                    className="text-xs h-7 border border-blue-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-200"
+                    placeholder="Player 1 name"
+                  />
+                  <div className="flex gap-1 justify-center">
+                    {PLAYER_COLORS.map((color) => (
+                      <button
+                        key={color.value}
+                        type="button"
+                        className={`w-6 h-6 rounded-full border focus:outline-none transition-all duration-200 text-xs ${
+                          color.class
+                        } ${
+                          player1Color === color.value
+                            ? color.border + " ring-1 ring-blue-200 scale-110"
+                            : "border-transparent hover:scale-110"
+                        } ${
+                          sameColor && player1Color === color.value
+                            ? "border-red-500 ring-red-200"
+                            : ""
+                        }`}
+                        aria-label={color.name}
+                        onClick={() => setPlayer1Color(color.value)}
+                      >
+                        {color.emoji}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Player 2 */}
+                <div className="space-y-1 p-2 bg-gradient-to-br from-pink-50 to-purple-50 rounded border border-pink-200">
+                  <Label className="text-xs font-semibold text-pink-700 flex items-center gap-1">
+                    <span className="text-lg">👤</span>
+                    Player 2 (UIOP)
+                  </Label>
+                  <Input
+                    value={player2Name}
+                    onChange={(e) => setPlayer2Name(e.target.value)}
+                    className="text-xs h-7 border border-pink-300 focus:border-pink-500 focus:ring-1 focus:ring-pink-200"
+                    placeholder="Player 2 name"
+                  />
+                  <div className="flex gap-1 justify-center">
+                    {PLAYER_COLORS.map((color) => (
+                      <button
+                        key={color.value}
+                        type="button"
+                        className={`w-6 h-6 rounded-full border focus:outline-none transition-all duration-200 text-xs ${
+                          color.class
+                        } ${
+                          player2Color === color.value
+                            ? color.border + " ring-1 ring-pink-200 scale-110"
+                            : "border-transparent hover:scale-110"
+                        } ${
+                          sameColor && player2Color === color.value
+                            ? "border-red-500 ring-red-200"
+                            : ""
+                        }`}
+                        aria-label={color.name}
+                        onClick={() => setPlayer2Color(color.value)}
+                      >
+                        {color.emoji}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {sameColor && (
+                <div className="text-center text-xs text-red-600 font-semibold bg-red-50 p-1 rounded border border-red-200">
+                  ⚠️ Choose different colors!
+                </div>
+              )}
+            </CardContent>
+          </Card>
+
+          {/* Compact Skill Selection */}
+          <Card className="bg-white/90 backdrop-blur-sm border border-primary/20 shadow-lg">
+            <CardHeader className="text-center pb-1">
+              <CardTitle className="text-sm font-bold text-primary flex items-center justify-center gap-1">
+                <Target className="w-4 h-4" />
+                Choose Skill
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+                {skills.map((skill) => (
+                  <Card
+                    key={skill}
+                    className={`skill-card cursor-pointer border bg-gradient-to-br from-white to-gray-50 shadow-md hover:shadow-lg transition-all duration-200 ${
+                      selectedSkill === skill
+                        ? "selected border-primary bg-gradient-to-br from-blue-50 to-purple-50 shadow-primary/20"
+                        : "border-gray-200 hover:border-primary/50"
+                    }`}
+                    onClick={() => handleSkillClick(skill)}
+                  >
+                    <CardContent className="p-2 text-center">
+                      <div className="text-2xl mb-1">
+                        {selectedSkill === skill ? "🎯" : "📚"}
+                      </div>
+                      <h3 className="text-xs font-semibold text-gray-800 leading-tight">
+                        {skillTitles[skill] || skill.replace(/-/g, " ")}
+                      </h3>
+                      {selectedSkill === skill && (
+                        <div className="mt-1 text-primary font-medium flex items-center justify-center gap-1 text-xs">
+                          <Sparkles className="w-2 h-2" />
+                          Selected!
+                        </div>
+                      )}
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Compact Start Button and Help Button */}
+          <div className="flex items-center justify-center gap-2">
+            <Button
+              onClick={handleStartGame}
+              disabled={
+                !selectedSkill ||
+                !player1Name.trim() ||
+                !player2Name.trim() ||
+                sameColor
+              }
+              className="text-sm font-bold px-6 py-2 h-auto bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+            >
+              <Play className="w-4 h-4 mr-1" />
+              Start Battle! ⚡
+            </Button>
+            <InstructionsModal />
+          </div>
+        </div>
+      </div>
+
       <DashboardFooter />
     </div>
   );

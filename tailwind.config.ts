@@ -70,12 +70,14 @@ export default {
 			backgroundImage: {
 				'gradient-gaming': 'var(--gradient-gaming)',
 				'gradient-player1': 'var(--gradient-player1)',
-				'gradient-player2': 'var(--gradient-player2)'
+				'gradient-player2': 'var(--gradient-player2)',
+				'gradient-fun': 'var(--gradient-fun)'
 			},
 			boxShadow: {
 				'gaming': 'var(--shadow-gaming)',
 				'player1': 'var(--shadow-player1)',
-				'player2': 'var(--shadow-player2)'
+				'player2': 'var(--shadow-player2)',
+				'fun': 'var(--shadow-fun)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -137,6 +139,14 @@ export default {
 					'50%': {
 						boxShadow: '0 0 40px hsl(var(--player2) / 0.8)'
 					}
+				},
+				'bounce-gentle': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-8px)' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+					'50%': { transform: 'translateY(-10px) rotate(2deg)' }
 				}
 			},
 			animation: {
@@ -146,7 +156,9 @@ export default {
 				'shake': 'shake 0.5s ease-in-out',
 				'scale-in': 'scale-in 0.3s ease-out',
 				'glow-player1': 'glow-player1 2s ease-in-out infinite',
-				'glow-player2': 'glow-player2 2s ease-in-out infinite'
+				'glow-player2': 'glow-player2 2s ease-in-out infinite',
+				'bounce-gentle': 'bounce-gentle 2s ease-in-out infinite',
+				'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},
