@@ -1,0 +1,93 @@
+{
+  "title": "LaTeX Math Examples",
+  "description": "Examples of how to use LaTeX in math questions",
+  "waves": 1,
+  "timePerQuestion": 30,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "What is $\\frac{3}{4} + \\frac{1}{2}$?",
+      "choices": [
+        "$\\frac{5}{4}$",
+        "$\\frac{4}{6}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{7}{4}$"
+      ],
+      "answer": "$\\frac{5}{4}$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Solve for x: $2x + 5 = 13$",
+      "choices": ["$x = 4$", "$x = 3$", "$x = 5$", "$x = 6$"],
+      "answer": "$x = 4$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "What is $\\sqrt{16}$?",
+      "choices": ["$2$", "$4$", "$8$", "$16$"],
+      "answer": "$4$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Simplify: $x^2 + 2x + 1$",
+      "choices": ["$(x+1)^2$", "$(x-1)^2$", "$x^2+1$", "$2x+1$"],
+      "answer": "$(x+1)^2$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "What is $\\pi$ approximately equal to?",
+      "choices": ["$3.14$", "$3.41$", "$2.71$", "$1.41$"],
+      "answer": "$3.14$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Solve: $\\frac{x}{3} = 4$",
+      "choices": ["$x = 12$", "$x = 7$", "$x = 1$", "$x = 4$"],
+      "answer": "$x = 12$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "What is $2^3 \\times 2^2$?",
+      "choices": ["$2^5$", "$2^6$", "$2^1$", "$2^4$"],
+      "answer": "$2^5$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Find the area of a circle with radius $r = 3$",
+      "choices": ["$9\\pi$", "$6\\pi$", "$3\\pi$", "$27\\pi$"],
+      "answer": "$9\\pi$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "What is $\\lim_{x \\to 0} \\frac{\\sin x}{x}$?",
+      "choices": ["$0$", "$1$", "$\\infty$", "$-1$"],
+      "answer": "$1$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Solve: $\\log_2(8) = x$",
+      "choices": ["$x = 3$", "$x = 2$", "$x = 4$", "$x = 1$"],
+      "answer": "$x = 3$",
+      "points": 10
+    }
+  ]
+}

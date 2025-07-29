@@ -5,6 +5,8 @@ import { GameState, GameType, PLAYER_KEYS, Question } from "@/types/game";
 import { Trophy, Home, RotateCcw, Smartphone, Monitor } from "lucide-react";
 import { VictoryScreen } from "./VictoryScreen";
 import { useToast } from "@/hooks/use-toast";
+import "katex/dist/katex.min.css";
+import { InlineMath, BlockMath } from "react-katex";
 
 interface GameScreenProps {
   gameType: GameType;
@@ -61,6 +63,33 @@ function useIsTouchScreen() {
 
   return isTouchScreen;
 }
+
+// Helper function to render text with LaTeX support
+const renderWithLatex = (text: string) => {
+  // Check if text contains LaTeX delimiters
+  const latexRegex = /\$([^$]+)\$/g;
+  const parts = text.split(latexRegex);
+
+  if (parts.length === 1) {
+    // No LaTeX, return plain text
+    return <span>{text}</span>;
+  }
+
+  return parts.map((part, index) => {
+    if (index % 2 === 0) {
+      // Regular text
+      return <span key={index}>{part}</span>;
+    } else {
+      // LaTeX content
+      try {
+        return <InlineMath key={index} math={part} />;
+      } catch (error) {
+        // Fallback to plain text if LaTeX parsing fails
+        return <span key={index}>{`$${part}$`}</span>;
+      }
+    }
+  });
+};
 
 export default function GameScreen({
   gameType,
@@ -495,7 +524,7 @@ export default function GameScreen({
           <CardContent className="p-4 sm:p-6 md:p-8">
             <div className="text-center">
               <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-2 sm:mb-4 break-words leading-tight">
-                {currentQuestion.question}
+                {renderWithLatex(currentQuestion.question)}
               </div>
             </div>
           </CardContent>
@@ -613,7 +642,7 @@ export default function GameScreen({
 
                   {/* Option Text */}
                   <div className="flex-1 font-semibold text-gray-900 break-words text-sm sm:text-base text-center px-2">
-                    {option}
+                    {renderWithLatex(option)}
                   </div>
 
                   {/* Player 2 Key Label - Only show on keyboard devices */}

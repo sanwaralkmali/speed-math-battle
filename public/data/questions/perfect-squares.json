@@ -7,1510 +7,2926 @@
     {
       "id": 1,
       "wave": 1,
-      "question": "Factor: x² + 2x + 1",
-      "choices": ["(x + 1)²", "(x − 1)²", "(x + 1)(x − 1)", "(x² + 1)"],
-      "answer": "(x + 1)²",
+      "question": "Factor: $x^2 + 2x + 1$",
+      "choices": [
+        "$(x + 1)^2$",
+        "$(x - 1)^2$",
+        "$(x + 1)(x - 1)$",
+        "$(x^2 + 1)$"
+      ],
+      "answer": "$(x + 1)^2$",
       "points": 10
     },
     {
       "id": 2,
       "wave": 1,
-      "question": "Factor: y² + 4y + 4",
-      "choices": ["(y + 2)²", "(y − 2)²", "(y + 2)(y − 2)", "(y² + 2)"],
-      "answer": "(y + 2)²",
+      "question": "Factor: $y^2 + 4y + 4$",
+      "choices": [
+        "$(y + 2)^2$",
+        "$(y - 2)^2$",
+        "$(y + 2)(y - 2)$",
+        "$(y^2 + 2)$"
+      ],
+      "answer": "$(y + 2)^2$",
       "points": 10
     },
     {
       "id": 3,
       "wave": 1,
-      "question": "Factor: z² + 6z + 9",
-      "choices": ["(z + 3)²", "(z − 3)²", "(z + 3)(z − 3)", "(z² + 3)"],
-      "answer": "(z + 3)²",
+      "question": "Factor: $x^2 - 2x + 1$",
+      "choices": ["$(x - 1)^2$", "$(x + 1)^2$", "$(x - 2)^2$", "$(x^2 + 1)$"],
+      "answer": "$(x - 1)^2$",
       "points": 10
     },
     {
       "id": 4,
       "wave": 1,
-      "question": "Factor: a² + 8a + 16",
-      "choices": ["(a + 4)²", "(a − 4)²", "(a + 4)(a − 4)", "(a² + 4)"],
-      "answer": "(a + 4)²",
+      "question": "Factor: $x^2 + 18x + 81$",
+      "choices": ["$(x + 9)^2$", "$(x - 9)^2$", "$(x + 10)^2$", "$(x^2 + 9)$"],
+      "answer": "$(x + 9)^2$",
       "points": 10
     },
     {
       "id": 5,
       "wave": 1,
-      "question": "Factor: b² + 10b + 25",
-      "choices": ["(b + 5)²", "(b − 5)²", "(b + 5)(b − 5)", "(b² + 5)"],
-      "answer": "(b + 5)²",
+      "question": "Factor: $x^2 + 10x + 25$",
+      "choices": ["$(x + 5)^2$", "$(x - 5)^2$", "$(x + 6)^2$", "$(x^2 + 5)$"],
+      "answer": "$(x + 5)^2$",
       "points": 10
     },
     {
       "id": 6,
       "wave": 1,
-      "question": "Factor: c² − 2c + 1",
-      "choices": ["(c − 1)²", "(c + 1)²", "(c − 1)(c + 1)", "(c² + 1)"],
-      "answer": "(c − 1)²",
+      "question": "Factor: $x^2 - 14x + 49$",
+      "choices": ["$(x - 7)^2$", "$(x + 7)^2$", "$(x - 8)^2$", "$(x^2 + 7)$"],
+      "answer": "$(x - 7)^2$",
       "points": 10
     },
     {
       "id": 7,
       "wave": 1,
-      "question": "Factor: d² − 4d + 4",
-      "choices": ["(d − 2)²", "(d + 2)²", "(d − 2)(d + 2)", "(d² + 2)"],
-      "answer": "(d − 2)²",
+      "question": "Factor: $x^2 - 16x + 64$",
+      "choices": ["$(x - 8)^2$", "$(x + 8)^2$", "$(x - 9)^2$", "$(x^2 + 8)$"],
+      "answer": "$(x - 8)^2$",
       "points": 10
     },
     {
       "id": 8,
       "wave": 1,
-      "question": "Factor: e² − 6e + 9",
-      "choices": ["(e − 3)²", "(e + 3)²", "(e − 3)(e + 3)", "(e² + 3)"],
-      "answer": "(e − 3)²",
+      "question": "Factor: $x^2 - 12x + 36$",
+      "choices": ["$(x - 6)^2$", "$(x + 6)^2$", "$(x - 7)^2$", "$(x^2 + 6)$"],
+      "answer": "$(x - 6)^2$",
       "points": 10
     },
     {
       "id": 9,
       "wave": 1,
-      "question": "Factor: f² − 8f + 16",
-      "choices": ["(f − 4)²", "(f + 4)²", "(f − 4)(f + 4)", "(f² + 4)"],
-      "answer": "(f − 4)²",
+      "question": "Factor: $x^2 - 18x + 81$",
+      "choices": ["$(x - 9)^2$", "$(x + 9)^2$", "$(x - 10)^2$", "$(x^2 + 9)$"],
+      "answer": "$(x - 9)^2$",
       "points": 10
     },
     {
       "id": 10,
       "wave": 1,
-      "question": "Factor: g² − 10g + 25",
-      "choices": ["(g − 5)²", "(g + 5)²", "(g − 5)(g + 5)", "(g² + 5)"],
-      "answer": "(g − 5)²",
+      "question": "Factor: $x^2 + 12x + 36$",
+      "choices": ["$(x + 6)^2$", "$(x - 6)^2$", "$(x + 7)^2$", "$(x^2 + 6)$"],
+      "answer": "$(x + 6)^2$",
       "points": 10
     },
     {
       "id": 11,
       "wave": 1,
-      "question": "Factor: h² + 12h + 36",
-      "choices": ["(h + 6)²", "(h − 6)²", "(h + 6)(h − 6)", "(h² + 6)"],
-      "answer": "(h + 6)²",
+      "question": "Factor: $x^2 + 14x + 49$",
+      "choices": ["$(x + 7)^2$", "$(x - 7)^2$", "$(x + 8)^2$", "$(x^2 + 7)$"],
+      "answer": "$(x + 7)^2$",
       "points": 10
     },
     {
       "id": 12,
       "wave": 1,
-      "question": "Factor: j² − 12j + 36",
-      "choices": ["(j − 6)²", "(j + 6)²", "(j − 6)(j + 6)", "(j² + 6)"],
-      "answer": "(j − 6)²",
+      "question": "Factor: $x^2 - 20x + 100$",
+      "choices": [
+        "$(x - 10)^2$",
+        "$(x + 10)^2$",
+        "$(x - 11)^2$",
+        "$(x^2 + 10)$"
+      ],
+      "answer": "$(x - 10)^2$",
       "points": 10
     },
     {
       "id": 13,
       "wave": 1,
-      "question": "Factor: k² + 14k + 49",
-      "choices": ["(k + 7)²", "(k − 7)²", "(k + 7)(k − 7)", "(k² + 7)"],
-      "answer": "(k + 7)²",
+      "question": "Factor: $x^2 + 8x + 16$",
+      "choices": ["$(x + 4)^2$", "$(x - 4)^2$", "$(x + 5)^2$", "$(x^2 + 4)$"],
+      "answer": "$(x + 4)^2$",
       "points": 10
     },
     {
       "id": 14,
       "wave": 1,
-      "question": "Factor: m² − 14m + 49",
-      "choices": ["(m − 7)²", "(m + 7)²", "(m − 7)(m + 7)", "(m² + 7)"],
-      "answer": "(m − 7)²",
+      "question": "Factor: $x^2 + 6x + 9$",
+      "choices": ["$(x + 3)^2$", "$(x - 3)^2$", "$(x + 4)^2$", "$(x^2 + 3)$"],
+      "answer": "$(x + 3)^2$",
       "points": 10
     },
     {
       "id": 15,
       "wave": 1,
-      "question": "Factor: n² + 16n + 64",
-      "choices": ["(n + 8)²", "(n − 8)²", "(n + 8)(n − 8)", "(n² + 8)"],
-      "answer": "(n + 8)²",
+      "question": "Factor: $x^2 - 8x + 16$",
+      "choices": ["$(x - 4)^2$", "$(x + 4)^2$", "$(x - 5)^2$", "$(x^2 + 4)$"],
+      "answer": "$(x - 4)^2$",
       "points": 10
     },
     {
       "id": 16,
       "wave": 1,
-      "question": "Factor: p² − 16p + 64",
-      "choices": ["(p − 8)²", "(p + 8)²", "(p − 8)(p + 8)", "(p² + 8)"],
-      "answer": "(p − 8)²",
+      "question": "Factor: $x^2 + 16x + 64$",
+      "choices": ["$(x + 8)^2$", "$(x - 8)^2$", "$(x + 9)^2$", "$(x^2 + 8)$"],
+      "answer": "$(x + 8)^2$",
       "points": 10
     },
     {
       "id": 17,
       "wave": 1,
-      "question": "Factor: q² + 18q + 81",
-      "choices": ["(q + 9)²", "(q − 9)²", "(q + 9)(q − 9)", "(q² + 9)"],
-      "answer": "(q + 9)²",
+      "question": "Factor: $x^2 - 10x + 25$",
+      "choices": ["$(x - 5)^2$", "$(x + 5)^2$", "$(x - 6)^2$", "$(x^2 + 5)$"],
+      "answer": "$(x - 5)^2$",
       "points": 10
     },
     {
       "id": 18,
       "wave": 1,
-      "question": "Factor: r² − 18r + 81",
-      "choices": ["(r − 9)²", "(r + 9)²", "(r − 9)(r + 9)", "(r² + 9)"],
-      "answer": "(r − 9)²",
+      "question": "Factor: $x^2 + 20x + 100$",
+      "choices": [
+        "$(x + 10)^2$",
+        "$(x - 10)^2$",
+        "$(x + 11)^2$",
+        "$(x^2 + 10)$"
+      ],
+      "answer": "$(x + 10)^2$",
       "points": 10
     },
     {
       "id": 19,
       "wave": 1,
-      "question": "Factor: s² + 20s + 100",
-      "choices": ["(s + 10)²", "(s − 10)²", "(s + 10)(s − 10)", "(s² + 10)"],
-      "answer": "(s + 10)²",
+      "question": "Factor: $x^2 - 6x + 9$",
+      "choices": ["$(x - 3)^2$", "$(x + 3)^2$", "$(x - 4)^2$", "$(x^2 + 3)$"],
+      "answer": "$(x - 3)^2$",
       "points": 10
     },
     {
       "id": 20,
       "wave": 1,
-      "question": "Factor: t² − 20t + 100",
-      "choices": ["(t − 10)²", "(t + 10)²", "(t − 10)(t + 10)", "(t² + 10)"],
-      "answer": "(t − 10)²",
+      "question": "Factor: $x^2 - 4x + 4$",
+      "choices": ["$(x - 2)^2$", "$(x + 2)^2$", "$(x - 3)^2$", "$(x^2 + 2)$"],
+      "answer": "$(x - 2)^2$",
       "points": 10
     },
     {
       "id": 21,
       "wave": 1,
-      "question": "Factor: u² + 22u + 121",
-      "choices": ["(u + 11)²", "(u − 11)²", "(u + 11)(u − 11)", "(u² + 11)"],
-      "answer": "(u + 11)²",
+      "question": "Factor: $x^2 + 2x + 1$",
+      "choices": ["$(x + 1)^2$", "$(x - 1)^2$", "$(x + 2)^2$", "$(x^2 + 1)$"],
+      "answer": "$(x + 1)^2$",
       "points": 10
     },
     {
       "id": 22,
       "wave": 1,
-      "question": "Factor: v² − 22v + 121",
-      "choices": ["(v − 11)²", "(v + 11)²", "(v − 11)(v + 11)", "(v² + 11)"],
-      "answer": "(v − 11)²",
+      "question": "Factor: $x^2 - 10x + 25$",
+      "choices": ["$(x - 5)^2$", "$(x + 5)^2$", "$(x - 6)^2$", "$(x^2 + 5)$"],
+      "answer": "$(x - 5)^2$",
       "points": 10
     },
     {
       "id": 23,
       "wave": 1,
-      "question": "Factor: w² + 24w + 144",
-      "choices": ["(w + 12)²", "(w − 12)²", "(w + 12)(w − 12)", "(w² + 12)"],
-      "answer": "(w + 12)²",
+      "question": "Factor: $x^2 + 18x + 81$",
+      "choices": ["$(x + 9)^2$", "$(x - 9)^2$", "$(x + 10)^2$", "$(x^2 + 9)$"],
+      "answer": "$(x + 9)^2$",
       "points": 10
     },
     {
       "id": 24,
       "wave": 1,
-      "question": "Factor: z² − 24z + 144",
-      "choices": ["(z − 12)²", "(z + 12)²", "(z − 12)(z + 12)", "(z² + 12)"],
-      "answer": "(z − 12)²",
+      "question": "Factor: $x^2 - 14x + 49$",
+      "choices": ["$(x - 7)^2$", "$(x + 7)^2$", "$(x - 8)^2$", "$(x^2 + 7)$"],
+      "answer": "$(x - 7)^2$",
       "points": 10
     },
     {
       "id": 25,
       "wave": 1,
-      "question": "Factor: x² + 26x + 169",
-      "choices": ["(x + 13)²", "(x − 13)²", "(x + 13)(x − 13)", "(x² + 13)"],
-      "answer": "(x + 13)²",
+      "question": "Factor: $x^2 - 12x + 36$",
+      "choices": ["$(x - 6)^2$", "$(x + 6)^2$", "$(x - 7)^2$", "$(x^2 + 6)$"],
+      "answer": "$(x - 6)^2$",
       "points": 10
     },
     {
       "id": 26,
       "wave": 1,
-      "question": "Factor: y² − 26y + 169",
-      "choices": ["(y − 13)²", "(y + 13)²", "(y − 13)(y + 13)", "(y² + 13)"],
-      "answer": "(y − 13)²",
+      "question": "Factor: $x^2 - 6x + 9$",
+      "choices": ["$(x - 3)^2$", "$(x + 3)^2$", "$(x - 4)^2$", "$(x^2 + 3)$"],
+      "answer": "$(x - 3)^2$",
       "points": 10
     },
     {
       "id": 27,
       "wave": 1,
-      "question": "Factor: a² + 28a + 196",
-      "choices": ["(a + 14)²", "(a − 14)²", "(a + 14)(a − 14)", "(a² + 14)"],
-      "answer": "(a + 14)²",
+      "question": "Factor: $x^2 - 18x + 81$",
+      "choices": ["$(x - 9)^2$", "$(x + 9)^2$", "$(x - 10)^2$", "$(x^2 + 9)$"],
+      "answer": "$(x - 9)^2$",
       "points": 10
     },
     {
       "id": 28,
       "wave": 1,
-      "question": "Factor: b² − 28b + 196",
-      "choices": ["(b − 14)²", "(b + 14)²", "(b − 14)(b + 14)", "(b² + 14)"],
-      "answer": "(b − 14)²",
+      "question": "Factor: $x^2 + 16x + 64$",
+      "choices": ["$(x + 8)^2$", "$(x - 8)^2$", "$(x + 9)^2$", "$(x^2 + 8)$"],
+      "answer": "$(x + 8)^2$",
       "points": 10
     },
     {
       "id": 29,
       "wave": 1,
-      "question": "Factor: c² + 30c + 225",
-      "choices": ["(c + 15)²", "(c − 15)²", "(c + 15)(c − 15)", "(c² + 15)"],
-      "answer": "(c + 15)²",
+      "question": "Factor: $x^2 + 10x + 25$",
+      "choices": ["$(x + 5)^2$", "$(x - 5)^2$", "$(x + 6)^2$", "$(x^2 + 5)$"],
+      "answer": "$(x + 5)^2$",
       "points": 10
     },
     {
       "id": 30,
       "wave": 1,
-      "question": "Factor: d² − 30d + 225",
-      "choices": ["(d − 15)²", "(d + 15)²", "(d − 15)(d + 15)", "(d² + 15)"],
-      "answer": "(d − 15)²",
+      "question": "Factor: $x^2 - 8x + 16$",
+      "choices": ["$(x - 4)^2$", "$(x + 4)^2$", "$(x - 5)^2$", "$(x^2 + 4)$"],
+      "answer": "$(x - 4)^2$",
       "points": 10
     },
-
     {
       "id": 31,
-      "wave": 2,
-      "question": "Factor: y² − 10y + 25",
-      "choices": ["(y − 5)²", "(y + 5)²", "(y − 5)(y + 5)", "(y² + 5)"],
-      "answer": "(y − 5)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 6x + 9$",
+      "choices": ["$(x + 3)^2$", "$(x - 3)^2$", "$(x + 4)^2$", "$(x^2 + 3)$"],
+      "answer": "$(x + 3)^2$",
+      "points": 10
     },
     {
       "id": 32,
-      "wave": 2,
-      "question": "Factor: x² + 12x + 36",
-      "choices": ["(x + 6)²", "(x − 6)²", "(x + 6)(x − 6)", "(x² + 6)"],
-      "answer": "(x + 6)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 20x + 100$",
+      "choices": [
+        "$(x + 10)^2$",
+        "$(x - 10)^2$",
+        "$(x + 11)^2$",
+        "$(x^2 + 10)$"
+      ],
+      "answer": "$(x + 10)^2$",
+      "points": 10
     },
     {
       "id": 33,
-      "wave": 2,
-      "question": "Factor: a² − 14a + 49",
-      "choices": ["(a − 7)²", "(a + 7)²", "(a − 7)(a + 7)", "(a² + 7)"],
-      "answer": "(a − 7)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 14x + 49$",
+      "choices": ["$(x + 7)^2$", "$(x - 7)^2$", "$(x + 8)^2$", "$(x^2 + 7)$"],
+      "answer": "$(x + 7)^2$",
+      "points": 10
     },
     {
       "id": 34,
-      "wave": 2,
-      "question": "Factor: b² + 16b + 64",
-      "choices": ["(b + 8)²", "(b − 8)²", "(b + 8)(b − 8)", "(b² + 8)"],
-      "answer": "(b + 8)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 2x + 1$",
+      "choices": ["$(x - 1)^2$", "$(x + 1)^2$", "$(x - 2)^2$", "$(x^2 + 1)$"],
+      "answer": "$(x - 1)^2$",
+      "points": 10
     },
     {
       "id": 35,
-      "wave": 2,
-      "question": "Factor: c² − 18c + 81",
-      "choices": ["(c − 9)²", "(c + 9)²", "(c − 9)(c + 9)", "(c² + 9)"],
-      "answer": "(c − 9)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 4x + 4$",
+      "choices": ["$(x + 2)^2$", "$(x - 2)^2$", "$(x + 3)^2$", "$(x^2 + 2)$"],
+      "answer": "$(x + 2)^2$",
+      "points": 10
     },
     {
       "id": 36,
-      "wave": 2,
-      "question": "Factor: d² + 20d + 100",
-      "choices": ["(d + 10)²", "(d − 10)²", "(d + 10)(d − 10)", "(d² + 10)"],
-      "answer": "(d + 10)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 12x + 36$",
+      "choices": ["$(x + 6)^2$", "$(x - 6)^2$", "$(x + 7)^2$", "$(x^2 + 6)$"],
+      "answer": "$(x + 6)^2$",
+      "points": 10
     },
     {
       "id": 37,
-      "wave": 2,
-      "question": "Factor: e² − 22e + 121",
-      "choices": ["(e − 11)²", "(e + 11)²", "(e − 11)(e + 11)", "(e² + 11)"],
-      "answer": "(e − 11)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 16x + 64$",
+      "choices": ["$(x - 8)^2$", "$(x + 8)^2$", "$(x - 9)^2$", "$(x^2 + 8)$"],
+      "answer": "$(x - 8)^2$",
+      "points": 10
     },
     {
       "id": 38,
-      "wave": 2,
-      "question": "Factor: f² + 24f + 144",
-      "choices": ["(f + 12)²", "(f − 12)²", "(f + 12)(f − 12)", "(f² + 12)"],
-      "answer": "(f + 12)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 8x + 16$",
+      "choices": ["$(x + 4)^2$", "$(x - 4)^2$", "$(x + 5)^2$", "$(x^2 + 4)$"],
+      "answer": "$(x + 4)^2$",
+      "points": 10
     },
     {
       "id": 39,
-      "wave": 2,
-      "question": "Factor: g² − 26g + 169",
-      "choices": ["(g − 13)²", "(g + 13)²", "(g − 13)(g + 13)", "(g² + 13)"],
-      "answer": "(g − 13)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 4x + 4$",
+      "choices": ["$(x - 2)^2$", "$(x + 2)^2$", "$(x - 3)^2$", "$(x^2 + 2)$"],
+      "answer": "$(x - 2)^2$",
+      "points": 10
     },
     {
       "id": 40,
-      "wave": 2,
-      "question": "Factor: h² + 28h + 196",
-      "choices": ["(h + 14)²", "(h − 14)²", "(h + 14)(h − 14)", "(h² + 14)"],
-      "answer": "(h + 14)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 20x + 100$",
+      "choices": [
+        "$(x - 10)^2$",
+        "$(x + 10)^2$",
+        "$(x - 11)^2$",
+        "$(x^2 + 10)$"
+      ],
+      "answer": "$(x - 10)^2$",
+      "points": 10
     },
     {
       "id": 41,
-      "wave": 2,
-      "question": "Factor: j² − 30j + 225",
-      "choices": ["(j − 15)²", "(j + 15)²", "(j − 15)(j + 15)", "(j² + 15)"],
-      "answer": "(j − 15)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 18x + 81$",
+      "choices": ["$(x + 9)^2$", "$(x - 9)^2$", "$(x + 10)^2$", "$(x^2 + 9)$"],
+      "answer": "$(x + 9)^2$",
+      "points": 10
     },
     {
       "id": 42,
-      "wave": 2,
-      "question": "Factor: k² + 32k + 256",
-      "choices": ["(k + 16)²", "(k − 16)²", "(k + 16)(k − 16)", "(k² + 16)"],
-      "answer": "(k + 16)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 10x + 25$",
+      "choices": ["$(x + 5)^2$", "$(x - 5)^2$", "$(x + 6)^2$", "$(x^2 + 5)$"],
+      "answer": "$(x + 5)^2$",
+      "points": 10
     },
     {
       "id": 43,
-      "wave": 2,
-      "question": "Factor: m² − 34m + 289",
-      "choices": ["(m − 17)²", "(m + 17)²", "(m − 17)(m + 17)", "(m² + 17)"],
-      "answer": "(m − 17)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 14x + 49$",
+      "choices": ["$(x - 7)^2$", "$(x + 7)^2$", "$(x - 8)^2$", "$(x^2 + 7)$"],
+      "answer": "$(x - 7)^2$",
+      "points": 10
     },
     {
       "id": 44,
-      "wave": 2,
-      "question": "Factor: n² + 36n + 324",
-      "choices": ["(n + 18)²", "(n − 18)²", "(n + 18)(n − 18)", "(n² + 18)"],
-      "answer": "(n + 18)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 12x + 36$",
+      "choices": ["$(x - 6)^2$", "$(x + 6)^2$", "$(x - 7)^2$", "$(x^2 + 6)$"],
+      "answer": "$(x - 6)^2$",
+      "points": 10
     },
     {
       "id": 45,
-      "wave": 2,
-      "question": "Factor: p² − 38p + 361",
-      "choices": ["(p − 19)²", "(p + 19)²", "(p − 19)(p + 19)", "(p² + 19)"],
-      "answer": "(p − 19)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 18x + 81$",
+      "choices": ["$(x - 9)^2$", "$(x + 9)^2$", "$(x - 10)^2$", "$(x^2 + 9)$"],
+      "answer": "$(x - 9)^2$",
+      "points": 10
     },
     {
       "id": 46,
-      "wave": 2,
-      "question": "Factor: q² + 40q + 400",
-      "choices": ["(q + 20)²", "(q − 20)²", "(q + 20)(q − 20)", "(q² + 20)"],
-      "answer": "(q + 20)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 12x + 36$",
+      "choices": ["$(x + 6)^2$", "$(x - 6)^2$", "$(x + 7)^2$", "$(x^2 + 6)$"],
+      "answer": "$(x + 6)^2$",
+      "points": 10
     },
     {
       "id": 47,
-      "wave": 2,
-      "question": "Factor: r² − 42r + 441",
-      "choices": ["(r − 21)²", "(r + 21)²", "(r − 21)(r + 21)", "(r² + 21)"],
-      "answer": "(r − 21)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 14x + 49$",
+      "choices": ["$(x + 7)^2$", "$(x - 7)^2$", "$(x + 8)^2$", "$(x^2 + 7)$"],
+      "answer": "$(x + 7)^2$",
+      "points": 10
     },
     {
       "id": 48,
-      "wave": 2,
-      "question": "Factor: s² + 44s + 484",
-      "choices": ["(s + 22)²", "(s − 22)²", "(s + 22)(s − 22)", "(s² + 22)"],
-      "answer": "(s + 22)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 - 20x + 100$",
+      "choices": [
+        "$(x - 10)^2$",
+        "$(x + 10)^2$",
+        "$(x - 11)^2$",
+        "$(x^2 + 10)$"
+      ],
+      "answer": "$(x - 10)^2$",
+      "points": 10
     },
     {
       "id": 49,
-      "wave": 2,
-      "question": "Factor: t² − 46t + 529",
-      "choices": ["(t − 23)²", "(t + 23)²", "(t − 23)(t + 23)", "(t² + 23)"],
-      "answer": "(t − 23)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 8x + 16$",
+      "choices": ["$(x + 4)^2$", "$(x - 4)^2$", "$(x + 5)^2$", "$(x^2 + 4)$"],
+      "answer": "$(x + 4)^2$",
+      "points": 10
     },
     {
       "id": 50,
-      "wave": 2,
-      "question": "Factor: u² + 48u + 576",
-      "choices": ["(u + 24)²", "(u − 24)²", "(u + 24)(u − 24)", "(u² + 24)"],
-      "answer": "(u + 24)²",
-      "points": 15
+      "wave": 1,
+      "question": "Factor: $x^2 + 6x + 9$",
+      "choices": ["$(x + 3)^2$", "$(x - 3)^2$", "$(x + 4)^2$", "$(x^2 + 3)$"],
+      "answer": "$(x + 3)^2$",
+      "points": 10
     },
-
     {
       "id": 51,
-      "wave": 3,
-      "question": "Factor: 4x² + 12x + 9",
-      "choices": ["(2x + 3)²", "(2x − 3)²", "(2x + 3)(2x − 3)", "(4x² + 3)"],
-      "answer": "(2x + 3)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $x^2 - 22x + 121$",
+      "choices": [
+        "$(x - 11)^2$",
+        "$(x + 11)^2$",
+        "$(x - 12)^2$",
+        "$(x^2 + 11)$"
+      ],
+      "answer": "$(x - 11)^2$",
+      "points": 15
     },
     {
       "id": 52,
-      "wave": 3,
-      "question": "Factor: 9y² − 12y + 4",
-      "choices": ["(3y − 2)²", "(3y + 2)²", "(3y − 2)(3y + 2)", "(9y² + 2)"],
-      "answer": "(3y − 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $x^2 + 38x + 361$",
+      "choices": [
+        "$(x + 19)^2$",
+        "$(x - 19)^2$",
+        "$(x + 20)^2$",
+        "$(x^2 + 19)$"
+      ],
+      "answer": "$(x + 19)^2$",
+      "points": 15
     },
     {
       "id": 53,
-      "wave": 3,
-      "question": "Factor: 16a² + 40a + 25",
-      "choices": ["(4a + 5)²", "(4a − 5)²", "(4a + 5)(4a − 5)", "(16a² + 5)"],
-      "answer": "(4a + 5)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $x^2 - 34x + 289$",
+      "choices": [
+        "$(x - 17)^2$",
+        "$(x + 17)^2$",
+        "$(x - 18)^2$",
+        "$(x^2 + 17)$"
+      ],
+      "answer": "$(x - 17)^2$",
+      "points": 15
     },
     {
       "id": 54,
-      "wave": 3,
-      "question": "Factor: 25b² − 30b + 9",
-      "choices": ["(5b − 3)²", "(5b + 3)²", "(5b − 3)(5b + 3)", "(25b² + 3)"],
-      "answer": "(5b − 3)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $x^2 + 36x + 324$",
+      "choices": [
+        "$(x + 18)^2$",
+        "$(x - 18)^2$",
+        "$(x + 19)^2$",
+        "$(x^2 + 18)$"
+      ],
+      "answer": "$(x + 18)^2$",
+      "points": 15
     },
     {
       "id": 55,
-      "wave": 3,
-      "question": "Factor: 49c² + 28c + 4",
-      "choices": ["(7c + 2)²", "(7c − 2)²", "(7c + 2)(7c − 2)", "(49c² + 2)"],
-      "answer": "(7c + 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $x^2 + 30x + 225$",
+      "choices": [
+        "$(x + 15)^2$",
+        "$(x - 15)^2$",
+        "$(x + 16)^2$",
+        "$(x^2 + 15)$"
+      ],
+      "answer": "$(x + 15)^2$",
+      "points": 15
     },
     {
       "id": 56,
-      "wave": 3,
-      "question": "Factor: 64d² − 48d + 9",
-      "choices": ["(8d − 3)²", "(8d + 3)²", "(8d − 3)(8d + 3)", "(64d² + 3)"],
-      "answer": "(8d − 3)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $x^2 - 26x + 169$",
+      "choices": [
+        "$(x - 13)^2$",
+        "$(x + 13)^2$",
+        "$(x - 14)^2$",
+        "$(x^2 + 13)$"
+      ],
+      "answer": "$(x - 13)^2$",
+      "points": 15
     },
     {
       "id": 57,
-      "wave": 3,
-      "question": "Factor: 81e² + 36e + 4",
-      "choices": ["(9e + 2)²", "(9e − 2)²", "(9e + 2)(9e − 2)", "(81e² + 2)"],
-      "answer": "(9e + 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $x^2 + 24x + 144$",
+      "choices": [
+        "$(x + 12)^2$",
+        "$(x - 12)^2$",
+        "$(x + 13)^2$",
+        "$(x^2 + 12)$"
+      ],
+      "answer": "$(x + 12)^2$",
+      "points": 15
     },
     {
       "id": 58,
-      "wave": 3,
-      "question": "Factor: 100f² − 60f + 9",
+      "wave": 2,
+      "question": "Factor: $x^2 - 32x + 256$",
       "choices": [
-        "(10f − 3)²",
-        "(10f + 3)²",
-        "(10f − 3)(10f + 3)",
-        "(100f² + 3)"
+        "$(x - 16)^2$",
+        "$(x + 16)^2$",
+        "$(x - 17)^2$",
+        "$(x^2 + 16)$"
       ],
-      "answer": "(10f − 3)²",
-      "points": 20
+      "answer": "$(x - 16)^2$",
+      "points": 15
     },
     {
       "id": 59,
-      "wave": 3,
-      "question": "Factor: 121g² + 44g + 4",
+      "wave": 2,
+      "question": "Factor: $x^2 - 28x + 196$",
       "choices": [
-        "(11g + 2)²",
-        "(11g − 2)²",
-        "(11g + 2)(11g − 2)",
-        "(121g² + 2)"
+        "$(x - 14)^2$",
+        "$(x + 14)^2$",
+        "$(x - 15)^2$",
+        "$(x^2 + 14)$"
       ],
-      "answer": "(11g + 2)²",
-      "points": 20
+      "answer": "$(x - 14)^2$",
+      "points": 15
     },
     {
       "id": 60,
-      "wave": 3,
-      "question": "Factor: 144h² − 24h + 1",
+      "wave": 2,
+      "question": "Factor: $x^2 + 22x + 121$",
       "choices": [
-        "(12h − 1)²",
-        "(12h + 1)²",
-        "(12h − 1)(12h + 1)",
-        "(144h² + 1)"
+        "$(x + 11)^2$",
+        "$(x - 11)^2$",
+        "$(x + 12)^2$",
+        "$(x^2 + 11)$"
       ],
-      "answer": "(12h − 1)²",
-      "points": 20
+      "answer": "$(x + 11)^2$",
+      "points": 15
     },
     {
       "id": 61,
-      "wave": 3,
-      "question": "Factor: 169j² + 52j + 4",
+      "wave": 2,
+      "question": "Factor: $x^2 + 26x + 169$",
       "choices": [
-        "(13j + 2)²",
-        "(13j − 2)²",
-        "(13j + 2)(13j − 2)",
-        "(169j² + 2)"
+        "$(x + 13)^2$",
+        "$(x - 13)^2$",
+        "$(x + 14)^2$",
+        "$(x^2 + 13)$"
       ],
-      "answer": "(13j + 2)²",
-      "points": 20
+      "answer": "$(x + 13)^2$",
+      "points": 15
     },
     {
       "id": 62,
-      "wave": 3,
-      "question": "Factor: 196k² − 70k + 25",
+      "wave": 2,
+      "question": "Factor: $x^2 - 30x + 225$",
       "choices": [
-        "(14k − 5)²",
-        "(14k + 5)²",
-        "(14k − 5)(14k + 5)",
-        "(196k² + 5)"
+        "$(x - 15)^2$",
+        "$(x + 15)^2$",
+        "$(x - 16)^2$",
+        "$(x^2 + 15)$"
       ],
-      "answer": "(14k − 5)²",
-      "points": 20
+      "answer": "$(x - 15)^2$",
+      "points": 15
     },
     {
       "id": 63,
-      "wave": 3,
-      "question": "Factor: 225m² + 60m + 4",
+      "wave": 2,
+      "question": "Factor: $x^2 + 28x + 196$",
       "choices": [
-        "(15m + 2)²",
-        "(15m − 2)²",
-        "(15m + 2)(15m − 2)",
-        "(225m² + 2)"
+        "$(x + 14)^2$",
+        "$(x - 14)^2$",
+        "$(x + 15)^2$",
+        "$(x^2 + 14)$"
       ],
-      "answer": "(15m + 2)²",
-      "points": 20
+      "answer": "$(x + 14)^2$",
+      "points": 15
     },
     {
       "id": 64,
-      "wave": 3,
-      "question": "Factor: 256n² − 32n + 1",
+      "wave": 2,
+      "question": "Factor: $x^2 - 38x + 361$",
       "choices": [
-        "(16n − 1)²",
-        "(16n + 1)²",
-        "(16n − 1)(16n + 1)",
-        "(256n² + 1)"
+        "$(x - 19)^2$",
+        "$(x + 19)^2$",
+        "$(x - 20)^2$",
+        "$(x^2 + 19)$"
       ],
-      "answer": "(16n − 1)²",
-      "points": 20
+      "answer": "$(x - 19)^2$",
+      "points": 15
     },
     {
       "id": 65,
-      "wave": 3,
-      "question": "Factor: 289p² + 68p + 4",
+      "wave": 2,
+      "question": "Factor: $x^2 + 32x + 256$",
       "choices": [
-        "(17p + 2)²",
-        "(17p − 2)²",
-        "(17p + 2)(17p − 2)",
-        "(289p² + 2)"
+        "$(x + 16)^2$",
+        "$(x - 16)^2$",
+        "$(x + 17)^2$",
+        "$(x^2 + 16)$"
       ],
-      "answer": "(17p + 2)²",
-      "points": 20
+      "answer": "$(x + 16)^2$",
+      "points": 15
     },
     {
       "id": 66,
-      "wave": 3,
-      "question": "Factor: 324q² − 72q + 4",
+      "wave": 2,
+      "question": "Factor: $x^2 - 36x + 324$",
       "choices": [
-        "(18q − 2)²",
-        "(18q + 2)²",
-        "(18q − 2)(18q + 2)",
-        "(324q² + 2)"
+        "$(x - 18)^2$",
+        "$(x + 18)^2$",
+        "$(x - 19)^2$",
+        "$(x^2 + 18)$"
       ],
-      "answer": "(18q − 2)²",
-      "points": 20
+      "answer": "$(x - 18)^2$",
+      "points": 15
     },
     {
       "id": 67,
-      "wave": 3,
-      "question": "Factor: 361r² + 76r + 4",
+      "wave": 2,
+      "question": "Factor: $x^2 + 34x + 289$",
       "choices": [
-        "(19r + 2)²",
-        "(19r − 2)²",
-        "(19r + 2)(19r − 2)",
-        "(361r² + 2)"
+        "$(x + 17)^2$",
+        "$(x - 17)^2$",
+        "$(x + 18)^2$",
+        "$(x^2 + 17)$"
       ],
-      "answer": "(19r + 2)²",
-      "points": 20
+      "answer": "$(x + 17)^2$",
+      "points": 15
     },
     {
       "id": 68,
-      "wave": 3,
-      "question": "Factor: 400s² − 80s + 16",
+      "wave": 2,
+      "question": "Factor: $x^2 - 24x + 144$",
       "choices": [
-        "(20s − 4)²",
-        "(20s + 4)²",
-        "(20s − 4)(20s + 4)",
-        "(400s² + 4)"
+        "$(x - 12)^2$",
+        "$(x + 12)^2$",
+        "$(x - 13)^2$",
+        "$(x^2 + 12)$"
       ],
-      "answer": "(20s − 4)²",
-      "points": 20
+      "answer": "$(x - 12)^2$",
+      "points": 15
     },
     {
       "id": 69,
-      "wave": 3,
-      "question": "Factor: 441t² + 84t + 4",
+      "wave": 2,
+      "question": "Factor: $x^2 + 40x + 400$",
       "choices": [
-        "(21t + 2)²",
-        "(21t − 2)²",
-        "(21t + 2)(21t − 2)",
-        "(441t² + 2)"
+        "$(x + 20)^2$",
+        "$(x - 20)^2$",
+        "$(x + 21)^2$",
+        "$(x^2 + 20)$"
       ],
-      "answer": "(21t + 2)²",
-      "points": 20
+      "answer": "$(x + 20)^2$",
+      "points": 15
     },
     {
       "id": 70,
-      "wave": 3,
-      "question": "Factor: 484u² − 88u + 4",
-      "choices": [
-        "(22u − 2)²",
-        "(22u + 2)²",
-        "(22u − 2)(22u + 2)",
-        "(484u² + 2)"
-      ],
-      "answer": "(22u − 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $4x^2 - 4x + 1$",
+      "choices": ["$(2x - 1)^2$", "$(2x + 1)^2$", "$(2x - 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x - 1)^2$",
+      "points": 15
     },
     {
       "id": 71,
-      "wave": 3,
-      "question": "Factor: 529v² + 92v + 4",
-      "choices": [
-        "(23v + 2)²",
-        "(23v − 2)²",
-        "(23v + 2)(23v − 2)",
-        "(529v² + 2)"
-      ],
-      "answer": "(23v + 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $9x^2 - 6x + 1$",
+      "choices": ["$(3x - 1)^2$", "$(3x + 1)^2$", "$(3x - 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x - 1)^2$",
+      "points": 15
     },
     {
       "id": 72,
-      "wave": 3,
-      "question": "Factor: 576w² − 96w + 4",
-      "choices": [
-        "(24w − 2)²",
-        "(24w + 2)²",
-        "(24w − 2)(24w + 2)",
-        "(576w² + 2)"
-      ],
-      "answer": "(24w − 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $4x^2 + 4x + 1$",
+      "choices": ["$(2x + 1)^2$", "$(2x - 1)^2$", "$(2x + 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x + 1)^2$",
+      "points": 15
     },
     {
       "id": 73,
-      "wave": 3,
-      "question": "Factor: 625x² + 100x + 4",
+      "wave": 2,
+      "question": "Factor: $25x^2 + 10x + 1$",
       "choices": [
-        "(25x + 2)²",
-        "(25x − 2)²",
-        "(25x + 2)(25x − 2)",
-        "(625x² + 2)"
+        "$(5x + 1)^2$",
+        "$(5x - 1)^2$",
+        "$(5x + 2)^2$",
+        "$(25x + 1)$"
       ],
-      "answer": "(25x + 2)²",
-      "points": 20
+      "answer": "$(5x + 1)^2$",
+      "points": 15
     },
     {
       "id": 74,
-      "wave": 3,
-      "question": "Factor: 676y² − 104y + 4",
+      "wave": 2,
+      "question": "Factor: $16x^2 + 8x + 1$",
       "choices": [
-        "(26y − 2)²",
-        "(26y + 2)²",
-        "(26y − 2)(26y + 2)",
-        "(676y² + 2)"
+        "$(4x + 1)^2$",
+        "$(4x - 1)^2$",
+        "$(4x + 2)^2$",
+        "$(16x + 1)$"
       ],
-      "answer": "(26y − 2)²",
-      "points": 20
+      "answer": "$(4x + 1)^2$",
+      "points": 15
     },
     {
       "id": 75,
-      "wave": 3,
-      "question": "Factor: 729z² + 108z + 4",
-      "choices": [
-        "(27z + 2)²",
-        "(27z − 2)²",
-        "(27z + 2)(27z − 2)",
-        "(729z² + 2)"
-      ],
-      "answer": "(27z + 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $9x^2 + 6x + 1$",
+      "choices": ["$(3x + 1)^2$", "$(3x - 1)^2$", "$(3x + 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x + 1)^2$",
+      "points": 15
     },
     {
       "id": 76,
-      "wave": 3,
-      "question": "Factor: 784a² − 112a + 4",
-      "choices": [
-        "(28a − 2)²",
-        "(28a + 2)²",
-        "(28a − 2)(28a + 2)",
-        "(784a² + 2)"
-      ],
-      "answer": "(28a − 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $4x^2 - 4x + 1$",
+      "choices": ["$(2x - 1)^2$", "$(2x + 1)^2$", "$(2x - 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x - 1)^2$",
+      "points": 15
     },
     {
       "id": 77,
-      "wave": 3,
-      "question": "Factor: 841b² + 116b + 4",
+      "wave": 2,
+      "question": "Factor: $16x^2 - 8x + 1$",
       "choices": [
-        "(29b + 2)²",
-        "(29b − 2)²",
-        "(29b + 2)(29b − 2)",
-        "(841b² + 2)"
+        "$(4x - 1)^2$",
+        "$(4x + 1)^2$",
+        "$(4x - 2)^2$",
+        "$(16x + 1)$"
       ],
-      "answer": "(29b + 2)²",
-      "points": 20
+      "answer": "$(4x - 1)^2$",
+      "points": 15
     },
     {
       "id": 78,
-      "wave": 3,
-      "question": "Factor: 900c² − 120c + 4",
-      "choices": [
-        "(30c − 2)²",
-        "(30c + 2)²",
-        "(30c − 2)(30c + 2)",
-        "(900c² + 2)"
-      ],
-      "answer": "(30c − 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $9x^2 + 6x + 1$",
+      "choices": ["$(3x + 1)^2$", "$(3x - 1)^2$", "$(3x + 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x + 1)^2$",
+      "points": 15
     },
     {
       "id": 79,
-      "wave": 3,
-      "question": "Factor: 961d² + 124d + 4",
+      "wave": 2,
+      "question": "Factor: $25x^2 - 10x + 1$",
       "choices": [
-        "(31d + 2)²",
-        "(31d − 2)²",
-        "(31d + 2)(31d − 2)",
-        "(961d² + 2)"
+        "$(5x - 1)^2$",
+        "$(5x + 1)^2$",
+        "$(5x - 2)^2$",
+        "$(25x + 1)$"
       ],
-      "answer": "(31d + 2)²",
-      "points": 20
+      "answer": "$(5x - 1)^2$",
+      "points": 15
     },
     {
       "id": 80,
-      "wave": 3,
-      "question": "Factor: 1024e² − 128e + 4",
-      "choices": [
-        "(32e − 2)²",
-        "(32e + 2)²",
-        "(32e − 2)(32e + 2)",
-        "(1024e² + 2)"
-      ],
-      "answer": "(32e − 2)²",
-      "points": 20
+      "wave": 2,
+      "question": "Factor: $4x^2 + 4x + 1$",
+      "choices": ["$(2x + 1)^2$", "$(2x - 1)^2$", "$(2x + 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x + 1)^2$",
+      "points": 15
     },
-
     {
       "id": 81,
-      "wave": 4,
-      "question": "Factor: 9a² − 12ab + 4b²",
-      "choices": [
-        "(3a − 2b)²",
-        "(3a + 2b)²",
-        "(3a − 2b)(3a + 2b)",
-        "(9a² − 2b)"
-      ],
-      "answer": "(3a − 2b)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $9x^2 - 6x + 1$",
+      "choices": ["$(3x - 1)^2$", "$(3x + 1)^2$", "$(3x - 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x - 1)^2$",
+      "points": 15
     },
     {
       "id": 82,
-      "wave": 4,
-      "question": "Factor: 16x² + 24xy + 9y²",
+      "wave": 2,
+      "question": "Factor: $16x^2 + 8x + 1$",
       "choices": [
-        "(4x + 3y)²",
-        "(4x − 3y)²",
-        "(4x + 3y)(4x − 3y)",
-        "(16x² + 9y)"
+        "$(4x + 1)^2$",
+        "$(4x - 1)^2$",
+        "$(4x + 2)^2$",
+        "$(16x + 1)$"
       ],
-      "answer": "(4x + 3y)²",
-      "points": 25
+      "answer": "$(4x + 1)^2$",
+      "points": 15
     },
     {
       "id": 83,
-      "wave": 4,
-      "question": "Factor: 25m² − 20mn + 4n²",
+      "wave": 2,
+      "question": "Factor: $25x^2 + 10x + 1$",
       "choices": [
-        "(5m − 2n)²",
-        "(5m + 2n)²",
-        "(5m − 2n)(5m + 2n)",
-        "(25m² − 4n)"
+        "$(5x + 1)^2$",
+        "$(5x - 1)^2$",
+        "$(5x + 2)^2$",
+        "$(25x + 1)$"
       ],
-      "answer": "(5m − 2n)²",
-      "points": 25
+      "answer": "$(5x + 1)^2$",
+      "points": 15
     },
     {
       "id": 84,
-      "wave": 4,
-      "question": "Factor: 49p² + 28pq + 4q²",
-      "choices": [
-        "(7p + 2q)²",
-        "(7p − 2q)²",
-        "(7p + 2q)(7p − 2q)",
-        "(49p² + 4q)"
-      ],
-      "answer": "(7p + 2q)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $4x^2 - 4x + 1$",
+      "choices": ["$(2x - 1)^2$", "$(2x + 1)^2$", "$(2x - 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x - 1)^2$",
+      "points": 15
     },
     {
       "id": 85,
-      "wave": 4,
-      "question": "Factor: 64r² − 48rs + 9s²",
-      "choices": [
-        "(8r − 3s)²",
-        "(8r + 3s)²",
-        "(8r − 3s)(8r + 3s)",
-        "(64r² − 9s)"
-      ],
-      "answer": "(8r − 3s)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $9x^2 - 6x + 1$",
+      "choices": ["$(3x - 1)^2$", "$(3x + 1)^2$", "$(3x - 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x - 1)^2$",
+      "points": 15
     },
     {
       "id": 86,
-      "wave": 4,
-      "question": "Factor: 81u² + 36uv + 4v²",
-      "choices": [
-        "(9u + 2v)²",
-        "(9u − 2v)²",
-        "(9u + 2v)(9u − 2v)",
-        "(81u² + 4v)"
-      ],
-      "answer": "(9u + 2v)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $4x^2 + 4x + 1$",
+      "choices": ["$(2x + 1)^2$", "$(2x - 1)^2$", "$(2x + 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x + 1)^2$",
+      "points": 15
     },
     {
       "id": 87,
-      "wave": 4,
-      "question": "Factor: 100x² − 60xy + 9y²",
+      "wave": 2,
+      "question": "Factor: $25x^2 + 10x + 1$",
       "choices": [
-        "(10x − 3y)²",
-        "(10x + 3y)²",
-        "(10x − 3y)(10x + 3y)",
-        "(100x² − 9y)"
+        "$(5x + 1)^2$",
+        "$(5x - 1)^2$",
+        "$(5x + 2)^2$",
+        "$(25x + 1)$"
       ],
-      "answer": "(10x − 3y)²",
-      "points": 25
+      "answer": "$(5x + 1)^2$",
+      "points": 15
     },
     {
       "id": 88,
-      "wave": 4,
-      "question": "Factor: 121a² + 44ab + 4b²",
+      "wave": 2,
+      "question": "Factor: $16x^2 + 8x + 1$",
       "choices": [
-        "(11a + 2b)²",
-        "(11a − 2b)²",
-        "(11a + 2b)(11a − 2b)",
-        "(121a² + 4b)"
+        "$(4x + 1)^2$",
+        "$(4x - 1)^2$",
+        "$(4x + 2)^2$",
+        "$(16x + 1)$"
       ],
-      "answer": "(11a + 2b)²",
-      "points": 25
+      "answer": "$(4x + 1)^2$",
+      "points": 15
     },
     {
       "id": 89,
-      "wave": 4,
-      "question": "Factor: 144c² − 48cd + 4d²",
-      "choices": [
-        "(12c − 2d)²",
-        "(12c + 2d)²",
-        "(12c − 2d)(12c + 2d)",
-        "(144c² − 4d)"
-      ],
-      "answer": "(12c − 2d)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $9x^2 + 6x + 1$",
+      "choices": ["$(3x + 1)^2$", "$(3x - 1)^2$", "$(3x + 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x + 1)^2$",
+      "points": 15
     },
     {
       "id": 90,
-      "wave": 4,
-      "question": "Factor: 169e² + 52ef + 4f²",
-      "choices": [
-        "(13e + 2f)²",
-        "(13e − 2f)²",
-        "(13e + 2f)(13e − 2f)",
-        "(169e² + 4f)"
-      ],
-      "answer": "(13e + 2f)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $4x^2 - 4x + 1$",
+      "choices": ["$(2x - 1)^2$", "$(2x + 1)^2$", "$(2x - 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x - 1)^2$",
+      "points": 15
     },
     {
       "id": 91,
-      "wave": 4,
-      "question": "Factor: 196g² − 28gh + h²",
+      "wave": 2,
+      "question": "Factor: $16x^2 - 8x + 1$",
       "choices": [
-        "(14g − h)²",
-        "(14g + h)²",
-        "(14g − h)(14g + h)",
-        "(196g² − h)"
+        "$(4x - 1)^2$",
+        "$(4x + 1)^2$",
+        "$(4x - 2)^2$",
+        "$(16x + 1)$"
       ],
-      "answer": "(14g − h)²",
-      "points": 25
+      "answer": "$(4x - 1)^2$",
+      "points": 15
     },
     {
       "id": 92,
-      "wave": 4,
-      "question": "Factor: 225i² + 60ij + 4j²",
-      "choices": [
-        "(15i + 2j)²",
-        "(15i − 2j)²",
-        "(15i + 2j)(15i − 2j)",
-        "(225i² + 4j)"
-      ],
-      "answer": "(15i + 2j)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $9x^2 + 6x + 1$",
+      "choices": ["$(3x + 1)^2$", "$(3x - 1)^2$", "$(3x + 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x + 1)^2$",
+      "points": 15
     },
     {
       "id": 93,
-      "wave": 4,
-      "question": "Factor: 256k² − 96kl + 9l²",
+      "wave": 2,
+      "question": "Factor: $25x^2 - 10x + 1$",
       "choices": [
-        "(16k − 3l)²",
-        "(16k + 3l)²",
-        "(16k − 3l)(16k + 3l)",
-        "(256k² − 9l)"
+        "$(5x - 1)^2$",
+        "$(5x + 1)^2$",
+        "$(5x - 2)^2$",
+        "$(25x + 1)$"
       ],
-      "answer": "(16k − 3l)²",
-      "points": 25
+      "answer": "$(5x - 1)^2$",
+      "points": 15
     },
     {
       "id": 94,
-      "wave": 4,
-      "question": "Factor: 289m² + 102mn + 9n²",
-      "choices": [
-        "(17m + 3n)²",
-        "(17m − 3n)²",
-        "(17m + 3n)(17m − 3n)",
-        "(289m² + 9n)"
-      ],
-      "answer": "(17m + 3n)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $4x^2 + 4x + 1$",
+      "choices": ["$(2x + 1)^2$", "$(2x - 1)^2$", "$(2x + 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x + 1)^2$",
+      "points": 15
     },
     {
       "id": 95,
-      "wave": 4,
-      "question": "Factor: 324p² − 72pq + 4q²",
-      "choices": [
-        "(18p − 2q)²",
-        "(18p + 2q)²",
-        "(18p − 2q)(18p + 2q)",
-        "(324p² − 4q)"
-      ],
-      "answer": "(18p − 2q)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $9x^2 - 6x + 1$",
+      "choices": ["$(3x - 1)^2$", "$(3x + 1)^2$", "$(3x - 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x - 1)^2$",
+      "points": 15
     },
     {
       "id": 96,
-      "wave": 4,
-      "question": "Factor: 361r² + 76rs + 4s²",
+      "wave": 2,
+      "question": "Factor: $16x^2 + 8x + 1$",
       "choices": [
-        "(19r + 2s)²",
-        "(19r − 2s)²",
-        "(19r + 2s)(19r − 2s)",
-        "(361r² + 4s)"
+        "$(4x + 1)^2$",
+        "$(4x - 1)^2$",
+        "$(4x + 2)^2$",
+        "$(16x + 1)$"
       ],
-      "answer": "(19r + 2s)²",
-      "points": 25
+      "answer": "$(4x + 1)^2$",
+      "points": 15
     },
     {
       "id": 97,
-      "wave": 4,
-      "question": "Factor: 400t² − 80tu + 4u²",
+      "wave": 2,
+      "question": "Factor: $25x^2 + 10x + 1$",
       "choices": [
-        "(20t − 2u)²",
-        "(20t + 2u)²",
-        "(20t − 2u)(20t + 2u)",
-        "(400t² − 4u)"
+        "$(5x + 1)^2$",
+        "$(5x - 1)^2$",
+        "$(5x + 2)^2$",
+        "$(25x + 1)$"
       ],
-      "answer": "(20t − 2u)²",
-      "points": 25
+      "answer": "$(5x + 1)^2$",
+      "points": 15
     },
     {
       "id": 98,
-      "wave": 4,
-      "question": "Factor: 441v² + 84vw + 4w²",
-      "choices": [
-        "(21v + 2w)²",
-        "(21v − 2w)²",
-        "(21v + 2w)(21v − 2w)",
-        "(441v² + 4w)"
-      ],
-      "answer": "(21v + 2w)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $4x^2 - 4x + 1$",
+      "choices": ["$(2x - 1)^2$", "$(2x + 1)^2$", "$(2x - 2)^2$", "$(4x + 1)$"],
+      "answer": "$(2x - 1)^2$",
+      "points": 15
     },
     {
       "id": 99,
-      "wave": 4,
-      "question": "Factor: 484x² − 88xy + 4y²",
-      "choices": [
-        "(22x − 2y)²",
-        "(22x + 2y)²",
-        "(22x − 2y)(22x + 2y)",
-        "(484x² − 4y)"
-      ],
-      "answer": "(22x − 2y)²",
-      "points": 25
+      "wave": 2,
+      "question": "Factor: $9x^2 - 6x + 1$",
+      "choices": ["$(3x - 1)^2$", "$(3x + 1)^2$", "$(3x - 2)^2$", "$(9x + 1)$"],
+      "answer": "$(3x - 1)^2$",
+      "points": 15
     },
     {
       "id": 100,
-      "wave": 4,
-      "question": "Factor: 529a² + 92ab + 4b²",
+      "wave": 2,
+      "question": "Factor: $16x^2 + 8x + 1$",
       "choices": [
-        "(23a + 2b)²",
-        "(23a − 2b)²",
-        "(23a + 2b)(23a − 2b)",
-        "(529a² + 4b)"
+        "$(4x + 1)^2$",
+        "$(4x - 1)^2$",
+        "$(4x + 2)^2$",
+        "$(16x + 1)$"
       ],
-      "answer": "(23a + 2b)²",
-      "points": 25
+      "answer": "$(4x + 1)^2$",
+      "points": 15
     },
     {
       "id": 101,
-      "wave": 4,
-      "question": "Factor: 576c² − 48cd + d²",
+      "wave": 3,
+      "question": "Factor: $x^2 + 42x + 441$",
       "choices": [
-        "(24c − d)²",
-        "(24c + d)²",
-        "(24c − d)(24c + d)",
-        "(576c² − d)"
+        "$(x + 21)^2$",
+        "$(x - 21)^2$",
+        "$(x + 22)^2$",
+        "$(x^2 + 21)$"
       ],
-      "answer": "(24c − d)²",
-      "points": 25
+      "answer": "$(x + 21)^2$",
+      "points": 20
     },
     {
       "id": 102,
-      "wave": 4,
-      "question": "Factor: 625e² + 100ef + 4f²",
+      "wave": 3,
+      "question": "Factor: $x^2 - 58x + 841$",
       "choices": [
-        "(25e + 2f)²",
-        "(25e − 2f)²",
-        "(25e + 2f)(25e − 2f)",
-        "(625e² + 4f)"
+        "$(x - 29)^2$",
+        "$(x + 29)^2$",
+        "$(x - 30)^2$",
+        "$(x^2 + 29)$"
       ],
-      "answer": "(25e + 2f)²",
-      "points": 25
+      "answer": "$(x - 29)^2$",
+      "points": 20
     },
     {
       "id": 103,
-      "wave": 4,
-      "question": "Factor: 676g² − 104gh + 4h²",
+      "wave": 3,
+      "question": "Factor: $x^2 + 48x + 576$",
       "choices": [
-        "(26g − 2h)²",
-        "(26g + 2h)²",
-        "(26g − 2h)(26g + 2h)",
-        "(676g² − 4h)"
+        "$(x + 24)^2$",
+        "$(x - 24)^2$",
+        "$(x + 25)^2$",
+        "$(x^2 + 24)$"
       ],
-      "answer": "(26g − 2h)²",
-      "points": 25
+      "answer": "$(x + 24)^2$",
+      "points": 20
     },
     {
       "id": 104,
-      "wave": 4,
-      "question": "Factor: 729i² + 108ij + 4j²",
+      "wave": 3,
+      "question": "Factor: $x^2 - 56x + 784$",
       "choices": [
-        "(27i + 2j)²",
-        "(27i − 2j)²",
-        "(27i + 2j)(27i − 2j)",
-        "(729i² + 4j)"
+        "$(x - 28)^2$",
+        "$(x + 28)^2$",
+        "$(x - 29)^2$",
+        "$(x^2 + 28)$"
       ],
-      "answer": "(27i + 2j)²",
-      "points": 25
+      "answer": "$(x - 28)^2$",
+      "points": 20
     },
     {
       "id": 105,
-      "wave": 4,
-      "question": "Factor: 784k² − 112kl + 4l²",
+      "wave": 3,
+      "question": "Factor: $x^2 + 50x + 625$",
       "choices": [
-        "(28k − 2l)²",
-        "(28k + 2l)²",
-        "(28k − 2l)(28k + 2l)",
-        "(784k² − 4l)"
+        "$(x + 25)^2$",
+        "$(x - 25)^2$",
+        "$(x + 26)^2$",
+        "$(x^2 + 25)$"
       ],
-      "answer": "(28k − 2l)²",
-      "points": 25
+      "answer": "$(x + 25)^2$",
+      "points": 20
     },
     {
       "id": 106,
-      "wave": 4,
-      "question": "Factor: 841m² + 116mn + 4n²",
+      "wave": 3,
+      "question": "Factor: $x^2 - 46x + 529$",
       "choices": [
-        "(29m + 2n)²",
-        "(29m − 2n)²",
-        "(29m + 2n)(29m − 2n)",
-        "(841m² + 4n)"
+        "$(x - 23)^2$",
+        "$(x + 23)^2$",
+        "$(x - 24)^2$",
+        "$(x^2 + 23)$"
       ],
-      "answer": "(29m + 2n)²",
-      "points": 25
+      "answer": "$(x - 23)^2$",
+      "points": 20
     },
     {
       "id": 107,
-      "wave": 4,
-      "question": "Factor: 900p² − 120pq + 4q²",
+      "wave": 3,
+      "question": "Factor: $x^2 - 44x + 484$",
       "choices": [
-        "(30p − 2q)²",
-        "(30p + 2q)²",
-        "(30p − 2q)(30p + 2q)",
-        "(900p² − 4q)"
+        "$(x - 22)^2$",
+        "$(x + 22)^2$",
+        "$(x - 23)^2$",
+        "$(x^2 + 22)$"
       ],
-      "answer": "(30p − 2q)²",
-      "points": 25
+      "answer": "$(x - 22)^2$",
+      "points": 20
     },
-
     {
       "id": 108,
-      "wave": 5,
-      "question": "Factor: 16x² − 24x + 9",
-      "choices": ["(4x − 3)²", "(4x + 3)²", "(4x − 3)(4x + 3)", "(16x² − 3)"],
-      "answer": "(4x − 3)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $x^2 + 54x + 729$",
+      "choices": [
+        "$(x + 27)^2$",
+        "$(x - 27)^2$",
+        "$(x + 28)^2$",
+        "$(x^2 + 27)$"
+      ],
+      "answer": "$(x + 27)^2$",
+      "points": 20
     },
     {
       "id": 109,
-      "wave": 5,
-      "question": "Factor: 25y² + 20y + 4",
-      "choices": ["(5y + 2)²", "(5y − 2)²", "(5y + 2)(5y − 2)", "(25y² + 2)"],
-      "answer": "(5y + 2)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $x^2 + 58x + 841$",
+      "choices": [
+        "$(x + 29)^2$",
+        "$(x - 29)^2$",
+        "$(x + 30)^2$",
+        "$(x^2 + 29)$"
+      ],
+      "answer": "$(x + 29)^2$",
+      "points": 20
     },
     {
       "id": 110,
-      "wave": 5,
-      "question": "Factor: 36a² − 60a + 25",
-      "choices": ["(6a − 5)²", "(6a + 5)²", "(6a − 5)(6a + 5)", "(36a² − 5)"],
-      "answer": "(6a − 5)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $x^2 - 50x + 625$",
+      "choices": [
+        "$(x - 25)^2$",
+        "$(x + 25)^2$",
+        "$(x - 26)^2$",
+        "$(x^2 + 25)$"
+      ],
+      "answer": "$(x - 25)^2$",
+      "points": 20
     },
     {
       "id": 111,
-      "wave": 5,
-      "question": "Factor: 49b² + 42b + 9",
-      "choices": ["(7b + 3)²", "(7b − 3)²", "(7b + 3)(7b − 3)", "(49b² + 3)"],
-      "answer": "(7b + 3)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $x^2 - 42x + 441$",
+      "choices": [
+        "$(x - 21)^2$",
+        "$(x + 21)^2$",
+        "$(x - 22)^2$",
+        "$(x^2 + 21)$"
+      ],
+      "answer": "$(x - 21)^2$",
+      "points": 20
     },
     {
       "id": 112,
-      "wave": 5,
-      "question": "Factor: 64c² − 48c + 9",
-      "choices": ["(8c − 3)²", "(8c + 3)²", "(8c − 3)(8c + 3)", "(64c² − 3)"],
-      "answer": "(8c − 3)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $x^2 + 44x + 484$",
+      "choices": [
+        "$(x + 22)^2$",
+        "$(x - 22)^2$",
+        "$(x + 23)^2$",
+        "$(x^2 + 22)$"
+      ],
+      "answer": "$(x + 22)^2$",
+      "points": 20
     },
     {
       "id": 113,
-      "wave": 5,
-      "question": "Factor: 81d² + 36d + 4",
-      "choices": ["(9d + 2)²", "(9d − 2)²", "(9d + 2)(9d − 2)", "(81d² + 2)"],
-      "answer": "(9d + 2)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $x^2 + 46x + 529$",
+      "choices": [
+        "$(x + 23)^2$",
+        "$(x - 23)^2$",
+        "$(x + 24)^2$",
+        "$(x^2 + 23)$"
+      ],
+      "answer": "$(x + 23)^2$",
+      "points": 20
     },
     {
       "id": 114,
-      "wave": 5,
-      "question": "Factor: 100e² − 80e + 16",
+      "wave": 3,
+      "question": "Factor: $x^2 - 48x + 576$",
       "choices": [
-        "(10e − 4)²",
-        "(10e + 4)²",
-        "(10e − 4)(10e + 4)",
-        "(100e² − 4)"
+        "$(x - 24)^2$",
+        "$(x + 24)^2$",
+        "$(x - 25)^2$",
+        "$(x^2 + 24)$"
       ],
-      "answer": "(10e − 4)²",
-      "points": 30
+      "answer": "$(x - 24)^2$",
+      "points": 20
     },
     {
       "id": 115,
-      "wave": 5,
-      "question": "Factor: 121f² + 44f + 4",
+      "wave": 3,
+      "question": "Factor: $x^2 - 54x + 729$",
       "choices": [
-        "(11f + 2)²",
-        "(11f − 2)²",
-        "(11f + 2)(11f − 2)",
-        "(121f² + 2)"
+        "$(x - 27)^2$",
+        "$(x + 27)^2$",
+        "$(x - 28)^2$",
+        "$(x^2 + 27)$"
       ],
-      "answer": "(11f + 2)²",
-      "points": 30
+      "answer": "$(x - 27)^2$",
+      "points": 20
     },
     {
       "id": 116,
-      "wave": 5,
-      "question": "Factor: 144g² − 72g + 9",
+      "wave": 3,
+      "question": "Factor: $x^2 + 56x + 784$",
       "choices": [
-        "(12g − 3)²",
-        "(12g + 3)²",
-        "(12g − 3)(12g + 3)",
-        "(144g² − 3)"
+        "$(x + 28)^2$",
+        "$(x - 28)^2$",
+        "$(x + 29)^2$",
+        "$(x^2 + 28)$"
       ],
-      "answer": "(12g − 3)²",
-      "points": 30
+      "answer": "$(x + 28)^2$",
+      "points": 20
     },
     {
       "id": 117,
-      "wave": 5,
-      "question": "Factor: 169h² + 52h + 4",
+      "wave": 3,
+      "question": "Factor: $x^2 - 60x + 900$",
       "choices": [
-        "(13h + 2)²",
-        "(13h − 2)²",
-        "(13h + 2)(13h − 2)",
-        "(169h² + 2)"
+        "$(x - 30)^2$",
+        "$(x + 30)^2$",
+        "$(x - 31)^2$",
+        "$(x^2 + 30)$"
       ],
-      "answer": "(13h + 2)²",
-      "points": 30
+      "answer": "$(x - 30)^2$",
+      "points": 20
     },
     {
       "id": 118,
-      "wave": 5,
-      "question": "Factor: 196j² − 56j + 4",
+      "wave": 3,
+      "question": "Factor: $x^2 + 52x + 676$",
       "choices": [
-        "(14j − 2)²",
-        "(14j + 2)²",
-        "(14j − 2)(14j + 2)",
-        "(196j² − 2)"
+        "$(x + 26)^2$",
+        "$(x - 26)^2$",
+        "$(x + 27)^2$",
+        "$(x^2 + 26)$"
       ],
-      "answer": "(14j − 2)²",
-      "points": 30
+      "answer": "$(x + 26)^2$",
+      "points": 20
     },
     {
       "id": 119,
-      "wave": 5,
-      "question": "Factor: 225k² + 60k + 4",
+      "wave": 3,
+      "question": "Factor: $x^2 - 52x + 676$",
       "choices": [
-        "(15k + 2)²",
-        "(15k − 2)²",
-        "(15k + 2)(15k − 2)",
-        "(225k² + 2)"
+        "$(x - 26)^2$",
+        "$(x + 26)^2$",
+        "$(x - 27)^2$",
+        "$(x^2 + 26)$"
       ],
-      "answer": "(15k + 2)²",
-      "points": 30
+      "answer": "$(x - 26)^2$",
+      "points": 20
     },
     {
       "id": 120,
-      "wave": 5,
-      "question": "Factor: 256m² − 96m + 9",
+      "wave": 3,
+      "question": "Factor: $x^2 + 60x + 900$",
       "choices": [
-        "(16m − 3)²",
-        "(16m + 3)²",
-        "(16m − 3)(16m + 3)",
-        "(256m² − 3)"
+        "$(x + 30)^2$",
+        "$(x - 30)^2$",
+        "$(x + 31)^2$",
+        "$(x^2 + 30)$"
       ],
-      "answer": "(16m − 3)²",
-      "points": 30
+      "answer": "$(x + 30)^2$",
+      "points": 20
     },
     {
       "id": 121,
-      "wave": 5,
-      "question": "Factor: 289n² + 68n + 4",
+      "wave": 3,
+      "question": "Factor: $4x^2 - 20x + 25$",
       "choices": [
-        "(17n + 2)²",
-        "(17n − 2)²",
-        "(17n + 2)(17n − 2)",
-        "(289n² + 2)"
+        "$(2x - 5)^2$",
+        "$(2x + 5)^2$",
+        "$(2x - 6)^2$",
+        "$(4x + 25)$"
       ],
-      "answer": "(17n + 2)²",
-      "points": 30
+      "answer": "$(2x - 5)^2$",
+      "points": 20
     },
     {
       "id": 122,
-      "wave": 5,
-      "question": "Factor: 324p² − 72p + 4",
+      "wave": 3,
+      "question": "Factor: $81x^2 + 180x + 100$",
       "choices": [
-        "(18p − 2)²",
-        "(18p + 2)²",
-        "(18p − 2)(18p + 2)",
-        "(324p² − 2)"
+        "$(9x + 10)^2$",
+        "$(9x - 10)^2$",
+        "$(9x + 11)^2$",
+        "$(81x + 100)$"
       ],
-      "answer": "(18p − 2)²",
-      "points": 30
+      "answer": "$(9x + 10)^2$",
+      "points": 20
     },
     {
       "id": 123,
-      "wave": 5,
-      "question": "Factor: 361q² + 76q + 4",
+      "wave": 3,
+      "question": "Factor: $36x^2 + 72x + 36$",
       "choices": [
-        "(19q + 2)²",
-        "(19q − 2)²",
-        "(19q + 2)(19q − 2)",
-        "(361q² + 2)"
+        "$(6x + 6)^2$",
+        "$(6x - 6)^2$",
+        "$(6x + 7)^2$",
+        "$(36x + 36)$"
       ],
-      "answer": "(19q + 2)²",
-      "points": 30
+      "answer": "$(6x + 6)^2$",
+      "points": 20
     },
     {
       "id": 124,
-      "wave": 5,
-      "question": "Factor: 400r² − 120r + 9",
+      "wave": 3,
+      "question": "Factor: $64x^2 - 128x + 64$",
       "choices": [
-        "(20r − 3)²",
-        "(20r + 3)²",
-        "(20r − 3)(20r + 3)",
-        "(400r² − 3)"
+        "$(8x - 8)^2$",
+        "$(8x + 8)^2$",
+        "$(8x - 9)^2$",
+        "$(64x + 64)$"
       ],
-      "answer": "(20r − 3)²",
-      "points": 30
+      "answer": "$(8x - 8)^2$",
+      "points": 20
     },
     {
       "id": 125,
-      "wave": 5,
-      "question": "Factor: 441s² + 84s + 4",
+      "wave": 3,
+      "question": "Factor: $100x^2 - 100x + 25$",
       "choices": [
-        "(21s + 2)²",
-        "(21s − 2)²",
-        "(21s + 2)(21s − 2)",
-        "(441s² + 2)"
+        "$(10x - 5)^2$",
+        "$(10x + 5)^2$",
+        "$(10x - 6)^2$",
+        "$(100x + 25)$"
       ],
-      "answer": "(21s + 2)²",
-      "points": 30
+      "answer": "$(10x - 5)^2$",
+      "points": 20
     },
     {
       "id": 126,
-      "wave": 5,
-      "question": "Factor: 484t² − 88t + 4",
+      "wave": 3,
+      "question": "Factor: $49x^2 + 14x + 1$",
       "choices": [
-        "(22t − 2)²",
-        "(22t + 2)²",
-        "(22t − 2)(22t + 2)",
-        "(484t² − 2)"
+        "$(7x + 1)^2$",
+        "$(7x - 1)^2$",
+        "$(7x + 2)^2$",
+        "$(49x + 1)$"
       ],
-      "answer": "(22t − 2)²",
-      "points": 30
+      "answer": "$(7x + 1)^2$",
+      "points": 20
     },
     {
       "id": 127,
-      "wave": 5,
-      "question": "Factor: 529u² + 92u + 4",
-      "choices": [
-        "(23u + 2)²",
-        "(23u − 2)²",
-        "(23u + 2)(23u − 2)",
-        "(529u² + 2)"
-      ],
-      "answer": "(23u + 2)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $4x^2 + 12x + 9$",
+      "choices": ["$(2x + 3)^2$", "$(2x - 3)^2$", "$(2x + 4)^2$", "$(4x + 9)$"],
+      "answer": "$(2x + 3)^2$",
+      "points": 20
     },
     {
       "id": 128,
-      "wave": 5,
-      "question": "Factor: 576v² − 96v + 4",
+      "wave": 3,
+      "question": "Factor: $9x^2 - 24x + 16$",
       "choices": [
-        "(24v − 2)²",
-        "(24v + 2)²",
-        "(24v − 2)(24v + 2)",
-        "(576v² − 2)"
+        "$(3x - 4)^2$",
+        "$(3x + 4)^2$",
+        "$(3x - 5)^2$",
+        "$(9x + 16)$"
       ],
-      "answer": "(24v − 2)²",
-      "points": 30
+      "answer": "$(3x - 4)^2$",
+      "points": 20
     },
     {
       "id": 129,
-      "wave": 5,
-      "question": "Factor: 625w² + 100w + 4",
+      "wave": 3,
+      "question": "Factor: $16x^2 + 40x + 25$",
       "choices": [
-        "(25w + 2)²",
-        "(25w − 2)²",
-        "(25w + 2)(25w − 2)",
-        "(625w² + 2)"
+        "$(4x + 5)^2$",
+        "$(4x - 5)^2$",
+        "$(4x + 6)^2$",
+        "$(16x + 25)$"
       ],
-      "answer": "(25w + 2)²",
-      "points": 30
+      "answer": "$(4x + 5)^2$",
+      "points": 20
     },
     {
       "id": 130,
-      "wave": 5,
-      "question": "Factor: 676x² − 104x + 4",
+      "wave": 3,
+      "question": "Factor: $25x^2 - 60x + 36$",
       "choices": [
-        "(26x − 2)²",
-        "(26x + 2)²",
-        "(26x − 2)(26x + 2)",
-        "(676x² − 2)"
+        "$(5x - 6)^2$",
+        "$(5x + 6)^2$",
+        "$(5x - 7)^2$",
+        "$(25x + 36)$"
       ],
-      "answer": "(26x − 2)²",
-      "points": 30
+      "answer": "$(5x - 6)^2$",
+      "points": 20
     },
     {
       "id": 131,
-      "wave": 5,
-      "question": "Factor: 729y² + 108y + 4",
+      "wave": 3,
+      "question": "Factor: $36x^2 + 84x + 49$",
       "choices": [
-        "(27y + 2)²",
-        "(27y − 2)²",
-        "(27y + 2)(27y − 2)",
-        "(729y² + 2)"
+        "$(6x + 7)^2$",
+        "$(6x - 7)^2$",
+        "$(6x + 8)^2$",
+        "$(36x + 49)$"
       ],
-      "answer": "(27y + 2)²",
-      "points": 30
+      "answer": "$(6x + 7)^2$",
+      "points": 20
     },
     {
       "id": 132,
-      "wave": 5,
-      "question": "Factor: 784z² − 112z + 4",
+      "wave": 3,
+      "question": "Factor: $49x^2 - 112x + 64$",
       "choices": [
-        "(28z − 2)²",
-        "(28z + 2)²",
-        "(28z − 2)(28z + 2)",
-        "(784z² − 2)"
+        "$(7x - 8)^2$",
+        "$(7x + 8)^2$",
+        "$(7x - 9)^2$",
+        "$(49x + 64)$"
       ],
-      "answer": "(28z − 2)²",
-      "points": 30
+      "answer": "$(7x - 8)^2$",
+      "points": 20
     },
     {
       "id": 133,
-      "wave": 5,
-      "question": "Factor: 841a² + 116a + 4",
+      "wave": 3,
+      "question": "Factor: $64x^2 + 144x + 81$",
       "choices": [
-        "(29a + 2)²",
-        "(29a − 2)²",
-        "(29a + 2)(29a − 2)",
-        "(841a² + 2)"
+        "$(8x + 9)^2$",
+        "$(8x - 9)^2$",
+        "$(8x + 10)^2$",
+        "$(64x + 81)$"
       ],
-      "answer": "(29a + 2)²",
-      "points": 30
+      "answer": "$(8x + 9)^2$",
+      "points": 20
     },
     {
       "id": 134,
-      "wave": 5,
-      "question": "Factor: 900b² − 120b + 4",
+      "wave": 3,
+      "question": "Factor: $81x^2 - 180x + 100$",
       "choices": [
-        "(30b − 2)²",
-        "(30b + 2)²",
-        "(30b − 2)(30b + 2)",
-        "(900b² − 2)"
+        "$(9x - 10)^2$",
+        "$(9x + 10)^2$",
+        "$(9x - 11)^2$",
+        "$(81x + 100)$"
       ],
-      "answer": "(30b − 2)²",
-      "points": 30
+      "answer": "$(9x - 10)^2$",
+      "points": 20
     },
     {
       "id": 135,
-      "wave": 5,
-      "question": "Factor: 961c² + 124c + 4",
+      "wave": 3,
+      "question": "Factor: $100x^2 + 20x + 1$",
       "choices": [
-        "(31c + 2)²",
-        "(31c − 2)²",
-        "(31c + 2)(31c − 2)",
-        "(961c² + 2)"
+        "$(10x + 1)^2$",
+        "$(10x - 1)^2$",
+        "$(10x + 2)^2$",
+        "$(100x + 1)$"
       ],
-      "answer": "(31c + 2)²",
-      "points": 30
+      "answer": "$(10x + 1)^2$",
+      "points": 20
     },
     {
       "id": 136,
-      "wave": 5,
-      "question": "Factor: 1024d² − 128d + 4",
-      "choices": [
-        "(32d − 2)²",
-        "(32d + 2)²",
-        "(32d − 2)(32d + 2)",
-        "(1024d² − 2)"
-      ],
-      "answer": "(32d − 2)²",
-      "points": 30
+      "wave": 3,
+      "question": "Factor: $4x^2 - 12x + 9$",
+      "choices": ["$(2x - 3)^2$", "$(2x + 3)^2$", "$(2x - 4)^2$", "$(4x + 9)$"],
+      "answer": "$(2x - 3)^2$",
+      "points": 20
     },
     {
       "id": 137,
-      "wave": 5,
-      "question": "Factor: 1089e² + 132e + 4",
+      "wave": 3,
+      "question": "Factor: $9x^2 + 24x + 16$",
       "choices": [
-        "(33e + 2)²",
-        "(33e − 2)²",
-        "(33e + 2)(33e − 2)",
-        "(1089e² + 2)"
+        "$(3x + 4)^2$",
+        "$(3x - 4)^2$",
+        "$(3x + 5)^2$",
+        "$(9x + 16)$"
       ],
-      "answer": "(33e + 2)²",
-      "points": 30
+      "answer": "$(3x + 4)^2$",
+      "points": 20
     },
     {
       "id": 138,
-      "wave": 5,
-      "question": "Factor: 1156f² − 136f + 4",
+      "wave": 3,
+      "question": "Factor: $16x^2 - 40x + 25$",
       "choices": [
-        "(34f − 2)²",
-        "(34f + 2)²",
-        "(34f − 2)(34f + 2)",
-        "(1156f² − 2)"
+        "$(4x - 5)^2$",
+        "$(4x + 5)^2$",
+        "$(4x - 6)^2$",
+        "$(16x + 25)$"
       ],
-      "answer": "(34f − 2)²",
-      "points": 30
+      "answer": "$(4x - 5)^2$",
+      "points": 20
     },
     {
       "id": 139,
-      "wave": 5,
-      "question": "Factor: 1225g² + 140g + 4",
+      "wave": 3,
+      "question": "Factor: $25x^2 + 60x + 36$",
       "choices": [
-        "(35g + 2)²",
-        "(35g − 2)²",
-        "(35g + 2)(35g − 2)",
-        "(1225g² + 2)"
+        "$(5x + 6)^2$",
+        "$(5x - 6)^2$",
+        "$(5x + 7)^2$",
+        "$(25x + 36)$"
       ],
-      "answer": "(35g + 2)²",
-      "points": 30
+      "answer": "$(5x + 6)^2$",
+      "points": 20
     },
     {
       "id": 140,
-      "wave": 5,
-      "question": "Factor: 1296h² − 144h + 4",
+      "wave": 3,
+      "question": "Factor: $36x^2 - 84x + 49$",
       "choices": [
-        "(36h − 2)²",
-        "(36h + 2)²",
-        "(36h − 2)(36h + 2)",
-        "(1296h² − 2)"
+        "$(6x - 7)^2$",
+        "$(6x + 7)^2$",
+        "$(6x - 8)^2$",
+        "$(36x + 49)$"
       ],
-      "answer": "(36h − 2)²",
+      "answer": "$(6x - 7)^2$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Factor: $49x^2 + 112x + 64$",
+      "choices": [
+        "$(7x + 8)^2$",
+        "$(7x - 8)^2$",
+        "$(7x + 9)^2$",
+        "$(49x + 64)$"
+      ],
+      "answer": "$(7x + 8)^2$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Factor: $64x^2 - 144x + 81$",
+      "choices": [
+        "$(8x - 9)^2$",
+        "$(8x + 9)^2$",
+        "$(8x - 10)^2$",
+        "$(64x + 81)$"
+      ],
+      "answer": "$(8x - 9)^2$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Factor: $81x^2 + 180x + 100$",
+      "choices": [
+        "$(9x + 10)^2$",
+        "$(9x - 10)^2$",
+        "$(9x + 11)^2$",
+        "$(81x + 100)$"
+      ],
+      "answer": "$(9x + 10)^2$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Factor: $100x^2 - 20x + 1$",
+      "choices": [
+        "$(10x - 1)^2$",
+        "$(10x + 1)^2$",
+        "$(10x - 2)^2$",
+        "$(100x + 1)$"
+      ],
+      "answer": "$(10x - 1)^2$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Factor: $4x^2 + 20x + 25$",
+      "choices": [
+        "$(2x + 5)^2$",
+        "$(2x - 5)^2$",
+        "$(2x + 6)^2$",
+        "$(4x + 25)$"
+      ],
+      "answer": "$(2x + 5)^2$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Factor: $9x^2 - 30x + 25$",
+      "choices": [
+        "$(3x - 5)^2$",
+        "$(3x + 5)^2$",
+        "$(3x - 6)^2$",
+        "$(9x + 25)$"
+      ],
+      "answer": "$(3x - 5)^2$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Factor: $16x^2 + 56x + 49$",
+      "choices": [
+        "$(4x + 7)^2$",
+        "$(4x - 7)^2$",
+        "$(4x + 8)^2$",
+        "$(16x + 49)$"
+      ],
+      "answer": "$(4x + 7)^2$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Factor: $25x^2 - 80x + 64$",
+      "choices": [
+        "$(5x - 8)^2$",
+        "$(5x + 8)^2$",
+        "$(5x - 9)^2$",
+        "$(25x + 64)$"
+      ],
+      "answer": "$(5x - 8)^2$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Factor: $36x^2 + 108x + 81$",
+      "choices": [
+        "$(6x + 9)^2$",
+        "$(6x - 9)^2$",
+        "$(6x + 10)^2$",
+        "$(36x + 81)$"
+      ],
+      "answer": "$(6x + 9)^2$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Factor: $49x^2 - 140x + 100$",
+      "choices": [
+        "$(7x - 10)^2$",
+        "$(7x + 10)^2$",
+        "$(7x - 11)^2$",
+        "$(49x + 100)$"
+      ],
+      "answer": "$(7x - 10)^2$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 200x + 100$",
+      "choices": [
+        "$(10x - 10)^2$",
+        "$(10x + 10)^2$",
+        "$(10x - 11)^2$",
+        "$(100x + 100)$"
+      ],
+      "answer": "$(10x - 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 220x + 100$",
+      "choices": [
+        "$(11x + 10)^2$",
+        "$(11x - 10)^2$",
+        "$(11x + 11)^2$",
+        "$(121x + 100)$"
+      ],
+      "answer": "$(11x + 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 240x + 100$",
+      "choices": [
+        "$(12x - 10)^2$",
+        "$(12x + 10)^2$",
+        "$(12x - 11)^2$",
+        "$(144x + 100)$"
+      ],
+      "answer": "$(12x - 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 260x + 100$",
+      "choices": [
+        "$(13x + 10)^2$",
+        "$(13x - 10)^2$",
+        "$(13x + 11)^2$",
+        "$(169x + 100)$"
+      ],
+      "answer": "$(13x + 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 280x + 100$",
+      "choices": [
+        "$(14x - 10)^2$",
+        "$(14x + 10)^2$",
+        "$(14x - 11)^2$",
+        "$(196x + 100)$"
+      ],
+      "answer": "$(14x - 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 300x + 100$",
+      "choices": [
+        "$(15x + 10)^2$",
+        "$(15x - 10)^2$",
+        "$(15x + 11)^2$",
+        "$(225x + 100)$"
+      ],
+      "answer": "$(15x + 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 100x + 25$",
+      "choices": [
+        "$(10x - 5)^2$",
+        "$(10x + 5)^2$",
+        "$(10x - 6)^2$",
+        "$(100x + 25)$"
+      ],
+      "answer": "$(10x - 5)^2$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 110x + 25$",
+      "choices": [
+        "$(11x + 5)^2$",
+        "$(11x - 5)^2$",
+        "$(11x + 6)^2$",
+        "$(121x + 25)$"
+      ],
+      "answer": "$(11x + 5)^2$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 120x + 25$",
+      "choices": [
+        "$(12x - 5)^2$",
+        "$(12x + 5)^2$",
+        "$(12x - 6)^2$",
+        "$(144x + 25)$"
+      ],
+      "answer": "$(12x - 5)^2$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 130x + 25$",
+      "choices": [
+        "$(13x + 5)^2$",
+        "$(13x - 5)^2$",
+        "$(13x + 6)^2$",
+        "$(169x + 25)$"
+      ],
+      "answer": "$(13x + 5)^2$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 140x + 25$",
+      "choices": [
+        "$(14x - 5)^2$",
+        "$(14x + 5)^2$",
+        "$(14x - 6)^2$",
+        "$(196x + 25)$"
+      ],
+      "answer": "$(14x - 5)^2$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 150x + 25$",
+      "choices": [
+        "$(15x + 5)^2$",
+        "$(15x - 5)^2$",
+        "$(15x + 6)^2$",
+        "$(225x + 25)$"
+      ],
+      "answer": "$(15x + 5)^2$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 120x + 36$",
+      "choices": [
+        "$(10x - 6)^2$",
+        "$(10x + 6)^2$",
+        "$(10x - 7)^2$",
+        "$(100x + 36)$"
+      ],
+      "answer": "$(10x - 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 132x + 36$",
+      "choices": [
+        "$(11x + 6)^2$",
+        "$(11x - 6)^2$",
+        "$(11x + 7)^2$",
+        "$(121x + 36)$"
+      ],
+      "answer": "$(11x + 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 144x + 36$",
+      "choices": [
+        "$(12x - 6)^2$",
+        "$(12x + 6)^2$",
+        "$(12x - 7)^2$",
+        "$(144x + 36)$"
+      ],
+      "answer": "$(12x - 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 156x + 36$",
+      "choices": [
+        "$(13x + 6)^2$",
+        "$(13x - 6)^2$",
+        "$(13x + 7)^2$",
+        "$(169x + 36)$"
+      ],
+      "answer": "$(13x + 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 168x + 36$",
+      "choices": [
+        "$(14x - 6)^2$",
+        "$(14x + 6)^2$",
+        "$(14x - 7)^2$",
+        "$(196x + 36)$"
+      ],
+      "answer": "$(14x - 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 180x + 36$",
+      "choices": [
+        "$(15x + 6)^2$",
+        "$(15x - 6)^2$",
+        "$(15x + 7)^2$",
+        "$(225x + 36)$"
+      ],
+      "answer": "$(15x + 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 140x + 49$",
+      "choices": [
+        "$(10x - 7)^2$",
+        "$(10x + 7)^2$",
+        "$(10x - 8)^2$",
+        "$(100x + 49)$"
+      ],
+      "answer": "$(10x - 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 154x + 49$",
+      "choices": [
+        "$(11x + 7)^2$",
+        "$(11x - 7)^2$",
+        "$(11x + 8)^2$",
+        "$(121x + 49)$"
+      ],
+      "answer": "$(11x + 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 168x + 49$",
+      "choices": [
+        "$(12x - 7)^2$",
+        "$(12x + 7)^2$",
+        "$(12x - 8)^2$",
+        "$(144x + 49)$"
+      ],
+      "answer": "$(12x - 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 182x + 49$",
+      "choices": [
+        "$(13x + 7)^2$",
+        "$(13x - 7)^2$",
+        "$(13x + 8)^2$",
+        "$(169x + 49)$"
+      ],
+      "answer": "$(13x + 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 196x + 49$",
+      "choices": [
+        "$(14x - 7)^2$",
+        "$(14x + 7)^2$",
+        "$(14x - 8)^2$",
+        "$(196x + 49)$"
+      ],
+      "answer": "$(14x - 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 210x + 49$",
+      "choices": [
+        "$(15x + 7)^2$",
+        "$(15x - 7)^2$",
+        "$(15x + 8)^2$",
+        "$(225x + 49)$"
+      ],
+      "answer": "$(15x + 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 160x + 64$",
+      "choices": [
+        "$(10x - 8)^2$",
+        "$(10x + 8)^2$",
+        "$(10x - 9)^2$",
+        "$(100x + 64)$"
+      ],
+      "answer": "$(10x - 8)^2$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 176x + 64$",
+      "choices": [
+        "$(11x + 8)^2$",
+        "$(11x - 8)^2$",
+        "$(11x + 9)^2$",
+        "$(121x + 64)$"
+      ],
+      "answer": "$(11x + 8)^2$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 192x + 64$",
+      "choices": [
+        "$(12x - 8)^2$",
+        "$(12x + 8)^2$",
+        "$(12x - 9)^2$",
+        "$(144x + 64)$"
+      ],
+      "answer": "$(12x - 8)^2$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 208x + 64$",
+      "choices": [
+        "$(13x + 8)^2$",
+        "$(13x - 8)^2$",
+        "$(13x + 9)^2$",
+        "$(169x + 64)$"
+      ],
+      "answer": "$(13x + 8)^2$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 224x + 64$",
+      "choices": [
+        "$(14x - 8)^2$",
+        "$(14x + 8)^2$",
+        "$(14x - 9)^2$",
+        "$(196x + 64)$"
+      ],
+      "answer": "$(14x - 8)^2$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 240x + 64$",
+      "choices": [
+        "$(15x + 8)^2$",
+        "$(15x - 8)^2$",
+        "$(15x + 9)^2$",
+        "$(225x + 64)$"
+      ],
+      "answer": "$(15x + 8)^2$",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 180x + 81$",
+      "choices": [
+        "$(10x - 9)^2$",
+        "$(10x + 9)^2$",
+        "$(10x - 10)^2$",
+        "$(100x + 81)$"
+      ],
+      "answer": "$(10x - 9)^2$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 198x + 81$",
+      "choices": [
+        "$(11x + 9)^2$",
+        "$(11x - 9)^2$",
+        "$(11x + 10)^2$",
+        "$(121x + 81)$"
+      ],
+      "answer": "$(11x + 9)^2$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 216x + 81$",
+      "choices": [
+        "$(12x - 9)^2$",
+        "$(12x + 9)^2$",
+        "$(12x - 10)^2$",
+        "$(144x + 81)$"
+      ],
+      "answer": "$(12x - 9)^2$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 234x + 81$",
+      "choices": [
+        "$(13x + 9)^2$",
+        "$(13x - 9)^2$",
+        "$(13x + 10)^2$",
+        "$(169x + 81)$"
+      ],
+      "answer": "$(13x + 9)^2$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 252x + 81$",
+      "choices": [
+        "$(14x - 9)^2$",
+        "$(14x + 9)^2$",
+        "$(14x - 10)^2$",
+        "$(196x + 81)$"
+      ],
+      "answer": "$(14x - 9)^2$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 270x + 81$",
+      "choices": [
+        "$(15x + 9)^2$",
+        "$(15x - 9)^2$",
+        "$(15x + 10)^2$",
+        "$(225x + 81)$"
+      ],
+      "answer": "$(15x + 9)^2$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 200x + 100$",
+      "choices": [
+        "$(10x - 10)^2$",
+        "$(10x + 10)^2$",
+        "$(10x - 11)^2$",
+        "$(100x + 100)$"
+      ],
+      "answer": "$(10x - 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 220x + 100$",
+      "choices": [
+        "$(11x + 10)^2$",
+        "$(11x - 10)^2$",
+        "$(11x + 11)^2$",
+        "$(121x + 100)$"
+      ],
+      "answer": "$(11x + 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 240x + 100$",
+      "choices": [
+        "$(12x - 10)^2$",
+        "$(12x + 10)^2$",
+        "$(12x - 11)^2$",
+        "$(144x + 100)$"
+      ],
+      "answer": "$(12x - 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 260x + 100$",
+      "choices": [
+        "$(13x + 10)^2$",
+        "$(13x - 10)^2$",
+        "$(13x + 11)^2$",
+        "$(169x + 100)$"
+      ],
+      "answer": "$(13x + 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 280x + 100$",
+      "choices": [
+        "$(14x - 10)^2$",
+        "$(14x + 10)^2$",
+        "$(14x - 11)^2$",
+        "$(196x + 100)$"
+      ],
+      "answer": "$(14x - 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 300x + 100$",
+      "choices": [
+        "$(15x + 10)^2$",
+        "$(15x - 10)^2$",
+        "$(15x + 11)^2$",
+        "$(225x + 100)$"
+      ],
+      "answer": "$(15x + 10)^2$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 110x + 25$",
+      "choices": [
+        "$(10x - 5)^2$",
+        "$(10x + 5)^2$",
+        "$(10x - 6)^2$",
+        "$(100x + 25)$"
+      ],
+      "answer": "$(10x - 5)^2$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 132x + 36$",
+      "choices": [
+        "$(11x + 6)^2$",
+        "$(11x - 6)^2$",
+        "$(11x + 7)^2$",
+        "$(121x + 36)$"
+      ],
+      "answer": "$(11x + 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Factor: $144x^2 - 144x + 36$",
+      "choices": [
+        "$(12x - 6)^2$",
+        "$(12x + 6)^2$",
+        "$(12x - 7)^2$",
+        "$(144x + 36)$"
+      ],
+      "answer": "$(12x - 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Factor: $169x^2 + 156x + 36$",
+      "choices": [
+        "$(13x + 6)^2$",
+        "$(13x - 6)^2$",
+        "$(13x + 7)^2$",
+        "$(169x + 36)$"
+      ],
+      "answer": "$(13x + 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Factor: $196x^2 - 168x + 36$",
+      "choices": [
+        "$(14x - 6)^2$",
+        "$(14x + 6)^2$",
+        "$(14x - 7)^2$",
+        "$(196x + 36)$"
+      ],
+      "answer": "$(14x - 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Factor: $225x^2 + 180x + 36$",
+      "choices": [
+        "$(15x + 6)^2$",
+        "$(15x - 6)^2$",
+        "$(15x + 7)^2$",
+        "$(225x + 36)$"
+      ],
+      "answer": "$(15x + 6)^2$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Factor: $100x^2 - 140x + 49$",
+      "choices": [
+        "$(10x - 7)^2$",
+        "$(10x + 7)^2$",
+        "$(10x - 8)^2$",
+        "$(100x + 49)$"
+      ],
+      "answer": "$(10x - 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Factor: $121x^2 + 154x + 49$",
+      "choices": [
+        "$(11x + 7)^2$",
+        "$(11x - 7)^2$",
+        "$(11x + 8)^2$",
+        "$(121x + 49)$"
+      ],
+      "answer": "$(11x + 7)^2$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Factor: $256x^2 + 320x + 100$",
+      "choices": [
+        "$(16x + 10)^2$",
+        "$(16x - 10)^2$",
+        "$(16x + 11)^2$",
+        "$(256x + 100)$"
+      ],
+      "answer": "$(16x + 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Factor: $289x^2 - 340x + 100$",
+      "choices": [
+        "$(17x - 10)^2$",
+        "$(17x + 10)^2$",
+        "$(17x - 11)^2$",
+        "$(289x + 100)$"
+      ],
+      "answer": "$(17x - 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Factor: $324x^2 + 360x + 100$",
+      "choices": [
+        "$(18x + 10)^2$",
+        "$(18x - 10)^2$",
+        "$(18x + 11)^2$",
+        "$(324x + 100)$"
+      ],
+      "answer": "$(18x + 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Factor: $361x^2 - 380x + 100$",
+      "choices": [
+        "$(19x - 10)^2$",
+        "$(19x + 10)^2$",
+        "$(19x - 11)^2$",
+        "$(361x + 100)$"
+      ],
+      "answer": "$(19x - 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Factor: $400x^2 + 400x + 100$",
+      "choices": [
+        "$(20x + 10)^2$",
+        "$(20x - 10)^2$",
+        "$(20x + 11)^2$",
+        "$(400x + 100)$"
+      ],
+      "answer": "$(20x + 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Factor: $441x^2 - 420x + 100$",
+      "choices": [
+        "$(21x - 10)^2$",
+        "$(21x + 10)^2$",
+        "$(21x - 11)^2$",
+        "$(441x + 100)$"
+      ],
+      "answer": "$(21x - 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Factor: $484x^2 + 440x + 100$",
+      "choices": [
+        "$(22x + 10)^2$",
+        "$(22x - 10)^2$",
+        "$(22x + 11)^2$",
+        "$(484x + 100)$"
+      ],
+      "answer": "$(22x + 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Factor: $529x^2 - 460x + 100$",
+      "choices": [
+        "$(23x - 10)^2$",
+        "$(23x + 10)^2$",
+        "$(23x - 11)^2$",
+        "$(529x + 100)$"
+      ],
+      "answer": "$(23x - 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Factor: $576x^2 + 480x + 100$",
+      "choices": [
+        "$(24x + 10)^2$",
+        "$(24x - 10)^2$",
+        "$(24x + 11)^2$",
+        "$(576x + 100)$"
+      ],
+      "answer": "$(24x + 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Factor: $625x^2 - 500x + 100$",
+      "choices": [
+        "$(25x - 10)^2$",
+        "$(25x + 10)^2$",
+        "$(25x - 11)^2$",
+        "$(625x + 100)$"
+      ],
+      "answer": "$(25x - 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Factor: $256x^2 + 480x + 225$",
+      "choices": [
+        "$(16x + 15)^2$",
+        "$(16x - 15)^2$",
+        "$(16x + 16)^2$",
+        "$(256x + 225)$"
+      ],
+      "answer": "$(16x + 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Factor: $289x^2 - 510x + 225$",
+      "choices": [
+        "$(17x - 15)^2$",
+        "$(17x + 15)^2$",
+        "$(17x - 16)^2$",
+        "$(289x + 225)$"
+      ],
+      "answer": "$(17x - 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Factor: $324x^2 + 540x + 225$",
+      "choices": [
+        "$(18x + 15)^2$",
+        "$(18x - 15)^2$",
+        "$(18x + 16)^2$",
+        "$(324x + 225)$"
+      ],
+      "answer": "$(18x + 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Factor: $361x^2 - 570x + 225$",
+      "choices": [
+        "$(19x - 15)^2$",
+        "$(19x + 15)^2$",
+        "$(19x - 16)^2$",
+        "$(361x + 225)$"
+      ],
+      "answer": "$(19x - 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Factor: $400x^2 + 600x + 225$",
+      "choices": [
+        "$(20x + 15)^2$",
+        "$(20x - 15)^2$",
+        "$(20x + 16)^2$",
+        "$(400x + 225)$"
+      ],
+      "answer": "$(20x + 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Factor: $441x^2 - 630x + 225$",
+      "choices": [
+        "$(21x - 15)^2$",
+        "$(21x + 15)^2$",
+        "$(21x - 16)^2$",
+        "$(441x + 225)$"
+      ],
+      "answer": "$(21x - 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Factor: $484x^2 + 660x + 225$",
+      "choices": [
+        "$(22x + 15)^2$",
+        "$(22x - 15)^2$",
+        "$(22x + 16)^2$",
+        "$(484x + 225)$"
+      ],
+      "answer": "$(22x + 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Factor: $529x^2 - 690x + 225$",
+      "choices": [
+        "$(23x - 15)^2$",
+        "$(23x + 15)^2$",
+        "$(23x - 16)^2$",
+        "$(529x + 225)$"
+      ],
+      "answer": "$(23x - 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Factor: $576x^2 + 720x + 225$",
+      "choices": [
+        "$(24x + 15)^2$",
+        "$(24x - 15)^2$",
+        "$(24x + 16)^2$",
+        "$(576x + 225)$"
+      ],
+      "answer": "$(24x + 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Factor: $625x^2 - 750x + 225$",
+      "choices": [
+        "$(25x - 15)^2$",
+        "$(25x + 15)^2$",
+        "$(25x - 16)^2$",
+        "$(625x + 225)$"
+      ],
+      "answer": "$(25x - 15)^2$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Factor: $256x^2 + 640x + 400$",
+      "choices": [
+        "$(16x + 20)^2$",
+        "$(16x - 20)^2$",
+        "$(16x + 21)^2$",
+        "$(256x + 400)$"
+      ],
+      "answer": "$(16x + 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Factor: $289x^2 - 680x + 400$",
+      "choices": [
+        "$(17x - 20)^2$",
+        "$(17x + 20)^2$",
+        "$(17x - 21)^2$",
+        "$(289x + 400)$"
+      ],
+      "answer": "$(17x - 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Factor: $324x^2 + 720x + 400$",
+      "choices": [
+        "$(18x + 20)^2$",
+        "$(18x - 20)^2$",
+        "$(18x + 21)^2$",
+        "$(324x + 400)$"
+      ],
+      "answer": "$(18x + 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Factor: $361x^2 - 760x + 400$",
+      "choices": [
+        "$(19x - 20)^2$",
+        "$(19x + 20)^2$",
+        "$(19x - 21)^2$",
+        "$(361x + 400)$"
+      ],
+      "answer": "$(19x - 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Factor: $400x^2 + 800x + 400$",
+      "choices": [
+        "$(20x + 20)^2$",
+        "$(20x - 20)^2$",
+        "$(20x + 21)^2$",
+        "$(400x + 400)$"
+      ],
+      "answer": "$(20x + 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Factor: $441x^2 - 840x + 400$",
+      "choices": [
+        "$(21x - 20)^2$",
+        "$(21x + 20)^2$",
+        "$(21x - 21)^2$",
+        "$(441x + 400)$"
+      ],
+      "answer": "$(21x - 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Factor: $484x^2 + 880x + 400$",
+      "choices": [
+        "$(22x + 20)^2$",
+        "$(22x - 20)^2$",
+        "$(22x + 21)^2$",
+        "$(484x + 400)$"
+      ],
+      "answer": "$(22x + 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Factor: $529x^2 - 920x + 400$",
+      "choices": [
+        "$(23x - 20)^2$",
+        "$(23x + 20)^2$",
+        "$(23x - 21)^2$",
+        "$(529x + 400)$"
+      ],
+      "answer": "$(23x - 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Factor: $576x^2 + 960x + 400$",
+      "choices": [
+        "$(24x + 20)^2$",
+        "$(24x - 20)^2$",
+        "$(24x + 21)^2$",
+        "$(576x + 400)$"
+      ],
+      "answer": "$(24x + 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Factor: $625x^2 - 1000x + 400$",
+      "choices": [
+        "$(25x - 20)^2$",
+        "$(25x + 20)^2$",
+        "$(25x - 21)^2$",
+        "$(625x + 400)$"
+      ],
+      "answer": "$(25x - 20)^2$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Factor: $144y^2 + 120y + 25$",
+      "choices": [
+        "$(12y + 5)^2$",
+        "$(12y - 5)^2$",
+        "$(12y + 6)^2$",
+        "$(144y + 25)$"
+      ],
+      "answer": "$(12y + 5)^2$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Factor: $225z^2 - 270z + 81$",
+      "choices": [
+        "$(15z - 9)^2$",
+        "$(15z + 9)^2$",
+        "$(15z - 10)^2$",
+        "$(225z + 81)$"
+      ],
+      "answer": "$(15z - 9)^2$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Factor: $49a^2 + 140a + 100$",
+      "choices": [
+        "$(7a + 10)^2$",
+        "$(7a - 10)^2$",
+        "$(7a + 11)^2$",
+        "$(49a + 100)$"
+      ],
+      "answer": "$(7a + 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Factor: $100b^2 - 120b + 36$",
+      "choices": [
+        "$(10b - 6)^2$",
+        "$(10b + 6)^2$",
+        "$(10b - 7)^2$",
+        "$(100b + 36)$"
+      ],
+      "answer": "$(10b - 6)^2$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Factor: $25y^2 + 60y + 36$",
+      "choices": [
+        "$(5y + 6)^2$",
+        "$(5y - 6)^2$",
+        "$(5y + 7)^2$",
+        "$(25y + 36)$"
+      ],
+      "answer": "$(5y + 6)^2$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Factor: $16z^2 - 40z + 25$",
+      "choices": [
+        "$(4z - 5)^2$",
+        "$(4z + 5)^2$",
+        "$(4z - 6)^2$",
+        "$(16z + 25)$"
+      ],
+      "answer": "$(4z - 5)^2$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Factor: $36a^2 + 84a + 49$",
+      "choices": [
+        "$(6a + 7)^2$",
+        "$(6a - 7)^2$",
+        "$(6a + 8)^2$",
+        "$(36a + 49)$"
+      ],
+      "answer": "$(6a + 7)^2$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Factor: $81b^2 - 180b + 100$",
+      "choices": [
+        "$(9b - 10)^2$",
+        "$(9b + 10)^2$",
+        "$(9b - 11)^2$",
+        "$(81b + 100)$"
+      ],
+      "answer": "$(9b - 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Factor: $4y^2 + 12y + 9$",
+      "choices": ["$(2y + 3)^2$", "$(2y - 3)^2$", "$(2y + 4)^2$", "$(4y + 9)$"],
+      "answer": "$(2y + 3)^2$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Factor: $196z^2 - 280z + 100$",
+      "choices": [
+        "$(14z - 10)^2$",
+        "$(14z + 10)^2$",
+        "$(14z - 11)^2$",
+        "$(196z + 100)$"
+      ],
+      "answer": "$(14z - 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Factor: $121a^2 + 110a + 25$",
+      "choices": [
+        "$(11a + 5)^2$",
+        "$(11a - 5)^2$",
+        "$(11a + 6)^2$",
+        "$(121a + 25)$"
+      ],
+      "answer": "$(11a + 5)^2$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Factor: $64b^2 - 144b + 81$",
+      "choices": [
+        "$(8b - 9)^2$",
+        "$(8b + 9)^2$",
+        "$(8b - 10)^2$",
+        "$(64b + 81)$"
+      ],
+      "answer": "$(8b - 9)^2$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Factor: $9y^2 + 24y + 16$",
+      "choices": [
+        "$(3y + 4)^2$",
+        "$(3y - 4)^2$",
+        "$(3y + 5)^2$",
+        "$(9y + 16)$"
+      ],
+      "answer": "$(3y + 4)^2$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Factor: $169z^2 - 234z + 81$",
+      "choices": [
+        "$(13z - 9)^2$",
+        "$(13z + 9)^2$",
+        "$(13z - 10)^2$",
+        "$(169z + 81)$"
+      ],
+      "answer": "$(13z - 9)^2$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Factor: $225a^2 + 270a + 81$",
+      "choices": [
+        "$(15a + 9)^2$",
+        "$(15a - 9)^2$",
+        "$(15a + 10)^2$",
+        "$(225a + 81)$"
+      ],
+      "answer": "$(15a + 9)^2$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Factor: $4b^2 - 4b + 1$",
+      "choices": ["$(2b - 1)^2$", "$(2b + 1)^2$", "$(2b - 2)^2$", "$(4b + 1)$"],
+      "answer": "$(2b - 1)^2$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Factor: $100y^2 + 20y + 1$",
+      "choices": [
+        "$(10y + 1)^2$",
+        "$(10y - 1)^2$",
+        "$(10y + 2)^2$",
+        "$(100y + 1)$"
+      ],
+      "answer": "$(10y + 1)^2$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Factor: $25z^2 - 10z + 1$",
+      "choices": [
+        "$(5z - 1)^2$",
+        "$(5z + 1)^2$",
+        "$(5z - 2)^2$",
+        "$(25z + 1)$"
+      ],
+      "answer": "$(5z - 1)^2$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Factor: $121a^2 + 220a + 100$",
+      "choices": [
+        "$(11a + 10)^2$",
+        "$(11a - 10)^2$",
+        "$(11a + 11)^2$",
+        "$(121a + 100)$"
+      ],
+      "answer": "$(11a + 10)^2$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Factor: $196b^2 - 280b + 100$",
+      "choices": [
+        "$(14b - 10)^2$",
+        "$(14b + 10)^2$",
+        "$(14b - 11)^2$",
+        "$(196b + 100)$"
+      ],
+      "answer": "$(14b - 10)^2$",
       "points": 30
     }
   ]

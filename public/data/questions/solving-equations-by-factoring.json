@@ -1,1681 +1,2962 @@
 {
   "title": "Solving Equations by Factoring",
-  "description": "Solve equations by factoring.",
+  "description": "Solve linear equations by applying GCF factoring, zero product property, factor by grouping, perfect squares, difference of squares, and quadratic factoring.",
   "waves": 5,
-  "timePerQuestion": 30,
+  "timePerQuestion": 180,
   "questions": [
     {
       "id": 1,
       "wave": 1,
-      "question": "Solve 3x = 0.",
-      "choices": ["0", "3", "-3", "1"],
-      "answer": "0",
+      "question": "Solve for $x$: $x(x + 5) = 0$.",
+      "choices": ["$x = 0, x = -5$", "$x = 0, x = 5$", "$x = -5$", "$x = 5$"],
+      "answer": "$x = 0, x = -5$",
       "points": 10
     },
     {
       "id": 2,
       "wave": 1,
-      "question": "Solve 5y = 0.",
-      "choices": ["0", "5", "-5", "1"],
-      "answer": "0",
+      "question": "Solve for $y$: $(y - 3)(y + 2) = 0$.",
+      "choices": ["$y = 3, y = -2$", "$y = -3, y = 2$", "$y = 3$", "$y = -2$"],
+      "answer": "$y = 3, y = -2$",
       "points": 10
     },
     {
       "id": 3,
       "wave": 1,
-      "question": "Solve 7z = 0.",
-      "choices": ["0", "7", "-7", "1"],
-      "answer": "0",
+      "question": "Solve for $a$: $a^2 + 7a = 0$.",
+      "choices": ["$a = 0, a = -7$", "$a = 0, a = 7$", "$a = -7$", "$a = 7$"],
+      "answer": "$a = 0, a = -7$",
       "points": 10
     },
     {
       "id": 4,
       "wave": 1,
-      "question": "Solve x² = 0.",
-      "choices": ["0", "1", "-1", "2"],
-      "answer": "0",
+      "question": "Solve for $b$: $b^2 - 9 = 0$.",
+      "choices": ["$b = 3, b = -3$", "$b = 9$", "$b = -9$", "$b = 0$"],
+      "answer": "$b = 3, b = -3$",
       "points": 10
     },
     {
       "id": 5,
       "wave": 1,
-      "question": "Solve y² = 0.",
-      "choices": ["0", "1", "-1", "2"],
-      "answer": "0",
+      "question": "Solve for $c$: $c^2 + 5c + 6 = 0$.",
+      "choices": [
+        "$c = -2, c = -3$",
+        "$c = 2, c = 3$",
+        "$c = -2, c = 3$",
+        "$c = 2, c = -3$"
+      ],
+      "answer": "$c = -2, c = -3$",
       "points": 10
     },
     {
       "id": 6,
       "wave": 1,
-      "question": "Solve 4x² = 0.",
-      "choices": ["0", "4", "-4", "2"],
-      "answer": "0",
+      "question": "Solve for $x$: $2x^2 + 4x = 0$.",
+      "choices": ["$x = 0, x = -2$", "$x = 0, x = 2$", "$x = -2$", "$x = 2$"],
+      "answer": "$x = 0, x = -2$",
       "points": 10
     },
     {
       "id": 7,
       "wave": 1,
-      "question": "Solve x(x-2)=0.",
-      "choices": ["0 or 2", "2 only", "0 only", "-2 only"],
-      "answer": "0 or 2",
+      "question": "Solve for $y$: $(y + 4)(y - 1) = 0$.",
+      "choices": ["$y = -4, y = 1$", "$y = 4, y = -1$", "$y = -4$", "$y = 1$"],
+      "answer": "$y = -4, y = 1$",
       "points": 10
     },
     {
       "id": 8,
       "wave": 1,
-      "question": "Solve y(y+3)=0.",
-      "choices": ["0 or -3", "3 only", "0 only", "-3 only"],
-      "answer": "0 or -3",
+      "question": "Solve for $m$: $m^2 - 16 = 0$.",
+      "choices": ["$m = 4, m = -4$", "$m = 16$", "$m = -16$", "$m = 0$"],
+      "answer": "$m = 4, m = -4$",
       "points": 10
     },
     {
       "id": 9,
       "wave": 1,
-      "question": "Solve (x-1)(x+1)=0.",
-      "choices": ["1 or -1", "1 only", "-1 only", "0"],
-      "answer": "1 or -1",
+      "question": "Solve for $n$: $n^2 - 4n + 3 = 0$.",
+      "choices": [
+        "$n = 1, n = 3$",
+        "$n = -1, n = -3$",
+        "$n = 1, n = -3$",
+        "$n = -1, n = 3$"
+      ],
+      "answer": "$n = 1, n = 3$",
       "points": 10
     },
     {
       "id": 10,
       "wave": 1,
-      "question": "Solve (t-4)(t)=0.",
-      "choices": ["0 or 4", "4 only", "0 only", "-4 only"],
-      "answer": "0 or 4",
+      "question": "Solve for $p$: $3p^2 - 9p = 0$.",
+      "choices": ["$p = 0, p = 3$", "$p = 0, p = -3$", "$p = 3$", "$p = -3$"],
+      "answer": "$p = 0, p = 3$",
       "points": 10
     },
     {
       "id": 11,
       "wave": 1,
-      "question": "Solve (k+5)(k)=0.",
-      "choices": ["0 or -5", "5 only", "-5 only", "0"],
-      "answer": "0 or -5",
+      "question": "Solve for $q$: $(q - 7)(q - 2) = 0$.",
+      "choices": [
+        "$q = 7, q = 2$",
+        "$q = -7, q = -2$",
+        "$q = 7, q = -2$",
+        "$q = -7, q = 2$"
+      ],
+      "answer": "$q = 7, q = 2$",
       "points": 10
     },
     {
       "id": 12,
       "wave": 1,
-      "question": "Solve (m-3)(m+2)=0.",
-      "choices": ["3 or -2", "3 only", "-2 only", "0"],
-      "answer": "3 or -2",
+      "question": "Solve for $r$: $r^2 - 1 = 0$.",
+      "choices": ["$r = 1, r = -1$", "$r = 1$", "$r = -1$", "$r = 0$"],
+      "answer": "$r = 1, r = -1$",
       "points": 10
     },
     {
       "id": 13,
       "wave": 1,
-      "question": "Solve (n+7)(n-1)=0.",
-      "choices": ["-7 or 1", "-7 only", "1 only", "0"],
-      "answer": "-7 or 1",
+      "question": "Solve for $s$: $s^2 + 8s + 15 = 0$.",
+      "choices": [
+        "$s = -3, s = -5$",
+        "$s = 3, s = 5$",
+        "$s = -3, s = 5$",
+        "$s = 3, s = -5$"
+      ],
+      "answer": "$s = -3, s = -5$",
       "points": 10
     },
     {
       "id": 14,
       "wave": 1,
-      "question": "Solve (x-6)(x)=0.",
-      "choices": ["0 or 6", "6 only", "0 only", "-6 only"],
-      "answer": "0 or 6",
+      "question": "Solve for $t$: $5t^2 + 10t = 0$.",
+      "choices": ["$t = 0, t = -2$", "$t = 0, t = 2$", "$t = -2$", "$t = 2$"],
+      "answer": "$t = 0, t = -2$",
       "points": 10
     },
     {
       "id": 15,
       "wave": 1,
-      "question": "Solve (y+4)(y)=0.",
-      "choices": ["0 or -4", "4 only", "-4 only", "0"],
-      "answer": "0 or -4",
+      "question": "Solve for $u$: $(u + 6)(u + 1) = 0$.",
+      "choices": [
+        "$u = -6, u = -1$",
+        "$u = 6, u = 1$",
+        "$u = -6, u = 1$",
+        "$u = 6, u = -1$"
+      ],
+      "answer": "$u = -6, u = -1$",
       "points": 10
     },
     {
       "id": 16,
       "wave": 1,
-      "question": "Solve (z-9)(z+9)=0.",
-      "choices": ["9 or -9", "9 only", "-9 only", "0"],
-      "answer": "9 or -9",
+      "question": "Solve for $v$: $v^2 - 25 = 0$.",
+      "choices": ["$v = 5, v = -5$", "$v = 25$", "$v = -25$", "$v = 0$"],
+      "answer": "$v = 5, v = -5$",
       "points": 10
     },
     {
       "id": 17,
       "wave": 1,
-      "question": "Solve (a-10)(a)=0.",
-      "choices": ["0 or 10", "10 only", "0 only", "-10 only"],
-      "answer": "0 or 10",
+      "question": "Solve for $w$: $w^2 - 6w + 8 = 0$.",
+      "choices": [
+        "$w = 2, w = 4$",
+        "$w = -2, w = -4$",
+        "$w = 2, w = -4$",
+        "$w = -2, w = 4$"
+      ],
+      "answer": "$w = 2, w = 4$",
       "points": 10
     },
     {
       "id": 18,
       "wave": 1,
-      "question": "Solve (b+8)(b)=0.",
-      "choices": ["0 or -8", "8 only", "-8 only", "0"],
-      "answer": "0 or -8",
+      "question": "Solve for $x$: $x^2 + 9x + 18 = 0$.",
+      "choices": [
+        "$x = -3, x = -6$",
+        "$x = 3, x = 6$",
+        "$x = -3, x = 6$",
+        "$x = 3, x = -6$"
+      ],
+      "answer": "$x = -3, x = -6$",
       "points": 10
     },
     {
       "id": 19,
       "wave": 1,
-      "question": "Solve (c-5)(c+5)=0.",
-      "choices": ["5 or -5", "5 only", "-5 only", "0"],
-      "answer": "5 or -5",
+      "question": "Solve for $y$: $y^2 - 10y + 24 = 0$.",
+      "choices": [
+        "$y = 4, y = 6$",
+        "$y = -4, y = -6$",
+        "$y = 4, y = -6$",
+        "$y = -4, y = 6$"
+      ],
+      "answer": "$y = 4, y = 6$",
       "points": 10
     },
     {
       "id": 20,
       "wave": 1,
-      "question": "Solve (d-7)(d)=0.",
-      "choices": ["0 or 7", "7 only", "0 only", "-7 only"],
-      "answer": "0 or 7",
+      "question": "Solve for $z$: $z^2 + 2z - 15 = 0$.",
+      "choices": [
+        "$z = 3, z = -5$",
+        "$z = -3, z = 5$",
+        "$z = 3, z = 5$",
+        "$z = -3, z = -5$"
+      ],
+      "answer": "$z = 3, z = -5$",
       "points": 10
     },
     {
       "id": 21,
       "wave": 1,
-      "question": "Solve (e+6)(e)=0.",
-      "choices": ["0 or -6", "6 only", "-6 only", "0"],
-      "answer": "0 or -6",
+      "question": "Solve for $a$: $a^2 - a - 12 = 0$.",
+      "choices": [
+        "$a = 4, a = -3$",
+        "$a = -4, a = 3$",
+        "$a = 4, a = 3$",
+        "$a = -4, a = -3$"
+      ],
+      "answer": "$a = 4, a = -3$",
       "points": 10
     },
     {
       "id": 22,
       "wave": 1,
-      "question": "Solve (f-12)(f+3)=0.",
-      "choices": ["12 or -3", "12 only", "-3 only", "0"],
-      "answer": "12 or -3",
+      "question": "Solve for $b$: $b^2 - 49 = 0$.",
+      "choices": ["$b = 7, b = -7$", "$b = 49$", "$b = -49$", "$b = 0$"],
+      "answer": "$b = 7, b = -7$",
       "points": 10
     },
     {
       "id": 23,
       "wave": 1,
-      "question": "Solve (g+11)(g-2)=0.",
-      "choices": ["-11 or 2", "-11 only", "2 only", "0"],
-      "answer": "-11 or 2",
+      "question": "Solve for $c$: $c^2 + 10c + 25 = 0$.",
+      "choices": ["$c = -5$", "$c = 5$", "$c = -5, c = -5$", "$c = 5, c = 5$"],
+      "answer": "$c = -5$",
       "points": 10
     },
     {
       "id": 24,
       "wave": 1,
-      "question": "Solve (h-1)(h)=0.",
-      "choices": ["0 or 1", "1 only", "0 only", "-1 only"],
-      "answer": "0 or 1",
+      "question": "Solve for $d$: $d^2 - 8d + 16 = 0$.",
+      "choices": ["$d = 4$", "$d = -4$", "$d = 4, d = 4$", "$d = -4, d = -4$"],
+      "answer": "$d = 4$",
       "points": 10
     },
     {
       "id": 25,
       "wave": 1,
-      "question": "Solve (j+9)(j)=0.",
-      "choices": ["0 or -9", "9 only", "-9 only", "0"],
-      "answer": "0 or -9",
+      "question": "Solve for $e$: $e^2 - 100 = 0$.",
+      "choices": ["$e = 10, e = -10$", "$e = 100$", "$e = -100$", "$e = 0$"],
+      "answer": "$e = 10, e = -10$",
       "points": 10
     },
     {
       "id": 26,
       "wave": 1,
-      "question": "Solve (k-8)(k+8)=0.",
-      "choices": ["8 or -8", "8 only", "-8 only", "0"],
-      "answer": "8 or -8",
+      "question": "Solve for $f$: $f^2 + 11f + 28 = 0$.",
+      "choices": [
+        "$f = -4, f = -7$",
+        "$f = 4, f = 7$",
+        "$f = -4, f = 7$",
+        "$f = 4, f = -7$"
+      ],
+      "answer": "$f = -4, f = -7$",
       "points": 10
     },
     {
       "id": 27,
       "wave": 1,
-      "question": "Solve (m-4)(m)=0.",
-      "choices": ["0 or 4", "4 only", "0 only", "-4 only"],
-      "answer": "0 or 4",
+      "question": "Solve for $g$: $g^2 - 12g + 36 = 0$.",
+      "choices": ["$g = 6$", "$g = -6$", "$g = 6, g = 6$", "$g = -6, g = -6$"],
+      "answer": "$g = 6$",
       "points": 10
     },
     {
       "id": 28,
       "wave": 1,
-      "question": "Solve (n+13)(n)=0.",
-      "choices": ["0 or -13", "13 only", "-13 only", "0"],
-      "answer": "0 or -13",
+      "question": "Solve for $h$: $h^2 - 64 = 0$.",
+      "choices": ["$h = 8, h = -8$", "$h = 64$", "$h = -64$", "$h = 0$"],
+      "answer": "$h = 8, h = -8$",
       "points": 10
     },
     {
       "id": 29,
       "wave": 1,
-      "question": "Solve (p-15)(p+15)=0.",
-      "choices": ["15 or -15", "15 only", "-15 only", "0"],
-      "answer": "15 or -15",
+      "question": "Solve for $i$: $i^2 + 12i + 35 = 0$.",
+      "choices": [
+        "$i = -5, i = -7$",
+        "$i = 5, i = 7$",
+        "$i = -5, i = 7$",
+        "$i = 5, i = -7$"
+      ],
+      "answer": "$i = -5, i = -7$",
       "points": 10
     },
     {
       "id": 30,
       "wave": 1,
-      "question": "Solve (q-2)(q)=0.",
-      "choices": ["0 or 2", "2 only", "0 only", "-2 only"],
-      "answer": "0 or 2",
+      "question": "Solve for $j$: $j^2 - 2j - 24 = 0$.",
+      "choices": [
+        "$j = 6, j = -4$",
+        "$j = -6, j = 4$",
+        "$j = 6, j = 4$",
+        "$j = -6, j = -4$"
+      ],
+      "answer": "$j = 6, j = -4$",
       "points": 10
     },
     {
       "id": 31,
       "wave": 1,
-      "question": "Solve (r+1)(r)=0.",
-      "choices": ["0 or -1", "1 only", "-1 only", "0"],
-      "answer": "0 or -1",
+      "question": "Solve for $k$: $k^2 + 3k - 10 = 0$.",
+      "choices": [
+        "$k = 2, k = -5$",
+        "$k = -2, k = 5$",
+        "$k = 2, k = 5$",
+        "$k = -2, k = -5$"
+      ],
+      "answer": "$k = 2, k = -5$",
       "points": 10
     },
     {
       "id": 32,
       "wave": 1,
-      "question": "Solve (s-6)(s+6)=0.",
-      "choices": ["6 or -6", "6 only", "-6 only", "0"],
-      "answer": "6 or -6",
+      "question": "Solve for $l$: $l^2 - 11l + 30 = 0$.",
+      "choices": [
+        "$l = 5, l = 6$",
+        "$l = -5, l = -6$",
+        "$l = 5, l = -6$",
+        "$l = -5, l = 6$"
+      ],
+      "answer": "$l = 5, l = 6$",
       "points": 10
     },
     {
       "id": 33,
       "wave": 1,
-      "question": "Solve (t-11)(t)=0.",
-      "choices": ["0 or 11", "11 only", "0 only", "-11 only"],
-      "answer": "0 or 11",
+      "question": "Solve for $m$: $m^2 + 13m + 40 = 0$.",
+      "choices": [
+        "$m = -5, m = -8$",
+        "$m = 5, m = 8$",
+        "$m = -5, m = 8$",
+        "$m = 5, m = -8$"
+      ],
+      "answer": "$m = -5, m = -8$",
       "points": 10
     },
     {
       "id": 34,
       "wave": 1,
-      "question": "Solve (u+14)(u)=0.",
-      "choices": ["0 or -14", "14 only", "-14 only", "0"],
-      "answer": "0 or -14",
+      "question": "Solve for $n$: $n^2 - 14n + 49 = 0$.",
+      "choices": ["$n = 7$", "$n = -7$", "$n = 7, n = 7$", "$n = -7, n = -7$"],
+      "answer": "$n = 7$",
       "points": 10
     },
     {
       "id": 35,
       "wave": 1,
-      "question": "Solve (v-3)(v)=0.",
-      "choices": ["0 or 3", "3 only", "0 only", "-3 only"],
-      "answer": "0 or 3",
+      "question": "Solve for $p$: $p^2 - 81 = 0$.",
+      "choices": ["$p = 9, p = -9$", "$p = 81$", "$p = -81$", "$p = 0$"],
+      "answer": "$p = 9, p = -9$",
       "points": 10
     },
     {
       "id": 36,
       "wave": 1,
-      "question": "Solve (w+10)(w)=0.",
-      "choices": ["0 or -10", "10 only", "-10 only", "0"],
-      "answer": "0 or -10",
+      "question": "Solve for $q$: $q^2 + 14q + 48 = 0$.",
+      "choices": [
+        "$q = -6, q = -8$",
+        "$q = 6, q = 8$",
+        "$q = -6, q = 8$",
+        "$q = 6, q = -8$"
+      ],
+      "answer": "$q = -6, q = -8$",
       "points": 10
     },
     {
       "id": 37,
       "wave": 1,
-      "question": "Solve (x-20)(x+20)=0.",
-      "choices": ["20 or -20", "20 only", "-20 only", "0"],
-      "answer": "20 or -20",
+      "question": "Solve for $r$: $r^2 - 9r + 20 = 0$.",
+      "choices": [
+        "$r = 4, r = 5$",
+        "$r = -4, r = -5$",
+        "$r = 4, r = -5$",
+        "$r = -4, r = 5$"
+      ],
+      "answer": "$r = 4, r = 5$",
       "points": 10
     },
     {
       "id": 38,
       "wave": 1,
-      "question": "Solve (y-9)(y)=0.",
-      "choices": ["0 or 9", "9 only", "0 only", "-9 only"],
-      "answer": "0 or 9",
+      "question": "Solve for $s$: $s^2 + 15s + 54 = 0$.",
+      "choices": [
+        "$s = -6, s = -9$",
+        "$s = 6, s = 9$",
+        "$s = -6, s = 9$",
+        "$s = 6, s = -9$"
+      ],
+      "answer": "$s = -6, s = -9$",
       "points": 10
     },
     {
       "id": 39,
       "wave": 1,
-      "question": "Solve (z+18)(z)=0.",
-      "choices": ["0 or -18", "18 only", "-18 only", "0"],
-      "answer": "0 or -18",
+      "question": "Solve for $t$: $t^2 - 13t + 42 = 0$.",
+      "choices": [
+        "$t = 6, t = 7$",
+        "$t = -6, t = -7$",
+        "$t = 6, t = -7$",
+        "$t = -6, t = 7$"
+      ],
+      "answer": "$t = 6, t = 7$",
       "points": 10
     },
     {
       "id": 40,
       "wave": 1,
-      "question": "Solve (a-25)(a+25)=0.",
-      "choices": ["25 or -25", "25 only", "-25 only", "0"],
-      "answer": "25 or -25",
+      "question": "Solve for $u$: $u^2 + 4u - 21 = 0$.",
+      "choices": [
+        "$u = 3, u = -7$",
+        "$u = -3, u = 7$",
+        "$u = 3, u = 7$",
+        "$u = -3, u = -7$"
+      ],
+      "answer": "$u = 3, u = -7$",
       "points": 10
     },
-
     {
       "id": 41,
-      "wave": 2,
-      "question": "Solve x² - 4x = 0 by factoring out GCF.",
-      "choices": ["0 or 4", "-4 or 0", "4 only", "-4 only"],
-      "answer": "0 or 4",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $v$: $v^2 - 5v - 14 = 0$.",
+      "choices": [
+        "$v = 7, v = -2$",
+        "$v = -7, v = 2$",
+        "$v = 7, v = 2$",
+        "$v = -7, v = -2$"
+      ],
+      "answer": "$v = 7, v = -2$",
+      "points": 10
     },
     {
       "id": 42,
-      "wave": 2,
-      "question": "Solve y² + 6y = 0 by factoring out GCF.",
-      "choices": ["0 or -6", "6 or 0", "6 only", "-6 only"],
-      "answer": "0 or -6",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $w$: $w^2 + 16w + 64 = 0$.",
+      "choices": ["$w = -8$", "$w = 8$", "$w = -8, w = -8$", "$w = 8, w = 8$"],
+      "answer": "$w = -8$",
+      "points": 10
     },
     {
       "id": 43,
-      "wave": 2,
-      "question": "Solve 2x² - 8x = 0.",
-      "choices": ["0 or 4", "-4 or 0", "4 only", "-4 only"],
-      "answer": "0 or 4",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $x$: $x^2 - 121 = 0$.",
+      "choices": ["$x = 11, x = -11$", "$x = 121$", "$x = -121$", "$x = 0$"],
+      "answer": "$x = 11, x = -11$",
+      "points": 10
     },
     {
       "id": 44,
-      "wave": 2,
-      "question": "Solve 3y² + 9y = 0.",
-      "choices": ["0 or -3", "3 or 0", "3 only", "-3 only"],
-      "answer": "0 or -3",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $y$: $y^2 + 16y + 63 = 0$.",
+      "choices": [
+        "$y = -7, y = -9$",
+        "$y = 7, y = 9$",
+        "$y = -7, y = 9$",
+        "$y = 7, y = -9$"
+      ],
+      "answer": "$y = -7, y = -9$",
+      "points": 10
     },
     {
       "id": 45,
-      "wave": 2,
-      "question": "Solve x² - 9 = 0 (difference of squares).",
-      "choices": ["3 or -3", "3 only", "-3 only", "0"],
-      "answer": "3 or -3",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $z$: $z^2 - 15z + 56 = 0$.",
+      "choices": [
+        "$z = 7, z = 8$",
+        "$z = -7, z = -8$",
+        "$z = 7, z = -8$",
+        "$z = -7, z = 8$"
+      ],
+      "answer": "$z = 7, z = 8$",
+      "points": 10
     },
     {
       "id": 46,
-      "wave": 2,
-      "question": "Solve y² - 16 = 0.",
-      "choices": ["4 or -4", "4 only", "-4 only", "0"],
-      "answer": "4 or -4",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $a$: $a^2 + 17a + 72 = 0$.",
+      "choices": [
+        "$a = -8, a = -9$",
+        "$a = 8, a = 9$",
+        "$a = -8, a = 9$",
+        "$a = 8, a = -9$"
+      ],
+      "answer": "$a = -8, a = -9$",
+      "points": 10
     },
     {
       "id": 47,
-      "wave": 2,
-      "question": "Solve z² - 25 = 0.",
-      "choices": ["5 or -5", "5 only", "-5 only", "0"],
-      "answer": "5 or -5",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $b$: $b^2 - 18b + 81 = 0$.",
+      "choices": ["$b = 9$", "$b = -9$", "$b = 9, b = 9$", "$b = -9, b = -9$"],
+      "answer": "$b = 9$",
+      "points": 10
     },
     {
       "id": 48,
-      "wave": 2,
-      "question": "Solve x² + 2x + 1 = 0 (perfect square).",
-      "choices": ["-1 (double root)", "1 or -1", "1 only", "-1 and 1"],
-      "answer": "-1 (double root)",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $c$: $c^2 - 144 = 0$.",
+      "choices": ["$c = 12, c = -12$", "$c = 144$", "$c = -144$", "$c = 0$"],
+      "answer": "$c = 12, c = -12$",
+      "points": 10
     },
     {
       "id": 49,
-      "wave": 2,
-      "question": "Solve y² - 10y + 25 = 0.",
-      "choices": ["5 (double root)", "-5 (double root)", "5 or -5", "0"],
-      "answer": "5 (double root)",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $d$: $d^2 + 18d + 77 = 0$.",
+      "choices": [
+        "$d = -7, d = -11$",
+        "$d = 7, d = 11$",
+        "$d = -7, d = 11$",
+        "$d = 7, d = -11$"
+      ],
+      "answer": "$d = -7, d = -11$",
+      "points": 10
     },
     {
       "id": 50,
-      "wave": 2,
-      "question": "Solve t² + 8t + 16 = 0.",
-      "choices": ["-4 (double root)", "4 (double root)", "4 or -4", "0"],
-      "answer": "-4 (double root)",
-      "points": 15
+      "wave": 1,
+      "question": "Solve for $e$: $e^2 - 16e + 60 = 0$.",
+      "choices": [
+        "$e = 6, e = 10$",
+        "$e = -6, e = -10$",
+        "$e = 6, e = -10$",
+        "$e = -6, e = 10$"
+      ],
+      "answer": "$e = 6, e = 10$",
+      "points": 10
     },
     {
       "id": 51,
       "wave": 2,
-      "question": "Solve 4x² - 1 = 0.",
-      "choices": ["½ or -½", "1 or -1", "2 or -2", "0"],
-      "answer": "½ or -½",
+      "question": "Solve for $x$: $3x^2 - 12x = 0$.",
+      "choices": ["$x = 0, x = 4$", "$x = 0, x = -4$", "$x = 4$", "$x = -4$"],
+      "answer": "$x = 0, x = 4$",
       "points": 15
     },
     {
       "id": 52,
       "wave": 2,
-      "question": "Solve 9y² - 4 = 0.",
-      "choices": ["⅔ or -⅔", "3 or -3", "2 or -2", "0"],
-      "answer": "⅔ or -⅔",
+      "question": "Solve for $y$: $-2y^2 + 8y = 0$.",
+      "choices": ["$y = 0, y = 4$", "$y = 0, y = -4$", "$y = 4$", "$y = -4$"],
+      "answer": "$y = 0, y = 4$",
       "points": 15
     },
     {
       "id": 53,
       "wave": 2,
-      "question": "Solve 5z² - 5z = 0.",
-      "choices": ["0 or 1", "0 or 5", "1 or -1", "5 or -5"],
-      "answer": "0 or 1",
+      "question": "Solve for $a$: $4a^2 - 36 = 0$.",
+      "choices": ["$a = 3, a = -3$", "$a = 9, a = -9$", "$a = 3$", "$a = -3$"],
+      "answer": "$a = 3, a = -3$",
       "points": 15
     },
     {
       "id": 54,
       "wave": 2,
-      "question": "Solve 6a² + 12a = 0.",
-      "choices": ["0 or -2", "0 or 2", "-2 only", "2 only"],
-      "answer": "0 or -2",
+      "question": "Solve for $b$: $b^2 + 14b + 49 = 0$.",
+      "choices": ["$b = -7$", "$b = 7$", "$b = -7, b = -7$", "$b = 7, b = 7$"],
+      "answer": "$b = -7$",
       "points": 15
     },
     {
       "id": 55,
       "wave": 2,
-      "question": "Solve x² - 36 = 0.",
-      "choices": ["6 or -6", "6 only", "-6 only", "0"],
-      "answer": "6 or -6",
+      "question": "Solve for $c$: $2c^2 + 10c + 12 = 0$.",
+      "choices": [
+        "$c = -2, c = -3$",
+        "$c = 2, c = 3$",
+        "$c = -2, c = 3$",
+        "$c = 2, c = -3$"
+      ],
+      "answer": "$c = -2, c = -3$",
       "points": 15
     },
     {
       "id": 56,
       "wave": 2,
-      "question": "Solve b² - 49 = 0.",
-      "choices": ["7 or -7", "7 only", "-7 only", "0"],
-      "answer": "7 or -7",
+      "question": "Solve for $x$: $x^2 - 2x = 15$.",
+      "choices": [
+        "$x = 5, x = -3$",
+        "$x = -5, x = 3$",
+        "$x = 5, x = 3$",
+        "$x = -5, x = -3$"
+      ],
+      "answer": "$x = 5, x = -3$",
       "points": 15
     },
     {
       "id": 57,
       "wave": 2,
-      "question": "Solve c² - 64 = 0.",
-      "choices": ["8 or -8", "8 only", "-8 only", "0"],
-      "answer": "8 or -8",
+      "question": "Solve for $y$: $y^2 + 6y = -8$.",
+      "choices": [
+        "$y = -2, y = -4$",
+        "$y = 2, y = 4$",
+        "$y = -2, y = 4$",
+        "$y = 2, y = -4$"
+      ],
+      "answer": "$y = -2, y = -4$",
       "points": 15
     },
     {
       "id": 58,
       "wave": 2,
-      "question": "Solve d² + 12d + 36 = 0.",
-      "choices": ["-6 (double root)", "6 (double root)", "6 or -6", "0"],
-      "answer": "-6 (double root)",
+      "question": "Solve for $m$: $m^2 = 4m + 12$.",
+      "choices": [
+        "$m = 6, m = -2$",
+        "$m = -6, m = 2$",
+        "$m = 6, m = 2$",
+        "$m = -6, m = -2$"
+      ],
+      "answer": "$m = 6, m = -2$",
       "points": 15
     },
     {
       "id": 59,
       "wave": 2,
-      "question": "Solve e² - 14e + 49 = 0.",
-      "choices": ["7 (double root)", "-7 (double root)", "7 or -7", "0"],
-      "answer": "7 (double root)",
+      "question": "Solve for $n$: $2n^2 - 18 = 0$.",
+      "choices": ["$n = 3, n = -3$", "$n = 9, n = -9$", "$n = 3$", "$n = -3$"],
+      "answer": "$n = 3, n = -3$",
       "points": 15
     },
     {
       "id": 60,
       "wave": 2,
-      "question": "Solve f² + 18f + 81 = 0.",
-      "choices": ["-9 (double root)", "9 (double root)", "9 or -9", "0"],
-      "answer": "-9 (double root)",
+      "question": "Solve for $p$: $p^2 - 10p + 25 = 0$.",
+      "choices": ["$p = 5$", "$p = -5$", "$p = 5, p = 5$", "$p = -5, p = -5$"],
+      "answer": "$p = 5$",
       "points": 15
     },
     {
       "id": 61,
       "wave": 2,
-      "question": "Solve 2g² - 18 = 0.",
-      "choices": ["3 or -3", "9 or -9", "3 only", "-3 only"],
-      "answer": "3 or -3",
+      "question": "Solve for $q$: $3q^2 + 21q + 30 = 0$.",
+      "choices": [
+        "$q = -2, q = -5$",
+        "$q = 2, q = 5$",
+        "$q = -2, q = 5$",
+        "$q = 2, q = -5$"
+      ],
+      "answer": "$q = -2, q = -5$",
       "points": 15
     },
     {
       "id": 62,
       "wave": 2,
-      "question": "Solve 3h² - 12 = 0.",
-      "choices": ["2 or -2", "4 or -4", "2 only", "-2 only"],
-      "answer": "2 or -2",
+      "question": "Solve for $r$: $r^2 + 18r + 81 = 0$.",
+      "choices": ["$r = -9$", "$r = 9$", "$r = -9, r = -9$", "$r = 9, r = 9$"],
+      "answer": "$r = -9$",
       "points": 15
     },
     {
       "id": 63,
       "wave": 2,
-      "question": "Solve 4j² - 100 = 0.",
-      "choices": ["5 or -5", "10 or -10", "25 or -25", "0"],
-      "answer": "5 or -5",
+      "question": "Solve for $s$: $5s^2 - 45 = 0$.",
+      "choices": ["$s = 3, s = -3$", "$s = 9, s = -9$", "$s = 3$", "$s = -3$"],
+      "answer": "$s = 3, s = -3$",
       "points": 15
     },
     {
       "id": 64,
       "wave": 2,
-      "question": "Solve k² - 81 = 0.",
-      "choices": ["9 or -9", "9 only", "-9 only", "0"],
-      "answer": "9 or -9",
+      "question": "Solve for $t$: $t^2 - 16t + 64 = 0$.",
+      "choices": ["$t = 8$", "$t = -8$", "$t = 8, t = 8$", "$t = -8, t = -8$"],
+      "answer": "$t = 8$",
       "points": 15
     },
     {
       "id": 65,
       "wave": 2,
-      "question": "Solve m² - 121 = 0.",
-      "choices": ["11 or -11", "11 only", "-11 only", "0"],
-      "answer": "11 or -11",
+      "question": "Solve for $u$: $4u^2 + 20u + 24 = 0$.",
+      "choices": [
+        "$u = -2, u = -3$",
+        "$u = 2, u = 3$",
+        "$u = -2, u = 3$",
+        "$u = 2, u = -3$"
+      ],
+      "answer": "$u = -2, u = -3$",
       "points": 15
     },
     {
       "id": 66,
       "wave": 2,
-      "question": "Solve n² + 20n + 100 = 0.",
-      "choices": ["-10 (double root)", "10 (double root)", "10 or -10", "0"],
-      "answer": "-10 (double root)",
+      "question": "Solve for $v$: $v^2 + 5v = -6$.",
+      "choices": [
+        "$v = -2, v = -3$",
+        "$v = 2, v = 3$",
+        "$v = -2, v = 3$",
+        "$v = 2, v = -3$"
+      ],
+      "answer": "$v = -2, v = -3$",
       "points": 15
     },
     {
       "id": 67,
       "wave": 2,
-      "question": "Solve p² - 16p + 64 = 0.",
-      "choices": ["8 (double root)", "-8 (double root)", "8 or -8", "0"],
-      "answer": "8 (double root)",
+      "question": "Solve for $w$: $w^2 = 10w - 24$.",
+      "choices": [
+        "$w = 4, w = 6$",
+        "$w = -4, w = -6$",
+        "$w = 4, w = -6$",
+        "$w = -4, w = 6$"
+      ],
+      "answer": "$w = 4, w = 6$",
       "points": 15
     },
     {
       "id": 68,
       "wave": 2,
-      "question": "Solve 5q² - 5 = 0.",
-      "choices": ["1 or -1", "5 or -5", "1 only", "-1 only"],
-      "answer": "1 or -1",
+      "question": "Solve for $x$: $x^2 - 9x = -18$.",
+      "choices": [
+        "$x = 3, x = 6$",
+        "$x = -3, x = -6$",
+        "$x = 3, x = -6$",
+        "$x = -3, x = 6$"
+      ],
+      "answer": "$x = 3, x = 6$",
       "points": 15
     },
     {
       "id": 69,
       "wave": 2,
-      "question": "Solve 7r² - 28 = 0.",
-      "choices": ["2 or -2", "7 or -7", "2 only", "-2 only"],
-      "answer": "2 or -2",
+      "question": "Solve for $y$: $-y^2 + 10y = 25$.",
+      "choices": ["$y = 5$", "$y = -5$", "$y = 5, y = 5$", "$y = -5, y = -5$"],
+      "answer": "$y = 5$",
       "points": 15
     },
     {
       "id": 70,
       "wave": 2,
-      "question": "Solve 8s² - 72 = 0.",
-      "choices": ["3 or -3", "9 or -9", "3 only", "-3 only"],
-      "answer": "3 or -3",
+      "question": "Solve for $z$: $6z^2 - 24 = 0$.",
+      "choices": ["$z = 2, z = -2$", "$z = 4, z = -4$", "$z = 2$", "$z = -2$"],
+      "answer": "$z = 2, z = -2$",
       "points": 15
     },
     {
       "id": 71,
       "wave": 2,
-      "question": "Solve t² - 100 = 0.",
-      "choices": ["10 or -10", "10 only", "-10 only", "0"],
-      "answer": "10 or -10",
+      "question": "Solve for $a$: $a^2 - 12a + 36 = 0$.",
+      "choices": ["$a = 6$", "$a = -6$", "$a = 6, a = 6$", "$a = -6, a = -6$"],
+      "answer": "$a = 6$",
       "points": 15
     },
     {
       "id": 72,
       "wave": 2,
-      "question": "Solve u² - 144 = 0.",
-      "choices": ["12 or -12", "12 only", "-12 only", "0"],
-      "answer": "12 or -12",
+      "question": "Solve for $b$: $2b^2 + 14b + 20 = 0$.",
+      "choices": [
+        "$b = -2, b = -5$",
+        "$b = 2, b = 5$",
+        "$b = -2, b = 5$",
+        "$b = 2, b = -5$"
+      ],
+      "answer": "$b = -2, b = -5$",
       "points": 15
     },
     {
       "id": 73,
       "wave": 2,
-      "question": "Solve v² + 16v + 64 = 0.",
-      "choices": ["-8 (double root)", "8 (double root)", "8 or -8", "0"],
-      "answer": "-8 (double root)",
+      "question": "Solve for $c$: $c^2 + 20c + 100 = 0$.",
+      "choices": [
+        "$c = -10$",
+        "$c = 10$",
+        "$c = -10, c = -10$",
+        "$c = 10, c = 10$"
+      ],
+      "answer": "$c = -10$",
       "points": 15
     },
     {
       "id": 74,
       "wave": 2,
-      "question": "Solve w² - 18w + 81 = 0.",
-      "choices": ["9 (double root)", "-9 (double root)", "9 or -9", "0"],
-      "answer": "9 (double root)",
+      "question": "Solve for $d$: $7d^2 - 63 = 0$.",
+      "choices": ["$d = 3, d = -3$", "$d = 9, d = -9$", "$d = 3$", "$d = -3$"],
+      "answer": "$d = 3, d = -3$",
       "points": 15
     },
     {
       "id": 75,
       "wave": 2,
-      "question": "Solve 9x² - 1 = 0.",
-      "choices": ["⅓ or -⅓", "1 or -1", "3 or -3", "0"],
-      "answer": "⅓ or -⅓",
+      "question": "Solve for $e$: $e^2 - 18e + 81 = 0$.",
+      "choices": ["$e = 9$", "$e = -9$", "$e = 9, e = 9$", "$e = -9, e = -9$"],
+      "answer": "$e = 9$",
       "points": 15
     },
     {
       "id": 76,
       "wave": 2,
-      "question": "Solve 16y² - 9 = 0.",
-      "choices": ["¾ or -¾", "3 or -3", "4 or -4", "0"],
-      "answer": "¾ or -¾",
+      "question": "Solve for $f$: $3f^2 + 15f + 18 = 0$.",
+      "choices": [
+        "$f = -2, f = -3$",
+        "$f = 2, f = 3$",
+        "$f = -2, f = 3$",
+        "$f = 2, f = -3$"
+      ],
+      "answer": "$f = -2, f = -3$",
       "points": 15
     },
     {
       "id": 77,
       "wave": 2,
-      "question": "Solve 25z² - 4 = 0.",
-      "choices": ["⅖ or -⅖", "2 or -2", "5 or -5", "0"],
-      "answer": "⅖ or -⅖",
+      "question": "Solve for $g$: $g^2 + 7g = 30$.",
+      "choices": [
+        "$g = 3, g = -10$",
+        "$g = -3, g = 10$",
+        "$g = 3, g = 10$",
+        "$g = -3, g = -10$"
+      ],
+      "answer": "$g = 3, g = -10$",
       "points": 15
     },
     {
       "id": 78,
       "wave": 2,
-      "question": "Solve 49a² - 36 = 0.",
-      "choices": ["6/7 or -6/7", "6 or -6", "7 or -7", "0"],
-      "answer": "6/7 or -6/7",
+      "question": "Solve for $h$: $h^2 = 13h - 42$.",
+      "choices": [
+        "$h = 6, h = 7$",
+        "$h = -6, h = -7$",
+        "$h = 6, h = -7$",
+        "$h = -6, h = 7$"
+      ],
+      "answer": "$h = 6, h = 7$",
       "points": 15
     },
     {
       "id": 79,
       "wave": 2,
-      "question": "Solve 100b² - 81 = 0.",
-      "choices": ["9/10 or -9/10", "9 or -9", "10 or -10", "0"],
-      "answer": "9/10 or -9/10",
+      "question": "Solve for $i$: $i^2 - 11i = -28$.",
+      "choices": [
+        "$i = 4, i = 7$",
+        "$i = -4, i = -7$",
+        "$i = 4, i = -7$",
+        "$i = -4, i = 7$"
+      ],
+      "answer": "$i = 4, i = 7$",
       "points": 15
     },
     {
       "id": 80,
       "wave": 2,
-      "question": "Solve c² - 0.25 = 0.",
-      "choices": ["0.5 or -0.5", "0.5 only", "-0.5 only", "0"],
-      "answer": "0.5 or -0.5",
+      "question": "Solve for $j$: $-j^2 + 12j = 36$.",
+      "choices": ["$j = 6$", "$j = -6$", "$j = 6, j = 6$", "$j = -6, j = -6$"],
+      "answer": "$j = 6$",
       "points": 15
     },
-
     {
       "id": 81,
-      "wave": 3,
-      "question": "Solve x² + 5x + 6 = 0.",
-      "choices": ["-2 or -3", "2 or 3", "-2 only", "-3 only"],
-      "answer": "-2 or -3",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $k$: $8k^2 - 32 = 0$.",
+      "choices": ["$k = 2, k = -2$", "$k = 4, k = -4$", "$k = 2$", "$k = -2$"],
+      "answer": "$k = 2, k = -2$",
+      "points": 15
     },
     {
       "id": 82,
-      "wave": 3,
-      "question": "Solve y² - 7y + 12 = 0.",
-      "choices": ["3 or 4", "-3 or -4", "3 only", "4 only"],
-      "answer": "3 or 4",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $l$: $l^2 + 22l + 121 = 0$.",
+      "choices": [
+        "$l = -11$",
+        "$l = 11$",
+        "$l = -11, l = -11$",
+        "$l = 11, l = 11$"
+      ],
+      "answer": "$l = -11$",
+      "points": 15
     },
     {
       "id": 83,
-      "wave": 3,
-      "question": "Solve z² + z - 6 = 0.",
-      "choices": ["2 or -3", "-2 or 3", "2 only", "-3 only"],
-      "answer": "2 or -3",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $m$: $2m^2 + 22m + 60 = 0$.",
+      "choices": [
+        "$m = -5, m = -6$",
+        "$m = 5, m = 6$",
+        "$m = -5, m = 6$",
+        "$m = 5, m = -6$"
+      ],
+      "answer": "$m = -5, m = -6$",
+      "points": 15
     },
     {
       "id": 84,
-      "wave": 3,
-      "question": "Solve a² - 2a - 15 = 0.",
-      "choices": ["5 or -3", "-5 or 3", "5 only", "-3 only"],
-      "answer": "5 or -3",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $n$: $n^2 + 24n + 144 = 0$.",
+      "choices": [
+        "$n = -12$",
+        "$n = 12$",
+        "$n = -12, n = -12$",
+        "$n = 12, n = 12$"
+      ],
+      "answer": "$n = -12$",
+      "points": 15
     },
     {
       "id": 85,
-      "wave": 3,
-      "question": "Solve b² + 8b + 15 = 0.",
-      "choices": ["-3 or -5", "3 or 5", "-3 only", "-5 only"],
-      "answer": "-3 or -5",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $p$: $9p^2 - 81 = 0$.",
+      "choices": ["$p = 3, p = -3$", "$p = 9, p = -9$", "$p = 3$", "$p = -3$"],
+      "answer": "$p = 3, p = -3$",
+      "points": 15
     },
     {
       "id": 86,
-      "wave": 3,
-      "question": "Solve c² - 9c + 20 = 0.",
-      "choices": ["4 or 5", "-4 or -5", "4 only", "5 only"],
-      "answer": "4 or 5",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $q$: $q^2 - 20q + 100 = 0$.",
+      "choices": [
+        "$q = 10$",
+        "$q = -10$",
+        "$q = 10, q = 10$",
+        "$q = -10, q = -10$"
+      ],
+      "answer": "$q = 10$",
+      "points": 15
     },
     {
       "id": 87,
-      "wave": 3,
-      "question": "Solve d² + 4d - 21 = 0.",
-      "choices": ["3 or -7", "-3 or 7", "3 only", "-7 only"],
-      "answer": "3 or -7",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $r$: $5r^2 + 30r + 40 = 0$.",
+      "choices": [
+        "$r = -2, r = -4$",
+        "$r = 2, r = 4$",
+        "$r = -2, r = 4$",
+        "$r = 2, r = -4$"
+      ],
+      "answer": "$r = -2, r = -4$",
+      "points": 15
     },
     {
       "id": 88,
-      "wave": 3,
-      "question": "Solve e² - e - 12 = 0.",
-      "choices": ["4 or -3", "-4 or 3", "4 only", "-3 only"],
-      "answer": "4 or -3",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $s$: $s^2 + 15s = -54$.",
+      "choices": [
+        "$s = -6, s = -9$",
+        "$s = 6, s = 9$",
+        "$s = -6, s = 9$",
+        "$s = 6, s = -9$"
+      ],
+      "answer": "$s = -6, s = -9$",
+      "points": 15
     },
     {
       "id": 89,
-      "wave": 3,
-      "question": "Solve f² + 3f - 10 = 0.",
-      "choices": ["2 or -5", "-2 or 5", "2 only", "-5 only"],
-      "answer": "2 or -5",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $t$: $t^2 = 16t - 63$.",
+      "choices": [
+        "$t = 7, t = 9$",
+        "$t = -7, t = -9$",
+        "$t = 7, t = -9$",
+        "$t = -7, t = 9$"
+      ],
+      "answer": "$t = 7, t = 9$",
+      "points": 15
     },
     {
       "id": 90,
-      "wave": 3,
-      "question": "Solve g² - 5g - 14 = 0.",
-      "choices": ["7 or -2", "-7 or 2", "7 only", "-2 only"],
-      "answer": "7 or -2",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $u$: $u^2 - 17u = -72$.",
+      "choices": [
+        "$u = 8, u = 9$",
+        "$u = -8, u = -9$",
+        "$u = 8, u = -9$",
+        "$u = -8, u = 9$"
+      ],
+      "answer": "$u = 8, u = 9$",
+      "points": 15
     },
     {
       "id": 91,
-      "wave": 3,
-      "question": "Solve 2x² + 10x + 12 = 0.",
-      "choices": ["-2 or -3", "2 or 3", "-2 only", "-3 only"],
-      "answer": "-2 or -3",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $v$: $-v^2 + 14v = 49$.",
+      "choices": ["$v = 7$", "$v = -7$", "$v = 7, v = 7$", "$v = -7, v = -7$"],
+      "answer": "$v = 7$",
+      "points": 15
     },
     {
       "id": 92,
-      "wave": 3,
-      "question": "Solve 3y² - 15y + 18 = 0.",
-      "choices": ["2 or 3", "-2 or -3", "2 only", "3 only"],
-      "answer": "2 or 3",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $w$: $10w^2 - 10 = 0$.",
+      "choices": [
+        "$w = 1, w = -1$",
+        "$w = 10, w = -10$",
+        "$w = 1$",
+        "$w = -1$"
+      ],
+      "answer": "$w = 1, w = -1$",
+      "points": 15
     },
     {
       "id": 93,
-      "wave": 3,
-      "question": "Solve 4z² + 4z - 24 = 0.",
-      "choices": ["2 or -3", "-2 or 3", "2 only", "-3 only"],
-      "answer": "2 or -3",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $x$: $x^2 + 20x + 100 = 0$.",
+      "choices": [
+        "$x = -10$",
+        "$x = 10$",
+        "$x = -10, x = -10$",
+        "$x = 10, x = 10$"
+      ],
+      "answer": "$x = -10$",
+      "points": 15
     },
     {
       "id": 94,
-      "wave": 3,
-      "question": "Solve 5a² - 20a - 60 = 0.",
-      "choices": ["6 or -2", "-6 or 2", "6 only", "-2 only"],
-      "answer": "6 or -2",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $y$: $6y^2 + 30y + 36 = 0$.",
+      "choices": [
+        "$y = -2, y = -3$",
+        "$y = 2, y = 3$",
+        "$y = -2, y = 3$",
+        "$y = 2, y = -3$"
+      ],
+      "answer": "$y = -2, y = -3$",
+      "points": 15
     },
     {
       "id": 95,
-      "wave": 3,
-      "question": "Solve x² - 11x + 30 = 0.",
-      "choices": ["5 or 6", "-5 or -6", "5 only", "6 only"],
-      "answer": "5 or 6",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $z$: $z^2 + 22z + 121 = 0$.",
+      "choices": [
+        "$z = -11$",
+        "$z = 11$",
+        "$z = -11, z = -11$",
+        "$z = 11, z = 11$"
+      ],
+      "answer": "$z = -11$",
+      "points": 15
     },
     {
       "id": 96,
-      "wave": 3,
-      "question": "Solve y² + 13y + 42 = 0.",
-      "choices": ["-6 or -7", "6 or 7", "-6 only", "-7 only"],
-      "answer": "-6 or -7",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $a$: $12a^2 - 48 = 0$.",
+      "choices": ["$a = 2, a = -2$", "$a = 4, a = -4$", "$a = 2$", "$a = -2$"],
+      "answer": "$a = 2, a = -2$",
+      "points": 15
     },
     {
       "id": 97,
-      "wave": 3,
-      "question": "Solve z² - 17z + 72 = 0.",
-      "choices": ["8 or 9", "-8 or -9", "8 only", "9 only"],
-      "answer": "8 or 9",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $b$: $b^2 - 24b + 144 = 0$.",
+      "choices": [
+        "$b = 12$",
+        "$b = -12$",
+        "$b = 12, b = 12$",
+        "$b = -12, b = -12$"
+      ],
+      "answer": "$b = 12$",
+      "points": 15
     },
     {
       "id": 98,
-      "wave": 3,
-      "question": "Solve a² + 10a + 24 = 0.",
-      "choices": ["-4 or -6", "4 or 6", "-4 only", "-6 only"],
-      "answer": "-4 or -6",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $c$: $7c^2 + 42c + 56 = 0$.",
+      "choices": [
+        "$c = -2, c = -4$",
+        "$c = 2, c = 4$",
+        "$c = -2, c = 4$",
+        "$c = 2, c = -4$"
+      ],
+      "answer": "$c = -2, c = -4$",
+      "points": 15
     },
     {
       "id": 99,
-      "wave": 3,
-      "question": "Solve b² - 8b - 20 = 0.",
-      "choices": ["10 or -2", "-10 or 2", "10 only", "-2 only"],
-      "answer": "10 or -2",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $d$: $d^2 + 19d = -84$.",
+      "choices": [
+        "$d = -7, d = -12$",
+        "$d = 7, d = 12$",
+        "$d = -7, d = 12$",
+        "$d = 7, d = -12$"
+      ],
+      "answer": "$d = -7, d = -12$",
+      "points": 15
     },
     {
       "id": 100,
-      "wave": 3,
-      "question": "Solve c² + 7c - 18 = 0.",
-      "choices": ["2 or -9", "-2 or 9", "2 only", "-9 only"],
-      "answer": "2 or -9",
-      "points": 20
+      "wave": 2,
+      "question": "Solve for $e$: $e^2 = 18e - 77$.",
+      "choices": [
+        "$e = 7, e = 11$",
+        "$e = -7, e = -11$",
+        "$e = 7, e = -11$",
+        "$e = -7, e = 11$"
+      ],
+      "answer": "$e = 7, e = 11$",
+      "points": 15
     },
     {
       "id": 101,
       "wave": 3,
-      "question": "Solve d² - 12d + 35 = 0.",
-      "choices": ["5 or 7", "-5 or -7", "5 only", "7 only"],
-      "answer": "5 or 7",
+      "question": "Solve for $x$: $x^3 + 2x^2 + 3x + 6 = 0$.",
+      "choices": [
+        "$x = -2$",
+        "$x = 2$",
+        "$x = -2, x = \\pm i\\sqrt{3}$",
+        "$x = 2, x = \\pm i\\sqrt{3}$"
+      ],
+      "answer": "$x = -2$",
       "points": 20
     },
     {
       "id": 102,
       "wave": 3,
-      "question": "Solve e² + 14e + 48 = 0.",
-      "choices": ["-6 or -8", "6 or 8", "-6 only", "-8 only"],
-      "answer": "-6 or -8",
+      "question": "Solve for $y$: $2y^3 - 4y^2 + 5y - 10 = 0$.",
+      "choices": [
+        "$y = 2$",
+        "$y = -2$",
+        "$y = 2, y = \\pm i\\sqrt{5/2}$",
+        "$y = -2, y = \\pm i\\sqrt{5/2}$"
+      ],
+      "answer": "$y = 2$",
       "points": 20
     },
     {
       "id": 103,
       "wave": 3,
-      "question": "Solve f² - 15f + 56 = 0.",
-      "choices": ["7 or 8", "-7 or -8", "7 only", "8 only"],
-      "answer": "7 or 8",
+      "question": "Solve for $a$: $3a^2 + 15a + 18 = 0$.",
+      "choices": [
+        "$a = -2, a = -3$",
+        "$a = 2, a = 3$",
+        "$a = -2, a = 3$",
+        "$a = 2, a = -3$"
+      ],
+      "answer": "$a = -2, a = -3$",
       "points": 20
     },
     {
       "id": 104,
       "wave": 3,
-      "question": "Solve 2g² - 2g - 12 = 0.",
-      "choices": ["3 or -2", "-3 or 2", "3 only", "-2 only"],
-      "answer": "3 or -2",
+      "question": "Solve for $b$: $5b^2 - 20b + 20 = 0$.",
+      "choices": ["$b = 2$", "$b = -2$", "$b = 2, b = 2$", "$b = -2, b = -2$"],
+      "answer": "$b = 2$",
       "points": 20
     },
     {
       "id": 105,
       "wave": 3,
-      "question": "Solve 3h² + 12h - 36 = 0.",
-      "choices": ["2 or -6", "-2 or 6", "2 only", "-6 only"],
-      "answer": "2 or -6",
+      "question": "Solve for $c$: $2x^2 + 8x - 10 = 0$.",
+      "choices": [
+        "$x = 1, x = -5$",
+        "$x = -1, x = 5$",
+        "$x = 1, x = 5$",
+        "$x = -1, x = -5$"
+      ],
+      "answer": "$x = 1, x = -5$",
       "points": 20
     },
     {
       "id": 106,
       "wave": 3,
-      "question": "Solve 4k² - 12k - 40 = 0.",
-      "choices": ["5 or -2", "-5 or 2", "5 only", "-2 only"],
-      "answer": "5 or -2",
+      "question": "Solve for $x$: $x^3 - 4x^2 - x + 4 = 0$.",
+      "choices": [
+        "$x = 4, x = 1, x = -1$",
+        "$x = -4, x = 1, x = -1$",
+        "$x = 4, x = 1$",
+        "$x = 4, x = -1$"
+      ],
+      "answer": "$x = 4, x = 1, x = -1$",
       "points": 20
     },
     {
       "id": 107,
       "wave": 3,
-      "question": "Solve m² + m - 30 = 0.",
-      "choices": ["5 or -6", "-5 or 6", "5 only", "-6 only"],
-      "answer": "5 or -6",
+      "question": "Solve for $y$: $3y^3 + 6y^2 - 2y - 4 = 0$.",
+      "choices": [
+        "$y = -2, y = \\pm \\frac{\\sqrt{6}}{3}$",
+        "$y = 2, y = \\pm \\frac{\\sqrt{6}}{3}$",
+        "$y = -2$",
+        "$y = 2$"
+      ],
+      "answer": "$y = -2, y = \\pm \\frac{\\sqrt{6}}{3}$",
       "points": 20
     },
     {
       "id": 108,
       "wave": 3,
-      "question": "Solve n² - 19n + 90 = 0.",
-      "choices": ["9 or 10", "-9 or -10", "9 only", "10 only"],
-      "answer": "9 or 10",
+      "question": "Solve for $m$: $4m^2 - 24m + 36 = 0$.",
+      "choices": ["$m = 3$", "$m = -3$", "$m = 3, m = 3$", "$m = -3, m = -3$"],
+      "answer": "$m = 3$",
       "points": 20
     },
     {
       "id": 109,
       "wave": 3,
-      "question": "Solve p² + 17p + 70 = 0.",
-      "choices": ["-7 or -10", "7 or 10", "-7 only", "-10 only"],
-      "answer": "-7 or -10",
+      "question": "Solve for $n$: $6n^2 - 12n - 18 = 0$.",
+      "choices": [
+        "$n = 3, n = -1$",
+        "$n = -3, n = 1$",
+        "$n = 3, n = 1$",
+        "$n = -3, n = -1$"
+      ],
+      "answer": "$n = 3, n = -1$",
       "points": 20
     },
     {
       "id": 110,
       "wave": 3,
-      "question": "Solve q² - 20q + 96 = 0.",
-      "choices": ["8 or 12", "-8 or -12", "8 only", "12 only"],
-      "answer": "8 or 12",
+      "question": "Solve for $p$: $2p^2 + 10p + 8 = 0$.",
+      "choices": [
+        "$p = -1, p = -4$",
+        "$p = 1, p = 4$",
+        "$p = -1, p = 4$",
+        "$p = 1, p = -4$"
+      ],
+      "answer": "$p = -1, p = -4$",
       "points": 20
     },
     {
       "id": 111,
       "wave": 3,
-      "question": "Solve 5r² - 45 = 0.",
-      "choices": ["3 or -3", "9 or -9", "3 only", "-3 only"],
-      "answer": "3 or -3",
+      "question": "Solve for $q$: $x^3 + 5x^2 - 4x - 20 = 0$.",
+      "choices": [
+        "$x = -5, x = 2, x = -2$",
+        "$x = 5, x = 2, x = -2$",
+        "$x = -5, x = 2$",
+        "$x = -5, x = -2$"
+      ],
+      "answer": "$x = -5, x = 2, x = -2$",
       "points": 20
     },
     {
       "id": 112,
       "wave": 3,
-      "question": "Solve 6s² - 24s + 18 = 0.",
-      "choices": ["1 or 3", "-1 or -3", "1 only", "3 only"],
-      "answer": "1 or 3",
+      "question": "Solve for $r$: $r^2 + 2r = 15$.",
+      "choices": [
+        "$r = 3, r = -5$",
+        "$r = -3, r = 5$",
+        "$r = 3, r = 5$",
+        "$r = -3, r = -5$"
+      ],
+      "answer": "$r = 3, r = -5$",
       "points": 20
     },
     {
       "id": 113,
       "wave": 3,
-      "question": "Solve t² + 9t - 36 = 0.",
-      "choices": ["3 or -12", "-3 or 12", "3 only", "-12 only"],
-      "answer": "3 or -12",
+      "question": "Solve for $s$: $s^2 = 7s - 10$.",
+      "choices": [
+        "$s = 2, s = 5$",
+        "$s = -2, s = -5$",
+        "$s = 2, s = -5$",
+        "$s = -2, s = 5$"
+      ],
+      "answer": "$s = 2, s = 5$",
       "points": 20
     },
     {
       "id": 114,
       "wave": 3,
-      "question": "Solve u² - 16u + 63 = 0.",
-      "choices": ["7 or 9", "-7 or -9", "7 only", "9 only"],
-      "answer": "7 or 9",
+      "question": "Solve for $t$: $3t^2 - 15t + 18 = 0$.",
+      "choices": [
+        "$t = 2, t = 3$",
+        "$t = -2, t = -3$",
+        "$t = 2, t = -3$",
+        "$t = -2, t = 3$"
+      ],
+      "answer": "$t = 2, t = 3$",
       "points": 20
     },
     {
       "id": 115,
       "wave": 3,
-      "question": "Solve v² + 11v + 28 = 0.",
-      "choices": ["-4 or -7", "4 or 7", "-4 only", "-7 only"],
-      "answer": "-4 or -7",
+      "question": "Solve for $u$: $u^2 + 10u = -25$.",
+      "choices": ["$u = -5$", "$u = 5$", "$u = -5, u = -5$", "$u = 5, u = 5$"],
+      "answer": "$u = -5$",
       "points": 20
     },
     {
       "id": 116,
       "wave": 3,
-      "question": "Solve w² - 13w - 48 = 0.",
-      "choices": ["16 or -3", "-16 or 3", "16 only", "-3 only"],
-      "answer": "16 or -3",
+      "question": "Solve for $v$: $v^3 - 3v^2 + 2v - 6 = 0$.",
+      "choices": [
+        "$v = 3$",
+        "$v = -3$",
+        "$v = 3, v = \\pm i\\sqrt{2}$",
+        "$v = -3, v = \\pm i\\sqrt{2}$"
+      ],
+      "answer": "$v = 3$",
       "points": 20
     },
     {
       "id": 117,
       "wave": 3,
-      "question": "Solve x² + 2x - 63 = 0.",
-      "choices": ["7 or -9", "-7 or 9", "7 only", "-9 only"],
-      "answer": "7 or -9",
+      "question": "Solve for $w$: $5w^2 + 30w + 45 = 0$.",
+      "choices": ["$w = -3$", "$w = 3$", "$w = -3, w = -3$", "$w = 3, w = 3$"],
+      "answer": "$w = -3$",
       "points": 20
     },
     {
       "id": 118,
       "wave": 3,
-      "question": "Solve y² - 18y + 81 = 0.",
-      "choices": ["9 (double root)", "-9 (double root)", "9 or -9", "0"],
-      "answer": "9 (double root)",
+      "question": "Solve for $x$: $x^2 + 11x = -28$.",
+      "choices": [
+        "$x = -4, x = -7$",
+        "$x = 4, x = 7$",
+        "$x = -4, x = 7$",
+        "$x = 4, x = -7$"
+      ],
+      "answer": "$x = -4, x = -7$",
       "points": 20
     },
     {
       "id": 119,
       "wave": 3,
-      "question": "Solve 2z² + 8z - 42 = 0.",
-      "choices": ["3 or -7", "-3 or 7", "3 only", "-7 only"],
-      "answer": "3 or -7",
+      "question": "Solve for $y$: $y^2 = 12y - 35$.",
+      "choices": [
+        "$y = 5, y = 7$",
+        "$y = -5, y = -7$",
+        "$y = 5, y = -7$",
+        "$y = -5, y = 7$"
+      ],
+      "answer": "$y = 5, y = 7$",
       "points": 20
     },
     {
       "id": 120,
       "wave": 3,
-      "question": "Solve 3a² - 3a - 60 = 0.",
-      "choices": ["5 or -4", "-5 or 4", "5 only", "-4 only"],
-      "answer": "5 or -4",
+      "question": "Solve for $z$: $2z^2 - 2z - 24 = 0$.",
+      "choices": [
+        "$z = 4, z = -3$",
+        "$z = -4, z = 3$",
+        "$z = 4, z = 3$",
+        "$z = -4, z = -3$"
+      ],
+      "answer": "$z = 4, z = -3$",
       "points": 20
     },
-
     {
       "id": 121,
-      "wave": 4,
-      "question": "Solve 2x² + 7x + 3 = 0.",
-      "choices": ["-½ or -3", "½ or 3", "-½ only", "-3 only"],
-      "answer": "-½ or -3",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $a$: $a^3 - 2a^2 + 5a - 10 = 0$.",
+      "choices": [
+        "$a = 2$",
+        "$a = -2$",
+        "$a = 2, a = \\pm i\\sqrt{5}$",
+        "$a = -2, a = \\pm i\\sqrt{5}$"
+      ],
+      "answer": "$a = 2$",
+      "points": 20
     },
     {
       "id": 122,
-      "wave": 4,
-      "question": "Solve 3y² - 10y + 8 = 0.",
-      "choices": ["2 or 4/3", "-2 or -4/3", "2 only", "4/3 only"],
-      "answer": "2 or 4/3",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $b$: $7b^2 + 28b + 28 = 0$.",
+      "choices": ["$b = -2$", "$b = 2$", "$b = -2, b = -2$", "$b = 2, b = 2$"],
+      "answer": "$b = -2$",
+      "points": 20
     },
     {
       "id": 123,
-      "wave": 4,
-      "question": "Solve 5z² + 13z - 6 = 0.",
-      "choices": ["-3 or 2/5", "3 or -2/5", "-3 only", "2/5 only"],
-      "answer": "-3 or 2/5",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $c$: $2c^2 + 22c + 48 = 0$.",
+      "choices": [
+        "$c = -3, c = -8$",
+        "$c = 3, c = 8$",
+        "$c = -3, c = 8$",
+        "$c = 3, c = -8$"
+      ],
+      "answer": "$c = -3, c = -8$",
+      "points": 20
     },
     {
       "id": 124,
-      "wave": 4,
-      "question": "Solve 4a² - 12a + 9 = 0.",
+      "wave": 3,
+      "question": "Solve for $d$: $d^2 + 24d + 144 = 0$.",
       "choices": [
-        "3/2 (double root)",
-        "-3/2 (double root)",
-        "3/2 or -3/2",
-        "0"
+        "$d = -12$",
+        "$d = 12$",
+        "$d = -12, d = -12$",
+        "$d = 12, d = 12$"
       ],
-      "answer": "3/2 (double root)",
-      "points": 25
+      "answer": "$d = -12$",
+      "points": 20
     },
     {
       "id": 125,
-      "wave": 4,
-      "question": "Solve 6b² + b - 2 = 0.",
-      "choices": ["½ or -⅔", "-½ or ⅔", "½ only", "-⅔ only"],
-      "answer": "½ or -⅔",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $e$: $e^3 + e^2 - 9e - 9 = 0$.",
+      "choices": [
+        "$e = -1, e = 3, e = -3$",
+        "$e = 1, e = 3, e = -3$",
+        "$e = -1, e = 3$",
+        "$e = -1, e = -3$"
+      ],
+      "answer": "$e = -1, e = 3, e = -3$",
+      "points": 20
     },
     {
       "id": 126,
-      "wave": 4,
-      "question": "Solve 8c² - 14c + 5 = 0.",
-      "choices": ["½ or 5/4", "-½ or -5/4", "½ only", "5/4 only"],
-      "answer": "½ or 5/4",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $f$: $f^2 + 13f = -40$.",
+      "choices": [
+        "$f = -5, f = -8$",
+        "$f = 5, f = 8$",
+        "$f = -5, f = 8$",
+        "$f = 5, f = -8$"
+      ],
+      "answer": "$f = -5, f = -8$",
+      "points": 20
     },
     {
       "id": 127,
-      "wave": 4,
-      "question": "Solve 9d² - 12d + 4 = 0.",
-      "choices": [
-        "2/3 (double root)",
-        "-2/3 (double root)",
-        "2/3 or -2/3",
-        "0"
-      ],
-      "answer": "2/3 (double root)",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $g$: $g^2 = 14g - 49$.",
+      "choices": ["$g = 7$", "$g = -7$", "$g = 7, g = 7$", "$g = -7, g = -7$"],
+      "answer": "$g = 7$",
+      "points": 20
     },
     {
       "id": 128,
-      "wave": 4,
-      "question": "Solve 10e² - e - 3 = 0.",
-      "choices": ["3/5 or -½", "-3/5 or ½", "3/5 only", "-½ only"],
-      "answer": "3/5 or -½",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $h$: $3h^2 - 39h + 126 = 0$.",
+      "choices": [
+        "$h = 6, h = 7$",
+        "$h = -6, h = -7$",
+        "$h = 6, h = -7$",
+        "$h = -6, h = 7$"
+      ],
+      "answer": "$h = 6, h = 7$",
+      "points": 20
     },
     {
       "id": 129,
-      "wave": 4,
-      "question": "Solve 12f² + 8f - 15 = 0.",
-      "choices": ["-3/2 or 5/6", "3/2 or -5/6", "-3/2 only", "5/6 only"],
-      "answer": "-3/2 or 5/6",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $i$: $i^2 + 25i + 100 = 0$.",
+      "choices": [
+        "$i = -5, i = -20$",
+        "$i = 5, i = 20$",
+        "$i = -5, i = 20$",
+        "$i = 5, i = -20$"
+      ],
+      "answer": "$i = -5, i = -20$",
+      "points": 20
     },
     {
       "id": 130,
-      "wave": 4,
-      "question": "Solve 15g² - 22g + 8 = 0.",
-      "choices": ["4/3 or 2/5", "-4/3 or -2/5", "4/3 only", "2/5 only"],
-      "answer": "4/3 or 2/5",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $j$: $j^3 - 6j^2 + 4j - 24 = 0$.",
+      "choices": [
+        "$j = 6$",
+        "$j = -6$",
+        "$j = 6, j = \\pm 2i$",
+        "$j = -6, j = \\pm 2i$"
+      ],
+      "answer": "$j = 6$",
+      "points": 20
     },
     {
       "id": 131,
-      "wave": 4,
-      "question": "Solve 18h² - 27h + 10 = 0.",
-      "choices": ["5/6 or 2/3", "-5/6 or -2/3", "5/6 only", "2/3 only"],
-      "answer": "5/6 or 2/3",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $k$: $k^2 + 15k = -54$.",
+      "choices": [
+        "$k = -6, k = -9$",
+        "$k = 6, k = 9$",
+        "$k = -6, k = 9$",
+        "$k = 6, k = -9$"
+      ],
+      "answer": "$k = -6, k = -9$",
+      "points": 20
     },
     {
       "id": 132,
-      "wave": 4,
-      "question": "Solve 20k² + 7k - 6 = 0.",
-      "choices": ["-3/4 or 2/5", "3/4 or -2/5", "-3/4 only", "2/5 only"],
-      "answer": "-3/4 or 2/5",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $l$: $l^2 = 16l - 60$.",
+      "choices": [
+        "$l = 6, l = 10$",
+        "$l = -6, l = -10$",
+        "$l = 6, l = -10$",
+        "$l = -6, l = 10$"
+      ],
+      "answer": "$l = 6, l = 10$",
+      "points": 20
     },
     {
       "id": 133,
-      "wave": 4,
-      "question": "Solve 24m² - 2m - 15 = 0.",
-      "choices": ["3/4 or -5/6", "-3/4 or 5/6", "3/4 only", "-5/6 only"],
-      "answer": "3/4 or -5/6",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $m$: $4m^2 - 4m - 24 = 0$.",
+      "choices": [
+        "$m = 3, m = -2$",
+        "$m = -3, m = 2$",
+        "$m = 3, m = 2$",
+        "$m = -3, m = -2$"
+      ],
+      "answer": "$m = 3, m = -2$",
+      "points": 20
     },
     {
       "id": 134,
-      "wave": 4,
-      "question": "Solve 25n² - 40n + 16 = 0.",
+      "wave": 3,
+      "question": "Solve for $n$: $n^2 + 26n + 169 = 0$.",
       "choices": [
-        "4/5 (double root)",
-        "-4/5 (double root)",
-        "4/5 or -4/5",
-        "0"
+        "$n = -13$",
+        "$n = 13$",
+        "$n = -13, n = -13$",
+        "$n = 13, n = 13$"
       ],
-      "answer": "4/5 (double root)",
-      "points": 25
+      "answer": "$n = -13$",
+      "points": 20
     },
     {
       "id": 135,
-      "wave": 4,
-      "question": "Solve 30p² + 11p - 30 = 0.",
-      "choices": ["5/6 or -6/5", "-5/6 or 6/5", "5/6 only", "-6/5 only"],
-      "answer": "5/6 or -6/5",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $p$: $p^3 + 4p^2 - 2p - 8 = 0$.",
+      "choices": [
+        "$p = -4, p = \\sqrt{2}, p = -\\sqrt{2}$",
+        "$p = 4, p = \\sqrt{2}, p = -\\sqrt{2}$",
+        "$p = -4$",
+        "$p = 4$"
+      ],
+      "answer": "$p = -4, p = \\sqrt{2}, p = -\\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 136,
-      "wave": 4,
-      "question": "Solve 36q² - 60q + 25 = 0.",
+      "wave": 3,
+      "question": "Solve for $q$: $q^2 + 17q = -72$.",
       "choices": [
-        "5/6 (double root)",
-        "-5/6 (double root)",
-        "5/6 or -5/6",
-        "0"
+        "$q = -8, q = -9$",
+        "$q = 8, q = 9$",
+        "$q = -8, q = 9$",
+        "$q = 8, q = -9$"
       ],
-      "answer": "5/6 (double root)",
-      "points": 25
+      "answer": "$q = -8, q = -9$",
+      "points": 20
     },
     {
       "id": 137,
-      "wave": 4,
-      "question": "Solve 40r² + 22r - 12 = 0.",
-      "choices": ["-3/4 or 2/5", "3/4 or -2/5", "-3/4 only", "2/5 only"],
-      "answer": "-3/4 or 2/5",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $r$: $r^2 = 18r - 81$.",
+      "choices": ["$r = 9$", "$r = -9$", "$r = 9, r = 9$", "$r = -9, r = -9$"],
+      "answer": "$r = 9$",
+      "points": 20
     },
     {
       "id": 138,
-      "wave": 4,
-      "question": "Solve 48s² - 8s - 35 = 0.",
-      "choices": ["5/6 or -7/8", "-5/6 or 7/8", "5/6 only", "-7/8 only"],
-      "answer": "5/6 or -7/8",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $s$: $5s^2 - 25s + 30 = 0$.",
+      "choices": [
+        "$s = 2, s = 3$",
+        "$s = -2, s = -3$",
+        "$s = 2, s = -3$",
+        "$s = -2, s = 3$"
+      ],
+      "answer": "$s = 2, s = 3$",
+      "points": 20
     },
     {
       "id": 139,
-      "wave": 4,
-      "question": "Solve 50t² - 45t + 10 = 0.",
-      "choices": ["2/5 or ½", "-2/5 or -½", "2/5 only", "½ only"],
-      "answer": "2/5 or ½",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $t$: $t^2 + 20t + 96 = 0$.",
+      "choices": [
+        "$t = -8, t = -12$",
+        "$t = 8, t = 12$",
+        "$t = -8, t = 12$",
+        "$t = 8, t = -12$"
+      ],
+      "answer": "$t = -8, t = -12$",
+      "points": 20
     },
     {
       "id": 140,
-      "wave": 4,
-      "question": "Solve 60u² + 4u - 24 = 0.",
-      "choices": ["-2/3 or 3/5", "2/3 or -3/5", "-2/3 only", "3/5 only"],
-      "answer": "-2/3 or 3/5",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $u$: $u^3 - 5u^2 + 3u - 15 = 0$.",
+      "choices": [
+        "$u = 5$",
+        "$u = -5$",
+        "$u = 5, u = \\pm i\\sqrt{3}$",
+        "$u = -5, u = \\pm i\\sqrt{3}$"
+      ],
+      "answer": "$u = 5$",
+      "points": 20
     },
     {
       "id": 141,
-      "wave": 4,
-      "question": "Solve x² - 25 = 0 (difference of squares).",
-      "choices": ["5 or -5", "5 only", "-5 only", "0"],
-      "answer": "5 or -5",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $v$: $v^2 + 28v + 196 = 0$.",
+      "choices": [
+        "$v = -14$",
+        "$v = 14$",
+        "$v = -14, v = -14$",
+        "$v = 14, v = 14$"
+      ],
+      "answer": "$v = -14$",
+      "points": 20
     },
     {
       "id": 142,
-      "wave": 4,
-      "question": "Solve 4y² - 81 = 0.",
-      "choices": ["9/2 or -9/2", "9 or -9", "9/2 only", "-9/2 only"],
-      "answer": "9/2 or -9/2",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $w$: $6w^2 + 36w + 48 = 0$.",
+      "choices": [
+        "$w = -2, w = -4$",
+        "$w = 2, w = 4$",
+        "$w = -2, w = 4$",
+        "$w = 2, w = -4$"
+      ],
+      "answer": "$w = -2, w = -4$",
+      "points": 20
     },
     {
       "id": 143,
-      "wave": 4,
-      "question": "Solve 16z² - 49 = 0.",
-      "choices": ["7/4 or -7/4", "7 or -7", "7/4 only", "-7/4 only"],
-      "answer": "7/4 or -7/4",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $x$: $x^2 + 19x = -84$.",
+      "choices": [
+        "$x = -7, x = -12$",
+        "$x = 7, x = 12$",
+        "$x = -7, x = 12$",
+        "$x = 7, x = -12$"
+      ],
+      "answer": "$x = -7, x = -12$",
+      "points": 20
     },
     {
       "id": 144,
-      "wave": 4,
-      "question": "Solve 81a² - 1 = 0.",
-      "choices": ["1/9 or -1/9", "1 or -1", "1/9 only", "-1/9 only"],
-      "answer": "1/9 or -1/9",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $y$: $y^2 = 20y - 96$.",
+      "choices": [
+        "$y = 8, y = 12$",
+        "$y = -8, y = -12$",
+        "$y = 8, y = -12$",
+        "$y = -8, y = 12$"
+      ],
+      "answer": "$y = 8, y = 12$",
+      "points": 20
     },
     {
       "id": 145,
-      "wave": 4,
-      "question": "Solve 100b² - 169 = 0.",
-      "choices": ["13/10 or -13/10", "13 or -13", "13/10 only", "-13/10 only"],
-      "answer": "13/10 or -13/10",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $z$: $2z^2 - 28z + 98 = 0$.",
+      "choices": ["$z = 7$", "$z = -7$", "$z = 7, z = 7$", "$z = -7, z = -7$"],
+      "answer": "$z = 7$",
+      "points": 20
     },
     {
       "id": 146,
-      "wave": 4,
-      "question": "Solve 121c² - 64 = 0.",
-      "choices": ["8/11 or -8/11", "8 or -8", "8/11 only", "-8/11 only"],
-      "answer": "8/11 or -8/11",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $a$: $a^3 + 3a^2 - 4a - 12 = 0$.",
+      "choices": [
+        "$a = -3, a = 2, a = -2$",
+        "$a = 3, a = 2, a = -2$",
+        "$a = -3, a = 2$",
+        "$a = -3, a = -2$"
+      ],
+      "answer": "$a = -3, a = 2, a = -2$",
+      "points": 20
     },
     {
       "id": 147,
-      "wave": 4,
-      "question": "Solve 144d² - 25 = 0.",
-      "choices": ["5/12 or -5/12", "5 or -5", "5/12 only", "-5/12 only"],
-      "answer": "5/12 or -5/12",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $b$: $8b^2 + 40b + 48 = 0$.",
+      "choices": [
+        "$b = -2, b = -3$",
+        "$b = 2, b = 3$",
+        "$b = -2, b = 3$",
+        "$b = 2, b = -3$"
+      ],
+      "answer": "$b = -2, b = -3$",
+      "points": 20
     },
     {
       "id": 148,
-      "wave": 4,
-      "question": "Solve 49e² - 100 = 0.",
-      "choices": ["10/7 or -10/7", "10 or -10", "10/7 only", "-10/7 only"],
-      "answer": "10/7 or -10/7",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $c$: $c^2 + 21c = -90$.",
+      "choices": [
+        "$c = -6, c = -15$",
+        "$c = 6, c = 15$",
+        "$c = -6, c = 15$",
+        "$c = 6, c = -15$"
+      ],
+      "answer": "$c = -6, c = -15$",
+      "points": 20
     },
     {
       "id": 149,
-      "wave": 4,
-      "question": "Solve 4f² - 9g² = 0 for f.",
-      "choices": ["±(3g/2)", "±(2g/3)", "3g/2 only", "-3g/2 only"],
-      "answer": "±(3g/2)",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $d$: $d^2 = 22d - 121$.",
+      "choices": [
+        "$d = 11$",
+        "$d = -11$",
+        "$d = 11, d = 11$",
+        "$d = -11, d = -11$"
+      ],
+      "answer": "$d = 11$",
+      "points": 20
     },
     {
       "id": 150,
-      "wave": 4,
-      "question": "Solve 9h² - 16k² = 0 for h.",
-      "choices": ["±(4k/3)", "±(3k/4)", "4k/3 only", "-4k/3 only"],
-      "answer": "±(4k/3)",
-      "points": 25
+      "wave": 3,
+      "question": "Solve for $e$: $e^3 - e^2 - 16e + 16 = 0$.",
+      "choices": [
+        "$e = 1, e = 4, e = -4$",
+        "$e = -1, e = 4, e = -4$",
+        "$e = 1, e = 4$",
+        "$e = 1, e = -4$"
+      ],
+      "answer": "$e = 1, e = 4, e = -4$",
+      "points": 20
     },
     {
       "id": 151,
       "wave": 4,
-      "question": "Solve x² - 8x + 16 = 0.",
-      "choices": ["4 (double root)", "-4 (double root)", "4 or -4", "0"],
-      "answer": "4 (double root)",
+      "question": "Solve for $x$: $2x^3 + 6x^2 - 8x - 24 = 0$.",
+      "choices": [
+        "$x = -3, x = 2, x = -2$",
+        "$x = 3, x = 2, x = -2$",
+        "$x = -3, x = 2$",
+        "$x = -3, x = -2$"
+      ],
+      "answer": "$x = -3, x = 2, x = -2$",
       "points": 25
     },
     {
       "id": 152,
       "wave": 4,
-      "question": "Solve y² + 20y + 100 = 0.",
-      "choices": ["-10 (double root)", "10 (double root)", "10 or -10", "0"],
-      "answer": "-10 (double root)",
+      "question": "Solve for $y$: $3y^3 - 9y^2 + 12y - 36 = 0$.",
+      "choices": [
+        "$y = 3$",
+        "$y = -3$",
+        "$y = 3, y = \\pm 2i$",
+        "$y = -3, y = \\pm 2i$"
+      ],
+      "answer": "$y = 3$",
       "points": 25
     },
     {
       "id": 153,
       "wave": 4,
-      "question": "Solve z² - 24z + 144 = 0.",
-      "choices": ["12 (double root)", "-12 (double root)", "12 or -12", "0"],
-      "answer": "12 (double root)",
+      "question": "Solve for $a$: $2a^2 - 10a + 12 = 0$.",
+      "choices": [
+        "$a = 2, a = 3$",
+        "$a = -2, a = -3$",
+        "$a = 2, a = -3$",
+        "$a = -2, a = 3$"
+      ],
+      "answer": "$a = 2, a = 3$",
       "points": 25
     },
     {
       "id": 154,
       "wave": 4,
-      "question": "Solve a² + 14a + 49 = 0.",
-      "choices": ["-7 (double root)", "7 (double root)", "7 or -7", "0"],
-      "answer": "-7 (double root)",
+      "question": "Solve for $b$: $4b^2 - 16b + 16 = 0$.",
+      "choices": ["$b = 2$", "$b = -2$", "$b = 2, b = 2$", "$b = -2, b = -2$"],
+      "answer": "$b = 2$",
       "points": 25
     },
     {
       "id": 155,
       "wave": 4,
-      "question": "Solve b² - 30b + 225 = 0.",
-      "choices": ["15 (double root)", "-15 (double root)", "15 or -15", "0"],
-      "answer": "15 (double root)",
+      "question": "Solve for $c$: $2x^2 + 14x + 24 = 0$.",
+      "choices": [
+        "$x = -3, x = -4$",
+        "$x = 3, x = 4$",
+        "$x = -3, x = 4$",
+        "$x = 3, x = -4$"
+      ],
+      "answer": "$x = -3, x = -4$",
       "points": 25
     },
     {
       "id": 156,
       "wave": 4,
-      "question": "Solve c² + 26c + 169 = 0.",
-      "choices": ["-13 (double root)", "13 (double root)", "13 or -13", "0"],
-      "answer": "-13 (double root)",
+      "question": "Solve for $x$: $x^3 + 3x^2 - 16x - 48 = 0$.",
+      "choices": [
+        "$x = -3, x = 4, x = -4$",
+        "$x = 3, x = 4, x = -4$",
+        "$x = -3, x = 4$",
+        "$x = -3, x = -4$"
+      ],
+      "answer": "$x = -3, x = 4, x = -4$",
       "points": 25
     },
     {
       "id": 157,
       "wave": 4,
-      "question": "Solve d² - 28d + 196 = 0.",
-      "choices": ["14 (double root)", "-14 (double root)", "14 or -14", "0"],
-      "answer": "14 (double root)",
+      "question": "Solve for $y$: $5y^3 - 10y^2 + 20y - 40 = 0$.",
+      "choices": [
+        "$y = 2$",
+        "$y = -2$",
+        "$y = 2, y = \\pm 2i$",
+        "$y = -2, y = \\pm 2i$"
+      ],
+      "answer": "$y = 2$",
       "points": 25
     },
     {
       "id": 158,
       "wave": 4,
-      "question": "Solve e² + 22e + 121 = 0.",
-      "choices": ["-11 (double root)", "11 (double root)", "11 or -11", "0"],
-      "answer": "-11 (double root)",
+      "question": "Solve for $m$: $6m^2 - 36m + 54 = 0$.",
+      "choices": ["$m = 3$", "$m = -3$", "$m = 3, m = 3$", "$m = -3, m = -3$"],
+      "answer": "$m = 3$",
       "points": 25
     },
     {
       "id": 159,
       "wave": 4,
-      "question": "Solve f² - 18f + 81 = 0.",
-      "choices": ["9 (double root)", "-9 (double root)", "9 or -9", "0"],
-      "answer": "9 (double root)",
+      "question": "Solve for $n$: $3n^2 - 3n - 6 = 0$.",
+      "choices": [
+        "$n = 2, n = -1$",
+        "$n = -2, n = 1$",
+        "$n = 2, n = 1$",
+        "$n = -2, n = -1$"
+      ],
+      "answer": "$n = 2, n = -1$",
       "points": 25
     },
     {
       "id": 160,
       "wave": 4,
-      "question": "Solve g² + 16g + 64 = 0.",
-      "choices": ["-8 (double root)", "8 (double root)", "8 or -8", "0"],
-      "answer": "-8 (double root)",
+      "question": "Solve for $p$: $2p^2 + 18p + 36 = 0$.",
+      "choices": [
+        "$p = -3, p = -6$",
+        "$p = 3, p = 6$",
+        "$p = -3, p = 6$",
+        "$p = 3, p = -6$"
+      ],
+      "answer": "$p = -3, p = -6$",
       "points": 25
     },
-
     {
       "id": 161,
-      "wave": 5,
-      "question": "Solve 12x² + 5x - 2 = 0.",
-      "choices": ["-2/3 or 1/4", "2/3 or -1/4", "-2/3 only", "1/4 only"],
-      "answer": "-2/3 or 1/4",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $q$: $q^3 + 6q^2 - 9q - 54 = 0$.",
+      "choices": [
+        "$q = -6, q = 3, q = -3$",
+        "$q = 6, q = 3, q = -3$",
+        "$q = -6, q = 3$",
+        "$q = -6, q = -3$"
+      ],
+      "answer": "$q = -6, q = 3, q = -3$",
+      "points": 25
     },
     {
       "id": 162,
-      "wave": 5,
-      "question": "Solve 15y² - 7y - 4 = 0.",
-      "choices": ["4/5 or -1/3", "-4/5 or 1/3", "4/5 only", "-1/3 only"],
-      "answer": "4/5 or -1/3",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $r$: $r^2 + 19r = -84$.",
+      "choices": [
+        "$r = -7, r = -12$",
+        "$r = 7, r = 12$",
+        "$r = -7, r = 12$",
+        "$r = 7, r = -12$"
+      ],
+      "answer": "$r = -7, r = -12$",
+      "points": 25
     },
     {
       "id": 163,
-      "wave": 5,
-      "question": "Solve 18z² + 9z - 20 = 0.",
-      "choices": ["-4/3 or 5/6", "4/3 or -5/6", "-4/3 only", "5/6 only"],
-      "answer": "-4/3 or 5/6",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $s$: $s^2 = 20s - 96$.",
+      "choices": [
+        "$s = 8, s = 12$",
+        "$s = -8, s = -12$",
+        "$s = 8, s = -12$",
+        "$s = -8, s = 12$"
+      ],
+      "answer": "$s = 8, s = 12$",
+      "points": 25
     },
     {
       "id": 164,
-      "wave": 5,
-      "question": "Solve 20a² - 31a + 12 = 0.",
-      "choices": ["3/4 or 4/5", "-3/4 or -4/5", "3/4 only", "4/5 only"],
-      "answer": "3/4 or 4/5",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $t$: $5t^2 - 35t + 60 = 0$.",
+      "choices": [
+        "$t = 3, t = 4$",
+        "$t = -3, t = -4$",
+        "$t = 3, t = -4$",
+        "$t = -3, t = 4$"
+      ],
+      "answer": "$t = 3, t = 4$",
+      "points": 25
     },
     {
       "id": 165,
-      "wave": 5,
-      "question": "Solve 24b² + 2b - 15 = 0.",
-      "choices": ["-5/6 or 3/4", "5/6 or -3/4", "-5/6 only", "3/4 only"],
-      "answer": "-5/6 or 3/4",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $u$: $u^2 + 25u + 100 = 0$.",
+      "choices": [
+        "$u = -5, u = -20$",
+        "$u = 5, u = 20$",
+        "$u = -5, u = 20$",
+        "$u = 5, u = -20$"
+      ],
+      "answer": "$u = -5, u = -20$",
+      "points": 25
     },
     {
       "id": 166,
-      "wave": 5,
-      "question": "Solve 30c² - 23c - 14 = 0.",
-      "choices": ["7/6 or -2/5", "-7/6 or 2/5", "7/6 only", "-2/5 only"],
-      "answer": "7/6 or -2/5",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $v$: $v^3 - 2v^2 - 25v + 50 = 0$.",
+      "choices": [
+        "$v = 2, v = 5, v = -5$",
+        "$v = -2, v = 5, v = -5$",
+        "$v = 2, v = 5$",
+        "$v = 2, v = -5$"
+      ],
+      "answer": "$v = 2, v = 5, v = -5$",
+      "points": 25
     },
     {
       "id": 167,
-      "wave": 5,
-      "question": "Solve 36d² + 12d - 35 = 0.",
-      "choices": ["5/6 or -7/6", "-5/6 or 7/6", "5/6 only", "-7/6 only"],
-      "answer": "5/6 or -7/6",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $w$: $7w^2 + 42w + 63 = 0$.",
+      "choices": ["$w = -3$", "$w = 3$", "$w = -3, w = -3$", "$w = 3, w = 3$"],
+      "answer": "$w = -3$",
+      "points": 25
     },
     {
       "id": 168,
-      "wave": 5,
-      "question": "Solve 40e² - 26e + 3 = 0.",
-      "choices": ["1/4 or 3/10", "-1/4 or -3/10", "1/4 only", "3/10 only"],
-      "answer": "1/4 or 3/10",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $x$: $x^2 + 21x = -90$.",
+      "choices": [
+        "$x = -6, x = -15$",
+        "$x = 6, x = 15$",
+        "$x = -6, x = 15$",
+        "$x = 6, x = -15$"
+      ],
+      "answer": "$x = -6, x = -15$",
+      "points": 25
     },
     {
       "id": 169,
-      "wave": 5,
-      "question": "Solve 42f² + f - 30 = 0.",
-      "choices": ["5/6 or -6/7", "-5/6 or 6/7", "5/6 only", "-6/7 only"],
-      "answer": "5/6 or -6/7",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $y$: $y^2 = 22y - 121$.",
+      "choices": [
+        "$y = 11$",
+        "$y = -11$",
+        "$y = 11, y = 11$",
+        "$y = -11, y = -11$"
+      ],
+      "answer": "$y = 11$",
+      "points": 25
     },
     {
       "id": 170,
-      "wave": 5,
-      "question": "Solve 48g² - 22g - 15 = 0.",
-      "choices": ["3/4 or -5/8", "-3/4 or 5/8", "3/4 only", "-5/8 only"],
-      "answer": "3/4 or -5/8",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $z$: $2z^2 - 30z + 100 = 0$.",
+      "choices": [
+        "$z = 5, z = 10$",
+        "$z = -5, z = -10$",
+        "$z = 5, z = -10$",
+        "$z = -5, z = 10$"
+      ],
+      "answer": "$z = 5, z = 10$",
+      "points": 25
     },
     {
       "id": 171,
-      "wave": 5,
-      "question": "Solve 50h² + 35h + 6 = 0.",
-      "choices": ["-2/5 or -3/10", "2/5 or 3/10", "-2/5 only", "-3/10 only"],
-      "answer": "-2/5 or -3/10",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $a$: $a^3 + 5a^2 - 9a - 45 = 0$.",
+      "choices": [
+        "$a = -5, a = 3, a = -3$",
+        "$a = 5, a = 3, a = -3$",
+        "$a = -5, a = 3$",
+        "$a = -5, a = -3$"
+      ],
+      "answer": "$a = -5, a = 3, a = -3$",
+      "points": 25
     },
     {
       "id": 172,
-      "wave": 5,
-      "question": "Solve 54k² - 39k + 6 = 0.",
-      "choices": ["2/3 or 1/6", "-2/3 or -1/6", "2/3 only", "1/6 only"],
-      "answer": "2/3 or 1/6",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $b$: $8b^2 + 48b + 72 = 0$.",
+      "choices": ["$b = -3$", "$b = 3$", "$b = -3, b = -3$", "$b = 3, b = 3$"],
+      "answer": "$b = -3$",
+      "points": 25
     },
     {
       "id": 173,
-      "wave": 5,
-      "question": "Solve 60m² + 7m - 6 = 0.",
-      "choices": ["-3/4 or 2/5", "3/4 or -2/5", "-3/4 only", "2/5 only"],
-      "answer": "-3/4 or 2/5",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $c$: $c^2 + 23c = -120$.",
+      "choices": [
+        "$c = -8, c = -15$",
+        "$c = 8, c = 15$",
+        "$c = -8, c = 15$",
+        "$c = 8, c = -15$"
+      ],
+      "answer": "$c = -8, c = -15$",
+      "points": 25
     },
     {
       "id": 174,
-      "wave": 5,
-      "question": "Solve 63n² - 40n + 25 = 0.",
+      "wave": 4,
+      "question": "Solve for $d$: $d^2 = 24d - 144$.",
       "choices": [
-        "5/7 (double root)",
-        "-5/7 (double root)",
-        "5/7 or -5/7",
-        "0"
+        "$d = 12$",
+        "$d = -12$",
+        "$d = 12, d = 12$",
+        "$d = -12, d = -12$"
       ],
-      "answer": "5/7 (double root)",
-      "points": 30
+      "answer": "$d = 12$",
+      "points": 25
     },
     {
       "id": 175,
-      "wave": 5,
-      "question": "Solve 72p² + 6p - 35 = 0.",
-      "choices": ["5/6 or -7/12", "-5/6 or 7/12", "5/6 only", "-7/12 only"],
-      "answer": "5/6 or -7/12",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $e$: $3e^2 - 39e + 126 = 0$.",
+      "choices": [
+        "$e = 6, e = 7$",
+        "$e = -6, e = -7$",
+        "$e = 6, e = -7$",
+        "$e = -6, e = 7$"
+      ],
+      "answer": "$e = 6, e = 7$",
+      "points": 25
     },
     {
       "id": 176,
-      "wave": 5,
-      "question": "Solve 75q² - 30q + 3 = 0.",
+      "wave": 4,
+      "question": "Solve for $f$: $f^3 - 3f^2 - 4f + 12 = 0$.",
       "choices": [
-        "1/5 or 1/5",
-        "1/5 or 3/5",
-        "1/5 (double root)",
-        "3/5 (double root)"
+        "$f = 3, f = 2, f = -2$",
+        "$f = -3, f = 2, f = -2$",
+        "$f = 3, f = 2$",
+        "$f = 3, f = -2$"
       ],
-      "answer": "1/5 (double root)",
-      "points": 30
+      "answer": "$f = 3, f = 2, f = -2$",
+      "points": 25
     },
     {
       "id": 177,
-      "wave": 5,
-      "question": "Solve 80r² - 8r - 9 = 0.",
-      "choices": ["3/4 or -3/10", "-3/4 or 3/10", "3/4 only", "-3/10 only"],
-      "answer": "3/4 or -3/10",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $g$: $g^2 + 25g = -100$.",
+      "choices": [
+        "$g = -5, g = -20$",
+        "$g = 5, g = 20$",
+        "$g = -5, g = 20$",
+        "$g = 5, g = -20$"
+      ],
+      "answer": "$g = -5, g = -20$",
+      "points": 25
     },
     {
       "id": 178,
-      "wave": 5,
-      "question": "Solve 90s² + 57s + 7 = 0.",
-      "choices": ["-1/3 or -7/30", "1/3 or 7/30", "-1/3 only", "-7/30 only"],
-      "answer": "-1/3 or -7/30",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $h$: $h^2 = 26h - 169$.",
+      "choices": [
+        "$h = 13$",
+        "$h = -13$",
+        "$h = 13, h = 13$",
+        "$h = -13, h = -13$"
+      ],
+      "answer": "$h = 13$",
+      "points": 25
     },
     {
       "id": 179,
-      "wave": 5,
-      "question": "Solve 96t² - 4t - 15 = 0.",
-      "choices": ["5/8 or -3/4", "-5/8 or 3/4", "5/8 only", "-3/4 only"],
-      "answer": "5/8 or -3/4",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $i$: $4i^2 - 44i + 120 = 0$.",
+      "choices": [
+        "$i = 5, i = 6$",
+        "$i = -5, i = -6$",
+        "$i = 5, i = -6$",
+        "$i = -5, i = 6$"
+      ],
+      "answer": "$i = 5, i = 6$",
+      "points": 25
     },
     {
       "id": 180,
-      "wave": 5,
-      "question": "Solve 100u² - 140u + 49 = 0.",
+      "wave": 4,
+      "question": "Solve for $j$: $j^3 + 2j^2 - 4j - 8 = 0$.",
       "choices": [
-        "7/10 (double root)",
-        "-7/10 (double root)",
-        "7/10 or -7/10",
-        "0"
+        "$j = -2, j = 2$",
+        "$j = 2$",
+        "$j = -2$",
+        "$j = -2, j = 2, j = 2$"
       ],
-      "answer": "7/10 (double root)",
-      "points": 30
+      "answer": "$j = -2, j = 2$",
+      "points": 25
     },
     {
       "id": 181,
-      "wave": 5,
-      "question": "Solve 108v² + 21v - 4 = 0.",
-      "choices": ["-1/4 or 4/27", "1/4 or -4/27", "-1/4 only", "4/27 only"],
-      "answer": "-1/4 or 4/27",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $k$: $k^2 + 26k = -169$.",
+      "choices": [
+        "$k = -13$",
+        "$k = 13$",
+        "$k = -13, k = -13$",
+        "$k = 13, k = 13$"
+      ],
+      "answer": "$k = -13$",
+      "points": 25
     },
     {
       "id": 182,
-      "wave": 5,
-      "question": "Solve 120w² + 14w - 15 = 0.",
-      "choices": ["-5/6 or 3/4", "5/6 or -3/4", "-5/6 only", "3/4 only"],
-      "answer": "-5/6 or 3/4",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $l$: $l^2 = 28l - 196$.",
+      "choices": [
+        "$l = 14$",
+        "$l = -14$",
+        "$l = 14, l = 14$",
+        "$l = -14, l = -14$"
+      ],
+      "answer": "$l = 14$",
+      "points": 25
     },
     {
       "id": 183,
-      "wave": 5,
-      "question": "Solve 125x² - 50x + 5 = 0.",
+      "wave": 4,
+      "question": "Solve for $m$: $9m^2 - 9m - 18 = 0$.",
       "choices": [
-        "1/5 (double root)",
-        "-1/5 (double root)",
-        "1/5 or -1/5",
-        "0"
+        "$m = 2, m = -1$",
+        "$m = -2, m = 1$",
+        "$m = 2, m = 1$",
+        "$m = -2, m = -1$"
       ],
-      "answer": "1/5 (double root)",
-      "points": 30
+      "answer": "$m = 2, m = -1$",
+      "points": 25
     },
     {
       "id": 184,
-      "wave": 5,
-      "question": "Solve 128y² + 24y - 35 = 0.",
-      "choices": ["5/8 or -7/16", "-5/8 or 7/16", "5/8 only", "-7/16 only"],
-      "answer": "5/8 or -7/16",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $n$: $n^2 + 27n + 182 = 0$.",
+      "choices": [
+        "$n = -13, n = -14$",
+        "$n = 13, n = 14$",
+        "$n = -13, n = 14$",
+        "$n = 13, n = -14$"
+      ],
+      "answer": "$n = -13, n = -14$",
+      "points": 25
     },
     {
       "id": 185,
-      "wave": 5,
-      "question": "Solve 144z² - 120z + 25 = 0.",
+      "wave": 4,
+      "question": "Solve for $p$: $p^3 - 4p^2 - 9p + 36 = 0$.",
       "choices": [
-        "5/12 (double root)",
-        "-5/12 (double root)",
-        "5/12 or -5/12",
-        "0"
+        "$p = 4, p = 3, p = -3$",
+        "$p = -4, p = 3, p = -3$",
+        "$p = 4, p = 3$",
+        "$p = 4, p = -3$"
       ],
-      "answer": "5/12 (double root)",
-      "points": 30
+      "answer": "$p = 4, p = 3, p = -3$",
+      "points": 25
     },
     {
       "id": 186,
-      "wave": 5,
-      "question": "Solve 150a² + 55a + 5 = 0.",
-      "choices": ["-1/3 or -1/10", "1/3 or 1/10", "-1/3 only", "-1/10 only"],
-      "answer": "-1/3 or -1/10",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $q$: $q^2 + 28q = -196$.",
+      "choices": [
+        "$q = -14$",
+        "$q = 14$",
+        "$q = -14, q = -14$",
+        "$q = 14, q = 14$"
+      ],
+      "answer": "$q = -14$",
+      "points": 25
     },
     {
       "id": 187,
-      "wave": 5,
-      "question": "Solve 160b² - 48b + 3 = 0.",
-      "choices": ["3/20 or 1/8", "-3/20 or -1/8", "3/20 only", "1/8 only"],
-      "answer": "3/20 or 1/8",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $r$: $r^2 = 29r - 210$.",
+      "choices": [
+        "$r = 14, r = 15$",
+        "$r = -14, r = -15$",
+        "$r = 14, r = -15$",
+        "$r = -14, r = 15$"
+      ],
+      "answer": "$r = 14, r = 15$",
+      "points": 25
     },
     {
       "id": 188,
-      "wave": 5,
-      "question": "Solve 180c² + 33c - 10 = 0.",
-      "choices": ["-5/12 or 2/15", "5/12 or -2/15", "-5/12 only", "2/15 only"],
-      "answer": "-5/12 or 2/15",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $s$: $6s^2 - 42s + 72 = 0$.",
+      "choices": [
+        "$s = 3, s = 4$",
+        "$s = -3, s = -4$",
+        "$s = 3, s = -4$",
+        "$s = -3, s = 4$"
+      ],
+      "answer": "$s = 3, s = 4$",
+      "points": 25
     },
     {
       "id": 189,
-      "wave": 5,
-      "question": "Solve 200d² - 30d + 1 = 0.",
+      "wave": 4,
+      "question": "Solve for $t$: $t^2 + 29t + 210 = 0$.",
       "choices": [
-        "1/10 or 1/10",
-        "1/10 or 1/20",
-        "1/10 (double root)",
-        "1/20 (double root)"
+        "$t = -14, t = -15$",
+        "$t = 14, t = 15$",
+        "$t = -14, t = 15$",
+        "$t = 14, t = -15$"
       ],
-      "answer": "1/10 or 1/20",
-      "points": 30
+      "answer": "$t = -14, t = -15$",
+      "points": 25
     },
     {
       "id": 190,
-      "wave": 5,
-      "question": "Solve 225e² - 120e + 16 = 0.",
+      "wave": 4,
+      "question": "Solve for $u$: $u^3 + 3u^2 - 25u - 75 = 0$.",
       "choices": [
-        "4/15 (double root)",
-        "-4/15 (double root)",
-        "4/15 or -4/15",
-        "0"
+        "$u = -3, u = 5, u = -5$",
+        "$u = 3, u = 5, u = -5$",
+        "$u = -3, u = 5$",
+        "$u = -3, u = -5$"
       ],
-      "answer": "4/15 (double root)",
-      "points": 30
+      "answer": "$u = -3, u = 5, u = -5$",
+      "points": 25
     },
     {
       "id": 191,
-      "wave": 5,
-      "question": "Solve 240f² + 4f - 21 = 0.",
-      "choices": ["-7/12 or 3/10", "7/12 or -3/10", "-7/12 only", "3/10 only"],
-      "answer": "-7/12 or 3/10",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $v$: $v^2 + 30v + 225 = 0$.",
+      "choices": [
+        "$v = -15$",
+        "$v = 15$",
+        "$v = -15, v = -15$",
+        "$v = 15, v = 15$"
+      ],
+      "answer": "$v = -15$",
+      "points": 25
     },
     {
       "id": 192,
-      "wave": 5,
-      "question": "Solve 250g² - 50g + 2 = 0.",
+      "wave": 4,
+      "question": "Solve for $w$: $10w^2 + 50w + 60 = 0$.",
       "choices": [
-        "1/5 or 1/25",
-        "1/5 (double root)",
-        "1/5 or -1/5",
-        "1/25 or -1/25"
+        "$w = -2, w = -3$",
+        "$w = 2, w = 3$",
+        "$w = -2, w = 3$",
+        "$w = 2, w = -3$"
       ],
-      "answer": "1/5 or 1/25",
-      "points": 30
+      "answer": "$w = -2, w = -3$",
+      "points": 25
     },
     {
       "id": 193,
-      "wave": 5,
-      "question": "Solve 288h² - 24h - 5 = 0.",
-      "choices": ["5/12 or -1/6", "-5/12 or 1/6", "5/12 only", "-1/6 only"],
-      "answer": "5/12 or -1/6",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $x$: $x^2 + 30x = -225$.",
+      "choices": [
+        "$x = -15$",
+        "$x = 15$",
+        "$x = -15, x = -15$",
+        "$x = 15, x = 15$"
+      ],
+      "answer": "$x = -15$",
+      "points": 25
     },
     {
       "id": 194,
-      "wave": 5,
-      "question": "Solve 300k² + 110k + 10 = 0.",
-      "choices": ["-1/3 or -1/10", "-1/5 or -1/6", "-1/3 only", "-1/10 only"],
-      "answer": "-1/3 or -1/10",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $y$: $y^2 = 31y - 240$.",
+      "choices": [
+        "$y = 15, y = 16$",
+        "$y = -15, y = -16$",
+        "$y = 15, y = -16$",
+        "$y = -15, y = 16$"
+      ],
+      "answer": "$y = 15, y = 16$",
+      "points": 25
     },
     {
       "id": 195,
-      "wave": 5,
-      "question": "Solve 320m² - 72m + 4 = 0.",
-      "choices": ["1/4 or 1/20", "1/8 or 1/10", "1/4 only", "1/20 only"],
-      "answer": "1/4 or 1/20",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $z$: $2z^2 - 34z + 144 = 0$.",
+      "choices": [
+        "$z = 8, z = 9$",
+        "$z = -8, z = -9$",
+        "$z = 8, z = -9$",
+        "$z = -8, z = 9$"
+      ],
+      "answer": "$z = 8, z = 9$",
+      "points": 25
     },
     {
       "id": 196,
-      "wave": 5,
-      "question": "Solve 360n² + 42n - 5 = 0.",
-      "choices": ["-5/12 or 1/6", "5/12 or -1/6", "-5/12 only", "1/6 only"],
-      "answer": "-5/12 or 1/6",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $a$: $a^3 - 5a^2 - 4a + 20 = 0$.",
+      "choices": [
+        "$a = 5, a = 2, a = -2$",
+        "$a = -5, a = 2, a = -2$",
+        "$a = 5, a = 2$",
+        "$a = 5, a = -2$"
+      ],
+      "answer": "$a = 5, a = 2, a = -2$",
+      "points": 25
     },
     {
       "id": 197,
-      "wave": 5,
-      "question": "Solve 400p² - 120p + 9 = 0.",
+      "wave": 4,
+      "question": "Solve for $b$: $b^2 + 31b = -240$.",
       "choices": [
-        "3/20 (double root)",
-        "-3/20 (double root)",
-        "3/20 or -3/20",
-        "0"
+        "$b = -15, b = -16$",
+        "$b = 15, b = 16$",
+        "$b = -15, b = 16$",
+        "$b = 15, b = -16$"
       ],
-      "answer": "3/20 (double root)",
-      "points": 30
+      "answer": "$b = -15, b = -16$",
+      "points": 25
     },
     {
       "id": 198,
-      "wave": 5,
-      "question": "Solve 450q² + 60q + 2 = 0.",
+      "wave": 4,
+      "question": "Solve for $c$: $c^2 = 32c - 256$.",
       "choices": [
-        "-1/15 or -1/15",
-        "-1/15 or -2/15",
-        "-1/15 (double root)",
-        "-2/15 (double root)"
+        "$c = 16$",
+        "$c = -16$",
+        "$c = 16, c = 16$",
+        "$c = -16, c = -16$"
       ],
-      "answer": "-1/15 or -2/15",
-      "points": 30
+      "answer": "$c = 16$",
+      "points": 25
     },
     {
       "id": 199,
-      "wave": 5,
-      "question": "Solve 500r² - 90r + 4 = 0.",
-      "choices": ["1/10 or 2/25", "1/5 or 1/25", "1/10 only", "2/25 only"],
-      "answer": "1/10 or 2/25",
-      "points": 30
+      "wave": 4,
+      "question": "Solve for $d$: $3d^2 - 45d + 168 = 0$.",
+      "choices": [
+        "$d = 7, d = 8$",
+        "$d = -7, d = -8$",
+        "$d = 7, d = -8$",
+        "$d = -7, d = 8$"
+      ],
+      "answer": "$d = 7, d = 8$",
+      "points": 25
     },
     {
       "id": 200,
+      "wave": 4,
+      "question": "Solve for $e$: $e^3 + 4e^2 - 16e - 64 = 0$.",
+      "choices": [
+        "$e = -4, e = 4$",
+        "$e = 4$",
+        "$e = -4$",
+        "$e = -4, e = 4, e = 4$"
+      ],
+      "answer": "$e = -4, e = 4$",
+      "points": 25
+    },
+    {
+      "id": 201,
       "wave": 5,
-      "question": "Solve 600s² + 70s - 12 = 0.",
-      "choices": ["-3/20 or 2/15", "3/20 or -2/15", "-3/20 only", "2/15 only"],
-      "answer": "-3/20 or 2/15",
+      "question": "Solve for $x$: $x^3 + x^2 - 4x - 4 = 0$.",
+      "choices": [
+        "$x = -1, x = 2, x = -2$",
+        "$x = 1, x = 2, x = -2$",
+        "$x = -1, x = 2$",
+        "$x = -1, x = -2$"
+      ],
+      "answer": "$x = -1, x = 2, x = -2$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Solve for $y$: $2y^3 - 8y^2 + 18y - 72 = 0$.",
+      "choices": [
+        "$y = 4$",
+        "$y = -4$",
+        "$y = 4, y = \\pm 3i$",
+        "$y = -4, y = \\pm 3i$"
+      ],
+      "answer": "$y = 4$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Solve for $a$: $3a^2 - 3a - 36 = 0$.",
+      "choices": [
+        "$a = 4, a = -3$",
+        "$a = -4, a = 3$",
+        "$a = 4, a = 3$",
+        "$a = -4, a = -3$"
+      ],
+      "answer": "$a = 4, a = -3$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Solve for $b$: $5b^2 - 50b + 125 = 0$.",
+      "choices": ["$b = 5$", "$b = -5$", "$b = 5, b = 5$", "$b = -5, b = -5$"],
+      "answer": "$b = 5$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Solve for $c$: $2x^2 + 20x + 48 = 0$.",
+      "choices": [
+        "$x = -4, x = -6$",
+        "$x = 4, x = 6$",
+        "$x = -4, x = 6$",
+        "$x = 4, x = -6$"
+      ],
+      "answer": "$x = -4, x = -6$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Solve for $x$: $x^3 + 4x^2 - 9x - 36 = 0$.",
+      "choices": [
+        "$x = -4, x = 3, x = -3$",
+        "$x = 4, x = 3, x = -3$",
+        "$x = -4, x = 3$",
+        "$x = -4, x = -3$"
+      ],
+      "answer": "$x = -4, x = 3, x = -3$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Solve for $y$: $y^2 = 33y - 270$.",
+      "choices": [
+        "$y = 15, y = 18$",
+        "$y = -15, y = -18$",
+        "$y = 15, y = -18$",
+        "$y = -15, y = 18$"
+      ],
+      "answer": "$y = 15, y = 18$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Solve for $m$: $m^2 + 34m + 289 = 0$.",
+      "choices": [
+        "$m = -17$",
+        "$m = 17$",
+        "$m = -17, m = -17$",
+        "$m = 17, m = 17$"
+      ],
+      "answer": "$m = -17$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Solve for $n$: $4n^2 - 52n + 168 = 0$.",
+      "choices": [
+        "$n = 6, n = 7$",
+        "$n = -6, n = -7$",
+        "$n = 6, n = -7$",
+        "$n = -6, n = 7$"
+      ],
+      "answer": "$n = 6, n = 7$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Solve for $p$: $p^3 + 5p^2 - 4p - 20 = 0$.",
+      "choices": [
+        "$p = -5, p = 2, p = -2$",
+        "$p = 5, p = 2, p = -2$",
+        "$p = -5, p = 2$",
+        "$p = -5, p = -2$"
+      ],
+      "answer": "$p = -5, p = 2, p = -2$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Solve for $q$: $q^2 + 35q = -300$.",
+      "choices": [
+        "$q = -15, q = -20$",
+        "$q = 15, q = 20$",
+        "$q = -15, q = 20$",
+        "$q = 15, q = -20$"
+      ],
+      "answer": "$q = -15, q = -20$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Solve for $r$: $r^2 = 36r - 324$.",
+      "choices": [
+        "$r = 18$",
+        "$r = -18$",
+        "$r = 18, r = 18$",
+        "$r = -18, r = -18$"
+      ],
+      "answer": "$r = 18$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Solve for $s$: $6s^2 - 66s + 180 = 0$.",
+      "choices": [
+        "$s = 5, s = 6$",
+        "$s = -5, s = -6$",
+        "$s = 5, s = -6$",
+        "$s = -5, s = 6$"
+      ],
+      "answer": "$s = 5, s = 6$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Solve for $t$: $t^2 + 36t + 324 = 0$.",
+      "choices": [
+        "$t = -18$",
+        "$t = 18$",
+        "$t = -18, t = -18$",
+        "$t = 18, t = 18$"
+      ],
+      "answer": "$t = -18$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Solve for $u$: $u^3 - 6u^2 - 9u + 54 = 0$.",
+      "choices": [
+        "$u = 6, u = 3, u = -3$",
+        "$u = -6, u = 3, u = -3$",
+        "$u = 6, u = 3$",
+        "$u = 6, u = -3$"
+      ],
+      "answer": "$u = 6, u = 3, u = -3$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Solve for $v$: $v^2 + 37v = -342$.",
+      "choices": [
+        "$v = -18, v = -19$",
+        "$v = 18, v = 19$",
+        "$v = -18, v = 19$",
+        "$v = 18, v = -19$"
+      ],
+      "answer": "$v = -18, v = -19$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Solve for $w$: $w^2 = 38w - 361$.",
+      "choices": [
+        "$w = 19$",
+        "$w = -19$",
+        "$w = 19, w = 19$",
+        "$w = -19, w = -19$"
+      ],
+      "answer": "$w = 19$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Solve for $x$: $2x^2 - 36x + 162 = 0$.",
+      "choices": ["$x = 9$", "$x = -9$", "$x = 9, x = 9$", "$x = -9, x = -9$"],
+      "answer": "$x = 9$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Solve for $y$: $y^3 + 6y^2 - 4y - 24 = 0$.",
+      "choices": [
+        "$y = -6, y = 2, y = -2$",
+        "$y = 6, y = 2, y = -2$",
+        "$y = -6, y = 2$",
+        "$y = -6, y = -2$"
+      ],
+      "answer": "$y = -6, y = 2, y = -2$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Solve for $z$: $z^2 + 39z = -380$.",
+      "choices": [
+        "$z = -19, z = -20$",
+        "$z = 19, z = 20$",
+        "$z = -19, z = 20$",
+        "$z = 19, z = -20$"
+      ],
+      "answer": "$z = -19, z = -20$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Solve for $a$: $a^2 = 40a - 400$.",
+      "choices": [
+        "$a = 20$",
+        "$a = -20$",
+        "$a = 20, a = 20$",
+        "$a = -20, a = -20$"
+      ],
+      "answer": "$a = 20$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Solve for $b$: $3b^2 - 48b + 192 = 0$.",
+      "choices": ["$b = 8$", "$b = -8$", "$b = 8, b = 8$", "$b = -8, b = -8$"],
+      "answer": "$b = 8$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Solve for $c$: $c^3 - 7c^2 - 4c + 28 = 0$.",
+      "choices": [
+        "$c = 7, c = 2, c = -2$",
+        "$c = -7, c = 2, c = -2$",
+        "$c = 7, c = 2$",
+        "$c = 7, c = -2$"
+      ],
+      "answer": "$c = 7, c = 2, c = -2$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Solve for $d$: $d^2 + 40d = -400$.",
+      "choices": [
+        "$d = -20$",
+        "$d = 20$",
+        "$d = -20, d = -20$",
+        "$d = 20, d = 20$"
+      ],
+      "answer": "$d = -20$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Solve for $e$: $e^2 = 41e - 420$.",
+      "choices": [
+        "$e = 20, e = 21$",
+        "$e = -20, e = -21$",
+        "$e = 20, e = -21$",
+        "$e = -20, e = 21$"
+      ],
+      "answer": "$e = 20, e = 21$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Solve for $f$: $4f^2 - 60f + 225 = 0$.",
+      "choices": [
+        "$f = 7.5$",
+        "$f = -7.5$",
+        "$f = 7.5, f = 7.5$",
+        "$f = -7.5, f = -7.5$"
+      ],
+      "answer": "$f = 7.5$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Solve for $g$: $g^3 + 7g^2 - 4g - 28 = 0$.",
+      "choices": [
+        "$g = -7, g = 2, g = -2$",
+        "$g = 7, g = 2, g = -2$",
+        "$g = -7, g = 2$",
+        "$g = -7, g = -2$"
+      ],
+      "answer": "$g = -7, g = 2, g = -2$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Solve for $h$: $h^2 + 41h = -420$.",
+      "choices": [
+        "$h = -20, h = -21$",
+        "$h = 20, h = 21$",
+        "$h = -20, h = 21$",
+        "$h = 20, h = -21$"
+      ],
+      "answer": "$h = -20, h = -21$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Solve for $i$: $i^2 = 42i - 441$.",
+      "choices": [
+        "$i = 21$",
+        "$i = -21$",
+        "$i = 21, i = 21$",
+        "$i = -21, i = -21$"
+      ],
+      "answer": "$i = 21$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Solve for $j$: $5j^2 - 70j + 245 = 0$.",
+      "choices": ["$j = 7$", "$j = -7$", "$j = 7, j = 7$", "$j = -7, j = -7$"],
+      "answer": "$j = 7$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Solve for $k$: $k^3 - 8k^2 - 9k + 72 = 0$.",
+      "choices": [
+        "$k = 8, k = 3, k = -3$",
+        "$k = -8, k = 3, k = -3$",
+        "$k = 8, k = 3$",
+        "$k = 8, k = -3$"
+      ],
+      "answer": "$k = 8, k = 3, k = -3$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Solve for $l$: $l^2 + 42l = -441$.",
+      "choices": [
+        "$l = -21$",
+        "$l = 21$",
+        "$l = -21, l = -21$",
+        "$l = 21, l = 21$"
+      ],
+      "answer": "$l = -21$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Solve for $m$: $m^2 = 43m - 462$.",
+      "choices": [
+        "$m = 21, m = 22$",
+        "$m = -21, m = -22$",
+        "$m = 21, m = -22$",
+        "$m = -21, m = 22$"
+      ],
+      "answer": "$m = 21, m = 22$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Solve for $n$: $2n^2 - 44n + 242 = 0$.",
+      "choices": [
+        "$n = 11$",
+        "$n = -11$",
+        "$n = 11, n = 11$",
+        "$n = -11, n = -11$"
+      ],
+      "answer": "$n = 11$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Solve for $p$: $p^3 + 8p^2 - 4p - 32 = 0$.",
+      "choices": [
+        "$p = -8, p = 2, p = -2$",
+        "$p = 8, p = 2, p = -2$",
+        "$p = -8, p = 2$",
+        "$p = -8, p = -2$"
+      ],
+      "answer": "$p = -8, p = 2, p = -2$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Solve for $q$: $q^2 + 43q = -462$.",
+      "choices": [
+        "$q = -21, q = -22$",
+        "$q = 21, q = 22$",
+        "$q = -21, q = 22$",
+        "$q = 21, q = -22$"
+      ],
+      "answer": "$q = -21, q = -22$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Solve for $r$: $r^2 = 44r - 484$.",
+      "choices": [
+        "$r = 22$",
+        "$r = -22$",
+        "$r = 22, r = 22$",
+        "$r = -22, r = -22$"
+      ],
+      "answer": "$r = 22$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Solve for $s$: $3s^2 - 51s + 216 = 0$.",
+      "choices": [
+        "$s = 8, s = 9$",
+        "$s = -8, s = -9$",
+        "$s = 8, s = -9$",
+        "$s = -8, s = 9$"
+      ],
+      "answer": "$s = 8, s = 9$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Solve for $t$: $t^3 - 9t^2 - 4t + 36 = 0$.",
+      "choices": [
+        "$t = 9, t = 2, t = -2$",
+        "$t = -9, t = 2, t = -2$",
+        "$t = 9, t = 2$",
+        "$t = 9, t = -2$"
+      ],
+      "answer": "$t = 9, t = 2, t = -2$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Solve for $u$: $u^2 + 45u = -500$.",
+      "choices": [
+        "$u = -20, u = -25$",
+        "$u = 20, u = 25$",
+        "$u = -20, u = 25$",
+        "$u = 20, u = -25$"
+      ],
+      "answer": "$u = -20, u = -25$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Solve for $v$: $v^2 = 46v - 529$.",
+      "choices": [
+        "$v = 23$",
+        "$v = -23$",
+        "$v = 23, v = 23$",
+        "$v = -23, v = -23$"
+      ],
+      "answer": "$v = 23$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Solve for $w$: $4w^2 - 68w + 289 = 0$.",
+      "choices": [
+        "$w = 8.5$",
+        "$w = -8.5$",
+        "$w = 8.5, w = 8.5$",
+        "$w = -8.5, w = -8.5$"
+      ],
+      "answer": "$w = 8.5$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Solve for $x$: $x^3 + 9x^2 - 4x - 36 = 0$.",
+      "choices": [
+        "$x = -9, x = 2, x = -2$",
+        "$x = 9, x = 2, x = -2$",
+        "$x = -9, x = 2$",
+        "$x = -9, x = -2$"
+      ],
+      "answer": "$x = -9, x = 2, x = -2$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Solve for $y$: $y^2 + 47y = -550$.",
+      "choices": [
+        "$y = -22, y = -25$",
+        "$y = 22, y = 25$",
+        "$y = -22, y = 25$",
+        "$y = 22, y = -25$"
+      ],
+      "answer": "$y = -22, y = -25$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Solve for $z$: $z^2 = 48z - 576$.",
+      "choices": [
+        "$z = 24$",
+        "$z = -24$",
+        "$z = 24, z = 24$",
+        "$z = -24, z = -24$"
+      ],
+      "answer": "$z = 24$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Solve for $a$: $5a^2 - 80a + 320 = 0$.",
+      "choices": ["$a = 8$", "$a = -8$", "$a = 8, a = 8$", "$a = -8, a = -8$"],
+      "answer": "$a = 8$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Solve for $b$: $b^3 - 10b^2 - 4b + 40 = 0$.",
+      "choices": [
+        "$b = 10, b = 2, b = -2$",
+        "$b = -10, b = 2, b = -2$",
+        "$b = 10, b = 2$",
+        "$b = 10, b = -2$"
+      ],
+      "answer": "$b = 10, b = 2, b = -2$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Solve for $c$: $c^2 + 49c = -600$.",
+      "choices": [
+        "$c = -24, c = -25$",
+        "$c = 24, c = 25$",
+        "$c = -24, c = 25$",
+        "$c = 24, c = -25$"
+      ],
+      "answer": "$c = -24, c = -25$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Solve for $d$: $d^2 = 50d - 625$.",
+      "choices": [
+        "$d = 25$",
+        "$d = -25$",
+        "$d = 25, d = 25$",
+        "$d = -25, d = -25$"
+      ],
+      "answer": "$d = 25$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Solve for $e$: $2e^2 - 50e + 312.5 = 0$.",
+      "choices": [
+        "$e = 12.5$",
+        "$e = -12.5$",
+        "$e = 12.5, e = 12.5$",
+        "$e = -12.5, e = -12.5$"
+      ],
+      "answer": "$e = 12.5$",
       "points": 30
     }
   ]

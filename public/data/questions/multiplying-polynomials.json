@@ -1,2248 +1,3132 @@
 {
-  "title": "Multiplying Polynomials",
-  "description": "Wave 1: Mastering basic multiplication of monomials and binomials.",
+  "title": "Multiplying Polynomials Challenge",
+  "description": "Master the art of multiplying various forms of polynomials.",
   "waves": 5,
-  "timePerQuestion": 30,
+  "timePerQuestion": 45,
   "questions": [
     {
       "id": 1,
       "wave": 1,
-      "question": "Multiply: 3x × 2x",
-      "choices": ["6x²", "5x", "6x", "5x²"],
-      "answer": "6x²",
+      "question": "Simplify: $2x(3x + 5)$",
+      "choices": ["$6x^2 + 5$", "$6x^2 + 10x$", "$6x + 10$", "$2x^2 + 10x$"],
+      "answer": "$6x^2 + 10x$",
       "points": 10
     },
     {
       "id": 2,
       "wave": 1,
-      "question": "Multiply: -4y × 5y",
-      "choices": ["-20y²", "20y²", "-9y", "9y²"],
-      "answer": "-20y²",
+      "question": "Simplify: $4(x - 7)$",
+      "choices": ["$4x - 7$", "$x - 28$", "$4x - 28$", "$4x + 28$"],
+      "answer": "$4x - 28$",
       "points": 10
     },
     {
       "id": 3,
       "wave": 1,
-      "question": "Multiply: 2a × 3b",
-      "choices": ["6ab", "5ab", "6a", "5b"],
-      "answer": "6ab",
+      "question": "Simplify: $-3y(y + 2)$",
+      "choices": ["$-3y^2 - 6y$", "$3y^2 + 6y$", "$-3y^2 + 6y$", "$3y + 2$"],
+      "answer": "$-3y^2 - 6y$",
       "points": 10
     },
     {
       "id": 4,
       "wave": 1,
-      "question": "Multiply: -5m × (-2n)",
-      "choices": ["10mn", "-10mn", "7mn", "-7m"],
-      "answer": "10mn",
+      "question": "Simplify: $x^2(x - 1)$",
+      "choices": ["$x^3 - 1$", "$x^2 - 1$", "$x^3 - x^2$", "$x^3 + x^2$"],
+      "answer": "$x^3 - x^2$",
       "points": 10
     },
     {
       "id": 5,
       "wave": 1,
-      "question": "Multiply: x × x²",
-      "choices": ["x³", "x²", "2x³", "2x²"],
-      "answer": "x³",
+      "question": "Simplify: $5a(2a - 3b)$",
+      "choices": [
+        "$10a^2 - 3b$",
+        "$10a^2 - 15ab$",
+        "$10a - 15b$",
+        "$5a^2 - 15ab$"
+      ],
+      "answer": "$10a^2 - 15ab$",
       "points": 10
     },
     {
       "id": 6,
       "wave": 1,
-      "question": "Multiply: 4p × 3p³",
-      "choices": ["12p⁴", "7p⁴", "12p³", "7p³"],
-      "answer": "12p⁴",
+      "question": "Simplify: $-p(p^2 + 4)$",
+      "choices": ["$-p^3 + 4p$", "$-p^3 - 4p$", "$p^3 + 4p$", "$-p^2 - 4p$"],
+      "answer": "$-p^3 - 4p$",
       "points": 10
     },
     {
       "id": 7,
       "wave": 1,
-      "question": "Multiply: 2q² × (-3q)",
-      "choices": ["-6q³", "6q³", "-q³", "5q³"],
-      "answer": "-6q³",
+      "question": "Simplify: $2m^2(m^3 - 6)$",
+      "choices": [
+        "$2m^5 - 6$",
+        "$2m^5 - 12m^2$",
+        "$2m^6 - 12m^2$",
+        "$2m^5 + 12m^2$"
+      ],
+      "answer": "$2m^5 - 12m^2$",
       "points": 10
     },
     {
       "id": 8,
       "wave": 1,
-      "question": "Multiply: -7r × r²",
-      "choices": ["-7r³", "7r³", "-6r³", "6r²"],
-      "answer": "-7r³",
+      "question": "Simplify: $xy(x + y)$",
+      "choices": ["$x^2y + xy^2$", "$x^2 + y^2$", "$xy + xy$", "$x^2y + y$"],
+      "answer": "$x^2y + xy^2$",
       "points": 10
     },
     {
       "id": 9,
       "wave": 1,
-      "question": "Multiply: 3s × 2s × s",
-      "choices": ["6s³", "5s³", "6s²", "5s²"],
-      "answer": "6s³",
+      "question": "Simplify: $7c(c - 10)$",
+      "choices": ["$7c - 70$", "$7c^2 - 10c$", "$7c^2 - 70c$", "$7c^2 + 70c$"],
+      "answer": "$7c^2 - 70c$",
       "points": 10
     },
     {
       "id": 10,
       "wave": 1,
-      "question": "Multiply: -t × 4t × (-t)",
-      "choices": ["4t³", "-4t³", "3t³", "-3t²"],
-      "answer": "4t³",
+      "question": "Simplify: $-5(2x + 3)$",
+      "choices": ["$-10x - 15$", "$10x + 15$", "$-10x + 15$", "$-10x - 3$"],
+      "answer": "$-10x - 15$",
       "points": 10
     },
     {
       "id": 11,
       "wave": 1,
-      "question": "Multiply: 2x × (3x + 1)",
-      "choices": ["6x² + 2x", "5x + 1", "6x + 2", "5x² + 2x"],
-      "answer": "6x² + 2x",
+      "question": "Simplify: $a^3(a^2 + a)$",
+      "choices": ["$a^5 + a^3$", "$a^6 + a^3$", "$a^5 + a^4$", "$a^6 + a^4$"],
+      "answer": "$a^5 + a^4$",
       "points": 10
     },
     {
       "id": 12,
       "wave": 1,
-      "question": "Multiply: -4y × (y - 2)",
-      "choices": ["-4y² + 8y", "4y² - 8y", "-3y + 8", "-5y² - 8y"],
-      "answer": "-4y² + 8y",
+      "question": "Simplify: $3ab(2a - b)$",
+      "choices": [
+        "$6a^2b - 3ab^2$",
+        "$6a^2b + 3ab^2$",
+        "$3a^2b - 3ab^2$",
+        "$6ab - 3ab$"
+      ],
+      "answer": "$6a^2b - 3ab^2$",
       "points": 10
     },
     {
       "id": 13,
       "wave": 1,
-      "question": "Multiply: a × (2a + 3b)",
-      "choices": ["2a² + 3ab", "3a + 3b", "2a + 3ab", "2a² + 3b"],
-      "answer": "2a² + 3ab",
+      "question": "Simplify: $-2x^3(x^2 - 5x)$",
+      "choices": [
+        "$-2x^5 + 10x^4$",
+        "$2x^5 - 10x^4$",
+        "$-2x^6 + 10x^3$",
+        "$-2x^5 - 10x^4$"
+      ],
+      "answer": "$-2x^5 + 10x^4$",
       "points": 10
     },
     {
       "id": 14,
       "wave": 1,
-      "question": "Multiply: -5m × (m - n)",
-      "choices": ["-5m² + 5mn", "5m² - 5mn", "-4m + 5n", "-6m² - 5mn"],
-      "answer": "-5m² + 5mn",
+      "question": "Simplify: $z(z^2 - 3z + 1)$",
+      "choices": [
+        "$z^3 - 3z + 1$",
+        "$z^3 - 3z^2 + z$",
+        "$z^3 - 3z^2 + 1$",
+        "$z^2 - 3z + z$"
+      ],
+      "answer": "$z^3 - 3z^2 + z$",
       "points": 10
     },
     {
       "id": 15,
       "wave": 1,
-      "question": "Multiply: 3p × (2p² - 4)",
-      "choices": ["6p³ - 12p", "5p³ - 12", "6p² - 12p", "5p² - 12"],
-      "answer": "6p³ - 12p",
+      "question": "Simplify: $6(y + 2x)$",
+      "choices": ["$6y + 2x$", "$6y + 12x$", "$y + 12x$", "$6y + 6x$"],
+      "answer": "$6y + 12x$",
       "points": 10
     },
     {
       "id": 16,
       "wave": 1,
-      "question": "Multiply: -2q × (q³ + 3q)",
-      "choices": ["-2q⁴ - 6q²", "2q⁴ + 6q²", "-q⁴ + 6q", "-3q⁴ - 6q"],
-      "answer": "-2q⁴ - 6q²",
+      "question": "Simplify: $m^4(m - 2m^2)$",
+      "choices": [
+        "$m^5 - 2m^6$",
+        "$m^5 - 2m^8$",
+        "$m^4 - 2m^8$",
+        "$m^5 + 2m^6$"
+      ],
+      "answer": "$m^5 - 2m^6$",
       "points": 10
     },
     {
       "id": 17,
       "wave": 1,
-      "question": "Multiply: 4r × (r + 2s)",
-      "choices": ["4r² + 8rs", "4r + 8s", "5r² + 8rs", "4r + 8rs"],
-      "answer": "4r² + 8rs",
+      "question": "Simplify: $-7(c^2 - d^2)$",
+      "choices": [
+        "$-7c^2 - 7d^2$",
+        "$-7c^2 + 7d^2$",
+        "$7c^2 - 7d^2$",
+        "$7c^2 + 7d^2$"
+      ],
+      "answer": "$-7c^2 + 7d^2$",
       "points": 10
     },
     {
       "id": 18,
       "wave": 1,
-      "question": "Multiply: -s × (3s² - 5t)",
-      "choices": ["-3s³ + 5st", "3s³ - 5st", "-2s² + 5t", "-4s³ - 5st"],
-      "answer": "-3s³ + 5st",
+      "question": "Simplify: $x^2y^2(x + y)$",
+      "choices": [
+        "$x^3y^2 + x^2y^3$",
+        "$x^2y^2 + x^2y^2$",
+        "$x^3y^2 + y^3x^2$",
+        "$x^3y^2 + y$"
+      ],
+      "answer": "$x^3y^2 + x^2y^3$",
       "points": 10
     },
     {
       "id": 19,
       "wave": 1,
-      "question": "Multiply: 2t × (t² + 3t - 1)",
+      "question": "Simplify: $9k(k^2 - 3k + 2)$",
       "choices": [
-        "2t³ + 6t² - 2t",
-        "3t³ + 6t - 2",
-        "2t² + 6t - 2",
-        "2t³ + 5t² - 2t"
+        "$9k^3 - 27k^2 + 18k$",
+        "$9k^3 + 27k^2 + 18k$",
+        "$9k^3 - 27k^2 + 2$",
+        "$9k^3 - 3k + 2$"
       ],
-      "answer": "2t³ + 6t² - 2t",
+      "answer": "$9k^3 - 27k^2 + 18k$",
       "points": 10
     },
     {
       "id": 20,
       "wave": 1,
-      "question": "Multiply: -3u × (2u - v + 4)",
+      "question": "Simplify: $-b(5b^2 - 4b + 1)$",
       "choices": [
-        "-6u² + 3uv - 12u",
-        "6u² - 3uv + 12u",
-        "-5u + 3v - 12",
-        "-6u² - 3uv - 12u"
+        "$-5b^3 + 4b^2 - b$",
+        "$5b^3 - 4b^2 + b$",
+        "$-5b^3 - 4b^2 + b$",
+        "$-5b^3 + 4b^2 + b$"
       ],
-      "answer": "-6u² + 3uv - 12u",
+      "answer": "$-5b^3 + 4b^2 - b$",
       "points": 10
     },
     {
       "id": 21,
       "wave": 1,
-      "question": "Multiply: 5v × v²",
-      "choices": ["5v³", "5v²", "6v³", "6v²"],
-      "answer": "5v³",
+      "question": "Simplify: $1/2 x (4x - 6)$",
+      "choices": ["$2x^2 - 3x$", "$2x - 3$", "$4x^2 - 6x$", "$1/2x^2 - 3x$"],
+      "answer": "$2x^2 - 3x$",
       "points": 10
     },
     {
       "id": 22,
       "wave": 1,
-      "question": "Multiply: -2w × (-3w³)",
-      "choices": ["6w⁴", "-6w⁴", "5w⁴", "-5w³"],
-      "answer": "6w⁴",
+      "question": "Simplify: $0.5y(2y + 8)$",
+      "choices": ["$y^2 + 4y$", "$y + 4$", "$10y^2 + 40y$", "$0.5y^2 + 4y$"],
+      "answer": "$y^2 + 4y$",
       "points": 10
     },
     {
       "id": 23,
       "wave": 1,
-      "question": "Multiply: 4x² × 3x²",
-      "choices": ["12x⁴", "7x⁴", "12x²", "7x²"],
-      "answer": "12x⁴",
+      "question": "Simplify: $-1/3 a(3a^2 + 9a)$",
+      "choices": [
+        "$-a^3 - 3a^2$",
+        "$a^3 + 3a^2$",
+        "$-a^3 + 3a^2$",
+        "$-a^2 - 3a$"
+      ],
+      "answer": "$-a^3 - 3a^2$",
       "points": 10
     },
     {
       "id": 24,
       "wave": 1,
-      "question": "Multiply: -y × 5y × y",
-      "choices": ["-5y³", "5y³", "-4y³", "4y²"],
-      "answer": "-5y³",
+      "question": "Simplify: $0.2x^2(5x - 10)$",
+      "choices": [
+        "$x^3 - 2x^2$",
+        "$x^2 - 2x$",
+        "$x^3 - 10x^2$",
+        "$0.2x^3 - 2x^2$"
+      ],
+      "answer": "$x^3 - 2x^2$",
       "points": 10
     },
     {
       "id": 25,
       "wave": 1,
-      "question": "Multiply: 2z × 3z × 4z",
-      "choices": ["24z³", "9z³", "24z²", "9z²"],
-      "answer": "24z³",
+      "question": "Simplify: $2xy(x^2y - xy^2)$",
+      "choices": [
+        "$2x^3y^2 - 2x^2y^3$",
+        "$2x^3y^2 + 2x^2y^3$",
+        "$x^3y^2 - x^2y^3$",
+        "$2x^2y^2 - 2x^2y^2$"
+      ],
+      "answer": "$2x^3y^2 - 2x^2y^3$",
       "points": 10
     },
     {
       "id": 26,
       "wave": 1,
-      "question": "Multiply: 3a × (a + 1)",
-      "choices": ["3a² + 3a", "3a + 3", "4a² + 3a", "3a² + a"],
-      "answer": "3a² + 3a",
+      "question": "Simplify: $(x + 1)(x + 2)$",
+      "choices": [
+        "$x^2 + 3x + 2$",
+        "$x^2 + 2x + 2$",
+        "$x^2 + 3x + 3$",
+        "$x^2 + 2$"
+      ],
+      "answer": "$x^2 + 3x + 2$",
       "points": 10
     },
     {
       "id": 27,
       "wave": 1,
-      "question": "Multiply: -4b × (2b - 3)",
-      "choices": ["-8b² + 12b", "8b² - 12b", "-2b + 12", "-6b² - 12b"],
-      "answer": "-8b² + 12b",
+      "question": "Simplify: $(y - 3)(y + 4)$",
+      "choices": [
+        "$y^2 + y - 12$",
+        "$y^2 - y - 12$",
+        "$y^2 + 7y - 12$",
+        "$y^2 - 12$"
+      ],
+      "answer": "$y^2 + y - 12$",
       "points": 10
     },
     {
       "id": 28,
       "wave": 1,
-      "question": "Multiply: c × (5c + 2d)",
-      "choices": ["5c² + 2cd", "6c + 2d", "5c + 2cd", "5c² + 2d"],
-      "answer": "5c² + 2cd",
+      "question": "Simplify: $(a - 5)(a - 2)$",
+      "choices": [
+        "$a^2 - 7a + 10$",
+        "$a^2 + 7a + 10$",
+        "$a^2 - 3a + 10$",
+        "$a^2 + 10$"
+      ],
+      "answer": "$a^2 - 7a + 10$",
       "points": 10
     },
     {
       "id": 29,
       "wave": 1,
-      "question": "Multiply: -2d × (d - e)",
-      "choices": ["-2d² + 2de", "2d² - 2de", "-d + 2e", "-3d² - 2de"],
-      "answer": "-2d² + 2de",
+      "question": "Simplify: $(2x + 1)(x + 3)$",
+      "choices": [
+        "$2x^2 + 7x + 3$",
+        "$2x^2 + 3x + 3$",
+        "$2x^2 + 7x + 1$",
+        "$2x^2 + 4x + 3$"
+      ],
+      "answer": "$2x^2 + 7x + 3$",
       "points": 10
     },
     {
       "id": 30,
       "wave": 1,
-      "question": "Multiply: 5e × (e² + 2)",
-      "choices": ["5e³ + 10e", "5e² + 10", "6e³ + 10e", "5e³ + 2e"],
-      "answer": "5e³ + 10e",
+      "question": "Simplify: $(3y - 2)(y - 1)$",
+      "choices": [
+        "$3y^2 - 5y + 2$",
+        "$3y^2 - y + 2$",
+        "$3y^2 - 5y - 2$",
+        "$3y^2 - 3y + 2$"
+      ],
+      "answer": "$3y^2 - 5y + 2$",
       "points": 10
     },
     {
       "id": 31,
       "wave": 1,
-      "question": "Multiply: -3f × (f³ - 4f)",
-      "choices": ["-3f⁴ + 12f²", "3f⁴ - 12f²", "-2f³ + 12f", "-4f⁴ - 12f"],
-      "answer": "-3f⁴ + 12f²",
+      "question": "Simplify: $(x + 6)^2$",
+      "choices": [
+        "$x^2 + 12x + 36$",
+        "$x^2 + 36$",
+        "$x^2 + 6x + 36$",
+        "$2x + 12$"
+      ],
+      "answer": "$x^2 + 12x + 36$",
       "points": 10
     },
     {
       "id": 32,
       "wave": 1,
-      "question": "Multiply: 4g × (g + 3h)",
-      "choices": ["4g² + 12gh", "4g + 12h", "5g² + 12gh", "4g + 12gh"],
-      "answer": "4g² + 12gh",
+      "question": "Simplify: $(c - 8)^2$",
+      "choices": [
+        "$c^2 - 16c + 64$",
+        "$c^2 + 64$",
+        "$c^2 - 8c + 64$",
+        "$2c - 16$"
+      ],
+      "answer": "$c^2 - 16c + 64$",
       "points": 10
     },
     {
       "id": 33,
       "wave": 1,
-      "question": "Multiply: -h × (2h² - 5k)",
-      "choices": ["-2h³ + 5hk", "2h³ - 5hk", "-h² + 5k", "-3h³ - 5hk"],
-      "answer": "-2h³ + 5hk",
+      "question": "Simplify: $(2a + 3)^2$",
+      "choices": [
+        "$4a^2 + 12a + 9$",
+        "$4a^2 + 9$",
+        "$4a^2 + 6a + 9$",
+        "$2a^2 + 12a + 9$"
+      ],
+      "answer": "$4a^2 + 12a + 9$",
       "points": 10
     },
     {
       "id": 34,
       "wave": 1,
-      "question": "Multiply: 2k × (k² + 4k - 3)",
+      "question": "Simplify: $(4m - 1)^2$",
       "choices": [
-        "2k³ + 8k² - 6k",
-        "3k³ + 8k - 6",
-        "2k² + 8k - 6",
-        "2k³ + 7k² - 6k"
+        "$16m^2 - 8m + 1$",
+        "$16m^2 + 1$",
+        "$16m^2 - 4m + 1$",
+        "$4m^2 - 8m + 1$"
       ],
-      "answer": "2k³ + 8k² - 6k",
+      "answer": "$16m^2 - 8m + 1$",
       "points": 10
     },
     {
       "id": 35,
       "wave": 1,
-      "question": "Multiply: -3m × (5m - n + 2)",
+      "question": "Simplify: $(x + 5)(x - 5)$",
       "choices": [
-        "-15m² + 3mn - 6m",
-        "15m² - 3mn + 6m",
-        "-2m + 3n - 6",
-        "-15m² - 3mn - 6m"
+        "$x^2 - 25$",
+        "$x^2 + 25$",
+        "$x^2 + 10x - 25$",
+        "$x^2 - 10x - 25$"
       ],
-      "answer": "-15m² + 3mn - 6m",
+      "answer": "$x^2 - 25$",
       "points": 10
     },
     {
       "id": 36,
       "wave": 1,
-      "question": "Multiply: 6n × n³",
-      "choices": ["6n⁴", "6n³", "7n⁴", "7n³"],
-      "answer": "6n⁴",
+      "question": "Simplify: $(3y - 4)(3y + 4)$",
+      "choices": [
+        "$9y^2 - 16$",
+        "$9y^2 + 16$",
+        "$9y^2 - 24y - 16$",
+        "$9y^2 + 24y - 16$"
+      ],
+      "answer": "$9y^2 - 16$",
       "points": 10
     },
     {
       "id": 37,
       "wave": 1,
-      "question": "Multiply: -7p × (-2p²)",
-      "choices": ["14p³", "-14p³", "5p³", "-5p²"],
-      "answer": "14p³",
+      "question": "Simplify: $(ab + c)(ab - c)$",
+      "choices": [
+        "$a^2b^2 - c^2$",
+        "$ab^2 - c^2$",
+        "$a^2b^2 + c^2$",
+        "$ab - c^2$"
+      ],
+      "answer": "$a^2b^2 - c^2$",
       "points": 10
     },
     {
       "id": 38,
       "wave": 1,
-      "question": "Multiply: q × 4q × q",
-      "choices": ["4q³", "5q³", "4q²", "5q²"],
-      "answer": "4q³",
+      "question": "Simplify: $(x^2 + 2)(x^2 - 2)$",
+      "choices": ["$x^4 - 4$", "$x^4 + 4$", "$x^2 - 4$", "$x^4 - 2$"],
+      "answer": "$x^4 - 4$",
       "points": 10
     },
     {
       "id": 39,
       "wave": 1,
-      "question": "Multiply: -2r × 3r × (-r)",
-      "choices": ["6r³", "-6r³", "5r³", "-5r²"],
-      "answer": "6r³",
+      "question": "Simplify: $(x + y)(x - y)$",
+      "choices": [
+        "$x^2 - y^2$",
+        "$x^2 + y^2$",
+        "$x^2 - 2xy + y^2$",
+        "$x^2 + 2xy + y^2$"
+      ],
+      "answer": "$x^2 - y^2$",
       "points": 10
     },
     {
       "id": 40,
       "wave": 1,
-      "question": "Multiply: 3s² × 2s²",
-      "choices": ["6s⁴", "5s⁴", "6s²", "5s²"],
-      "answer": "6s⁴",
+      "question": "Simplify: $(5 - z)(5 + z)$",
+      "choices": ["$25 - z^2$", "$25 + z^2$", "$z^2 - 25$", "$10 - z^2$"],
+      "answer": "$25 - z^2$",
       "points": 10
     },
     {
       "id": 41,
       "wave": 1,
-      "question": "Multiply: 4t × (t + 2)",
-      "choices": ["4t² + 8t", "4t + 8", "5t² + 8t", "4t² + 2t"],
-      "answer": "4t² + 8t",
+      "question": "Simplify: $(x + 1)(x - 1)$",
+      "choices": ["$x^2 - 1$", "$x^2 + 1$", "$x^2 - 2x + 1$", "$x^2 + 2x + 1$"],
+      "answer": "$x^2 - 1$",
       "points": 10
     },
     {
       "id": 42,
       "wave": 1,
-      "question": "Multiply: -5u × (3u - 1)",
-      "choices": ["-15u² + 5u", "15u² - 5u", "-2u + 5", "-8u² - 5u"],
-      "answer": "-15u² + 5u",
+      "question": "Simplify: $(2x - 5)(x + 2)$",
+      "choices": [
+        "$2x^2 - x - 10$",
+        "$2x^2 + 9x - 10$",
+        "$2x^2 - x + 10$",
+        "$2x^2 - 10$"
+      ],
+      "answer": "$2x^2 - x - 10$",
       "points": 10
     },
     {
       "id": 43,
       "wave": 1,
-      "question": "Multiply: v × (6v + w)",
-      "choices": ["6v² + vw", "7v + w", "6v + vw", "6v² + w"],
-      "answer": "6v² + vw",
+      "question": "Simplify: $(3y + 1)(2y - 3)$",
+      "choices": [
+        "$6y^2 - 7y - 3$",
+        "$6y^2 - 11y - 3$",
+        "$6y^2 - 7y + 3$",
+        "$6y^2 - 3$"
+      ],
+      "answer": "$6y^2 - 7y - 3$",
       "points": 10
     },
     {
       "id": 44,
       "wave": 1,
-      "question": "Multiply: -2w × (w - x)",
-      "choices": ["-2w² + 2wx", "2w² - 2wx", "-w + 2x", "-3w² - 2wx"],
-      "answer": "-2w² + 2wx",
+      "question": "Simplify: $(4a - 3)(a - 4)$",
+      "choices": [
+        "$4a^2 - 19a + 12$",
+        "$4a^2 - 13a + 12$",
+        "$4a^2 - 19a - 12$",
+        "$4a^2 + 12$"
+      ],
+      "answer": "$4a^2 - 19a + 12$",
       "points": 10
     },
     {
       "id": 45,
       "wave": 1,
-      "question": "Multiply: 7x × (x³ + 1)",
-      "choices": ["7x⁴ + 7x", "7x³ + 7", "8x⁴ + 7x", "7x⁴ + x"],
-      "answer": "7x⁴ + 7x",
+      "question": "Simplify: $(5b + 2)(b + 1)$",
+      "choices": [
+        "$5b^2 + 7b + 2$",
+        "$5b^2 + 3b + 2$",
+        "$5b^2 + 7b + 1$",
+        "$5b^2 + 2$"
+      ],
+      "answer": "$5b^2 + 7b + 2$",
       "points": 10
     },
     {
       "id": 46,
       "wave": 1,
-      "question": "Multiply: -y × (y⁴ - 2y)",
-      "choices": ["-y⁵ + 2y²", "y⁵ - 2y²", "-y³ + 2y", "-2y⁵ - 2y"],
-      "answer": "-y⁵ + 2y²",
+      "question": "Simplify: $(x + 0.5)(x - 0.5)$",
+      "choices": ["$x^2 - 0.25$", "$x^2 + 0.25$", "$x^2 - 1$", "$x^2 - 0.5$"],
+      "answer": "$x^2 - 0.25$",
       "points": 10
     },
     {
       "id": 47,
       "wave": 1,
-      "question": "Multiply: 3z × (2z + 5a)",
-      "choices": ["6z² + 15az", "5z + 15a", "6z + 15az", "6z² + 5a"],
-      "answer": "6z² + 15az",
+      "question": "Simplify: $(2x + 1/2)(2x - 1/2)$",
+      "choices": [
+        "$4x^2 - 1/4$",
+        "$4x^2 + 1/4$",
+        "$4x^2 - 1/2$",
+        "$2x^2 - 1/4$"
+      ],
+      "answer": "$4x^2 - 1/4$",
       "points": 10
     },
     {
       "id": 48,
       "wave": 1,
-      "question": "Multiply: -4a × (a² - 3b)",
-      "choices": ["-4a³ + 12ab", "4a³ - 12ab", "-3a² + 12b", "-5a³ - 12ab"],
-      "answer": "-4a³ + 12ab",
+      "question": "Simplify: $(a + 2b)(a - 2b)$",
+      "choices": ["$a^2 - 4b^2$", "$a^2 + 4b^2$", "$a^2 - 2b^2$", "$a^2 - 4b$"],
+      "answer": "$a^2 - 4b^2$",
       "points": 10
     },
     {
       "id": 49,
       "wave": 1,
-      "question": "Multiply: 5b × (b² + 2b - 4)",
+      "question": "Simplify: $(3m + 2n)(3m - 2n)$",
       "choices": [
-        "5b³ + 10b² - 20b",
-        "6b³ + 10b - 20",
-        "5b² + 10b - 20",
-        "5b³ + 9b² - 20b"
+        "$9m^2 - 4n^2$",
+        "$9m^2 + 4n^2$",
+        "$9m^2 - 2n^2$",
+        "$3m^2 - 4n^2$"
       ],
-      "answer": "5b³ + 10b² - 20b",
+      "answer": "$9m^2 - 4n^2$",
       "points": 10
     },
     {
       "id": 50,
       "wave": 1,
-      "question": "Multiply: -6c × (2c - d + 3)",
-      "choices": [
-        "-12c² + 6cd - 18c",
-        "12c² - 6cd + 18c",
-        "-4c + 6d - 18",
-        "-12c² - 6cd - 18c"
-      ],
-      "answer": "-12c² + 6cd - 18c",
+      "question": "Simplify: $(x^3 + 1)(x^3 - 1)$",
+      "choices": ["$x^6 - 1$", "$x^6 + 1$", "$x^3 - 1$", "$x^9 - 1$"],
+      "answer": "$x^6 - 1$",
       "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Expand and simplify: $(x + y)(x^2 - xy + y^2)$",
+      "choices": [
+        "$x^3 + y^3$",
+        "$x^3 - y^3$",
+        "$x^3 + 2xy + y^3$",
+        "$x^3 + x^2y - xy^2 + y^3$"
+      ],
+      "answer": "$x^3 + y^3$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Expand and simplify: $(a - b)(a^2 + ab + b^2)$",
+      "choices": [
+        "$a^3 - b^3$",
+        "$a^3 + b^3$",
+        "$a^3 - 2ab + b^3$",
+        "$a^3 - a^2b - ab^2 - b^3$"
+      ],
+      "answer": "$a^3 - b^3$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Simplify: $(x + 2)(x^2 - 2x + 4)$",
+      "choices": [
+        "$x^3 + 8$",
+        "$x^3 - 8$",
+        "$x^3 + 4$",
+        "$x^3 + 2x^2 - 4x + 8$"
+      ],
+      "answer": "$x^3 + 8$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Simplify: $(y - 3)(y^2 + 3y + 9)$",
+      "choices": [
+        "$y^3 - 27$",
+        "$y^3 + 27$",
+        "$y^3 - 9$",
+        "$y^3 - 3y^2 + 9y - 27$"
+      ],
+      "answer": "$y^3 - 27$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Simplify: $(x - 1)(x^2 + x + 1)$",
+      "choices": [
+        "$x^3 - 1$",
+        "$x^3 + 1$",
+        "$x^3 - x^2 + x - 1$",
+        "$x^3 + x^2 + x - 1$"
+      ],
+      "answer": "$x^3 - 1$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Simplify: $(m + 4)(m^2 - 4m + 16)$",
+      "choices": [
+        "$m^3 + 64$",
+        "$m^3 - 64$",
+        "$m^3 + 16$",
+        "$m^3 + 4m^2 - 16m + 64$"
+      ],
+      "answer": "$m^3 + 64$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Simplify: $(2x + 1)(4x^2 - 2x + 1)$",
+      "choices": [
+        "$8x^3 + 1$",
+        "$8x^3 - 1$",
+        "$8x^3 + 4x^2 - 2x + 1$",
+        "$8x^3 + 2x^2 - x + 1$"
+      ],
+      "answer": "$8x^3 + 1$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Simplify: $(3y - 2)(9y^2 + 6y + 4)$",
+      "choices": [
+        "$27y^3 - 8$",
+        "$27y^3 + 8$",
+        "$27y^3 - 18y^2 + 12y - 8$",
+        "$27y^3 + 8$"
+      ],
+      "answer": "$27y^3 - 8$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Simplify: $(x^2 + 3)(x^4 - 3x^2 + 9)$",
+      "choices": [
+        "$x^6 + 27$",
+        "$x^6 - 27$",
+        "$x^6 + 9$",
+        "$x^6 + 3x^4 - 9x^2 + 27$"
+      ],
+      "answer": "$x^6 + 27$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Simplify: $(a^3 - 5)(a^6 + 5a^3 + 25)$",
+      "choices": [
+        "$a^9 - 125$",
+        "$a^9 + 125$",
+        "$a^9 - 25$",
+        "$a^9 - 5a^6 + 25a^3 - 125$"
+      ],
+      "answer": "$a^9 - 125$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Simplify: $(x + 1)(x^2 + 3x + 2)$",
+      "choices": [
+        "$x^3 + 4x^2 + 5x + 2$",
+        "$x^3 + 3x^2 + 2x + 2$",
+        "$x^3 + 4x^2 + 2$",
+        "$x^3 + x^2 + 3x + 2$"
+      ],
+      "answer": "$x^3 + 4x^2 + 5x + 2$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Simplify: $(y - 2)(y^2 - 5y + 6)$",
+      "choices": [
+        "$y^3 - 7y^2 + 16y - 12$",
+        "$y^3 - 5y^2 + 6y - 12$",
+        "$y^3 - 7y^2 + 12$",
+        "$y^3 - 2y^2 - 5y + 6$"
+      ],
+      "answer": "$y^3 - 7y^2 + 16y - 12$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Simplify: $(2a + 3)(a^2 - a + 4)$",
+      "choices": [
+        "$2a^3 + a^2 + 5a + 12$",
+        "$2a^3 + 5a^2 + 5a + 12$",
+        "$2a^3 + a^2 + 11a + 12$",
+        "$2a^3 - 2a^2 + 8a + 3a^2 - 3a + 12$"
+      ],
+      "answer": "$2a^3 + a^2 + 5a + 12$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Simplify: $(3b - 1)(b^2 + 2b - 5)$",
+      "choices": [
+        "$3b^3 + 5b^2 - 17b + 5$",
+        "$3b^3 + 7b^2 - 17b + 5$",
+        "$3b^3 + 5b^2 - 13b + 5$",
+        "$3b^3 - b^2 + 2b - 5$"
+      ],
+      "answer": "$3b^3 + 5b^2 - 17b + 5$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Simplify: $(x + y)(x + y)$",
+      "choices": [
+        "$x^2 + 2xy + y^2$",
+        "$x^2 + y^2$",
+        "$x^2 + xy + y^2$",
+        "$2x + 2y$"
+      ],
+      "answer": "$x^2 + 2xy + y^2$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Simplify: $(c - d)(c - d)$",
+      "choices": [
+        "$c^2 - 2cd + d^2$",
+        "$c^2 + d^2$",
+        "$c^2 - cd + d^2$",
+        "$2c - 2d$"
+      ],
+      "answer": "$c^2 - 2cd + d^2$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Simplify: $(2x + 3y)(2x + 3y)$",
+      "choices": [
+        "$4x^2 + 12xy + 9y^2$",
+        "$4x^2 + 9y^2$",
+        "$4x^2 + 6xy + 9y^2$",
+        "$2x^2 + 3y^2$"
+      ],
+      "answer": "$4x^2 + 12xy + 9y^2$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Simplify: $(5a - 2b)(5a - 2b)$",
+      "choices": [
+        "$25a^2 - 20ab + 4b^2$",
+        "$25a^2 + 4b^2$",
+        "$25a^2 - 10ab + 4b^2$",
+        "$5a^2 - 2b^2$"
+      ],
+      "answer": "$25a^2 - 20ab + 4b^2$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Simplify: $(x + 1/2)(x + 1/2)$",
+      "choices": [
+        "$x^2 + x + 1/4$",
+        "$x^2 + 1/4$",
+        "$x^2 + 1/2x + 1/4$",
+        "$2x + 1$"
+      ],
+      "answer": "$x^2 + x + 1/4$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Simplify: $(y - 0.5)(y - 0.5)$",
+      "choices": [
+        "$y^2 - y + 0.25$",
+        "$y^2 + 0.25$",
+        "$y^2 - 0.5y + 0.25$",
+        "$2y - 1$"
+      ],
+      "answer": "$y^2 - y + 0.25$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Simplify: $(x + 2y)(3x - y)$",
+      "choices": [
+        "$3x^2 + 5xy - 2y^2$",
+        "$3x^2 - 2y^2$",
+        "$3x^2 + 7xy - 2y^2$",
+        "$3x^2 + 6xy - 2y^2$"
+      ],
+      "answer": "$3x^2 + 5xy - 2y^2$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Simplify: $(4a - b)(a + 5b)$",
+      "choices": [
+        "$4a^2 + 19ab - 5b^2$",
+        "$4a^2 - 5b^2$",
+        "$4a^2 + 21ab - 5b^2$",
+        "$4a^2 + 20ab - 5b^2$"
+      ],
+      "answer": "$4a^2 + 19ab - 5b^2$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Simplify: $(m^2 + n)(m - n^2)$",
+      "choices": [
+        "$m^3 - m^2n^2 + mn - n^3$",
+        "$m^3 - n^3$",
+        "$m^3 + m^2n^2 - mn^2 - n^3$",
+        "$m^3 - m^2n^2 + mn - n^2$"
+      ],
+      "answer": "$m^3 - m^2n^2 + mn - n^3$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Simplify: $(p^3 - q^2)(p + q)$",
+      "choices": [
+        "$p^4 + p^3q - pq^2 - q^3$",
+        "$p^4 - q^3$",
+        "$p^4 - p^3q + pq^2 - q^3$",
+        "$p^4 + p^3q - pq^2 - q^2$"
+      ],
+      "answer": "$p^4 + p^3q - pq^2 - q^3$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Simplify: $(x + 1)(x + 2)(x + 3)$",
+      "choices": [
+        "$x^3 + 6x^2 + 11x + 6$",
+        "$x^3 + 6x^2 + 6x + 6$",
+        "$x^3 + 5x^2 + 6x + 6$",
+        "$x^3 + 11x^2 + 6x + 6$"
+      ],
+      "answer": "$x^3 + 6x^2 + 11x + 6$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Simplify: $(y - 1)(y - 2)(y - 3)$",
+      "choices": [
+        "$y^3 - 6y^2 + 11y - 6$",
+        "$y^3 - 6y^2 + 6y - 6$",
+        "$y^3 - 5y^2 + 6y - 6$",
+        "$y^3 - 11y^2 + 6y - 6$"
+      ],
+      "answer": "$y^3 - 6y^2 + 11y - 6$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Simplify: $(a + 1)(a - 1)(a + 2)$",
+      "choices": [
+        "$a^3 + 2a^2 - a - 2$",
+        "$a^3 - a^2 - 2a + 2$",
+        "$a^3 + a^2 - a - 2$",
+        "$a^3 - 2a^2 + a + 2$"
+      ],
+      "answer": "$a^3 + 2a^2 - a - 2$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Simplify: $(2x + 1)(x - 1)(x + 4)$",
+      "choices": [
+        "$2x^3 + 7x^2 - 7x - 4$",
+        "$2x^3 + 8x^2 - x - 4$",
+        "$2x^3 + 7x^2 - 4x - 4$",
+        "$2x^3 + 6x^2 - 7x - 4$"
+      ],
+      "answer": "$2x^3 + 7x^2 - 7x - 4$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Simplify: $(3y - 2)(y + 2)(y - 3)$",
+      "choices": [
+        "$3y^3 - 8y^2 - 5y + 12$",
+        "$3y^3 - 5y^2 - 8y + 12$",
+        "$3y^3 - 8y^2 - 12y + 12$",
+        "$3y^3 + 5y^2 - 8y + 12$"
+      ],
+      "answer": "$3y^3 - 8y^2 - 5y + 12$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Simplify: $(x^2 + 1)(x - 1)(x + 1)$",
+      "choices": [
+        "$x^4 - 1$",
+        "$x^4 + 1$",
+        "$x^4 - x^2 + x - 1$",
+        "$x^4 - x^2 + 1$"
+      ],
+      "answer": "$x^4 - 1$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Simplify: $(a + b + c)(a - b)$",
+      "choices": [
+        "$a^2 - b^2 + ac - bc$",
+        "$a^2 - b^2 + c$",
+        "$a^2 + ab - ac - b^2 - bc$",
+        "$a^2 - b^2 + ac + bc$"
+      ],
+      "answer": "$a^2 - b^2 + ac - bc$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Simplify: $(x - y + z)(x + y)$",
+      "choices": [
+        "$x^2 + xy - y^2 + xz + yz$",
+        "$x^2 - y^2 + z$",
+        "$x^2 + xy - y^2 + xz - yz$",
+        "$x^2 + xy - y^2 + xz + yz$"
+      ],
+      "answer": "$x^2 + xy - y^2 + xz + yz$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Simplify: $(x + 2)(x^2 - x + 1)$",
+      "choices": [
+        "$x^3 + x^2 - x + 2$",
+        "$x^3 + x^2 + x + 2$",
+        "$x^3 + 2x^2 - x + 2$",
+        "$x^3 - x^2 + 2x + 2$"
+      ],
+      "answer": "$x^3 + x^2 - x + 2$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Simplify: $(y - 1)(y^2 + 4y - 3)$",
+      "choices": [
+        "$y^3 + 3y^2 - 7y + 3$",
+        "$y^3 + 4y^2 - 3y + 3$",
+        "$y^3 + 3y^2 - 4y + 3$",
+        "$y^3 - y^2 + 4y - 3$"
+      ],
+      "answer": "$y^3 + 3y^2 - 7y + 3$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Simplify: $(x^2 + x + 1)(x - 1)$",
+      "choices": [
+        "$x^3 - 1$",
+        "$x^3 + x^2 + x - 1$",
+        "$x^3 + x - 1$",
+        "$x^3 + x^2 - x + 1$"
+      ],
+      "answer": "$x^3 - 1$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Simplify: $(2a - 3b)(a^2 + ab - b^2)$",
+      "choices": [
+        "$2a^3 - a^2b - 5ab^2 + 3b^3$",
+        "$2a^3 + 2a^2b - 2ab^2 - 3a^2b - 3ab^2 + 3b^3$",
+        "$2a^3 - 5ab^2 + 3b^3$",
+        "$2a^3 + a^2b - 5ab^2 + 3b^3$"
+      ],
+      "answer": "$2a^3 - a^2b - 5ab^2 + 3b^3$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Simplify: $(x^2 - 2xy + y^2)(x + y)$",
+      "choices": [
+        "$x^3 - x^2y - xy^2 + y^3$",
+        "$x^3 + y^3$",
+        "$x^3 - x^2y + xy^2 + y^3$",
+        "$x^3 - x^2y + y^3$"
+      ],
+      "answer": "$x^3 - x^2y - xy^2 + y^3$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Simplify: $(a^2 + ab + b^2)(a - b)$",
+      "choices": [
+        "$a^3 - b^3$",
+        "$a^3 + b^3$",
+        "$a^3 - a^2b + b^3$",
+        "$a^3 - a^2b - ab^2 - b^3$"
+      ],
+      "answer": "$a^3 - b^3$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Simplify: $(x + 1)^3$",
+      "choices": [
+        "$x^3 + 3x^2 + 3x + 1$",
+        "$x^3 + 1$",
+        "$x^3 + 3x + 1$",
+        "$x^3 + x^2 + x + 1$"
+      ],
+      "answer": "$x^3 + 3x^2 + 3x + 1$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Simplify: $(y - 2)^3$",
+      "choices": [
+        "$y^3 - 6y^2 + 12y - 8$",
+        "$y^3 - 8$",
+        "$y^3 - 6y + 8$",
+        "$y^3 - 2y^2 + 4y - 8$"
+      ],
+      "answer": "$y^3 - 6y^2 + 12y - 8$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Simplify: $(2a + 1)^3$",
+      "choices": [
+        "$8a^3 + 12a^2 + 6a + 1$",
+        "$8a^3 + 1$",
+        "$8a^3 + 6a + 1$",
+        "$8a^3 + 4a^2 + 2a + 1$"
+      ],
+      "answer": "$8a^3 + 12a^2 + 6a + 1$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Simplify: $(3b - 1)^3$",
+      "choices": [
+        "$27b^3 - 27b^2 + 9b - 1$",
+        "$27b^3 - 1$",
+        "$27b^3 - 9b + 1$",
+        "$27b^3 - 3b^2 + 3b - 1$"
+      ],
+      "answer": "$27b^3 - 27b^2 + 9b - 1$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Simplify: $(x^2 + 2)^3$",
+      "choices": [
+        "$x^6 + 6x^4 + 12x^2 + 8$",
+        "$x^6 + 8$",
+        "$x^6 + 6x^2 + 8$",
+        "$x^6 + 2x^4 + 4x^2 + 8$"
+      ],
+      "answer": "$x^6 + 6x^4 + 12x^2 + 8$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Simplify: $(m^3 - 1)^3$",
+      "choices": [
+        "$m^9 - 3m^6 + 3m^3 - 1$",
+        "$m^9 - 1$",
+        "$m^9 - 3m^3 + 1$",
+        "$m^9 - m^6 + m^3 - 1$"
+      ],
+      "answer": "$m^9 - 3m^6 + 3m^3 - 1$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Simplify: $(a + 1/2)^3$",
+      "choices": [
+        "$a^3 + 3/2 a^2 + 3/4 a + 1/8$",
+        "$a^3 + 1/8$",
+        "$a^3 + 3/2 a + 1/8$",
+        "$a^3 + 1/2 a^2 + 1/4 a + 1/8$"
+      ],
+      "answer": "$a^3 + 3/2 a^2 + 3/4 a + 1/8$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Simplify: $(x - 0.1)^3$",
+      "choices": [
+        "$x^3 - 0.3x^2 + 0.03x - 0.001$",
+        "$x^3 - 0.001$",
+        "$x^3 - 0.3x + 0.001$",
+        "$x^3 - 0.1x^2 + 0.01x - 0.001$"
+      ],
+      "answer": "$x^3 - 0.3x^2 + 0.03x - 0.001$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Simplify: $(x + 2y)^3$",
+      "choices": [
+        "$x^3 + 6x^2y + 12xy^2 + 8y^3$",
+        "$x^3 + 8y^3$",
+        "$x^3 + 6xy + 8y^3$",
+        "$x^3 + 2x^2y + 4xy^2 + 8y^3$"
+      ],
+      "answer": "$x^3 + 6x^2y + 12xy^2 + 8y^3$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Simplify: $(3a - b)^3$",
+      "choices": [
+        "$27a^3 - 27a^2b + 9ab^2 - b^3$",
+        "$27a^3 - b^3$",
+        "$27a^3 - 9ab + b^3$",
+        "$27a^3 - 3a^2b + 3ab^2 - b^3$"
+      ],
+      "answer": "$27a^3 - 27a^2b + 9ab^2 - b^3$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Simplify: $(x + y + z)^2$",
+      "choices": [
+        "$x^2 + y^2 + z^2 + 2xy + 2xz + 2yz$",
+        "$x^2 + y^2 + z^2$",
+        "$x^2 + y^2 + z^2 + xy + xz + yz$",
+        "$x^2 + y^2 + z^2 + 4xyz$"
+      ],
+      "answer": "$x^2 + y^2 + z^2 + 2xy + 2xz + 2yz$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Simplify: $(a - b + c)^2$",
+      "choices": [
+        "$a^2 + b^2 + c^2 - 2ab + 2ac - 2bc$",
+        "$a^2 + b^2 + c^2$",
+        "$a^2 + b^2 + c^2 - ab + ac - bc$",
+        "$a^2 - b^2 + c^2$"
+      ],
+      "answer": "$a^2 + b^2 + c^2 - 2ab + 2ac - 2bc$",
+      "points": 15
     },
     {
       "id": 101,
       "wave": 3,
-      "question": "Multiply: (x + 2)(x² + 3x + 1)",
+      "question": "Simplify: $(x^2 - 3x + 2)(x + 1)$",
       "choices": [
-        "x³ + 5x² + 7x + 2",
-        "x³ + 3x² + 2x + 2",
-        "x³ + 6x + 2",
-        "2x² + 5x + 2"
+        "$x^3 - 2x^2 - x + 2$",
+        "$x^3 - 3x^2 + 2x + 2$",
+        "$x^3 - 2x^2 + 2x + 2$",
+        "$x^3 - 4x^2 + x + 2$"
       ],
-      "answer": "x³ + 5x² + 7x + 2",
+      "answer": "$x^3 - 2x^2 - x + 2$",
       "points": 20
     },
     {
       "id": 102,
       "wave": 3,
-      "question": "Multiply: (y - 3)(y² + 2y - 4)",
+      "question": "Simplify: $(2y^2 + y - 4)(y - 3)$",
       "choices": [
-        "y³ - y² - 10y + 12",
-        "y³ - 6y + 12",
-        "y³ + 2y² - 7y - 4",
-        "y² - y - 12"
+        "$2y^3 - 5y^2 - 7y + 12$",
+        "$2y^3 - 6y^2 + 12y - 12$",
+        "$2y^3 - 5y^2 - 4y + 12$",
+        "$2y^3 - 7y^2 - y + 12$"
       ],
-      "answer": "y³ - y² - 10y + 12",
+      "answer": "$2y^3 - 5y^2 - 7y + 12$",
       "points": 20
     },
     {
       "id": 103,
       "wave": 3,
-      "question": "Multiply: (2a + 1)(a² - a + 5)",
+      "question": "Simplify: $(a^2 + 2ab + b^2)(a - b)$",
       "choices": [
-        "2a³ - a² + 9a + 5",
-        "2a³ + a² + 4a + 5",
-        "3a³ - 2a² + 6a",
-        "a² + 4a + 5"
+        "$a^3 + a^2b - ab^2 - b^3$",
+        "$a^3 - b^3$",
+        "$a^3 + 3a^2b + 3ab^2 + b^3$",
+        "$a^3 + a^2b - b^3$"
       ],
-      "answer": "2a³ - a² + 9a + 5",
+      "answer": "$a^3 + a^2b - ab^2 - b^3$",
       "points": 20
     },
     {
       "id": 104,
       "wave": 3,
-      "question": "Multiply: (3b - 2)(b² + 4b - 3)",
+      "question": "Simplify: $(x^3 - 2x^2 + 5x - 1)(x + 2)$",
       "choices": [
-        "3b³ + 10b² - 17b + 6",
-        "3b³ - 8b + 6",
-        "4b³ + 10b² - 5b - 6",
-        "b² + 7b - 6"
+        "$x^4 + 3x^2 + 9x - 2$",
+        "$x^4 - 2x^3 + 5x^2 - x + 2x^3 - 4x^2 + 10x - 2$",
+        "$x^4 + x^2 + 9x - 2$",
+        "$x^4 - 2x^3 + 5x^2 - 1 + 2x + 4x^2 - 2x$"
       ],
-      "answer": "3b³ + 10b² - 17b + 6",
+      "answer": "$x^4 + 3x^2 + 9x - 2$",
       "points": 20
     },
     {
       "id": 105,
       "wave": 3,
-      "question": "Multiply: (m + 4)(m² - 5m + 2)",
+      "question": "Simplify: $(x^2 + xy + y^2)(x^2 - xy + y^2)$",
       "choices": [
-        "m³ - m² - 18m + 8",
-        "m³ - 20m + 8",
-        "m³ - 5m² + 6m + 2",
-        "m² - m + 6"
+        "$x^4 + x^2y^2 + y^4$",
+        "$x^4 - x^2y^2 + y^4$",
+        "$x^4 + y^4$",
+        "$x^4 + 2x^2y^2 + y^4$"
       ],
-      "answer": "m³ - m² - 18m + 8",
+      "answer": "$x^4 + x^2y^2 + y^4$",
       "points": 20
     },
     {
       "id": 106,
       "wave": 3,
-      "question": "Multiply: (n - 5)(n² + 3n + 6)",
+      "question": "Simplify: $(a^2 - ab + b^2)(a^2 + ab + b^2)$",
       "choices": [
-        "n³ - 2n² - 9n - 30",
-        "n³ - 15n - 30",
-        "n³ + 3n² + n - 6",
-        "n² - 2n - 30"
+        "$a^4 + a^2b^2 + b^4$",
+        "$a^4 - a^2b^2 + b^4$",
+        "$a^4 + b^4$",
+        "$a^4 - 2a^2b^2 + b^4$"
       ],
-      "answer": "n³ - 2n² - 9n - 30",
+      "answer": "$a^4 + a^2b^2 + b^4$",
       "points": 20
     },
     {
       "id": 107,
       "wave": 3,
-      "question": "Multiply: (p + 3)(2p² - p + 4)",
+      "question": "Simplify: $(x - y)(x^2 + y^2)(x + y)$",
       "choices": [
-        "2p³ + 5p² + p + 12",
-        "2p³ - 3p + 12",
-        "3p³ + 5p² + 7p",
-        "2p² + 5p + 12"
+        "$x^4 - y^4$",
+        "$x^4 + y^4$",
+        "$x^4 - 2x^2y^2 + y^4$",
+        "$(x^2 - y^2)(x^2 + y^2)$"
       ],
-      "answer": "2p³ + 5p² + p + 12",
+      "answer": "$x^4 - y^4$",
       "points": 20
     },
     {
       "id": 108,
       "wave": 3,
-      "question": "Multiply: (q - 2)(3q² + q - 5)",
+      "question": "Simplify: $(a + 2)(a - 2)(a^2 + 4)$",
       "choices": [
-        "3q³ - 5q² - 7q + 10",
-        "3q³ - 10q + 10",
-        "4q³ - 5q² - 4q - 5",
-        "3q² - 5q + 10"
+        "$a^4 - 16$",
+        "$a^4 + 16$",
+        "$a^4 - 4a^2 + 16$",
+        "$a^4 - 8a^2 + 16$"
       ],
-      "answer": "3q³ - 5q² - 7q + 10",
+      "answer": "$a^4 - 16$",
       "points": 20
     },
     {
       "id": 109,
       "wave": 3,
-      "question": "Multiply: (2r + 1)(r² + 4r - 3)",
+      "question": "Simplify: $(x + 1)(x - 1)(x + 1)$",
       "choices": [
-        "2r³ + 9r² - 2r - 3",
-        "2r³ + 4r² - 6r - 3",
-        "3r³ + 9r² + r",
-        "r² + 6r - 3"
+        "$x^3 + x^2 - x - 1$",
+        "$x^3 - x^2 + x - 1$",
+        "$x^3 - x$",
+        "$x^3 + x^2 - 1$"
       ],
-      "answer": "2r³ + 9r² - 2r - 3",
+      "answer": "$x^3 + x^2 - x - 1$",
       "points": 20
     },
     {
       "id": 110,
       "wave": 3,
-      "question": "Multiply: (3s - 4)(s² + 2s + 1)",
+      "question": "Simplify: $(y - 2)(y + 2)(y - 2)$",
       "choices": [
-        "3s³ + 2s² - 5s - 4",
-        "3s³ - 8s - 4",
-        "4s³ + 2s² - 2s - 4",
-        "s² - 2s - 4"
+        "$y^3 - 2y^2 - 4y + 8$",
+        "$y^3 - 4y + 4$",
+        "$y^3 - 4y^2 + 4y - 8$",
+        "$y^3 - 8$"
       ],
-      "answer": "3s³ + 2s² - 5s - 4",
+      "answer": "$y^3 - 2y^2 - 4y + 8$",
       "points": 20
     },
     {
       "id": 111,
       "wave": 3,
-      "question": "Multiply: (t + 5)(t² - t - 2)",
+      "question": "Simplify: $(x^2 + 5)(x^2 - 2x + 3)$",
       "choices": [
-        "t³ + 4t² - 7t - 10",
-        "t³ - 10t - 10",
-        "t³ - t² - 7t + 2",
-        "t² + 4t - 10"
+        "$x^4 - 2x^3 + 8x^2 - 10x + 15$",
+        "$x^4 + 3x^2 - 2x^3 - 10x + 15$",
+        "$x^4 - 2x^3 + 5x^2 - 10x + 15$",
+        "$x^4 + 3x^2 + 15$"
       ],
-      "answer": "t³ + 4t² - 7t - 10",
+      "answer": "$x^4 - 2x^3 + 8x^2 - 10x + 15$",
       "points": 20
     },
     {
       "id": 112,
       "wave": 3,
-      "question": "Multiply: (u - 3)(2u² + u + 4)",
+      "question": "Simplify: $(3a - 1)(a^2 - 4a + 2)$",
       "choices": [
-        "2u³ - 5u² + u - 12",
-        "2u³ - 12u - 12",
-        "3u³ - 5u² - 2u - 4",
-        "2u² - 5u - 12"
+        "$3a^3 - 13a^2 + 10a - 2$",
+        "$3a^3 - 12a^2 + 6a - a^2 + 4a - 2$",
+        "$3a^3 - 13a^2 + 2a - 2$",
+        "$3a^3 - 13a^2 + 10a + 2$"
       ],
-      "answer": "2u³ - 5u² + u - 12",
+      "answer": "$3a^3 - 13a^2 + 10a - 2$",
       "points": 20
     },
     {
       "id": 113,
       "wave": 3,
-      "question": "Multiply: (v + 2)(3v² - 4v + 1)",
+      "question": "Simplify: $(x^2 + 2xy + y^2)(x - y)$",
       "choices": [
-        "3v³ + 2v² - 7v + 2",
-        "3v³ - 8v + 2",
-        "4v³ + 2v² - 3v + 1",
-        "3v² + 2v + 2"
+        "$x^3 + x^2y - xy^2 - y^3$",
+        "$x^3 - y^3$",
+        "$x^3 + y^3$",
+        "$x^3 - x^2y - xy^2 + y^3$"
       ],
-      "answer": "3v³ + 2v² - 7v + 2",
+      "answer": "$x^3 + x^2y - xy^2 - y^3$",
       "points": 20
     },
     {
       "id": 114,
       "wave": 3,
-      "question": "Multiply: (w - 1)(w² + 6w + 5)",
+      "question": "Simplify: $(2x - 3y)(4x^2 + 6xy + 9y^2)$",
       "choices": [
-        "w³ + 5w² - w - 5",
-        "w³ - 6w - 5",
-        "w³ + 6w² + 4w - 1",
-        "w² + 5w - 5"
+        "$8x^3 - 27y^3$",
+        "$8x^3 + 27y^3$",
+        "$8x^3 - 18xy^2 - 27y^3$",
+        "$8x^3 + 12x^2y + 18xy^2 - 12x^2y - 18xy^2 - 27y^3$"
       ],
-      "answer": "w³ + 5w² - w - 5",
+      "answer": "$8x^3 - 27y^3$",
       "points": 20
     },
     {
       "id": 115,
       "wave": 3,
-      "question": "Multiply: (2x + 3)(x² - x + 2)",
+      "question": "Simplify: $(a + b)(a^2 - ab + b^2)$",
       "choices": [
-        "2x³ + x² + x + 6",
-        "2x³ - 2x + 6",
-        "3x³ + x² - x + 5",
-        "x² + x + 6"
+        "$a^3 + b^3$",
+        "$a^3 - b^3$",
+        "$a^3 + a^2b - ab^2 + b^3$",
+        "$a^3 - a^2b + ab^2 + b^3$"
       ],
-      "answer": "2x³ + x² + x + 6",
+      "answer": "$a^3 + b^3$",
       "points": 20
     },
     {
       "id": 116,
       "wave": 3,
-      "question": "Multiply: (3y - 2)(y² + y - 3)",
+      "question": "Simplify: $(x + 1)(x^3 - x^2 + x - 1)$",
       "choices": [
-        "3y³ + y² - 11y + 6",
-        "3y³ - 6y + 6",
-        "4y³ + y² - 5y - 6",
-        "y² - y + 6"
+        "$x^4 - 1$",
+        "$x^4 + 1$",
+        "$x^4 + x^3 - x^2 + x - x^3 + x^2 - x + 1$",
+        "$x^4 - x^3 + x^2 - 1$"
       ],
-      "answer": "3y³ + y² - 11y + 6",
+      "answer": "$x^4 - 1$",
       "points": 20
     },
     {
       "id": 117,
       "wave": 3,
-      "question": "Multiply: (z + 4)(2z² - 3z + 1)",
+      "question": "Simplify: $(y - 1)(y^3 + y^2 + y + 1)$",
       "choices": [
-        "2z³ + 5z² - 11z + 4",
-        "2z³ - 12z + 4",
-        "3z³ + 5z² - 2z + 1",
-        "2z² + 5z + 4"
+        "$y^4 - 1$",
+        "$y^4 + 1$",
+        "$y^4 + y^3 + y^2 + y - y^3 - y^2 - y - 1$",
+        "$y^4 - y^3 - y^2 - 1$"
       ],
-      "answer": "2z³ + 5z² - 11z + 4",
+      "answer": "$y^4 - 1$",
       "points": 20
     },
     {
       "id": 118,
       "wave": 3,
-      "question": "Multiply: (a - 5)(3a² + 2a - 4)",
+      "question": "Simplify: $(x + 2y - z)(x - y)$",
       "choices": [
-        "3a³ - 13a² - 14a + 20",
-        "3a³ - 20a + 20",
-        "4a³ - 13a² - 6a - 4",
-        "3a² - 13a + 20"
+        "$x^2 + xy - 2y^2 - xz + yz$",
+        "$x^2 - 2y^2 - z^2$",
+        "$x^2 + xy - 2y^2 + xz - yz$",
+        "$x^2 + 3xy - 2y^2 - xz + yz$"
       ],
-      "answer": "3a³ - 13a² - 14a + 20",
+      "answer": "$x^2 + xy - 2y^2 - xz + yz$",
       "points": 20
     },
     {
       "id": 119,
       "wave": 3,
-      "question": "Multiply: (4b + 1)(b² - 2b + 3)",
+      "question": "Simplify: $(a^2 + b^2)(a^4 - a^2b^2 + b^4)$",
       "choices": [
-        "4b³ - 7b² + 10b + 3",
-        "4b³ - 8b + 3",
-        "5b³ - 7b² + b + 3",
-        "b² - 6b + 3"
+        "$a^6 + b^6$",
+        "$a^6 - b^6$",
+        "$a^6 + a^4b^2 - a^2b^4 + b^6$",
+        "$a^6 + 2a^2b^2 + b^6$"
       ],
-      "answer": "4b³ - 7b² + 10b + 3",
+      "answer": "$a^6 + b^6$",
       "points": 20
     },
     {
       "id": 120,
       "wave": 3,
-      "question": "Multiply: (c - 3)(c² + 4c + 7)",
+      "question": "Simplify: $(x^3 - y^3)(x^6 + x^3y^3 + y^6)$",
       "choices": [
-        "c³ + c² - 5c - 21",
-        "c³ - 21c - 21",
-        "c³ + 4c² + 4c - 7",
-        "c² + c - 21"
+        "$x^9 - y^9$",
+        "$x^9 + y^9$",
+        "$x^9 - x^3y^3 + y^9$",
+        "$x^9 + x^6y^3 + x^3y^6 - y^9$"
       ],
-      "answer": "c³ + c² - 5c - 21",
+      "answer": "$x^9 - y^9$",
       "points": 20
     },
     {
       "id": 121,
       "wave": 3,
-      "question": "Multiply: (2d + 5)(d² - 3d + 2)",
+      "question": "Simplify: $(x - y)(x + y)(x^2 + y^2)(x^4 + y^4)$",
       "choices": [
-        "2d³ - d² - 11d + 10",
-        "2d³ - 15d + 10",
-        "3d³ - d² - d + 7",
-        "d² - d + 10"
+        "$x^8 - y^8$",
+        "$x^8 + y^8$",
+        "$x^8 - x^4y^4 + y^8$",
+        "$x^8 - y^4$"
       ],
-      "answer": "2d³ - d² - 11d + 10",
+      "answer": "$x^8 - y^8$",
       "points": 20
     },
     {
       "id": 122,
       "wave": 3,
-      "question": "Multiply: (3e - 4)(e² + 5e - 1)",
+      "question": "Simplify: $(a + b)^2 (a - b)^2$",
       "choices": [
-        "3e³ + 11e² - 23e + 4",
-        "3e³ - 20e + 4",
-        "4e³ + 11e² - 16e - 1",
-        "e² + 11e + 4"
+        "$(a^2 - b^2)^2$",
+        "$a^4 - b^4$",
+        "$a^4 - 2a^2b^2 + b^4$",
+        "$(a^2 + b^2)(a^2 - b^2)$"
       ],
-      "answer": "3e³ + 11e² - 23e + 4",
+      "answer": "$(a^2 - b^2)^2$",
       "points": 20
     },
     {
       "id": 123,
       "wave": 3,
-      "question": "Multiply: (f + 6)(2f² - f + 3)",
+      "question": "Simplify: $(x + 1/x)(x - 1/x)$",
       "choices": [
-        "2f³ + 11f² - 3f + 18",
-        "2f³ - 6f + 18",
-        "3f³ + 11f² + 2f + 3",
-        "2f² + 11f + 18"
+        "$x^2 - 1/x^2$",
+        "$x^2 + 1/x^2$",
+        "$x^2 - 1$",
+        "$x^2 - 2 + 1/x^2$"
       ],
-      "answer": "2f³ + 11f² - 3f + 18",
+      "answer": "$x^2 - 1/x^2$",
       "points": 20
     },
     {
       "id": 124,
       "wave": 3,
-      "question": "Multiply: (g - 2)(4g² + g - 5)",
+      "question": "Simplify: $(2x + 1/2y)(2x - 1/2y)$",
       "choices": [
-        "4g³ - 7g² - 7g + 10",
-        "4g³ - 10g + 10",
-        "5g³ - 7g² - 4g - 5",
-        "4g² - 7g + 10"
+        "$4x^2 - 1/4y^2$",
+        "$4x^2 + 1/4y^2$",
+        "$4x^2 - 1/2y^2$",
+        "$2x^2 - 1/4y^2$"
       ],
-      "answer": "4g³ - 7g² - 7g + 10",
+      "answer": "$4x^2 - 1/4y^2$",
       "points": 20
     },
     {
       "id": 125,
       "wave": 3,
-      "question": "Multiply: (h + 3)(3h² - 2h + 4)",
-      "choices": [
-        "3h³ + 7h² - 2h + 12",
-        "3h³ - 6h + 12",
-        "4h³ + 7h² + h + 4",
-        "3h² + 7h + 12"
-      ],
-      "answer": "3h³ + 7h² - 2h + 12",
+      "question": "Simplify: $(x^n + 1)(x^n - 1)$",
+      "choices": ["$x^{2n} - 1$", "$x^{2n} + 1$", "$x^n - 1$", "$x^{n^2} - 1$"],
+      "answer": "$x^{2n} - 1$",
       "points": 20
     },
     {
       "id": 126,
       "wave": 3,
-      "question": "Multiply: (2k - 5)(k² + 3k + 1)",
+      "question": "Simplify: $(x^{n/2} + y^{m/2})(x^{n/2} - y^{m/2})$",
       "choices": [
-        "2k³ + k² - 13k - 5",
-        "2k³ - 15k - 5",
-        "3k³ + k² - 2k - 5",
-        "k² + k - 5"
+        "$x^n - y^m$",
+        "$x^n + y^m$",
+        "$x^{n/2} - y^{m/2}$",
+        "$x^n - y^{m/4}$"
       ],
-      "answer": "2k³ + k² - 13k - 5",
+      "answer": "$x^n - y^m$",
       "points": 20
     },
     {
       "id": 127,
       "wave": 3,
-      "question": "Multiply: (m + 4)(3m² - m + 2)",
+      "question": "Simplify: $(x^a + y^b)(x^a - y^b)$",
       "choices": [
-        "3m³ + 11m² - 2m + 8",
-        "3m³ - 4m + 8",
-        "4m³ + 11m² + m + 2",
-        "3m² + 11m + 8"
+        "$x^{2a} - y^{2b}$",
+        "$x^{a^2} - y^{b^2}$",
+        "$x^a - y^b$",
+        "$x^{2a} + y^{2b}$"
       ],
-      "answer": "3m³ + 11m² - 2m + 8",
+      "answer": "$x^{2a} - y^{2b}$",
       "points": 20
     },
     {
       "id": 128,
       "wave": 3,
-      "question": "Multiply: (n - 6)(2n² + n - 3)",
+      "question": "Simplify: $(a^{x+1} + b^{y+1})(a^{x+1} - b^{y+1})$",
       "choices": [
-        "2n³ - 11n² - 9n + 18",
-        "2n³ - 18n + 18",
-        "3n³ - 11n² - 5n - 3",
-        "2n² - 11n + 18"
+        "$a^{2x+2} - b^{2y+2}$",
+        "$a^{x^2+1} - b^{y^2+1}$",
+        "$a^{x+1} - b^{y+1}$",
+        "$a^{2x+1} - b^{2y+1}$"
       ],
-      "answer": "2n³ - 11n² - 9n + 18",
+      "answer": "$a^{2x+2} - b^{2y+2}$",
       "points": 20
     },
     {
       "id": 129,
       "wave": 3,
-      "question": "Multiply: (3p + 2)(p² - 4p + 5)",
+      "question": "Simplify: $(x^2 + x + 1)^2$",
       "choices": [
-        "3p³ - 10p² + 7p + 10",
-        "3p³ - 12p + 10",
-        "4p³ - 10p² - p + 5",
-        "p² - 10p + 10"
+        "$x^4 + 2x^3 + 3x^2 + 2x + 1$",
+        "$x^4 + x^2 + 1$",
+        "$x^4 + 2x^3 + x^2 + 2x + 1$",
+        "$x^4 + 3x^2 + 1$"
       ],
-      "answer": "3p³ - 10p² + 7p + 10",
+      "answer": "$x^4 + 2x^3 + 3x^2 + 2x + 1$",
       "points": 20
     },
     {
       "id": 130,
       "wave": 3,
-      "question": "Multiply: (q - 7)(q² + 2q + 6)",
+      "question": "Simplify: $(y^2 - 2y + 1)^2$",
       "choices": [
-        "q³ - 5q² - 8q - 42",
-        "q³ - 42q - 42",
-        "q³ + 2q² - q - 6",
-        "q² - 5q - 42"
+        "$y^4 - 4y^3 + 6y^2 - 4y + 1$",
+        "$y^4 + 1$",
+        "$y^4 - 4y^3 + 4y^2 - 4y + 1$",
+        "$y^4 - 2y^3 + y^2 - 2y + 1$"
       ],
-      "answer": "q³ - 5q² - 8q - 42",
+      "answer": "$y^4 - 4y^3 + 6y^2 - 4y + 1$",
       "points": 20
     },
     {
       "id": 131,
       "wave": 3,
-      "question": "Multiply: (2r + 3)(r² - r + 4)",
+      "question": "Simplify: $(x + 2)(x^2 + 3x - 1)$",
       "choices": [
-        "2r³ + r² + 5r + 12",
-        "2r³ - 2r + 12",
-        "3r³ + r² + 2r + 4",
-        "r² + r + 12"
+        "$x^3 + 5x^2 + 5x - 2$",
+        "$x^3 + 3x^2 - x + 2x^2 + 6x - 2$",
+        "$x^3 + 5x^2 + 6x - 2$",
+        "$x^3 + 5x^2 - x - 2$"
       ],
-      "answer": "2r³ + r² + 5r + 12",
+      "answer": "$x^3 + 5x^2 + 5x - 2$",
       "points": 20
     },
     {
       "id": 132,
       "wave": 3,
-      "question": "Multiply: (4s - 1)(s² + 3s + 2)",
+      "question": "Simplify: $(2y - 1)(y^2 - 5y + 3)$",
       "choices": [
-        "4s³ + 11s² + 5s - 2",
-        "4s³ - 6s - 2",
-        "5s³ + 11s² + s + 2",
-        "s² + 11s - 2"
+        "$2y^3 - 11y^2 + 11y - 3$",
+        "$2y^3 - 10y^2 + 6y - y^2 + 5y - 3$",
+        "$2y^3 - 11y^2 + 5y - 3$",
+        "$2y^3 - 10y^2 + 11y - 3$"
       ],
-      "answer": "4s³ + 11s² + 5s - 2",
+      "answer": "$2y^3 - 11y^2 + 11y - 3$",
       "points": 20
     },
     {
       "id": 133,
       "wave": 3,
-      "question": "Multiply: (t + 5)(2t² - 3t + 1)",
+      "question": "Simplify: $(a^2 + ab - b^2)(a + b)$",
       "choices": [
-        "2t³ + 7t² - 14t + 5",
-        "2t³ - 15t + 5",
-        "3t³ + 7t² - 2t + 1",
-        "2t² + 7t + 5"
+        "$a^3 + 2a^2b - b^3$",
+        "$a^3 + a^2b - ab^2 + a^2b + ab^2 - b^3$",
+        "$a^3 + 2a^2b + b^3$",
+        "$a^3 + a^2b - ab^2 - b^3$"
       ],
-      "answer": "2t³ + 7t² - 14t + 5",
+      "answer": "$a^3 + 2a^2b - b^3$",
       "points": 20
     },
     {
       "id": 134,
       "wave": 3,
-      "question": "Multiply: (u - 4)(3u² + u - 5)",
+      "question": "Simplify: $(x^2 - xy + y^2)(x + y)^2$",
       "choices": [
-        "3u³ - 11u² - 9u + 20",
-        "3u³ - 20u + 20",
-        "4u³ - 11u² - 4u - 5",
-        "3u² - 11u + 20"
+        "$(x^3 + y^3)(x + y)$",
+        "$x^4 + 2x^3y + x^2y^2 + xy^3 + y^4$",
+        "$x^4 + 2x^3y + x^2y^2 + 2xy^3 + y^4$",
+        "$x^3 + y^3$"
       ],
-      "answer": "3u³ - 11u² - 9u + 20",
+      "answer": "$(x^3 + y^3)(x + y)$",
       "points": 20
     },
     {
       "id": 135,
       "wave": 3,
-      "question": "Multiply: (v + 2)(4v² - v + 3)",
+      "question": "Simplify: $(a^2 + b^2 - c^2)(a + b)$",
       "choices": [
-        "4v³ + 7v² + v + 6",
-        "4v³ - 2v + 6",
-        "5v³ + 7v² + 2v + 3",
-        "4v² + 7v + 6"
+        "$a^3 + a^2b + ab^2 + b^3 - ac^2 - bc^2$",
+        "$a^3 + b^3 - c^2$",
+        "$a^3 + a^2b - ac^2 + b^3 - bc^2$",
+        "$a^3 + a^2b + ab^2 + b^3 - c^2$"
       ],
-      "answer": "4v³ + 7v² + v + 6",
+      "answer": "$a^3 + a^2b + ab^2 + b^3 - ac^2 - bc^2$",
       "points": 20
     },
     {
       "id": 136,
       "wave": 3,
-      "question": "Multiply: (3w - 2)(w² + 2w + 4)",
+      "question": "Simplify: $(x^2 + 3x + 1)(x^2 - x - 2)$",
       "choices": [
-        "3w³ + 4w² + 8w - 8",
-        "3w³ - 8w - 8",
-        "4w³ + 4w² + 2w - 4",
-        "w² + 4w - 8"
+        "$x^4 + 2x^3 - 4x^2 - 7x - 2$",
+        "$x^4 + 3x^3 - 2x^2 - 6x + x^2 - x - 2$",
+        "$x^4 + 2x^3 - 5x^2 - 7x - 2$",
+        "$x^4 + 2x^3 - 7x - 2$"
       ],
-      "answer": "3w³ + 4w² + 8w - 8",
+      "answer": "$x^4 + 2x^3 - 4x^2 - 7x - 2$",
       "points": 20
     },
     {
       "id": 137,
       "wave": 3,
-      "question": "Multiply: (x + 6)(x² - x + 5)",
+      "question": "Simplify: $(y^2 - y + 5)(y^2 + 2y - 1)$",
       "choices": [
-        "x³ + 5x² - x + 30",
-        "x³ - 6x + 30",
-        "x³ - x² + 11x + 5",
-        "x² + 5x + 30"
+        "$y^4 + y^3 + 2y^2 + 11y - 5$",
+        "$y^4 + 2y^3 - y^2 - y^3 - 2y^2 + y + 5y^2 + 10y - 5$",
+        "$y^4 + y^3 + 2y^2 + 9y - 5$",
+        "$y^4 + y^3 + 6y^2 + 11y - 5$"
       ],
-      "answer": "x³ + 5x² - x + 30",
+      "answer": "$y^4 + y^3 + 2y^2 + 11y - 5$",
       "points": 20
     },
     {
       "id": 138,
       "wave": 3,
-      "question": "Multiply: (2y - 3)(y² + 4y - 2)",
+      "question": "Simplify: $(x + 1)(x - 1)(x^2 + x + 1)(x^2 - x + 1)$",
       "choices": [
-        "2y³ + 5y² - 16y + 6",
-        "2y³ - 12y + 6",
-        "3y³ + 5y² - 10y - 6",
-        "y² + 5y + 6"
+        "$x^6 - 1$",
+        "$x^6 + 1$",
+        "$x^6 - x^2 + 1$",
+        "$x^6 - x^4 + x^2 - 1$"
       ],
-      "answer": "2y³ + 5y² - 16y + 6",
+      "answer": "$x^6 - 1$",
       "points": 20
     },
     {
       "id": 139,
       "wave": 3,
-      "question": "Multiply: (z + 7)(z² - 2z + 1)",
+      "question": "Simplify: $(a^2 + 1)(a - 1)(a + 1)$",
       "choices": [
-        "z³ + 5z² - 13z + 7",
-        "z³ - 14z + 7",
-        "z³ - 2z² + 8z + 1",
-        "z² + 5z + 7"
+        "$a^4 - 1$",
+        "$a^4 + 1$",
+        "$a^4 - a^2 + 1$",
+        "$a^4 - a^2 - 1$"
       ],
-      "answer": "z³ + 5z² - 13z + 7",
+      "answer": "$a^4 - 1$",
       "points": 20
     },
     {
       "id": 140,
       "wave": 3,
-      "question": "Multiply: (a - 5)(2a² + 3a + 6)",
+      "question": "Simplify: $(x + y)^2 (x - y)$",
       "choices": [
-        "2a³ - 7a² - 9a - 30",
-        "2a³ - 30a - 30",
-        "3a³ - 7a² - 12a - 6",
-        "2a² - 7a - 30"
+        "$(x^2 + 2xy + y^2)(x - y)$",
+        "$x^3 + x^2y - xy^2 - y^3$",
+        "$x^3 + 2x^2y - xy^2 - y^3$",
+        "$x^3 - y^3$"
       ],
-      "answer": "2a³ - 7a² - 9a - 30",
+      "answer": "$(x^2 + 2xy + y^2)(x - y)$",
       "points": 20
     },
     {
       "id": 141,
       "wave": 3,
-      "question": "Multiply: (3b + 4)(b² - b + 2)",
+      "question": "Simplify: $(a - b)^2 (a + b)$",
       "choices": [
-        "3b³ + b² + 2b + 8",
-        "3b³ - 4b + 8",
-        "4b³ + b² - b + 2",
-        "b² + b + 8"
+        "$(a^2 - 2ab + b^2)(a + b)$",
+        "$a^3 - a^2b - ab^2 + b^3$",
+        "$a^3 - 2a^2b + ab^2 + b^3$",
+        "$a^3 + b^3$"
       ],
-      "answer": "3b³ + b² + 2b + 8",
+      "answer": "$(a^2 - 2ab + b^2)(a + b)$",
       "points": 20
     },
     {
       "id": 142,
       "wave": 3,
-      "question": "Multiply: (c - 6)(3c² + c - 4)",
+      "question": "Simplify: $(x + 1)(x^4 - x^3 + x^2 - x + 1)$",
       "choices": [
-        "3c³ - 17c² - 10c + 24",
-        "3c³ - 24c + 24",
-        "4c³ - 17c² - 3c - 4",
-        "3c² - 17c + 24"
+        "$x^5 + 1$",
+        "$x^5 - 1$",
+        "$x^5 + x^4 - x^3 + x^2 - x + 1$",
+        "$x^5 + x^4 - x^3 + x^2 - x + 1$"
       ],
-      "answer": "3c³ - 17c² - 10c + 24",
+      "answer": "$x^5 + 1$",
       "points": 20
     },
     {
       "id": 143,
       "wave": 3,
-      "question": "Multiply: (2d + 5)(d² - 3d + 1)",
+      "question": "Simplify: $(y - 1)(y^4 + y^3 + y^2 + y + 1)$",
       "choices": [
-        "2d³ - d² - 13d + 5",
-        "2d³ - 15d + 5",
-        "3d³ - d² - 8d + 1",
-        "d² - d + 5"
+        "$y^5 - 1$",
+        "$y^5 + 1$",
+        "$y^5 - y^4 + y^3 - y^2 + y - 1$",
+        "$y^5 - y^4 - y^3 - y^2 - y - 1$"
       ],
-      "answer": "2d³ - d² - 13d + 5",
+      "answer": "$y^5 - 1$",
       "points": 20
     },
     {
       "id": 144,
       "wave": 3,
-      "question": "Multiply: (e - 8)(e² + 2e + 3)",
+      "question": "Simplify: $(a^{n+1} + 1)(a^{n-1} - 1)$",
       "choices": [
-        "e³ - 6e² - 13e - 24",
-        "e³ - 24e - 24",
-        "e³ + 2e² - 5e - 8",
-        "e² - 6e - 24"
+        "$a^{2n} - a^{n+1} + a^{n-1} - 1$",
+        "$a^{2n} - 1$",
+        "$a^{n^2-1} - 1$",
+        "$a^{2n} - a^n + a^{n-1} - 1$"
       ],
-      "answer": "e³ - 6e² - 13e - 24",
+      "answer": "$a^{2n} - a^{n+1} + a^{n-1} - 1$",
       "points": 20
     },
     {
       "id": 145,
       "wave": 3,
-      "question": "Multiply: (4f + 1)(f² - f + 5)",
+      "question": "Simplify: $(x^{m} + y^{n})(x^{m} - y^{n})$",
       "choices": [
-        "4f³ - 3f² + 19f + 5",
-        "4f³ - 4f + 5",
-        "5f³ - 3f² + 4f + 5",
-        "f² - 3f + 5"
+        "$x^{2m} - y^{2n}$",
+        "$x^{m^2} - y^{n^2}$",
+        "$x^m - y^n$",
+        "$x^{2m} + y^{2n}$"
       ],
-      "answer": "4f³ - 3f² + 19f + 5",
+      "answer": "$x^{2m} - y^{2n}$",
       "points": 20
     },
     {
       "id": 146,
       "wave": 3,
-      "question": "Multiply: (g - 9)(2g² + g + 2)",
+      "question": "Simplify: $(x + 1/x)^2$",
       "choices": [
-        "2g³ - 17g² - 7g - 18",
-        "2g³ - 18g - 18",
-        "3g³ - 17g² - 8g - 2",
-        "2g² - 17g - 18"
+        "$x^2 + 2 + 1/x^2$",
+        "$x^2 + 1/x^2$",
+        "$x^2 + 1$",
+        "$x^2 + 2/x + 1/x^2$"
       ],
-      "answer": "2g³ - 17g² - 7g - 18",
+      "answer": "$x^2 + 2 + 1/x^2$",
       "points": 20
     },
     {
       "id": 147,
       "wave": 3,
-      "question": "Multiply: (h + 8)(3h² - 2h + 4)",
+      "question": "Simplify: $(y - 1/y)^2$",
       "choices": [
-        "3h³ + 22h² - 12h + 32",
-        "3h³ - 16h + 32",
-        "4h³ + 22h² + 2h + 4",
-        "3h² + 22h + 32"
+        "$y^2 - 2 + 1/y^2$",
+        "$y^2 + 1/y^2$",
+        "$y^2 - 1$",
+        "$y^2 - 2/y + 1/y^2$"
       ],
-      "answer": "3h³ + 22h² - 12h + 32",
+      "answer": "$y^2 - 2 + 1/y^2$",
       "points": 20
     },
     {
       "id": 148,
       "wave": 3,
-      "question": "Multiply: (2k - 7)(k² + 5k + 1)",
+      "question": "Simplify: $(x + y + 1)(x + y - 1)$",
       "choices": [
-        "2k³ + 3k² - 33k - 7",
-        "2k³ - 35k - 7",
-        "3k³ + 3k² - 30k - 1",
-        "k² + 3k - 7"
+        "$(x + y)^2 - 1$",
+        "$x^2 + y^2 - 1$",
+        "$x^2 + 2xy + y^2 - 1$",
+        "$x^2 + y^2 - 2xy - 1$"
       ],
-      "answer": "2k³ + 3k² - 33k - 7",
+      "answer": "$(x + y)^2 - 1$",
       "points": 20
     },
     {
       "id": 149,
       "wave": 3,
-      "question": "Multiply: (m + 9)(m² - 4m + 6)",
+      "question": "Simplify: $(a - b + 2)(a - b - 2)$",
       "choices": [
-        "m³ + 5m² - 30m + 54",
-        "m³ - 36m + 54",
-        "m³ - 4m² + 15m + 6",
-        "m² + 5m + 54"
+        "$(a - b)^2 - 4$",
+        "$a^2 + b^2 - 4$",
+        "$a^2 - 2ab + b^2 - 4$",
+        "$a^2 - b^2 - 4$"
       ],
-      "answer": "m³ + 5m² - 30m + 54",
+      "answer": "$(a - b)^2 - 4$",
       "points": 20
     },
     {
       "id": 150,
       "wave": 3,
-      "question": "Multiply: (3n - 5)(n² + n + 2)",
+      "question": "Simplify: $(x^2 + x + 1)(x - 2)$",
       "choices": [
-        "3n³ - 2n² + n - 10",
-        "3n³ - 10n - 10",
-        "4n³ - 2n² - 3n - 2",
-        "n² - 2n - 10"
+        "$x^3 - x^2 - x - 2$",
+        "$x^3 - 2x^2 + x - 2$",
+        "$x^3 + x^2 + x - 2$",
+        "$x^3 + x^2 - 2x - 2$"
       ],
-      "answer": "3n³ - 2n² + n - 10",
+      "answer": "$x^3 - x^2 - x - 2$",
       "points": 20
     },
     {
       "id": 151,
       "wave": 4,
-      "question": "Multiply: (x² + 2x + 1)(x + 3)",
+      "question": "Simplify: $(x^2 + 2x + 1)(x^2 - 2x + 1)$",
       "choices": [
-        "x³ + 5x² + 7x + 3",
-        "x³ + 6x² + 3",
-        "x³ + 2x² + x + 3",
-        "2x² + 5x + 4"
+        "$(x^2 + 1)^2 - (2x)^2$",
+        "$x^4 - 2x^2 + 1$",
+        "$x^4 - 4x^2 + 1$",
+        "$x^4 + 2x^2 + 1$"
       ],
-      "answer": "x³ + 5x² + 7x + 3",
+      "answer": "$(x^2 + 1)^2 - (2x)^2$",
       "points": 25
     },
     {
       "id": 152,
       "wave": 4,
-      "question": "Multiply: (y² - 3y + 2)(y - 4)",
+      "question": "Simplify: $(a^2 - 3ab + b^2)(a^2 + 3ab + b^2)$",
       "choices": [
-        "y³ - 7y² + 14y - 8",
-        "y³ - 12y + 8",
-        "y³ - 3y² - 6y - 4",
-        "y² - 7y + 10"
+        "$(a^2 + b^2)^2 - (3ab)^2$",
+        "$a^4 - 7a^2b^2 + b^4$",
+        "$a^4 + a^2b^2 + b^4$",
+        "$a^4 - 9a^2b^2 + b^4$"
       ],
-      "answer": "y³ - 7y² + 14y - 8",
+      "answer": "$(a^2 + b^2)^2 - (3ab)^2$",
       "points": 25
     },
     {
       "id": 153,
       "wave": 4,
-      "question": "Multiply: (2a² + a - 5)(a + 1)",
+      "question": "Simplify: $(x + 1)(x^2 + 1)(x^4 + 1)(x - 1)$",
       "choices": [
-        "2a³ + 3a² - 4a - 5",
-        "2a³ - 5a - 5",
-        "3a³ + 3a² - 6a",
-        "2a² + 3a - 6"
+        "$x^8 - 1$",
+        "$x^8 + 1$",
+        "$x^8 - x^4 + 1$",
+        "$x^8 - 2x^4 + 1$"
       ],
-      "answer": "2a³ + 3a² - 4a - 5",
+      "answer": "$x^8 - 1$",
       "points": 25
     },
     {
       "id": 154,
       "wave": 4,
-      "question": "Multiply: (3b² - 2b + 4)(b - 2)",
+      "question": "Simplify: $(2a - 3)(a^2 + 1)(2a + 3)$",
       "choices": [
-        "3b³ - 8b² + 8b - 8",
-        "3b³ - 8b - 8",
-        "4b³ - 8b² + 2b - 4",
-        "3b² - 8b + 8"
+        "$(4a^2 - 9)(a^2 + 1)$",
+        "$4a^4 - 5a^2 - 9$",
+        "$4a^4 - 9a^2 + 4a^2 - 9$",
+        "$4a^4 + 5a^2 - 9$"
       ],
-      "answer": "3b³ - 8b² + 8b - 8",
+      "answer": "$(4a^2 - 9)(a^2 + 1)$",
       "points": 25
     },
     {
       "id": 155,
       "wave": 4,
-      "question": "Multiply: (m² + m + 1)(m² - 1)",
-      "choices": [
-        "m⁴ + m³ - m - 1",
-        "m⁴ - 1",
-        "m⁴ + m³ + m² - 1",
-        "2m² + m - 1"
-      ],
-      "answer": "m⁴ + m³ - m - 1",
+      "question": "Simplify: $(x^{1/2} + y^{1/2})(x^{1/2} - y^{1/2})$",
+      "choices": ["$x - y$", "$x + y$", "$x^{1/4} - y^{1/4}$", "$x^2 - y^2$"],
+      "answer": "$x - y$",
       "points": 25
     },
     {
       "id": 156,
       "wave": 4,
-      "question": "Multiply: (n² - 4n + 3)(n² + 2)",
-      "choices": [
-        "n⁴ - 4n³ + 5n² - 8n + 6",
-        "n⁴ - 8n + 6",
-        "n⁴ - 4n³ + 7n² - 4n",
-        "n² - 4n + 9"
-      ],
-      "answer": "n⁴ - 4n³ + 5n² - 8n + 6",
+      "question": "Simplify: $(x^{1/3} + y^{1/3})(x^{2/3} - x^{1/3}y^{1/3} + y^{2/3})$",
+      "choices": ["$x + y$", "$x - y$", "$x^3 + y^3$", "$x^{1/3} + y^{1/3}$"],
+      "answer": "$x + y$",
       "points": 25
     },
     {
       "id": 157,
       "wave": 4,
-      "question": "Multiply: (2p² + p - 3)(p² - p + 1)",
-      "choices": [
-        "2p⁴ - p³ - 4p² + 4p - 3",
-        "2p⁴ - 3p² + 4p - 3",
-        "3p⁴ - p³ - 2p² + p",
-        "2p² - p + 4"
-      ],
-      "answer": "2p⁴ - p³ - 4p² + 4p - 3",
+      "question": "Simplify: $(a^{1/3} - b^{1/3})(a^{2/3} + a^{1/3}b^{1/3} + b^{2/3})$",
+      "choices": ["$a - b$", "$a + b$", "$a^3 - b^3$", "$a^{1/3} - b^{1/3}$"],
+      "answer": "$a - b$",
       "points": 25
     },
     {
       "id": 158,
       "wave": 4,
-      "question": "Multiply: (3q² - q + 2)(2q² + q - 1)",
+      "question": "Simplify: $(x^2 + y^2)(x^2 - y^2)$",
       "choices": [
-        "6q⁴ + q³ - 3q² + 3q - 2",
-        "6q⁴ - 2q² + 3q - 2",
-        "5q⁴ + q³ + q² + q - 1",
-        "6q² + q + 1"
+        "$x^4 - y^4$",
+        "$x^4 + y^4$",
+        "$x^2 - y^2$",
+        "$x^4 - 2x^2y^2 + y^4$"
       ],
-      "answer": "6q⁴ + q³ - 3q² + 3q - 2",
+      "answer": "$x^4 - y^4$",
       "points": 25
     },
     {
       "id": 159,
       "wave": 4,
-      "question": "Multiply: (r² + 2r - 5)(r² - 3r + 4)",
+      "question": "Simplify: $(x + 2y - z)^2$",
       "choices": [
-        "r⁴ - r³ - 7r² + 23r - 20",
-        "r⁴ - 15r + 20",
-        "r⁴ + 2r³ - 8r² + 2r - 9",
-        "r² - r + 15"
+        "$x^2 + 4y^2 + z^2 + 4xy - 2xz - 4yz$",
+        "$x^2 + 4y^2 + z^2$",
+        "$x^2 + 2y^2 + z^2 + 2xy - 2xz - 2yz$",
+        "$x^2 + 4y^2 + z^2 + 2xy - 2xz + 4yz$"
       ],
-      "answer": "r⁴ - r³ - 7r² + 23r - 20",
+      "answer": "$x^2 + 4y^2 + z^2 + 4xy - 2xz - 4yz$",
       "points": 25
     },
     {
       "id": 160,
       "wave": 4,
-      "question": "Multiply: (2s² - s + 3)(s² + s - 2)",
+      "question": "Simplify: $(a - b - c)^2$",
       "choices": [
-        "2s⁴ + s³ - 4s² + 5s - 6",
-        "2s⁴ - 6s + 6",
-        "3s⁴ + s³ - s² + s - 6",
-        "2s² + s - 6"
+        "$a^2 + b^2 + c^2 - 2ab - 2ac + 2bc$",
+        "$a^2 + b^2 + c^2$",
+        "$a^2 + b^2 + c^2 - 2ab + 2ac - 2bc$",
+        "$a^2 - b^2 - c^2$"
       ],
-      "answer": "2s⁴ + s³ - 4s² + 5s - 6",
+      "answer": "$a^2 + b^2 + c^2 - 2ab - 2ac + 2bc$",
       "points": 25
     },
     {
       "id": 161,
       "wave": 4,
-      "question": "Multiply: (t² + 3t - 1)(2t² - t + 5)",
+      "question": "Simplify: $(x^2 - x + 1)(x^2 + x + 1)$",
       "choices": [
-        "2t⁴ + 5t³ + 10t² - 8t - 5",
-        "2t⁴ - 5t + 5",
-        "3t⁴ + 5t³ + 4t² + 4t - 1",
-        "2t² + 5t + 4"
+        "$x^4 + x^2 + 1$",
+        "$x^4 + 1$",
+        "$x^4 + 2x^2 + 1$",
+        "$x^4 - x^2 + 1$"
       ],
-      "answer": "2t⁴ + 5t³ + 10t² - 8t - 5",
+      "answer": "$x^4 + x^2 + 1$",
       "points": 25
     },
     {
       "id": 162,
       "wave": 4,
-      "question": "Multiply: (u² - 2u + 4)(3u² + u - 1)",
+      "question": "Simplify: $(y^2 + 3y + 2)(y^2 - 3y + 2)$",
       "choices": [
-        "3u⁴ - 5u³ + 9u² + 6u - 4",
-        "3u⁴ - 4u + 4",
-        "4u⁴ - 5u³ + 3u² + 3u - 1",
-        "3u² - 5u + 3"
+        "$(y^2 + 2)^2 - (3y)^2$",
+        "$y^4 - 5y^2 + 4$",
+        "$y^4 + 4$",
+        "$y^4 - 9y^2 + 4$"
       ],
-      "answer": "3u⁴ - 5u³ + 9u² + 6u - 4",
+      "answer": "$(y^2 + 2)^2 - (3y)^2$",
       "points": 25
     },
     {
       "id": 163,
       "wave": 4,
-      "question": "Multiply: (v² + v + 2)(v² - 3v + 1)",
+      "question": "Simplify: $(x + 1)(x - 2)(x + 3)(x - 4)$",
       "choices": [
-        "v⁴ - 2v³ + 3v - 5v + 2",
-        "v⁴ - 6v + 2",
-        "v⁴ + v³ - v² - 5v + 3",
-        "v² - 2v + 3"
+        "$(x^2 - x - 2)(x^2 - x - 12)$",
+        "$x^4 - 2x^3 - 13x^2 + 14x + 24$",
+        "$x^4 - 2x^3 - 14x^2 + 24x + 24$",
+        "$x^4 - x^2 - 24$"
       ],
-      "answer": "v⁴ - 2v³ + 3v - 5v + 2",
+      "answer": "$(x^2 - x - 2)(x^2 - x - 12)$",
       "points": 25
     },
     {
       "id": 164,
       "wave": 4,
-      "question": "Multiply: (4w² - 3w + 1)(w² + 2w - 3)",
+      "question": "Simplify: $(a^2 + a + 1)(a^2 - a + 1)$",
       "choices": [
-        "4w⁴ + 5w³ - 17w² + 9w - 3",
-        "4w⁴ - 9w + 3",
-        "5w⁴ + 5w³ - 14w² + 5w - 3",
-        "4w² + 5w - 6"
+        "$a^4 + a^2 + 1$",
+        "$a^4 - a^2 + 1$",
+        "$a^4 + 1$",
+        "$a^4 - 1$"
       ],
-      "answer": "4w⁴ + 5w³ - 17w² + 9w - 3",
+      "answer": "$a^4 + a^2 + 1$",
       "points": 25
     },
     {
       "id": 165,
       "wave": 4,
-      "question": "Multiply: (x² + 5x - 2)(2x² - x + 4)",
+      "question": "Simplify: $(x^n + 2)(x^n - 3)$",
       "choices": [
-        "2x⁴ + 9x³ - 5x² + 22x - 8",
-        "2x⁴ - 8x + 8",
-        "3x⁴ + 9x³ + 3x² + 3x - 2",
-        "2x² + 9x + 6"
+        "$x^{2n} - x^n - 6$",
+        "$x^{2n} - 6$",
+        "$x^{2n} - 5x^n - 6$",
+        "$x^{n^2} - x^n - 6$"
       ],
-      "answer": "2x⁴ + 9x³ - 5x² + 22x - 8",
+      "answer": "$x^{2n} - x^n - 6$",
       "points": 25
     },
     {
       "id": 166,
       "wave": 4,
-      "question": "Multiply: (y² - y + 3)(3y² + 2y - 1)",
+      "question": "Simplify: $(y^{m} - 5)(y^{m} + 2)$",
       "choices": [
-        "3y⁴ - y³ + 6y² + 7y - 3",
-        "3y⁴ - 3y + 3",
-        "4y⁴ - y³ + 5y² + 5y - 1",
-        "3y² - y + 2"
+        "$y^{2m} - 3y^m - 10$",
+        "$y^{2m} - 10$",
+        "$y^{2m} - 7y^m - 10$",
+        "$y^{m^2} - 3y^m - 10$"
       ],
-      "answer": "3y⁴ - y³ + 6y² + 7y - 3",
+      "answer": "$y^{2m} - 3y^m - 10$",
       "points": 25
     },
     {
       "id": 167,
       "wave": 4,
-      "question": "Multiply: (z² + 2z - 5)(z² - 4z + 2)",
+      "question": "Simplify: $(x + 1/x)(x^2 + 1/x^2 - 1)$",
       "choices": [
-        "z⁴ - 2z³ - 11z² + 24z - 10",
-        "z⁴ - 20z + 10",
-        "z⁴ + 2z³ - 7z² - 8z - 7",
-        "z² - 2z + 15"
+        "$x^3 + 1/x^3$",
+        "$x^3 - 1/x^3$",
+        "$x^3 + 1$",
+        "$x^3 + x + 1/x + 1/x^3 - x - 1/x$"
       ],
-      "answer": "z⁴ - 2z³ - 11z² + 24z - 10",
+      "answer": "$x^3 + 1/x^3$",
       "points": 25
     },
     {
       "id": 168,
       "wave": 4,
-      "question": "Multiply: (2a² + 3a - 1)(a² - 2a + 5)",
+      "question": "Simplify: $(y - 1/y)(y^2 + 1/y^2 + 1)$",
       "choices": [
-        "2a⁴ - a³ + 3a² + 17a - 5",
-        "2a⁴ - 10a + 5",
-        "3a⁴ - a³ + 2a² + 8a - 1",
-        "2a² - a + 4"
+        "$y^3 - 1/y^3$",
+        "$y^3 + 1/y^3$",
+        "$y^3 - 1$",
+        "$y^3 - y - 1/y + 1/y^3 + y + 1/y$"
       ],
-      "answer": "2a⁴ - a³ + 3a² + 17a - 5",
+      "answer": "$y^3 - 1/y^3$",
       "points": 25
     },
     {
       "id": 169,
       "wave": 4,
-      "question": "Multiply: (3b² - 2b + 4)(2b² + b - 3)",
+      "question": "Simplify: $(x + y + z)(x + y - z)$",
       "choices": [
-        "6b⁴ - b³ - 5b² + 14b - 12",
-        "6b⁴ - 12b + 12",
-        "5b⁴ - b³ - b² + 5b - 3",
-        "6b² - b + 1"
+        "$(x+y)^2 - z^2$",
+        "$x^2 + y^2 - z^2$",
+        "$x^2 + 2xy + y^2 - z^2$",
+        "$x^2 + y^2 + z^2 + 2xy$"
       ],
-      "answer": "6b⁴ - b³ - 5b² + 14b - 12",
+      "answer": "$(x+y)^2 - z^2$",
       "points": 25
     },
     {
       "id": 170,
       "wave": 4,
-      "question": "Multiply: (c² + 4c - 6)(c² - 3c + 1)",
+      "question": "Simplify: $(a - b + c)(a - b - c)$",
       "choices": [
-        "c⁴ + c³ - 17c² + 22c - 6",
-        "c⁴ - 18c + 6",
-        "c⁴ + 4c³ - 5c² - 14c - 5",
-        "c² + c - 17"
+        "$(a-b)^2 - c^2$",
+        "$a^2 + b^2 - c^2$",
+        "$a^2 - 2ab + b^2 - c^2$",
+        "$a^2 - b^2 - c^2$"
       ],
-      "answer": "c⁴ + c³ - 17c² + 22c - 6",
+      "answer": "$(a-b)^2 - c^2$",
       "points": 25
     },
     {
       "id": 171,
       "wave": 4,
-      "question": "Multiply: (d² - 5d + 2)(3d² + 2d - 4)",
+      "question": "Simplify: $(x^2 + 2x + 4)(x - 2)$",
       "choices": [
-        "3d⁴ - 13d³ - 12d² + 24d - 8",
-        "3d⁴ - 20d + 8",
-        "4d⁴ - 13d³ - 10d² + 8d - 4",
-        "3d² - 13d - 6"
+        "$x^3 - 8$",
+        "$x^3 + 8$",
+        "$x^3 - 2x^2 + 4x + 2x^2 - 4x + 8$",
+        "$x^3 + 4x + 8$"
       ],
-      "answer": "3d⁴ - 13d³ - 12d² + 24d - 8",
+      "answer": "$x^3 - 8$",
       "points": 25
     },
     {
       "id": 172,
       "wave": 4,
-      "question": "Multiply: (2e² + e - 3)(e² - e + 2)",
+      "question": "Simplify: $(x^2 - 2x + 4)(x + 2)$",
       "choices": [
-        "2e⁴ - e³ + 2e + 5e - 6",
-        "2e⁴ - 6e + 6",
-        "3e⁴ - e³ + e² + 5e - 3",
-        "2e² - e + 5"
+        "$x^3 + 8$",
+        "$x^3 - 8$",
+        "$x^3 + 2x^2 - 4x - 2x^2 + 4x - 8$",
+        "$x^3 - 4x + 8$"
       ],
-      "answer": "2e⁴ - e³ + 2e + 5e - 6",
+      "answer": "$x^3 + 8$",
       "points": 25
     },
     {
       "id": 173,
       "wave": 4,
-      "question": "Multiply: (f² + 3f + 5)(f² - 2f - 1)",
+      "question": "Simplify: $(2x + 3)(4x^2 - 6x + 9)$",
       "choices": [
-        "f⁴ + f³ - 2f² - 13f - 5",
-        "f⁴ - 10f - 5",
-        "f⁴ + 3f³ - f² - 11f - 6",
-        "f² + f - 6"
+        "$8x^3 + 27$",
+        "$8x^3 - 27$",
+        "$8x^3 + 12x^2 + 18x - 12x^2 - 18x + 27$",
+        "$8x^3 + 9$"
       ],
-      "answer": "f⁴ + f³ - 2f² - 13f - 5",
+      "answer": "$8x^3 + 27$",
       "points": 25
     },
     {
       "id": 174,
       "wave": 4,
-      "question": "Multiply: (4g² - g + 3)(g² + g - 2)",
+      "question": "Simplify: $(3y - 1)(9y^2 + 3y + 1)$",
       "choices": [
-        "4g⁴ + 3g³ - 10g² + 5g - 6",
-        "4g⁴ - 6g + 6",
-        "5g⁴ + 3g³ - 7g² + g - 2",
-        "4g² + 3g - 5"
+        "$27y^3 - 1$",
+        "$27y^3 + 1$",
+        "$27y^3 + 9y^2 + 3y - 9y^2 - 3y - 1$",
+        "$27y^3 - 3y + 1$"
       ],
-      "answer": "4g⁴ + 3g³ - 10g² + 5g - 6",
+      "answer": "$27y^3 - 1$",
       "points": 25
     },
     {
       "id": 175,
       "wave": 4,
-      "question": "Multiply: (h² - 4h + 7)(2h² + h - 3)",
-      "choices": [
-        "2h⁴ - 7h³ + 7h² + 25h - 21",
-        "2h⁴ - 21h + 21",
-        "3h⁴ - 7h³ + 4h² + 11h - 7",
-        "2h² - 7h + 4"
-      ],
-      "answer": "2h⁴ - 7h³ + 7h² + 25h - 21",
+      "question": "Simplify: $(x^3 + y^3)(x^3 - y^3)$",
+      "choices": ["$x^6 - y^6$", "$x^6 + y^6$", "$x^9 - y^9$", "$x^3 - y^3$"],
+      "answer": "$x^6 - y^6$",
       "points": 25
     },
     {
       "id": 176,
       "wave": 4,
-      "question": "Multiply: (3k² + 2k - 1)(k² - 3k + 4)",
+      "question": "Simplify: $(a^4 + b^4)(a^4 - b^4)$",
       "choices": [
-        "3k⁴ - 7k³ + 5k² + 14k - 4",
-        "3k⁴ - 4k + 4",
-        "4k⁴ - 7k³ + 2k² + 5k - 1",
-        "3k² - 7k + 3"
+        "$a^8 - b^8$",
+        "$a^8 + b^8$",
+        "$a^{16} - b^{16}$",
+        "$a^4 - b^4$"
       ],
-      "answer": "3k⁴ - 7k³ + 5k² + 14k - 4",
+      "answer": "$a^8 - b^8$",
       "points": 25
     },
     {
       "id": 177,
       "wave": 4,
-      "question": "Multiply: (m² - m + 6)(2m² + m - 2)",
+      "question": "Simplify: $(x^2 + 1/x^2)(x^2 - 1/x^2)$",
       "choices": [
-        "2m⁴ - m³ + 11m² + 8m - 12",
-        "2m⁴ - 12m + 12",
-        "3m⁴ - m³ + 4m² + 4m - 6",
-        "2m² - m + 4"
+        "$x^4 - 1/x^4$",
+        "$x^4 + 1/x^4$",
+        "$x^4 - 1$",
+        "$x^4 - 2 + 1/x^4$"
       ],
-      "answer": "2m⁴ - m³ + 11m² + 8m - 12",
+      "answer": "$x^4 - 1/x^4$",
       "points": 25
     },
     {
       "id": 178,
       "wave": 4,
-      "question": "Multiply: (n² + 2n - 5)(3n² - n + 1)",
+      "question": "Simplify: $(a^x + b^y)(a^x - b^y)$",
       "choices": [
-        "3n⁴ + 5n³ - 14n² + 7n - 5",
-        "3n⁴ - 5n + 5",
-        "4n⁴ + 5n³ - 11n² - 3n - 5",
-        "3n² + 5n - 14"
+        "$a^{2x} - b^{2y}$",
+        "$a^{x^2} - b^{y^2}$",
+        "$a^x - b^y$",
+        "$a^{2x} + b^{2y}$"
       ],
-      "answer": "3n⁴ + 5n³ - 14n² + 7n - 5",
+      "answer": "$a^{2x} - b^{2y}$",
       "points": 25
     },
     {
       "id": 179,
       "wave": 4,
-      "question": "Multiply: (4p² - 3p + 2)(p² + 2p - 1)",
+      "question": "Simplify: $(x + 2)(x^2 + 2x + 4)$",
       "choices": [
-        "4p⁴ + 5p³ - 8p² + 7p - 2",
-        "4p⁴ - 2p + 2",
-        "5p⁴ + 5p³ - 5p² + p - 1",
-        "4p² + 5p - 7"
+        "$x^3 + 4x^2 + 8x + 8$",
+        "$x^3 + 8$",
+        "$x^3 + 2x^2 + 4x + 2x^2 + 4x + 8$",
+        "$x^3 + 4x + 8$"
       ],
-      "answer": "4p⁴ + 5p³ - 8p² + 7p - 2",
+      "answer": "$x^3 + 4x^2 + 8x + 8$",
       "points": 25
     },
     {
       "id": 180,
       "wave": 4,
-      "question": "Multiply: (q² + q + 3)(2q² - 3q + 4)",
+      "question": "Simplify: $(x + 2)(x - 1)(x + 1)$",
       "choices": [
-        "2q⁴ - q³ + 5q² + 3q + 12",
-        "2q⁴ + 12q + 12",
-        "3q⁴ - q³ + 2q² + 7q + 3",
-        "2q² - q + 7"
+        "$(x^2 - 1)(x + 2)$",
+        "$x^3 + 2x^2 - x - 2$",
+        "$x^3 + x^2 - x - 2$",
+        "$x^3 - x - 2$"
       ],
-      "answer": "2q⁴ - q³ + 5q² + 3q + 12",
+      "answer": "$(x^2 - 1)(x + 2)$",
       "points": 25
     },
     {
       "id": 181,
       "wave": 4,
-      "question": "Multiply: (r² - 2r + 5)(3r² + r - 2)",
+      "question": "Simplify: $(x^2 + 2x + 3)(x - 1)$",
       "choices": [
-        "3r⁴ - 5r³ + 11r² + 12r - 10",
-        "3r⁴ - 10r + 10",
-        "4r⁴ - 5r³ + 8r² + 3r - 5",
-        "3r² - 5r + 3"
+        "$x^3 + x^2 + x - 3$",
+        "$x^3 + 2x^2 + 3x - x^2 - 2x - 3$",
+        "$x^3 + x^2 + 2x - 3$",
+        "$x^3 + x^2 - x - 3$"
       ],
-      "answer": "3r⁴ - 5r³ + 11r² + 12r - 10",
+      "answer": "$x^3 + x^2 + x - 3$",
       "points": 25
     },
     {
       "id": 182,
       "wave": 4,
-      "question": "Multiply: (2s² + 3s - 1)(s² - s + 3)",
+      "question": "Simplify: $(3y^2 - y + 2)(2y + 1)$",
       "choices": [
-        "2s⁴ + s³ + 2s² + 10s - 3",
-        "2s⁴ - 3s + 3",
-        "3s⁴ + s³ + s² + 2s - 1",
-        "2s² + s + 2"
+        "$6y^3 + y^2 + 3y + 2$",
+        "$6y^3 + 3y^2 - y + 4y + 2$",
+        "$6y^3 + y^2 + 5y + 2$",
+        "$6y^3 - 2y^2 + 4y + 3y^2 - y + 2$"
       ],
-      "answer": "2s⁴ + s³ + 2s² + 10s - 3",
+      "answer": "$6y^3 + y^2 + 3y + 2$",
       "points": 25
     },
     {
       "id": 183,
       "wave": 4,
-      "question": "Multiply: (t² - t + 4)(4t² + 2t - 1)",
+      "question": "Simplify: $(x - y)(x^2 + y^2)(x^2 + xy + y^2)$",
       "choices": [
-        "4t⁴ - 2t³ + 13t² + 9t - 4",
-        "4t⁴ - 4t + 4",
-        "5t⁴ - 2t³ + 6t² + 7t - 1",
-        "4t² - 2t + 3"
+        "$(x^3 - y^3)(x^2 + y^2)$",
+        "$x^5 + x^4y + x^3y^2 - x^2y^3 - xy^4 - y^5$",
+        "$x^5 - y^5$",
+        "$x^5 - x^4y + x^3y^2 - x^2y^3 + xy^4 - y^5$"
       ],
-      "answer": "4t⁴ - 2t³ + 13t² + 9t - 4",
+      "answer": "$(x^3 - y^3)(x^2 + y^2)$",
       "points": 25
     },
     {
       "id": 184,
       "wave": 4,
-      "question": "Multiply: (u² + 2u - 3)(u² - 4u + 5)",
+      "question": "Simplify: $(a + b)(a^2 - ab + b^2)(a^3 - b^3)$",
       "choices": [
-        "u⁴ - 2u³ - 6u² + 22u - 15",
-        "u⁴ - 15u + 15",
-        "u⁴ + 2u³ - 7u² - 2u - 8",
-        "u² - 2u - 8"
+        "$(a^3 + b^3)(a^3 - b^3)$",
+        "$a^6 - b^6$",
+        "$a^6 - a^3b^3 + b^6$",
+        "$a^6 - 2a^3b^3 + b^6$"
       ],
-      "answer": "u⁴ - 2u³ - 6u² + 22u - 15",
+      "answer": "$(a^3 + b^3)(a^3 - b^3)$",
       "points": 25
     },
     {
       "id": 185,
       "wave": 4,
-      "question": "Multiply: (3v² - v + 2)(2v² + v - 4)",
+      "question": "Simplify: $(x + 1/2)(x - 1/2)(x^2 + 1/4)$",
       "choices": [
-        "6v⁴ + v³ - 9v² + 6v - 8",
-        "6v⁴ - 8v + 8",
-        "5v⁴ + v³ - 7v² - 3v - 4",
-        "6v² + v - 9"
+        "$(x^2 - 1/4)(x^2 + 1/4)$",
+        "$x^4 - 1/16$",
+        "$x^4 + 1/16$",
+        "$x^4 - 1/4x^2 + 1/16$"
       ],
-      "answer": "6v⁴ + v³ - 9v² + 6v - 8",
+      "answer": "$(x^2 - 1/4)(x^2 + 1/4)$",
       "points": 25
     },
     {
       "id": 186,
       "wave": 4,
-      "question": "Multiply: (w² + 3w + 1)(w² - 2w + 6)",
+      "question": "Simplify: $(x + y - z)^2$",
       "choices": [
-        "w⁴ + w³ + w² + 16w + 6",
-        "w⁴ + 6w + 6",
-        "w⁴ + 3w³ - 2w² + 4w + 7",
-        "w² + w + 7"
+        "$x^2 + y^2 + z^2 + 2xy - 2xz - 2yz$",
+        "$x^2 + y^2 + z^2$",
+        "$x^2 + y^2 + z^2 - 2xy - 2xz - 2yz$",
+        "$x^2 + y^2 + z^2 + 2xy + 2xz - 2yz$"
       ],
-      "answer": "w⁴ + w³ + w² + 16w + 6",
+      "answer": "$x^2 + y^2 + z^2 + 2xy - 2xz - 2yz$",
       "points": 25
     },
     {
       "id": 187,
       "wave": 4,
-      "question": "Multiply: (x² - 4x + 7)(3x² + 2x - 1)",
+      "question": "Simplify: $(a + b + c)(a + b + c)$",
       "choices": [
-        "3x⁴ - 10x³ + 12x² + 30x - 7",
-        "3x⁴ - 7x + 7",
-        "4x⁴ - 10x³ + 9x² + 13x - 7",
-        "3x² - 10x + 6"
+        "$a^2 + b^2 + c^2 + 2ab + 2ac + 2bc$",
+        "$a^2 + b^2 + c^2$",
+        "$a^2 + b^2 + c^2 + ab + ac + bc$",
+        "$a^2 + b^2 + c^2 + 4abc$"
       ],
-      "answer": "3x⁴ - 10x³ + 12x² + 30x - 7",
+      "answer": "$a^2 + b^2 + c^2 + 2ab + 2ac + 2bc$",
       "points": 25
     },
     {
       "id": 188,
       "wave": 4,
-      "question": "Multiply: (2y² + y - 5)(y² - 3y + 2)",
+      "question": "Simplify: $(x^n + x^{-n})^2$",
       "choices": [
-        "2y⁴ - 5y³ - 6y² + 17y - 10",
-        "2y⁴ - 10y + 10",
-        "3y⁴ - 5y³ - 3y² + 7y - 5",
-        "2y² - 5y - 4"
+        "$x^{2n} + 2 + x^{-2n}$",
+        "$x^{2n} + x^{-2n}$",
+        "$x^{2n} + 1$",
+        "$x^{n^2} + x^{-n^2}$"
       ],
-      "answer": "2y⁴ - 5y³ - 6y² + 17y - 10",
+      "answer": "$x^{2n} + 2 + x^{-2n}$",
       "points": 25
     },
     {
       "id": 189,
       "wave": 4,
-      "question": "Multiply: (z² + z + 4)(2z² - z + 3)",
+      "question": "Simplify: $(y^m - y^{-m})^2$",
       "choices": [
-        "2z⁴ + z³ + 9z² + z + 12",
-        "2z⁴ + 12z + 12",
-        "3z⁴ + z³ + 6z² + 2z + 4",
-        "2z² + z + 7"
+        "$y^{2m} - 2 + y^{-2m}$",
+        "$y^{2m} + y^{-2m}$",
+        "$y^{2m} - 1$",
+        "$y^{m^2} - y^{-m^2}$"
       ],
-      "answer": "2z⁴ + z³ + 9z² + z + 12",
+      "answer": "$y^{2m} - 2 + y^{-2m}$",
       "points": 25
     },
     {
       "id": 190,
       "wave": 4,
-      "question": "Multiply: (3a² - 2a + 1)(a² + a - 5)",
-      "choices": [
-        "3a⁴ + a³ - 16a² + 7a - 5",
-        "3a⁴ - 5a + 5",
-        "4a⁴ + a³ - 13a² - a - 1",
-        "3a² + a - 16"
-      ],
-      "answer": "3a⁴ + a³ - 16a² + 7a - 5",
+      "question": "Simplify: $(x + 1)(x - 1)(x^2 + 1)(x^4 + 1)(x^8 + 1)$",
+      "choices": ["$x^{16} - 1$", "$x^{16} + 1$", "$x^{32} - 1$", "$x^8 - 1$"],
+      "answer": "$x^{16} - 1$",
       "points": 25
     },
     {
       "id": 191,
       "wave": 4,
-      "question": "Multiply: (b² + 2b - 6)(3b² - b + 4)",
+      "question": "Simplify: $(a - b)(a + b)(a^2 + b^2)(a^4 + b^4)(a^8 + b^8)$",
       "choices": [
-        "3b⁴ + 5b³ - 16b² + 14b - 24",
-        "3b⁴ - 24b + 24",
-        "4b⁴ + 5b³ - 13b² + 2b - 6",
-        "3b² + 5b - 18"
+        "$a^{16} - b^{16}$",
+        "$a^{16} + b^{16}$",
+        "$a^{32} - b^{32}$",
+        "$a^8 - b^8$"
       ],
-      "answer": "3b⁴ + 5b³ - 16b² + 14b - 24",
+      "answer": "$a^{16} - b^{16}$",
       "points": 25
     },
     {
       "id": 192,
       "wave": 4,
-      "question": "Multiply: (4c² - c + 2)(c² + 3c - 1)",
+      "question": "Simplify: $(x + y)(x - y)(x^2 + xy + y^2)(x^2 - xy + y^2)$",
       "choices": [
-        "4c⁴ + 11c³ - 9c² + 7c - 2",
-        "4c⁴ - 2c + 2",
-        "5c⁴ + 11c³ - 6c² + 5c - 1",
-        "4c² + 11c - 7"
+        "$(x^3 + y^3)(x^3 - y^3)$",
+        "$x^6 - y^6$",
+        "$x^6 + y^6$",
+        "$x^6 - x^2y^2 + y^6$"
       ],
-      "answer": "4c⁴ + 11c³ - 9c² + 7c - 2",
+      "answer": "$(x^3 + y^3)(x^3 - y^3)$",
       "points": 25
     },
     {
       "id": 193,
       "wave": 4,
-      "question": "Multiply: (d² - 3d + 5)(2d² + d - 3)",
+      "question": "Simplify: $(2x + 1)(x - 2)(x + 3)(x - 1)$",
       "choices": [
-        "2d⁴ - 5d³ + 5d² + 18d - 15",
-        "2d⁴ - 15d + 15",
-        "3d⁴ - 5d³ + 2d² + 2d - 5",
-        "2d² - 5d + 2"
+        "$(2x^2 - 3x - 2)(x^2 + 2x - 3)$",
+        "$2x^4 - x^3 - 14x^2 - x + 6$",
+        "$2x^4 - x^3 - 13x^2 + 6$",
+        "$2x^4 - 2x^3 - 13x^2 + x + 6$"
       ],
-      "answer": "2d⁴ - 5d³ + 5d² + 18d - 15",
+      "answer": "$(2x^2 - 3x - 2)(x^2 + 2x - 3)$",
       "points": 25
     },
     {
       "id": 194,
       "wave": 4,
-      "question": "Multiply: (e² + 4e - 2)(3e² - 2e + 1)",
+      "question": "Simplify: $(x^2 + x - 1)(x^2 - x + 1)$",
       "choices": [
-        "3e⁴ + 10e³ - 13e² + 8e - 2",
-        "3e⁴ - 2e + 2",
-        "4e⁴ + 10e³ - 9e² - 6e - 1",
-        "3e² + 10e - 11"
+        "$(x^2 - 1)^2 - x^2$",
+        "$x^4 - x^2 + 1$",
+        "$x^4 + x^2 + 1$",
+        "$x^4 - 2x^2 + 1$"
       ],
-      "answer": "3e⁴ + 10e³ - 13e² + 8e - 2",
+      "answer": "$(x^2 - 1)^2 - x^2$",
       "points": 25
     },
     {
       "id": 195,
       "wave": 4,
-      "question": "Multiply: (f² - f + 3)(4f² + f - 2)",
+      "question": "Simplify: $(a + b + c)(a - b + c)$",
       "choices": [
-        "4f⁴ - 3f³ + 9f² + 5f - 6",
-        "4f⁴ - 6f + 6",
-        "5f⁴ - 3f³ + 2f² + f - 2",
-        "4f² - 3f + 1"
+        "$(a + c)^2 - b^2$",
+        "$a^2 + c^2 - b^2$",
+        "$a^2 + 2ac + c^2 - b^2$",
+        "$a^2 + b^2 + c^2 + 2ac$"
       ],
-      "answer": "4f⁴ - 3f³ + 9f² + 5f - 6",
+      "answer": "$(a + c)^2 - b^2$",
       "points": 25
     },
     {
       "id": 196,
       "wave": 4,
-      "question": "Multiply: (2g² + 3g - 1)(g² - g + 4)",
+      "question": "Simplify: $(x + 1)(x^2 - x + 1)(x^3 - 1)$",
       "choices": [
-        "2g⁴ + g³ + 4g² + 13g - 4",
-        "2g⁴ - 4g + 4",
-        "3g⁴ + g³ + g² + 2g - 1",
-        "2g² + g + 3"
+        "$(x^3 + 1)(x^3 - 1)$",
+        "$x^6 - 1$",
+        "$x^6 + x^3 - x^2 + 1$",
+        "$x^6 - x^3 + x^2 - 1$"
       ],
-      "answer": "2g⁴ + g³ + 4g² + 13g - 4",
+      "answer": "$(x^3 + 1)(x^3 - 1)$",
       "points": 25
     },
     {
       "id": 197,
       "wave": 4,
-      "question": "Multiply: (h² - 2h + 6)(3h² + 2h - 1)",
+      "question": "Simplify: $(y - 2)(y^2 + 2y + 4)(y^3 + 8)$",
       "choices": [
-        "3h⁴ - 4h³ + 17h² + 14h - 6",
-        "3h⁴ - 6h + 6",
-        "4h⁴ - 4h³ + 14h² + 4h - 6",
-        "3h² - 4h + 5"
+        "$(y^3 - 8)(y^3 + 8)$",
+        "$y^6 - 64$",
+        "$y^6 + 64$",
+        "$y^6 - 16$"
       ],
-      "answer": "3h⁴ - 4h³ + 17h² + 14h - 6",
+      "answer": "$(y^3 - 8)(y^3 + 8)$",
       "points": 25
     },
     {
       "id": 198,
       "wave": 4,
-      "question": "Multiply: (4k² + k - 3)(k² - 3k + 2)",
+      "question": "Simplify: $(x^2 + xy + y^2)^2$",
       "choices": [
-        "4k⁴ - 11k³ + 2k² + 9k - 6",
-        "4k⁴ - 6k + 6",
-        "5k⁴ - 11k³ - k² + 5k - 3",
-        "4k² - 11k - 1"
+        "$x^4 + y^4 + x^2y^2 + 2x^3y + 2xy^3$",
+        "$x^4 + x^2y^2 + y^4$",
+        "$x^4 + 2x^3y + 3x^2y^2 + 2xy^3 + y^4$",
+        "$x^4 + 2x^3y + 2xy^3 + y^4$"
       ],
-      "answer": "4k⁴ - 11k³ + 2k² + 9k - 6",
+      "answer": "$x^4 + 2x^3y + 3x^2y^2 + 2xy^3 + y^4$",
       "points": 25
     },
     {
       "id": 199,
       "wave": 4,
-      "question": "Multiply: (m² + 2m - 5)(2m² - m + 3)",
+      "question": "Simplify: $(a^2 - ab + b^2)^2$",
       "choices": [
-        "2m⁴ + 3m³ - 9m² + 11m - 15",
-        "2m⁴ - 15m + 15",
-        "3m⁴ + 3m³ - 7m² + m - 5",
-        "2m² + 3m - 12"
+        "$a^4 + b^4 + a^2b^2 - 2a^3b - 2ab^3$",
+        "$a^4 - a^2b^2 + b^4$",
+        "$a^4 - 2a^3b + 3a^2b^2 - 2ab^3 + b^4$",
+        "$a^4 - 2a^3b - 2ab^3 + b^4$"
       ],
-      "answer": "2m⁴ + 3m³ - 9m² + 11m - 15",
+      "answer": "$a^4 - 2a^3b + 3a^2b^2 - 2ab^3 + b^4$",
       "points": 25
     },
     {
       "id": 200,
       "wave": 4,
-      "question": "Multiply: (3n² - n + 4)(n² + 2n - 2)",
+      "question": "Simplify: $(x + y + z)(x^2 + y^2 + z^2 - xy - xz - yz)$",
       "choices": [
-        "3n⁴ + 5n³ - 4n² + 10n - 8",
-        "3n⁴ - 8n + 8",
-        "4n⁴ + 5n³ - n² + 2n - 2",
-        "3n² + 5n - 6"
+        "$x^3 + y^3 + z^3 - 3xyz$",
+        "$x^3 + y^3 + z^3$",
+        "$x^3 + y^3 + z^3 + 3xyz$",
+        "$x^3 + y^3 + z^3 - xy - xz - yz$"
       ],
-      "answer": "3n⁴ + 5n³ - 4n² + 10n - 8",
+      "answer": "$x^3 + y^3 + z^3 - 3xyz$",
       "points": 25
     },
     {
       "id": 201,
       "wave": 5,
-      "question": "Multiply: (x + y)(x² - xy + y²)",
-      "choices": ["x³ + y³", "x³ - y³", "x² + y²", "x³ + x²y + xy² + y³"],
-      "answer": "x³ + y³",
+      "question": "Simplify: $(x^{n+1} + x^n + x^{n-1})(x - 1)$",
+      "choices": [
+        "$x^{n+2} - x^{n-1}$",
+        "$x^{n+2} - 1$",
+        "$x^{n+2} + x^{n+1} + x^n - x^{n+1} - x^n - x^{n-1}$",
+        "$x^{n+2} - x^n + x^{n-1}$"
+      ],
+      "answer": "$x^{n+2} - x^{n-1}$",
       "points": 30
     },
     {
       "id": 202,
       "wave": 5,
-      "question": "Multiply: (2a - b)(4a² + 2ab + b²)",
-      "choices": ["8a³ - b³", "8a³ + b³", "6a³ - 2b³", "4a² - b²"],
-      "answer": "8a³ - b³",
+      "question": "Simplify: $(a^{2x} + 2a^x + 3)(a^x - 1)$",
+      "choices": [
+        "$a^{3x} + a^{2x} + a^x - 3$",
+        "$a^{3x} + a^{2x} + a^x - 3$",
+        "$a^{3x} + 2a^{2x} + 3a^x - a^{2x} - 2a^x - 3$",
+        "$a^{3x} + 3a^x - 3$"
+      ],
+      "answer": "$a^{3x} + a^{2x} + a^x - 3$",
       "points": 30
     },
     {
       "id": 203,
       "wave": 5,
-      "question": "Multiply: (3m + 2n)³",
+      "question": "Simplify: $(x^3 + x^2y + xy^2 + y^3)(x - y)$",
       "choices": [
-        "27m³ + 54m²n + 36mn² + 8n³",
-        "27m³ + 8n³",
-        "9m² + 12mn + 4n²",
-        "27m³ + 36m²n + 8n³"
+        "$x^4 - y^4$",
+        "$x^4 + y^4$",
+        "$x^4 - x^3y + x^2y^2 - xy^3 + x^3y - x^2y^2 + xy^3 - y^4$",
+        "$x^4 - x^2y^2 + y^4$"
       ],
-      "answer": "27m³ + 54m²n + 36mn² + 8n³",
+      "answer": "$x^4 - y^4$",
       "points": 30
     },
     {
       "id": 204,
       "wave": 5,
-      "question": "Multiply: (p - q)(p + q)(p² + q²)",
-      "choices": ["p⁴ - q⁴", "p⁴ + q⁴", "2p² - 2q²", "p² - q²"],
-      "answer": "p⁴ - q⁴",
+      "question": "Simplify: $(a^4 - a^3b + a^2b^2 - ab^3 + b^4)(a + b)$",
+      "choices": [
+        "$a^5 + b^5$",
+        "$a^5 - b^5$",
+        "$a^5 + a^4b - a^3b^2 + a^2b^3 - ab^4 + a^4b - a^3b^2 + a^2b^3 - ab^4 + b^5$",
+        "$a^5 - a^4b + b^5$"
+      ],
+      "answer": "$a^5 + b^5$",
       "points": 30
     },
     {
       "id": 205,
       "wave": 5,
-      "question": "Multiply: (x + 2y)(x - 2y)(x² + 4y²)",
-      "choices": ["x⁴ - 16y⁴", "x⁴ + 16y⁴", "x² - 4y²", "x⁴ - 4y⁴"],
-      "answer": "x⁴ - 16y⁴",
+      "question": "Simplify: $(x + 1/x)(x^3 - x + 1/x)$",
+      "choices": [
+        "$x^4 + 1/x^2 - 1 + x^2 + 1/x^4 - 1/x^2$",
+        "$x^4 + x^2 + 1/x^2 + 1/x^4$",
+        "$x^4 + 1/x^4$",
+        "$x^4 - 1/x^4 + x^2 + 1/x^2$"
+      ],
+      "answer": "$x^4 + x^2 + 1/x^2 + 1/x^4$",
       "points": 30
     },
     {
       "id": 206,
       "wave": 5,
-      "question": "Multiply: (a + b + c)(a + b - c)",
+      "question": "Simplify: $(a^n - 1/a^n)(a^{2n} + 1 + 1/a^{2n})$",
       "choices": [
-        "a² + 2ab + b² - c²",
-        "a² - b² - c²",
-        "a² + b² - c²",
-        "2a + 2b - 2c"
+        "$a^{3n} - 1/a^{3n}$",
+        "$a^{3n} + 1/a^{3n}$",
+        "$a^{3n} - a^n + 1/a^n - 1/a^{3n}$",
+        "$a^{3n} - 1$"
       ],
-      "answer": "a² + 2ab + b² - c²",
+      "answer": "$a^{3n} - 1/a^{3n}$",
       "points": 30
     },
     {
       "id": 207,
       "wave": 5,
-      "question": "Multiply: (2x - y + z)(2x + y - z)",
+      "question": "Simplify: $(x + 1)(x^5 - x^4 + x^3 - x^2 + x - 1)$",
       "choices": [
-        "4x² - y² + 2yz - z²",
-        "4x² + y² - z²",
-        "4x² - y² - z²",
-        "2x² - y² + z²"
+        "$x^6 - 1$",
+        "$x^6 + 1$",
+        "$x^6 - x^5 + x^4 - x^3 + x^2 - x + x^5 - x^4 + x^3 - x^2 + x - 1$",
+        "$x^6 + x^5 - 1$"
       ],
-      "answer": "4x² - y² + 2yz - z²",
+      "answer": "$x^6 - 1$",
       "points": 30
     },
     {
       "id": 208,
       "wave": 5,
-      "question": "Multiply: (3r + 2s)² - (3r - 2s)²",
-      "choices": ["24rs", "36r² - 16s²", "12r + 8s", "9r² + 4s²"],
-      "answer": "24rs",
+      "question": "Simplify: $(y - 1)(y^5 + y^4 + y^3 + y^2 + y + 1)$",
+      "choices": [
+        "$y^6 - 1$",
+        "$y^6 + 1$",
+        "$y^6 + y^5 + y^4 + y^3 + y^2 + y - y^5 - y^4 - y^3 - y^2 - y - 1$",
+        "$y^6 - y^5 + 1$"
+      ],
+      "answer": "$y^6 - 1$",
       "points": 30
     },
     {
       "id": 209,
       "wave": 5,
-      "question": "Multiply: (x² + xy + y²)(x² - xy + y²)",
-      "choices": ["x⁴ + x²y² + y⁴", "x⁴ - y⁴", "x² + y²", "x⁴ + 2x²y² + y⁴"],
-      "answer": "x⁴ + x²y² + y⁴",
+      "question": "Simplify: $(x + y + z)(x^2 + y^2 + z^2 - xy - xz - yz)$",
+      "choices": [
+        "$x^3 + y^3 + z^3 - 3xyz$",
+        "$x^3 + y^3 + z^3$",
+        "$x^3 + y^3 + z^3 + 3xyz$",
+        "$x^3 + y^3 + z^3 - x^2y - x^2z - y^2x - y^2z - z^2x - z^2y + 3xyz$"
+      ],
+      "answer": "$x^3 + y^3 + z^3 - 3xyz$",
       "points": 30
     },
     {
       "id": 210,
       "wave": 5,
-      "question": "Multiply: (a + 1)(a - 1)(a² + 1)(a⁴ + 1)",
-      "choices": ["a⁸ - 1", "a⁸ + 1", "a⁴ - 1", "a² - 1"],
-      "answer": "a⁸ - 1",
+      "question": "Simplify: $(a - b)(a^3 + a^2b + ab^2 + b^3)$",
+      "choices": [
+        "$a^4 - b^4$",
+        "$a^4 + b^4$",
+        "$a^4 - a^3b + a^2b^2 - ab^3 + a^3b + a^2b^2 + ab^3 + b^4$",
+        "$a^4 - a^2b^2 + b^4$"
+      ],
+      "answer": "$a^4 - b^4$",
       "points": 30
     },
     {
       "id": 211,
       "wave": 5,
-      "question": "Multiply: (2m + n - p)(2m - n + p)",
+      "question": "Simplify: $(x + y)(x^4 - x^3y + x^2y^2 - xy^3 + y^4)$",
       "choices": [
-        "4m² - n² + 2np - p²",
-        "4m² - n² - p²",
-        "2m² - n² + p²",
-        "4m² + n² - p²"
+        "$x^5 + y^5$",
+        "$x^5 - y^5$",
+        "$x^5 + x^4y - x^3y^2 + x^2y^3 - xy^4 + x^4y - x^3y^2 + x^2y^3 - xy^4 + y^5$",
+        "$x^5 + x^3y^2 + xy^4 + y^5$"
       ],
-      "answer": "4m² - n² + 2np - p²",
+      "answer": "$x^5 + y^5$",
       "points": 30
     },
     {
       "id": 212,
       "wave": 5,
-      "question": "Multiply: (x³ + x² + x + 1)(x - 1)",
-      "choices": ["x⁴ - 1", "x⁴ + 1", "x³ - 1", "x² - 1"],
-      "answer": "x⁴ - 1",
+      "question": "Simplify: $(x - y)(x + y)(x^2 + y^2)(x^4 + y^4)(x^8 + y^8)(x^{16} + y^{16})$",
+      "choices": [
+        "$x^{32} - y^{32}$",
+        "$x^{32} + y^{32}$",
+        "$x^{64} - y^{64}$",
+        "$x^{16} - y^{16}$"
+      ],
+      "answer": "$x^{32} - y^{32}$",
       "points": 30
     },
     {
       "id": 213,
       "wave": 5,
-      "question": "Multiply: (y² + y + 1)(y² - y + 1)(y⁴ - y² + 1)",
-      "choices": ["y⁸ + y⁴ + 1", "y⁶ - 1", "y⁴ - y² + 1", "y² - 1"],
-      "answer": "y⁸ + y⁴ + 1",
+      "question": "Simplify: $(a^m + a^n)(a^{2m} - a^{m+n} + a^{2n})$",
+      "choices": [
+        "$a^{3m} + a^{3n}$",
+        "$a^{3m} - a^{3n}$",
+        "$a^{3m} + a^{2m+n} + a^{m+2n} - a^{m+2n} - a^{2m+n} + a^{3n}$",
+        "$a^{3m} + a^{m+n} + a^{3n}$"
+      ],
+      "answer": "$a^{3m} + a^{3n}$",
       "points": 30
     },
     {
       "id": 214,
       "wave": 5,
-      "question": "Multiply: (a + b)²(a - b)²",
-      "choices": ["a⁴ - 2a²b² + b⁴", "a⁴ + b⁴", "(a² - b²)²", "Both A and C"],
-      "answer": "Both A and C",
+      "question": "Simplify: $(x^a - y^b)(x^{2a} + x^a y^b + y^{2b})$",
+      "choices": [
+        "$x^{3a} - y^{3b}$",
+        "$x^{3a} + y^{3b}$",
+        "$x^{3a} - x^{2a}y^b + x^a y^{2b} + x^{2a}y^b + x^a y^{2b} + y^{3b}$",
+        "$x^{3a} - x^a y^b + y^{3b}$"
+      ],
+      "answer": "$x^{3a} - y^{3b}$",
       "points": 30
     },
     {
       "id": 215,
       "wave": 5,
-      "question": "Multiply: (2x + 3y + 4z)(2x - 3y - 4z)",
+      "question": "Simplify: $(x + 1/x)^3$",
       "choices": [
-        "4x² - 9y² - 24yz - 16z²",
-        "4x² - 9y² - 16z²",
-        "2x² - 3y² - 4z²",
-        "4x² + 9y² + 16z²"
+        "$x^3 + 3x + 3/x + 1/x^3$",
+        "$x^3 + 1/x^3$",
+        "$x^3 + 3x^2(1/x) + 3x(1/x^2) + (1/x)^3$",
+        "$x^3 + 3/x + 1/x^3$"
       ],
-      "answer": "4x² - 9y² - 24yz - 16z²",
+      "answer": "$x^3 + 3x + 3/x + 1/x^3$",
       "points": 30
     },
     {
       "id": 216,
       "wave": 5,
-      "question": "Multiply: (p + q + r)(p² + q² + r² - pq - qr - rp)",
+      "question": "Simplify: $(y - 1/y)^3$",
       "choices": [
-        "p³ + q³ + r³ - 3pqr",
-        "p² + q² + r²",
-        "p³ + q³ + r³",
-        "3p + 3q + 3r"
+        "$y^3 - 3y + 3/y - 1/y^3$",
+        "$y^3 - 1/y^3$",
+        "$y^3 - 3y^2(1/y) + 3y(1/y^2) - (1/y)^3$",
+        "$y^3 - 3/y - 1/y^3$"
       ],
-      "answer": "p³ + q³ + r³ - 3pqr",
+      "answer": "$y^3 - 3y + 3/y - 1/y^3$",
       "points": 30
     },
     {
       "id": 217,
       "wave": 5,
-      "question": "Multiply: (x² + y²)(x⁴ - x²y² + y⁴)",
-      "choices": ["x⁶ + y⁶", "x⁶ - y⁶", "x⁴ + y⁴", "x² + y²"],
-      "answer": "x⁶ + y⁶",
+      "question": "Simplify: $(x + y + z)(x + y + z)$",
+      "choices": [
+        "$(x+y+z)^2$",
+        "$x^2 + y^2 + z^2 + 2xy + 2xz + 2yz$",
+        "$x^2 + y^2 + z^2$",
+        "$x^2 + y^2 + z^2 + xy + xz + yz$"
+      ],
+      "answer": "$(x+y+z)^2$",
       "points": 30
     },
     {
       "id": 218,
       "wave": 5,
-      "question": "Multiply: (a + b + c)² - (a - b - c)²",
-      "choices": ["4ab + 4ac", "4a²", "2b² + 2c²", "4a(b + c)"],
-      "answer": "4ab + 4ac",
+      "question": "Simplify: $(a + b + c)(a + b - c)$",
+      "choices": [
+        "$(a+b)^2 - c^2$",
+        "$a^2 + b^2 - c^2$",
+        "$a^2 + 2ab + b^2 - c^2$",
+        "$a^2 + b^2 + c^2 + 2ab - 2c$"
+      ],
+      "answer": "$(a+b)^2 - c^2$",
       "points": 30
     },
     {
       "id": 219,
       "wave": 5,
-      "question": "Multiply: (m + n)³ + (m - n)³",
-      "choices": ["2m³ + 6mn²", "2m³ + 2n³", "6m²n + 2n³", "2m³ + 6m²n"],
-      "answer": "2m³ + 6mn²",
+      "question": "Simplify: $(x^2 + 2x + 1)(x - 1)(x + 1)$",
+      "choices": [
+        "$(x + 1)^2 (x^2 - 1)$",
+        "$x^4 + x^3 - x^2 - x - 1$",
+        "$x^4 - 1$",
+        "$x^4 + 2x^3 - 2x - 1$"
+      ],
+      "answer": "$(x + 1)^2 (x^2 - 1)$",
       "points": 30
     },
     {
       "id": 220,
       "wave": 5,
-      "question": "Multiply: (x + y - z)(x - y + z)(-x + y + z)",
+      "question": "Simplify: $(y^2 - 2y + 1)(y + 1)(y - 1)$",
       "choices": [
-        "-x³ - y³ - z³ + x²y + x²z + y²x + y²z + z²x + z²y - 2xyz",
-        "x² + y² + z² - xy - xz - yz",
-        "x³ + y³ + z³ - 3xyz",
-        "None of the above"
+        "$(y - 1)^2 (y^2 - 1)$",
+        "$y^4 - y^3 - y^2 + y - 1$",
+        "$y^4 - 2y^3 + 2y - 1$",
+        "$y^4 - 1$"
       ],
-      "answer": "-x³ - y³ - z³ + x²y + x²z + y²x + y²z + z²x + z²y - 2xyz",
+      "answer": "$(y - 1)^2 (y^2 - 1)$",
       "points": 30
     },
     {
       "id": 221,
       "wave": 5,
-      "question": "Multiply: (2a + 3b)²(2a - 3b)²",
+      "question": "Simplify: $(x^{n} + 1)(x^{n} + 2)(x^{n} - 3)$",
       "choices": [
-        "16a⁴ - 72a²b² + 81b⁴",
-        "16a⁴ - 81b⁴",
-        "4a⁴ - 9b⁴",
-        "16a² - 81b²"
+        "$x^{3n} - 7x^n - 6$",
+        "$x^{3n} + 7x^n - 6$",
+        "$x^{3n} - 6x^{2n} - x^n - 6$",
+        "$x^{3n} - 7x^{2n} - 6x^n - 6$"
       ],
-      "answer": "16a⁴ - 72a²b² + 81b⁴",
+      "answer": "$x^{3n} - 7x^n - 6$",
       "points": 30
     },
     {
       "id": 222,
       "wave": 5,
-      "question": "Multiply: (p + q)(p - q)(p² + q²)(p⁴ + q⁴)",
-      "choices": ["p⁸ - q⁸", "p⁸ + q⁸", "p⁴ - q⁴", "p² - q²"],
-      "answer": "p⁸ - q⁸",
+      "question": "Simplify: $(a^m - 2)(a^m + 1)(a^m + 3)$",
+      "choices": [
+        "$a^{3m} + 2a^{2m} - 5a^m - 6$",
+        "$a^{3m} - 6a^m - 6$",
+        "$a^{3m} + 2a^{2m} - 6a^m - 6$",
+        "$a^{3m} - a^{2m} - 5a^m - 6$"
+      ],
+      "answer": "$a^{3m} + 2a^{2m} - 5a^m - 6$",
       "points": 30
     },
     {
       "id": 223,
       "wave": 5,
-      "question": "Multiply: (x + 2y + 3z)(x - 2y + 3z)(x + 2y - 3z)(x - 2y - 3z)",
+      "question": "Simplify: $(x^2 + x + 1)(x^3 - x^2 + 1)$",
       "choices": [
-        "x⁴ - 10x²y² + 24x²z² + 4y⁴ - 36y²z² + 81z⁴",
-        "x⁴ + 4y⁴ + 81z⁴",
-        "x² - 4y² - 9z²",
-        "None of the above"
+        "$x^5 + x^4 - x^3 + x^2 + 1$",
+        "$x^5 + x^4 + x^3 + x^2 - x^2 - x + 1$",
+        "$x^5 + 1$",
+        "$x^5 + x^4 - x^3 + x^2 - x + 1$"
       ],
-      "answer": "x⁴ - 10x²y² + 24x²z² + 4y⁴ - 36y²z² + 81z⁴",
+      "answer": "$x^5 + x^4 - x^3 + x^2 + 1$",
       "points": 30
     },
     {
       "id": 224,
       "wave": 5,
-      "question": "Multiply: (a² + ab + b²)(a² - ab + b²)(a⁴ - a²b² + b⁴)",
-      "choices": ["a⁸ + a⁴b⁴ + b⁸", "a⁶ + b⁶", "a⁴ + b⁴", "a² + b²"],
-      "answer": "a⁸ + a⁴b⁴ + b⁸",
+      "question": "Simplify: $(y^2 - y + 1)(y^3 + y^2 - 1)$",
+      "choices": [
+        "$y^5 - y^4 + y^3 + y^2 - y + 1$",
+        "$y^5 + y^4 - y^2 - y + 1$",
+        "$y^5 - y^4 + y^3 + y^2 - y + 1$",
+        "$y^5 - 1$"
+      ],
+      "answer": "$y^5 - y^4 + y^3 + y^2 - y + 1$",
       "points": 30
     },
     {
       "id": 225,
       "wave": 5,
-      "question": "Multiply: (m + n + p)² - (m - n - p)²",
-      "choices": ["4mn + 4mp", "4m²", "4n² + 4p²", "4m(n + p)"],
-      "answer": "4mn + 4mp",
+      "question": "Simplify: $(x + y - z)(x^2 + y^2 + z^2 - xy + xz + yz)$",
+      "choices": [
+        "$x^3 + y^3 - z^3 + 3xyz$",
+        "$x^3 + y^3 - z^3$",
+        "$x^3 + y^3 - z^3 + x^2y - xy^2 + y^2z - yz^2 + z^2x - zx^2 + 3xyz$",
+        "$x^3 + y^3 - z^3 - 3xyz$"
+      ],
+      "answer": "$x^3 + y^3 - z^3 + 3xyz$",
       "points": 30
     },
     {
       "id": 226,
       "wave": 5,
-      "question": "Multiply: (2x + y)³ - (2x - y)³",
+      "question": "Simplify: $(a + b + c)^3$",
       "choices": [
-        "24x²y + 2y³",
-        "16x³ + 2y³",
-        "8x³ + 12x²y + 6xy² + y³",
-        "8x³ - y³"
+        "$a^3 + b^3 + c^3 + 3(a+b)(b+c)(c+a)$",
+        "$a^3 + b^3 + c^3 + 3a^2b + 3ab^2 + 3a^2c + 3ac^2 + 3b^2c + 3bc^2 + 6abc$",
+        "$a^3 + b^3 + c^3 + 3abc$",
+        "$a^3 + b^3 + c^3 + 6abc$"
       ],
-      "answer": "24x²y + 2y³",
+      "answer": "$a^3 + b^3 + c^3 + 3(a+b)(b+c)(c+a)$",
       "points": 30
     },
     {
       "id": 227,
       "wave": 5,
-      "question": "Multiply: (a + b + c)(a² + b² + c² - ab - bc - ca)",
+      "question": "Simplify: $(x^2 + x + 1)(x^3 - x^2 - x + 1)$",
       "choices": [
-        "a³ + b³ + c³ - 3abc",
-        "a² + b² + c²",
-        "a³ + b³ + c³",
-        "3a + 3b + 3c"
+        "$x^5 - 2x^3 + x + 1$",
+        "$x^5 + x^4 - x^3 + x^2 - x^3 - x^2 + x + x^2 + x - 1$",
+        "$x^5 - 2x^3 + 2x - 1$",
+        "$x^5 + x^4 - x^3 - 1$"
       ],
-      "answer": "a³ + b³ + c³ - 3abc",
+      "answer": "$x^5 - 2x^3 + x + 1$",
       "points": 30
     },
     {
       "id": 228,
       "wave": 5,
-      "question": "Multiply: (x² + xy + y²)(x² - xy + y²)(x⁴ - x²y² + y⁴)",
-      "choices": ["x⁸ + x⁴y⁴ + y⁸", "x⁶ + y⁶", "x⁴ + y⁴", "x² + y²"],
-      "answer": "x⁸ + x⁴y⁴ + y⁸",
+      "question": "Simplify: $(y^2 - 2y + 4)(y^2 + 2y - 1)$",
+      "choices": [
+        "$y^4 + y^2 + 6y - 4$",
+        "$y^4 + 2y^3 - y^2 - 2y^3 - 4y^2 + 2y + 4y^2 + 8y - 4$",
+        "$y^4 + y^2 + 10y - 4$",
+        "$y^4 + y^2 + 6y - 4$"
+      ],
+      "answer": "$y^4 + y^2 + 6y - 4$",
       "points": 30
     },
     {
       "id": 229,
       "wave": 5,
-      "question": "Multiply: (p + q - r)(p - q + r)(-p + q + r)",
+      "question": "Simplify: $(a^2 + a + 1)(a^2 - a + 1)(a^4 - a^2 + 1)$",
       "choices": [
-        "-p³ - q³ - r³ + p²q + p²r + q²p + q²r + r²p + r²q - 2pqr",
-        "p² + q² + r² - pq - pr - qr",
-        "p³ + q³ + r³ - 3pqr",
-        "None of the above"
+        "$(a^4 + a^2 + 1)(a^4 - a^2 + 1)$",
+        "$a^8 + a^4 + 1$",
+        "$a^8 - 1$",
+        "$a^8 + 2a^4 + 1$"
       ],
-      "answer": "-p³ - q³ - r³ + p²q + p²r + q²p + q²r + r²p + r²q - 2pqr",
+      "answer": "$(a^4 + a^2 + 1)(a^4 - a^2 + 1)$",
       "points": 30
     },
     {
       "id": 230,
       "wave": 5,
-      "question": "Multiply: (3x + 2y)²(3x - 2y)²",
+      "question": "Simplify: $(x + 1)(x^{n-1} - x^{n-2} + ... - x + 1)$ when n is even",
       "choices": [
-        "81x⁴ - 72x²y² + 16y⁴",
-        "81x⁴ - 16y⁴",
-        "9x⁴ - 4y⁴",
-        "81x² - 16y²"
+        "$x^n + 1$",
+        "$x^n - 1$",
+        "$x^n + x^{n-1} - 1$",
+        "$x^n - x^{n-1} + 1$"
       ],
-      "answer": "81x⁴ - 72x²y² + 16y⁴",
+      "answer": "$x^n + 1$",
       "points": 30
     },
     {
       "id": 231,
       "wave": 5,
-      "question": "Multiply: (a + b)(a - b)(a² + b²)(a⁴ + b⁴)",
-      "choices": ["a⁸ - b⁸", "a⁸ + b⁸", "a⁴ - b⁴", "a² - b²"],
-      "answer": "a⁸ - b⁸",
+      "question": "Simplify: $(x - 1)(x^{n-1} + x^{n-2} + ... + x + 1)$",
+      "choices": [
+        "$x^n - 1$",
+        "$x^n + 1$",
+        "$x^n - x^{n-1} + 1$",
+        "$x^n + x^{n-1} - 1$"
+      ],
+      "answer": "$x^n - 1$",
       "points": 30
     },
     {
       "id": 232,
       "wave": 5,
-      "question": "Multiply: (x + 3y + 5z)(x - 3y + 5z)(x + 3y - 5z)(x - 3y - 5z)",
+      "question": "Simplify: $(x^2 + xy + y^2)(x^2 - xy + y^2)(x^4 + x^2y^2 + y^4)$",
       "choices": [
-        "x⁴ - 34x²y² + 50x²z² + 9y⁴ - 150y²z² + 625z⁴",
-        "x⁴ + 9y⁴ + 625z⁴",
-        "x² - 9y² - 25z²",
-        "None of the above"
+        "$(x^4 + x^2y^2 + y^4)^2$",
+        "$x^8 + x^4y^4 + y^8$",
+        "$x^8 + y^8$",
+        "$x^8 - y^8$"
       ],
-      "answer": "x⁴ - 34x²y² + 50x²z² + 9y⁴ - 150y²z² + 625z⁴",
+      "answer": "$(x^4 + x^2y^2 + y^4)^2$",
       "points": 30
     },
     {
       "id": 233,
       "wave": 5,
-      "question": "Multiply: (m² + mn + n²)(m² - mn + n²)(m⁴ - m²n² + n⁴)",
-      "choices": ["m⁸ + m⁴n⁴ + n⁸", "m⁶ + n⁶", "m⁴ + n⁴", "m² + n²"],
-      "answer": "m⁸ + m⁴n⁴ + n⁸",
+      "question": "Simplify: $(a^2 - b^2)(a^4 + a^2b^2 + b^4)$",
+      "choices": [
+        "$a^6 - b^6$",
+        "$a^6 + b^6$",
+        "$a^6 - a^2b^2 + b^6$",
+        "$a^6 + a^2b^2 - b^6$"
+      ],
+      "answer": "$a^6 - b^6$",
       "points": 30
     },
     {
       "id": 234,
       "wave": 5,
-      "question": "Multiply: (2a + b + c)² - (2a - b - c)²",
-      "choices": ["8ab + 8ac", "16a²", "4b² + 4c²", "8a(b + c)"],
-      "answer": "8ab + 8ac",
+      "question": "Simplify: $(x + 1)(x^{1/2} + 1)(x^{1/4} + 1)(x^{1/8} + 1)(x^{1/8} - 1)$",
+      "choices": ["$(x^2 - 1)$", "$x - 1$", "$x^{1/2} - 1$", "$x - 1/8$"],
+      "answer": "$(x^2 - 1)$",
       "points": 30
     },
     {
       "id": 235,
       "wave": 5,
-      "question": "Multiply: (3x + y)³ - (3x - y)³",
+      "question": "Simplify: $(a^{1/2} + b^{1/2})^2$",
       "choices": [
-        "54x²y + 2y³",
-        "27x³ + 2y³",
-        "27x³ + 27x²y + 9xy² + y³",
-        "27x³ - y³"
+        "$a + 2a^{1/2}b^{1/2} + b$",
+        "$a + b$",
+        "$a + a^{1/2}b^{1/2} + b$",
+        "$a + 2ab + b$"
       ],
-      "answer": "54x²y + 2y³",
+      "answer": "$a + 2a^{1/2}b^{1/2} + b$",
       "points": 30
     },
     {
       "id": 236,
       "wave": 5,
-      "question": "Multiply: (p + q + r)(p² + q² + r² - pq - qr - rp)",
+      "question": "Simplify: $(x^{1/2} - y^{1/2})^2$",
       "choices": [
-        "p³ + q³ + r³ - 3pqr",
-        "p² + q² + r²",
-        "p³ + q³ + r³",
-        "3p + 3q + 3r"
+        "$x - 2x^{1/2}y^{1/2} + y$",
+        "$x - y$",
+        "$x - x^{1/2}y^{1/2} + y$",
+        "$x - 2xy + y$"
       ],
-      "answer": "p³ + q³ + r³ - 3pqr",
+      "answer": "$x - 2x^{1/2}y^{1/2} + y$",
       "points": 30
     },
     {
       "id": 237,
       "wave": 5,
-      "question": "Multiply: (x² + y²)(x⁴ - x²y² + y⁴)(x⁸ - x⁴y⁴ + y⁸)",
-      "choices": ["x¹² + x⁶y⁶ + y¹²", "x⁶ + y⁶", "x⁴ + y⁴", "x² + y²"],
-      "answer": "x¹² + x⁶y⁶ + y¹²",
+      "question": "Simplify: $(x^{1/4} + y^{1/4})(x^{1/4} - y^{1/4})$",
+      "choices": [
+        "$x^{1/2} - y^{1/2}$",
+        "$x^{1/2} + y^{1/2}$",
+        "$x^{1/8} - y^{1/8}$",
+        "$x - y$"
+      ],
+      "answer": "$x^{1/2} - y^{1/2}$",
       "points": 30
     },
     {
       "id": 238,
       "wave": 5,
-      "question": "Multiply: (a + b - c)(a - b + c)(-a + b + c)",
+      "question": "Simplify: $(x^{1/2} + 1)(x - x^{1/2} + 1)$",
       "choices": [
-        "-a³ - b³ - c³ + a²b + a²c + b²a + b²c + c²a + c²b - 2abc",
-        "a² + b² + c² - ab - ac - bc",
-        "a³ + b³ + c³ - 3abc",
-        "None of the above"
+        "$x^{3/2} + 1$",
+        "$x^{3/2} - 1$",
+        "$x^{3/2} + x - x^{1/2} + x^{1/2} - 1 + 1$",
+        "$x^{3/2} + x^{1/2} + 1$"
       ],
-      "answer": "-a³ - b³ - c³ + a²b + a²c + b²a + b²c + c²a + c²b - 2abc",
+      "answer": "$x^{3/2} + 1$",
       "points": 30
     },
     {
       "id": 239,
       "wave": 5,
-      "question": "Multiply: (4p + 3q)²(4p - 3q)²",
+      "question": "Simplify: $(y^{1/2} - 1)(y + y^{1/2} + 1)$",
       "choices": [
-        "256p⁴ - 288p²q² + 81q⁴",
-        "256p⁴ - 81q⁴",
-        "16p⁴ - 9q⁴",
-        "256p² - 81q²"
+        "$y^{3/2} - 1$",
+        "$y^{3/2} + 1$",
+        "$y^{3/2} + y + y^{1/2} - y - y^{1/2} - 1$",
+        "$y^{3/2} - y^{1/2} + 1$"
       ],
-      "answer": "256p⁴ - 288p²q² + 81q⁴",
+      "answer": "$y^{3/2} - 1$",
       "points": 30
     },
     {
       "id": 240,
       "wave": 5,
-      "question": "Multiply: (x + y)(x - y)(x² + y²)(x⁴ + y⁴)(x⁸ + y⁸)",
-      "choices": ["x¹⁶ - y¹⁶", "x¹⁶ + y¹⁶", "x⁸ - y⁸", "x⁴ - y⁴"],
-      "answer": "x¹⁶ - y¹⁶",
+      "question": "Simplify: $(x^2 + 1)(x - 1)(x + 2)(x + 1)$",
+      "choices": [
+        "$(x^4 - 1)(x + 2)$",
+        "$x^5 + 2x^4 - x - 2$",
+        "$x^5 + 2x^4 - x^2 - 2$",
+        "$x^5 + x^4 - 2x^3 + 2x^2 - x - 2$"
+      ],
+      "answer": "$(x^4 - 1)(x + 2)$",
       "points": 30
     },
-
     {
       "id": 241,
       "wave": 5,
-      "question": "Multiply: (0.5x + 2)(0.5x - 2)",
-      "choices": ["0.25x² - 4", "0.5x² - 4", "x² - 4", "0.25x² + 4"],
-      "answer": "0.25x² - 4",
+      "question": "Simplify: $(x - y)(x^2 + y^2)(x^2 + xy + y^2)(x^4 + y^4)$",
+      "choices": [
+        "$(x^3 - y^3)(x^4 + y^4)$",
+        "$x^7 - x^4y^3 + x^3y^4 - y^7$",
+        "$x^7 - y^7$",
+        "$x^7 - x^4y^3 - y^7$"
+      ],
+      "answer": "$(x^3 - y^3)(x^4 + y^4)$",
       "points": 30
     },
     {
       "id": 242,
       "wave": 5,
-      "question": "Multiply: (1.2y + 0.5)(1.2y - 0.5)",
-      "choices": ["1.44y² - 0.25", "1.2y² - 0.5", "2.4y² - 1", "1.44y² + 0.25"],
-      "answer": "1.44y² - 0.25",
+      "question": "Simplify: $(a + b)(a^2 - ab + b^2)(a^6 - a^3b^3 + b^6)$",
+      "choices": [
+        "$(a^3 + b^3)(a^6 - a^3b^3 + b^6)$",
+        "$a^9 + b^9$",
+        "$a^9 - b^9$",
+        "$a^{18} + b^{18}$"
+      ],
+      "answer": "$(a^3 + b^3)(a^6 - a^3b^3 + b^6)$",
       "points": 30
     },
     {
       "id": 243,
       "wave": 5,
-      "question": "Multiply: (⅔a + ½)(⅔a - ½)",
-      "choices": ["⁴⁄₉a² - ¼", "⅔a² - ½", "⁴⁄₃a² - 1", "⁴⁄₉a² + ¼"],
-      "answer": "⁴⁄₉a² - ¼",
+      "question": "Simplify: $(x + 2y - z)(x - 2y + z)$",
+      "choices": [
+        "$x^2 - (2y - z)^2$",
+        "$x^2 - 4y^2 + z^2$",
+        "$x^2 - 4y^2 + 4yz - z^2$",
+        "$x^2 - 4y^2 - z^2$"
+      ],
+      "answer": "$x^2 - (2y - z)^2$",
       "points": 30
     },
     {
       "id": 244,
       "wave": 5,
-      "question": "Multiply: (0.75b + 1.2)(0.75b - 1.2)",
+      "question": "Simplify: $(a + b + c)(a - b - c)$",
       "choices": [
-        "0.5625b² - 1.44",
-        "0.75b² - 1.2",
-        "1.5b² - 2.4",
-        "0.5625b² + 1.44"
+        "$a^2 - (b + c)^2$",
+        "$a^2 - b^2 - c^2$",
+        "$a^2 - b^2 - 2bc - c^2$",
+        "$a^2 - b^2 + c^2$"
       ],
-      "answer": "0.5625b² - 1.44",
+      "answer": "$a^2 - (b + c)^2$",
       "points": 30
     },
     {
       "id": 245,
       "wave": 5,
-      "question": "Multiply: (⅖c + ⅗)(⅖c - ⅗)",
-      "choices": ["⁴⁄₂₅c² - ⁹⁄₂₅", "⅖c² - ⅗", "⁴⁄₅c² - ⁹⁄₅", "⁴⁄₂₅c² + ⁹⁄₂₅"],
-      "answer": "⁴⁄₂₅c² - ⁹⁄₂₅",
+      "question": "Simplify: $(x + 1)(x + 2)(x + 3)(x + 4)$",
+      "choices": [
+        "$(x^2 + 5x + 4)(x^2 + 5x + 6)$",
+        "$x^4 + 10x^3 + 35x^2 + 50x + 24$",
+        "$x^4 + 10x^3 + 24x^2 + 24$",
+        "$x^4 + 10x^3 + 30x^2 + 24$"
+      ],
+      "answer": "$(x^2 + 5x + 4)(x^2 + 5x + 6)$",
       "points": 30
     },
     {
       "id": 246,
       "wave": 5,
-      "question": "Multiply: (1.5m + 0.8)²",
+      "question": "Simplify: $(x^2 - 1/x^2)(x^4 + 1 + 1/x^4)$",
       "choices": [
-        "2.25m² + 2.4m + 0.64",
-        "1.5m² + 0.8m + 0.64",
-        "3m² + 1.6m + 0.64",
-        "2.25m² + 0.64"
+        "$x^6 - 1/x^6$",
+        "$x^6 + 1/x^6$",
+        "$x^6 - x^2 + 1/x^2 - 1/x^6$",
+        "$x^6 - 1$"
       ],
-      "answer": "2.25m² + 2.4m + 0.64",
+      "answer": "$x^6 - 1/x^6$",
       "points": 30
     },
     {
       "id": 247,
       "wave": 5,
-      "question": "Multiply: (0.4n - 0.3)²",
+      "question": "Simplify: $(a^{2m} + a^m + 1)(a^m - 1)$",
       "choices": [
-        "0.16n² - 0.24n + 0.09",
-        "0.4n² - 0.3n + 0.09",
-        "0.8n² - 0.6n + 0.09",
-        "0.16n² + 0.09"
+        "$a^{3m} - 1$",
+        "$a^{3m} + 1$",
+        "$a^{3m} + a^{2m} - a^m - 1$",
+        "$a^{3m} + a^m - 1$"
       ],
-      "answer": "0.16n² - 0.24n + 0.09",
+      "answer": "$a^{3m} - 1$",
       "points": 30
     },
     {
       "id": 248,
       "wave": 5,
-      "question": "Multiply: (⅜p + ⅔)(⅜p - ⅔)",
-      "choices": ["⁹⁄₆₄p² - ⁴⁄₉", "⅜p² - ⅔", "⁹⁄₃₂p² - ⁴⁄₃", "⁹⁄₆₄p² + ⁴⁄₉"],
-      "answer": "⁹⁄₆₄p² - ⁴⁄₉",
+      "question": "Simplify: $(x^{n/2} - y^{n/2})(x^n + x^{n/2}y^{n/2} + y^n)$",
+      "choices": [
+        "$x^{3n/2} - y^{3n/2}$",
+        "$x^{3n/2} + y^{3n/2}$",
+        "$x^{3n/2} - x^n y^{n/2} + x^{n/2}y^n - y^{3n/2}$",
+        "$x^{3n/2} - x^n - y^n$"
+      ],
+      "answer": "$x^{3n/2} - y^{3n/2}$",
       "points": 30
     },
     {
       "id": 249,
       "wave": 5,
-      "question": "Multiply: (1.25q + 0.6)(1.25q - 0.6)",
+      "question": "Simplify: $(a^x + b^y)^3$",
       "choices": [
-        "1.5625q² - 0.36",
-        "1.25q² - 0.6",
-        "2.5q² - 1.2",
-        "1.5625q² + 0.36"
+        "$a^{3x} + 3a^{2x}b^y + 3a^x b^{2y} + b^{3y}$",
+        "$a^{3x} + b^{3y}$",
+        "$a^{3x} + 3a^x b^y + b^{3y}$",
+        "$a^{3x} + a^{2x}b^y + a^x b^{2y} + b^{3y}$"
       ],
-      "answer": "1.5625q² - 0.36",
+      "answer": "$a^{3x} + 3a^{2x}b^y + 3a^x b^{2y} + b^{3y}$",
       "points": 30
     },
     {
       "id": 250,
       "wave": 5,
-      "question": "Multiply: (⅘r + ½)(⅘r - ½)",
-      "choices": ["¹⁶⁄₂₅r² - ¼", "⅘r² - ½", "⁸⁄₅r² - 1", "¹⁶⁄₂₅r² + ¼"],
-      "answer": "¹⁶⁄₂₅r² - ¼",
+      "question": "Simplify: $(x^2 - 3x + 2)(x^2 + 3x + 2)$",
+      "choices": [
+        "$(x^2 + 2)^2 - (3x)^2$",
+        "$x^4 - 5x^2 + 4$",
+        "$x^4 - 9x^2 + 4$",
+        "$x^4 + 4$"
+      ],
+      "answer": "$(x^2 + 2)^2 - (3x)^2$",
       "points": 30
     }
   ]

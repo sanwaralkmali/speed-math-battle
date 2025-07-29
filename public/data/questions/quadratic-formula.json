@@ -1,13 +1,13 @@
 {
   "title": "Solving by Quadratic Formula",
-  "description": "Solve quadratic equations by using the quadratic formula.",
+  "description": "A series of problems on solving quadratic equations using the quadratic formula, covering identification of coefficients, discriminant calculation, and finding real or complex roots. All mathematical expressions are rendered using LaTeX.",
   "waves": 5,
-  "timePerQuestion": 30,
+  "timePerQuestion": 180,
   "questions": [
     {
       "id": 1,
       "wave": 1,
-      "question": "If x² – 5x + 6 = 0, identify the correct a, b, c in ax² + bx + c = 0.",
+      "question": "If $x^2 - 5x + 6 = 0$, identify the correct $a, b, c$ in $ax^2 + bx + c = 0$.",
       "choices": [
         "a=1, b=-5, c=6",
         "a=1, b=5, c=-6",
@@ -20,2107 +20,2763 @@
     {
       "id": 2,
       "wave": 1,
-      "question": "For 2y² + 7y + 3 = 0, what is b² – 4ac?",
-      "choices": ["49 – 24", "49 – 12", "7 – 24", "7 – 12"],
-      "answer": "49 – 24",
+      "question": "For $2y^2 + 7y + 3 = 0$, what is $b^2 - 4ac$?",
+      "choices": ["$49 - 24$", "$49 - 12$", "$7 - 24$", "$7 - 12$"],
+      "answer": "$49 - 24$",
       "points": 10
     },
     {
       "id": 3,
       "wave": 1,
-      "question": "For z² – 4z + 4 = 0, what is b² – 4ac?",
-      "choices": ["16 – 16", "16 – 8", "-4 – 4", "-4 – 16"],
-      "answer": "16 – 16",
+      "question": "For $z^2 - 4z + 4 = 0$, what is $b^2 - 4ac$?",
+      "choices": ["$16 - 16$", "$16 - 8$", "$-4 - 4$", "$-4 - 16$"],
+      "answer": "$16 - 16$",
       "points": 10
     },
     {
       "id": 4,
       "wave": 1,
-      "question": "For 3t² + 0t – 12 = 0, what is b² – 4ac?",
-      "choices": ["0 – 4(3)(-12)", "0 – 4(3)(12)", "0 – 12", "0 – 144"],
-      "answer": "0 – 4(3)(-12)",
+      "question": "For $3t^2 - 12 = 0$, identify the correct $a, b, c$ in $ax^2 + bx + c = 0$.",
+      "choices": [
+        "a=3, b=0, c=-12",
+        "a=3, b=0, c=12",
+        "a=3, b=-12, c=0",
+        "a=3, b=1, c=-12"
+      ],
+      "answer": "a=3, b=0, c=-12",
       "points": 10
     },
     {
       "id": 5,
       "wave": 1,
-      "question": "For x² + 9x + 20 = 0, what is b² – 4ac?",
-      "choices": ["81 – 80", "81 – 40", "9 – 80", "9 – 40"],
-      "answer": "81 – 80",
+      "question": "For $x^2 + 9x + 20 = 0$, what is $b^2 - 4ac$?",
+      "choices": ["$81 - 80$", "$81 - 40$", "$9 - 80$", "$9 - 40$"],
+      "answer": "$81 - 80$",
       "points": 10
     },
     {
       "id": 6,
       "wave": 1,
-      "question": "For y² – 6y + 9 = 0, what is b² – 4ac?",
-      "choices": ["36 – 36", "36 – 18", "-6 – 9", "-6 – 36"],
-      "answer": "36 – 36",
+      "question": "Identify $a, b, c$ for $5x^2 - 2x - 7 = 0$.",
+      "choices": [
+        "a=5, b=-2, c=-7",
+        "a=5, b=2, c=7",
+        "a=5, b=-2, c=7",
+        "a=-5, b=2, c=7"
+      ],
+      "answer": "a=5, b=-2, c=-7",
       "points": 10
     },
     {
       "id": 7,
       "wave": 1,
-      "question": "For 4m² – 4m + 1 = 0, what is b² – 4ac?",
-      "choices": ["16 – 16", "16 – 4", "-4 – 1", "-4 – 16"],
-      "answer": "16 – 16",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 + 6x + 9 = 0$.",
+      "choices": ["$36 - 36$", "$36 - 9$", "$6 - 36$", "$6 - 9$"],
+      "answer": "$36 - 36$",
       "points": 10
     },
     {
       "id": 8,
       "wave": 1,
-      "question": "For 5n² + 3n – 2 = 0, what is b² – 4ac?",
-      "choices": ["9 – 4(5)(-2)", "9 – 4(5)(2)", "9 – 10", "9 – 40"],
-      "answer": "9 – 4(5)(-2)",
+      "question": "Identify $a, b, c$ for $-x^2 + 3x + 10 = 0$.",
+      "choices": [
+        "a=-1, b=3, c=10",
+        "a=1, b=3, c=10",
+        "a=-1, b=-3, c=10",
+        "a=1, b=-3, c=-10"
+      ],
+      "answer": "a=-1, b=3, c=10",
       "points": 10
     },
     {
       "id": 9,
       "wave": 1,
-      "question": "For p² + 2p + 1 = 0, what is b² – 4ac?",
-      "choices": ["4 – 4", "4 – 2", "2 – 1", "2 – 4"],
-      "answer": "4 – 4",
+      "question": "What is the discriminant for $4x^2 - 12x + 9 = 0$?",
+      "choices": ["$144 - 144$", "$144 - 36$", "$-12 - 144$", "$-12 - 36$"],
+      "answer": "$144 - 144$",
       "points": 10
     },
     {
       "id": 10,
       "wave": 1,
-      "question": "For q² – 8q + 15 = 0, what is b² – 4ac?",
-      "choices": ["64 – 60", "64 – 15", "-8 – 15", "-8 – 60"],
-      "answer": "64 – 60",
+      "question": "Identify $a, b, c$ for $7x^2 - 14 = 0$.",
+      "choices": [
+        "a=7, b=0, c=-14",
+        "a=7, b=1, c=-14",
+        "a=7, b=-14, c=0",
+        "a=7, b=0, c=14"
+      ],
+      "answer": "a=7, b=0, c=-14",
       "points": 10
     },
     {
       "id": 11,
       "wave": 1,
-      "question": "For r² – 3r – 10 = 0, what is b² – 4ac?",
-      "choices": ["9 – 4(1)(-10)", "9 – 4(1)(10)", "9 – 10", "9 – 40"],
-      "answer": "9 – 4(1)(-10)",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 - x - 12 = 0$.",
+      "choices": ["$1 - (-48)$", "$1 - 48$", "$-1 - (-48)$", "$-1 - 48$"],
+      "answer": "$1 - (-48)$",
       "points": 10
     },
     {
       "id": 12,
       "wave": 1,
-      "question": "For 2s² – 7s + 3 = 0, what is b² – 4ac?",
-      "choices": ["49 – 24", "49 – 12", "-7 – 6", "-7 – 24"],
-      "answer": "49 – 24",
+      "question": "Identify $a, b, c$ for $x^2 + 11x + 28 = 0$.",
+      "choices": [
+        "a=1, b=11, c=28",
+        "a=1, b=-11, c=28",
+        "a=1, b=11, c=-28",
+        "a=-1, b=11, c=28"
+      ],
+      "answer": "a=1, b=11, c=28",
       "points": 10
     },
     {
       "id": 13,
       "wave": 1,
-      "question": "For 3t² + 5t – 2 = 0, what is b² – 4ac?",
-      "choices": ["25 – 4(3)(-2)", "25 – 4(3)(2)", "25 – 6", "25 – 12"],
-      "answer": "25 – 4(3)(-2)",
+      "question": "What is the discriminant for $2x^2 + 5x + 2 = 0$?",
+      "choices": ["$25 - 16$", "$25 - 4$", "$5 - 16$", "$5 - 4$"],
+      "answer": "$25 - 16$",
       "points": 10
     },
     {
       "id": 14,
       "wave": 1,
-      "question": "For u² + 4u + 4 = 0, what is b² – 4ac?",
-      "choices": ["16 – 16", "16 – 8", "4 – 4", "4 – 16"],
-      "answer": "16 – 16",
+      "question": "Identify $a, b, c$ for $3x^2 - 10x + 8 = 0$.",
+      "choices": [
+        "a=3, b=-10, c=8",
+        "a=3, b=10, c=8",
+        "a=3, b=-10, c=-8",
+        "a=-3, b=10, c=8"
+      ],
+      "answer": "a=3, b=-10, c=8",
       "points": 10
     },
     {
       "id": 15,
       "wave": 1,
-      "question": "For 6v² – 5v + 1 = 0, what is b² – 4ac?",
-      "choices": ["25 – 24", "25 – 6", "-5 – 6", "-5 – 24"],
-      "answer": "25 – 24",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 - 7x + 10 = 0$.",
+      "choices": ["$49 - 40$", "$49 - 10$", "$-7 - 40$", "$-7 - 10$"],
+      "answer": "$49 - 40$",
       "points": 10
     },
     {
       "id": 16,
       "wave": 1,
-      "question": "For w² – 10w + 25 = 0, what is b² – 4ac?",
-      "choices": ["100 – 100", "100 – 50", "-10 – 25", "-10 – 100"],
-      "answer": "100 – 100",
+      "question": "Identify $a, b, c$ for $2x^2 + 0x - 18 = 0$.",
+      "choices": [
+        "a=2, b=0, c=-18",
+        "a=2, b=1, c=-18",
+        "a=2, b=-18, c=0",
+        "a=2, b=0, c=18"
+      ],
+      "answer": "a=2, b=0, c=-18",
       "points": 10
     },
     {
       "id": 17,
       "wave": 1,
-      "question": "For 7x² + 2x – 5 = 0, what is b² – 4ac?",
-      "choices": ["4 – 4(7)(-5)", "4 – 4(7)(5)", "4 – 7", "4 – 35"],
-      "answer": "4 – 4(7)(-5)",
+      "question": "What is the discriminant for $x^2 + 2x + 1 = 0$?",
+      "choices": ["$4 - 4$", "$4 - 1$", "$2 - 4$", "$2 - 1$"],
+      "answer": "$4 - 4$",
       "points": 10
     },
     {
       "id": 18,
       "wave": 1,
-      "question": "For y² + 6y + 9 = 0, what is b² – 4ac?",
-      "choices": ["36 – 36", "36 – 18", "6 – 9", "6 – 36"],
-      "answer": "36 – 36",
+      "question": "Identify $a, b, c$ for $6x^2 + 13x + 6 = 0$.",
+      "choices": [
+        "a=6, b=13, c=6",
+        "a=6, b=-13, c=6",
+        "a=6, b=13, c=-6",
+        "a=-6, b=13, c=6"
+      ],
+      "answer": "a=6, b=13, c=6",
       "points": 10
     },
     {
       "id": 19,
       "wave": 1,
-      "question": "For 8z² – 2z – 1 = 0, what is b² – 4ac?",
-      "choices": ["4 – 4(8)(-1)", "4 – 4(8)(1)", "4 – 8", "4 – 32"],
-      "answer": "4 – 4(8)(-1)",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 - 8x + 15 = 0$.",
+      "choices": ["$64 - 60$", "$64 - 15$", "$-8 - 60$", "$-8 - 15$"],
+      "answer": "$64 - 60$",
       "points": 10
     },
     {
       "id": 20,
       "wave": 1,
-      "question": "For 9m² – 12m + 4 = 0, what is b² – 4ac?",
-      "choices": ["144 – 144", "144 – 72", "-12 – 4", "-12 – 144"],
-      "answer": "144 – 144",
+      "question": "Identify $a, b, c$ for $-3x^2 - 4x + 4 = 0$.",
+      "choices": [
+        "a=-3, b=-4, c=4",
+        "a=3, b=4, c=4",
+        "a=-3, b=4, c=4",
+        "a=3, b=-4, c=-4"
+      ],
+      "answer": "a=-3, b=-4, c=4",
       "points": 10
     },
     {
       "id": 21,
       "wave": 1,
-      "question": "For n² – 1 = 0, what is b² – 4ac?",
-      "choices": ["0 – 4(1)(-1)", "0 – 4(1)(1)", "0 – 1", "0 – 4"],
-      "answer": "0 – 4(1)(-1)",
+      "question": "What is the discriminant for $x^2 + 10x + 25 = 0$?",
+      "choices": ["$100 - 100$", "$100 - 25$", "$10 - 100$", "$10 - 25$"],
+      "answer": "$100 - 100$",
       "points": 10
     },
     {
       "id": 22,
       "wave": 1,
-      "question": "For p² – 0p – 4 = 0, what is b² – 4ac?",
-      "choices": ["0 – 4(1)(-4)", "0 – 4(1)(4)", "0 – 4", "0 – 16"],
-      "answer": "0 – 4(1)(-4)",
+      "question": "Identify $a, b, c$ for $x^2 - 9 = 0$.",
+      "choices": [
+        "a=1, b=0, c=-9",
+        "a=1, b=1, c=-9",
+        "a=1, b=-9, c=0",
+        "a=1, b=0, c=9"
+      ],
+      "answer": "a=1, b=0, c=-9",
       "points": 10
     },
     {
       "id": 23,
       "wave": 1,
-      "question": "For 4q² + 4q + 1 = 0, what is b² – 4ac?",
-      "choices": ["16 – 16", "16 – 8", "4 – 4", "4 – 16"],
-      "answer": "16 – 16",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 + 5x - 14 = 0$.",
+      "choices": ["$25 - (-56)$", "$25 - 56$", "$5 - (-56)$", "$5 - 56$"],
+      "answer": "$25 - (-56)$",
       "points": 10
     },
     {
       "id": 24,
       "wave": 1,
-      "question": "For 5r² – 6r + 1 = 0, what is b² – 4ac?",
-      "choices": ["36 – 20", "36 – 5", "-6 – 5", "-6 – 20"],
-      "answer": "36 – 20",
+      "question": "Identify $a, b, c$ for $x^2 + 0x + 0 = 0$.",
+      "choices": [
+        "a=1, b=0, c=0",
+        "a=1, b=1, c=0",
+        "a=1, b=0, c=1",
+        "a=0, b=0, c=0"
+      ],
+      "answer": "a=1, b=0, c=0",
       "points": 10
     },
     {
       "id": 25,
       "wave": 1,
-      "question": "For s² + 5s + 6 = 0, what is b² – 4ac?",
-      "choices": ["25 – 24", "25 – 6", "5 – 6", "5 – 24"],
-      "answer": "25 – 24",
+      "question": "What is the discriminant for $x^2 + 3x + 2 = 0$?",
+      "choices": ["$9 - 8$", "$9 - 2$", "$3 - 8$", "$3 - 2$"],
+      "answer": "$9 - 8$",
       "points": 10
     },
     {
       "id": 26,
       "wave": 1,
-      "question": "For t² – t – 12 = 0, what is b² – 4ac?",
-      "choices": ["1 – 4(1)(-12)", "1 – 4(1)(12)", "1 – 12", "1 – 48"],
-      "answer": "1 – 4(1)(-12)",
+      "question": "Identify $a, b, c$ for $2x^2 - 5x + 3 = 0$.",
+      "choices": [
+        "a=2, b=-5, c=3",
+        "a=2, b=5, c=3",
+        "a=2, b=-5, c=-3",
+        "a=-2, b=5, c=3"
+      ],
+      "answer": "a=2, b=-5, c=3",
       "points": 10
     },
     {
       "id": 27,
       "wave": 1,
-      "question": "For 6u² + 5u + 1 = 0, what is b² – 4ac?",
-      "choices": ["25 – 24", "25 – 6", "5 – 6", "5 – 24"],
-      "answer": "25 – 24",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 + 4x - 5 = 0$.",
+      "choices": ["$16 - (-20)$", "$16 - 20$", "$4 - (-20)$", "$4 - 20$"],
+      "answer": "$16 - (-20)$",
       "points": 10
     },
     {
       "id": 28,
       "wave": 1,
-      "question": "For v² – 2v – 8 = 0, what is b² – 4ac?",
-      "choices": ["4 – 4(1)(-8)", "4 – 4(1)(8)", "4 – 8", "4 – 32"],
-      "answer": "4 – 4(1)(-8)",
+      "question": "Identify $a, b, c$ for $x^2 - 10x + 21 = 0$.",
+      "choices": [
+        "a=1, b=-10, c=21",
+        "a=1, b=10, c=21",
+        "a=1, b=-10, c=-21",
+        "a=-1, b=10, c=21"
+      ],
+      "answer": "a=1, b=-10, c=21",
       "points": 10
     },
     {
       "id": 29,
       "wave": 1,
-      "question": "For w² + 8w + 15 = 0, what is b² – 4ac?",
-      "choices": ["64 – 60", "64 – 15", "8 – 15", "8 – 60"],
-      "answer": "64 – 60",
+      "question": "What is the discriminant for $x^2 - 6x + 8 = 0$?",
+      "choices": ["$36 - 32$", "$36 - 8$", "$-6 - 32$", "$-6 - 8$"],
+      "answer": "$36 - 32$",
       "points": 10
     },
     {
       "id": 30,
       "wave": 1,
-      "question": "For 10x² – 7x + 1 = 0, what is b² – 4ac?",
-      "choices": ["49 – 40", "49 – 10", "-7 – 10", "-7 – 40"],
-      "answer": "49 – 40",
+      "question": "Identify $a, b, c$ for $4x^2 - 9 = 0$.",
+      "choices": [
+        "a=4, b=0, c=-9",
+        "a=4, b=1, c=-9",
+        "a=4, b=-9, c=0",
+        "a=4, b=0, c=9"
+      ],
+      "answer": "a=4, b=0, c=-9",
       "points": 10
     },
     {
       "id": 31,
       "wave": 1,
-      "question": "For y² – 9y + 20 = 0, what is b² – 4ac?",
-      "choices": ["81 – 80", "81 – 20", "-9 – 20", "-9 – 80"],
-      "answer": "81 – 80",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 + 7x + 12 = 0$.",
+      "choices": ["$49 - 48$", "$49 - 12$", "$7 - 48$", "$7 - 12$"],
+      "answer": "$49 - 48$",
       "points": 10
     },
     {
       "id": 32,
       "wave": 1,
-      "question": "For z² + 3z – 18 = 0, what is b² – 4ac?",
-      "choices": ["9 – 4(1)(-18)", "9 – 4(1)(18)", "9 – 18", "9 – 72"],
-      "answer": "9 – 4(1)(-18)",
+      "question": "Identify $a, b, c$ for $x^2 + 8x + 16 = 0$.",
+      "choices": [
+        "a=1, b=8, c=16",
+        "a=1, b=-8, c=16",
+        "a=1, b=8, c=-16",
+        "a=-1, b=8, c=16"
+      ],
+      "answer": "a=1, b=8, c=16",
       "points": 10
     },
     {
       "id": 33,
       "wave": 1,
-      "question": "For 12m² – 7m + 1 = 0, what is b² – 4ac?",
-      "choices": ["49 – 48", "49 – 12", "-7 – 12", "-7 – 48"],
-      "answer": "49 – 48",
+      "question": "What is the discriminant for $x^2 - 2x - 3 = 0$?",
+      "choices": ["$4 - (-12)$", "$4 - 12$", "$-2 - (-12)$", "$-2 - 12$"],
+      "answer": "$4 - (-12)$",
       "points": 10
     },
     {
       "id": 34,
       "wave": 1,
-      "question": "For n² – 4n – 5 = 0, what is b² – 4ac?",
-      "choices": ["16 – 4(1)(-5)", "16 – 4(1)(5)", "16 – 5", "16 – 20"],
-      "answer": "16 – 4(1)(-5)",
+      "question": "Identify $a, b, c$ for $5x^2 + 12x + 7 = 0$.",
+      "choices": [
+        "a=5, b=12, c=7",
+        "a=5, b=-12, c=7",
+        "a=5, b=12, c=-7",
+        "a=-5, b=12, c=7"
+      ],
+      "answer": "a=5, b=12, c=7",
       "points": 10
     },
     {
       "id": 35,
       "wave": 1,
-      "question": "For p² + 10p + 25 = 0, what is b² – 4ac?",
-      "choices": ["100 – 100", "100 – 50", "10 – 25", "10 – 100"],
-      "answer": "100 – 100",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 - 4x + 3 = 0$.",
+      "choices": ["$16 - 12$", "$16 - 3$", "$-4 - 12$", "$-4 - 3$"],
+      "answer": "$16 - 12$",
       "points": 10
     },
     {
       "id": 36,
       "wave": 1,
-      "question": "For q² – 7q + 12 = 0, what is b² – 4ac?",
-      "choices": ["49 – 48", "49 – 12", "-7 – 12", "-7 – 48"],
-      "answer": "49 – 48",
+      "question": "Identify $a, b, c$ for $x^2 + 2x - 15 = 0$.",
+      "choices": [
+        "a=1, b=2, c=-15",
+        "a=1, b=-2, c=-15",
+        "a=1, b=2, c=15",
+        "a=-1, b=2, c=15"
+      ],
+      "answer": "a=1, b=2, c=-15",
       "points": 10
     },
     {
       "id": 37,
       "wave": 1,
-      "question": "For 3r² + 8r + 5 = 0, what is b² – 4ac?",
-      "choices": ["64 – 60", "64 – 15", "8 – 15", "8 – 60"],
-      "answer": "64 – 60",
+      "question": "What is the discriminant for $x^2 + 12x + 36 = 0$?",
+      "choices": ["$144 - 144$", "$144 - 36$", "$12 - 144$", "$12 - 36$"],
+      "answer": "$144 - 144$",
       "points": 10
     },
     {
       "id": 38,
       "wave": 1,
-      "question": "For s² – 11s + 30 = 0, what is b² – 4ac?",
-      "choices": ["121 – 120", "121 – 30", "-11 – 30", "-11 – 120"],
-      "answer": "121 – 120",
+      "question": "Identify $a, b, c$ for $3x^2 + 7x + 2 = 0$.",
+      "choices": [
+        "a=3, b=7, c=2",
+        "a=3, b=-7, c=2",
+        "a=3, b=7, c=-2",
+        "a=-3, b=7, c=2"
+      ],
+      "answer": "a=3, b=7, c=2",
       "points": 10
     },
     {
       "id": 39,
       "wave": 1,
-      "question": "For t² + 12t + 36 = 0, what is b² – 4ac?",
-      "choices": ["144 – 144", "144 – 72", "12 – 36", "12 – 144"],
-      "answer": "144 – 144",
+      "question": "Calculate $b^2 - 4ac$ for $x^2 - 9x + 18 = 0$.",
+      "choices": ["$81 - 72$", "$81 - 18$", "$-9 - 72$", "$-9 - 18$"],
+      "answer": "$81 - 72$",
       "points": 10
     },
     {
       "id": 40,
       "wave": 1,
-      "question": "For 4u² – 12u + 9 = 0, what is b² – 4ac?",
-      "choices": ["144 – 144", "144 – 72", "-12 – 9", "-12 – 144"],
-      "answer": "144 – 144",
+      "question": "Identify $a, b, c$ for $-2x^2 + 5x - 3 = 0$.",
+      "choices": [
+        "a=-2, b=5, c=-3",
+        "a=2, b=5, c=-3",
+        "a=-2, b=-5, c=-3",
+        "a=2, b=-5, c=3"
+      ],
+      "answer": "a=-2, b=5, c=-3",
       "points": 10
     },
     {
       "id": 41,
       "wave": 1,
-      "question": "For v² – 14v + 49 = 0, what is b² – 4ac?",
-      "choices": ["196 – 196", "196 – 98", "-14 – 49", "-14 – 196"],
-      "answer": "196 – 196",
+      "question": "What is the discriminant for $x^2 - 5x + 4 = 0$?",
+      "choices": ["$25 - 16$", "$25 - 4$", "$-5 - 16$", "$-5 - 4$"],
+      "answer": "$25 - 16$",
       "points": 10
     },
     {
       "id": 42,
       "wave": 1,
-      "question": "For w² + 15w + 56 = 0, what is b² – 4ac?",
-      "choices": ["225 – 224", "225 – 56", "15 – 56", "15 – 224"],
-      "answer": "225 – 224",
+      "question": "Identify $a, b, c$ for $x^2 + 15x + 50 = 0$.",
+      "choices": [
+        "a=1, b=15, c=50",
+        "a=1, b=-15, c=50",
+        "a=1, b=15, c=-50",
+        "a=-1, b=15, c=50"
+      ],
+      "answer": "a=1, b=15, c=50",
       "points": 10
     },
     {
       "id": 43,
       "wave": 1,
-      "question": "For x² – 16x + 64 = 0, what is b² – 4ac?",
-      "choices": ["256 – 256", "256 – 128", "-16 – 64", "-16 – 256"],
-      "answer": "256 – 256",
+      "question": "Calculate $b^2 - 4ac$ for $3x^2 + 11x + 6 = 0$.",
+      "choices": ["$121 - 72$", "$121 - 6$", "$11 - 72$", "$11 - 6$"],
+      "answer": "$121 - 72$",
       "points": 10
     },
     {
       "id": 44,
       "wave": 1,
-      "question": "For 5y² – 9y + 4 = 0, what is b² – 4ac?",
-      "choices": ["81 – 80", "81 – 20", "-9 – 20", "-9 – 80"],
-      "answer": "81 – 80",
+      "question": "Identify $a, b, c$ for $x^2 - 1 = 0$.",
+      "choices": [
+        "a=1, b=0, c=-1",
+        "a=1, b=1, c=-1",
+        "a=1, b=-1, c=0",
+        "a=1, b=0, c=1"
+      ],
+      "answer": "a=1, b=0, c=-1",
       "points": 10
     },
     {
       "id": 45,
       "wave": 1,
-      "question": "For z² + 4z – 21 = 0, what is b² – 4ac?",
-      "choices": ["16 – 4(1)(-21)", "16 – 4(1)(21)", "16 – 21", "16 – 84"],
-      "answer": "16 – 4(1)(-21)",
+      "question": "What is the discriminant for $x^2 + 4x + 4 = 0$?",
+      "choices": ["$16 - 16$", "$16 - 4$", "$4 - 16$", "$4 - 4$"],
+      "answer": "$16 - 16$",
       "points": 10
     },
     {
       "id": 46,
       "wave": 1,
-      "question": "For 6m² + 7m + 2 = 0, what is b² – 4ac?",
-      "choices": ["49 – 48", "49 – 12", "7 – 12", "7 – 48"],
-      "answer": "49 – 48",
+      "question": "Identify $a, b, c$ for $x^2 - 12x + 35 = 0$.",
+      "choices": [
+        "a=1, b=-12, c=35",
+        "a=1, b=12, c=35",
+        "a=1, b=-12, c=-35",
+        "a=-1, b=12, c=35"
+      ],
+      "answer": "a=1, b=-12, c=35",
       "points": 10
     },
     {
       "id": 47,
       "wave": 1,
-      "question": "For n² – 13n + 42 = 0, what is b² – 4ac?",
-      "choices": ["169 – 168", "169 – 42", "-13 – 42", "-13 – 168"],
-      "answer": "169 – 168",
+      "question": "Calculate $b^2 - 4ac$ for $2x^2 - 7x + 6 = 0$.",
+      "choices": ["$49 - 48$", "$49 - 6$", "$-7 - 48$", "$-7 - 6$"],
+      "answer": "$49 - 48$",
       "points": 10
     },
     {
       "id": 48,
       "wave": 1,
-      "question": "For p² – 17p + 72 = 0, what is b² – 4ac?",
-      "choices": ["289 – 288", "289 – 72", "-17 – 72", "-17 – 288"],
-      "answer": "289 – 288",
+      "question": "Identify $a, b, c$ for $x^2 + 6x + 5 = 0$.",
+      "choices": [
+        "a=1, b=6, c=5",
+        "a=1, b=-6, c=5",
+        "a=1, b=6, c=-5",
+        "a=-1, b=6, c=5"
+      ],
+      "answer": "a=1, b=6, c=5",
       "points": 10
     },
     {
       "id": 49,
       "wave": 1,
-      "question": "For q² + 18q + 81 = 0, what is b² – 4ac?",
-      "choices": ["324 – 324", "324 – 162", "18 – 81", "18 – 324"],
-      "answer": "324 – 324",
+      "question": "What is the discriminant for $x^2 - 11x + 30 = 0$?",
+      "choices": ["$121 - 120$", "$121 - 30$", "$-11 - 120$", "$-11 - 30$"],
+      "answer": "$121 - 120$",
       "points": 10
     },
     {
       "id": 50,
       "wave": 1,
-      "question": "For 7r² – 10r + 3 = 0, what is b² – 4ac?",
-      "choices": ["100 – 84", "100 – 21", "-10 – 21", "-10 – 84"],
-      "answer": "100 – 84",
+      "question": "Identify $a, b, c$ for $x^2 - 25 = 0$.",
+      "choices": [
+        "a=1, b=0, c=-25",
+        "a=1, b=1, c=-25",
+        "a=1, b=-25, c=0",
+        "a=1, b=0, c=25"
+      ],
+      "answer": "a=1, b=0, c=-25",
       "points": 10
     },
-
     {
       "id": 51,
       "wave": 2,
-      "question": "Solve x² – 5x + 6 = 0 using the quadratic formula.",
-      "choices": ["2 or 3", "-2 or -3", "2 only", "3 only"],
-      "answer": "2 or 3",
+      "question": "Solve $x^2 - 5x + 6 = 0$ using the quadratic formula.",
+      "choices": ["$x=2, x=3$", "$x=-2, x=-3$", "$x=1, x=6$", "$x=2, x=-3$"],
+      "answer": "$x=2, x=3$",
       "points": 15
     },
     {
       "id": 52,
       "wave": 2,
-      "question": "Solve y² – 4y + 3 = 0.",
-      "choices": ["1 or 3", "-1 or -3", "1 only", "3 only"],
-      "answer": "1 or 3",
+      "question": "Solve $x^2 + 7x + 12 = 0$ using the quadratic formula.",
+      "choices": ["$x=-3, x=-4$", "$x=3, x=4$", "$x=-1, x=-12$", "$x=-3, x=4$"],
+      "answer": "$x=-3, x=-4$",
       "points": 15
     },
     {
       "id": 53,
       "wave": 2,
-      "question": "Solve z² + 3z – 10 = 0.",
-      "choices": ["2 or -5", "-2 or 5", "2 only", "-5 only"],
-      "answer": "2 or -5",
+      "question": "Solve $x^2 - x - 12 = 0$ using the quadratic formula.",
+      "choices": ["$x=4, x=-3$", "$x=-4, x=3$", "$x=1, x=-12$", "$x=6, x=-2$"],
+      "answer": "$x=4, x=-3$",
       "points": 15
     },
     {
       "id": 54,
       "wave": 2,
-      "question": "Solve a² + 7a + 12 = 0.",
-      "choices": ["-3 or -4", "3 or 4", "-3 only", "-4 only"],
-      "answer": "-3 or -4",
+      "question": "Solve $2x^2 + 5x + 2 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-1/2, x=-2$",
+        "$x=1/2, x=2$",
+        "$x=-1, x=-2$",
+        "$x=-1/2, x=2$"
+      ],
+      "answer": "$x=-1/2, x=-2$",
       "points": 15
     },
     {
       "id": 55,
       "wave": 2,
-      "question": "Solve b² – 2b – 8 = 0.",
-      "choices": ["4 or -2", "-4 or 2", "4 only", "-2 only"],
-      "answer": "4 or -2",
+      "question": "Solve $3x^2 - 10x + 8 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=2, x=4/3$",
+        "$x=-2, x=-4/3$",
+        "$x=1, x=8/3$",
+        "$x=2, x=-4/3$"
+      ],
+      "answer": "$x=2, x=4/3$",
       "points": 15
     },
     {
       "id": 56,
       "wave": 2,
-      "question": "Solve c² + 5c + 6 = 0.",
-      "choices": ["-2 or -3", "2 or 3", "-2 only", "-3 only"],
-      "answer": "-2 or -3",
+      "question": "Solve $x^2 - 7x + 10 = 0$ using the quadratic formula.",
+      "choices": ["$x=2, x=5$", "$x=-2, x=-5$", "$x=1, x=10$", "$x=2, x=-5$"],
+      "answer": "$x=2, x=5$",
       "points": 15
     },
     {
       "id": 57,
       "wave": 2,
-      "question": "Solve d² – 9d + 20 = 0.",
-      "choices": ["4 or 5", "-4 or -5", "4 only", "5 only"],
-      "answer": "4 or 5",
+      "question": "Solve $x^2 + 5x - 14 = 0$ using the quadratic formula.",
+      "choices": ["$x=2, x=-7$", "$x=-2, x=7$", "$x=1, x=-14$", "$x=7, x=-2$"],
+      "answer": "$x=2, x=-7$",
       "points": 15
     },
     {
       "id": 58,
       "wave": 2,
-      "question": "Solve e² + 8e + 15 = 0.",
-      "choices": ["-3 or -5", "3 or 5", "-3 only", "-5 only"],
-      "answer": "-3 or -5",
+      "question": "Solve $x^2 + 3x + 2 = 0$ using the quadratic formula.",
+      "choices": ["$x=-1, x=-2$", "$x=1, x=2$", "$x=1, x=-2$", "$x=-1, x=2$"],
+      "answer": "$x=-1, x=-2$",
       "points": 15
     },
     {
       "id": 59,
       "wave": 2,
-      "question": "Solve f² – 6f + 8 = 0.",
-      "choices": ["2 or 4", "-2 or -4", "2 only", "4 only"],
-      "answer": "2 or 4",
+      "question": "Solve $x^2 + 4x - 5 = 0$ using the quadratic formula.",
+      "choices": ["$x=1, x=-5$", "$x=-1, x=5$", "$x=1, x=5$", "$x=-1, x=-5$"],
+      "answer": "$x=1, x=-5$",
       "points": 15
     },
     {
       "id": 60,
       "wave": 2,
-      "question": "Solve g² + 4g – 21 = 0.",
-      "choices": ["3 or -7", "-3 or 7", "3 only", "-7 only"],
-      "answer": "3 or -7",
+      "question": "Solve $x^2 - 6x + 8 = 0$ using the quadratic formula.",
+      "choices": ["$x=2, x=4$", "$x=-2, x=-4$", "$x=1, x=8$", "$x=2, x=-4$"],
+      "answer": "$x=2, x=4$",
       "points": 15
     },
     {
       "id": 61,
       "wave": 2,
-      "question": "Solve 2h² – 3h + 1 = 0.",
-      "choices": ["1 or ½", "-1 or -½", "1 only", "½ only"],
-      "answer": "1 or ½",
+      "question": "Solve $x^2 - 2x - 3 = 0$ using the quadratic formula.",
+      "choices": ["$x=3, x=-1$", "$x=-3, x=1$", "$x=1, x=-3$", "$x=3, x=1$"],
+      "answer": "$x=3, x=-1$",
       "points": 15
     },
     {
       "id": 62,
       "wave": 2,
-      "question": "Solve 3k² – 5k + 2 = 0.",
-      "choices": ["1 or 2/3", "-1 or -2/3", "1 only", "2/3 only"],
-      "answer": "1 or 2/3",
+      "question": "Solve $5x^2 + 12x + 7 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-1, x=-7/5$",
+        "$x=1, x=7/5$",
+        "$x=-1, x=7/5$",
+        "$x=1, x=-7/5$"
+      ],
+      "answer": "$x=-1, x=-7/5$",
       "points": 15
     },
     {
       "id": 63,
       "wave": 2,
-      "question": "Solve 4m² – 7m + 3 = 0.",
-      "choices": ["1 or ¾", "-1 or -¾", "1 only", "¾ only"],
-      "answer": "1 or ¾",
+      "question": "Solve $x^2 - 4x + 3 = 0$ using the quadratic formula.",
+      "choices": ["$x=1, x=3$", "$x=-1, x=-3$", "$x=1, x=-3$", "$x=-1, x=3$"],
+      "answer": "$x=1, x=3$",
       "points": 15
     },
     {
       "id": 64,
       "wave": 2,
-      "question": "Solve 5n² – 8n + 3 = 0.",
-      "choices": ["1 or 3/5", "-1 or -3/5", "1 only", "3/5 only"],
-      "answer": "1 or 3/5",
+      "question": "Solve $x^2 + 2x - 15 = 0$ using the quadratic formula.",
+      "choices": ["$x=3, x=-5$", "$x=-3, x=5$", "$x=1, x=-15$", "$x=5, x=-3$"],
+      "answer": "$x=3, x=-5$",
       "points": 15
     },
     {
       "id": 65,
       "wave": 2,
-      "question": "Solve 6p² – 7p + 2 = 0.",
-      "choices": ["½ or 2/3", "-½ or -2/3", "½ only", "2/3 only"],
-      "answer": "½ or 2/3",
+      "question": "Solve $3x^2 + 7x + 2 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-1/3, x=-2$",
+        "$x=1/3, x=2$",
+        "$x=-1, x=-2/3$",
+        "$x=-1/3, x=2$"
+      ],
+      "answer": "$x=-1/3, x=-2$",
       "points": 15
     },
     {
       "id": 66,
       "wave": 2,
-      "question": "Solve q² – 10q + 25 = 0.",
-      "choices": ["5 (double root)", "-5 (double root)", "5 or -5", "0"],
-      "answer": "5 (double root)",
+      "question": "Solve $x^2 - 9x + 18 = 0$ using the quadratic formula.",
+      "choices": ["$x=3, x=6$", "$x=-3, x=-6$", "$x=1, x=18$", "$x=3, x=-6$"],
+      "answer": "$x=3, x=6$",
       "points": 15
     },
     {
       "id": 67,
       "wave": 2,
-      "question": "Solve r² + 12r + 36 = 0.",
-      "choices": ["-6 (double root)", "6 (double root)", "6 or -6", "0"],
-      "answer": "-6 (double root)",
+      "question": "Solve $x^2 - 5x + 4 = 0$ using the quadratic formula.",
+      "choices": ["$x=1, x=4$", "$x=-1, x=-4$", "$x=1, x=-4$", "$x=-1, x=4$"],
+      "answer": "$x=1, x=4$",
       "points": 15
     },
     {
       "id": 68,
       "wave": 2,
-      "question": "Solve s² – 14s + 49 = 0.",
-      "choices": ["7 (double root)", "-7 (double root)", "7 or -7", "0"],
-      "answer": "7 (double root)",
+      "question": "Solve $x^2 + 15x + 50 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-5, x=-10$",
+        "$x=5, x=10$",
+        "$x=-1, x=-50$",
+        "$x=-5, x=10$"
+      ],
+      "answer": "$x=-5, x=-10$",
       "points": 15
     },
     {
       "id": 69,
       "wave": 2,
-      "question": "Solve t² + 16t + 64 = 0.",
-      "choices": ["-8 (double root)", "8 (double root)", "8 or -8", "0"],
-      "answer": "-8 (double root)",
+      "question": "Solve $3x^2 + 11x + 6 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-2/3, x=-3$",
+        "$x=2/3, x=3$",
+        "$x=-1, x=-6/3$",
+        "$x=-2/3, x=3$"
+      ],
+      "answer": "$x=-2/3, x=-3$",
       "points": 15
     },
     {
       "id": 70,
       "wave": 2,
-      "question": "Solve u² – 18u + 81 = 0.",
-      "choices": ["9 (double root)", "-9 (double root)", "9 or -9", "0"],
-      "answer": "9 (double root)",
+      "question": "Solve $x^2 - 12x + 35 = 0$ using the quadratic formula.",
+      "choices": ["$x=5, x=7$", "$x=-5, x=-7$", "$x=1, x=35$", "$x=5, x=-7$"],
+      "answer": "$x=5, x=7$",
       "points": 15
     },
     {
       "id": 71,
       "wave": 2,
-      "question": "Solve v² + 20v + 100 = 0.",
-      "choices": ["-10 (double root)", "10 (double root)", "10 or -10", "0"],
-      "answer": "-10 (double root)",
+      "question": "Solve $2x^2 - 7x + 6 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=2, x=3/2$",
+        "$x=-2, x=-3/2$",
+        "$x=1, x=3$",
+        "$x=2, x=-3/2$"
+      ],
+      "answer": "$x=2, x=3/2$",
       "points": 15
     },
     {
       "id": 72,
       "wave": 2,
-      "question": "Solve w² – 22w + 121 = 0.",
-      "choices": ["11 (double root)", "-11 (double root)", "11 or -11", "0"],
-      "answer": "11 (double root)",
+      "question": "Solve $x^2 + 6x + 5 = 0$ using the quadratic formula.",
+      "choices": ["$x=-1, x=-5$", "$x=1, x=5$", "$x=1, x=-5$", "$x=-1, x=5$"],
+      "answer": "$x=-1, x=-5$",
       "points": 15
     },
     {
       "id": 73,
       "wave": 2,
-      "question": "Solve x² – 24x + 144 = 0.",
-      "choices": ["12 (double root)", "-12 (double root)", "12 or -12", "0"],
-      "answer": "12 (double root)",
+      "question": "Solve $x^2 - 11x + 30 = 0$ using the quadratic formula.",
+      "choices": ["$x=5, x=6$", "$x=-5, x=-6$", "$x=1, x=30$", "$x=5, x=-6$"],
+      "answer": "$x=5, x=6$",
       "points": 15
     },
     {
       "id": 74,
       "wave": 2,
-      "question": "Solve y² + 26y + 169 = 0.",
-      "choices": ["-13 (double root)", "13 (double root)", "13 or -13", "0"],
-      "answer": "-13 (double root)",
+      "question": "Solve $x^2 + 11x + 28 = 0$ using the quadratic formula.",
+      "choices": ["$x=-4, x=-7$", "$x=4, x=7$", "$x=-1, x=-28$", "$x=-4, x=7$"],
+      "answer": "$x=-4, x=-7$",
       "points": 15
     },
     {
       "id": 75,
       "wave": 2,
-      "question": "Solve z² – 28z + 196 = 0.",
-      "choices": ["14 (double root)", "-14 (double root)", "14 or -14", "0"],
-      "answer": "14 (double root)",
+      "question": "Solve $x^2 + 9x + 20 = 0$ using the quadratic formula.",
+      "choices": ["$x=-4, x=-5$", "$x=4, x=5$", "$x=-1, x=-20$", "$x=-4, x=5$"],
+      "answer": "$x=-4, x=-5$",
       "points": 15
     },
     {
       "id": 76,
       "wave": 2,
-      "question": "Solve a² + 30a + 225 = 0.",
-      "choices": ["-15 (double root)", "15 (double root)", "15 or -15", "0"],
-      "answer": "-15 (double root)",
+      "question": "Solve $2x^2 + 7x + 3 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-1/2, x=-3$",
+        "$x=1/2, x=3$",
+        "$x=-1, x=-3/2$",
+        "$x=-1/2, x=3$"
+      ],
+      "answer": "$x=-1/2, x=-3$",
       "points": 15
     },
     {
       "id": 77,
       "wave": 2,
-      "question": "Solve b² – 32b + 256 = 0.",
-      "choices": ["16 (double root)", "-16 (double root)", "16 or -16", "0"],
-      "answer": "16 (double root)",
+      "question": "Solve $x^2 - 13x + 42 = 0$ using the quadratic formula.",
+      "choices": ["$x=6, x=7$", "$x=-6, x=-7$", "$x=1, x=42$", "$x=6, x=-7$"],
+      "answer": "$x=6, x=7$",
       "points": 15
     },
     {
       "id": 78,
       "wave": 2,
-      "question": "Solve c² + 34c + 289 = 0.",
-      "choices": ["-17 (double root)", "17 (double root)", "17 or -17", "0"],
-      "answer": "-17 (double root)",
+      "question": "Solve $x^2 + 13x + 40 = 0$ using the quadratic formula.",
+      "choices": ["$x=-5, x=-8$", "$x=5, x=8$", "$x=-1, x=-40$", "$x=-5, x=8$"],
+      "answer": "$x=-5, x=-8$",
       "points": 15
     },
     {
       "id": 79,
       "wave": 2,
-      "question": "Solve d² – 36d + 324 = 0.",
-      "choices": ["18 (double root)", "-18 (double root)", "18 or -18", "0"],
-      "answer": "18 (double root)",
+      "question": "Solve $x^2 - 14x + 48 = 0$ using the quadratic formula.",
+      "choices": ["$x=6, x=8$", "$x=-6, x=-8$", "$x=1, x=48$", "$x=6, x=-8$"],
+      "answer": "$x=6, x=8$",
       "points": 15
     },
     {
       "id": 80,
       "wave": 2,
-      "question": "Solve e² + 38e + 361 = 0.",
-      "choices": ["-19 (double root)", "19 (double root)", "19 or -19", "0"],
-      "answer": "-19 (double root)",
+      "question": "Solve $x^2 + 14x + 45 = 0$ using the quadratic formula.",
+      "choices": ["$x=-5, x=-9$", "$x=5, x=9$", "$x=-1, x=-45$", "$x=-5, x=9$"],
+      "answer": "$x=-5, x=-9$",
       "points": 15
     },
-
     {
       "id": 81,
-      "wave": 3,
-      "question": "Solve 3x² – 4x – 7 = 0.",
-      "choices": ["(4±√100)/6", "(4±√88)/6", "(4±√100)/3", "(4±√88)/3"],
-      "answer": "(4±√100)/6",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 - 15x + 54 = 0$ using the quadratic formula.",
+      "choices": ["$x=6, x=9$", "$x=-6, x=-9$", "$x=1, x=54$", "$x=6, x=-9$"],
+      "answer": "$x=6, x=9$",
+      "points": 15
     },
     {
       "id": 82,
-      "wave": 3,
-      "question": "Solve 5y² + 2y – 3 = 0.",
-      "choices": ["(-2±√64)/10", "(-2±√64)/5", "(-2±√56)/10", "(-2±√56)/5"],
-      "answer": "(-2±√64)/10",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 + 15x + 56 = 0$ using the quadratic formula.",
+      "choices": ["$x=-7, x=-8$", "$x=7, x=8$", "$x=-1, x=-56$", "$x=-7, x=8$"],
+      "answer": "$x=-7, x=-8$",
+      "points": 15
     },
     {
       "id": 83,
-      "wave": 3,
-      "question": "Solve 2z² + 7z + 3 = 0.",
-      "choices": ["(-7±√25)/4", "(-7±√25)/2", "(-7±√37)/4", "(-7±√37)/2"],
-      "answer": "(-7±√25)/4",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 - 16x + 63 = 0$ using the quadratic formula.",
+      "choices": ["$x=7, x=9$", "$x=-7, x=-9$", "$x=1, x=63$", "$x=7, x=-9$"],
+      "answer": "$x=7, x=9$",
+      "points": 15
     },
     {
       "id": 84,
-      "wave": 3,
-      "question": "Solve 4a² – 5a – 6 = 0.",
-      "choices": ["(5±√121)/8", "(5±√121)/4", "(5±√49)/8", "(5±√49)/4"],
-      "answer": "(5±√121)/8",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 + 16x + 60 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-6, x=-10$",
+        "$x=6, x=10$",
+        "$x=-1, x=-60$",
+        "$x=-6, x=10$"
+      ],
+      "answer": "$x=-6, x=-10$",
+      "points": 15
     },
     {
       "id": 85,
-      "wave": 3,
-      "question": "Solve 6b² + b – 2 = 0.",
-      "choices": ["(-1±√49)/12", "(-1±√49)/6", "(-1±√47)/12", "(-1±√47)/6"],
-      "answer": "(-1±√49)/12",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 - 17x + 66 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=6, x=11$",
+        "$x=-6, x=-11$",
+        "$x=1, x=66$",
+        "$x=6, x=-11$"
+      ],
+      "answer": "$x=6, x=11$",
+      "points": 15
     },
     {
       "id": 86,
-      "wave": 3,
-      "question": "Solve 8c² – 6c + 1 = 0.",
-      "choices": ["(6±√4)/16", "(6±√4)/8", "(6±√28)/16", "(6±√28)/8"],
-      "answer": "(6±√4)/16",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 + 17x + 70 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-7, x=-10$",
+        "$x=7, x=10$",
+        "$x=-1, x=-70$",
+        "$x=-7, x=10$"
+      ],
+      "answer": "$x=-7, x=-10$",
+      "points": 15
     },
     {
       "id": 87,
-      "wave": 3,
-      "question": "Solve 9d² + 12d + 4 = 0.",
-      "choices": ["(-12±√0)/18", "(-12±√0)/9", "(-12±√72)/18", "(-12±√72)/9"],
-      "answer": "(-12±√0)/18",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 - 18x + 77 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=7, x=11$",
+        "$x=-7, x=-11$",
+        "$x=1, x=77$",
+        "$x=7, x=-11$"
+      ],
+      "answer": "$x=7, x=11$",
+      "points": 15
     },
     {
       "id": 88,
-      "wave": 3,
-      "question": "Solve 10e² – 7e – 12 = 0.",
-      "choices": ["(7±√529)/20", "(7±√529)/10", "(7±√481)/20", "(7±√481)/10"],
-      "answer": "(7±√529)/20",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 + 18x + 80 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-8, x=-10$",
+        "$x=8, x=10$",
+        "$x=-1, x=-80$",
+        "$x=-8, x=10$"
+      ],
+      "answer": "$x=-8, x=-10$",
+      "points": 15
     },
     {
       "id": 89,
-      "wave": 3,
-      "question": "Solve 12f² + 5f – 2 = 0.",
-      "choices": ["(-5±√121)/24", "(-5±√121)/12", "(-5±√71)/24", "(-5±√71)/12"],
-      "answer": "(-5±√121)/24",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 - 19x + 88 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=8, x=11$",
+        "$x=-8, x=-11$",
+        "$x=1, x=88$",
+        "$x=8, x=-11$"
+      ],
+      "answer": "$x=8, x=11$",
+      "points": 15
     },
     {
       "id": 90,
-      "wave": 3,
-      "question": "Solve 15g² – 8g – 7 = 0.",
-      "choices": ["(8±√484)/30", "(8±√484)/15", "(8±√404)/30", "(8±√404)/15"],
-      "answer": "(8±√484)/30",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 + 19x + 90 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-9, x=-10$",
+        "$x=9, x=10$",
+        "$x=-1, x=-90$",
+        "$x=-9, x=10$"
+      ],
+      "answer": "$x=-9, x=-10$",
+      "points": 15
     },
     {
       "id": 91,
-      "wave": 3,
-      "question": "Solve 18h² + 9h – 20 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 - 20x + 99 = 0$ using the quadratic formula.",
       "choices": [
-        "(-9±√1521)/36",
-        "(-9±√1521)/18",
-        "(-9±√1521)/9",
-        "(-9±√1449)/36"
+        "$x=9, x=11$",
+        "$x=-9, x=-11$",
+        "$x=1, x=99$",
+        "$x=9, x=-11$"
       ],
-      "answer": "(-9±√1521)/36",
-      "points": 20
+      "answer": "$x=9, x=11$",
+      "points": 15
     },
     {
       "id": 92,
-      "wave": 3,
-      "question": "Solve 20k² – 11k – 3 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 + 20x + 96 = 0$ using the quadratic formula.",
       "choices": [
-        "(11±√361)/40",
-        "(11±√361)/20",
-        "(11±√241)/40",
-        "(11±√241)/20"
+        "$x=-8, x=-12$",
+        "$x=8, x=12$",
+        "$x=-1, x=-96$",
+        "$x=-8, x=12$"
       ],
-      "answer": "(11±√361)/40",
-      "points": 20
+      "answer": "$x=-8, x=-12$",
+      "points": 15
     },
     {
       "id": 93,
-      "wave": 3,
-      "question": "Solve 24m² + m – 3 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 - 21x + 108 = 0$ using the quadratic formula.",
       "choices": [
-        "(-1±√289)/48",
-        "(-1±√289)/24",
-        "(-1±√145)/48",
-        "(-1±√145)/24"
+        "$x=9, x=12$",
+        "$x=-9, x=-12$",
+        "$x=1, x=108$",
+        "$x=9, x=-12$"
       ],
-      "answer": "(-1±√289)/48",
-      "points": 20
+      "answer": "$x=9, x=12$",
+      "points": 15
     },
     {
       "id": 94,
-      "wave": 3,
-      "question": "Solve 25n² – 30n + 9 = 0.",
-      "choices": ["(30±√0)/50", "(30±√0)/25", "(30±√900)/50", "(30±√900)/25"],
-      "answer": "(30±√0)/50",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 + 21x + 110 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-10, x=-11$",
+        "$x=10, x=11$",
+        "$x=-1, x=-110$",
+        "$x=-10, x=11$"
+      ],
+      "answer": "$x=-10, x=-11$",
+      "points": 15
     },
     {
       "id": 95,
-      "wave": 3,
-      "question": "Solve 30p² + 7p – 15 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 - 22x + 120 = 0$ using the quadratic formula.",
       "choices": [
-        "(-7±√1849)/60",
-        "(-7±√1849)/30",
-        "(-7±√1249)/60",
-        "(-7±√1249)/30"
+        "$x=10, x=12$",
+        "$x=-10, x=-12$",
+        "$x=1, x=120$",
+        "$x=10, x=-12$"
       ],
-      "answer": "(-7±√1849)/60",
-      "points": 20
+      "answer": "$x=10, x=12$",
+      "points": 15
     },
     {
       "id": 96,
-      "wave": 3,
-      "question": "Solve 36q² – 12q + 1 = 0.",
-      "choices": ["(12±√0)/72", "(12±√0)/36", "(12±√144)/72", "(12±√144)/36"],
-      "answer": "(12±√0)/72",
-      "points": 20
+      "wave": 2,
+      "question": "Solve $x^2 + 22x + 117 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x=-9, x=-13$",
+        "$x=9, x=13$",
+        "$x=-1, x=-117$",
+        "$x=-9, x=13$"
+      ],
+      "answer": "$x=-9, x=-13$",
+      "points": 15
     },
     {
       "id": 97,
-      "wave": 3,
-      "question": "Solve 40r² + 13r – 3 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 - 23x + 132 = 0$ using the quadratic formula.",
       "choices": [
-        "(-13±√529)/80",
-        "(-13±√529)/40",
-        "(-13±√409)/80",
-        "(-13±√409)/40"
+        "$x=11, x=12$",
+        "$x=-11, x=-12$",
+        "$x=1, x=132$",
+        "$x=11, x=-12$"
       ],
-      "answer": "(-13±√529)/80",
-      "points": 20
+      "answer": "$x=11, x=12$",
+      "points": 15
     },
     {
       "id": 98,
-      "wave": 3,
-      "question": "Solve 42s² – 17s – 15 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 + 23x + 126 = 0$ using the quadratic formula.",
       "choices": [
-        "(17±√1849)/84",
-        "(17±√1849)/42",
-        "(17±√1249)/84",
-        "(17±√1249)/42"
+        "$x=-9, x=-14$",
+        "$x=9, x=14$",
+        "$x=-1, x=-126$",
+        "$x=-9, x=14$"
       ],
-      "answer": "(17±√1849)/84",
-      "points": 20
+      "answer": "$x=-9, x=-14$",
+      "points": 15
     },
     {
       "id": 99,
-      "wave": 3,
-      "question": "Solve 48t² + 14t – 5 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 - 24x + 143 = 0$ using the quadratic formula.",
       "choices": [
-        "(-14±√1156)/96",
-        "(-14±√1156)/48",
-        "(-14±√676)/96",
-        "(-14±√676)/48"
+        "$x=11, x=13$",
+        "$x=-11, x=-13$",
+        "$x=1, x=143$",
+        "$x=11, x=-13$"
       ],
-      "answer": "(-14±√1156)/96",
-      "points": 20
+      "answer": "$x=11, x=13$",
+      "points": 15
     },
     {
       "id": 100,
-      "wave": 3,
-      "question": "Solve 50u² – 15u – 2 = 0.",
+      "wave": 2,
+      "question": "Solve $x^2 + 24x + 140 = 0$ using the quadratic formula.",
       "choices": [
-        "(15±√625)/100",
-        "(15±√625)/50",
-        "(15±√425)/100",
-        "(15±√425)/50"
+        "$x=-10, x=-14$",
+        "$x=10, x=14$",
+        "$x=-1, x=-140$",
+        "$x=-10, x=14$"
       ],
-      "answer": "(15±√625)/100",
-      "points": 20
+      "answer": "$x=-10, x=-14$",
+      "points": 15
     },
     {
       "id": 101,
       "wave": 3,
-      "question": "Solve 60v² + 23v – 12 = 0.",
-      "choices": [
-        "(-23±√3721)/120",
-        "(-23±√3721)/60",
-        "(-23±√2521)/120",
-        "(-23±√2521)/60"
-      ],
-      "answer": "(-23±√3721)/120",
+      "question": "Solve $x^2 - 10x + 25 = 0$ using the quadratic formula.",
+      "choices": ["$x=5$", "$x=-5$", "$x=5, x=-5$", "$x=1, x=25$"],
+      "answer": "$x=5$",
       "points": 20
     },
     {
       "id": 102,
       "wave": 3,
-      "question": "Solve 72w² – 17w – 3 = 0.",
-      "choices": [
-        "(17±√1225)/144",
-        "(17±√1225)/72",
-        "(17±√1225)/36",
-        "(17±√625)/144"
-      ],
-      "answer": "(17±√1225)/144",
+      "question": "Solve $x^2 + 12x + 36 = 0$ using the quadratic formula.",
+      "choices": ["$x=-6$", "$x=6$", "$x=6, x=-6$", "$x=1, x=36$"],
+      "answer": "$x=-6$",
       "points": 20
     },
     {
       "id": 103,
       "wave": 3,
-      "question": "Solve 75x² + 20x – 7 = 0.",
-      "choices": [
-        "(-20±√2500)/150",
-        "(-20±√2500)/75",
-        "(-20±√1300)/150",
-        "(-20±√1300)/75"
-      ],
-      "answer": "(-20±√2500)/150",
+      "question": "Solve $4x^2 - 4x + 1 = 0$ using the quadratic formula.",
+      "choices": ["$x=1/2$", "$x=-1/2$", "$x=1/2, x=-1/2$", "$x=1, x=1/4$"],
+      "answer": "$x=1/2$",
       "points": 20
     },
     {
       "id": 104,
       "wave": 3,
-      "question": "Solve 80y² – 24y + 1 = 0.",
-      "choices": [
-        "(24±√400)/160",
-        "(24±√400)/80",
-        "(24±√400)/40",
-        "(24±√544)/160"
-      ],
-      "answer": "(24±√400)/160",
+      "question": "Solve $9x^2 + 6x + 1 = 0$ using the quadratic formula.",
+      "choices": ["$x=-1/3$", "$x=1/3$", "$x=1/3, x=-1/3$", "$x=1, x=1/9$"],
+      "answer": "$x=-1/3$",
       "points": 20
     },
     {
       "id": 105,
       "wave": 3,
-      "question": "Solve 90z² + 33z – 10 = 0.",
-      "choices": [
-        "(-33±√4761)/180",
-        "(-33±√4761)/90",
-        "(-33±√4761)/45",
-        "(-33±√2961)/180"
-      ],
-      "answer": "(-33±√4761)/180",
+      "question": "Solve $x^2 - 14x + 49 = 0$ using the quadratic formula.",
+      "choices": ["$x=7$", "$x=-7$", "$x=7, x=-7$", "$x=1, x=49$"],
+      "answer": "$x=7$",
       "points": 20
     },
     {
       "id": 106,
       "wave": 3,
-      "question": "Solve 96m² – 20m – 3 = 0.",
-      "choices": [
-        "(20±√1024)/192",
-        "(20±√1024)/96",
-        "(20±√1024)/48",
-        "(20±√784)/192"
-      ],
-      "answer": "(20±√1024)/192",
+      "question": "Solve $x^2 + 16x + 64 = 0$ using the quadratic formula.",
+      "choices": ["$x=-8$", "$x=8$", "$x=8, x=-8$", "$x=1, x=64$"],
+      "answer": "$x=-8$",
       "points": 20
     },
     {
       "id": 107,
       "wave": 3,
-      "question": "Solve 100n² – 140n + 49 = 0.",
-      "choices": [
-        "(140±√0)/200",
-        "(140±√0)/100",
-        "(140±√0)/200",
-        "(140±√19600)/200"
-      ],
-      "answer": "(140±√0)/200",
+      "question": "Solve $25x^2 - 10x + 1 = 0$ using the quadratic formula.",
+      "choices": ["$x=1/5$", "$x=-1/5$", "$x=1/5, x=-1/5$", "$x=1, x=1/25$"],
+      "answer": "$x=1/5$",
       "points": 20
     },
     {
       "id": 108,
       "wave": 3,
-      "question": "Solve 108p² + 15p – 2 = 0.",
-      "choices": [
-        "(-15±√1089)/216",
-        "(-15±√1089)/108",
-        "(-15±√1089)/54",
-        "(-15±√729)/216"
-      ],
-      "answer": "(-15±√1089)/216",
+      "question": "Solve $16x^2 + 8x + 1 = 0$ using the quadratic formula.",
+      "choices": ["$x=-1/4$", "$x=1/4$", "$x=1/4, x=-1/4$", "$x=1, x=1/16$"],
+      "answer": "$x=-1/4$",
       "points": 20
     },
     {
       "id": 109,
       "wave": 3,
-      "question": "Solve 120q² – 7q – 10 = 0.",
-      "choices": [
-        "(7±√4849)/240",
-        "(7±√4849)/120",
-        "(7±√4849)/240",
-        "(7±√3249)/240"
-      ],
-      "answer": "(7±√4849)/240",
+      "question": "Solve $x^2 - 18x + 81 = 0$ using the quadratic formula.",
+      "choices": ["$x=9$", "$x=-9$", "$x=9, x=-9$", "$x=1, x=81$"],
+      "answer": "$x=9$",
       "points": 20
     },
     {
       "id": 110,
       "wave": 3,
-      "question": "Solve 125r² + 30r + 1 = 0.",
-      "choices": [
-        "(-30±√400)/250",
-        "(-30±√400)/125",
-        "(-30±√400)/250",
-        "(-30±√1600)/250"
-      ],
-      "answer": "(-30±√400)/250",
+      "question": "Solve $x^2 + 20x + 100 = 0$ using the quadratic formula.",
+      "choices": ["$x=-10$", "$x=10$", "$x=10, x=-10$", "$x=1, x=100$"],
+      "answer": "$x=-10$",
       "points": 20
     },
     {
       "id": 111,
       "wave": 3,
-      "question": "Solve 144s² – 48s + 4 = 0.",
-      "choices": [
-        "(48±√0)/288",
-        "(48±√0)/144",
-        "(48±√0)/288",
-        "(48±√2304)/288"
-      ],
-      "answer": "(48±√0)/288",
+      "question": "Solve $x^2 - 22x + 121 = 0$ using the quadratic formula.",
+      "choices": ["$x=11$", "$x=-11$", "$x=11, x=-11$", "$x=1, x=121$"],
+      "answer": "$x=11$",
       "points": 20
     },
     {
       "id": 112,
       "wave": 3,
-      "question": "Solve 150t² + 25t – 6 = 0.",
-      "choices": [
-        "(-25±√4225)/300",
-        "(-25±√4225)/150",
-        "(-25±√4225)/300",
-        "(-25±√3025)/300"
-      ],
-      "answer": "(-25±√4225)/300",
+      "question": "Solve $x^2 + 24x + 144 = 0$ using the quadratic formula.",
+      "choices": ["$x=-12$", "$x=12$", "$x=12, x=-12$", "$x=1, x=144$"],
+      "answer": "$x=-12$",
       "points": 20
     },
     {
       "id": 113,
       "wave": 3,
-      "question": "Solve 160u² – 28u + 1 = 0.",
-      "choices": [
-        "(28±√576)/320",
-        "(28±√576)/160",
-        "(28±√576)/320",
-        "(28±√784)/320"
-      ],
-      "answer": "(28±√576)/320",
+      "question": "Solve $x^2 - 26x + 169 = 0$ using the quadratic formula.",
+      "choices": ["$x=13$", "$x=-13$", "$x=13, x=-13$", "$x=1, x=169$"],
+      "answer": "$x=13$",
       "points": 20
     },
     {
       "id": 114,
       "wave": 3,
-      "question": "Solve 180v² + 33v – 5 = 0.",
-      "choices": [
-        "(-33±√4761)/360",
-        "(-33±√4761)/180",
-        "(-33±√4761)/360",
-        "(-33±√2601)/360"
-      ],
-      "answer": "(-33±√4761)/360",
+      "question": "Solve $x^2 + 28x + 196 = 0$ using the quadratic formula.",
+      "choices": ["$x=-14$", "$x=14$", "$x=14, x=-14$", "$x=1, x=196$"],
+      "answer": "$x=-14$",
       "points": 20
     },
     {
       "id": 115,
       "wave": 3,
-      "question": "Solve 200w² – 60w + 4 = 0.",
-      "choices": [
-        "(60±√1600)/400",
-        "(60±√1600)/200",
-        "(60±√1600)/400",
-        "(60±√4000)/400"
-      ],
-      "answer": "(60±√1600)/400",
+      "question": "Solve $x^2 - 30x + 225 = 0$ using the quadratic formula.",
+      "choices": ["$x=15$", "$x=-15$", "$x=15, x=-15$", "$x=1, x=225$"],
+      "answer": "$x=15$",
       "points": 20
     },
     {
       "id": 116,
       "wave": 3,
-      "question": "Solve 225x² + 60x + 4 = 0.",
-      "choices": [
-        "(-60±√0)/450",
-        "(-60±√0)/225",
-        "(-60±√0)/450",
-        "(-60±√3600)/450"
-      ],
-      "answer": "(-60±√0)/450",
+      "question": "Solve $x^2 + 32x + 256 = 0$ using the quadratic formula.",
+      "choices": ["$x=-16$", "$x=16$", "$x=16, x=-16$", "$x=1, x=256$"],
+      "answer": "$x=-16$",
       "points": 20
     },
     {
       "id": 117,
       "wave": 3,
-      "question": "Solve 240y² – 22y – 5 = 0.",
-      "choices": [
-        "(22±√6724)/480",
-        "(22±√6724)/240",
-        "(22±√6724)/480",
-        "(22±√4624)/480"
-      ],
-      "answer": "(22±√6724)/480",
+      "question": "Solve $x^2 - 34x + 289 = 0$ using the quadratic formula.",
+      "choices": ["$x=17$", "$x=-17$", "$x=17, x=-17$", "$x=1, x=289$"],
+      "answer": "$x=17$",
       "points": 20
     },
     {
       "id": 118,
       "wave": 3,
-      "question": "Solve 250z² + 45z + 2 = 0.",
-      "choices": [
-        "(-45±√1225)/500",
-        "(-45±√1225)/250",
-        "(-45±√1225)/500",
-        "(-45±√625)/500"
-      ],
-      "answer": "(-45±√1225)/500",
+      "question": "Solve $x^2 + 36x + 324 = 0$ using the quadratic formula.",
+      "choices": ["$x=-18$", "$x=18$", "$x=18, x=-18$", "$x=1, x=324$"],
+      "answer": "$x=-18$",
       "points": 20
     },
     {
       "id": 119,
       "wave": 3,
-      "question": "Solve 288m² – 30m – 7 = 0.",
-      "choices": [
-        "(30±√10404)/576",
-        "(30±√10404)/288",
-        "(30±√10404)/576",
-        "(30±√8100)/576"
-      ],
-      "answer": "(30±√10404)/576",
+      "question": "Solve $x^2 - 38x + 361 = 0$ using the quadratic formula.",
+      "choices": ["$x=19$", "$x=-19$", "$x=19, x=-19$", "$x=1, x=361$"],
+      "answer": "$x=19$",
       "points": 20
     },
     {
       "id": 120,
       "wave": 3,
-      "question": "Solve 300n² + 50n + 2 = 0.",
-      "choices": [
-        "(-50±√900)/600",
-        "(-50±√900)/300",
-        "(-50±√900)/600",
-        "(-50±√100)/600"
-      ],
-      "answer": "(-50±√900)/600",
+      "question": "Solve $x^2 + 40x + 400 = 0$ using the quadratic formula.",
+      "choices": ["$x=-20$", "$x=20$", "$x=20, x=-20$", "$x=1, x=400$"],
+      "answer": "$x=-20$",
       "points": 20
     },
-
     {
       "id": 121,
-      "wave": 4,
-      "question": "Solve 2x² – 4x – 1 = 0 (irrational roots).",
-      "choices": ["(4±√24)/4", "(4±√24)/2", "(4±√8)/4", "(4±√8)/2"],
-      "answer": "(4±√24)/4",
-      "points": 25
+      "wave": 3,
+      "question": "Solve $x^2 - 2x - 1 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x = 1 \\pm \\sqrt{2}$",
+        "$x = -1 \\pm \\sqrt{2}$",
+        "$x = 1 \\pm 2$",
+        "$x = -1 \\pm 2$"
+      ],
+      "answer": "$x = 1 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 122,
-      "wave": 4,
-      "question": "Solve 3y² + 6y – 2 = 0.",
-      "choices": ["(-6±√60)/6", "(-6±√60)/3", "(-6±√12)/6", "(-6±√12)/3"],
-      "answer": "(-6±√60)/6",
-      "points": 25
+      "wave": 3,
+      "question": "Solve $x^2 + 4x - 2 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x = -2 \\pm \\sqrt{6}$",
+        "$x = 2 \\pm \\sqrt{6}$",
+        "$x = -2 \\pm 6$",
+        "$x = 2 \\pm 6$"
+      ],
+      "answer": "$x = -2 \\pm \\sqrt{6}$",
+      "points": 20
     },
     {
       "id": 123,
-      "wave": 4,
-      "question": "Solve 5z² – 10z + 1 = 0.",
-      "choices": ["(10±√80)/10", "(10±√80)/5", "(10±√20)/10", "(10±√20)/5"],
-      "answer": "(10±√80)/10",
-      "points": 25
+      "wave": 3,
+      "question": "Solve $2x^2 + 6x + 3 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x = \\frac{-3 \\pm \\sqrt{3}}{2}$",
+        "$x = \\frac{3 \\pm \\sqrt{3}}{2}$",
+        "$x = -3 \\pm \\sqrt{3}$",
+        "$x = \\frac{-3 \\pm 3}{2}$"
+      ],
+      "answer": "$x = \\frac{-3 \\pm \\sqrt{3}}{2}$",
+      "points": 20
     },
     {
       "id": 124,
-      "wave": 4,
-      "question": "Solve 4a² + 4a – 3 = 0.",
-      "choices": ["(-4±√64)/8", "(-4±√64)/4", "(-4±√28)/8", "(-4±√28)/4"],
-      "answer": "(-4±√64)/8",
-      "points": 25
+      "wave": 3,
+      "question": "Solve $x^2 - 8x + 13 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x = 4 \\pm \\sqrt{3}$",
+        "$x = -4 \\pm \\sqrt{3}$",
+        "$x = 4 \\pm 3$",
+        "$x = -4 \\pm 3$"
+      ],
+      "answer": "$x = 4 \\pm \\sqrt{3}$",
+      "points": 20
     },
     {
       "id": 125,
-      "wave": 4,
-      "question": "Solve 6b² – 8b – 1 = 0.",
-      "choices": ["(8±√88)/12", "(8±√88)/6", "(8±√40)/12", "(8±√40)/6"],
-      "answer": "(8±√88)/12",
-      "points": 25
+      "wave": 3,
+      "question": "Solve $x^2 + 10x + 23 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x = -5 \\pm \\sqrt{2}$",
+        "$x = 5 \\pm \\sqrt{2}$",
+        "$x = -5 \\pm 2$",
+        "$x = 5 \\pm 2$"
+      ],
+      "answer": "$x = -5 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 126,
-      "wave": 4,
-      "question": "Solve 7c² + 10c – 2 = 0.",
+      "wave": 3,
+      "question": "Solve $3x^2 - 12x + 10 = 0$ using the quadratic formula.",
       "choices": [
-        "(-10±√156)/14",
-        "(-10±√156)/7",
-        "(-10±√116)/14",
-        "(-10±√116)/7"
+        "$x = \\frac{6 \\pm \\sqrt{6}}{3}$",
+        "$x = \\frac{-6 \\pm \\sqrt{6}}{3}$",
+        "$x = 6 \\pm \\sqrt{6}$",
+        "$x = \\frac{6 \\pm 6}{3}$"
       ],
-      "answer": "(-10±√156)/14",
-      "points": 25
+      "answer": "$x = \\frac{6 \\pm \\sqrt{6}}{3}$",
+      "points": 20
     },
     {
       "id": 127,
-      "wave": 4,
-      "question": "Solve 8d² – 12d – 3 = 0.",
-      "choices": ["(12±√240)/16", "(12±√240)/8", "(12±√120)/16", "(12±√120)/8"],
-      "answer": "(12±√240)/16",
-      "points": 25
+      "wave": 3,
+      "question": "Solve $x^2 - 6x + 7 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x = 3 \\pm \\sqrt{2}$",
+        "$x = -3 \\pm \\sqrt{2}$",
+        "$x = 3 \\pm 2$",
+        "$x = -3 \\pm 2$"
+      ],
+      "answer": "$x = 3 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 128,
-      "wave": 4,
-      "question": "Solve 9e² + 12e – 5 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 8x + 14 = 0$ using the quadratic formula.",
       "choices": [
-        "(-12±√276)/18",
-        "(-12±√276)/9",
-        "(-12±√156)/18",
-        "(-12±√156)/9"
+        "$x = -4 \\pm \\sqrt{2}$",
+        "$x = 4 \\pm \\sqrt{2}$",
+        "$x = -4 \\pm 2$",
+        "$x = 4 \\pm 2$"
       ],
-      "answer": "(-12±√276)/18",
-      "points": 25
+      "answer": "$x = -4 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 129,
-      "wave": 4,
-      "question": "Solve 10f² – 14f – 1 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 12x + 34 = 0$ using the quadratic formula.",
       "choices": [
-        "(14±√296)/20",
-        "(14±√296)/10",
-        "(14±√196)/20",
-        "(14±√196)/10"
+        "$x = 6 \\pm \\sqrt{2}$",
+        "$x = -6 \\pm \\sqrt{2}$",
+        "$x = 6 \\pm 2$",
+        "$x = -6 \\pm 2$"
       ],
-      "answer": "(14±√296)/20",
-      "points": 25
+      "answer": "$x = 6 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 130,
-      "wave": 4,
-      "question": "Solve 12g² + 16g – 5 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 14x + 47 = 0$ using the quadratic formula.",
       "choices": [
-        "(-16±√496)/24",
-        "(-16±√496)/12",
-        "(-16±√256)/24",
-        "(-16±√256)/12"
+        "$x = -7 \\pm \\sqrt{2}$",
+        "$x = 7 \\pm \\sqrt{2}$",
+        "$x = -7 \\pm 2$",
+        "$x = 7 \\pm 2$"
       ],
-      "answer": "(-16±√496)/24",
-      "points": 25
+      "answer": "$x = -7 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 131,
-      "wave": 4,
-      "question": "Solve 15h² – 22h + 3 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 16x + 62 = 0$ using the quadratic formula.",
       "choices": [
-        "(22±√364)/30",
-        "(22±√364)/15",
-        "(22±√184)/30",
-        "(22±√184)/15"
+        "$x = 8 \\pm \\sqrt{2}$",
+        "$x = -8 \\pm \\sqrt{2}$",
+        "$x = 8 \\pm 2$",
+        "$x = -8 \\pm 2$"
       ],
-      "answer": "(22±√364)/30",
-      "points": 25
+      "answer": "$x = 8 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 132,
-      "wave": 4,
-      "question": "Solve 18k² + 20k – 7 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 18x + 79 = 0$ using the quadratic formula.",
       "choices": [
-        "(-20±√1004)/36",
-        "(-20±√1004)/18",
-        "(-20±√600)/36",
-        "(-20±√600)/18"
+        "$x = -9 \\pm \\sqrt{2}$",
+        "$x = 9 \\pm \\sqrt{2}$",
+        "$x = -9 \\pm 2$",
+        "$x = 9 \\pm 2$"
       ],
-      "answer": "(-20±√1004)/36",
-      "points": 25
+      "answer": "$x = -9 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 133,
-      "wave": 4,
-      "question": "Solve 20m² – 28m + 5 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 20x + 98 = 0$ using the quadratic formula.",
       "choices": [
-        "(28±√584)/40",
-        "(28±√584)/20",
-        "(28±√184)/40",
-        "(28±√184)/20"
+        "$x = 10 \\pm \\sqrt{2}$",
+        "$x = -10 \\pm \\sqrt{2}$",
+        "$x = 10 \\pm 2$",
+        "$x = -10 \\pm 2$"
       ],
-      "answer": "(28±√584)/40",
-      "points": 25
+      "answer": "$x = 10 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 134,
-      "wave": 4,
-      "question": "Solve 24n² + 26n – 7 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 22x + 119 = 0$ using the quadratic formula.",
       "choices": [
-        "(-26±√2036)/48",
-        "(-26±√2036)/24",
-        "(-26±√1356)/48",
-        "(-26±√1356)/24"
+        "$x = -11 \\pm \\sqrt{2}$",
+        "$x = 11 \\pm \\sqrt{2}$",
+        "$x = -11 \\pm 2$",
+        "$x = 11 \\pm 2$"
       ],
-      "answer": "(-26±√2036)/48",
-      "points": 25
+      "answer": "$x = -11 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 135,
-      "wave": 4,
-      "question": "Solve 25p² – 35p + 8 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 24x + 142 = 0$ using the quadratic formula.",
       "choices": [
-        "(35±√825)/50",
-        "(35±√825)/25",
-        "(35±√225)/50",
-        "(35±√225)/25"
+        "$x = 12 \\pm \\sqrt{2}$",
+        "$x = -12 \\pm \\sqrt{2}$",
+        "$x = 12 \\pm 2$",
+        "$x = -12 \\pm 2$"
       ],
-      "answer": "(35±√825)/50",
-      "points": 25
+      "answer": "$x = 12 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 136,
-      "wave": 4,
-      "question": "Solve 30q² + 40q – 11 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 26x + 167 = 0$ using the quadratic formula.",
       "choices": [
-        "(-40±√5320)/60",
-        "(-40±√5320)/30",
-        "(-40±√2800)/60",
-        "(-40±√2800)/30"
+        "$x = -13 \\pm \\sqrt{2}$",
+        "$x = 13 \\pm \\sqrt{2}$",
+        "$x = -13 \\pm 2$",
+        "$x = 13 \\pm 2$"
       ],
-      "answer": "(-40±√5320)/60",
-      "points": 25
+      "answer": "$x = -13 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 137,
-      "wave": 4,
-      "question": "Solve 36r² – 48r + 11 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 28x + 194 = 0$ using the quadratic formula.",
       "choices": [
-        "(48±√936)/72",
-        "(48±√936)/36",
-        "(48±√576)/72",
-        "(48±√576)/36"
+        "$x = 14 \\pm \\sqrt{2}$",
+        "$x = -14 \\pm \\sqrt{2}$",
+        "$x = 14 \\pm 2$",
+        "$x = -14 \\pm 2$"
       ],
-      "answer": "(48±√936)/72",
-      "points": 25
+      "answer": "$x = 14 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 138,
-      "wave": 4,
-      "question": "Solve 40s² + 62s – 7 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 30x + 223 = 0$ using the quadratic formula.",
       "choices": [
-        "(-62±√7396)/80",
-        "(-62±√7396)/40",
-        "(-62±√5796)/80",
-        "(-62±√5796)/40"
+        "$x = -15 \\pm \\sqrt{2}$",
+        "$x = 15 \\pm \\sqrt{2}$",
+        "$x = -15 \\pm 2$",
+        "$x = 15 \\pm 2$"
       ],
-      "answer": "(-62±√7396)/80",
-      "points": 25
+      "answer": "$x = -15 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 139,
-      "wave": 4,
-      "question": "Solve 45t² – 60t + 16 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 32x + 254 = 0$ using the quadratic formula.",
       "choices": [
-        "(60±√720)/90",
-        "(60±√720)/45",
-        "(60±√1440)/90",
-        "(60±√1440)/45"
+        "$x = 16 \\pm \\sqrt{2}$",
+        "$x = -16 \\pm \\sqrt{2}$",
+        "$x = 16 \\pm 2$",
+        "$x = -16 \\pm 2$"
       ],
-      "answer": "(60±√720)/90",
-      "points": 25
+      "answer": "$x = 16 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 140,
-      "wave": 4,
-      "question": "Solve 50u² + 70u – 19 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 34x + 287 = 0$ using the quadratic formula.",
       "choices": [
-        "(-70±√10800)/100",
-        "(-70±√10800)/50",
-        "(-70±√4900)/100",
-        "(-70±√4900)/50"
+        "$x = -17 \\pm \\sqrt{2}$",
+        "$x = 17 \\pm \\sqrt{2}$",
+        "$x = -17 \\pm 2$",
+        "$x = 17 \\pm 2$"
       ],
-      "answer": "(-70±√10800)/100",
-      "points": 25
+      "answer": "$x = -17 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 141,
-      "wave": 4,
-      "question": "Solve 60v² – 74v + 21 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 36x + 322 = 0$ using the quadratic formula.",
       "choices": [
-        "(74±√5476)/120",
-        "(74±√5476)/60",
-        "(74±√5476)/120",
-        "(74±√3136)/120"
+        "$x = 18 \\pm \\sqrt{2}$",
+        "$x = -18 \\pm \\sqrt{2}$",
+        "$x = 18 \\pm 2$",
+        "$x = -18 \\pm 2$"
       ],
-      "answer": "(74±√5476)/120",
-      "points": 25
+      "answer": "$x = 18 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 142,
-      "wave": 4,
-      "question": "Solve 72w² + 82w – 11 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 38x + 359 = 0$ using the quadratic formula.",
       "choices": [
-        "(-82±√13156)/144",
-        "(-82±√13156)/72",
-        "(-82±√10036)/144",
-        "(-82±√10036)/72"
+        "$x = -19 \\pm \\sqrt{2}$",
+        "$x = 19 \\pm \\sqrt{2}$",
+        "$x = -19 \\pm 2$",
+        "$x = 19 \\pm 2$"
       ],
-      "answer": "(-82±√13156)/144",
-      "points": 25
+      "answer": "$x = -19 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 143,
-      "wave": 4,
-      "question": "Solve 75x² – 90x + 25 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 40x + 398 = 0$ using the quadratic formula.",
       "choices": [
-        "(90±√900)/150",
-        "(90±√900)/75",
-        "(90±√900)/150",
-        "(90±√8100)/150"
+        "$x = 20 \\pm \\sqrt{2}$",
+        "$x = -20 \\pm \\sqrt{2}$",
+        "$x = 20 \\pm 2$",
+        "$x = -20 \\pm 2$"
       ],
-      "answer": "(90±√900)/150",
-      "points": 25
+      "answer": "$x = 20 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 144,
-      "wave": 4,
-      "question": "Solve 80y² + 92y – 23 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 42x + 439 = 0$ using the quadratic formula.",
       "choices": [
-        "(-92±√15144)/160",
-        "(-92±√15144)/80",
-        "(-92±√11024)/160",
-        "(-92±√11024)/80"
+        "$x = -21 \\pm \\sqrt{2}$",
+        "$x = 21 \\pm \\sqrt{2}$",
+        "$x = -21 \\pm 2$",
+        "$x = 21 \\pm 2$"
       ],
-      "answer": "(-92±√15144)/160",
-      "points": 25
+      "answer": "$x = -21 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 145,
-      "wave": 4,
-      "question": "Solve 90z² – 114z + 35 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 44x + 482 = 0$ using the quadratic formula.",
       "choices": [
-        "(114±√1296)/180",
-        "(114±√1296)/90",
-        "(114±√1296)/180",
-        "(114±√10404)/180"
+        "$x = 22 \\pm \\sqrt{2}$",
+        "$x = -22 \\pm \\sqrt{2}$",
+        "$x = 22 \\pm 2$",
+        "$x = -22 \\pm 2$"
       ],
-      "answer": "(114±√1296)/180",
-      "points": 25
+      "answer": "$x = 22 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 146,
-      "wave": 4,
-      "question": "Solve 96a² + 100a – 11 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 46x + 527 = 0$ using the quadratic formula.",
       "choices": [
-        "(-100±√14224)/192",
-        "(-100±√14224)/96",
-        "(-100±√10224)/192",
-        "(-100±√10224)/96"
+        "$x = -23 \\pm \\sqrt{2}$",
+        "$x = 23 \\pm \\sqrt{2}$",
+        "$x = -23 \\pm 2$",
+        "$x = 23 \\pm 2$"
       ],
-      "answer": "(-100±√14224)/192",
-      "points": 25
+      "answer": "$x = -23 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 147,
-      "wave": 4,
-      "question": "Solve 100b² – 120b + 36 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 48x + 574 = 0$ using the quadratic formula.",
       "choices": [
-        "(120±√0)/200",
-        "(120±√0)/100",
-        "(120±√0)/200",
-        "(120±√14400)/200"
+        "$x = 24 \\pm \\sqrt{2}$",
+        "$x = -24 \\pm \\sqrt{2}$",
+        "$x = 24 \\pm 2$",
+        "$x = -24 \\pm 2$"
       ],
-      "answer": "(120±√0)/200",
-      "points": 25
+      "answer": "$x = 24 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 148,
-      "wave": 4,
-      "question": "Solve 108c² + 126c – 35 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 50x + 623 = 0$ using the quadratic formula.",
       "choices": [
-        "(-126±√1764)/216",
-        "(-126±√1764)/108",
-        "(-126±√1764)/216",
-        "(-126±√15876)/216"
+        "$x = -25 \\pm \\sqrt{2}$",
+        "$x = 25 \\pm \\sqrt{2}$",
+        "$x = -25 \\pm 2$",
+        "$x = 25 \\pm 2$"
       ],
-      "answer": "(-126±√1764)/216",
-      "points": 25
+      "answer": "$x = -25 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 149,
-      "wave": 4,
-      "question": "Solve 120d² – 136d + 39 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 - 52x + 674 = 0$ using the quadratic formula.",
       "choices": [
-        "(136±√1600)/240",
-        "(136±√1600)/120",
-        "(136±√1600)/240",
-        "(136±√18496)/240"
+        "$x = 26 \\pm \\sqrt{2}$",
+        "$x = -26 \\pm \\sqrt{2}$",
+        "$x = 26 \\pm 2$",
+        "$x = -26 \\pm 2$"
       ],
-      "answer": "(136±√1600)/240",
-      "points": 25
+      "answer": "$x = 26 \\pm \\sqrt{2}$",
+      "points": 20
     },
     {
       "id": 150,
-      "wave": 4,
-      "question": "Solve 125e² + 140e + 49 = 0.",
+      "wave": 3,
+      "question": "Solve $x^2 + 54x + 727 = 0$ using the quadratic formula.",
       "choices": [
-        "(-140±√0)/250",
-        "(-140±√0)/125",
-        "(-140±√0)/250",
-        "(-140±√19600)/250"
+        "$x = -27 \\pm \\sqrt{2}$",
+        "$x = 27 \\pm \\sqrt{2}$",
+        "$x = -27 \\pm 2$",
+        "$x = 27 \\pm 2$"
       ],
-      "answer": "(-140±√0)/250",
-      "points": 25
+      "answer": "$x = -27 \\pm \\sqrt{2}$",
+      "points": 20
     },
-
     {
       "id": 151,
-      "wave": 5,
-      "question": "Solve 6x² – 5x – 1 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 2x + 5 = 0$ using the quadratic formula.",
       "choices": [
-        "1.180 or -0.180",
-        "1.180 or -0.140",
-        "1.140 or -0.180",
-        "1.140 or -0.140"
+        "$x = -1 \\pm 2i$",
+        "$x = 1 \\pm 2i$",
+        "$x = -1 \\pm i$",
+        "$x = 1 \\pm i$"
       ],
-      "answer": "1.180 or -0.180",
-      "points": 30
+      "answer": "$x = -1 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 152,
-      "wave": 5,
-      "question": "Solve 8y² + 3y – 7 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 4x + 8 = 0$ using the quadratic formula.",
       "choices": [
-        "0.750 or -1.167",
-        "0.750 or -1.125",
-        "0.700 or -1.167",
-        "0.700 or -1.125"
+        "$x = 2 \\pm 2i$",
+        "$x = -2 \\pm 2i$",
+        "$x = 2 \\pm i$",
+        "$x = -2 \\pm i$"
       ],
-      "answer": "0.750 or -1.167",
-      "points": 30
+      "answer": "$x = 2 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 153,
-      "wave": 5,
-      "question": "Solve 9z² – 12z – 2 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 6x + 13 = 0$ using the quadratic formula.",
       "choices": [
-        "1.442 or -0.109",
-        "1.442 or -0.154",
-        "1.387 or -0.109",
-        "1.387 or -0.154"
+        "$x = -3 \\pm 2i$",
+        "$x = 3 \\pm 2i$",
+        "$x = -3 \\pm i$",
+        "$x = 3 \\pm i$"
       ],
-      "answer": "1.442 or -0.154",
-      "points": 30
+      "answer": "$x = -3 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 154,
-      "wave": 5,
-      "question": "Solve 10a² + 7a – 5 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 8x + 20 = 0$ using the quadratic formula.",
       "choices": [
-        "0.500 or -1.000",
-        "0.500 or -1.200",
-        "0.600 or -1.000",
-        "0.600 or -1.200"
+        "$x = 4 \\pm 2i$",
+        "$x = -4 \\pm 2i$",
+        "$x = 4 \\pm i$",
+        "$x = -4 \\pm i$"
       ],
-      "answer": "0.500 or -1.200",
-      "points": 30
+      "answer": "$x = 4 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 155,
-      "wave": 5,
-      "question": "Solve 12b² – 11b – 8 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 10x + 29 = 0$ using the quadratic formula.",
       "choices": [
-        "1.333 or -0.500",
-        "1.333 or -0.583",
-        "1.250 or -0.500",
-        "1.250 or -0.583"
+        "$x = -5 \\pm 2i$",
+        "$x = 5 \\pm 2i$",
+        "$x = -5 \\pm i$",
+        "$x = 5 \\pm i$"
       ],
-      "answer": "1.333 or -0.500",
-      "points": 30
+      "answer": "$x = -5 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 156,
-      "wave": 5,
-      "question": "Solve 15c² + 8c – 7 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 12x + 40 = 0$ using the quadratic formula.",
       "choices": [
-        "0.600 or -0.778",
-        "0.600 or -0.733",
-        "0.533 or -0.778",
-        "0.533 or -0.733"
+        "$x = 6 \\pm 2i$",
+        "$x = -6 \\pm 2i$",
+        "$x = 6 \\pm i$",
+        "$x = -6 \\pm i$"
       ],
-      "answer": "0.600 or -0.778",
-      "points": 30
+      "answer": "$x = 6 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 157,
-      "wave": 5,
-      "question": "Solve 18d² – 13d – 4 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 14x + 53 = 0$ using the quadratic formula.",
       "choices": [
-        "0.889 or -0.250",
-        "0.889 or -0.222",
-        "0.833 or -0.250",
-        "0.833 or -0.222"
+        "$x = -7 \\pm 2i$",
+        "$x = 7 \\pm 2i$",
+        "$x = -7 \\pm i$",
+        "$x = 7 \\pm i$"
       ],
-      "answer": "0.889 or -0.250",
-      "points": 30
+      "answer": "$x = -7 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 158,
-      "wave": 5,
-      "question": "Solve 20e² + 9e – 11 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 16x + 68 = 0$ using the quadratic formula.",
       "choices": [
-        "0.650 or -0.850",
-        "0.650 or -0.846",
-        "0.600 or -0.850",
-        "0.600 or -0.846"
+        "$x = 8 \\pm 2i$",
+        "$x = -8 \\pm 2i$",
+        "$x = 8 \\pm i$",
+        "$x = -8 \\pm i$"
       ],
-      "answer": "0.650 or -0.846",
-      "points": 30
+      "answer": "$x = 8 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 159,
-      "wave": 5,
-      "question": "Solve 24f² – 19f – 6 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 18x + 85 = 0$ using the quadratic formula.",
       "choices": [
-        "1.000 or -0.250",
-        "1.000 or -0.292",
-        "0.958 or -0.250",
-        "0.958 or -0.292"
+        "$x = -9 \\pm 2i$",
+        "$x = 9 \\pm 2i$",
+        "$x = -9 \\pm i$",
+        "$x = 9 \\pm i$"
       ],
-      "answer": "1.000 or -0.250",
-      "points": 30
+      "answer": "$x = -9 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 160,
-      "wave": 5,
-      "question": "Solve 25g² + 15g – 4 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 20x + 104 = 0$ using the quadratic formula.",
       "choices": [
-        "0.400 or -0.400",
-        "0.400 or -0.440",
-        "0.360 or -0.400",
-        "0.360 or -0.440"
+        "$x = 10 \\pm 2i$",
+        "$x = -10 \\pm 2i$",
+        "$x = 10 \\pm i$",
+        "$x = -10 \\pm i$"
       ],
-      "answer": "0.400 or -0.400",
-      "points": 30
+      "answer": "$x = 10 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 161,
-      "wave": 5,
-      "question": "Solve 30h² – 7h – 12 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 22x + 125 = 0$ using the quadratic formula.",
       "choices": [
-        "0.750 or -0.533",
-        "0.750 or -0.500",
-        "0.700 or -0.533",
-        "0.700 or -0.500"
+        "$x = -11 \\pm 2i$",
+        "$x = 11 \\pm 2i$",
+        "$x = -11 \\pm i$",
+        "$x = 11 \\pm i$"
       ],
-      "answer": "0.750 or -0.533",
-      "points": 30
+      "answer": "$x = -11 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 162,
-      "wave": 5,
-      "question": "Solve 36k² + 5k – 14 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 24x + 148 = 0$ using the quadratic formula.",
       "choices": [
-        "0.583 or -0.667",
-        "0.583 or -0.639",
-        "0.556 or -0.667",
-        "0.556 or -0.639"
+        "$x = 12 \\pm 2i$",
+        "$x = -12 \\pm 2i$",
+        "$x = 12 \\pm i$",
+        "$x = -12 \\pm i$"
       ],
-      "answer": "0.583 or -0.667",
-      "points": 30
+      "answer": "$x = 12 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 163,
-      "wave": 5,
-      "question": "Solve 40m² – 37m + 8 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 26x + 173 = 0$ using the quadratic formula.",
       "choices": [
-        "0.800 or 0.250",
-        "0.800 or 0.200",
-        "0.750 or 0.250",
-        "0.750 or 0.200"
+        "$x = -13 \\pm 2i$",
+        "$x = 13 \\pm 2i$",
+        "$x = -13 \\pm i$",
+        "$x = 13 \\pm i$"
       ],
-      "answer": "0.800 or 0.250",
-      "points": 30
+      "answer": "$x = -13 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 164,
-      "wave": 5,
-      "question": "Solve 42n² + 17n – 15 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 28x + 200 = 0$ using the quadratic formula.",
       "choices": [
-        "0.500 or -0.714",
-        "0.500 or -0.690",
-        "0.476 or -0.714",
-        "0.476 or -0.690"
+        "$x = 14 \\pm 2i$",
+        "$x = -14 \\pm 2i$",
+        "$x = 14 \\pm i$",
+        "$x = -14 \\pm i$"
       ],
-      "answer": "0.500 or -0.714",
-      "points": 30
+      "answer": "$x = 14 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 165,
-      "wave": 5,
-      "question": "Solve 45p² – 32p + 5 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 30x + 229 = 0$ using the quadratic formula.",
       "choices": [
-        "0.556 or 0.200",
-        "0.556 or 0.167",
-        "0.533 or 0.200",
-        "0.533 or 0.167"
+        "$x = -15 \\pm 2i$",
+        "$x = 15 \\pm 2i$",
+        "$x = -15 \\pm i$",
+        "$x = 15 \\pm i$"
       ],
-      "answer": "0.556 or 0.200",
-      "points": 30
+      "answer": "$x = -15 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 166,
-      "wave": 5,
-      "question": "Solve 48q² + 31q – 10 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 32x + 260 = 0$ using the quadratic formula.",
       "choices": [
-        "0.417 or -0.500",
-        "0.417 or -0.521",
-        "0.375 or -0.500",
-        "0.375 or -0.521"
+        "$x = 16 \\pm 2i$",
+        "$x = -16 \\pm 2i$",
+        "$x = 16 \\pm i$",
+        "$x = -16 \\pm i$"
       ],
-      "answer": "0.417 or -0.500",
-      "points": 30
+      "answer": "$x = 16 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 167,
-      "wave": 5,
-      "question": "Solve 50r² – 35r – 12 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 34x + 293 = 0$ using the quadratic formula.",
       "choices": [
-        "0.900 or -0.267",
-        "0.900 or -0.240",
-        "0.840 or -0.267",
-        "0.840 or -0.240"
+        "$x = -17 \\pm 2i$",
+        "$x = 17 \\pm 2i$",
+        "$x = -17 \\pm i$",
+        "$x = 17 \\pm i$"
       ],
-      "answer": "0.900 or -0.267",
-      "points": 30
+      "answer": "$x = -17 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 168,
-      "wave": 5,
-      "question": "Solve 54s² + 25s – 21 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 36x + 328 = 0$ using the quadratic formula.",
       "choices": [
-        "0.500 or -0.778",
-        "0.500 or -0.741",
-        "0.463 or -0.778",
-        "0.463 or -0.741"
+        "$x = 18 \\pm 2i$",
+        "$x = -18 \\pm 2i$",
+        "$x = 18 \\pm i$",
+        "$x = -18 \\pm i$"
       ],
-      "answer": "0.500 or -0.778",
-      "points": 30
+      "answer": "$x = 18 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 169,
-      "wave": 5,
-      "question": "Solve 60t² – 47t + 9 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 + 38x + 365 = 0$ using the quadratic formula.",
       "choices": [
-        "0.600 or 0.250",
-        "0.600 or 0.233",
-        "0.583 or 0.250",
-        "0.583 or 0.233"
+        "$x = -19 \\pm 2i$",
+        "$x = 19 \\pm 2i$",
+        "$x = -19 \\pm i$",
+        "$x = 19 \\pm i$"
       ],
-      "answer": "0.600 or 0.250",
-      "points": 30
+      "answer": "$x = -19 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 170,
-      "wave": 5,
-      "question": "Solve 63u² + 20u – 32 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $x^2 - 40x + 404 = 0$ using the quadratic formula.",
       "choices": [
-        "0.571 or -0.889",
-        "0.571 or -0.825",
-        "0.540 or -0.889",
-        "0.540 or -0.825"
+        "$x = 20 \\pm 2i$",
+        "$x = -20 \\pm 2i$",
+        "$x = 20 \\pm i$",
+        "$x = -20 \\pm i$"
       ],
-      "answer": "0.571 or -0.889",
-      "points": 30
+      "answer": "$x = 20 \\pm 2i$",
+      "points": 25
     },
     {
       "id": 171,
-      "wave": 5,
-      "question": "Solve 72v² – 65v + 14 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 + 2x + 1 = 0$ using the quadratic formula.",
       "choices": [
-        "0.778 or 0.250",
-        "0.778 or 0.233",
-        "0.750 or 0.250",
-        "0.750 or 0.233"
+        "$x = \\frac{-1 \\pm i}{2}$",
+        "$x = \\frac{1 \\pm i}{2}$",
+        "$x = -1 \\pm i$",
+        "$x = 1 \\pm i$"
       ],
-      "answer": "0.778 or 0.250",
-      "points": 30
+      "answer": "$x = \\frac{-1 \\pm i}{2}$",
+      "points": 25
     },
     {
       "id": 172,
-      "wave": 5,
-      "question": "Solve 75w² + 58w – 15 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 - 6x + 4 = 0$ using the quadratic formula.",
       "choices": [
-        "0.200 or -1.000",
-        "0.200 or -0.933",
-        "0.186 or -1.000",
-        "0.186 or -0.933"
+        "$x = 1 \\pm \\frac{i\\sqrt{3}}{3}$",
+        "$x = -1 \\pm \\frac{i\\sqrt{3}}{3}$",
+        "$x = 1 \\pm i\\sqrt{3}$",
+        "$x = -1 \\pm i\\sqrt{3}$"
       ],
-      "answer": "0.200 or -1.000",
-      "points": 30
+      "answer": "$x = 1 \\pm \\frac{i\\sqrt{3}}{3}$",
+      "points": 25
     },
     {
       "id": 173,
-      "wave": 5,
-      "question": "Solve 80x² – 72x + 16 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $4x^2 + 4x + 2 = 0$ using the quadratic formula.",
       "choices": [
-        "0.800 or 0.200",
-        "0.800 or 0.250",
-        "0.750 or 0.200",
-        "0.750 or 0.250"
+        "$x = \\frac{-1 \\pm i}{2}$",
+        "$x = \\frac{1 \\pm i}{2}$",
+        "$x = -1 \\pm i$",
+        "$x = 1 \\pm i$"
       ],
-      "answer": "0.800 or 0.200",
-      "points": 30
+      "answer": "$x = \\frac{-1 \\pm i}{2}$",
+      "points": 25
     },
     {
       "id": 174,
-      "wave": 5,
-      "question": "Solve 81y² + 36y – 20 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $5x^2 - 10x + 6 = 0$ using the quadratic formula.",
       "choices": [
-        "0.333 or -0.741",
-        "0.333 or -0.667",
-        "0.296 or -0.741",
-        "0.296 or -0.667"
+        "$x = 1 \\pm \\frac{i\\sqrt{5}}{5}$",
+        "$x = -1 \\pm \\frac{i\\sqrt{5}}{5}$",
+        "$x = 1 \\pm i\\sqrt{5}$",
+        "$x = -1 \\pm i\\sqrt{5}$"
       ],
-      "answer": "0.333 or -0.741",
-      "points": 30
+      "answer": "$x = 1 \\pm \\frac{i\\sqrt{5}}{5}$",
+      "points": 25
     },
     {
       "id": 175,
-      "wave": 5,
-      "question": "Solve 90z² – 93z + 22 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 - 6x + 5 = 0$ using the quadratic formula.",
       "choices": [
-        "0.800 or 0.306",
-        "0.800 or 0.333",
-        "0.767 or 0.306",
-        "0.767 or 0.333"
+        "$x = \\frac{3 \\pm i}{2}$",
+        "$x = \\frac{-3 \\pm i}{2}$",
+        "$x = 3 \\pm i$",
+        "$x = -3 \\pm i$"
       ],
-      "answer": "0.800 or 0.306",
-      "points": 30
+      "answer": "$x = \\frac{3 \\pm i}{2}$",
+      "points": 25
     },
     {
       "id": 176,
-      "wave": 5,
-      "question": "Solve 96a² + 49a – 72 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 + 8x + 6 = 0$ using the quadratic formula.",
       "choices": [
-        "0.600 or -1.250",
-        "0.600 or -1.125",
-        "0.552 or -1.250",
-        "0.552 or -1.125"
+        "$x = \\frac{-4 \\pm i\\sqrt{2}}{3}$",
+        "$x = \\frac{4 \\pm i\\sqrt{2}}{3}$",
+        "$x = -4 \\pm i\\sqrt{2}$",
+        "$x = 4 \\pm i\\sqrt{2}$"
       ],
-      "answer": "0.600 or -1.125",
-      "points": 30
+      "answer": "$x = \\frac{-4 \\pm i\\sqrt{2}}{3}$",
+      "points": 25
     },
     {
       "id": 177,
-      "wave": 5,
-      "question": "Solve 100b² – 120b + 36 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $4x^2 - 10x + 7 = 0$ using the quadratic formula.",
       "choices": [
-        "0.600 (double root)",
-        "1.200 (double root)",
-        "0.600 or 0.600",
-        "1.200 or 1.200"
+        "$x = \\frac{5 \\pm i\\sqrt{3}}{4}$",
+        "$x = \\frac{-5 \\pm i\\sqrt{3}}{4}$",
+        "$x = 5 \\pm i\\sqrt{3}$",
+        "$x = -5 \\pm i\\sqrt{3}$"
       ],
-      "answer": "0.600 (double root)",
-      "points": 30
+      "answer": "$x = \\frac{5 \\pm i\\sqrt{3}}{4}$",
+      "points": 25
     },
     {
       "id": 178,
-      "wave": 5,
-      "question": "Solve 108c² + 75c – 50 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $5x^2 + 12x + 8 = 0$ using the quadratic formula.",
       "choices": [
-        "0.333 or -1.389",
-        "0.333 or -1.250",
-        "0.306 or -1.389",
-        "0.306 or -1.250"
+        "$x = \\frac{-6 \\pm i\\sqrt{4}}{5}$",
+        "$x = \\frac{6 \\pm i\\sqrt{4}}{5}$",
+        "$x = -6 \\pm i\\sqrt{4}$",
+        "$x = 6 \\pm i\\sqrt{4}$"
       ],
-      "answer": "0.333 or -1.389",
-      "points": 30
+      "answer": "$x = \\frac{-6 \\pm i\\sqrt{4}}{5}$",
+      "points": 25
     },
     {
       "id": 179,
-      "wave": 5,
-      "question": "Solve 120d² – 94d + 18 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 + 4x + 3 = 0$ using the quadratic formula.",
       "choices": [
-        "0.667 or 0.225",
-        "0.667 or 0.250",
-        "0.650 or 0.225",
-        "0.650 or 0.250"
+        "$x = \\frac{-2 \\pm i\\sqrt{2}}{2}$",
+        "$x = \\frac{2 \\pm i\\sqrt{2}}{2}$",
+        "$x = -2 \\pm i\\sqrt{2}$",
+        "$x = 2 \\pm i\\sqrt{2}$"
       ],
-      "answer": "0.667 or 0.225",
-      "points": 30
+      "answer": "$x = \\frac{-2 \\pm i\\sqrt{2}}{2}$",
+      "points": 25
     },
     {
       "id": 180,
-      "wave": 5,
-      "question": "Solve 125e² + 80e – 45 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 - 10x + 9 = 0$ using the quadratic formula.",
       "choices": [
-        "0.333 or -1.080",
-        "0.333 or -1.000",
-        "0.280 or -1.080",
-        "0.280 or -1.000"
+        "$x = \\frac{5 \\pm i\\sqrt{2}}{3}$",
+        "$x = \\frac{-5 \\pm i\\sqrt{2}}{3}$",
+        "$x = 5 \\pm i\\sqrt{2}$",
+        "$x = -5 \\pm i\\sqrt{2}$"
       ],
-      "answer": "0.333 or -1.080",
-      "points": 30
+      "answer": "$x = \\frac{5 \\pm i\\sqrt{2}}{3}$",
+      "points": 25
     },
     {
       "id": 181,
-      "wave": 5,
-      "question": "Solve 144f² – 120f + 25 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $4x^2 + 12x + 10 = 0$ using the quadratic formula.",
       "choices": [
-        "0.417 (double root)",
-        "0.833 (double root)",
-        "0.417 or 0.417",
-        "0.833 or 0.833"
+        "$x = \\frac{-3 \\pm i}{2}$",
+        "$x = \\frac{3 \\pm i}{2}$",
+        "$x = -3 \\pm i$",
+        "$x = 3 \\pm i$"
       ],
-      "answer": "0.417 (double root)",
-      "points": 30
+      "answer": "$x = \\frac{-3 \\pm i}{2}$",
+      "points": 25
     },
     {
       "id": 182,
-      "wave": 5,
-      "question": "Solve 150g² + 95g – 44 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $5x^2 - 14x + 11 = 0$ using the quadratic formula.",
       "choices": [
-        "0.250 or -1.267",
-        "0.250 or -1.167",
-        "0.220 or -1.267",
-        "0.220 or -1.167"
+        "$x = \\frac{7 \\pm i\\sqrt{6}}{5}$",
+        "$x = \\frac{-7 \\pm i\\sqrt{6}}{5}$",
+        "$x = 7 \\pm i\\sqrt{6}$",
+        "$x = -7 \\pm i\\sqrt{6}$"
       ],
-      "answer": "0.250 or -1.267",
-      "points": 30
+      "answer": "$x = \\frac{7 \\pm i\\sqrt{6}}{5}$",
+      "points": 25
     },
     {
       "id": 183,
-      "wave": 5,
-      "question": "Solve 160h² – 136h + 28 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 - 8x + 10 = 0$ using the quadratic formula.",
       "choices": [
-        "0.700 or 0.250",
-        "0.700 or 0.286",
-        "0.650 or 0.250",
-        "0.650 or 0.286"
+        "$x = 2 \\pm i$",
+        "$x = -2 \\pm i$",
+        "$x = 2 \\pm 2i$",
+        "$x = -2 \\pm 2i$"
       ],
-      "answer": "0.700 or 0.250",
-      "points": 30
+      "answer": "$x = 2 \\pm i$",
+      "points": 25
     },
     {
       "id": 184,
-      "wave": 5,
-      "question": "Solve 180k² + 123k – 40 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 + 10x + 9 = 0$ using the quadratic formula.",
       "choices": [
-        "0.200 or -1.111",
-        "0.200 or -1.000",
-        "0.184 or -1.111",
-        "0.184 or -1.000"
+        "$x = \\frac{-5 \\pm i\\sqrt{2}}{3}$",
+        "$x = \\frac{5 \\pm i\\sqrt{2}}{3}$",
+        "$x = -5 \\pm i\\sqrt{2}$",
+        "$x = 5 \\pm i\\sqrt{2}$"
       ],
-      "answer": "0.200 or -1.111",
-      "points": 30
+      "answer": "$x = \\frac{-5 \\pm i\\sqrt{2}}{3}$",
+      "points": 25
     },
     {
       "id": 185,
-      "wave": 5,
-      "question": "Solve 200m² – 170m + 35 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $4x^2 - 14x + 13 = 0$ using the quadratic formula.",
       "choices": [
-        "0.750 or 0.233",
-        "0.750 or 0.250",
-        "0.700 or 0.233",
-        "0.700 or 0.250"
+        "$x = \\frac{7 \\pm i\\sqrt{3}}{4}$",
+        "$x = \\frac{-7 \\pm i\\sqrt{3}}{4}$",
+        "$x = 7 \\pm i\\sqrt{3}$",
+        "$x = -7 \\pm i\\sqrt{3}$"
       ],
-      "answer": "0.750 or 0.233",
-      "points": 30
+      "answer": "$x = \\frac{7 \\pm i\\sqrt{3}}{4}$",
+      "points": 25
     },
     {
       "id": 186,
-      "wave": 5,
-      "question": "Solve 225n² + 150n – 49 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $5x^2 + 16x + 13 = 0$ using the quadratic formula.",
       "choices": [
-        "0.200 or -1.089",
-        "0.200 or -1.000",
-        "0.178 or -1.089",
-        "0.178 or -1.000"
+        "$x = \\frac{-8 \\pm i}{5}$",
+        "$x = \\frac{8 \\pm i}{5}$",
+        "$x = -8 \\pm i$",
+        "$x = 8 \\pm i$"
       ],
-      "answer": "0.200 or -1.089",
-      "points": 30
+      "answer": "$x = \\frac{-8 \\pm i}{5}$",
+      "points": 25
     },
     {
       "id": 187,
-      "wave": 5,
-      "question": "Solve 240p² – 194p + 39 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 + 6x + 7 = 0$ using the quadratic formula.",
       "choices": [
-        "0.650 or 0.250",
-        "0.650 or 0.275",
-        "0.600 or 0.250",
-        "0.600 or 0.275"
+        "$x = \\frac{-3 \\pm i\\sqrt{5}}{2}$",
+        "$x = \\frac{3 \\pm i\\sqrt{5}}{2}$",
+        "$x = -3 \\pm i\\sqrt{5}$",
+        "$x = 3 \\pm i\\sqrt{5}$"
       ],
-      "answer": "0.650 or 0.250",
-      "points": 30
+      "answer": "$x = \\frac{-3 \\pm i\\sqrt{5}}{2}$",
+      "points": 25
     },
     {
       "id": 188,
-      "wave": 5,
-      "question": "Solve 250q² + 155q – 66 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 - 12x + 13 = 0$ using the quadratic formula.",
       "choices": [
-        "0.250 or -1.056",
-        "0.250 or -1.000",
-        "0.220 or -1.056",
-        "0.220 or -1.000"
+        "$x = 2 \\pm \\frac{i\\sqrt{3}}{3}$",
+        "$x = -2 \\pm \\frac{i\\sqrt{3}}{3}$",
+        "$x = 2 \\pm i\\sqrt{3}$",
+        "$x = -2 \\pm i\\sqrt{3}$"
       ],
-      "answer": "0.250 or -1.056",
-      "points": 30
+      "answer": "$x = 2 \\pm \\frac{i\\sqrt{3}}{3}$",
+      "points": 25
     },
     {
       "id": 189,
-      "wave": 5,
-      "question": "Solve 288r² – 240r + 50 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $4x^2 + 16x + 17 = 0$ using the quadratic formula.",
       "choices": [
-        "0.417 (double root)",
-        "0.833 (double root)",
-        "0.417 or 0.417",
-        "0.833 or 0.833"
+        "$x = \\frac{-4 \\pm i}{2}$",
+        "$x = \\frac{4 \\pm i}{2}$",
+        "$x = -4 \\pm i$",
+        "$x = 4 \\pm i$"
       ],
-      "answer": "0.417 (double root)",
-      "points": 30
+      "answer": "$x = \\frac{-4 \\pm i}{2}$",
+      "points": 25
     },
     {
       "id": 190,
-      "wave": 5,
-      "question": "Solve 300s² + 190s – 77 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $5x^2 - 18x + 17 = 0$ using the quadratic formula.",
       "choices": [
-        "0.233 or -1.100",
-        "0.233 or -1.000",
-        "0.210 or -1.100",
-        "0.210 or -1.000"
+        "$x = \\frac{9 \\pm i\\sqrt{4}}{5}$",
+        "$x = \\frac{-9 \\pm i\\sqrt{4}}{5}$",
+        "$x = 9 \\pm i\\sqrt{4}$",
+        "$x = -9 \\pm i\\sqrt{4}$"
       ],
-      "answer": "0.233 or -1.100",
-      "points": 30
+      "answer": "$x = \\frac{9 \\pm i\\sqrt{4}}{5}$",
+      "points": 25
     },
     {
       "id": 191,
-      "wave": 5,
-      "question": "Solve 320t² – 272t + 56 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 + 8x + 11 = 0$ using the quadratic formula.",
       "choices": [
-        "0.700 or 0.250",
-        "0.700 or 0.286",
-        "0.650 or 0.250",
-        "0.650 or 0.286"
+        "$x = \\frac{-4 \\pm i\\sqrt{6}}{2}$",
+        "$x = \\frac{4 \\pm i\\sqrt{6}}{2}$",
+        "$x = -4 \\pm i\\sqrt{6}$",
+        "$x = 4 \\pm i\\sqrt{6}$"
       ],
-      "answer": "0.700 or 0.250",
-      "points": 30
+      "answer": "$x = \\frac{-4 \\pm i\\sqrt{6}}{2}$",
+      "points": 25
     },
     {
       "id": 192,
-      "wave": 5,
-      "question": "Solve 360u² + 237u – 80 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 - 14x + 17 = 0$ using the quadratic formula.",
       "choices": [
-        "0.200 or -1.111",
-        "0.200 or -1.000",
-        "0.186 or -1.111",
-        "0.186 or -1.000"
+        "$x = \\frac{7 \\pm i\\sqrt{2}}{3}$",
+        "$x = \\frac{-7 \\pm i\\sqrt{2}}{3}$",
+        "$x = 7 \\pm i\\sqrt{2}$",
+        "$x = -7 \\pm i\\sqrt{2}$"
       ],
-      "answer": "0.200 or -1.111",
-      "points": 30
+      "answer": "$x = \\frac{7 \\pm i\\sqrt{2}}{3}$",
+      "points": 25
     },
     {
       "id": 193,
-      "wave": 5,
-      "question": "Solve 400v² – 340v + 70 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $4x^2 + 18x + 21 = 0$ using the quadratic formula.",
       "choices": [
-        "0.750 or 0.233",
-        "0.750 or 0.250",
-        "0.700 or 0.233",
-        "0.700 or 0.250"
+        "$x = \\frac{-9 \\pm i\\sqrt{3}}{4}$",
+        "$x = \\frac{9 \\pm i\\sqrt{3}}{4}$",
+        "$x = -9 \\pm i\\sqrt{3}$",
+        "$x = 9 \\pm i\\sqrt{3}$"
       ],
-      "answer": "0.700 or 0.233",
-      "points": 30
+      "answer": "$x = \\frac{-9 \\pm i\\sqrt{3}}{4}$",
+      "points": 25
     },
     {
       "id": 194,
-      "wave": 5,
-      "question": "Solve 450w² + 285w – 110 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $5x^2 - 20x + 22 = 0$ using the quadratic formula.",
       "choices": [
-        "0.200 or -1.222",
-        "0.200 or -1.167",
-        "0.183 or -1.222",
-        "0.183 or -1.167"
+        "$x = 2 \\pm \\frac{i\\sqrt{10}}{5}$",
+        "$x = -2 \\pm \\frac{i\\sqrt{10}}{5}$",
+        "$x = 2 \\pm i\\sqrt{10}$",
+        "$x = -2 \\pm i\\sqrt{10}$"
       ],
-      "answer": "0.200 or -1.222",
-      "points": 30
+      "answer": "$x = 2 \\pm \\frac{i\\sqrt{10}}{5}$",
+      "points": 25
     },
     {
       "id": 195,
-      "wave": 5,
-      "question": "Solve 480x² – 392x + 80 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 - 10x + 14 = 0$ using the quadratic formula.",
       "choices": [
-        "0.667 or 0.250",
-        "0.667 or 0.275",
-        "0.625 or 0.250",
-        "0.625 or 0.275"
+        "$x = \\frac{5 \\pm i\\sqrt{3}}{2}$",
+        "$x = \\frac{-5 \\pm i\\sqrt{3}}{2}$",
+        "$x = 5 \\pm i\\sqrt{3}$",
+        "$x = -5 \\pm i\\sqrt{3}$"
       ],
-      "answer": "0.667 or 0.250",
-      "points": 30
+      "answer": "$x = \\frac{5 \\pm i\\sqrt{3}}{2}$",
+      "points": 25
     },
     {
       "id": 196,
-      "wave": 5,
-      "question": "Solve 500y² + 310y – 132 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 + 16x + 22 = 0$ using the quadratic formula.",
       "choices": [
-        "0.220 or -1.200",
-        "0.220 or -1.100",
-        "0.200 or -1.200",
-        "0.200 or -1.100"
+        "$x = \\frac{-8 \\pm i\\sqrt{2}}{3}$",
+        "$x = \\frac{8 \\pm i\\sqrt{2}}{3}$",
+        "$x = -8 \\pm i\\sqrt{2}$",
+        "$x = 8 \\pm i\\sqrt{2}$"
       ],
-      "answer": "0.220 or -1.200",
-      "points": 30
+      "answer": "$x = \\frac{-8 \\pm i\\sqrt{2}}{3}$",
+      "points": 25
     },
     {
       "id": 197,
-      "wave": 5,
-      "question": "Solve 540z² – 450z + 94 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $4x^2 - 18x + 23 = 0$ using the quadratic formula.",
       "choices": [
-        "0.700 or 0.247",
-        "0.700 or 0.250",
-        "0.650 or 0.247",
-        "0.650 or 0.250"
+        "$x = \\frac{9 \\pm i\\sqrt{7}}{4}$",
+        "$x = \\frac{-9 \\pm i\\sqrt{7}}{4}$",
+        "$x = 9 \\pm i\\sqrt{7}$",
+        "$x = -9 \\pm i\\sqrt{7}$"
       ],
-      "answer": "0.700 or 0.247",
-      "points": 30
+      "answer": "$x = \\frac{9 \\pm i\\sqrt{7}}{4}$",
+      "points": 25
     },
     {
       "id": 198,
-      "wave": 5,
-      "question": "Solve 600a² + 375a – 154 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $5x^2 + 22x + 25 = 0$ using the quadratic formula.",
       "choices": [
-        "0.200 or -1.283",
-        "0.200 or -1.200",
-        "0.183 or -1.283",
-        "0.183 or -1.200"
+        "$x = \\frac{-11 \\pm i\\sqrt{14}}{5}$",
+        "$x = \\frac{11 \\pm i\\sqrt{14}}{5}$",
+        "$x = -11 \\pm i\\sqrt{14}$",
+        "$x = 11 \\pm i\\sqrt{14}$"
       ],
-      "answer": "0.200 or -1.283",
-      "points": 30
+      "answer": "$x = \\frac{-11 \\pm i\\sqrt{14}}{5}$",
+      "points": 25
     },
     {
       "id": 199,
-      "wave": 5,
-      "question": "Solve 720b² – 588b + 120 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $2x^2 + 12x + 19 = 0$ using the quadratic formula.",
       "choices": [
-        "0.667 or 0.250",
-        "0.667 or 0.275",
-        "0.625 or 0.250",
-        "0.625 or 0.275"
+        "$x = \\frac{-6 \\pm i\\sqrt{2}}{2}$",
+        "$x = \\frac{6 \\pm i\\sqrt{2}}{2}$",
+        "$x = -6 \\pm i\\sqrt{2}$",
+        "$x = 6 \\pm i\\sqrt{2}$"
       ],
-      "answer": "0.667 or 0.250",
-      "points": 30
+      "answer": "$x = \\frac{-6 \\pm i\\sqrt{2}}{2}$",
+      "points": 25
     },
     {
       "id": 200,
-      "wave": 5,
-      "question": "Solve 900c² + 570c – 231 = 0 to three decimal places.",
+      "wave": 4,
+      "question": "Solve $3x^2 - 16x + 23 = 0$ using the quadratic formula.",
       "choices": [
-        "0.200 or -1.283",
-        "0.200 or -1.200",
-        "0.183 or -1.283",
-        "0.183 or -1.200"
+        "$x = \\frac{8 \\pm i\\sqrt{5}}{3}$",
+        "$x = \\frac{-8 \\pm i\\sqrt{5}}{3}$",
+        "$x = 8 \\pm i\\sqrt{5}$",
+        "$x = -8 \\pm i\\sqrt{5}$"
       ],
-      "answer": "0.200 or -1.283",
+      "answer": "$x = \\frac{8 \\pm i\\sqrt{5}}{3}$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Solve $x^2 = 5x - 6$ using the quadratic formula.",
+      "choices": ["$x=2, x=3$", "$x=-2, x=-3$", "$x=1, x=6$", "$x=2, x=-3$"],
+      "answer": "$x=2, x=3$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Solve $x^2 + 7x = -12$ using the quadratic formula.",
+      "choices": ["$x=-3, x=-4$", "$x=3, x=4$", "$x=-1, x=-12$", "$x=-3, x=4$"],
+      "answer": "$x=-3, x=-4$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Solve $x^2 - 12 = x$ using the quadratic formula.",
+      "choices": ["$x=4, x=-3$", "$x=-4, x=3$", "$x=1, x=-12$", "$x=6, x=-2$"],
+      "answer": "$x=4, x=-3$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Solve $2x^2 + 2 = -5x$ using the quadratic formula.",
+      "choices": [
+        "$x=-1/2, x=-2$",
+        "$x=1/2, x=2$",
+        "$x=-1, x=-2$",
+        "$x=-1/2, x=2$"
+      ],
+      "answer": "$x=-1/2, x=-2$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Solve $3x^2 + 8 = 10x$ using the quadratic formula.",
+      "choices": [
+        "$x=2, x=4/3$",
+        "$x=-2, x=-4/3$",
+        "$x=1, x=8/3$",
+        "$x=2, x=-4/3$"
+      ],
+      "answer": "$x=2, x=4/3$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Solve $x^2 + 10 = 7x$ using the quadratic formula.",
+      "choices": ["$x=2, x=5$", "$x=-2, x=-5$", "$x=1, x=10$", "$x=2, x=-5$"],
+      "answer": "$x=2, x=5$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Solve $x^2 - 14 = -5x$ using the quadratic formula.",
+      "choices": ["$x=2, x=-7$", "$x=-2, x=7$", "$x=1, x=-14$", "$x=7, x=-2$"],
+      "answer": "$x=2, x=-7$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Solve $x^2 + 2 = -3x$ using the quadratic formula.",
+      "choices": ["$x=-1, x=-2$", "$x=1, x=2$", "$x=1, x=-2$", "$x=-1, x=2$"],
+      "answer": "$x=-1, x=-2$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Solve $x^2 - 5 = -4x$ using the quadratic formula.",
+      "choices": ["$x=1, x=-5$", "$x=-1, x=5$", "$x=1, x=5$", "$x=-1, x=-5$"],
+      "answer": "$x=1, x=-5$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Solve $x^2 + 8 = 6x$ using the quadratic formula.",
+      "choices": ["$x=2, x=4$", "$x=-2, x=-4$", "$x=1, x=8$", "$x=2, x=-4$"],
+      "answer": "$x=2, x=4$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Solve $x^2 - 3 = 2x$ using the quadratic formula.",
+      "choices": ["$x=3, x=-1$", "$x=-3, x=1$", "$x=1, x=-3$", "$x=3, x=1$"],
+      "answer": "$x=3, x=-1$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Solve $5x^2 + 7 = -12x$ using the quadratic formula.",
+      "choices": [
+        "$x=-1, x=-7/5$",
+        "$x=1, x=7/5$",
+        "$x=-1, x=7/5$",
+        "$x=1, x=-7/5$"
+      ],
+      "answer": "$x=-1, x=-7/5$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Solve $x^2 + 3 = 4x$ using the quadratic formula.",
+      "choices": ["$x=1, x=3$", "$x=-1, x=-3$", "$x=1, x=-3$", "$x=-1, x=3$"],
+      "answer": "$x=1, x=3$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Solve $x^2 - 15 = -2x$ using the quadratic formula.",
+      "choices": ["$x=3, x=-5$", "$x=-3, x=5$", "$x=1, x=-15$", "$x=5, x=-3$"],
+      "answer": "$x=3, x=-5$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Solve $3x^2 + 2 = -7x$ using the quadratic formula.",
+      "choices": [
+        "$x=-1/3, x=-2$",
+        "$x=1/3, x=2$",
+        "$x=-1, x=-2/3$",
+        "$x=-1/3, x=2$"
+      ],
+      "answer": "$x=-1/3, x=-2$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Solve $x^2 + 18 = 9x$ using the quadratic formula.",
+      "choices": ["$x=3, x=6$", "$x=-3, x=-6$", "$x=1, x=18$", "$x=3, x=-6$"],
+      "answer": "$x=3, x=6$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Solve $x^2 + 4 = 5x$ using the quadratic formula.",
+      "choices": ["$x=1, x=4$", "$x=-1, x=-4$", "$x=1, x=-4$", "$x=-1, x=4$"],
+      "answer": "$x=1, x=4$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Solve $x^2 + 50 = -15x$ using the quadratic formula.",
+      "choices": [
+        "$x=-5, x=-10$",
+        "$x=5, x=10$",
+        "$x=-1, x=-50$",
+        "$x=-5, x=10$"
+      ],
+      "answer": "$x=-5, x=-10$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Solve $3x^2 + 6 = -11x$ using the quadratic formula.",
+      "choices": [
+        "$x=-2/3, x=-3$",
+        "$x=2/3, x=3$",
+        "$x=-1, x=-6/3$",
+        "$x=-2/3, x=3$"
+      ],
+      "answer": "$x=-2/3, x=-3$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Solve $x^2 + 35 = 12x$ using the quadratic formula.",
+      "choices": ["$x=5, x=7$", "$x=-5, x=-7$", "$x=1, x=35$", "$x=5, x=-7$"],
+      "answer": "$x=5, x=7$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Solve $2x^2 + 6 = 7x$ using the quadratic formula.",
+      "choices": [
+        "$x=2, x=3/2$",
+        "$x=-2, x=-3/2$",
+        "$x=1, x=3$",
+        "$x=2, x=-3/2$"
+      ],
+      "answer": "$x=2, x=3/2$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Solve $x^2 + 5 = -6x$ using the quadratic formula.",
+      "choices": ["$x=-1, x=-5$", "$x=1, x=5$", "$x=1, x=-5$", "$x=-1, x=5$"],
+      "answer": "$x=-1, x=-5$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Solve $x^2 + 30 = 11x$ using the quadratic formula.",
+      "choices": ["$x=5, x=6$", "$x=-5, x=-6$", "$x=1, x=30$", "$x=5, x=-6$"],
+      "answer": "$x=5, x=6$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Solve $x^2 + 28 = -11x$ using the quadratic formula.",
+      "choices": ["$x=-4, x=-7$", "$x=4, x=7$", "$x=-1, x=-28$", "$x=-4, x=7$"],
+      "answer": "$x=-4, x=-7$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Solve $x^2 + 20 = -9x$ using the quadratic formula.",
+      "choices": ["$x=-4, x=-5$", "$x=4, x=5$", "$x=-1, x=-20$", "$x=-4, x=5$"],
+      "answer": "$x=-4, x=-5$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Solve $x^2 + 42 = 13x$ using the quadratic formula.",
+      "choices": ["$x=6, x=7$", "$x=-6, x=-7$", "$x=1, x=42$", "$x=6, x=-7$"],
+      "answer": "$x=6, x=7$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Solve $x^2 + 40 = -13x$ using the quadratic formula.",
+      "choices": ["$x=-5, x=-8$", "$x=5, x=8$", "$x=-1, x=-40$", "$x=-5, x=8$"],
+      "answer": "$x=-5, x=-8$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Solve $x^2 + 48 = 14x$ using the quadratic formula.",
+      "choices": ["$x=6, x=8$", "$x=-6, x=-8$", "$x=1, x=48$", "$x=6, x=-8$"],
+      "answer": "$x=6, x=8$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Solve $x^2 + 45 = -14x$ using the quadratic formula.",
+      "choices": ["$x=-5, x=-9$", "$x=5, x=9$", "$x=-1, x=-45$", "$x=-5, x=9$"],
+      "answer": "$x=-5, x=-9$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Solve $x^2 + 54 = 15x$ using the quadratic formula.",
+      "choices": ["$x=6, x=9$", "$x=-6, x=-9$", "$x=1, x=54$", "$x=6, x=-9$"],
+      "answer": "$x=6, x=9$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Solve $x^2 + 56 = -15x$ using the quadratic formula.",
+      "choices": ["$x=-7, x=-8$", "$x=7, x=8$", "$x=-1, x=-56$", "$x=-7, x=8$"],
+      "answer": "$x=-7, x=-8$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Solve $x^2 + 63 = 16x$ using the quadratic formula.",
+      "choices": ["$x=7, x=9$", "$x=-7, x=-9$", "$x=1, x=63$", "$x=7, x=-9$"],
+      "answer": "$x=7, x=9$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Solve $x^2 + 60 = -16x$ using the quadratic formula.",
+      "choices": [
+        "$x=-6, x=-10$",
+        "$x=6, x=10$",
+        "$x=-1, x=-60$",
+        "$x=-6, x=10$"
+      ],
+      "answer": "$x=-6, x=-10$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Solve $x^2 + 66 = 17x$ using the quadratic formula.",
+      "choices": [
+        "$x=6, x=11$",
+        "$x=-6, x=-11$",
+        "$x=1, x=66$",
+        "$x=6, x=-11$"
+      ],
+      "answer": "$x=6, x=11$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Solve $x^2 + 70 = -17x$ using the quadratic formula.",
+      "choices": [
+        "$x=-7, x=-10$",
+        "$x=7, x=10$",
+        "$x=-1, x=-70$",
+        "$x=-7, x=10$"
+      ],
+      "answer": "$x=-7, x=-10$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Solve $x^2 + 77 = 18x$ using the quadratic formula.",
+      "choices": [
+        "$x=7, x=11$",
+        "$x=-7, x=-11$",
+        "$x=1, x=77$",
+        "$x=7, x=-11$"
+      ],
+      "answer": "$x=7, x=11$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Solve $x^2 + 80 = -18x$ using the quadratic formula.",
+      "choices": [
+        "$x=-8, x=-10$",
+        "$x=8, x=10$",
+        "$x=-1, x=-80$",
+        "$x=-8, x=10$"
+      ],
+      "answer": "$x=-8, x=-10$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Solve $x^2 + 88 = 19x$ using the quadratic formula.",
+      "choices": [
+        "$x=8, x=11$",
+        "$x=-8, x=-11$",
+        "$x=1, x=88$",
+        "$x=8, x=-11$"
+      ],
+      "answer": "$x=8, x=11$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Solve $x^2 + 90 = -19x$ using the quadratic formula.",
+      "choices": [
+        "$x=-9, x=-10$",
+        "$x=9, x=10$",
+        "$x=-1, x=-90$",
+        "$x=-9, x=10$"
+      ],
+      "answer": "$x=-9, x=-10$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Solve $x^2 + 99 = 20x$ using the quadratic formula.",
+      "choices": [
+        "$x=9, x=11$",
+        "$x=-9, x=-11$",
+        "$x=1, x=99$",
+        "$x=9, x=-11$"
+      ],
+      "answer": "$x=9, x=11$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Solve $x^2 + 96 = -20x$ using the quadratic formula.",
+      "choices": [
+        "$x=-8, x=-12$",
+        "$x=8, x=12$",
+        "$x=-1, x=-96$",
+        "$x=-8, x=12$"
+      ],
+      "answer": "$x=-8, x=-12$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Solve $x^2 + 108 = 21x$ using the quadratic formula.",
+      "choices": [
+        "$x=9, x=12$",
+        "$x=-9, x=-12$",
+        "$x=1, x=108$",
+        "$x=9, x=-12$"
+      ],
+      "answer": "$x=9, x=12$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Solve $x^2 + 110 = -21x$ using the quadratic formula.",
+      "choices": [
+        "$x=-10, x=-11$",
+        "$x=10, x=11$",
+        "$x=-1, x=-110$",
+        "$x=-10, x=11$"
+      ],
+      "answer": "$x=-10, x=-11$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Solve $x^2 + 120 = 22x$ using the quadratic formula.",
+      "choices": [
+        "$x=10, x=12$",
+        "$x=-10, x=-12$",
+        "$x=1, x=120$",
+        "$x=10, x=-12$"
+      ],
+      "answer": "$x=10, x=12$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Solve $x^2 + 117 = -22x$ using the quadratic formula.",
+      "choices": [
+        "$x=-9, x=-13$",
+        "$x=9, x=13$",
+        "$x=-1, x=-117$",
+        "$x=-9, x=13$"
+      ],
+      "answer": "$x=-9, x=-13$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Solve $x^2 + 132 = 23x$ using the quadratic formula.",
+      "choices": [
+        "$x=11, x=12$",
+        "$x=-11, x=-12$",
+        "$x=1, x=132$",
+        "$x=11, x=-12$"
+      ],
+      "answer": "$x=11, x=12$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Solve $x^2 + 126 = -23x$ using the quadratic formula.",
+      "choices": [
+        "$x=-9, x=-14$",
+        "$x=9, x=14$",
+        "$x=-1, x=-126$",
+        "$x=-9, x=14$"
+      ],
+      "answer": "$x=-9, x=-14$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Solve $x^2 + 143 = 24x$ using the quadratic formula.",
+      "choices": [
+        "$x=11, x=13$",
+        "$x=-11, x=-13$",
+        "$x=1, x=143$",
+        "$x=11, x=-13$"
+      ],
+      "answer": "$x=11, x=13$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Solve $x^2 + 140 = -24x$ using the quadratic formula.",
+      "choices": [
+        "$x=-10, x=-14$",
+        "$x=10, x=14$",
+        "$x=-1, x=-140$",
+        "$x=-10, x=14$"
+      ],
+      "answer": "$x=-10, x=-14$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Solve $2x^2 + 10x + 13 = 0$ using the quadratic formula.",
+      "choices": [
+        "$x = \\frac{-5 \\pm i}{2}$",
+        "$x = \\frac{5 \\pm i}{2}$",
+        "$x = -5 \\pm i$",
+        "$x = 5 \\pm i$"
+      ],
+      "answer": "$x = \\frac{-5 \\pm i}{2}$",
       "points": 30
     }
   ]

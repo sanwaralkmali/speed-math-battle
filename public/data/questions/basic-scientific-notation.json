@@ -1,752 +1,3053 @@
 {
-    "title": "Basics Scientific Notation Challenge",
-    "description": "Master the art of converting numbers to and from scientific notation!",
-    "waves": 5,
-    "timePerQuestion": 25,
-    "questions": [
-      {
-        "id": 1,
-        "wave": 1,
-        "question": "Convert 3,400 to scientific notation.",
-        "choices": ["3.4 x 10²", "3.4 x 10³", "34 x 10²", "0.34 x 10⁴"],
-        "answer": "3.4 x 10³",
-        "points": 10
-      },
-      {
-        "id": 2,
-        "wave": 1,
-        "question": "Convert 0.0056 to scientific notation.",
-        "choices": ["5.6 x 10¯²", "5.6 x 10¯³", "0.56 x 10¯²", "56 x 10¯⁴"],
-        "answer": "5.6 x 10¯³",
-        "points": 10
-      },
-      {
-        "id": 3,
-        "wave": 1,
-        "question": "Write 7.8 x 10⁴ in standard form.",
-        "choices": ["780", "7,800", "78,000", "780,000"],
-        "answer": "78,000",
-        "points": 10
-      },
-      {
-        "id": 4,
-        "wave": 1,
-        "question": "Write 2.1 x 10¯² in standard form.",
-        "choices": ["0.0021", "0.021", "0.21", "2.10"],
-        "answer": "0.021",
-        "points": 10
-      },
-      {
-        "id": 5,
-        "wave": 1,
-        "question": "Which of these is correctly written in scientific notation?",
-        "choices": ["12.5 x 10³", "0.8 x 10¯⁵", "4.7 x 10⁶", "10 x 10²"],
-        "answer": "4.7 x 10⁶",
-        "points": 10
-      },
-      {
-        "id": 6,
-        "wave": 1,
-        "question": "Convert 90,000,000 to scientific notation.",
-        "choices": ["9 x 10⁶", "9 x 10⁷", "90 x 10⁶", "0.9 x 10⁸"],
-        "answer": "9 x 10⁷",
-        "points": 10
-      },
-      {
-        "id": 7,
-        "wave": 1,
-        "question": "Convert 0.000003 to scientific notation.",
-        "choices": ["3 x 10¯⁵", "3 x 10¯⁶", "3 x 10⁶", "0.3 x 10¯⁵"],
-        "answer": "3 x 10¯⁶",
-        "points": 10
-      },
-      {
-        "id": 8,
-        "wave": 1,
-        "question": "What is 1 x 10⁰ in standard form?",
-        "choices": ["0", "1", "10", "0.1"],
-        "answer": "1",
-        "points": 10
-      },
-      {
-        "id": 9,
-        "wave": 1,
-        "question": "Write 500 in scientific notation.",
-        "choices": ["5 x 10¹", "5 x 10²", "50 x 10¹", "0.5 x 10³"],
-        "answer": "5 x 10²",
-        "points": 10
-      },
-      {
-        "id": 10,
-        "wave": 1,
-        "question": "Convert 0.8 to scientific notation.",
-        "choices": ["8 x 10⁰", "8 x 10¯¹", "0.8 x 10¹", "80 x 10¯²"],
-        "answer": "8 x 10¯¹",
-        "points": 10
-      },
-      {
-        "id": 11,
-        "wave": 1,
-        "question": "The number 6,700,000 has how many places moved for scientific notation?",
-        "choices": ["4", "5", "6", "7"],
-        "answer": "6",
-        "points": 10
-      },
-      {
-        "id": 12,
-        "wave": 1,
-        "question": "The number 0.000092 has an exponent of what in scientific notation?",
-        "choices": ["-4", "-5", "-6", "-7"],
-        "answer": "-5",
-        "points": 10
-      },
-      {
-        "id": 13,
-        "wave": 1,
-        "question": "Convert 4.0 x 10¹ to standard form.",
-        "choices": ["0.4", "4", "40", "400"],
-        "answer": "40",
-        "points": 10
-      },
-      {
-        "id": 14,
-        "wave": 1,
-        "question": "Convert 1.0 x 10¯³ to standard form.",
-        "choices": ["0.001", "0.01", "0.1", "1.0"],
-        "answer": "0.001",
-        "points": 10
-      },
-      {
-        "id": 15,
-        "wave": 1,
-        "question": "Which of these numbers is equivalent to 1.5 x 10³?",
-        "choices": ["150", "1,500", "15,000", "0.0015"],
-        "answer": "1,500",
-        "points": 10
-      },
-      {
-        "id": 16,
-        "wave": 1,
-        "question": "Convert 8,100,000,000 to scientific notation.",
-        "choices": ["8.1 x 10⁸", "8.1 x 10⁹", "81 x 10⁸", "0.81 x 10¹⁰"],
-        "answer": "8.1 x 10⁹",
-        "points": 10
-      },
-      {
-        "id": 17,
-        "wave": 1,
-        "question": "Convert 0.00000045 to scientific notation.",
-        "choices": ["4.5 x 10¯⁶", "4.5 x 10¯⁷", "4.5 x 10¯⁸", "0.45 x 10¯⁶"],
-        "answer": "4.5 x 10¯⁷",
-        "points": 10
-      },
-      {
-        "id": 18,
-        "wave": 1,
-        "question": "Write 6.02 x 10² in standard form.",
-        "choices": ["60.2", "602", "6,020", "0.0602"],
-        "answer": "602",
-        "points": 10
-      },
-      {
-        "id": 19,
-        "wave": 1,
-        "question": "Write 9.8 x 10¯¹ in standard form.",
-        "choices": ["0.098", "0.98", "9.8", "98"],
-        "answer": "0.98",
-        "points": 10
-      },
-      {
-        "id": 20,
-        "wave": 1,
-        "question": "Scientific notation uses powers of which number?",
-        "choices": ["2", "5", "10", "100"],
-        "answer": "10",
-        "points": 10
-      },
-      {
-        "id": 21,
-        "wave": 1,
-        "question": "Convert 120 to scientific notation.",
-        "choices": ["1.2 x 10¹", "1.2 x 10²", "12 x 10¹", "0.12 x 10³"],
-        "answer": "1.2 x 10²",
-        "points": 10
-      },
-      {
-        "id": 22,
-        "wave": 1,
-        "question": "Convert 0.07 to scientific notation.",
-        "choices": ["7 x 10¯¹", "7 x 10¯²", "7 x 10²", "0.7 x 10¯¹"],
-        "answer": "7 x 10¯²",
-        "points": 10
-      },
-      {
-        "id": 23,
-        "wave": 1,
-        "question": "Write 4.5 x 10⁰ in standard form.",
-        "choices": ["0.45", "4.5", "45", "450"],
-        "answer": "4.5",
-        "points": 10
-      },
-      {
-        "id": 24,
-        "wave": 1,
-        "question": "How many decimal places do you move for 10¯⁴?",
-        "choices": ["2 to the right", "3 to the left", "4 to the right", "4 to the left"],
-        "answer": "4 to the left",
-        "points": 10
-      },
-      {
-        "id": 25,
-        "wave": 1,
-        "question": "The number 1,230,000 in scientific notation starts with:",
-        "choices": ["1.23", "12.3", "0.123", "123"],
-        "answer": "1.23",
-        "points": 10
-      },
-      {
-        "id": 26,
-        "wave": 1,
-        "question": "Convert 0.000000001 to scientific notation.",
-        "choices": ["1 x 10¯⁸", "1 x 10¯⁹", "1 x 10¯¹⁰", "10 x 10¯¹⁰"],
-        "answer": "1 x 10¯⁹",
-        "points": 10
-      },
-      {
-        "id": 27,
-        "wave": 1,
-        "question": "Write 5.9 x 10⁵ in standard form.",
-        "choices": ["59,000", "590,000", "5,900,000", "0.000059"],
-        "answer": "590,000",
-        "points": 10
-      },
-      {
-        "id": 28,
-        "wave": 1,
-        "question": "The coefficient in scientific notation must be between:",
-        "choices": ["0 and 1", "1 and 10", "10 and 100", "Any positive number"],
-        "answer": "1 and 10",
-        "points": 10
-      },
-      {
-        "id": 29,
-        "wave": 1,
-        "question": "Convert 7 to scientific notation.",
-        "choices": ["0.7 x 10¹", "7 x 10⁰", "70 x 10¯¹", "7 x 10¹"],
-        "answer": "7 x 10⁰",
-        "points": 10
-      },
-      {
-        "id": 30,
-        "wave": 1,
-        "question": "Write 3.2 x 10¯⁴ in standard form.",
-        "choices": ["0.00032", "0.0032", "0.032", "0.32"],
-        "answer": "0.00032",
-        "points": 10
-      },
-      {
-        "id": 31,
-        "wave": 2,
-        "question": "Convert 1,234,000 to scientific notation.",
-        "choices": ["1.234 x 10⁵", "1.234 x 10⁶", "12.34 x 10⁵", "0.1234 x 10⁷"],
-        "answer": "1.234 x 10⁶",
-        "points": 15
-      },
-      {
-        "id": 32,
-        "wave": 2,
-        "question": "Convert 0.0000789 to scientific notation.",
-        "choices": ["7.89 x 10¯⁴", "7.89 x 10¯⁵", "7.89 x 10¯⁶", "0.789 x 10¯⁴"],
-        "answer": "7.89 x 10¯⁵",
-        "points": 15
-      },
-      {
-        "id": 33,
-        "wave": 2,
-        "question": "Write 9.12 x 10⁷ in standard form.",
-        "choices": ["9,120,000", "91,200,000", "912,000,000", "0.000000912"],
-        "answer": "91,200,000",
-        "points": 15
-      },
-      {
-        "id": 34,
-        "wave": 2,
-        "question": "Write 3.05 x 10¯⁶ in standard form.",
-        "choices": ["0.00000305", "0.0000305", "0.000305", "0.00305"],
-        "answer": "0.00000305",
-        "points": 15
-      },
-      {
-        "id": 35,
-        "wave": 2,
-        "question": "Which of these is NOT correctly written in scientific notation?",
-        "choices": ["8.9 x 10¹⁰", "1.0 x 10¯³", "0.99 x 10²", "5.2 x 10⁰"],
-        "answer": "0.99 x 10²",
-        "points": 15
-      },
-      {
-        "id": 36,
-        "wave": 2,
-        "question": "The mass of the Earth is approximately 5,972,000,000,000,000,000,000,000 kg. In scientific notation, this is:",
-        "choices": ["5.972 x 10²1 kg", "5.972 x 10²4 kg", "59.72 x 10²3 kg", "5.972 x 10¯²4 kg"],
-        "answer": "5.972 x 10²4 kg",
-        "points": 15
-      },
-      {
-        "id": 37,
-        "wave": 2,
-        "question": "The diameter of a hydrogen atom is about 0.000000000106 meters. In scientific notation, this is:",
-        "choices": ["1.06 x 10¯⁹ m", "1.06 x 10¯¹⁰ m", "1.06 x 10¯¹1 m", "10.6 x 10¯¹⁰ m"],
-        "answer": "1.06 x 10¯¹⁰ m",
-        "points": 15
-      },
-      {
-        "id": 38,
-        "wave": 2,
-        "question": "Write 2.00 x 10¯⁰ in standard form.",
-        "choices": ["0.02", "0.2", "2.00", "200"],
-        "answer": "2.00",
-        "points": 15
-      },
-      {
-        "id": 39,
-        "wave": 2,
-        "question": "Which represents 1,000,000 in scientific notation?",
-        "choices": ["1 x 10⁵", "1 x 10⁶", "10 x 10⁵", "100 x 10⁴"],
-        "answer": "1 x 10⁶",
-        "points": 15
-      },
-      {
-        "id": 40,
-        "wave": 2,
-        "question": "Convert 0.00000008 to scientific notation.",
-        "choices": ["8 x 10¯⁷", "8 x 10¯⁸", "8 x 10¯⁹", "0.8 x 10¯⁷"],
-        "answer": "8 x 10¯⁸",
-        "points": 15
-      },
-      {
-        "id": 41,
-        "wave": 2,
-        "question": "What is 4.7 x 10² in standard form?",
-        "choices": ["47", "470", "4,700", "0.047"],
-        "answer": "470",
-        "points": 15
-      },
-      {
-        "id": 42,
-        "wave": 2,
-        "question": "How many decimal places is the exponent for 5.2 x 10¯⁸?",
-        "choices": ["7 to the right", "8 to the right", "7 to the left", "8 to the left"],
-        "answer": "8 to the left",
-        "points": 15
-      },
-      {
-        "id": 43,
-        "wave": 2,
-        "question": "To convert 0.0005 to scientific notation, you move the decimal point ___ places to the ___.",
-        "choices": ["3, right", "4, right", "3, left", "4, left"],
-        "answer": "4, right",
-        "points": 15
-      },
-      {
-        "id": 44,
-        "wave": 2,
-        "question": "Which of these is equivalent to 6.1 x 10¯⁴?",
-        "choices": ["61,000", "0.00061", "0.0061", "6,100"],
-        "answer": "0.00061",
-        "points": 15
-      },
-      {
-        "id": 45,
-        "wave": 2,
-        "question": "The number 45,000 in scientific notation has a coefficient of:",
-        "choices": ["45", "4.5", "0.45", "450"],
-        "answer": "4.5",
-        "points": 15
-      },
-      {
-        "id": 46,
-        "wave": 2,
-        "question": "Convert 100,000,000,000 to scientific notation.",
-        "choices": ["1 x 10⁹", "1 x 10¹⁰", "1 x 10¹1", "1 x 10¹2"],
-        "answer": "1 x 10¹1",
-        "points": 15
-      },
-      {
-        "id": 47,
-        "wave": 2,
-        "question": "Convert 0.000000000001 to scientific notation.",
-        "choices": ["1 x 10¯¹1", "1 x 10¯¹2", "1 x 10¯¹3", "0.1 x 10¯¹1"],
-        "answer": "1 x 10¯¹2",
-        "points": 15
-      },
-      {
-        "id": 48,
-        "wave": 2,
-        "question": "Write 7.001 x 10³ in standard form.",
-        "choices": ["70.01", "700.1", "7,001", "70,010"],
-        "answer": "7,001",
-        "points": 15
-      },
-      {
-        "id": 49,
-        "wave": 2,
-        "question": "Write 2.3 x 10¯⁰ in standard form.",
-        "choices": ["0.023", "0.23", "2.3", "23"],
-        "answer": "2.3",
-        "points": 15
-      },
-      {
-        "id": 50,
-        "wave": 2,
-        "question": "When the exponent in scientific notation is positive, the standard form number is:",
-        "choices": ["A decimal less than 1", "A whole number", "A large number", "Always negative"],
-        "answer": "A large number",
-        "points": 15
-      },
-      {
-        "id": 51,
-        "wave": 3,
-        "question": "Convert 1.5 x 10⁸ meters (approximate distance from Earth to Sun) to standard form.",
-        "choices": ["15,000,000 m", "150,000,000 m", "1,500,000,000 m", "0.00000015 m"],
-        "answer": "150,000,000 m",
-        "points": 20
-      },
-      {
-        "id": 52,
-        "wave": 3,
-        "question": "A virus has a diameter of 2.5 x 10¯⁷ meters. Convert this to standard form.",
-        "choices": ["0.000000025 m", "0.00000025 m", "0.0000025 m", "0.000025 m"],
-        "answer": "0.00000025 m",
-        "points": 20
-      },
-      {
-        "id": 53,
-        "wave": 3,
-        "question": "The speed of light is approximately 299,792,458 meters per second. Write this in scientific notation.",
-        "choices": ["2.99792458 x 10⁷ m/s", "2.99792458 x 10⁸ m/s", "2.99792458 x 10⁹ m/s", "29.9792458 x 10⁷ m/s"],
-        "answer": "2.99792458 x 10⁸ m/s",
-        "points": 20
-      },
-      {
-        "id": 54,
-        "wave": 3,
-        "question": "A typical human hair is about 0.000017 meters thick. Write this in scientific notation.",
-        "choices": ["1.7 x 10¯⁴ m", "1.7 x 10¯⁵ m", "1.7 x 10¯⁶ m", "17 x 10¯⁶ m"],
-        "answer": "1.7 x 10¯⁵ m",
-        "points": 20
-      },
-      {
-        "id": 55,
-        "wave": 3,
-        "question": "Which of these numbers is written correctly in scientific notation?",
-        "choices": ["0.75 x 10⁵", "10 x 10¯²", "6.022 x 10²3", "25.0 x 10¹"],
-        "answer": "6.022 x 10²3",
-        "points": 20
-      },
-      {
-        "id": 56,
-        "wave": 3,
-        "question": "Convert 8.6 x 10⁹ to standard form.",
-        "choices": ["860,000,000", "8,600,000,000", "86,000,000,000", "0.0000000086"],
-        "answer": "8,600,000,000",
-        "points": 20
-      },
-      {
-        "id": 57,
-        "wave": 3,
-        "question": "Convert 1.99 x 10¯¹ to standard form.",
-        "choices": ["0.0199", "0.199", "1.99", "19.9"],
-        "answer": "0.199",
-        "points": 20
-      },
-      {
-        "id": 58,
-        "wave": 3,
-        "question": "A quantity of 3.0 x 10¯⁴ is equivalent to:",
-        "choices": ["0.00003", "0.0003", "0.003", "0.03"],
-        "answer": "0.0003",
-        "points": 20
-      },
-      {
-        "id": 59,
-        "wave": 3,
-        "question": "Write 0.0000000000000000000000000000016 kg (mass of an electron) in scientific notation.",
-        "choices": ["1.6 x 10¯²9 kg", "1.6 x 10¯³0 kg", "1.6 x 10¯³1 kg", "16 x 10¯³2 kg"],
-        "answer": "1.6 x 10¯³0 kg",
-        "points": 20
-      },
-      {
-        "id": 60,
-        "wave": 3,
-        "question": "How many digits are in the standard form of 2.5 x 10⁶?",
-        "choices": ["5", "6", "7", "8"],
-        "answer": "7",
-        "points": 20
-      },
-      {
-        "id": 61,
-        "wave": 3,
-        "question": "Convert 7.123 x 10⁴ to standard form.",
-        "choices": ["7,123", "71,230", "712,300", "7,123,000"],
-        "answer": "71,230",
-        "points": 20
-      },
-      {
-        "id": 62,
-        "wave": 3,
-        "question": "Convert 0.000000905 to scientific notation.",
-        "choices": ["9.05 x 10¯⁶", "9.05 x 10¯⁷", "9.05 x 10¯⁸", "0.905 x 10¯⁶"],
-        "answer": "9.05 x 10¯⁷",
-        "points": 20
-      },
-      {
-        "id": 63,
-        "wave": 3,
-        "question": "A quantity of 4.00 x 10⁰ is equivalent to:",
-        "choices": ["0.4", "4.0", "40.0", "400.0"],
-        "answer": "4.0",
-        "points": 20
-      },
-      {
-        "id": 64,
-        "wave": 3,
-        "question": "Which of these is the correct scientific notation for 5,000,000,000,000?",
-        "choices": ["5 x 10¹1", "5 x 10¹2", "5 x 10¹3", "50 x 10¹1"],
-        "answer": "5 x 10¹2",
-        "points": 20
-      },
-      {
-        "id": 65,
-        "wave": 3,
-        "question": "To write 9.0 x 10¯⁹ in standard form, you would move the decimal point:",
-        "choices": ["9 places to the right", "9 places to the left", "8 places to the right", "8 places to the left"],
-        "answer": "9 places to the left",
-        "points": 20
-      },
-      {
-        "id": 66,
-        "wave": 3,
-        "question": "The mass of a dust particle is 7.5 x 10¯¹⁰ grams. What is this in standard form?",
-        "choices": ["0.00000000075 g", "0.0000000075 g", "0.000000075 g", "0.00000075 g"],
-        "answer": "0.00000000075 g",
-        "points": 20
-      },
-      {
-        "id": 67,
-        "wave": 3,
-        "question": "Convert 0.00000000042 to scientific notation.",
-        "choices": ["4.2 x 10¯⁹", "4.2 x 10¯¹⁰", "4.2 x 10¯¹1", "0.42 x 10¯⁹"],
-        "answer": "4.2 x 10¯¹⁰",
-        "points": 20
-      },
-      {
-        "id": 68,
-        "wave": 3,
-        "question": "Which of these numbers is equivalent to 1.00 x 10¹?",
-        "choices": ["0.1", "1", "10", "100"],
-        "answer": "10",
-        "points": 20
-      },
-      {
-        "id": 69,
-        "wave": 3,
-        "question": "When converting a very small number (like 0.00001) to scientific notation, the exponent will be:",
-        "choices": ["Positive", "Negative", "Zero", "Undefined"],
-        "answer": "Negative",
-        "points": 20
-      },
-      {
-        "id": 70,
-        "wave": 3,
-        "question": "Convert 65,400,000 to scientific notation.",
-        "choices": ["6.54 x 10⁶", "6.54 x 10⁷", "6.54 x 10⁸", "65.4 x 10⁶"],
-        "answer": "6.54 x 10⁷",
-        "points": 20
-      },
-      {
-        "id": 71,
-        "wave": 4,
-        "question": "The approximate number of stars in the observable universe is 1.0 x 10²⁴. Express this in standard form.",
-        "choices": ["1,000,000,000,000,000,000,000,000", "100,000,000,000,000,000,000,000", "10,000,000,000,000,000,000,000", "1,000,000,000,000,000,000,000"],
-        "answer": "1,000,000,000,000,000,000,000,000",
-        "points": 25
-      },
-      {
-        "id": 72,
-        "wave": 4,
-        "question": "The wavelength of X-rays can be as small as 1.0 x 10¯¹⁰ meters. Convert this to standard form.",
-        "choices": ["0.00000000001 m", "0.0000000001 m", "0.000000001 m", "0.00000001 m"],
-        "answer": "0.0000000001 m",
-        "points": 25
-      },
-      {
-        "id": 73,
-        "wave": 4,
-        "question": "The total amount of water on Earth is estimated at 1,386,000,000 cubic kilometers. Write this in scientific notation.",
-        "choices": ["1.386 x 10⁸ km³", "1.386 x 10⁹ km³", "1.386 x 10¹⁰ km³", "13.86 x 10⁸ km³"],
-        "answer": "1.386 x 10⁹ km³",
-        "points": 25
-      },
-      {
-        "id": 74,
-        "wave": 4,
-        "question": "A speck of dust weighs approximately 0.000000000753 kg. Express this in scientific notation.",
-        "choices": ["7.53 x 10¯⁹ kg", "7.53 x 10¯¹⁰ kg", "7.53 x 10¯¹1 kg", "0.753 x 10¯⁹ kg"],
-        "answer": "7.53 x 10¯¹⁰ kg",
-        "points": 25
-      },
-      {
-        "id": 75,
-        "wave": 4,
-        "question": "Which of the following numbers is not in correct scientific notation?",
-        "choices": ["3.14 x 10¯⁵", "9.99 x 10¹5", "0.5 x 10⁷", "1.0 x 10⁰"],
-        "answer": "0.5 x 10⁷",
-        "points": 25
-      },
-      {
-        "id": 76,
-        "wave": 4,
-        "question": "When converting 7.25 x 10¯³ to standard form, the decimal point moves how many places and in what direction?",
-        "choices": ["3 places right", "3 places left", "2 places right", "2 places left"],
-        "answer": "3 places left",
-        "points": 25
-      },
-      {
-        "id": 77,
-        "wave": 4,
-        "question": "The distance light travels in one year (a light-year) is approximately 9.461 x 10¹⁵ meters. Write this in standard form.",
-        "choices": ["94,610,000,000,000 m", "946,100,000,000,000 m", "9,461,000,000,000,000 m", "94,610,000,000,000,000 m"],
-        "answer": "9,461,000,000,000,000 m",
-        "points": 25
-      },
-      {
-        "id": 78,
-        "wave": 4,
-        "question": "The diameter of a red blood cell is about 0.000007 meters. In scientific notation, this is:",
-        "choices": ["7 x 10¯⁵ m", "7 x 10¯⁶ m", "7 x 10¯⁷ m", "7 x 10¯⁸ m"],
-        "answer": "7 x 10¯⁶ m",
-        "points": 25
-      },
-      {
-        "id": 79,
-        "wave": 4,
-        "question": "What is the equivalent of 3.0 x 10⁰ in standard form?",
-        "choices": ["0.3", "3.0", "30", "300"],
-        "answer": "3.0",
-        "points": 25
-      },
-      {
-        "id": 80,
-        "wave": 4,
-        "question": "Which represents a very large number in scientific notation?",
-        "choices": ["5.0 x 10¯¹⁰", "2.1 x 10⁰", "9.8 x 10⁷", "1.2 x 10¯³"],
-        "answer": "9.8 x 10⁷",
-        "points": 25
-      },
-      {
-        "id": 81,
-        "wave": 4,
-        "question": "Convert 6.78 x 10¹² to standard form.",
-        "choices": ["678,000,000,000", "6,780,000,000,000", "67,800,000,000,000", "678,000,000,000,000"],
-        "answer": "6,780,000,000,000",
-        "points": 25
-      },
-      {
-        "id": 82,
-        "wave": 4,
-        "question": "The mass of a proton is approximately 0.00000000000000000000000000167 kg. Write this in scientific notation.",
-        "choices": ["1.67 x 10¯²6 kg", "1.67 x 10¯²7 kg", "1.67 x 10¯²8 kg", "16.7 x 10¯²7 kg"],
-        "answer": "1.67 x 10¯²7 kg",
-        "points": 25
-      },
-      {
-        "id": 83,
-        "wave": 4,
-        "question": "The number 0.0000000000000000000000000000000001 (one septillionth) is equal to:",
-        "choices": ["1 x 10¯³⁰", "1 x 10¯³³", "1 x 10¯³⁶", "1 x 10¯³⁹"],
-        "answer": "1 x 10¯³³",
-        "points": 25
-      },
-      {
-        "id": 84,
-        "wave": 4,
-        "question": "Which of these is the scientific notation for 25,000,000?",
-        "choices": ["2.5 x 10⁶", "2.5 x 10⁷", "25 x 10⁶", "0.25 x 10⁸"],
-        "answer": "2.5 x 10⁷",
-        "points": 25
-      },
-      {
-        "id": 85,
-        "wave": 4,
-        "question": "To convert 4.9 x 10⁵ to standard form, you move the decimal point:",
-        "choices": ["5 places left", "5 places right", "4 places left", "4 places right"],
-        "answer": "5 places right",
-        "points": 25
-      },
-      {
-        "id": 86,
-        "wave": 4,
-        "question": "A typical bacterium is about 2.0 x 10¯⁶ meters long. What is this in standard form?",
-        "choices": ["0.0000002 m", "0.000002 m", "0.00002 m", "0.0002 m"],
-        "answer": "0.000002 m",
-        "points": 25
-      },
-      {
-        "id": 87,
-        "wave": 4,
-        "question": "Convert 99,900,000,000 to scientific notation.",
-        "choices": ["9.99 x 10¹⁰", "9.99 x 10¹¹", "99.9 x 10¹⁰", "0.999 x 10¹¹"],
-        "answer": "9.99 x 10¹⁰",
-        "points": 25
-      },
-      {
-        "id": 88,
-        "wave": 4,
-        "question": "Write 1.000 x 10⁰ in standard form.",
-        "choices": ["0.001", "1.000", "10.00", "100.0"],
-        "answer": "1.000",
-        "points": 25
-      },
-      {
-        "id": 89,
-        "wave": 4,
-        "question": "When the exponent in scientific notation is negative, the standard form number is:",
-        "choices": ["A large number", "A number between 1 and 10", "A decimal between 0 and 1", "Always negative"],
-        "answer": "A decimal between 0 and 1",
-        "points": 25
-      },
-      {
-        "id": 90,
-        "wave": 4,
-        "question": "The distance from the Earth to the Moon is approximately 3.84 x 10⁸ meters. How many zeros are there in the standard form of this number?",
-        "choices": ["6", "7", "8", "9"],
-        "answer": "6",
-        "points": 25
-      },
-      {
-        "id": 91,
-        "wave": 5,
-        "question": "The human brain contains approximately 8.6 x 10¹⁰ neurons. Write this number in standard form.",
-        "choices": ["8,600,000,000", "86,000,000,000", "860,000,000,000", "8,600,000,000,000"],
-        "answer": "86,000,000,000",
-        "points": 30
-      },
-      {
-        "id": 92,
-        "wave": 5,
-        "question": "The diameter of an atomic nucleus can be as small as 1.75 x 10¯¹⁵ meters. Convert this to standard form.",
-        "choices": ["0.000000000000000175 m", "0.00000000000000175 m", "0.0000000000000175 m", "0.000000000000175 m"],
-        "answer": "0.00000000000000175 m",
-        "points": 30
-      },
-      {
-        "id": 93,
-        "wave": 5,
-        "question": "If a number in scientific notation has an exponent of -x (x > 0), it means the standard form number is:",
-        "choices": ["A large number with x zeros at the end.", "A decimal with x zeros after the decimal point and before the first non-zero digit.", "A decimal with x-1 zeros after the decimal point and before the first non-zero digit.", "A number with x decimal places."],
-        "answer": "A decimal with x-1 zeros after the decimal point and before the first non-zero digit.",
-        "points": 30
-      }
-    ]
+  "title": "Basics Scientific Notation Challenge",
+  "description": "Master the art of converting numbers to and from scientific notation!",
+  "waves": 5,
+  "timePerQuestion": 30,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Convert $3,400$ to scientific notation.",
+      "choices": [
+        "$3.4 \\times 10^2$",
+        "$3.4 \\times 10^3$",
+        "$34 \\times 10^2$",
+        "$0.34 \\times 10^4$"
+      ],
+      "answer": "$3.4 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Convert $500$ to scientific notation.",
+      "choices": [
+        "$5 \\times 10^1$",
+        "$5 \\times 10^2$",
+        "$0.5 \\times 10^3$",
+        "$50 \\times 10^1$"
+      ],
+      "answer": "$5 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Convert $1.2 \\times 10^2$ to standard form.",
+      "choices": ["$12$", "$120$", "$1,200$", "$0.12$"],
+      "answer": "$120$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Convert $78,000$ to scientific notation.",
+      "choices": [
+        "$7.8 \\times 10^3$",
+        "$7.8 \\times 10^4$",
+        "$78 \\times 10^3$",
+        "$0.78 \\times 10^5$"
+      ],
+      "answer": "$7.8 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Convert $9 \\times 10^1$ to standard form.",
+      "choices": ["$0.9$", "$9$", "$90$", "$900$"],
+      "answer": "$90$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Convert $6,000,000$ to scientific notation.",
+      "choices": [
+        "$6 \\times 10^5$",
+        "$6 \\times 10^6$",
+        "$60 \\times 10^5$",
+        "$0.6 \\times 10^7$"
+      ],
+      "answer": "$6 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Convert $2.5 \\times 10^3$ to standard form.",
+      "choices": ["$25$", "$250$", "$2,500$", "$0.25$"],
+      "answer": "$2,500$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Convert $450$ to scientific notation.",
+      "choices": [
+        "$4.5 \\times 10^1$",
+        "$4.5 \\times 10^2$",
+        "$45 \\times 10^1$",
+        "$0.45 \\times 10^3$"
+      ],
+      "answer": "$4.5 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Convert $8 \\times 10^0$ to standard form.",
+      "choices": ["$0$", "$1$", "$8$", "$80$"],
+      "answer": "$8$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Convert $100$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^1$",
+        "$1 \\times 10^2$",
+        "$10 \\times 10^1$",
+        "$0.1 \\times 10^3$"
+      ],
+      "answer": "$1 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Convert $7.0 \\times 10^4$ to standard form.",
+      "choices": ["$700$", "$7,000$", "$70,000$", "$700,000$"],
+      "answer": "$70,000$",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Convert $23,000$ to scientific notation.",
+      "choices": [
+        "$2.3 \\times 10^3$",
+        "$2.3 \\times 10^4$",
+        "$23 \\times 10^3$",
+        "$0.23 \\times 10^5$"
+      ],
+      "answer": "$2.3 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Convert $4.1 \\times 10^1$ to standard form.",
+      "choices": ["$0.41$", "$4.1$", "$41$", "$410$"],
+      "answer": "$41$",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Convert $9,100,000$ to scientific notation.",
+      "choices": [
+        "$9.1 \\times 10^5$",
+        "$9.1 \\times 10^6$",
+        "$91 \\times 10^5$",
+        "$0.91 \\times 10^7$"
+      ],
+      "answer": "$9.1 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Convert $3 \\times 10^2$ to standard form.",
+      "choices": ["$30$", "$300$", "$3,000$", "$0.3$"],
+      "answer": "$300$",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Convert $5,200$ to scientific notation.",
+      "choices": [
+        "$5.2 \\times 10^2$",
+        "$5.2 \\times 10^3$",
+        "$52 \\times 10^2$",
+        "$0.52 \\times 10^4$"
+      ],
+      "answer": "$5.2 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Convert $6.7 \\times 10^3$ to standard form.",
+      "choices": ["$67$", "$670$", "$6,700$", "$0.67$"],
+      "answer": "$6,700$",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Convert $1,000$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^2$",
+        "$1 \\times 10^3$",
+        "$10 \\times 10^2$",
+        "$0.1 \\times 10^4$"
+      ],
+      "answer": "$1 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Convert $2 \\times 10^4$ to standard form.",
+      "choices": ["$200$", "$2,000$", "$20,000$", "$200,000$"],
+      "answer": "$20,000$",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Convert $8,500,000$ to scientific notation.",
+      "choices": [
+        "$8.5 \\times 10^5$",
+        "$8.5 \\times 10^6$",
+        "$85 \\times 10^5$",
+        "$0.85 \\times 10^7$"
+      ],
+      "answer": "$8.5 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Convert $1.5 \\times 10^0$ to standard form.",
+      "choices": ["$0$", "$1$", "$1.5$", "$15$"],
+      "answer": "$1.5$",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Convert $650$ to scientific notation.",
+      "choices": [
+        "$6.5 \\times 10^1$",
+        "$6.5 \\times 10^2$",
+        "$65 \\times 10^1$",
+        "$0.65 \\times 10^3$"
+      ],
+      "answer": "$6.5 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Convert $7 \\times 10^3$ to standard form.",
+      "choices": ["$70$", "$700$", "$7,000$", "$70,000$"],
+      "answer": "$7,000$",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Convert $4,900$ to scientific notation.",
+      "choices": [
+        "$4.9 \\times 10^2$",
+        "$4.9 \\times 10^3$",
+        "$49 \\times 10^2$",
+        "$0.49 \\times 10^4$"
+      ],
+      "answer": "$4.9 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Convert $3.0 \\times 10^1$ to standard form.",
+      "choices": ["$0.3$", "$3$", "$30$", "$300$"],
+      "answer": "$30$",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Convert $1,230$ to scientific notation.",
+      "choices": [
+        "$1.23 \\times 10^2$",
+        "$1.23 \\times 10^3$",
+        "$12.3 \\times 10^2$",
+        "$0.123 \\times 10^4$"
+      ],
+      "answer": "$1.23 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Convert $5.0 \\times 10^2$ to standard form.",
+      "choices": ["$50$", "$500$", "$5,000$", "$0.5$"],
+      "answer": "$500$",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Convert $80,000,000$ to scientific notation.",
+      "choices": [
+        "$8 \\times 10^6$",
+        "$8 \\times 10^7$",
+        "$80 \\times 10^6$",
+        "$0.8 \\times 10^8$"
+      ],
+      "answer": "$8 \\times 10^7$",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Convert $9.9 \\times 10^0$ to standard form.",
+      "choices": ["$0.99$", "$9.9$", "$99$", "$990$"],
+      "answer": "$9.9$",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Convert $200$ to scientific notation.",
+      "choices": [
+        "$2 \\times 10^1$",
+        "$2 \\times 10^2$",
+        "$20 \\times 10^1$",
+        "$0.2 \\times 10^3$"
+      ],
+      "answer": "$2 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "Convert $4.0 \\times 10^3$ to standard form.",
+      "choices": ["$40$", "$400$", "$4,000$", "$40,000$"],
+      "answer": "$4,000$",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Convert $7,600$ to scientific notation.",
+      "choices": [
+        "$7.6 \\times 10^2$",
+        "$7.6 \\times 10^3$",
+        "$76 \\times 10^2$",
+        "$0.76 \\times 10^4$"
+      ],
+      "answer": "$7.6 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Convert $1.0 \\times 10^4$ to standard form.",
+      "choices": ["$100$", "$1,000$", "$10,000$", "$100,000$"],
+      "answer": "$10,000$",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Convert $3,000,000,000$ to scientific notation.",
+      "choices": [
+        "$3 \\times 10^8$",
+        "$3 \\times 10^9$",
+        "$30 \\times 10^8$",
+        "$0.3 \\times 10^{10}$"
+      ],
+      "answer": "$3 \\times 10^9$",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Convert $6.0 \\times 10^5$ to standard form.",
+      "choices": ["$6,000$", "$60,000$", "$600,000$", "$6,000,000$"],
+      "answer": "$600,000$",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Convert $550$ to scientific notation.",
+      "choices": [
+        "$5.5 \\times 10^1$",
+        "$5.5 \\times 10^2$",
+        "$55 \\times 10^1$",
+        "$0.55 \\times 10^3$"
+      ],
+      "answer": "$5.5 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "Convert $8.2 \\times 10^2$ to standard form.",
+      "choices": ["$82$", "$820$", "$8,200$", "$0.82$"],
+      "answer": "$820$",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Convert $1,000,000$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^5$",
+        "$1 \\times 10^6$",
+        "$10 \\times 10^5$",
+        "$0.1 \\times 10^7$"
+      ],
+      "answer": "$1 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Convert $2.1 \\times 10^1$ to standard form.",
+      "choices": ["$0.21$", "$2.1$", "$21$", "$210$"],
+      "answer": "$21$",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Convert $90$ to scientific notation.",
+      "choices": [
+        "$9 \\times 10^0$",
+        "$9 \\times 10^1$",
+        "$0.9 \\times 10^2$",
+        "$90 \\times 10^0$"
+      ],
+      "answer": "$9 \\times 10^1$",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Convert $3.5 \\times 10^2$ to standard form.",
+      "choices": ["$35$", "$350$", "$3,500$", "$0.35$"],
+      "answer": "$350$",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Convert $6,800$ to scientific notation.",
+      "choices": [
+        "$6.8 \\times 10^2$",
+        "$6.8 \\times 10^3$",
+        "$68 \\times 10^2$",
+        "$0.68 \\times 10^4$"
+      ],
+      "answer": "$6.8 \\times 10^3$",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "Convert $7.5 \\times 10^0$ to standard form.",
+      "choices": ["$0.75$", "$7.5$", "$75$", "$750$"],
+      "answer": "$7.5$",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Convert $400,000$ to scientific notation.",
+      "choices": [
+        "$4 \\times 10^4$",
+        "$4 \\times 10^5$",
+        "$40 \\times 10^4$",
+        "$0.4 \\times 10^6$"
+      ],
+      "answer": "$4 \\times 10^5$",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Convert $1.0 \\times 10^1$ to standard form.",
+      "choices": ["$0.1$", "$1$", "$10$", "$100$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "Convert $2,500,000$ to scientific notation.",
+      "choices": [
+        "$2.5 \\times 10^5$",
+        "$2.5 \\times 10^6$",
+        "$25 \\times 10^5$",
+        "$0.25 \\times 10^7$"
+      ],
+      "answer": "$2.5 \\times 10^6$",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Convert $9.0 \\times 10^3$ to standard form.",
+      "choices": ["$90$", "$900$", "$9,000$", "$90,000$"],
+      "answer": "$9,000$",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Convert $350$ to scientific notation.",
+      "choices": [
+        "$3.5 \\times 10^1$",
+        "$3.5 \\times 10^2$",
+        "$35 \\times 10^1$",
+        "$0.35 \\times 10^3$"
+      ],
+      "answer": "$3.5 \\times 10^2$",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "Convert $4.2 \\times 10^4$ to standard form.",
+      "choices": ["$420$", "$4,200$", "$42,000$", "$420,000$"],
+      "answer": "$42,000$",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Convert $50,000$ to scientific notation.",
+      "choices": [
+        "$5 \\times 10^3$",
+        "$5 \\times 10^4$",
+        "$50 \\times 10^3$",
+        "$0.5 \\times 10^5$"
+      ],
+      "answer": "$5 \\times 10^4$",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Convert $0.005$ to scientific notation.",
+      "choices": [
+        "$5 \\times 10^{-2}$",
+        "$5 \\times 10^{-3}$",
+        "$0.5 \\times 10^{-2}$",
+        "$50 \\times 10^{-4}$"
+      ],
+      "answer": "$5 \\times 10^{-3}$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Convert $1.7 \\times 10^{-2}$ to standard form.",
+      "choices": ["$0.17$", "$0.017$", "$170$", "$1,700$"],
+      "answer": "$0.017$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Convert $0.000034$ to scientific notation.",
+      "choices": [
+        "$3.4 \\times 10^{-4}$",
+        "$3.4 \\times 10^{-5}$",
+        "$34 \\times 10^{-6}$",
+        "$0.34 \\times 10^{-4}$"
+      ],
+      "answer": "$3.4 \\times 10^{-5}$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Convert $8.1 \\times 10^{-4}$ to standard form.",
+      "choices": ["$0.0081$", "$0.00081$", "$0.000081$", "$81,000$"],
+      "answer": "$0.00081$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Multiply: $(2 \\times 10^3) \\times (3 \\times 10^2)$",
+      "choices": [
+        "$6 \\times 10^5$",
+        "$6 \\times 10^6$",
+        "$5 \\times 10^5$",
+        "$6 \\times 10^1$"
+      ],
+      "answer": "$6 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Convert $0.0007$ to scientific notation.",
+      "choices": [
+        "$7 \\times 10^{-3}$",
+        "$7 \\times 10^{-4}$",
+        "$0.7 \\times 10^{-3}$",
+        "$70 \\times 10^{-5}$"
+      ],
+      "answer": "$7 \\times 10^{-4}$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Convert $4.5 \\times 10^{-1}$ to standard form.",
+      "choices": ["$4.5$", "$0.45$", "$0.045$", "$45$"],
+      "answer": "$0.45$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Divide: $(8 \\times 10^5) \\div (2 \\times 10^2)$",
+      "choices": [
+        "$4 \\times 10^3$",
+        "$4 \\times 10^7$",
+        "$6 \\times 10^3$",
+        "$4 \\times 10^2.5$"
+      ],
+      "answer": "$4 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Convert $0.08$ to scientific notation.",
+      "choices": [
+        "$8 \\times 10^{-1}$",
+        "$8 \\times 10^{-2}$",
+        "$0.8 \\times 10^{-1}$",
+        "$80 \\times 10^{-3}$"
+      ],
+      "answer": "$8 \\times 10^{-2}$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Convert $2.0 \\times 10^{-3}$ to standard form.",
+      "choices": ["$0.02$", "$0.002$", "$0.0002$", "$200$"],
+      "answer": "$0.002$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Multiply: $(1.5 \\times 10^4) \\times (2 \\times 10^1)$",
+      "choices": [
+        "$3 \\times 10^4$",
+        "$3 \\times 10^5$",
+        "$3 \\times 10^3$",
+        "$30 \\times 10^4$"
+      ],
+      "answer": "$3 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Convert $0.000006$ to scientific notation.",
+      "choices": [
+        "$6 \\times 10^{-5}$",
+        "$6 \\times 10^{-6}$",
+        "$0.6 \\times 10^{-5}$",
+        "$60 \\times 10^{-7}$"
+      ],
+      "answer": "$6 \\times 10^{-6}$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Convert $9.2 \\times 10^{-5}$ to standard form.",
+      "choices": ["$0.00092$", "$0.000092$", "$0.0000092$", "$92,000$"],
+      "answer": "$0.000092$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Divide: $(9 \\times 10^6) \\div (3 \\times 10^3)$",
+      "choices": [
+        "$3 \\times 10^3$",
+        "$3 \\times 10^9$",
+        "$6 \\times 10^3$",
+        "$3 \\times 10^2$"
+      ],
+      "answer": "$3 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Convert $0.0012$ to scientific notation.",
+      "choices": [
+        "$1.2 \\times 10^{-2}$",
+        "$1.2 \\times 10^{-3}$",
+        "$12 \\times 10^{-4}$",
+        "$0.12 \\times 10^{-2}$"
+      ],
+      "answer": "$1.2 \\times 10^{-3}$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Convert $3.8 \\times 10^{-1}$ to standard form.",
+      "choices": ["$3.8$", "$0.38$", "$0.038$", "$38$"],
+      "answer": "$0.38$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Multiply: $(4 \\times 10^2) \\times (2.5 \\times 10^3)$",
+      "choices": [
+        "$10 \\times 10^5$",
+        "$1 \\times 10^6$",
+        "$10 \\times 10^6$",
+        "$1 \\times 10^5$"
+      ],
+      "answer": "$1 \\times 10^6$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Convert $0.0000001$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^{-6}$",
+        "$1 \\times 10^{-7}$",
+        "$0.1 \\times 10^{-6}$",
+        "$10 \\times 10^{-8}$"
+      ],
+      "answer": "$1 \\times 10^{-7}$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Convert $7.0 \\times 10^{-2}$ to standard form.",
+      "choices": ["$0.7$", "$0.07$", "$0.007$", "$70$"],
+      "answer": "$0.07$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Divide: $(1.2 \\times 10^4) \\div (4 \\times 10^1)$",
+      "choices": [
+        "$0.3 \\times 10^3$",
+        "$3 \\times 10^2$",
+        "$3 \\times 10^3$",
+        "$3 \\times 10^1$"
+      ],
+      "answer": "$3 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Convert $0.00000009$ to scientific notation.",
+      "choices": [
+        "$9 \\times 10^{-8}$",
+        "$9 \\times 10^{-9}$",
+        "$0.9 \\times 10^{-8}$",
+        "$90 \\times 10^{-10}$"
+      ],
+      "answer": "$9 \\times 10^{-9}$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Convert $5.1 \\times 10^{-3}$ to standard form.",
+      "choices": ["$0.051$", "$0.0051$", "$0.00051$", "$510$"],
+      "answer": "$0.0051$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Multiply: $(3 \\times 10^5) \\times (2 \\times 10^{-2})$",
+      "choices": [
+        "$6 \\times 10^3$",
+        "$6 \\times 10^7$",
+        "$6 \\times 10^4$",
+        "$6 \\times 10^{-10}$"
+      ],
+      "answer": "$6 \\times 10^3$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Convert $0.00002$ to scientific notation.",
+      "choices": [
+        "$2 \\times 10^{-4}$",
+        "$2 \\times 10^{-5}$",
+        "$0.2 \\times 10^{-4}$",
+        "$20 \\times 10^{-6}$"
+      ],
+      "answer": "$2 \\times 10^{-5}$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Convert $6.0 \\times 10^{-4}$ to standard form.",
+      "choices": ["$0.006$", "$0.0006$", "$0.00006$", "$6,000$"],
+      "answer": "$0.0006$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Divide: $(7.5 \\times 10^6) \\div (2.5 \\times 10^2)$",
+      "choices": [
+        "$3 \\times 10^4$",
+        "$3 \\times 10^8$",
+        "$3 \\times 10^3$",
+        "$3 \\times 10^2$"
+      ],
+      "answer": "$3 \\times 10^4$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Convert $0.000000004$ to scientific notation.",
+      "choices": [
+        "$4 \\times 10^{-9}$",
+        "$4 \\times 10^{-10}$",
+        "$0.4 \\times 10^{-9}$",
+        "$40 \\times 10^{-11}$"
+      ],
+      "answer": "$4 \\times 10^{-10}$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Convert $1.1 \\times 10^{-1}$ to standard form.",
+      "choices": ["$1.1$", "$0.11$", "$0.011$", "$11$"],
+      "answer": "$0.11$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Multiply: $(2.1 \\times 10^3) \\times (3 \\times 10^{-1})$",
+      "choices": [
+        "$6.3 \\times 10^2$",
+        "$6.3 \\times 10^4$",
+        "$6.3 \\times 10^3$",
+        "$6.3 \\times 10^{-3}$"
+      ],
+      "answer": "$6.3 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Convert $0.0000005$ to scientific notation.",
+      "choices": [
+        "$5 \\times 10^{-6}$",
+        "$5 \\times 10^{-7}$",
+        "$0.5 \\times 10^{-6}$",
+        "$50 \\times 10^{-8}$"
+      ],
+      "answer": "$5 \\times 10^{-7}$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Convert $8.0 \\times 10^{-5}$ to standard form.",
+      "choices": ["$0.0008$", "$0.00008$", "$0.000008$", "$80,000$"],
+      "answer": "$0.00008$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Divide: $(4.8 \\times 10^5) \\div (1.2 \\times 10^3)$",
+      "choices": [
+        "$4 \\times 10^2$",
+        "$4 \\times 10^8$",
+        "$4 \\times 10^3$",
+        "$4 \\times 10^1$"
+      ],
+      "answer": "$4 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Convert $0.0000000001$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^{-9}$",
+        "$1 \\times 10^{-10}$",
+        "$0.1 \\times 10^{-9}$",
+        "$10 \\times 10^{-11}$"
+      ],
+      "answer": "$1 \\times 10^{-10}$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Convert $2.5 \\times 10^{-2}$ to standard form.",
+      "choices": ["$0.25$", "$0.025$", "$0.0025$", "$250$"],
+      "answer": "$0.025$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Multiply: $(5 \\times 10^4) \\times (1.5 \\times 10^{-2})$",
+      "choices": [
+        "$7.5 \\times 10^2$",
+        "$7.5 \\times 10^6$",
+        "$7.5 \\times 10^3$",
+        "$75 \\times 10^2$"
+      ],
+      "answer": "$7.5 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Convert $0.000003$ to scientific notation.",
+      "choices": [
+        "$3 \\times 10^{-5}$",
+        "$3 \\times 10^{-6}$",
+        "$0.3 \\times 10^{-5}$",
+        "$30 \\times 10^{-7}$"
+      ],
+      "answer": "$3 \\times 10^{-6}$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Convert $4.0 \\times 10^{-1}$ to standard form.",
+      "choices": ["$4.0$", "$0.4$", "$0.04$", "$40$"],
+      "answer": "$0.4$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Divide: $(6.3 \\times 10^7) \\div (9 \\times 10^4)$",
+      "choices": [
+        "$0.7 \\times 10^3$",
+        "$7 \\times 10^2$",
+        "$7 \\times 10^3$",
+        "$7 \\times 10^1$"
+      ],
+      "answer": "$7 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Convert $0.00000000007$ to scientific notation.",
+      "choices": [
+        "$7 \\times 10^{-10}$",
+        "$7 \\times 10^{-11}$",
+        "$0.7 \\times 10^{-10}$",
+        "$70 \\times 10^{-12}$"
+      ],
+      "answer": "$7 \\times 10^{-11}$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Convert $1.0 \\times 10^{-4}$ to standard form.",
+      "choices": ["$0.001$", "$0.0001$", "$0.00001$", "$10,000$"],
+      "answer": "$0.0001$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Multiply: $(2.2 \\times 10^2) \\times (4 \\times 10^3)$",
+      "choices": [
+        "$8.8 \\times 10^5$",
+        "$8.8 \\times 10^6$",
+        "$8.8 \\times 10^4$",
+        "$88 \\times 10^5$"
+      ],
+      "answer": "$8.8 \\times 10^5$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Convert $0.000015$ to scientific notation.",
+      "choices": [
+        "$1.5 \\times 10^{-4}$",
+        "$1.5 \\times 10^{-5}$",
+        "$15 \\times 10^{-6}$",
+        "$0.15 \\times 10^{-4}$"
+      ],
+      "answer": "$1.5 \\times 10^{-5}$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Convert $3.0 \\times 10^{-2}$ to standard form.",
+      "choices": ["$0.3$", "$0.03$", "$0.003$", "$300$"],
+      "answer": "$0.03$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Divide: $(5.6 \\times 10^8) \\div (7 \\times 10^5)$",
+      "choices": [
+        "$0.8 \\times 10^3$",
+        "$8 \\times 10^2$",
+        "$8 \\times 10^3$",
+        "$8 \\times 10^1$"
+      ],
+      "answer": "$8 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Convert $0.000000000002$ to scientific notation.",
+      "choices": [
+        "$2 \\times 10^{-11}$",
+        "$2 \\times 10^{-12}$",
+        "$0.2 \\times 10^{-11}$",
+        "$20 \\times 10^{-13}$"
+      ],
+      "answer": "$2 \\times 10^{-12}$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Convert $9.9 \\times 10^{-3}$ to standard form.",
+      "choices": ["$0.099$", "$0.0099$", "$0.00099$", "$990$"],
+      "answer": "$0.0099$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Multiply: $(1.1 \\times 10^5) \\times (5 \\times 10^{-3})$",
+      "choices": [
+        "$5.5 \\times 10^2$",
+        "$5.5 \\times 10^8$",
+        "$5.5 \\times 10^3$",
+        "$55 \\times 10^2$"
+      ],
+      "answer": "$5.5 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Convert $0.00000001$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^{-7}$",
+        "$1 \\times 10^{-8}$",
+        "$0.1 \\times 10^{-7}$",
+        "$10 \\times 10^{-9}$"
+      ],
+      "answer": "$1 \\times 10^{-8}$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Convert $6.6 \\times 10^{-1}$ to standard form.",
+      "choices": ["$6.6$", "$0.66$", "$0.066$", "$66$"],
+      "answer": "$0.66$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Divide: $(2.4 \\times 10^9) \\div (8 \\times 10^6)$",
+      "choices": [
+        "$0.3 \\times 10^3$",
+        "$3 \\times 10^2$",
+        "$3 \\times 10^3$",
+        "$3 \\times 10^1$"
+      ],
+      "answer": "$3 \\times 10^2$",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Add: $(3.2 \\times 10^4) + (1.5 \\times 10^4)$",
+      "choices": [
+        "$4.7 \\times 10^4$",
+        "$4.7 \\times 10^8$",
+        "$4.7 \\times 10^0$",
+        "$4.7 \\times 10^{16}$"
+      ],
+      "answer": "$4.7 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Subtract: $(7.8 \\times 10^{-3}) - (2.1 \\times 10^{-3})$",
+      "choices": [
+        "$5.7 \\times 10^{-3}$",
+        "$5.7 \\times 10^{-6}$",
+        "$5.7 \\times 10^0$",
+        "$5.7 \\times 10^{-9}$"
+      ],
+      "answer": "$5.7 \\times 10^{-3}$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Multiply: $(4 \\times 10^5) \\times (2.5 \\times 10^{-2})$",
+      "choices": [
+        "$10 \\times 10^3$",
+        "$1 \\times 10^4$",
+        "$1 \\times 10^3$",
+        "$10 \\times 10^7$"
+      ],
+      "answer": "$1 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Divide: $(9.6 \\times 10^7) \\div (3.2 \\times 10^3)$",
+      "choices": [
+        "$3 \\times 10^4$",
+        "$3 \\times 10^{10}$",
+        "$3 \\times 10^3$",
+        "$3 \\times 10^2$"
+      ],
+      "answer": "$3 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Convert $0.000000000123$ to scientific notation.",
+      "choices": [
+        "$1.23 \\times 10^{-10}$",
+        "$1.23 \\times 10^{-11}$",
+        "$1.23 \\times 10^{-9}$",
+        "$1.23 \\times 10^{-12}$"
+      ],
+      "answer": "$1.23 \\times 10^{-10}$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Add: $(6.1 \\times 10^2) + (2.8 \\times 10^2)$",
+      "choices": [
+        "$8.9 \\times 10^2$",
+        "$8.9 \\times 10^4$",
+        "$8.9 \\times 10^0$",
+        "$8.9 \\times 10^{10}$"
+      ],
+      "answer": "$8.9 \\times 10^2$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Subtract: $(4.5 \\times 10^{-5}) - (1.2 \\times 10^{-5})$",
+      "choices": [
+        "$3.3 \\times 10^{-5}$",
+        "$3.3 \\times 10^{-10}$",
+        "$3.3 \\times 10^0$",
+        "$3.3 \\times 10^{-25}$"
+      ],
+      "answer": "$3.3 \\times 10^{-5}$",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Multiply: $(1.2 \\times 10^{-3}) \\times (5 \\times 10^6)$",
+      "choices": [
+        "$6 \\times 10^3$",
+        "$6 \\times 10^9$",
+        "$6 \\times 10^{-18}$",
+        "$6 \\times 10^2$"
+      ],
+      "answer": "$6 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Divide: $(7.2 \\times 10^9) \\div (1.8 \\times 10^4)$",
+      "choices": [
+        "$4 \\times 10^5$",
+        "$4 \\times 10^{13}$",
+        "$4 \\times 10^4$",
+        "$4 \\times 10^3$"
+      ],
+      "answer": "$4 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Convert $0.0000000000005$ to scientific notation.",
+      "choices": [
+        "$5 \\times 10^{-12}$",
+        "$5 \\times 10^{-13}$",
+        "$5 \\times 10^{-14}$",
+        "$5 \\times 10^{-11}$"
+      ],
+      "answer": "$5 \\times 10^{-13}$",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Add: $(2.0 \\times 10^5) + (8.0 \\times 10^4)$",
+      "choices": [
+        "$10.0 \\times 10^5$",
+        "$2.8 \\times 10^5$",
+        "$2.8 \\times 10^4$",
+        "$1.0 \\times 10^5$"
+      ],
+      "answer": "$2.8 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Subtract: $(9.1 \\times 10^{-2}) - (3.4 \\times 10^{-2})$",
+      "choices": [
+        "$5.7 \\times 10^{-2}$",
+        "$5.7 \\times 10^{-4}$",
+        "$5.7 \\times 10^0$",
+        "$5.7 \\times 10^{-1}$"
+      ],
+      "answer": "$5.7 \\times 10^{-2}$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Multiply: $(6 \\times 10^{-4}) \\times (1.5 \\times 10^{-3})$",
+      "choices": [
+        "$9 \\times 10^{-7}$",
+        "$9 \\times 10^{-12}$",
+        "$9 \\times 10^{-6}$",
+        "$9 \\times 10^{-8}$"
+      ],
+      "answer": "$9 \\times 10^{-7}$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Divide: $(1.2 \\times 10^6) \\div (4 \\times 10^{-2})$",
+      "choices": [
+        "$0.3 \\times 10^8$",
+        "$3 \\times 10^7$",
+        "$3 \\times 10^8$",
+        "$3 \\times 10^4$"
+      ],
+      "answer": "$3 \\times 10^7$",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Convert $0.000000000000007$ to scientific notation.",
+      "choices": [
+        "$7 \\times 10^{-14}$",
+        "$7 \\times 10^{-15}$",
+        "$7 \\times 10^{-13}$",
+        "$7 \\times 10^{-16}$"
+      ],
+      "answer": "$7 \\times 10^{-15}$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Add: $(1.3 \\times 10^3) + (5.6 \\times 10^3)$",
+      "choices": [
+        "$6.9 \\times 10^3$",
+        "$6.9 \\times 10^6$",
+        "$6.9 \\times 10^0$",
+        "$6.9 \\times 10^{9}$"
+      ],
+      "answer": "$6.9 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Subtract: $(8.0 \\times 10^{-4}) - (2.5 \\times 10^{-4})$",
+      "choices": [
+        "$5.5 \\times 10^{-4}$",
+        "$5.5 \\times 10^{-8}$",
+        "$5.5 \\times 10^0$",
+        "$5.5 \\times 10^{-16}$"
+      ],
+      "answer": "$5.5 \\times 10^{-4}$",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Multiply: $(2.5 \\times 10^7) \\times (4 \\times 10^{-5})$",
+      "choices": [
+        "$10 \\times 10^2$",
+        "$1 \\times 10^3$",
+        "$10 \\times 10^{12}$",
+        "$1 \\times 10^2$"
+      ],
+      "answer": "$1 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Divide: $(3.6 \\times 10^8) \\div (1.2 \\times 10^{-3})$",
+      "choices": [
+        "$3 \\times 10^{11}$",
+        "$3 \\times 10^5$",
+        "$3 \\times 10^{10}$",
+        "$3 \\times 10^2$"
+      ],
+      "answer": "$3 \\times 10^{11}$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Convert $0.00000000000000001$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^{-16}$",
+        "$1 \\times 10^{-17}$",
+        "$1 \\times 10^{-15}$",
+        "$1 \\times 10^{-18}$"
+      ],
+      "answer": "$1 \\times 10^{-17}$",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Add: $(4.2 \\times 10^6) + (1.8 \\times 10^6)$",
+      "choices": [
+        "$6.0 \\times 10^6$",
+        "$6.0 \\times 10^{12}$",
+        "$6.0 \\times 10^0$",
+        "$6.0 \\times 10^{36}$"
+      ],
+      "answer": "$6.0 \\times 10^6$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Subtract: $(7.0 \\times 10^{-6}) - (3.5 \\times 10^{-6})$",
+      "choices": [
+        "$3.5 \\times 10^{-6}$",
+        "$3.5 \\times 10^{-12}$",
+        "$3.5 \\times 10^0$",
+        "$3.5 \\times 10^{-36}$"
+      ],
+      "answer": "$3.5 \\times 10^{-6}$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Multiply: $(8 \\times 10^{-2}) \\times (1.2 \\times 10^5)$",
+      "choices": [
+        "$9.6 \\times 10^3$",
+        "$9.6 \\times 10^7$",
+        "$9.6 \\times 10^{-10}$",
+        "$9.6 \\times 10^2$"
+      ],
+      "answer": "$9.6 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Divide: $(2.5 \\times 10^9) \\div (5 \\times 10^{-4})$",
+      "choices": [
+        "$0.5 \\times 10^{13}$",
+        "$5 \\times 10^{12}$",
+        "$5 \\times 10^{13}$",
+        "$5 \\times 10^5$"
+      ],
+      "answer": "$5 \\times 10^{12}$",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Convert $0.00000000000000000002$ to scientific notation.",
+      "choices": [
+        "$2 \\times 10^{-19}$",
+        "$2 \\times 10^{-20}$",
+        "$2 \\times 10^{-18}$",
+        "$2 \\times 10^{-21}$"
+      ],
+      "answer": "$2 \\times 10^{-20}$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Add: $(5.0 \\times 10^7) + (3.0 \\times 10^6)$",
+      "choices": [
+        "$5.3 \\times 10^7$",
+        "$8.0 \\times 10^7$",
+        "$5.3 \\times 10^6$",
+        "$5.3 \\times 10^{13}$"
+      ],
+      "answer": "$5.3 \\times 10^7$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Subtract: $(1.0 \\times 10^{-7}) - (5.0 \\times 10^{-8})$",
+      "choices": [
+        "$5.0 \\times 10^{-8}$",
+        "$5.0 \\times 10^{-7}$",
+        "$5.0 \\times 10^{-15}$",
+        "$5.0 \\times 10^{-1}$"
+      ],
+      "answer": "$5.0 \\times 10^{-8}$",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Multiply: $(3.5 \\times 10^4) \\times (2 \\times 10^3)$",
+      "choices": [
+        "$7 \\times 10^7$",
+        "$7 \\times 10^{12}$",
+        "$7 \\times 10^6$",
+        "$70 \\times 10^7$"
+      ],
+      "answer": "$7 \\times 10^7$",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Divide: $(4.2 \\times 10^{10}) \\div (6 \\times 10^5)$",
+      "choices": [
+        "$0.7 \\times 10^5$",
+        "$7 \\times 10^4$",
+        "$7 \\times 10^5$",
+        "$7 \\times 10^{15}$"
+      ],
+      "answer": "$7 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Convert $0.0000000000000000000003$ to scientific notation.",
+      "choices": [
+        "$3 \\times 10^{-21}$",
+        "$3 \\times 10^{-22}$",
+        "$3 \\times 10^{-20}$",
+        "$3 \\times 10^{-23}$"
+      ],
+      "answer": "$3 \\times 10^{-22}$",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Add: $(1.5 \\times 10^4) + (8.5 \\times 10^3)$",
+      "choices": [
+        "$2.35 \\times 10^4$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^7$",
+        "$2.35 \\times 10^3$"
+      ],
+      "answer": "$2.35 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Subtract: $(6.0 \\times 10^{-3}) - (2.0 \\times 10^{-4})$",
+      "choices": [
+        "$5.8 \\times 10^{-3}$",
+        "$4.0 \\times 10^{-3}$",
+        "$5.8 \\times 10^{-4}$",
+        "$5.8 \\times 10^{-7}$"
+      ],
+      "answer": "$5.8 \\times 10^{-3}$",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Multiply: $(7 \\times 10^{-5}) \\times (3 \\times 10^{-2})$",
+      "choices": [
+        "$2.1 \\times 10^{-6}$",
+        "$2.1 \\times 10^{-7}$",
+        "$2.1 \\times 10^{-10}$",
+        "$21 \\times 10^{-7}$"
+      ],
+      "answer": "$2.1 \\times 10^{-6}$",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Divide: $(8.1 \\times 10^5) \\div (9 \\times 10^{-2})$",
+      "choices": [
+        "$0.9 \\times 10^7$",
+        "$9 \\times 10^6$",
+        "$9 \\times 10^7$",
+        "$9 \\times 10^3$"
+      ],
+      "answer": "$9 \\times 10^6$",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Convert $0.00000000000000000000000001$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^{-25}$",
+        "$1 \\times 10^{-26}$",
+        "$1 \\times 10^{-24}$",
+        "$1 \\times 10^{-27}$"
+      ],
+      "answer": "$1 \\times 10^{-26}$",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Add: $(9.0 \\times 10^8) + (1.0 \\times 10^7)$",
+      "choices": [
+        "$9.1 \\times 10^8$",
+        "$1.0 \\times 10^9$",
+        "$9.1 \\times 10^7$",
+        "$1.0 \\times 10^{15}$"
+      ],
+      "answer": "$9.1 \\times 10^8$",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Subtract: $(2.5 \\times 10^{-5}) - (1.0 \\times 10^{-6})$",
+      "choices": [
+        "$2.4 \\times 10^{-5}$",
+        "$1.5 \\times 10^{-5}$",
+        "$2.4 \\times 10^{-6}$",
+        "$2.4 \\times 10^{-11}$"
+      ],
+      "answer": "$2.4 \\times 10^{-5}$",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Multiply: $(4.5 \\times 10^6) \\times (2 \\times 10^{-3})$",
+      "choices": [
+        "$9 \\times 10^3$",
+        "$9 \\times 10^9$",
+        "$9 \\times 10^2$",
+        "$90 \\times 10^3$"
+      ],
+      "answer": "$9 \\times 10^3$",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Divide: $(6.4 \\times 10^{12}) \\div (8 \\times 10^7)$",
+      "choices": [
+        "$0.8 \\times 10^5$",
+        "$8 \\times 10^4$",
+        "$8 \\times 10^5$",
+        "$8 \\times 10^{19}$"
+      ],
+      "answer": "$8 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Convert $0.00000000000000000000000000005$ to scientific notation.",
+      "choices": [
+        "$5 \\times 10^{-28}$",
+        "$5 \\times 10^{-29}$",
+        "$5 \\times 10^{-27}$",
+        "$5 \\times 10^{-30}$"
+      ],
+      "answer": "$5 \\times 10^{-29}$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Add: $(2.2 \\times 10^5) + (3.3 \\times 10^4)$",
+      "choices": [
+        "$2.53 \\times 10^5$",
+        "$5.5 \\times 10^5$",
+        "$2.53 \\times 10^4$",
+        "$5.5 \\times 10^9$"
+      ],
+      "answer": "$2.53 \\times 10^5$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Subtract: $(5.0 \\times 10^{-2}) - (1.5 \\times 10^{-3})$",
+      "choices": [
+        "$4.85 \\times 10^{-2}$",
+        "$3.5 \\times 10^{-2}$",
+        "$4.85 \\times 10^{-3}$",
+        "$4.85 \\times 10^{-5}$"
+      ],
+      "answer": "$4.85 \\times 10^{-2}$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Multiply: $(1.1 \\times 10^{-6}) \\times (5 \\times 10^8)$",
+      "choices": [
+        "$5.5 \\times 10^2$",
+        "$5.5 \\times 10^{14}$",
+        "$5.5 \\times 10^3$",
+        "$5.5 \\times 10^{-48}$"
+      ],
+      "answer": "$5.5 \\times 10^2$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Divide: $(7.2 \\times 10^{15}) \\div (9 \\times 10^6)$",
+      "choices": [
+        "$0.8 \\times 10^9$",
+        "$8 \\times 10^8$",
+        "$8 \\times 10^9$",
+        "$8 \\times 10^{21}$"
+      ],
+      "answer": "$8 \\times 10^8$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Convert $0.0000000000000000000000000000001$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^{-30}$",
+        "$1 \\times 10^{-31}$",
+        "$1 \\times 10^{-29}$",
+        "$1 \\times 10^{-32}$"
+      ],
+      "answer": "$1 \\times 10^{-31}$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Add: $(7.5 \\times 10^9) + (2.5 \\times 10^8)$",
+      "choices": [
+        "$7.75 \\times 10^9$",
+        "$1.0 \\times 10^9$",
+        "$7.75 \\times 10^8$",
+        "$1.0 \\times 10^{17}$"
+      ],
+      "answer": "$7.75 \\times 10^9$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Subtract: $(3.0 \\times 10^{-1}) - (5.0 \\times 10^{-2})$",
+      "choices": [
+        "$2.5 \\times 10^{-1}$",
+        "$2.5 \\times 10^{-2}$",
+        "$2.5 \\times 10^{-3}$",
+        "$2.5 \\times 10^{-0}$"
+      ],
+      "answer": "$2.5 \\times 10^{-1}$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Multiply: $(9 \\times 10^3) \\times (8 \\times 10^4)$",
+      "choices": [
+        "$7.2 \\times 10^8$",
+        "$7.2 \\times 10^7$",
+        "$7.2 \\times 10^{12}$",
+        "$72 \\times 10^7$"
+      ],
+      "answer": "$7.2 \\times 10^8$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Divide: $(1.8 \\times 10^{11}) \\div (3 \\times 10^6)$",
+      "choices": [
+        "$0.6 \\times 10^5$",
+        "$6 \\times 10^4$",
+        "$6 \\times 10^5$",
+        "$6 \\times 10^{17}$"
+      ],
+      "answer": "$6 \\times 10^4$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Convert $0.00000000000000000000000000000000000001$ to scientific notation.",
+      "choices": [
+        "$1 \\times 10^{-37}$",
+        "$1 \\times 10^{-38}$",
+        "$1 \\times 10^{-36}$",
+        "$1 \\times 10^{-39}$"
+      ],
+      "answer": "$1 \\times 10^{-38}$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Calculate: $(2.5 \\times 10^3) + (1.5 \\times 10^2)$",
+      "choices": [
+        "$2.65 \\times 10^3$",
+        "$4 \\times 10^3$",
+        "$2.65 \\times 10^2$",
+        "$2.515 \\times 10^3$"
+      ],
+      "answer": "$2.65 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Calculate: $(8.0 \\times 10^{-5}) - (3.0 \\times 10^{-6})$",
+      "choices": [
+        "$7.7 \\times 10^{-5}$",
+        "$5.0 \\times 10^{-5}$",
+        "$7.7 \\times 10^{-6}$",
+        "$7.7 \\times 10^{-11}$"
+      ],
+      "answer": "$7.7 \\times 10^{-5}$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Calculate: $(1.2 \\times 10^4) \\times (5 \\times 10^{-2}) \\div (3 \\times 10^1)$",
+      "choices": [
+        "$2 \\times 10^1$",
+        "$2 \\times 10^2$",
+        "$2 \\times 10^3$",
+        "$2 \\times 10^0$"
+      ],
+      "answer": "$2 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Order from smallest to largest: $3.0 \\times 10^2, 5.0 \\times 10^1, 1.0 \\times 10^3$",
+      "choices": [
+        "$5.0 \\times 10^1, 3.0 \\times 10^2, 1.0 \\times 10^3$",
+        "$1.0 \\times 10^3, 3.0 \\times 10^2, 5.0 \\times 10^1$",
+        "$5.0 \\times 10^1, 1.0 \\times 10^3, 3.0 \\times 10^2$",
+        "$3.0 \\times 10^2, 5.0 \\times 10^1, 1.0 \\times 10^3$"
+      ],
+      "answer": "$5.0 \\times 10^1, 3.0 \\times 10^2, 1.0 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "The speed of light is approximately $3 \\times 10^8$ m/s. How far does light travel in $2 \\times 10^{-6}$ seconds?",
+      "choices": [
+        "$6 \\times 10^2$ m",
+        "$6 \\times 10^{14}$ m",
+        "$6 \\times 10^3$ m",
+        "$6 \\times 10^1$ m"
+      ],
+      "answer": "$6 \\times 10^2$ m",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Calculate: $(4.1 \\times 10^5) + (2.3 \\times 10^4)$",
+      "choices": [
+        "$4.33 \\times 10^5$",
+        "$6.4 \\times 10^5$",
+        "$4.33 \\times 10^4$",
+        "$4.123 \\times 10^5$"
+      ],
+      "answer": "$4.33 \\times 10^5$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Calculate: $(9.5 \\times 10^{-2}) - (1.2 \\times 10^{-3})$",
+      "choices": [
+        "$9.38 \\times 10^{-2}$",
+        "$8.3 \\times 10^{-2}$",
+        "$9.38 \\times 10^{-3}$",
+        "$9.38 \\times 10^{-5}$"
+      ],
+      "answer": "$9.38 \\times 10^{-2}$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Calculate: $(6 \\times 10^{-3}) \\times (2 \\times 10^5) \\div (4 \\times 10^1)$",
+      "choices": [
+        "$3 \\times 10^1$",
+        "$3 \\times 10^2$",
+        "$3 \\times 10^3$",
+        "$3 \\times 10^0$"
+      ],
+      "answer": "$3 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Order from smallest to largest: $1.2 \\times 10^{-3}, 8.0 \\times 10^{-4}, 5.0 \\times 10^{-2}$",
+      "choices": [
+        "$8.0 \\times 10^{-4}, 1.2 \\times 10^{-3}, 5.0 \\times 10^{-2}$",
+        "$5.0 \\times 10^{-2}, 1.2 \\times 10^{-3}, 8.0 \\times 10^{-4}$",
+        "$1.2 \\times 10^{-3}, 8.0 \\times 10^{-4}, 5.0 \\times 10^{-2}$",
+        "$8.0 \\times 10^{-4}, 5.0 \\times 10^{-2}, 1.2 \\times 10^{-3}$"
+      ],
+      "answer": "$8.0 \\times 10^{-4}, 1.2 \\times 10^{-3}, 5.0 \\times 10^{-2}$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "The mass of an electron is approximately $9.11 \\times 10^{-31}$ kg. The mass of a proton is approximately $1.67 \\times 10^{-27}$ kg. How many times larger is the proton's mass than the electron's mass (approximately)?",
+      "choices": [
+        "$1.8 \\times 10^3$",
+        "$1.8 \\times 10^4$",
+        "$1.8 \\times 10^2$",
+        "$1.8 \\times 10^5$"
+      ],
+      "answer": "$1.8 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Calculate: $(7.0 \\times 10^6) + (5.0 \\times 10^5)$",
+      "choices": [
+        "$7.5 \\times 10^6$",
+        "$1.2 \\times 10^7$",
+        "$7.5 \\times 10^5$",
+        "$7.05 \\times 10^6$"
+      ],
+      "answer": "$7.5 \\times 10^6$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Calculate: $(2.1 \\times 10^{-4}) - (8.0 \\times 10^{-6})$",
+      "choices": [
+        "$2.02 \\times 10^{-4}$",
+        "$1.3 \\times 10^{-4}$",
+        "$2.02 \\times 10^{-5}$",
+        "$2.02 \\times 10^{-10}$"
+      ],
+      "answer": "$2.02 \\times 10^{-4}$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Calculate: $(2.4 \\times 10^7) \\times (3 \\times 10^{-4}) \\div (1.2 \\times 10^2)$",
+      "choices": [
+        "$6 \\times 10^1$",
+        "$6 \\times 10^2$",
+        "$6 \\times 10^0$",
+        "$6 \\times 10^3$"
+      ],
+      "answer": "$6 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Order from smallest to largest: $4.5 \\times 10^0, 9.1 \\times 10^{-1}, 2.3 \\times 10^1$",
+      "choices": [
+        "$9.1 \\times 10^{-1}, 4.5 \\times 10^0, 2.3 \\times 10^1$",
+        "$4.5 \\times 10^0, 9.1 \\times 10^{-1}, 2.3 \\times 10^1$",
+        "$2.3 \\times 10^1, 4.5 \\times 10^0, 9.1 \\times 10^{-1}$",
+        "$9.1 \\times 10^{-1}, 2.3 \\times 10^1, 4.5 \\times 10^0$"
+      ],
+      "answer": "$9.1 \\times 10^{-1}, 4.5 \\times 10^0, 2.3 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "The population of a city is $1.5 \\times 10^6$. If $2 \\times 10^5$ people move out, what is the new population?",
+      "choices": [
+        "$1.3 \\times 10^6$",
+        "$1.7 \\times 10^6$",
+        "$1.3 \\times 10^5$",
+        "$1.3 \\times 10^{11}$"
+      ],
+      "answer": "$1.3 \\times 10^6$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Calculate: $(1.0 \\times 10^2) + (5.0 \\times 10^0)$",
+      "choices": [
+        "$1.05 \\times 10^2$",
+        "$6.0 \\times 10^2$",
+        "$1.5 \\times 10^2$",
+        "$1.005 \\times 10^2$"
+      ],
+      "answer": "$1.05 \\times 10^2$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Calculate: $(6.5 \\times 10^{-3}) - (2.5 \\times 10^{-4})$",
+      "choices": [
+        "$6.25 \\times 10^{-3}$",
+        "$4.0 \\times 10^{-3}$",
+        "$6.25 \\times 10^{-4}$",
+        "$6.25 \\times 10^{-7}$"
+      ],
+      "answer": "$6.25 \\times 10^{-3}$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Calculate: $(8 \\times 10^{-5}) \\times (1.5 \\times 10^7) \\div (2 \\times 10^2)$",
+      "choices": [
+        "$6 \\times 10^0$",
+        "$6 \\times 10^1$",
+        "$6 \\times 10^2$",
+        "$6 \\times 10^{-1}$"
+      ],
+      "answer": "$6 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Order from smallest to largest: $7.2 \\times 10^4, 1.1 \\times 10^5, 9.9 \\times 10^3$",
+      "choices": [
+        "$9.9 \\times 10^3, 7.2 \\times 10^4, 1.1 \\times 10^5$",
+        "$1.1 \\times 10^5, 7.2 \\times 10^4, 9.9 \\times 10^3$",
+        "$7.2 \\times 10^4, 9.9 \\times 10^3, 1.1 \\times 10^5$",
+        "$9.9 \\times 10^3, 1.1 \\times 10^5, 7.2 \\times 10^4$"
+      ],
+      "answer": "$9.9 \\times 10^3, 7.2 \\times 10^4, 1.1 \\times 10^5$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "A cell has a diameter of $1.2 \\times 10^{-5}$ meters. A virus has a diameter of $6 \\times 10^{-8}$ meters. How many times larger is the cell than the virus?",
+      "choices": [
+        "$2 \\times 10^2$",
+        "$2 \\times 10^3$",
+        "$2 \\times 10^1$",
+        "$2 \\times 10^4$"
+      ],
+      "answer": "$2 \\times 10^2$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Calculate: $(3.0 \\times 10^8) + (7.0 \\times 10^7)$",
+      "choices": [
+        "$3.7 \\times 10^8$",
+        "$1.0 \\times 10^9$",
+        "$3.7 \\times 10^7$",
+        "$3.07 \\times 10^8$"
+      ],
+      "answer": "$3.7 \\times 10^8$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Calculate: $(4.0 \\times 10^{-1}) - (2.0 \\times 10^{-2})$",
+      "choices": [
+        "$3.8 \\times 10^{-1}$",
+        "$2.0 \\times 10^{-1}$",
+        "$3.8 \\times 10^{-2}$",
+        "$3.8 \\times 10^{-3}$"
+      ],
+      "answer": "$3.8 \\times 10^{-1}$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Calculate: $(9 \\times 10^6) \\times (1.1 \\times 10^{-3}) \\div (3 \\times 10^2)$",
+      "choices": [
+        "$3.3 \\times 10^1$",
+        "$3.3 \\times 10^2$",
+        "$3.3 \\times 10^0$",
+        "$3.3 \\times 10^3$"
+      ],
+      "answer": "$3.3 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Order from smallest to largest: $6.0 \\times 10^{-5}, 1.0 \\times 10^{-4}, 3.0 \\times 10^{-6}$",
+      "choices": [
+        "$3.0 \\times 10^{-6}, 6.0 \\times 10^{-5}, 1.0 \\times 10^{-4}$",
+        "$1.0 \\times 10^{-4}, 6.0 \\times 10^{-5}, 3.0 \\times 10^{-6}$",
+        "$3.0 \\times 10^{-6}, 1.0 \\times 10^{-4}, 6.0 \\times 10^{-5}$",
+        "$6.0 \\times 10^{-5}, 3.0 \\times 10^{-6}, 1.0 \\times 10^{-4}$"
+      ],
+      "answer": "$3.0 \\times 10^{-6}, 6.0 \\times 10^{-5}, 1.0 \\times 10^{-4}$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "A computer processes $5 \\times 10^9$ instructions per second. How many instructions can it process in $1.5 \\times 10^2$ seconds?",
+      "choices": [
+        "$7.5 \\times 10^{11}$",
+        "$7.5 \\times 10^{12}$",
+        "$7.5 \\times 10^{10}$",
+        "$7.5 \\times 10^{13}$"
+      ],
+      "answer": "$7.5 \\times 10^{11}$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Calculate: $(5.5 \\times 10^3) + (4.5 \\times 10^2)$",
+      "choices": [
+        "$5.95 \\times 10^3$",
+        "$1.0 \\times 10^4$",
+        "$5.95 \\times 10^2$",
+        "$5.545 \\times 10^3$"
+      ],
+      "answer": "$5.95 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Calculate: $(7.0 \\times 10^{-1}) - (5.0 \\times 10^{-3})$",
+      "choices": [
+        "$6.95 \\times 10^{-1}$",
+        "$2.0 \\times 10^{-1}$",
+        "$6.95 \\times 10^{-3}$",
+        "$6.95 \\times 10^{-4}$"
+      ],
+      "answer": "$6.95 \\times 10^{-1}$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Calculate: $(1.5 \\times 10^{-2}) \\times (8 \\times 10^4) \\div (3 \\times 10^1)$",
+      "choices": [
+        "$4 \\times 10^0$",
+        "$4 \\times 10^1$",
+        "$4 \\times 10^2$",
+        "$4 \\times 10^{-1}$"
+      ],
+      "answer": "$4 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Order from smallest to largest: $2.1 \\times 10^{-2}, 3.5 \\times 10^{-1}, 1.0 \\times 10^{-3}$",
+      "choices": [
+        "$1.0 \\times 10^{-3}, 2.1 \\times 10^{-2}, 3.5 \\times 10^{-1}$",
+        "$3.5 \\times 10^{-1}, 2.1 \\times 10^{-2}, 1.0 \\times 10^{-3}$",
+        "$1.0 \\times 10^{-3}, 3.5 \\times 10^{-1}, 2.1 \\times 10^{-2}$",
+        "$2.1 \\times 10^{-2}, 1.0 \\times 10^{-3}, 3.5 \\times 10^{-1}$"
+      ],
+      "answer": "$1.0 \\times 10^{-3}, 2.1 \\times 10^{-2}, 3.5 \\times 10^{-1}$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "The average distance from Earth to the Moon is $3.84 \\times 10^8$ meters. If a spacecraft travels at $1.2 \\times 10^4$ meters per second, how long would it take to reach the Moon?",
+      "choices": [
+        "$3.2 \\times 10^4$ seconds",
+        "$3.2 \\times 10^3$ seconds",
+        "$3.2 \\times 10^2$ seconds",
+        "$3.2 \\times 10^5$ seconds"
+      ],
+      "answer": "$3.2 \\times 10^4$ seconds",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Calculate: $(1.1 \\times 10^5) + (9.0 \\times 10^3)$",
+      "choices": [
+        "$1.19 \\times 10^5$",
+        "$2.0 \\times 10^5$",
+        "$1.19 \\times 10^3$",
+        "$1.109 \\times 10^5$"
+      ],
+      "answer": "$1.19 \\times 10^5$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Calculate: $(5.0 \\times 10^{-6}) - (1.5 \\times 10^{-7})$",
+      "choices": [
+        "$4.85 \\times 10^{-6}$",
+        "$3.5 \\times 10^{-6}$",
+        "$4.85 \\times 10^{-7}$",
+        "$4.85 \\times 10^{-13}$"
+      ],
+      "answer": "$4.85 \\times 10^{-6}$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Calculate: $(2.8 \\times 10^9) \\times (2 \\times 10^{-5}) \\div (7 \\times 10^3)$",
+      "choices": [
+        "$0.8 \\times 10^1$",
+        "$8 \\times 10^0$",
+        "$8 \\times 10^1$",
+        "$8 \\times 10^{-1}$"
+      ],
+      "answer": "$8 \\times 10^0$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Order from smallest to largest: $8.0 \\times 10^2, 1.5 \\times 10^3, 9.0 \\times 10^1$",
+      "choices": [
+        "$9.0 \\times 10^1, 8.0 \\times 10^2, 1.5 \\times 10^3$",
+        "$1.5 \\times 10^3, 8.0 \\times 10^2, 9.0 \\times 10^1$",
+        "$9.0 \\times 10^1, 1.5 \\times 10^3, 8.0 \\times 10^2$",
+        "$8.0 \\times 10^2, 9.0 \\times 10^1, 1.5 \\times 10^3$"
+      ],
+      "answer": "$9.0 \\times 10^1, 8.0 \\times 10^2, 1.5 \\times 10^3$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "A bacterial colony contains $5.0 \\times 10^7$ bacteria. If the population doubles every hour, how many bacteria will there be after 2 hours?",
+      "choices": [
+        "$1.0 \\times 10^8$",
+        "$2.0 \\times 10^8$",
+        "$2.5 \\times 10^7$",
+        "$1.0 \\times 10^{14}$"
+      ],
+      "answer": "$2.0 \\times 10^8$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Calculate: $(6.0 \\times 10^4) + (2.0 \\times 10^2)$",
+      "choices": [
+        "$6.02 \\times 10^4$",
+        "$8.0 \\times 10^4$",
+        "$6.02 \\times 10^2$",
+        "$6.002 \\times 10^4$"
+      ],
+      "answer": "$6.02 \\times 10^4$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Calculate: $(1.0 \\times 10^{-3}) - (5.0 \\times 10^{-5})$",
+      "choices": [
+        "$9.5 \\times 10^{-4}$",
+        "$5.0 \\times 10^{-4}$",
+        "$9.5 \\times 10^{-5}$",
+        "$9.5 \\times 10^{-8}$"
+      ],
+      "answer": "$9.5 \\times 10^{-4}$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Calculate: $(3.6 \\times 10^{10}) \\times (2 \\times 10^{-6}) \\div (1.8 \\times 10^3)$",
+      "choices": [
+        "$4 \\times 10^1$",
+        "$4 \\times 10^2$",
+        "$4 \\times 10^0$",
+        "$4 \\times 10^3$"
+      ],
+      "answer": "$4 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Order from smallest to largest: $1.0 \\times 10^{-1}, 5.0 \\times 10^{-2}, 8.0 \\times 10^{-3}$",
+      "choices": [
+        "$8.0 \\times 10^{-3}, 5.0 \\times 10^{-2}, 1.0 \\times 10^{-1}$",
+        "$1.0 \\times 10^{-1}, 5.0 \\times 10^{-2}, 8.0 \\times 10^{-3}$",
+        "$8.0 \\times 10^{-3}, 1.0 \\times 10^{-1}, 5.0 \\times 10^{-2}$",
+        "$5.0 \\times 10^{-2}, 8.0 \\times 10^{-3}, 1.0 \\times 10^{-1}$"
+      ],
+      "answer": "$8.0 \\times 10^{-3}, 5.0 \\times 10^{-2}, 1.0 \\times 10^{-1}$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "A factory produces $2.5 \\times 10^4$ units per day. If they operate for $2 \\times 10^2$ days, how many units are produced in total?",
+      "choices": [
+        "$5 \\times 10^6$",
+        "$5 \\times 10^5$",
+        "$5 \\times 10^7$",
+        "$5 \\times 10^4$"
+      ],
+      "answer": "$5 \\times 10^6$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Calculate: $(2.5 \\times 10^6) + (7.5 \\times 10^5)$",
+      "choices": [
+        "$3.25 \\times 10^6$",
+        "$1.0 \\times 10^7$",
+        "$3.25 \\times 10^5$",
+        "$2.575 \\times 10^6$"
+      ],
+      "answer": "$3.25 \\times 10^6$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Calculate: $(9.0 \\times 10^{-4}) - (1.0 \\times 10^{-5})$",
+      "choices": [
+        "$8.9 \\times 10^{-4}$",
+        "$8.0 \\times 10^{-4}$",
+        "$8.9 \\times 10^{-5}$",
+        "$8.9 \\times 10^{-9}$"
+      ],
+      "answer": "$8.9 \\times 10^{-4}$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Calculate: $(4.8 \\times 10^{11}) \\times (5 \\times 10^{-7}) \\div (1.2 \\times 10^3)$",
+      "choices": [
+        "$2 \\times 10^1$",
+        "$2 \\times 10^2$",
+        "$2 \\times 10^0$",
+        "$2 \\times 10^3$"
+      ],
+      "answer": "$2 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Order from smallest to largest: $3.0 \\times 10^5, 1.0 \\times 10^6, 8.0 \\times 10^4$",
+      "choices": [
+        "$8.0 \\times 10^4, 3.0 \\times 10^5, 1.0 \\times 10^6$",
+        "$1.0 \\times 10^6, 3.0 \\times 10^5, 8.0 \\times 10^4$",
+        "$8.0 \\times 10^4, 1.0 \\times 10^6, 3.0 \\times 10^5$",
+        "$3.0 \\times 10^5, 8.0 \\times 10^4, 1.0 \\times 10^6$"
+      ],
+      "answer": "$8.0 \\times 10^4, 3.0 \\times 10^5, 1.0 \\times 10^6$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "The human body contains about $5 \\times 10^6$ red blood cells per microliter. If a person has $5 \\times 10^3$ microliters of blood, how many red blood cells are in their body?",
+      "choices": [
+        "$2.5 \\times 10^{10}$",
+        "$2.5 \\times 10^9$",
+        "$2.5 \\times 10^{11}$",
+        "$2.5 \\times 10^{12}$"
+      ],
+      "answer": "$2.5 \\times 10^{10}$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Calculate: $(1.5 \\times 10^7) + (8.5 \\times 10^6)$",
+      "choices": [
+        "$2.35 \\times 10^7$",
+        "$1.0 \\times 10^8$",
+        "$2.35 \\times 10^6$",
+        "$1.585 \\times 10^7$"
+      ],
+      "answer": "$2.35 \\times 10^7$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Calculate: $(6.0 \\times 10^{-2}) - (2.0 \\times 10^{-3})$",
+      "choices": [
+        "$5.8 \\times 10^{-2}$",
+        "$4.0 \\times 10^{-2}$",
+        "$5.8 \\times 10^{-3}$",
+        "$5.8 \\times 10^{-5}$"
+      ],
+      "answer": "$5.8 \\times 10^{-2}$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Calculate: $(7.5 \\times 10^{12}) \\times (4 \\times 10^{-8}) \\div (1.5 \\times 10^3)$",
+      "choices": [
+        "$2 \\times 10^1$",
+        "$2 \\times 10^2$",
+        "$2 \\times 10^0$",
+        "$2 \\times 10^3$"
+      ],
+      "answer": "$2 \\times 10^1$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Order from smallest to largest: $2.0 \\times 10^{-1}, 4.0 \\times 10^{-2}, 1.0 \\times 10^{-3}$",
+      "choices": [
+        "$1.0 \\times 10^{-3}, 4.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$",
+        "$2.0 \\times 10^{-1}, 4.0 \\times 10^{-2}, 1.0 \\times 10^{-3}$",
+        "$1.0 \\times 10^{-3}, 2.0 \\times 10^{-1}, 4.0 \\times 10^{-2}$",
+        "$4.0 \\times 10^{-2}, 1.0 \\times 10^{-3}, 2.0 \\times 10^{-1}$"
+      ],
+      "answer": "$1.0 \\times 10^{-3}, 4.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "The diameter of the Earth is about $1.27 \\times 10^7$ meters. The diameter of a human hair is about $1 \\times 10^{-4}$ meters. How many times larger is the Earth's diameter than a human hair's diameter?",
+      "choices": [
+        "$1.27 \\times 10^{11}$",
+        "$1.27 \\times 10^{10}$",
+        "$1.27 \\times 10^{12}$",
+        "$1.27 \\times 10^{13}$"
+      ],
+      "answer": "$1.27 \\times 10^{11}$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Calculate: $(3.2 \\times 10^4 + 1.5 \\times 10^3) \\times (2 \\times 10^{-2})$",
+      "choices": [
+        "$6.7 \\times 10^2$",
+        "$6.7 \\times 10^1$",
+        "$6.7 \\times 10^3$",
+        "$6.7 \\times 10^0$"
+      ],
+      "answer": "$6.7 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Calculate: $(8.0 \\times 10^{-5} - 3.0 \\times 10^{-6}) \\div (2 \\times 10^{-3})$",
+      "choices": [
+        "$3.85 \\times 10^{-2}$",
+        "$3.85 \\times 10^{-3}$",
+        "$3.85 \\times 10^{-1}$",
+        "$3.85 \\times 10^{-4}$"
+      ],
+      "answer": "$3.85 \\times 10^{-2}$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "If a star is $4.5 \\times 10^{16}$ meters away and light travels at $3 \\times 10^8$ m/s, how many years does it take for light to reach Earth? (1 year $\\approx 3.15 \\times 10^7$ seconds)",
+      "choices": [
+        "$4.76 \\times 10^0$ years",
+        "$4.76 \\times 10^1$ years",
+        "$4.76 \\times 10^2$ years",
+        "$4.76 \\times 10^3$ years"
+      ],
+      "answer": "$4.76 \\times 10^0$ years",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Calculate: $(1.2 \\times 10^5 \\times 4 \\times 10^{-2}) + (3.0 \\times 10^2)$",
+      "choices": [
+        "$7.8 \\times 10^2$",
+        "$4.8 \\times 10^3$",
+        "$7.8 \\times 10^3$",
+        "$4.8 \\times 10^2$"
+      ],
+      "answer": "$7.8 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Order from smallest to largest: $1.2 \\times 10^{-3}, 8.0 \\times 10^{-4}, 5.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$",
+      "choices": [
+        "$8.0 \\times 10^{-4}, 1.2 \\times 10^{-3}, 5.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$",
+        "$2.0 \\times 10^{-1}, 5.0 \\times 10^{-2}, 1.2 \\times 10^{-3}, 8.0 \\times 10^{-4}$",
+        "$8.0 \\times 10^{-4}, 2.0 \\times 10^{-1}, 1.2 \\times 10^{-3}, 5.0 \\times 10^{-2}$",
+        "$1.2 \\times 10^{-3}, 8.0 \\times 10^{-4}, 2.0 \\times 10^{-1}, 5.0 \\times 10^{-2}$"
+      ],
+      "answer": "$8.0 \\times 10^{-4}, 1.2 \\times 10^{-3}, 5.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Calculate: $(6.1 \\times 10^2 + 2.8 \\times 10^1) \\div (1.0 \\times 10^0)$",
+      "choices": [
+        "$6.38 \\times 10^2$",
+        "$8.9 \\times 10^2$",
+        "$6.38 \\times 10^1$",
+        "$6.38 \\times 10^3$"
+      ],
+      "answer": "$6.38 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Calculate: $(4.5 \\times 10^{-5} - 1.2 \\times 10^{-6}) \\times (3 \\times 10^2)$",
+      "choices": [
+        "$1.314 \\times 10^{-2}$",
+        "$1.314 \\times 10^{-3}$",
+        "$1.314 \\times 10^{-1}$",
+        "$1.314 \\times 10^{-4}$"
+      ],
+      "answer": "$1.314 \\times 10^{-2}$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "The mass of the Earth is approximately $5.97 \\times 10^{24}$ kg. The mass of the Moon is approximately $7.35 \\times 10^{22}$ kg. What is their combined mass?",
+      "choices": [
+        "$6.0435 \\times 10^{24}$ kg",
+        "$6.705 \\times 10^{24}$ kg",
+        "$5.97735 \\times 10^{24}$ kg",
+        "$6.0435 \\times 10^{22}$ kg"
+      ],
+      "answer": "$6.0435 \\times 10^{24}$ kg",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Calculate: $(1.2 \\times 10^6 \\div 4 \\times 10^{-2}) - (1.0 \\times 10^7)$",
+      "choices": [
+        "$2.0 \\times 10^7$",
+        "$3.0 \\times 10^7$",
+        "$2.0 \\times 10^6$",
+        "$2.0 \\times 10^8$"
+      ],
+      "answer": "$2.0 \\times 10^7$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Order from smallest to largest: $3.0 \\times 10^5, 1.0 \\times 10^6, 8.0 \\times 10^4, 5.0 \\times 10^5$",
+      "choices": [
+        "$8.0 \\times 10^4, 3.0 \\times 10^5, 5.0 \\times 10^5, 1.0 \\times 10^6$",
+        "$1.0 \\times 10^6, 5.0 \\times 10^5, 3.0 \\times 10^5, 8.0 \\times 10^4$",
+        "$8.0 \\times 10^4, 1.0 \\times 10^6, 3.0 \\times 10^5, 5.0 \\times 10^5$",
+        "$3.0 \\times 10^5, 8.0 \\times 10^4, 5.0 \\times 10^5, 1.0 \\times 10^6$"
+      ],
+      "answer": "$8.0 \\times 10^4, 3.0 \\times 10^5, 5.0 \\times 10^5, 1.0 \\times 10^6$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Calculate: $(2.0 \\times 10^5 + 8.0 \\times 10^4) \\div (1.4 \\times 10^2)$",
+      "choices": [
+        "$2 \\times 10^3$",
+        "$2 \\times 10^2$",
+        "$2 \\times 10^4$",
+        "$2 \\times 10^1$"
+      ],
+      "answer": "$2 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Calculate: $(9.1 \\times 10^{-2} - 3.4 \\times 10^{-3}) \\times (5 \\times 10^1)$",
+      "choices": [
+        "$4.38 \\times 10^0$",
+        "$4.38 \\times 10^{-1}$",
+        "$4.38 \\times 10^1$",
+        "$4.38 \\times 10^{-2}$"
+      ],
+      "answer": "$4.38 \\times 10^0$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "A light-year is approximately $9.46 \\times 10^{15}$ meters. How many light-years is $1.892 \\times 10^{17}$ meters?",
+      "choices": [
+        "$20$ light-years",
+        "$2$ light-years",
+        "$200$ light-years",
+        "$0.2$ light-years"
+      ],
+      "answer": "$20$ light-years",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Calculate: $(6 \\times 10^{-4} \\times 1.5 \\times 10^{-3}) + (1.0 \\times 10^{-7})$",
+      "choices": [
+        "$1.0 \\times 10^{-6}$",
+        "$9.0 \\times 10^{-7}$",
+        "$1.0 \\times 10^{-7}$",
+        "$1.0 \\times 10^{-8}$"
+      ],
+      "answer": "$1.0 \\times 10^{-6}$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Order from smallest to largest: $1.0 \\times 10^{-1}, 5.0 \\times 10^{-2}, 8.0 \\times 10^{-3}, 2.0 \\times 10^{-1}$",
+      "choices": [
+        "$8.0 \\times 10^{-3}, 5.0 \\times 10^{-2}, 1.0 \\times 10^{-1}, 2.0 \\times 10^{-1}$",
+        "$2.0 \\times 10^{-1}, 1.0 \\times 10^{-1}, 5.0 \\times 10^{-2}, 8.0 \\times 10^{-3}$",
+        "$8.0 \\times 10^{-3}, 2.0 \\times 10^{-1}, 5.0 \\times 10^{-2}, 1.0 \\times 10^{-1}$",
+        "$5.0 \\times 10^{-2}, 8.0 \\times 10^{-3}, 1.0 \\times 10^{-1}, 2.0 \\times 10^{-1}$"
+      ],
+      "answer": "$8.0 \\times 10^{-3}, 5.0 \\times 10^{-2}, 1.0 \\times 10^{-1}, 2.0 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Calculate: $(1.3 \\times 10^3 + 5.6 \\times 10^2) \\times (1.0 \\times 10^{-1})$",
+      "choices": [
+        "$1.86 \\times 10^2$",
+        "$1.86 \\times 10^1$",
+        "$1.86 \\times 10^3$",
+        "$1.86 \\times 10^0$"
+      ],
+      "answer": "$1.86 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Calculate: $(8.0 \\times 10^{-4} - 2.5 \\times 10^{-5}) \\div (5 \\times 10^{-2})$",
+      "choices": [
+        "$1.55 \\times 10^{-2}$",
+        "$1.55 \\times 10^{-3}$",
+        "$1.55 \\times 10^{-1}$",
+        "$1.55 \\times 10^{-4}$"
+      ],
+      "answer": "$1.55 \\times 10^{-2}$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "The human brain has about $8.6 \\times 10^{10}$ neurons. If each neuron has $10^3$ connections, what is the total number of connections?",
+      "choices": [
+        "$8.6 \\times 10^{13}$",
+        "$8.6 \\times 10^{10}$",
+        "$8.6 \\times 10^{12}$",
+        "$8.6 \\times 10^{11}$"
+      ],
+      "answer": "$8.6 \\times 10^{13}$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Calculate: $(2.5 \\times 10^7 \\times 4 \\times 10^{-5}) - (1.0 \\times 10^2)$",
+      "choices": [
+        "$9.0 \\times 10^2$",
+        "$1.0 \\times 10^3$",
+        "$9.0 \\times 10^1$",
+        "$9.0 \\times 10^0$"
+      ],
+      "answer": "$9.0 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Order from smallest to largest: $4.5 \\times 10^0, 9.1 \\times 10^{-1}, 2.3 \\times 10^1, 3.0 \\times 10^2$",
+      "choices": [
+        "$9.1 \\times 10^{-1}, 4.5 \\times 10^0, 2.3 \\times 10^1, 3.0 \\times 10^2$",
+        "$3.0 \\times 10^2, 2.3 \\times 10^1, 4.5 \\times 10^0, 9.1 \\times 10^{-1}$",
+        "$9.1 \\times 10^{-1}, 2.3 \\times 10^1, 4.5 \\times 10^0, 3.0 \\times 10^2$",
+        "$4.5 \\times 10^0, 9.1 \\times 10^{-1}, 3.0 \\times 10^2, 2.3 \\times 10^1$"
+      ],
+      "answer": "$9.1 \\times 10^{-1}, 4.5 \\times 10^0, 2.3 \\times 10^1, 3.0 \\times 10^2$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Calculate: $(4.2 \\times 10^6 + 1.8 \\times 10^5) \\div (1.5 \\times 10^3)$",
+      "choices": [
+        "$2.92 \\times 10^3$",
+        "$2.92 \\times 10^2$",
+        "$2.92 \\times 10^4$",
+        "$2.92 \\times 10^1$"
+      ],
+      "answer": "$2.92 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Calculate: $(7.0 \\times 10^{-6} - 3.5 \\times 10^{-7}) \\times (2 \\times 10^3)$",
+      "choices": [
+        "$1.33 \\times 10^{-2}$",
+        "$1.33 \\times 10^{-3}$",
+        "$1.33 \\times 10^{-1}$",
+        "$1.33 \\times 10^{-4}$"
+      ],
+      "answer": "$1.33 \\times 10^{-2}$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "The diameter of a red blood cell is approximately $7.5 \\times 10^{-6}$ meters. How many red blood cells would fit across a $1.5$ meter desk?",
+      "choices": [
+        "$2 \\times 10^5$",
+        "$2 \\times 10^6$",
+        "$2 \\times 10^4$",
+        "$2 \\times 10^7$"
+      ],
+      "answer": "$2 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Calculate: $(8 \\times 10^{-2} \\times 1.2 \\times 10^5) + (5.0 \\times 10^3)$",
+      "choices": [
+        "$1.46 \\times 10^4$",
+        "$9.6 \\times 10^3$",
+        "$1.46 \\times 10^3$",
+        "$1.46 \\times 10^5$"
+      ],
+      "answer": "$1.46 \\times 10^4$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Order from smallest to largest: $6.0 \\times 10^{-5}, 1.0 \\times 10^{-4}, 3.0 \\times 10^{-6}, 8.0 \\times 10^{-5}$",
+      "choices": [
+        "$3.0 \\times 10^{-6}, 6.0 \\times 10^{-5}, 8.0 \\times 10^{-5}, 1.0 \\times 10^{-4}$",
+        "$1.0 \\times 10^{-4}, 8.0 \\times 10^{-5}, 6.0 \\times 10^{-5}, 3.0 \\times 10^{-6}$",
+        "$3.0 \\times 10^{-6}, 1.0 \\times 10^{-4}, 6.0 \\times 10^{-5}, 8.0 \\times 10^{-5}$",
+        "$6.0 \\times 10^{-5}, 3.0 \\times 10^{-6}, 8.0 \\times 10^{-5}, 1.0 \\times 10^{-4}$"
+      ],
+      "answer": "$3.0 \\times 10^{-6}, 6.0 \\times 10^{-5}, 8.0 \\times 10^{-5}, 1.0 \\times 10^{-4}$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Calculate: $(5.0 \\times 10^7 + 3.0 \\times 10^6) \\div (5.3 \\times 10^2)$",
+      "choices": [
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^6$",
+        "$1.0 \\times 10^3$"
+      ],
+      "answer": "$1.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Calculate: $(1.0 \\times 10^{-7} - 5.0 \\times 10^{-9}) \\times (4 \\times 10^4)$",
+      "choices": [
+        "$3.8 \\times 10^{-3}$",
+        "$3.8 \\times 10^{-2}$",
+        "$3.8 \\times 10^{-1}$",
+        "$3.8 \\times 10^{-4}$"
+      ],
+      "answer": "$3.8 \\times 10^{-3}$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "The mass of a dust particle is $7.5 \\times 10^{-10}$ kg. If there are $2 \\times 10^{12}$ dust particles in a room, what is the total mass of dust?",
+      "choices": [
+        "$1.5 \\times 10^3$ kg",
+        "$1.5 \\times 10^2$ kg",
+        "$1.5 \\times 10^4$ kg",
+        "$1.5 \\times 10^5$ kg"
+      ],
+      "answer": "$1.5 \\times 10^3$ kg",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Calculate: $(3.5 \\times 10^4 \\times 2 \\times 10^3) + (1.0 \\times 10^8)$",
+      "choices": [
+        "$1.7 \\times 10^8$",
+        "$7.0 \\times 10^7$",
+        "$1.7 \\times 10^7$",
+        "$1.7 \\times 10^9$"
+      ],
+      "answer": "$1.7 \\times 10^8$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Order from smallest to largest: $7.2 \\times 10^4, 1.1 \\times 10^5, 9.9 \\times 10^3, 5.0 \\times 10^4$",
+      "choices": [
+        "$9.9 \\times 10^3, 5.0 \\times 10^4, 7.2 \\times 10^4, 1.1 \\times 10^5$",
+        "$1.1 \\times 10^5, 7.2 \\times 10^4, 5.0 \\times 10^4, 9.9 \\times 10^3$",
+        "$9.9 \\times 10^3, 1.1 \\times 10^5, 5.0 \\times 10^4, 7.2 \\times 10^4$",
+        "$5.0 \\times 10^4, 9.9 \\times 10^3, 7.2 \\times 10^4, 1.1 \\times 10^5$"
+      ],
+      "answer": "$9.9 \\times 10^3, 5.0 \\times 10^4, 7.2 \\times 10^4, 1.1 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Calculate: $(1.5 \\times 10^4 + 8.5 \\times 10^3) \\div (1.0 \\times 10^1)$",
+      "choices": [
+        "$2.35 \\times 10^3$",
+        "$2.35 \\times 10^2$",
+        "$2.35 \\times 10^4$",
+        "$2.35 \\times 10^1$"
+      ],
+      "answer": "$2.35 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Calculate: $(6.0 \\times 10^{-3} - 2.0 \\times 10^{-4}) \\times (1.0 \\times 10^2)$",
+      "choices": [
+        "$5.8 \\times 10^{-1}$",
+        "$5.8 \\times 10^{-2}$",
+        "$5.8 \\times 10^0$",
+        "$5.8 \\times 10^{-3}$"
+      ],
+      "answer": "$5.8 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "The Earth's population is about $8 \\times 10^9$ people. If each person consumes $2 \\times 10^3$ calories per day, how many total calories are consumed per day?",
+      "choices": [
+        "$1.6 \\times 10^{13}$ calories",
+        "$1.6 \\times 10^{12}$ calories",
+        "$1.6 \\times 10^{14}$ calories",
+        "$1.6 \\times 10^{11}$ calories"
+      ],
+      "answer": "$1.6 \\times 10^{13}$ calories",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Calculate: $(7 \\times 10^{-5} \\times 3 \\times 10^{-2}) + (1.0 \\times 10^{-6})$",
+      "choices": [
+        "$3.1 \\times 10^{-6}$",
+        "$2.1 \\times 10^{-6}$",
+        "$3.1 \\times 10^{-7}$",
+        "$3.1 \\times 10^{-5}$"
+      ],
+      "answer": "$3.1 \\times 10^{-6}$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Order from smallest to largest: $2.1 \\times 10^{-2}, 3.5 \\times 10^{-1}, 1.0 \\times 10^{-3}, 5.0 \\times 10^{-2}$",
+      "choices": [
+        "$1.0 \\times 10^{-3}, 2.1 \\times 10^{-2}, 5.0 \\times 10^{-2}, 3.5 \\times 10^{-1}$",
+        "$3.5 \\times 10^{-1}, 5.0 \\times 10^{-2}, 2.1 \\times 10^{-2}, 1.0 \\times 10^{-3}$",
+        "$1.0 \\times 10^{-3}, 3.5 \\times 10^{-1}, 2.1 \\times 10^{-2}, 5.0 \\times 10^{-2}$",
+        "$2.1 \\times 10^{-2}, 1.0 \\times 10^{-3}, 5.0 \\times 10^{-2}, 3.5 \\times 10^{-1}$"
+      ],
+      "answer": "$1.0 \\times 10^{-3}, 2.1 \\times 10^{-2}, 5.0 \\times 10^{-2}, 3.5 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Calculate: $(9.0 \\times 10^8 + 1.0 \\times 10^7) \\div (9.1 \\times 10^3)$",
+      "choices": [
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^6$",
+        "$1.0 \\times 10^3$"
+      ],
+      "answer": "$1.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Calculate: $(2.5 \\times 10^{-5} - 1.0 \\times 10^{-6}) \\times (2 \\times 10^3)$",
+      "choices": [
+        "$4.8 \\times 10^{-2}$",
+        "$4.8 \\times 10^{-3}$",
+        "$4.8 \\times 10^{-1}$",
+        "$4.8 \\times 10^{-4}$"
+      ],
+      "answer": "$4.8 \\times 10^{-2}$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "A microchip has $5 \\times 10^9$ transistors. If a new technology allows for $1.5 \\times 10^2$ times more transistors, how many transistors would the new chip have?",
+      "choices": [
+        "$7.5 \\times 10^{11}$",
+        "$7.5 \\times 10^{12}$",
+        "$7.5 \\times 10^{10}$",
+        "$7.5 \\times 10^{13}$"
+      ],
+      "answer": "$7.5 \\times 10^{11}$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Calculate: $(4.5 \\times 10^6 \\times 2 \\times 10^{-3}) + (1.0 \\times 10^4)$",
+      "choices": [
+        "$1.9 \\times 10^4$",
+        "$9.0 \\times 10^3$",
+        "$1.9 \\times 10^3$",
+        "$1.9 \\times 10^5$"
+      ],
+      "answer": "$1.9 \\times 10^4$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Order from smallest to largest: $8.0 \\times 10^2, 1.5 \\times 10^3, 9.0 \\times 10^1, 2.0 \\times 10^3$",
+      "choices": [
+        "$9.0 \\times 10^1, 8.0 \\times 10^2, 1.5 \\times 10^3, 2.0 \\times 10^3$",
+        "$2.0 \\times 10^3, 1.5 \\times 10^3, 8.0 \\times 10^2, 9.0 \\times 10^1$",
+        "$9.0 \\times 10^1, 2.0 \\times 10^3, 8.0 \\times 10^2, 1.5 \\times 10^3$",
+        "$8.0 \\times 10^2, 9.0 \\times 10^1, 2.0 \\times 10^3, 1.5 \\times 10^3$"
+      ],
+      "answer": "$9.0 \\times 10^1, 8.0 \\times 10^2, 1.5 \\times 10^3, 2.0 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Calculate: $(2.2 \\times 10^5 + 3.3 \\times 10^4) \\div (2.53 \\times 10^2)$",
+      "choices": [
+        "$1.0 \\times 10^3$",
+        "$1.0 \\times 10^2$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^1$"
+      ],
+      "answer": "$1.0 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Calculate: $(5.0 \\times 10^{-2} - 1.5 \\times 10^{-3}) \\times (2 \\times 10^1)$",
+      "choices": [
+        "$9.7 \\times 10^{-1}$",
+        "$9.7 \\times 10^{-2}$",
+        "$9.7 \\times 10^0$",
+        "$9.7 \\times 10^{-3}$"
+      ],
+      "answer": "$9.7 \\times 10^{-1}$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "The mass of a proton is $1.67 \\times 10^{-27}$ kg. If a nucleus has $5 \\times 10^2$ protons, what is the total mass of the protons in the nucleus?",
+      "choices": [
+        "$8.35 \\times 10^{-25}$ kg",
+        "$8.35 \\times 10^{-26}$ kg",
+        "$8.35 \\times 10^{-24}$ kg",
+        "$8.35 \\times 10^{-27}$ kg"
+      ],
+      "answer": "$8.35 \\times 10^{-25}$ kg",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Calculate: $(1.1 \\times 10^{-6} \\times 5 \\times 10^8) + (1.0 \\times 10^3)$",
+      "choices": [
+        "$1.55 \\times 10^3$",
+        "$5.5 \\times 10^2$",
+        "$1.55 \\times 10^2$",
+        "$1.55 \\times 10^4$"
+      ],
+      "answer": "$1.55 \\times 10^3$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Order from smallest to largest: $6.0 \\times 10^4, 2.0 \\times 10^5, 1.0 \\times 10^3, 5.0 \\times 10^4$",
+      "choices": [
+        "$1.0 \\times 10^3, 5.0 \\times 10^4, 6.0 \\times 10^4, 2.0 \\times 10^5$",
+        "$2.0 \\times 10^5, 6.0 \\times 10^4, 5.0 \\times 10^4, 1.0 \\times 10^3$",
+        "$1.0 \\times 10^3, 2.0 \\times 10^5, 5.0 \\times 10^4, 6.0 \\times 10^4$",
+        "$5.0 \\times 10^4, 1.0 \\times 10^3, 6.0 \\times 10^4, 2.0 \\times 10^5$"
+      ],
+      "answer": "$1.0 \\times 10^3, 5.0 \\times 10^4, 6.0 \\times 10^4, 2.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Calculate: $(7.5 \\times 10^9 + 2.5 \\times 10^8) \\div (7.75 \\times 10^4)$",
+      "choices": [
+        "$1.0 \\times 10^5$",
+        "$1.0 \\times 10^4$",
+        "$1.0 \\times 10^6$",
+        "$1.0 \\times 10^3$"
+      ],
+      "answer": "$1.0 \\times 10^5$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Calculate: $(3.0 \\times 10^{-1} - 5.0 \\times 10^{-2}) \\times (3 \\times 10^1)$",
+      "choices": [
+        "$7.5 \\times 10^0$",
+        "$7.5 \\times 10^{-1}$",
+        "$7.5 \\times 10^1$",
+        "$7.5 \\times 10^{-2}$"
+      ],
+      "answer": "$7.5 \\times 10^0$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "A supercomputer can perform $1.5 \\times 10^{18}$ floating-point operations per second (FLOPS). How many operations can it perform in $1.0 \\times 10^3$ seconds?",
+      "choices": [
+        "$1.5 \\times 10^{21}$ FLOPS",
+        "$1.5 \\times 10^{20}$ FLOPS",
+        "$1.5 \\times 10^{22}$ FLOPS",
+        "$1.5 \\times 10^{19}$ FLOPS"
+      ],
+      "answer": "$1.5 \\times 10^{21}$ FLOPS",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Calculate: $(9 \\times 10^3 \\times 8 \\times 10^4) + (1.0 \\times 10^8)$",
+      "choices": [
+        "$1.72 \\times 10^8$",
+        "$7.2 \\times 10^8$",
+        "$1.72 \\times 10^7$",
+        "$1.72 \\times 10^9$"
+      ],
+      "answer": "$1.72 \\times 10^8$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Order from smallest to largest: $2.0 \\times 10^{-1}, 4.0 \\times 10^{-2}, 1.0 \\times 10^{-3}, 6.0 \\times 10^{-2}$",
+      "choices": [
+        "$1.0 \\times 10^{-3}, 4.0 \\times 10^{-2}, 6.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$",
+        "$2.0 \\times 10^{-1}, 6.0 \\times 10^{-2}, 4.0 \\times 10^{-2}, 1.0 \\times 10^{-3}$",
+        "$1.0 \\times 10^{-3}, 2.0 \\times 10^{-1}, 4.0 \\times 10^{-2}, 6.0 \\times 10^{-2}$",
+        "$4.0 \\times 10^{-2}, 1.0 \\times 10^{-3}, 6.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$"
+      ],
+      "answer": "$1.0 \\times 10^{-3}, 4.0 \\times 10^{-2}, 6.0 \\times 10^{-2}, 2.0 \\times 10^{-1}$",
+      "points": 30
+    }
+  ]
 }

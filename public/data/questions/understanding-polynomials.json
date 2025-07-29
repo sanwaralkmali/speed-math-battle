@@ -2,12 +2,12 @@
   "title": "Understanding Polynomial Terminology",
   "description": "A quiz to test your understanding of polynomial terminology.",
   "waves": 5,
-  "timePerQuestion": 30,
+  "timePerQuestion": 90,
   "questions": [
     {
       "id": 1,
       "wave": 1,
-      "question": "How many terms are in 7x + 4?",
+      "question": "How many terms are in $7x + 4$?",
       "choices": ["1", "2", "3", "4"],
       "answer": "2",
       "points": 10
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "wave": 1,
-      "question": "What is the coefficient of x in 5x – 9?",
+      "question": "What is the coefficient of $x$ in $5x - 9$?",
       "choices": ["5", "-9", "1", "0"],
       "answer": "5",
       "points": 10
@@ -23,1469 +23,2375 @@
     {
       "id": 3,
       "wave": 1,
-      "question": "Identify the constant term in 3y + 8.",
-      "choices": ["8", "3", "y", "0"],
-      "answer": "8",
+      "question": "How many terms are in $3y^2$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 4,
       "wave": 1,
-      "question": "How many terms are in 2m?",
-      "choices": ["1", "2", "3", "0"],
-      "answer": "1",
+      "question": "What is the constant term in $2z + 11$?",
+      "choices": ["2", "11", "z", "0"],
+      "answer": "11",
       "points": 10
     },
     {
       "id": 5,
       "wave": 1,
-      "question": "What is the coefficient of y in –4y?",
-      "choices": ["-4", "4", "y", "0"],
-      "answer": "-4",
+      "question": "How many terms are in $a^3 - 2a + 5$?",
+      "choices": ["1", "2", "3", "5"],
+      "answer": "3",
       "points": 10
     },
     {
       "id": 6,
       "wave": 1,
-      "question": "Identify the constant in 6x.",
-      "choices": ["0", "6", "x", "1"],
-      "answer": "0",
+      "question": "What is the coefficient of $y^2$ in $y^2 + 6y - 1$?",
+      "choices": ["1", "6", "-1", "0"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 7,
       "wave": 1,
-      "question": "How many terms are in 9?",
-      "choices": ["1", "2", "0", "3"],
+      "question": "How many terms are in $15$?",
+      "choices": ["1", "2", "0", "15"],
       "answer": "1",
       "points": 10
     },
     {
       "id": 8,
       "wave": 1,
-      "question": "What is the coefficient of x in x + 3?",
-      "choices": ["1", "3", "x", "0"],
-      "answer": "1",
+      "question": "What is the constant term in $b^4 - 3b^2$?",
+      "choices": ["1", "-3", "0", "4"],
+      "answer": "0",
       "points": 10
     },
     {
       "id": 9,
       "wave": 1,
-      "question": "Identify the constant term in –2.",
-      "choices": ["-2", "2", "0", "1"],
-      "answer": "-2",
+      "question": "How many terms are in $c^5 + 2c^3 - c + 8$?",
+      "choices": ["2", "3", "4", "5"],
+      "answer": "4",
       "points": 10
     },
     {
       "id": 10,
       "wave": 1,
-      "question": "How many terms are in 4k – 1?",
-      "choices": ["2", "1", "3", "0"],
-      "answer": "2",
+      "question": "What is the coefficient of $z^3$ in $4z^3 - 7z + 2$?",
+      "choices": ["4", "-7", "2", "3"],
+      "answer": "4",
       "points": 10
     },
     {
       "id": 11,
       "wave": 1,
-      "question": "What is the coefficient of z in 0z + 5?",
-      "choices": ["0", "5", "z", "1"],
-      "answer": "0",
+      "question": "How many terms are in $10m - 1$?",
+      "choices": ["1", "2", "3", "10"],
+      "answer": "2",
       "points": 10
     },
     {
       "id": 12,
       "wave": 1,
-      "question": "Identify the constant term in 7a + 0.",
-      "choices": ["0", "7", "a", "1"],
-      "answer": "0",
+      "question": "What is the constant term in $p^2 + 2p - 10$?",
+      "choices": ["1", "2", "-10", "0"],
+      "answer": "-10",
       "points": 10
     },
     {
       "id": 13,
       "wave": 1,
-      "question": "How many terms are in –9x?",
-      "choices": ["1", "2", "3", "0"],
+      "question": "How many terms are in $x^2$?",
+      "choices": ["1", "2", "3", "4"],
       "answer": "1",
       "points": 10
     },
     {
       "id": 14,
       "wave": 1,
-      "question": "What is the coefficient of x in –x?",
-      "choices": ["-1", "1", "x", "0"],
-      "answer": "-1",
+      "question": "What is the coefficient of $y$ in $12y + 3$?",
+      "choices": ["12", "3", "1", "0"],
+      "answer": "12",
       "points": 10
     },
     {
       "id": 15,
       "wave": 1,
-      "question": "Identify the constant term in 12.",
-      "choices": ["12", "0", "1", "12"],
-      "answer": "12",
+      "question": "How many terms are in $5x^2 - 3x + 7$?",
+      "choices": ["1", "2", "3", "5"],
+      "answer": "3",
       "points": 10
     },
     {
       "id": 16,
       "wave": 1,
-      "question": "How many terms are in 3x + 7y?",
-      "choices": ["2", "1", "3", "0"],
-      "answer": "2",
+      "question": "What is the constant term in $100$?",
+      "choices": ["1", "10", "100", "0"],
+      "answer": "100",
       "points": 10
     },
     {
       "id": 17,
       "wave": 1,
-      "question": "What is the coefficient of y in 8x + 2y?",
-      "choices": ["2", "8", "y", "0"],
+      "question": "How many terms are in $1/2 x + 3/4$?",
+      "choices": ["1", "2", "3", "4"],
       "answer": "2",
       "points": 10
     },
     {
       "id": 18,
       "wave": 1,
-      "question": "Identify the constant term in 5x – 3y + 9.",
-      "choices": ["9", "5", "-3", "0"],
-      "answer": "9",
+      "question": "What is the coefficient of $x^4$ in $x^4 - 2x^2 + 5$?",
+      "choices": ["1", "-2", "5", "0"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 19,
       "wave": 1,
-      "question": "How many terms are in 4x – 5y + 2?",
-      "choices": ["3", "2", "1", "4"],
-      "answer": "3",
+      "question": "How many terms are in $9ab^2$?",
+      "choices": ["1", "2", "3", "9"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 20,
       "wave": 1,
-      "question": "What is the coefficient of x in x – 1?",
-      "choices": ["1", "-1", "0", "2"],
-      "answer": "1",
+      "question": "What is the constant term in $1/3 y^3 + 2/5 y$?",
+      "choices": ["1/3", "2/5", "0", "1"],
+      "answer": "0",
       "points": 10
     },
     {
       "id": 21,
       "wave": 1,
-      "question": "Identify the constant term in 0.",
-      "choices": ["0", "1", "-1", "undefined"],
-      "answer": "0",
+      "question": "How many terms are in $x^2 + y^2$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "2",
       "points": 10
     },
     {
       "id": 22,
       "wave": 1,
-      "question": "How many terms are in 6x²?",
-      "choices": ["1", "2", "3", "0"],
+      "question": "What is the coefficient of $m$ in $m - 7$?",
+      "choices": ["1", "-7", "0", "m"],
       "answer": "1",
       "points": 10
     },
     {
       "id": 23,
       "wave": 1,
-      "question": "What is the coefficient of x² in 3x²?",
-      "choices": ["3", "2", "x²", "1"],
+      "question": "How many terms are in $1.5x + 2.5y - 3.5z$?",
+      "choices": ["1", "2", "3", "4"],
       "answer": "3",
       "points": 10
     },
     {
       "id": 24,
       "wave": 1,
-      "question": "Identify the constant term in 2x² + 5.",
-      "choices": ["5", "2", "x²", "0"],
-      "answer": "5",
+      "question": "What is the constant term in $10x^2 - 5x$?",
+      "choices": ["10", "-5", "0", "1"],
+      "answer": "0",
       "points": 10
     },
     {
       "id": 25,
       "wave": 1,
-      "question": "How many terms are in 9x² – 4x?",
-      "choices": ["2", "1", "3", "0"],
-      "answer": "2",
+      "question": "How many terms are in $pqr$?",
+      "choices": ["1", "2", "3", "0"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 26,
       "wave": 1,
-      "question": "What is the coefficient of x in 9x² – 4x?",
-      "choices": ["-4", "9", "x", "4"],
-      "answer": "-4",
+      "question": "What is the coefficient of $x^3$ in $x^3 + 2x^2 + 3x + 4$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 27,
       "wave": 1,
-      "question": "Identify the constant term in 9x² – 4x.",
-      "choices": ["0", "-4", "9", "x"],
-      "answer": "0",
+      "question": "How many terms are in $-8$?",
+      "choices": ["1", "0", "2", "-8"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 28,
       "wave": 1,
-      "question": "How many terms are in –7x² + 3x – 1?",
-      "choices": ["3", "2", "1", "4"],
-      "answer": "3",
+      "question": "What is the constant term in $-5y + 1$?",
+      "choices": ["-5", "1", "0", "y"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 29,
       "wave": 1,
-      "question": "What is the coefficient of x² in –7x² + 3x – 1?",
-      "choices": ["-7", "3", "-1", "7"],
-      "answer": "-7",
+      "question": "How many terms are in $a^2b + ab^2$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "2",
       "points": 10
     },
     {
       "id": 30,
       "wave": 1,
-      "question": "Identify the constant term in –7x² + 3x – 1.",
-      "choices": ["-1", "-7", "3", "1"],
-      "answer": "-1",
+      "question": "What is the coefficient of $z$ in $z/2 + 7$?",
+      "choices": ["1", "2", "1/2", "7"],
+      "answer": "1/2",
       "points": 10
     },
     {
       "id": 31,
       "wave": 1,
-      "question": "How many terms are in 5x² + 0x – 9?",
-      "choices": ["2", "3", "1", "4"],
-      "answer": "3",
+      "question": "How many terms are in $x^2 - 4$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "2",
       "points": 10
     },
     {
       "id": 32,
       "wave": 1,
-      "question": "What is the coefficient of x in 5x² + 0x – 9?",
-      "choices": ["0", "5", "-9", "x"],
+      "question": "What is the constant term in $3x^2 - 2x + 0$?",
+      "choices": ["3", "-2", "0", "1"],
       "answer": "0",
       "points": 10
     },
     {
       "id": 33,
       "wave": 1,
-      "question": "Identify the constant term in 5x² + 0x – 9.",
-      "choices": ["-9", "5", "0", "9"],
-      "answer": "-9",
+      "question": "How many terms are in $17y^3$?",
+      "choices": ["1", "2", "3", "17"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 34,
       "wave": 1,
-      "question": "How many terms are in 1?",
-      "choices": ["1", "0", "2", "undefined"],
-      "answer": "1",
+      "question": "What is the coefficient of $x$ in $x/3$?",
+      "choices": ["1", "3", "1/3", "0"],
+      "answer": "1/3",
       "points": 10
     },
     {
       "id": 35,
       "wave": 1,
-      "question": "What is the degree of 7x?",
-      "choices": ["1", "0", "7", "x"],
-      "answer": "1",
+      "question": "How many terms are in $a - b + c - d$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "4",
       "points": 10
     },
     {
       "id": 36,
       "wave": 1,
-      "question": "What is the degree of –4?",
-      "choices": ["0", "1", "-4", "undefined"],
-      "answer": "0",
+      "question": "What is the constant term in $5x^2 + 2x - 1/2$?",
+      "choices": ["5", "2", "-1/2", "0"],
+      "answer": "-1/2",
       "points": 10
     },
     {
       "id": 37,
       "wave": 1,
-      "question": "What is the degree of 5x²?",
-      "choices": ["2", "5", "1", "0"],
-      "answer": "2",
+      "question": "How many terms are in $1/4 z^2$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "1",
       "points": 10
     },
     {
       "id": 38,
       "wave": 1,
-      "question": "What is the degree of 3x + 2?",
-      "choices": ["1", "2", "3", "0"],
+      "question": "What is the coefficient of $y^5$ in $y^5 + 9$?",
+      "choices": ["1", "9", "5", "0"],
       "answer": "1",
       "points": 10
     },
     {
       "id": 39,
       "wave": 1,
-      "question": "What is the degree of 8?",
-      "choices": ["0", "1", "8", "undefined"],
-      "answer": "0",
+      "question": "How many terms are in $20m^2 - 5m + 1$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "3",
       "points": 10
     },
     {
       "id": 40,
       "wave": 1,
-      "question": "What is the degree of x² + x + 1?",
-      "choices": ["2", "1", "0", "3"],
-      "answer": "2",
+      "question": "What is the constant term in $-100x$?",
+      "choices": ["-100", "1", "0", "x"],
+      "answer": "0",
       "points": 10
     },
-
     {
       "id": 41,
-      "wave": 2,
-      "question": "How many terms are in 4x² – 3x + 7?",
-      "choices": ["3", "2", "1", "4"],
+      "wave": 1,
+      "question": "How many terms are in $x^2 + 2xy + y^2$?",
+      "choices": ["1", "2", "3", "4"],
       "answer": "3",
-      "points": 15
+      "points": 10
     },
     {
       "id": 42,
-      "wave": 2,
-      "question": "What is the leading coefficient of 5x² – 2x + 9?",
-      "choices": ["5", "-2", "9", "1"],
-      "answer": "5",
-      "points": 15
+      "wave": 1,
+      "question": "What is the coefficient of $x$ in $1 - x$?",
+      "choices": ["1", "-1", "0", "x"],
+      "answer": "-1",
+      "points": 10
     },
     {
       "id": 43,
-      "wave": 2,
-      "question": "What is the constant term of 6x³ – x + 4?",
-      "choices": ["4", "6", "-1", "0"],
-      "answer": "4",
-      "points": 15
+      "wave": 1,
+      "question": "How many terms are in $3.14r^2$?",
+      "choices": ["1", "2", "3", "3.14"],
+      "answer": "1",
+      "points": 10
     },
     {
       "id": 44,
-      "wave": 2,
-      "question": "Identify the degree of 3y³ – 2y + 8.",
-      "choices": ["3", "2", "1", "0"],
-      "answer": "3",
-      "points": 15
+      "wave": 1,
+      "question": "What is the constant term in $x^3 - 8$?",
+      "choices": ["1", "-8", "0", "3"],
+      "answer": "-8",
+      "points": 10
     },
     {
       "id": 45,
-      "wave": 2,
-      "question": "How many terms are in –2x⁴?",
-      "choices": ["1", "2", "3", "0"],
-      "answer": "1",
-      "points": 15
+      "wave": 1,
+      "question": "How many terms are in $a^2 + 2ab + b^2 - c^2$?",
+      "choices": ["2", "3", "4", "5"],
+      "answer": "4",
+      "points": 10
     },
     {
       "id": 46,
-      "wave": 2,
-      "question": "What is the coefficient of x³ in 7x³ – 5x² + 4x – 1?",
-      "choices": ["7", "-5", "4", "-1"],
-      "answer": "7",
-      "points": 15
+      "wave": 1,
+      "question": "What is the coefficient of $y^3$ in $-y^3 + 2y$?",
+      "choices": ["1", "-1", "2", "0"],
+      "answer": "-1",
+      "points": 10
     },
     {
       "id": 47,
-      "wave": 2,
-      "question": "What is the leading term of 9x² – 11x + 2?",
-      "choices": ["9x²", "-11x", "2", "9"],
-      "answer": "9x²",
-      "points": 15
+      "wave": 1,
+      "question": "How many terms are in $5x - 5y$?",
+      "choices": ["1", "2", "3", "5"],
+      "answer": "2",
+      "points": 10
     },
     {
       "id": 48,
-      "wave": 2,
-      "question": "Identify the constant term of 8m³ – 3m.",
-      "choices": ["0", "8", "-3", "m"],
-      "answer": "0",
-      "points": 15
+      "wave": 1,
+      "question": "What is the constant term in $7x^2 + 0x + 3$?",
+      "choices": ["7", "0", "3", "1"],
+      "answer": "3",
+      "points": 10
     },
     {
       "id": 49,
-      "wave": 2,
-      "question": "What is the degree of 4x⁵ – 7x² + x – 3?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 15
+      "wave": 1,
+      "question": "How many terms are in $1/2$?",
+      "choices": ["1", "2", "0", "1/2"],
+      "answer": "1",
+      "points": 10
     },
     {
       "id": 50,
-      "wave": 2,
-      "question": "How many terms are in 5x²y + 3xy – 2?",
-      "choices": ["3", "2", "1", "4"],
-      "answer": "3",
-      "points": 15
+      "wave": 1,
+      "question": "What is the coefficient of $z^2$ in $10 - z^2$?",
+      "choices": ["10", "1", "-1", "2"],
+      "answer": "-1",
+      "points": 10
     },
     {
       "id": 51,
       "wave": 2,
-      "question": "What is the coefficient of xy in 5x²y + 3xy – 2?",
-      "choices": ["3", "5", "-2", "0"],
-      "answer": "3",
+      "question": "Classify $5x$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Monomial",
       "points": 15
     },
     {
       "id": 52,
       "wave": 2,
-      "question": "What is the leading term of 12a⁴ – 6a² + a?",
-      "choices": ["12a⁴", "-6a²", "a", "12"],
-      "answer": "12a⁴",
+      "question": "Classify $2x + 3$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Binomial",
       "points": 15
     },
     {
       "id": 53,
       "wave": 2,
-      "question": "Identify the constant term of 2x³ – 5x² + 7.",
-      "choices": ["7", "2", "-5", "0"],
-      "answer": "7",
+      "question": "Classify $x^2 - 3x + 1$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Trinomial",
       "points": 15
     },
     {
       "id": 54,
       "wave": 2,
-      "question": "What is the degree of –3x²y³ + 4xy – 9?",
-      "choices": ["5", "3", "2", "1"],
-      "answer": "5",
+      "question": "Which of the following is a monomial?",
+      "choices": ["$x + y$", "$2ab$", "$a^2 - b^2$", "$x + y + z$"],
+      "answer": "$2ab$",
       "points": 15
     },
     {
       "id": 55,
       "wave": 2,
-      "question": "How many terms are in p² – 2pq + q²?",
-      "choices": ["3", "2", "1", "4"],
-      "answer": "3",
+      "question": "Which of the following is a binomial?",
+      "choices": ["$7$", "$3x^2$", "$y^3 - 5$", "$a^2 + 2a + 1$"],
+      "answer": "$y^3 - 5$",
       "points": 15
     },
     {
       "id": 56,
       "wave": 2,
-      "question": "What is the leading coefficient of 14x⁴ – x³ + 2x?",
-      "choices": ["14", "-1", "2", "0"],
-      "answer": "14",
+      "question": "Which of the following is a trinomial?",
+      "choices": ["$4z$", "$m + n$", "$p^2 - 2pq + q^2$", "$x^4 + 1$"],
+      "answer": "$p^2 - 2pq + q^2$",
       "points": 15
     },
     {
       "id": 57,
       "wave": 2,
-      "question": "What is the constant term of 6x³ – 9x²?",
-      "choices": ["0", "6", "-9", "x²"],
-      "answer": "0",
+      "question": "Classify $100$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Constant"],
+      "answer": "Monomial",
       "points": 15
     },
     {
       "id": 58,
       "wave": 2,
-      "question": "Identify the degree of 7.",
-      "choices": ["0", "1", "7", "undefined"],
-      "answer": "0",
+      "question": "Classify $a^2 + 2ab + b^2 - c^2$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Polynomial",
       "points": 15
     },
     {
       "id": 59,
       "wave": 2,
-      "question": "How many terms are in 5x² – 3xy + y² – 4?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
+      "question": "A polynomial with exactly one term is called a:",
+      "choices": ["Binomial", "Trinomial", "Monomial", "Quadratic"],
+      "answer": "Monomial",
       "points": 15
     },
     {
       "id": 60,
       "wave": 2,
-      "question": "What is the leading term of –x⁵ + 3x² – x + 8?",
-      "choices": ["-x⁵", "3x²", "-x", "8"],
-      "answer": "-x⁵",
+      "question": "A polynomial with exactly two terms is called a:",
+      "choices": ["Monomial", "Trinomial", "Binomial", "Cubic"],
+      "answer": "Binomial",
       "points": 15
     },
     {
       "id": 61,
       "wave": 2,
-      "question": "What is the coefficient of x²y in 2x²y – xy + 7?",
-      "choices": ["2", "-1", "7", "0"],
-      "answer": "2",
+      "question": "A polynomial with exactly three terms is called a:",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Linear"],
+      "answer": "Trinomial",
       "points": 15
     },
     {
       "id": 62,
       "wave": 2,
-      "question": "Identify the constant term of 9x² – 4x + 11.",
-      "choices": ["11", "9", "-4", "x"],
-      "answer": "11",
+      "question": "Is $x^2 + y^2 + z^2$ a trinomial?",
+      "choices": ["Yes", "No", "Sometimes", "Cannot determine"],
+      "answer": "Yes",
       "points": 15
     },
     {
       "id": 63,
       "wave": 2,
-      "question": "What is the degree of 3x⁴ + 5x³ – 2x + 1?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
+      "question": "Is $x/y$ a monomial?",
+      "choices": ["Yes", "No", "Sometimes", "Only if y=1"],
+      "answer": "No",
       "points": 15
     },
     {
       "id": 64,
       "wave": 2,
-      "question": "How many terms are in 2a²b – 3ab²?",
-      "choices": ["2", "1", "3", "4"],
-      "answer": "2",
+      "question": "Is $3x^{-2}$ a polynomial?",
+      "choices": ["Yes", "No", "Sometimes", "Only if x>0"],
+      "answer": "No",
       "points": 15
     },
     {
       "id": 65,
       "wave": 2,
-      "question": "What is the leading coefficient of –5x³ + 2x² – x?",
-      "choices": ["-5", "2", "-1", "0"],
-      "answer": "-5",
+      "question": "Classify $1/2 m^2 n$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Monomial",
       "points": 15
     },
     {
       "id": 66,
       "wave": 2,
-      "question": "Identify the constant term of 4y³ – 7y.",
-      "choices": ["0", "4", "-7", "y"],
-      "answer": "0",
+      "question": "Classify $p^3 - q^3$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Binomial",
       "points": 15
     },
     {
       "id": 67,
       "wave": 2,
-      "question": "What is the degree of 6x²y² – 3xy + 9?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
+      "question": "Classify $a^2 + b^2 + c^2$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Trinomial",
       "points": 15
     },
     {
       "id": 68,
       "wave": 2,
-      "question": "How many terms are in –7?",
-      "choices": ["1", "0", "2", "undefined"],
-      "answer": "1",
+      "question": "Which of these is NOT a polynomial?",
+      "choices": ["$5x^2$", "$x + 1/x$", "$3y^3 - 2y + 1$", "$10$"],
+      "answer": "$x + 1/x$",
       "points": 15
     },
     {
       "id": 69,
       "wave": 2,
-      "question": "What is the leading term of 10x² – 5x + 3?",
-      "choices": ["10x²", "-5x", "3", "10"],
-      "answer": "10x²",
+      "question": "A polynomial with more than three terms is generally called a:",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Polynomial",
       "points": 15
     },
     {
       "id": 70,
       "wave": 2,
-      "question": "Identify the constant term of 3x⁴ – 2x³ + x² – x + 6.",
-      "choices": ["6", "3", "-2", "1"],
-      "answer": "6",
+      "question": "Is $x^{1/2} + 5$ a polynomial?",
+      "choices": ["Yes", "No", "Sometimes", "Only if x is a perfect square"],
+      "answer": "No",
       "points": 15
     },
     {
       "id": 71,
       "wave": 2,
-      "question": "What is the degree of 8x³y – 4xy² + 2?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
+      "question": "Classify $8x^2y^3z$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Monomial",
       "points": 15
     },
     {
       "id": 72,
       "wave": 2,
-      "question": "How many terms are in 1 + x + x² + x³?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
+      "question": "Classify $1 - 2x + 3x^2$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Trinomial",
       "points": 15
     },
     {
       "id": 73,
       "wave": 2,
-      "question": "What is the leading coefficient of –x² + 3x – 4?",
-      "choices": ["-1", "3", "-4", "1"],
-      "answer": "-1",
+      "question": "Classify $12x^5 - 7x$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Binomial",
       "points": 15
     },
     {
       "id": 74,
       "wave": 2,
-      "question": "Identify the constant term of –2x⁵ + 7x³ – 3x² + 9.",
-      "choices": ["9", "-2", "7", "-3"],
-      "answer": "9",
+      "question": "Which expression is a monomial?",
+      "choices": ["$x+y+z$", "$10xy$", "$x^2-y^2$", "$2x+3y-z$"],
+      "answer": "$10xy$",
       "points": 15
     },
     {
       "id": 75,
       "wave": 2,
-      "question": "What is the degree of 5x + 6?",
-      "choices": ["1", "0", "5", "2"],
-      "answer": "1",
+      "question": "Which expression is a binomial?",
+      "choices": ["$5$", "$5x^2y$", "$5x+y$", "$5x^2+2x+1$"],
+      "answer": "$5x+y$",
       "points": 15
     },
     {
       "id": 76,
       "wave": 2,
-      "question": "How many terms are in 4x² – 9?",
-      "choices": ["2", "1", "3", "4"],
-      "answer": "2",
+      "question": "Which expression is a trinomial?",
+      "choices": ["$x^2$", "$x^2+y$", "$x^2+y+z$", "$x^2+y^2+z^2+w^2$"],
+      "answer": "$x^2+y+z$",
       "points": 15
     },
     {
       "id": 77,
       "wave": 2,
-      "question": "What is the leading term of 6x³ – 5x² + 2x – 1?",
-      "choices": ["6x³", "-5x²", "2x", "-1"],
-      "answer": "6x³",
+      "question": "Classify $x^2 - 1/x$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Not a polynomial"],
+      "answer": "Not a polynomial",
       "points": 15
     },
     {
       "id": 78,
       "wave": 2,
-      "question": "Identify the constant term of 7x⁴ + 3x² – 11.",
-      "choices": ["-11", "7", "3", "0"],
-      "answer": "-11",
+      "question": "Classify $3x^2 - 5x + 7y - 2$ by the number of terms.",
+      "choices": ["Binomial", "Trinomial", "Polynomial", "Monomial"],
+      "answer": "Polynomial",
       "points": 15
     },
     {
       "id": 79,
       "wave": 2,
-      "question": "What is the degree of –3x² + 5x – 8?",
-      "choices": ["2", "1", "0", "3"],
-      "answer": "2",
+      "question": "A single number like $7$ is considered a:",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Variable"],
+      "answer": "Monomial",
       "points": 15
     },
     {
       "id": 80,
       "wave": 2,
-      "question": "How many terms are in 0?",
-      "choices": ["1", "0", "2", "undefined"],
-      "answer": "1",
+      "question": "Is $x^2 + \\sqrt{x}$ a polynomial?",
+      "choices": ["Yes", "No", "Sometimes", "Only if x is positive"],
+      "answer": "No",
       "points": 15
     },
-
     {
       "id": 81,
-      "wave": 3,
-      "question": "What is the degree of 4x³y² – 2xy⁴ + 7?",
-      "choices": ["5", "3", "2", "4"],
-      "answer": "5",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $-15$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Constant"],
+      "answer": "Monomial",
+      "points": 15
     },
     {
       "id": 82,
-      "wave": 3,
-      "question": "Identify the leading coefficient of 2x⁵ – 3x³ + x – 4.",
-      "choices": ["2", "-3", "1", "-4"],
-      "answer": "2",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $x^3 + x^2 + x$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Trinomial",
+      "points": 15
     },
     {
       "id": 83,
-      "wave": 3,
-      "question": "How many terms are in 6x²y – 3xy² + y³ – 5?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $y^5 - 1$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Binomial",
+      "points": 15
     },
     {
       "id": 84,
-      "wave": 3,
-      "question": "What is the constant term of 9x⁴ – 7x² + 3x?",
-      "choices": ["0", "9", "-7", "3"],
-      "answer": "0",
-      "points": 20
+      "wave": 2,
+      "question": "Which of these is a polynomial?",
+      "choices": ["$1/x$", "$x^2 + 2x + 1$", "$x^{-1}$", "$|x|$"],
+      "answer": "$x^2 + 2x + 1$",
+      "points": 15
     },
     {
       "id": 85,
-      "wave": 3,
-      "question": "What is the leading term of –x⁴ + 5x³ – 2x² + x – 6?",
-      "choices": ["-x⁴", "5x³", "-2x²", "x"],
-      "answer": "-x⁴",
-      "points": 20
+      "wave": 2,
+      "question": "Can a binomial have a degree of zero?",
+      "choices": [
+        "Yes",
+        "No",
+        "Only if it's a constant",
+        "Only if it's a variable"
+      ],
+      "answer": "No",
+      "points": 15
     },
     {
       "id": 86,
-      "wave": 3,
-      "question": "Identify the coefficient of x²y in 3x²y – 4xy² + 2y³.",
-      "choices": ["3", "-4", "2", "0"],
-      "answer": "3",
-      "points": 20
+      "wave": 2,
+      "question": "Can a monomial have a degree of zero?",
+      "choices": [
+        "Yes",
+        "No",
+        "Only if it's a variable",
+        "Only if it's negative"
+      ],
+      "answer": "Yes",
+      "points": 15
     },
     {
       "id": 87,
-      "wave": 3,
-      "question": "What is the degree of 7x²y³z?",
-      "choices": ["6", "5", "3", "2"],
-      "answer": "6",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $2x^2 + 3x - 5y + 7$ by the number of terms.",
+      "choices": ["Binomial", "Trinomial", "Polynomial", "Monomial"],
+      "answer": "Polynomial",
+      "points": 15
     },
     {
       "id": 88,
-      "wave": 3,
-      "question": "How many terms are in x³ – 2x²y + xy² – y³?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
-      "points": 20
+      "wave": 2,
+      "question": "A polynomial with four terms is always a:",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Polynomial",
+      "points": 15
     },
     {
       "id": 89,
-      "wave": 3,
-      "question": "Identify the leading coefficient of 12x⁴ – 8x³ + 5x – 9.",
-      "choices": ["12", "-8", "5", "-9"],
-      "answer": "12",
-      "points": 20
+      "wave": 2,
+      "question": "Is $x + y + z + w$ a trinomial?",
+      "choices": ["Yes", "No", "Sometimes", "Cannot determine"],
+      "answer": "No",
+      "points": 15
     },
     {
       "id": 90,
-      "wave": 3,
-      "question": "What is the constant term of 15x³y² – 10xy + 7?",
-      "choices": ["7", "15", "-10", "0"],
-      "answer": "7",
-      "points": 20
+      "wave": 2,
+      "question": "The expression $x^2 + 2x + 1$ is a:",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Quadratic"],
+      "answer": "Trinomial",
+      "points": 15
     },
     {
       "id": 91,
-      "wave": 3,
-      "question": "What is the degree of 2x + 3y + 4z?",
-      "choices": ["1", "2", "3", "0"],
-      "answer": "1",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $1/x^2$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Not a polynomial"],
+      "answer": "Not a polynomial",
+      "points": 15
     },
     {
       "id": 92,
-      "wave": 3,
-      "question": "How many terms are in 8x² – 6xy + y² – 4x + 2?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $x^2y^2$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Monomial",
+      "points": 15
     },
     {
       "id": 93,
-      "wave": 3,
-      "question": "Identify the leading term of 5x³ – 2x²y + 7xy² – y³.",
-      "choices": ["5x³", "-2x²y", "7xy²", "-y³"],
-      "answer": "5x³",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $3x^2 - 5$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Binomial",
+      "points": 15
     },
     {
       "id": 94,
-      "wave": 3,
-      "question": "What is the coefficient of y² in 4x² – 3y² + 2xy?",
-      "choices": ["-3", "4", "2", "0"],
-      "answer": "-3",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $x^4 + 2x^3 - x^2 + 5x - 1$ by the number of terms.",
+      "choices": ["Binomial", "Trinomial", "Polynomial", "Monomial"],
+      "answer": "Polynomial",
+      "points": 15
     },
     {
       "id": 95,
-      "wave": 3,
-      "question": "What is the degree of 9x⁴y⁵?",
-      "choices": ["9", "4", "5", "4+5"],
-      "answer": "9",
-      "points": 20
+      "wave": 2,
+      "question": "A constant term is always a:",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Variable"],
+      "answer": "Monomial",
+      "points": 15
     },
     {
       "id": 96,
-      "wave": 3,
-      "question": "How many terms are in 1 – x + x² – x³ + x⁴?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 20
+      "wave": 2,
+      "question": "Is $x^2 + \\frac{1}{2}x - 7$ a polynomial?",
+      "choices": ["Yes", "No", "Sometimes", "Only if x is an integer"],
+      "answer": "Yes",
+      "points": 15
     },
     {
       "id": 97,
-      "wave": 3,
-      "question": "Identify the constant term of 6a³b² – 4ab + 11.",
-      "choices": ["11", "6", "-4", "0"],
-      "answer": "11",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $xy + yz + zx$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Trinomial",
+      "points": 15
     },
     {
       "id": 98,
-      "wave": 3,
-      "question": "What is the leading coefficient of –7x⁴ + 3x² – x + 8?",
-      "choices": ["-7", "3", "-1", "8"],
-      "answer": "-7",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $5x^2 - 3x + 7$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Trinomial",
+      "points": 15
     },
     {
       "id": 99,
-      "wave": 3,
-      "question": "How many terms are in 9x²y + 5xy² – 3y³?",
-      "choices": ["3", "2", "1", "4"],
-      "answer": "3",
-      "points": 20
+      "wave": 2,
+      "question": "Classify $1/3 x^3$ by the number of terms.",
+      "choices": ["Monomial", "Binomial", "Trinomial", "Polynomial"],
+      "answer": "Monomial",
+      "points": 15
     },
     {
       "id": 100,
-      "wave": 3,
-      "question": "What is the degree of 2x² + 3xy + y²?",
-      "choices": ["2", "1", "3", "0"],
-      "answer": "2",
-      "points": 20
+      "wave": 2,
+      "question": "Is $x^2 + 2x - \\sqrt{3}$ a polynomial?",
+      "choices": ["Yes", "No", "Sometimes", "Only if x is rational"],
+      "answer": "Yes",
+      "points": 15
     },
     {
       "id": 101,
       "wave": 3,
-      "question": "Identify the leading term of 11x⁵ – 9x³ + 6x – 2.",
-      "choices": ["11x⁵", "-9x³", "6x", "-2"],
-      "answer": "11x⁵",
+      "question": "What is the degree of the polynomial $5x^3 - 2x + 1$?",
+      "choices": ["1", "2", "3", "5"],
+      "answer": "3",
       "points": 20
     },
     {
       "id": 102,
       "wave": 3,
-      "question": "What is the coefficient of x³ in 4x³ – 2x² + x – 7?",
-      "choices": ["4", "-2", "1", "-7"],
-      "answer": "4",
+      "question": "Classify $7y^2$ by its degree.",
+      "choices": ["Linear", "Quadratic", "Cubic", "Constant"],
+      "answer": "Quadratic",
       "points": 20
     },
     {
       "id": 103,
       "wave": 3,
-      "question": "How many terms are in x⁴ – x³ + x² – x + 1?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
+      "question": "What is the degree of the polynomial $10$?",
+      "choices": ["0", "1", "10", "Undefined"],
+      "answer": "0",
       "points": 20
     },
     {
       "id": 104,
       "wave": 3,
-      "question": "What is the constant term of 8x²y – 3xy² + 5?",
-      "choices": ["5", "8", "-3", "0"],
-      "answer": "5",
+      "question": "Classify $x + 4$ by its degree.",
+      "choices": ["Constant", "Linear", "Quadratic", "Cubic"],
+      "answer": "Linear",
       "points": 20
     },
     {
       "id": 105,
       "wave": 3,
-      "question": "Identify the degree of 6x³y²z.",
-      "choices": ["6", "3", "2", "1"],
-      "answer": "6",
+      "question": "What is the degree of the polynomial $a^5 - 3a^2 + 7$?",
+      "choices": ["2", "3", "5", "7"],
+      "answer": "5",
       "points": 20
     },
     {
       "id": 106,
       "wave": 3,
-      "question": "What is the leading coefficient of –2x⁶ + 4x⁴ – x² + 9?",
-      "choices": ["-2", "4", "-1", "9"],
-      "answer": "-2",
+      "question": "Classify $2z^3 - z + 9$ by its degree.",
+      "choices": ["Linear", "Quadratic", "Cubic", "Quartic"],
+      "answer": "Cubic",
       "points": 20
     },
     {
       "id": 107,
       "wave": 3,
-      "question": "How many terms are in 7x² – 5xy + 3y² – 2x + 4y – 1?",
-      "choices": ["6", "5", "4", "3"],
-      "answer": "6",
+      "question": "What is the degree of the term $6x^2y^3$?",
+      "choices": ["2", "3", "5", "6"],
+      "answer": "5",
       "points": 20
     },
     {
       "id": 108,
       "wave": 3,
-      "question": "What is the coefficient of xy in 7x² – 5xy + 3y²?",
-      "choices": ["-5", "7", "3", "0"],
-      "answer": "-5",
+      "question": "Classify $m^4 - 1$ by its degree.",
+      "choices": ["Cubic", "Quartic", "Quintic", "Linear"],
+      "answer": "Quartic",
       "points": 20
     },
     {
       "id": 109,
       "wave": 3,
-      "question": "Identify the constant term of 13x⁴ – 2x³ + x – 6.",
-      "choices": ["-6", "13", "-2", "1"],
-      "answer": "-6",
+      "question": "What is the degree of the polynomial $x^2 + y^2 + z^2$?",
+      "choices": ["1", "2", "3", "6"],
+      "answer": "2",
       "points": 20
     },
     {
       "id": 110,
       "wave": 3,
-      "question": "What is the degree of 5x²y³ – 4xy⁴ + 3y⁵?",
-      "choices": ["5", "2", "3", "4"],
-      "answer": "5",
+      "question": "Classify $1/2 x^5$ by its degree.",
+      "choices": ["Quartic", "Quintic", "Sextic", "Linear"],
+      "answer": "Quintic",
       "points": 20
     },
     {
       "id": 111,
       "wave": 3,
-      "question": "What is the leading term of 3x²y – 5xy² + 7y³?",
-      "choices": ["7y³", "3x²y", "-5xy²", "0"],
-      "answer": "7y³",
+      "question": "What is the degree of the polynomial $x$?",
+      "choices": ["0", "1", "2", "Undefined"],
+      "answer": "1",
       "points": 20
     },
     {
       "id": 112,
       "wave": 3,
-      "question": "How many terms are in 2x³ – 3x² + 4x – 5?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
+      "question": "Classify $-8y$ by its degree.",
+      "choices": ["Constant", "Linear", "Quadratic", "Cubic"],
+      "answer": "Linear",
       "points": 20
     },
     {
       "id": 113,
       "wave": 3,
-      "question": "Identify the coefficient of x² in x⁴ – 2x³ + 3x² – x + 1.",
-      "choices": ["3", "1", "-2", "-1"],
-      "answer": "3",
+      "question": "What is the degree of the polynomial $15x^2y - 3xy^3 + 2$?",
+      "choices": ["2", "3", "4", "5"],
+      "answer": "4",
       "points": 20
     },
     {
       "id": 114,
       "wave": 3,
-      "question": "What is the constant term of 4x⁵ – 6x³ + 2x?",
-      "choices": ["0", "4", "-6", "2"],
-      "answer": "0",
+      "question": "Classify $p^6 + 2p^3 - 5p$ by its degree.",
+      "choices": ["Cubic", "Quartic", "Quintic", "Sextic"],
+      "answer": "Sextic",
       "points": 20
     },
     {
       "id": 115,
       "wave": 3,
-      "question": "What is the degree of 9x + 7y + 5z?",
-      "choices": ["1", "2", "3", "0"],
-      "answer": "1",
+      "question": "What is the degree of the term $12$?",
+      "choices": ["0", "1", "12", "Undefined"],
+      "answer": "0",
       "points": 20
     },
     {
       "id": 116,
       "wave": 3,
-      "question": "How many terms are in 6x²y² – 4xy + 9?",
-      "choices": ["3", "2", "1", "4"],
-      "answer": "3",
+      "question": "Classify $x^2 - 9$ by its degree.",
+      "choices": ["Linear", "Quadratic", "Cubic", "Constant"],
+      "answer": "Quadratic",
       "points": 20
     },
     {
       "id": 117,
       "wave": 3,
-      "question": "Identify the leading coefficient of –4x³ + 2x² – x + 5.",
-      "choices": ["-4", "2", "-1", "5"],
-      "answer": "-4",
+      "question": "What is the degree of the polynomial $7x^4 + 2x^2 - x$?",
+      "choices": ["1", "2", "3", "4"],
+      "answer": "4",
       "points": 20
     },
     {
       "id": 118,
       "wave": 3,
-      "question": "What is the constant term of 15x⁴ – 10x² + 8?",
-      "choices": ["8", "15", "-10", "0"],
-      "answer": "8",
+      "question": "Classify $y^3 + 5y^2 - 2y + 1$ by its degree.",
+      "choices": ["Quadratic", "Cubic", "Quartic", "Linear"],
+      "answer": "Cubic",
       "points": 20
     },
     {
       "id": 119,
       "wave": 3,
-      "question": "What is the degree of 11x²y⁴z?",
-      "choices": ["7", "2", "4", "1"],
-      "answer": "7",
+      "question": "What is the degree of the term $ab^2c^3$?",
+      "choices": ["1", "2", "3", "6"],
+      "answer": "6",
       "points": 20
     },
     {
       "id": 120,
       "wave": 3,
-      "question": "How many terms are in 0?",
-      "choices": ["1", "0", "2", "undefined"],
-      "answer": "1",
+      "question": "Classify $1/3 z^7$ by its degree.",
+      "choices": ["Quintic", "Sextic", "Septic", "Octic"],
+      "answer": "Septic",
       "points": 20
     },
-
     {
       "id": 121,
-      "wave": 4,
-      "question": "What is the degree of 3x²y³ – 5xy⁴ + 7x⁵?",
-      "choices": ["5", "4", "3", "7"],
-      "answer": "5",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $x^0$?",
+      "choices": ["0", "1", "Undefined", "x"],
+      "answer": "0",
+      "points": 20
     },
     {
       "id": 122,
-      "wave": 4,
-      "question": "Identify the leading coefficient of 8x⁴ – 2x³y + 5x²y² – y⁴.",
-      "choices": ["8", "-2", "5", "-1"],
-      "answer": "8",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $1000$ by its degree.",
+      "choices": ["Constant", "Linear", "Quadratic", "Cubic"],
+      "answer": "Constant",
+      "points": 20
     },
     {
       "id": 123,
-      "wave": 4,
-      "question": "How many terms are in 2x³ – 4x²y + 3xy² – y³ + 1?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $ax + by + c$?",
+      "choices": ["0", "1", "2", "3"],
+      "answer": "1",
+      "points": 20
     },
     {
       "id": 124,
-      "wave": 4,
-      "question": "What is the constant term of 6x³y – 9x²y² + 4xy³ – 7?",
-      "choices": ["-7", "6", "-9", "4"],
-      "answer": "-7",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $x^2 + xy + y^2$ by its degree.",
+      "choices": ["Linear", "Quadratic", "Cubic", "Quartic"],
+      "answer": "Quadratic",
+      "points": 20
     },
     {
       "id": 125,
-      "wave": 4,
-      "question": "Arrange 5x + 3x³ – 2 + 4x² in descending order.",
-      "choices": [
-        "3x³ + 4x² + 5x – 2",
-        "5x + 3x³ + 4x² – 2",
-        "-2 + 5x + 4x² + 3x³",
-        "4x² + 5x + 3x³ – 2"
-      ],
-      "answer": "3x³ + 4x² + 5x – 2",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $m^6 - n^6$?",
+      "choices": ["3", "6", "12", "0"],
+      "answer": "6",
+      "points": 20
     },
     {
       "id": 126,
-      "wave": 4,
-      "question": "Identify the leading term after arranging 2 – x + 3x² – 4x³.",
-      "choices": ["-4x³", "3x²", "-x", "2"],
-      "answer": "-4x³",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $p^8$ by its degree.",
+      "choices": ["Sextic", "Septic", "Octic", "Non-polynomial"],
+      "answer": "Octic",
+      "points": 20
     },
     {
       "id": 127,
-      "wave": 4,
-      "question": "What is the coefficient of x²y in 7x²y – 5xy² + 3y³ – 8?",
-      "choices": ["7", "-5", "3", "-8"],
+      "wave": 3,
+      "question": "What is the degree of the term $-5x^7$?",
+      "choices": ["1", "5", "7", "-5"],
       "answer": "7",
-      "points": 25
+      "points": 20
     },
     {
       "id": 128,
-      "wave": 4,
-      "question": "How many terms are in 4x⁴ – 3x³y + 2x²y² – xy³ + y⁴?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $x^3 - 2x^2 + x - 1$ by its degree.",
+      "choices": ["Quadratic", "Cubic", "Quartic", "Linear"],
+      "answer": "Cubic",
+      "points": 20
     },
     {
       "id": 129,
-      "wave": 4,
-      "question": "What is the degree of 9x³y²z – 4xy⁴ + 2z⁵?",
-      "choices": ["6", "5", "4", "3"],
-      "answer": "6",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $y^{10}$?",
+      "choices": ["1", "5", "10", "100"],
+      "answer": "10",
+      "points": 20
     },
     {
       "id": 130,
-      "wave": 4,
-      "question": "Identify the leading coefficient after arranging –2 + 5x² – 3x⁴.",
-      "choices": ["-3", "5", "-2", "0"],
-      "answer": "-3",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $2x + 3y$ by its degree.",
+      "choices": ["Constant", "Linear", "Quadratic", "Cubic"],
+      "answer": "Linear",
+      "points": 20
     },
     {
       "id": 131,
-      "wave": 4,
-      "question": "What is the constant term of 3x⁵ – 2x³ + 4x² – 7x + 10?",
-      "choices": ["10", "3", "-2", "-7"],
-      "answer": "10",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the term $1/2$?",
+      "choices": ["0", "1", "2", "Undefined"],
+      "answer": "0",
+      "points": 20
     },
     {
       "id": 132,
-      "wave": 4,
-      "question": "Arrange –1 + 6x – 2x² + x³ in ascending order.",
-      "choices": [
-        "-1 + 6x – 2x² + x³",
-        "x³ – 2x² + 6x – 1",
-        "6x – 2x² + x³ – 1",
-        "-1 + x³ – 2x² + 6x"
-      ],
-      "answer": "-1 + 6x – 2x² + x³",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $a^2b^3c^4$ by its degree.",
+      "choices": ["4", "5", "6", "9"],
+      "answer": "9",
+      "points": 20
     },
     {
       "id": 133,
-      "wave": 4,
-      "question": "Identify the leading term of 4x³y – 7x²y² + 3xy³ – 5y⁴.",
-      "choices": ["4x³y", "-7x²y²", "3xy³", "-5y⁴"],
-      "answer": "4x³y",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $x^2 - y^3$?",
+      "choices": ["2", "3", "5", "6"],
+      "answer": "3",
+      "points": 20
     },
     {
       "id": 134,
-      "wave": 4,
-      "question": "What is the coefficient of x³ in 2x³ – 5x² + 7x – 1?",
-      "choices": ["2", "-5", "7", "-1"],
-      "answer": "2",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $10x^5 - 2x^4 + 3x^3 - x^2 + 5x - 1$ by its degree.",
+      "choices": ["Quartic", "Quintic", "Sextic", "Septic"],
+      "answer": "Quintic",
+      "points": 20
     },
     {
       "id": 135,
-      "wave": 4,
-      "question": "How many terms are in 8x⁴ – 6x³ + 4x² – 2x + 9?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the term $-9$?",
+      "choices": ["0", "1", "-9", "Undefined"],
+      "answer": "0",
+      "points": 20
     },
     {
       "id": 136,
-      "wave": 4,
-      "question": "What is the degree of 5x²y³ – 2xy⁴ + 7y⁵?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $x^9 + 1$ by its degree.",
+      "choices": ["Octic", "Nonic", "Decic", "Linear"],
+      "answer": "Nonic",
+      "points": 20
     },
     {
       "id": 137,
-      "wave": 4,
-      "question": "Identify the leading coefficient of 11x⁶ – 5x⁴ + 3x² – 1.",
-      "choices": ["11", "-5", "3", "-1"],
-      "answer": "11",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $2x^2y^2z^2$?",
+      "choices": ["2", "4", "6", "8"],
+      "answer": "6",
+      "points": 20
     },
     {
       "id": 138,
-      "wave": 4,
-      "question": "What is the constant term of 14x⁵ – 9x³ + 2x² – 6x + 4?",
-      "choices": ["4", "14", "-9", "2"],
-      "answer": "4",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $x^2 - 2xy + y^2$ by its degree.",
+      "choices": ["Linear", "Quadratic", "Cubic", "Quartic"],
+      "answer": "Quadratic",
+      "points": 20
     },
     {
       "id": 139,
-      "wave": 4,
-      "question": "Arrange 7 – 3x² + 5x⁴ – x in descending order.",
-      "choices": [
-        "5x⁴ – 3x² – x + 7",
-        "7 – 3x² + 5x⁴ – x",
-        "-x + 7 – 3x² + 5x⁴",
-        "5x⁴ – x – 3x² + 7"
-      ],
-      "answer": "5x⁴ – 3x² – x + 7",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $m + n + p$?",
+      "choices": ["0", "1", "2", "3"],
+      "answer": "1",
+      "points": 20
     },
     {
       "id": 140,
-      "wave": 4,
-      "question": "Identify the leading term after arranging 3 – 2x + 4x³ – x².",
-      "choices": ["4x³", "-x²", "-2x", "3"],
-      "answer": "4x³",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $1/4 y^4$ by its degree.",
+      "choices": ["Cubic", "Quartic", "Quintic", "Sextic"],
+      "answer": "Quartic",
+      "points": 20
     },
     {
       "id": 141,
-      "wave": 4,
-      "question": "What is the coefficient of x²y³ in –2x²y³ + 5xy – 7?",
-      "choices": ["-2", "5", "-7", "0"],
-      "answer": "-2",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the term $x^2y^3z^4$?",
+      "choices": ["2", "3", "4", "9"],
+      "answer": "9",
+      "points": 20
     },
     {
       "id": 142,
-      "wave": 4,
-      "question": "How many terms are in 6x³ – 9x²y + 3xy² – y³?",
-      "choices": ["4", "3", "2", "1"],
-      "answer": "4",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $x^5 - 3x^2 + 7x - 1$ by its degree.",
+      "choices": ["Cubic", "Quartic", "Quintic", "Sextic"],
+      "answer": "Quintic",
+      "points": 20
     },
     {
       "id": 143,
-      "wave": 4,
-      "question": "What is the degree of 12x⁴y² – 5x³y³ + 2xy⁵?",
-      "choices": ["6", "5", "4", "3"],
-      "answer": "6",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $5$?",
+      "choices": ["0", "1", "5", "Undefined"],
+      "answer": "0",
+      "points": 20
     },
     {
       "id": 144,
-      "wave": 4,
-      "question": "Identify the leading coefficient of –6x⁵ + 4x³ – 2x + 9.",
-      "choices": ["-6", "4", "-2", "9"],
-      "answer": "-6",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $ax^2 + bx + c$ by its degree (assume $a \\ne 0$).",
+      "choices": ["Linear", "Quadratic", "Cubic", "Constant"],
+      "answer": "Quadratic",
+      "points": 20
     },
     {
       "id": 145,
-      "wave": 4,
-      "question": "What is the constant term of 5x⁴ – 3x³ + 2x² – x + 8?",
-      "choices": ["8", "5", "-3", "2"],
-      "answer": "8",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $x^2y + xy^2$?",
+      "choices": ["2", "3", "4", "5"],
+      "answer": "3",
+      "points": 20
     },
     {
       "id": 146,
-      "wave": 4,
-      "question": "Arrange –4 + 2x – 5x³ + x² in ascending order.",
-      "choices": [
-        "-4 + 2x + x² – 5x³",
-        "-5x³ + x² + 2x – 4",
-        "x² – 5x³ + 2x – 4",
-        "2x – 4 + x² – 5x³"
-      ],
-      "answer": "-4 + 2x + x² – 5x³",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $100x$ by its degree.",
+      "choices": ["Constant", "Linear", "Quadratic", "Cubic"],
+      "answer": "Linear",
+      "points": 20
     },
     {
       "id": 147,
-      "wave": 4,
-      "question": "Identify the leading term of 9x³ – 7x²y + 5xy² – 3y³.",
-      "choices": ["9x³", "-7x²y", "5xy²", "-3y³"],
-      "answer": "9x³",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the term $x^3y^3$?",
+      "choices": ["3", "6", "9", "0"],
+      "answer": "6",
+      "points": 20
     },
     {
       "id": 148,
-      "wave": 4,
-      "question": "What is the coefficient of x⁴ in 4x⁴ – 3x³ + 2x² – x + 1?",
-      "choices": ["4", "-3", "2", "-1"],
-      "answer": "4",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $x^4 + 2x^2 + 1$ by its degree.",
+      "choices": ["Quadratic", "Cubic", "Quartic", "Quintic"],
+      "answer": "Quartic",
+      "points": 20
     },
     {
       "id": 149,
-      "wave": 4,
-      "question": "How many terms are in x⁵ – x⁴ + x³ – x² + x – 1?",
-      "choices": ["6", "5", "4", "3"],
-      "answer": "6",
-      "points": 25
+      "wave": 3,
+      "question": "What is the degree of the polynomial $a - b$?",
+      "choices": ["0", "1", "2", "Undefined"],
+      "answer": "1",
+      "points": 20
     },
     {
       "id": 150,
-      "wave": 4,
-      "question": "What is the degree of 7x³y² – 4xy⁴ + 2y⁵?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 25
+      "wave": 3,
+      "question": "Classify $1/5 z^6$ by its degree.",
+      "choices": ["Quartic", "Quintic", "Sextic", "Septic"],
+      "answer": "Sextic",
+      "points": 20
     },
-
     {
       "id": 151,
-      "wave": 5,
-      "question": "What is the degree of 3x²y⁴z³ – 5xy⁵z² + 7x³y²z⁴?",
-      "choices": ["9", "8", "7", "6"],
-      "answer": "9",
-      "points": 30
+      "wave": 4,
+      "question": "Write $3x^2 + 5x^3 - 2 + x$ in standard form.",
+      "choices": [
+        "$5x^3 + 3x^2 + x - 2$",
+        "$x - 2 + 3x^2 + 5x^3$",
+        "$ -2 + x + 3x^2 + 5x^3$",
+        "$3x^2 + 5x^3 + x - 2$"
+      ],
+      "answer": "$5x^3 + 3x^2 + x - 2$",
+      "points": 25
     },
     {
       "id": 152,
-      "wave": 5,
-      "question": "Identify the leading coefficient of –2x⁷y³ + 4x⁵y⁵ – x³y⁷.",
-      "choices": ["-2", "4", "-1", "0"],
-      "answer": "-2",
-      "points": 30
+      "wave": 4,
+      "question": "Write $7 - y^2 + 4y$ in standard form.",
+      "choices": [
+        "$7 + 4y - y^2$",
+        "$4y - y^2 + 7$",
+        "$-y^2 + 4y + 7$",
+        "$y^2 - 4y + 7$"
+      ],
+      "answer": "$-y^2 + 4y + 7$",
+      "points": 25
     },
     {
       "id": 153,
-      "wave": 5,
-      "question": "How many terms are in 6x⁴y² – 8x³y³ + 2x²y⁴ – 4xy⁵ + y⁶?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 30
+      "wave": 4,
+      "question": "Write $z + z^5 - 3z^2$ in standard form.",
+      "choices": [
+        "$z^5 - 3z^2 + z$",
+        "$z + z^5 - 3z^2$",
+        "$-3z^2 + z + z^5$",
+        "$z^5 + 3z^2 + z$"
+      ],
+      "answer": "$z^5 - 3z^2 + z$",
+      "points": 25
     },
     {
       "id": 154,
-      "wave": 5,
-      "question": "What is the constant term of 5x⁵y – 3x⁴y² + 2x³y³ – x²y⁴ + 7?",
-      "choices": ["7", "5", "-3", "2"],
-      "answer": "7",
-      "points": 30
+      "wave": 4,
+      "question": "Write $1/2 x^2 + x - 5/2 x^3$ in standard form.",
+      "choices": [
+        "$x - 5/2 x^3 + 1/2 x^2$",
+        "$-5/2 x^3 + 1/2 x^2 + x$",
+        "$1/2 x^2 + x - 5/2 x^3$",
+        "$x + 1/2 x^2 - 5/2 x^3$"
+      ],
+      "answer": "$-5/2 x^3 + 1/2 x^2 + x$",
+      "points": 25
     },
     {
       "id": 155,
-      "wave": 5,
-      "question": "Arrange 4x²y³ + 3x⁴y – 2x³y² + 1 in descending order of degree.",
+      "wave": 4,
+      "question": "Write $10 - 2x^4 + x^5$ in standard form.",
       "choices": [
-        "3x⁴y – 2x³y² + 4x²y³ + 1",
-        "4x²y³ + 3x⁴y – 2x³y² + 1",
-        "1 + 4x²y³ – 2x³y² + 3x⁴y",
-        "3x⁴y + 4x²y³ – 2x³y² + 1"
+        "$x^5 - 2x^4 + 10$",
+        "$10 - 2x^4 + x^5$",
+        "$-2x^4 + x^5 + 10$",
+        "$x^5 + 2x^4 + 10$"
       ],
-      "answer": "3x⁴y – 2x³y² + 4x²y³ + 1",
-      "points": 30
+      "answer": "$x^5 - 2x^4 + 10$",
+      "points": 25
     },
     {
       "id": 156,
-      "wave": 5,
-      "question": "Identify the leading term after arranging –3 + 2x²y – 5x³y² + x⁴y.",
-      "choices": ["x⁴y", "-5x³y²", "2x²y", "-3"],
-      "answer": "x⁴y",
-      "points": 30
+      "wave": 4,
+      "question": "Write $y^2 + 2y^3 - y + 6$ in standard form.",
+      "choices": [
+        "$2y^3 + y^2 - y + 6$",
+        "$y^2 + 2y^3 - y + 6$",
+        "$6 - y + y^2 + 2y^3$",
+        "$ -y + y^2 + 2y^3 + 6$"
+      ],
+      "answer": "$2y^3 + y^2 - y + 6$",
+      "points": 25
     },
     {
       "id": 157,
-      "wave": 5,
-      "question": "What is the coefficient of x³y² in 7x³y² – 4x²y³ + 2xy⁴ – 9?",
-      "choices": ["7", "-4", "2", "-9"],
-      "answer": "7",
-      "points": 30
+      "wave": 4,
+      "question": "Write $1 - z^2$ in standard form.",
+      "choices": ["$1 - z^2$", "$-z^2 + 1$", "$z^2 - 1$", "$1 + z^2$"],
+      "answer": "$-z^2 + 1$",
+      "points": 25
     },
     {
       "id": 158,
-      "wave": 5,
-      "question": "How many terms are in 10x⁶ – 8x⁴y² + 6x²y⁴ – 4y⁶ + 2?",
-      "choices": ["5", "4", "3", "2"],
-      "answer": "5",
-      "points": 30
+      "wave": 4,
+      "question": "Write $8a - 5a^4 + 2a^2$ in standard form.",
+      "choices": [
+        "$-5a^4 + 2a^2 + 8a$",
+        "$8a - 5a^4 + 2a^2$",
+        "$2a^2 + 8a - 5a^4$",
+        "$5a^4 + 2a^2 + 8a$"
+      ],
+      "answer": "$-5a^4 + 2a^2 + 8a$",
+      "points": 25
     },
     {
       "id": 159,
-      "wave": 5,
-      "question": "What is the degree of 9x⁴y³z² – 7x³y⁴z³ + 5x²y⁵z⁴?",
-      "choices": ["9", "8", "7", "6"],
-      "answer": "9",
-      "points": 30
+      "wave": 4,
+      "question": "Write $b^3 + b^2 + b + 1$ in standard form.",
+      "choices": [
+        "$1 + b + b^2 + b^3$",
+        "$b + b^2 + b^3 + 1$",
+        "$b^3 + b^2 + b + 1$",
+        "$b^2 + b^3 + b + 1$"
+      ],
+      "answer": "$b^3 + b^2 + b + 1$",
+      "points": 25
     },
     {
       "id": 160,
-      "wave": 5,
-      "question": "Identify the leading coefficient of 12x⁵y⁴ – 9x⁴y⁵ + 6x³y⁶ – 3x²y⁷.",
-      "choices": ["12", "-9", "6", "-3"],
-      "answer": "12",
-      "points": 30
+      "wave": 4,
+      "question": "Write $c - c^2 + c^3 - c^4$ in standard form.",
+      "choices": [
+        "$-c^4 + c^3 - c^2 + c$",
+        "$c - c^2 + c^3 - c^4$",
+        "$c^3 - c^4 - c^2 + c$",
+        "$c^4 - c^3 + c^2 - c$"
+      ],
+      "answer": "$-c^4 + c^3 - c^2 + c$",
+      "points": 25
     },
     {
       "id": 161,
-      "wave": 5,
-      "question": "What is the constant term of 8x⁴y³ – 5x³y⁴ + 2x²y⁵ – xy⁶ + 3?",
-      "choices": ["3", "8", "-5", "2"],
-      "answer": "3",
-      "points": 30
+      "wave": 4,
+      "question": "Write $1/3 x^3 - 2/3 x + 1/3$ in standard form.",
+      "choices": [
+        "$1/3 x^3 - 2/3 x + 1/3$",
+        "$1/3 - 2/3 x + 1/3 x^3$",
+        "$-2/3 x + 1/3 x^3 + 1/3$",
+        "$1/3 x^3 + 1/3 - 2/3 x$"
+      ],
+      "answer": "$1/3 x^3 - 2/3 x + 1/3$",
+      "points": 25
     },
     {
       "id": 162,
-      "wave": 5,
-      "question": "Arrange 6x³y – 4x²y² + 2xy³ – y⁴ + 5 in ascending order.",
+      "wave": 4,
+      "question": "Write $5y^2 + y^4 - 2y$ in standard form.",
       "choices": [
-        "5 + 2xy³ – y⁴ – 4x²y² + 6x³y",
-        "5 + 6x³y – 4x²y² + 2xy³ – y⁴",
-        "-y⁴ + 2xy³ – 4x²y² + 6x³y + 5",
-        "5 – y⁴ + 2xy³ – 4x²y² + 6x³y"
+        "$y^4 + 5y^2 - 2y$",
+        "$5y^2 + y^4 - 2y$",
+        "$-2y + 5y^2 + y^4$",
+        "$y^4 - 2y + 5y^2$"
       ],
-      "answer": "5 – y⁴ + 2xy³ – 4x²y² + 6x³y",
-      "points": 30
+      "answer": "$y^4 + 5y^2 - 2y$",
+      "points": 25
     },
     {
       "id": 163,
-      "wave": 5,
-      "question": "Identify the leading term of 13x⁶y² – 11x⁵y³ + 9x⁴y⁴ – 7x³y⁵ + 5x²y⁶.",
-      "choices": ["13x⁶y²", "-11x⁵y³", "9x⁴y⁴", "-7x³y⁵"],
-      "answer": "13x⁶y²",
-      "points": 30
+      "wave": 4,
+      "question": "Write $100 - z^3$ in standard form.",
+      "choices": ["$100 - z^3$", "$-z^3 + 100$", "$z^3 - 100$", "$100 + z^3$"],
+      "answer": "$-z^3 + 100$",
+      "points": 25
     },
     {
       "id": 164,
+      "wave": 4,
+      "question": "Write $6x^5 + x^6 - 2x^3$ in standard form.",
+      "choices": [
+        "$x^6 + 6x^5 - 2x^3$",
+        "$6x^5 + x^6 - 2x^3$",
+        "$-2x^3 + 6x^5 + x^6$",
+        "$x^6 - 2x^3 + 6x^5$"
+      ],
+      "answer": "$x^6 + 6x^5 - 2x^3$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Write $1 + 2x + 3x^2 + 4x^3$ in standard form.",
+      "choices": [
+        "$4x^3 + 3x^2 + 2x + 1$",
+        "$1 + 2x + 3x^2 + 4x^3$",
+        "$2x + 1 + 3x^2 + 4x^3$",
+        "$3x^2 + 4x^3 + 1 + 2x$"
+      ],
+      "answer": "$4x^3 + 3x^2 + 2x + 1$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Write $y^4 - 5 + 2y^2$ in standard form.",
+      "choices": [
+        "$y^4 + 2y^2 - 5$",
+        "$y^4 - 5 + 2y^2$",
+        "$-5 + 2y^2 + y^4$",
+        "$2y^2 + y^4 - 5$"
+      ],
+      "answer": "$y^4 + 2y^2 - 5$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Write $m^2 - m^3 + m^4 - m$ in standard form.",
+      "choices": [
+        "$m^4 - m^3 + m^2 - m$",
+        "$m^2 - m^3 + m^4 - m$",
+        "$-m + m^2 - m^3 + m^4$",
+        "$m^4 + m^3 + m^2 + m$"
+      ],
+      "answer": "$m^4 - m^3 + m^2 - m$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Write $x^2y^3 + x^3y^2$ in standard form (descending order of x).",
+      "choices": [
+        "$x^3y^2 + x^2y^3$",
+        "$x^2y^3 + x^3y^2$",
+        "$y^3x^2 + y^2x^3$",
+        "$x^3y^2 + y^3x^2$"
+      ],
+      "answer": "$x^3y^2 + x^2y^3$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Write $a^2 + b^2 + c^2$ in standard form (alphabetical order).",
+      "choices": [
+        "$a^2 + b^2 + c^2$",
+        "$b^2 + a^2 + c^2$",
+        "$c^2 + b^2 + a^2$",
+        "$a^2 + c^2 + b^2$"
+      ],
+      "answer": "$a^2 + b^2 + c^2$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Write $5 - x + x^2$ in standard form.",
+      "choices": [
+        "$x^2 - x + 5$",
+        "$5 - x + x^2$",
+        "$-x + x^2 + 5$",
+        "$x^2 + x - 5$"
+      ],
+      "answer": "$x^2 - x + 5$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Write $y^3 - 1/2 y + 1/4 y^2$ in standard form.",
+      "choices": [
+        "$y^3 + 1/4 y^2 - 1/2 y$",
+        "$1/4 y^2 - 1/2 y + y^3$",
+        "$-1/2 y + 1/4 y^2 + y^3$",
+        "$y^3 - 1/2 y + 1/4 y^2$"
+      ],
+      "answer": "$y^3 + 1/4 y^2 - 1/2 y$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Write $2z^2 - 3z^5 + 7$ in standard form.",
+      "choices": [
+        "$-3z^5 + 2z^2 + 7$",
+        "$2z^2 - 3z^5 + 7$",
+        "$7 + 2z^2 - 3z^5$",
+        "$3z^5 + 2z^2 + 7$"
+      ],
+      "answer": "$-3z^5 + 2z^2 + 7$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Write $1 - x^2 + x^4$ in standard form.",
+      "choices": [
+        "$x^4 - x^2 + 1$",
+        "$1 - x^2 + x^4$",
+        "$-x^2 + x^4 + 1$",
+        "$x^4 + x^2 - 1$"
+      ],
+      "answer": "$x^4 - x^2 + 1$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Write $5x - 10x^2 + 2x^3 - 1$ in standard form.",
+      "choices": [
+        "$2x^3 - 10x^2 + 5x - 1$",
+        "$5x - 10x^2 + 2x^3 - 1$",
+        "$-1 + 5x - 10x^2 + 2x^3$",
+        "$10x^2 - 2x^3 - 5x + 1$"
+      ],
+      "answer": "$2x^3 - 10x^2 + 5x - 1$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Write $y^5 + y^3 + y$ in standard form.",
+      "choices": [
+        "$y + y^3 + y^5$",
+        "$y^3 + y + y^5$",
+        "$y^5 + y^3 + y$",
+        "$y^5 + y + y^3$"
+      ],
+      "answer": "$y^5 + y^3 + y$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Write $2 - 3m^2 + m^4$ in standard form.",
+      "choices": [
+        "$m^4 - 3m^2 + 2$",
+        "$2 - 3m^2 + m^4$",
+        "$-3m^2 + m^4 + 2$",
+        "$m^4 + 3m^2 - 2$"
+      ],
+      "answer": "$m^4 - 3m^2 + 2$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Write $7ab - 2a^2b^2 + 4a^3b$ in standard form (descending order of a).",
+      "choices": [
+        "$4a^3b - 2a^2b^2 + 7ab$",
+        "$7ab - 2a^2b^2 + 4a^3b$",
+        "$-2a^2b^2 + 7ab + 4a^3b$",
+        "$4a^3b + 7ab - 2a^2b^2$"
+      ],
+      "answer": "$4a^3b - 2a^2b^2 + 7ab$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Write $1/5 z^5 - 2/5 z^3 + 3/5 z$ in standard form.",
+      "choices": [
+        "$1/5 z^5 - 2/5 z^3 + 3/5 z$",
+        "$3/5 z - 2/5 z^3 + 1/5 z^5$",
+        "$-2/5 z^3 + 3/5 z + 1/5 z^5$",
+        "$1/5 z^5 + 3/5 z - 2/5 z^3$"
+      ],
+      "answer": "$1/5 z^5 - 2/5 z^3 + 3/5 z$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Write $10x - x^3 + 5$ in standard form.",
+      "choices": [
+        "$-x^3 + 10x + 5$",
+        "$10x - x^3 + 5$",
+        "$5 + 10x - x^3$",
+        "$x^3 - 10x + 5$"
+      ],
+      "answer": "$-x^3 + 10x + 5$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Write $y^2 + 1 - y^4$ in standard form.",
+      "choices": [
+        "$-y^4 + y^2 + 1$",
+        "$y^2 + 1 - y^4$",
+        "$1 + y^2 - y^4$",
+        "$y^4 - y^2 - 1$"
+      ],
+      "answer": "$-y^4 + y^2 + 1$",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Write $3a + 2a^2 - a^3 + 4$ in standard form.",
+      "choices": [
+        "$-a^3 + 2a^2 + 3a + 4$",
+        "$3a + 2a^2 - a^3 + 4$",
+        "$4 + 3a + 2a^2 - a^3$",
+        "$2a^2 - a^3 + 3a + 4$"
+      ],
+      "answer": "$-a^3 + 2a^2 + 3a + 4$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Write $b^6 - b^2 + b^4$ in standard form.",
+      "choices": [
+        "$b^6 + b^4 - b^2$",
+        "$b^6 - b^2 + b^4$",
+        "$b^4 - b^2 + b^6$",
+        "$-b^2 + b^4 + b^6$"
+      ],
+      "answer": "$b^6 + b^4 - b^2$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Write $c^2 - c^5 + 10c$ in standard form.",
+      "choices": [
+        "$-c^5 + c^2 + 10c$",
+        "$c^2 - c^5 + 10c$",
+        "$10c + c^2 - c^5$",
+        "$c^5 - c^2 - 10c$"
+      ],
+      "answer": "$-c^5 + c^2 + 10c$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Write $x^2 + y^2 - 2xy$ in standard form (descending order of x).",
+      "choices": [
+        "$x^2 - 2xy + y^2$",
+        "$y^2 - 2xy + x^2$",
+        "$-2xy + x^2 + y^2$",
+        "$x^2 + y^2 - 2xy$"
+      ],
+      "answer": "$x^2 - 2xy + y^2$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Write $1/2 - 1/3 x + 1/4 x^2$ in standard form.",
+      "choices": [
+        "$1/4 x^2 - 1/3 x + 1/2$",
+        "$1/2 - 1/3 x + 1/4 x^2$",
+        "$-1/3 x + 1/4 x^2 + 1/2$",
+        "$1/4 x^2 + 1/2 - 1/3 x$"
+      ],
+      "answer": "$1/4 x^2 - 1/3 x + 1/2$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Write $7z^3 - 2z + 5z^4 - 1$ in standard form.",
+      "choices": [
+        "$5z^4 + 7z^3 - 2z - 1$",
+        "$7z^3 - 2z + 5z^4 - 1$",
+        "$-1 - 2z + 7z^3 + 5z^4$",
+        "$2z - 7z^3 - 5z^4 + 1$"
+      ],
+      "answer": "$5z^4 + 7z^3 - 2z - 1$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Write $y^2 + 2y - 3y^5 + 4y^3$ in standard form.",
+      "choices": [
+        "$-3y^5 + 4y^3 + y^2 + 2y$",
+        "$y^2 + 2y - 3y^5 + 4y^3$",
+        "$2y + y^2 + 4y^3 - 3y^5$",
+        "$4y^3 - 3y^5 + y^2 + 2y$"
+      ],
+      "answer": "$-3y^5 + 4y^3 + y^2 + 2y$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Write $15 - x^2 + x^3 - 2x$ in standard form.",
+      "choices": [
+        "$x^3 - x^2 - 2x + 15$",
+        "$15 - x^2 + x^3 - 2x$",
+        "$-2x - x^2 + x^3 + 15$",
+        "$x^3 + x^2 + 2x - 15$"
+      ],
+      "answer": "$x^3 - x^2 - 2x + 15$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Write $a^2b^3 + a^3b^2 - ab^4$ in standard form (descending order of a).",
+      "choices": [
+        "$a^3b^2 + a^2b^3 - ab^4$",
+        "$a^2b^3 + a^3b^2 - ab^4$",
+        "$-ab^4 + a^2b^3 + a^3b^2$",
+        "$ab^4 - a^2b^3 - a^3b^2$"
+      ],
+      "answer": "$a^3b^2 + a^2b^3 - ab^4$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Write $100 + 50x - 25x^2$ in standard form.",
+      "choices": [
+        "$-25x^2 + 50x + 100$",
+        "$100 + 50x - 25x^2$",
+        "$50x - 25x^2 + 100$",
+        "$25x^2 - 50x - 100$"
+      ],
+      "answer": "$-25x^2 + 50x + 100$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Write $m^5 - 2m^3 + 7m - 1/2 m^4$ in standard form.",
+      "choices": [
+        "$m^5 - 1/2 m^4 - 2m^3 + 7m$",
+        "$m^5 - 2m^3 + 7m - 1/2 m^4$",
+        "$7m - 2m^3 - 1/2 m^4 + m^5$",
+        "$-1/2 m^4 + m^5 + 7m - 2m^3$"
+      ],
+      "answer": "$m^5 - 1/2 m^4 - 2m^3 + 7m$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Write $p^2q^4 - p^3q^3 + p^4q^2$ in standard form (descending order of p).",
+      "choices": [
+        "$p^4q^2 - p^3q^3 + p^2q^4$",
+        "$p^2q^4 - p^3q^3 + p^4q^2$",
+        "$p^2q^4 + p^4q^2 - p^3q^3$",
+        "$-p^3q^3 + p^2q^4 + p^4q^2$"
+      ],
+      "answer": "$p^4q^2 - p^3q^3 + p^2q^4$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Write $x^2 + x^6 - x^4 + 1$ in standard form.",
+      "choices": [
+        "$x^6 - x^4 + x^2 + 1$",
+        "$x^2 + x^6 - x^4 + 1$",
+        "$1 + x^2 - x^4 + x^6$",
+        "$x^6 + x^4 + x^2 + 1$"
+      ],
+      "answer": "$x^6 - x^4 + x^2 + 1$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Write $2y^3 - 5y + 1/3 y^4 - 7$ in standard form.",
+      "choices": [
+        "$1/3 y^4 + 2y^3 - 5y - 7$",
+        "$2y^3 - 5y + 1/3 y^4 - 7$",
+        "$-7 - 5y + 2y^3 + 1/3 y^4$",
+        "$1/3 y^4 - 7 + 2y^3 - 5y$"
+      ],
+      "answer": "$1/3 y^4 + 2y^3 - 5y - 7$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Write $z^3 - z + z^5 - z^2 + 1$ in standard form.",
+      "choices": [
+        "$z^5 + z^3 - z^2 - z + 1$",
+        "$z^3 - z + z^5 - z^2 + 1$",
+        "$1 - z - z^2 + z^3 + z^5$",
+        "$z^5 - z^2 + z^3 - z + 1$"
+      ],
+      "answer": "$z^5 + z^3 - z^2 - z + 1$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Write $a^2b + ab^2 + c^3$ in standard form (descending order of a).",
+      "choices": [
+        "$a^2b + ab^2 + c^3$",
+        "$ab^2 + a^2b + c^3$",
+        "$c^3 + a^2b + ab^2$",
+        "$a^2b + c^3 + ab^2$"
+      ],
+      "answer": "$a^2b + ab^2 + c^3$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Write $10 - 5x^2 + 2x^4 - x^3$ in standard form.",
+      "choices": [
+        "$2x^4 - x^3 - 5x^2 + 10$",
+        "$10 - 5x^2 + 2x^4 - x^3$",
+        "$-x^3 - 5x^2 + 2x^4 + 10$",
+        "$2x^4 + x^3 + 5x^2 - 10$"
+      ],
+      "answer": "$2x^4 - x^3 - 5x^2 + 10$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Write $y^7 - y^5 + y^3 - y$ in standard form.",
+      "choices": [
+        "$y^7 - y^5 + y^3 - y$",
+        "$ -y + y^3 - y^5 + y^7$",
+        "$y^3 - y + y^7 - y^5$",
+        "$y^7 + y^5 + y^3 + y$"
+      ],
+      "answer": "$y^7 - y^5 + y^3 - y$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Write $m^2 - 2 + 3m - 4m^3$ in standard form.",
+      "choices": [
+        "$-4m^3 + m^2 + 3m - 2$",
+        "$m^2 - 2 + 3m - 4m^3$",
+        "$-2 + 3m + m^2 - 4m^3$",
+        "$4m^3 - m^2 - 3m + 2$"
+      ],
+      "answer": "$-4m^3 + m^2 + 3m - 2$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Write $p^5q - p^3q^3 + pq^5$ in standard form (descending order of p).",
+      "choices": [
+        "$p^5q - p^3q^3 + pq^5$",
+        "$pq^5 - p^3q^3 + p^5q$",
+        "$-p^3q^3 + pq^5 + p^5q$",
+        "$p^5q + pq^5 - p^3q^3$"
+      ],
+      "answer": "$p^5q - p^3q^3 + pq^5$",
+      "points": 25
+    },
+    {
+      "id": 201,
       "wave": 5,
-      "question": "What is the coefficient of x⁵y⁴ in 15x⁵y⁴ – 12x⁴y⁵ + 9x³y⁶ – 6x²y⁷ + 3xy⁸?",
-      "choices": ["15", "-12", "9", "-6"],
+      "question": "What is the degree of the polynomial $x^2y^3z - 5xyz^4 + 2x^5$?",
+      "choices": ["5", "6", "7", "8"],
+      "answer": "6",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Classify the polynomial $3x^2 - 5x + 7$ by degree and number of terms.",
+      "choices": [
+        "Quadratic Trinomial",
+        "Cubic Binomial",
+        "Linear Monomial",
+        "Quadratic Monomial"
+      ],
+      "answer": "Quadratic Trinomial",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Write the polynomial $1/2 x^3 - 3x^5 + 7x - 1$ in standard form and state its degree.",
+      "choices": [
+        "$-3x^5 + 1/2 x^3 + 7x - 1$, Degree 5",
+        "$1/2 x^3 - 3x^5 + 7x - 1$, Degree 3",
+        "$7x - 1 + 1/2 x^3 - 3x^5$, Degree 1",
+        "$-1 + 7x + 1/2 x^3 - 3x^5$, Degree 0"
+      ],
+      "answer": "$-3x^5 + 1/2 x^3 + 7x - 1$, Degree 5",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Identify the leading coefficient of the polynomial $2y - 4y^3 + y^2 - 10$.",
+      "choices": ["2", "-4", "1", "-10"],
+      "answer": "-4",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "What is the sum of the degrees of the terms in $x^2y^3 + x^4y + z^5$?",
+      "choices": ["5", "5", "5", "15"],
       "answer": "15",
       "points": 30
     },
     {
-      "id": 165,
+      "id": 206,
       "wave": 5,
-      "question": "How many terms are in 14x⁷ – 12x⁶y + 10x⁵y² – 8x⁴y³ + 6x³y⁴ – 4x²y⁵ + 2xy⁶ – y⁷?",
-      "choices": ["8", "7", "6", "5"],
-      "answer": "8",
-      "points": 30
-    },
-    {
-      "id": 166,
-      "wave": 5,
-      "question": "What is the degree of 18x⁵y⁴z³ – 15x⁴y⁵z⁴ + 12x³y⁶z⁵?",
-      "choices": ["12", "11", "10", "9"],
-      "answer": "12",
-      "points": 30
-    },
-    {
-      "id": 167,
-      "wave": 5,
-      "question": "Identify the leading coefficient of –20x⁸y³ + 16x⁷y⁴ – 12x⁶y⁵ + 8x⁵y⁶ – 4x⁴y⁷.",
-      "choices": ["-20", "16", "-12", "8"],
-      "answer": "-20",
-      "points": 30
-    },
-    {
-      "id": 168,
-      "wave": 5,
-      "question": "What is the constant term of 21x⁶y⁵ – 18x⁵y⁶ + 15x⁴y⁷ – 12x³y⁸ + 9x²y⁹ – 6xy¹⁰ + 3y¹¹ – 7?",
-      "choices": ["-7", "21", "-18", "15"],
-      "answer": "-7",
-      "points": 30
-    },
-    {
-      "id": 169,
-      "wave": 5,
-      "question": "Arrange 10x⁴y² – 8x³y³ + 6x²y⁴ – 4xy⁵ + 2y⁶ – 1 in descending order.",
+      "question": "Classify the polynomial $5x^4 - 2x^2 + x^3 - 9$ by degree and number of terms.",
       "choices": [
-        "10x⁴y² – 8x³y³ + 6x²y⁴ – 4xy⁵ + 2y⁶ – 1",
-        "-1 + 2y⁶ – 4xy⁵ + 6x²y⁴ – 8x³y³ + 10x⁴y²",
-        "2y⁶ – 4xy⁵ + 6x²y⁴ – 8x³y³ + 10x⁴y² – 1",
-        "10x⁴y² + 2y⁶ – 8x³y³ + 6x²y⁴ – 4xy⁵ – 1"
+        "Quartic Trinomial",
+        "Quartic Polynomial",
+        "Cubic Polynomial",
+        "Quintic Polynomial"
       ],
-      "answer": "10x⁴y² – 8x³y³ + 6x²y⁴ – 4xy⁵ + 2y⁶ – 1",
+      "answer": "Quartic Polynomial",
       "points": 30
     },
     {
-      "id": 170,
+      "id": 207,
       "wave": 5,
-      "question": "Identify the leading term after arranging –7 + 3x⁵y² – 5x⁴y³ + x³y⁴ – 2x²y⁵.",
-      "choices": ["3x⁵y²", "-5x⁴y³", "x³y⁴", "-2x²y⁵"],
-      "answer": "3x⁵y²",
+      "question": "Write the polynomial $a^2b - 3ab^2 + 5a^3$ in standard form (descending order of $a$) and state its degree.",
+      "choices": [
+        "$5a^3 + a^2b - 3ab^2$, Degree 3",
+        "$a^2b - 3ab^2 + 5a^3$, Degree 2",
+        "$-3ab^2 + a^2b + 5a^3$, Degree 3",
+        "$5a^3 - 3ab^2 + a^2b$, Degree 3"
+      ],
+      "answer": "$5a^3 + a^2b - 3ab^2$, Degree 3",
       "points": 30
     },
     {
-      "id": 171,
+      "id": 208,
       "wave": 5,
-      "question": "What is the coefficient of x⁶y³ in 25x⁶y³ – 20x⁵y⁴ + 15x⁴y⁵ – 10x³y⁶ + 5x²y⁷?",
-      "choices": ["25", "-20", "15", "-10"],
-      "answer": "25",
+      "question": "What is the constant term of the polynomial $1/3 x^2 - 2/5 x + 7/8$?",
+      "choices": ["1/3", "-2/5", "7/8", "0"],
+      "answer": "7/8",
       "points": 30
     },
     {
-      "id": 172,
+      "id": 209,
       "wave": 5,
-      "question": "How many terms are in the expansion (x + y)⁵?",
-      "choices": ["6", "5", "4", "7"],
+      "question": "If a polynomial has a degree of 0, how many terms can it have?",
+      "choices": [
+        "Exactly one",
+        "Exactly two",
+        "Any number of terms",
+        "Zero terms"
+      ],
+      "answer": "Exactly one",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Which of the following is a cubic binomial?",
+      "choices": ["$x^3$", "$x^3 + 5$", "$x^2 + x + 1$", "$x^4 - 2x$"],
+      "answer": "$x^3 + 5$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Write the polynomial $10 - z^2 + 4z^5 - z$ in standard form and identify its leading coefficient.",
+      "choices": [
+        "$4z^5 - z^2 - z + 10$, Leading coefficient 4",
+        "$-z^2 - z + 4z^5 + 10$, Leading coefficient -1",
+        "$4z^5 + z^2 + z + 10$, Leading coefficient 4",
+        "$10 - z + z^2 + 4z^5$, Leading coefficient 10"
+      ],
+      "answer": "$4z^5 - z^2 - z + 10$, Leading coefficient 4",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $x^2 + y^2 + z^2 + w^2$?",
+      "choices": ["2", "4", "8", "1"],
+      "answer": "2",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Classify the polynomial $m^6 - 2m^3 + 5m - 1/2$ by degree and number of terms.",
+      "choices": [
+        "Sextic Binomial",
+        "Sextic Trinomial",
+        "Sextic Polynomial",
+        "Quintic Polynomial"
+      ],
+      "answer": "Sextic Polynomial",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Write the polynomial $x^2 - 7x^4 + 3x - 1/2$ in standard form and identify its constant term.",
+      "choices": [
+        "$-7x^4 + x^2 + 3x - 1/2$, Constant term -1/2",
+        "$x^2 - 7x^4 + 3x - 1/2$, Constant term 1/2",
+        "$3x + x^2 - 7x^4 - 1/2$, Constant term 3",
+        "$-1/2 + 3x + x^2 - 7x^4$, Constant term -1/2"
+      ],
+      "answer": "$-7x^4 + x^2 + 3x - 1/2$, Constant term -1/2",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Which of the following is a quartic trinomial?",
+      "choices": ["$x^4$", "$x^4 + x^2$", "$x^4 + 2x^2 + 1$", "$x^5 - 3x$"],
+      "answer": "$x^4 + 2x^2 + 1$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $pqr - 2pq^2r^3 + 5p^4$?",
+      "choices": ["3", "6", "4", "10"],
       "answer": "6",
       "points": 30
     },
     {
-      "id": 173,
+      "id": 217,
       "wave": 5,
-      "question": "What is the degree of 12x⁷y²z – 9x⁶y³z² + 6x⁵y⁴z³ – 3x⁴y⁵z⁴?",
-      "choices": ["10", "9", "8", "7"],
+      "question": "Classify the polynomial $1000$ by degree and number of terms.",
+      "choices": [
+        "Constant Monomial",
+        "Linear Monomial",
+        "Constant Binomial",
+        "Quadratic Monomial"
+      ],
+      "answer": "Constant Monomial",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Write the polynomial $y - y^5 + 2y^2 - 3y^4$ in standard form and state its leading coefficient.",
+      "choices": [
+        "$-y^5 - 3y^4 + 2y^2 + y$, Leading coefficient -1",
+        "$y - y^5 + 2y^2 - 3y^4$, Leading coefficient 1",
+        "$2y^2 + y - 3y^4 - y^5$, Leading coefficient 2",
+        "$-3y^4 - y^5 + 2y^2 + y$, Leading coefficient -3"
+      ],
+      "answer": "$-y^5 - 3y^4 + 2y^2 + y$, Leading coefficient -1",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $x^2y^2z^2 - 3x^3y^3 + 7xyz$?",
+      "choices": ["6", "9", "3", "12"],
+      "answer": "6",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Classify the polynomial $ab^2c^3 + a^4b - 7c^5$ by degree and number of terms.",
+      "choices": [
+        "Sextic Trinomial",
+        "Quintic Trinomial",
+        "Sextic Polynomial",
+        "Quintic Polynomial"
+      ],
+      "answer": "Sextic Trinomial",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Write the polynomial $5x^2 - 2x^6 + x^3 - 1/5$ in standard form and state its degree.",
+      "choices": [
+        "$-2x^6 + x^3 + 5x^2 - 1/5$, Degree 6",
+        "$5x^2 - 2x^6 + x^3 - 1/5$, Degree 2",
+        "$x^3 + 5x^2 - 2x^6 - 1/5$, Degree 3",
+        "$-1/5 + x^3 + 5x^2 - 2x^6$, Degree 0"
+      ],
+      "answer": "$-2x^6 + x^3 + 5x^2 - 1/5$, Degree 6",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Identify the leading coefficient of the polynomial $1 - 2x + 3x^2 - 4x^3$.",
+      "choices": ["1", "-2", "3", "-4"],
+      "answer": "-4",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "What is the sum of the degrees of the terms in $m^2n^3 + m^4n + p^6$?",
+      "choices": ["5", "5", "6", "16"],
+      "answer": "16",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Classify the polynomial $x^7 - x^5 + x^3 - x$ by degree and number of terms.",
+      "choices": [
+        "Septic Polynomial",
+        "Quintic Polynomial",
+        "Septic Trinomial",
+        "Septic Binomial"
+      ],
+      "answer": "Septic Polynomial",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Write the polynomial $1/2 y^4 - 3/4 y^2 + 1/8 y - 1$ in standard form and identify its constant term.",
+      "choices": [
+        "$1/2 y^4 - 3/4 y^2 + 1/8 y - 1$, Constant term -1",
+        "$-1 + 1/8 y - 3/4 y^2 + 1/2 y^4$, Constant term -1",
+        "$1/8 y - 3/4 y^2 + 1/2 y^4 - 1$, Constant term 1/8",
+        "$1/2 y^4 + 1/8 y - 3/4 y^2 - 1$, Constant term 1/2"
+      ],
+      "answer": "$1/2 y^4 - 3/4 y^2 + 1/8 y - 1$, Constant term -1",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Which of the following describes $ax^3 + bx^2 + cx + d$ (assume $a \\ne 0$)?",
+      "choices": [
+        "Quadratic Trinomial",
+        "Cubic Polynomial",
+        "Linear Binomial",
+        "Constant Monomial"
+      ],
+      "answer": "Cubic Polynomial",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $10x^2y^3z^4 - 5x^5y^2z + 2x^6y$?",
+      "choices": ["9", "8", "7", "6"],
+      "answer": "9",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Classify the polynomial $x^{10} - 1$ by degree and number of terms.",
+      "choices": [
+        "Nonic Binomial",
+        "Decic Monomial",
+        "Decic Binomial",
+        "Nonic Monomial"
+      ],
+      "answer": "Decic Binomial",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Write the polynomial $25 - 5x + x^2 - 10x^3$ in standard form and identify its leading coefficient.",
+      "choices": [
+        "$-10x^3 + x^2 - 5x + 25$, Leading coefficient -10",
+        "$25 - 5x + x^2 - 10x^3$, Leading coefficient 25",
+        "$x^2 - 5x - 10x^3 + 25$, Leading coefficient 1",
+        "$-5x + x^2 - 10x^3 + 25$, Leading coefficient -5"
+      ],
+      "answer": "$-10x^3 + x^2 - 5x + 25$, Leading coefficient -10",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $x^2y^3 + y^4z - x^5$?",
+      "choices": ["5", "4", "3", "2"],
+      "answer": "5",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Classify the polynomial $a^2 + 2ab + b^2$ by degree and number of terms.",
+      "choices": [
+        "Linear Trinomial",
+        "Quadratic Binomial",
+        "Quadratic Trinomial",
+        "Cubic Trinomial"
+      ],
+      "answer": "Quadratic Trinomial",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Write the polynomial $m^2n^3 - m^4n + 5mn^4$ in standard form (descending order of m) and state its degree.",
+      "choices": [
+        "$-m^4n + m^2n^3 + 5mn^4$, Degree 5",
+        "$m^2n^3 - m^4n + 5mn^4$, Degree 5",
+        "$5mn^4 + m^2n^3 - m^4n$, Degree 5",
+        "$m^4n + m^2n^3 + 5mn^4$, Degree 5"
+      ],
+      "answer": "$-m^4n + m^2n^3 + 5mn^4$, Degree 5",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Identify the constant term of the polynomial $x^2y - 5xy + 12$.",
+      "choices": ["1", "-5", "12", "0"],
+      "answer": "12",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "If a polynomial is classified as a 'linear binomial', what is its degree?",
+      "choices": ["0", "1", "2", "Undefined"],
+      "answer": "1",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Which of the following is a quintic polynomial with four terms?",
+      "choices": [
+        "$x^5$",
+        "$x^5 + x^4 + x^3 + x^2$",
+        "$x^6 - x^2 + 1$",
+        "$x^5 + 2x^4 - 3x + 7$"
+      ],
+      "answer": "$x^5 + 2x^4 - 3x + 7$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $1/2 x^7 - 3/4 x^5 + 1/8 x^3 - 1/16 x$?",
+      "choices": ["7", "5", "3", "1"],
+      "answer": "7",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Classify the polynomial $p^4q^2 - p^3q^3 + p^2q^4$ by degree and number of terms.",
+      "choices": [
+        "Sextic Trinomial",
+        "Quintic Trinomial",
+        "Sextic Binomial",
+        "Quartic Trinomial"
+      ],
+      "answer": "Sextic Trinomial",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Write the polynomial $1 - z^2 + z^4 - z^6$ in standard form and state its leading coefficient.",
+      "choices": [
+        "$-z^6 + z^4 - z^2 + 1$, Leading coefficient -1",
+        "$1 - z^2 + z^4 - z^6$, Leading coefficient 1",
+        "$z^4 - z^6 - z^2 + 1$, Leading coefficient 1",
+        "$z^6 - z^4 + z^2 - 1$, Leading coefficient 1"
+      ],
+      "answer": "$-z^6 + z^4 - z^2 + 1$, Leading coefficient -1",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $ax^2 + by^2 + cz^2$?",
+      "choices": ["2", "3", "6", "0"],
+      "answer": "2",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Classify the polynomial $5x^3y^2 - 2x^2y^3 + xy^4$ by degree and number of terms.",
+      "choices": [
+        "Quintic Trinomial",
+        "Quartic Trinomial",
+        "Sextic Trinomial",
+        "Quintic Binomial"
+      ],
+      "answer": "Quintic Trinomial",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Write the polynomial $100x^2 - 50x^4 + 25x^3 - 1$ in standard form and state its degree.",
+      "choices": [
+        "$-50x^4 + 25x^3 + 100x^2 - 1$, Degree 4",
+        "$100x^2 - 50x^4 + 25x^3 - 1$, Degree 2",
+        "$25x^3 + 100x^2 - 50x^4 - 1$, Degree 3",
+        "$-1 + 25x^3 + 100x^2 - 50x^4$, Degree 0"
+      ],
+      "answer": "$-50x^4 + 25x^3 + 100x^2 - 1$, Degree 4",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Identify the leading coefficient of the polynomial $y^8 - 2y^6 + 3y^4 - 4y^2 + 5$.",
+      "choices": ["1", "-2", "3", "5"],
+      "answer": "1",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "What is the sum of the degrees of the terms in $xyz + x^2y^2 + z^3$?",
+      "choices": ["3", "4", "3", "10"],
       "answer": "10",
       "points": 30
     },
     {
-      "id": 174,
+      "id": 244,
       "wave": 5,
-      "question": "Identify the leading coefficient of –30x¹⁰y² + 24x⁹y³ – 18x⁸y⁴ + 12x⁷y⁵ – 6x⁶y⁶.",
-      "choices": ["-30", "24", "-18", "12"],
-      "answer": "-30",
-      "points": 30
-    },
-    {
-      "id": 175,
-      "wave": 5,
-      "question": "What is the constant term of 27x⁹y⁷ – 24x⁸y⁸ + 21x⁷y⁹ – 18x⁶y¹⁰ + 15x⁵y¹¹ – 12x⁴y¹² + 9x³y¹³ – 6x²y¹⁴ + 3xy¹⁵ – y¹⁶ + 4?",
-      "choices": ["4", "27", "-24", "21"],
-      "answer": "4",
-      "points": 30
-    },
-    {
-      "id": 176,
-      "wave": 5,
-      "question": "Arrange 18x⁵y⁴ – 15x⁴y⁵ + 12x³y⁶ – 9x²y⁷ + 6xy⁸ – 3y⁹ + 7 in ascending order.",
+      "question": "Classify the polynomial $a^5b - a^3b^3 + ab^5$ by degree and number of terms.",
       "choices": [
-        "7 – 3y⁹ + 6xy⁸ – 9x²y⁷ + 12x³y⁶ – 15x⁴y⁵ + 18x⁵y⁴",
-        "18x⁵y⁴ – 15x⁴y⁵ + 12x³y⁶ – 9x²y⁷ + 6xy⁸ – 3y⁹ + 7",
-        "-3y⁹ + 6xy⁸ – 9x²y⁷ + 12x³y⁶ – 15x⁴y⁵ + 18x⁵y⁴ + 7",
-        "7 + 18x⁵y⁴ – 15x⁴y⁵ + 12x³y⁶ – 9x²y⁷ + 6xy⁸ – 3y⁹"
+        "Sextic Trinomial",
+        "Quintic Trinomial",
+        "Sextic Binomial",
+        "Quintic Binomial"
       ],
-      "answer": "7 – 3y⁹ + 6xy⁸ – 9x²y⁷ + 12x³y⁶ – 15x⁴y⁵ + 18x⁵y⁴",
+      "answer": "Sextic Trinomial",
       "points": 30
     },
     {
-      "id": 177,
+      "id": 245,
       "wave": 5,
-      "question": "Identify the leading term after arranging 2 – 6x²y³ + 4x⁴y – 8x³y² + 10xy⁴.",
-      "choices": ["4x⁴y", "-6x²y³", "-8x³y²", "10xy⁴"],
-      "answer": "4x⁴y",
+      "question": "Write the polynomial $1/3 x^6 - 2/3 x^4 + 1/3 x^2 - 1$ in standard form and identify its constant term.",
+      "choices": [
+        "$1/3 x^6 - 2/3 x^4 + 1/3 x^2 - 1$, Constant term -1",
+        "$-1 + 1/3 x^2 - 2/3 x^4 + 1/3 x^6$, Constant term -1",
+        "$1/3 x^2 - 2/3 x^4 + 1/3 x^6 - 1$, Constant term 1/3",
+        "$1/3 x^6 - 1 + 1/3 x^2 - 2/3 x^4$, Constant term 1/3"
+      ],
+      "answer": "$1/3 x^6 - 2/3 x^4 + 1/3 x^2 - 1$, Constant term -1",
       "points": 30
     },
     {
-      "id": 178,
+      "id": 246,
       "wave": 5,
-      "question": "What is the coefficient of x⁷y⁵ in 35x⁷y⁵ – 30x⁶y⁶ + 25x⁵y⁷ – 20x⁴y⁸ + 15x³y⁹ – 10x²y¹⁰ + 5xy¹¹?",
-      "choices": ["35", "-30", "25", "-20"],
-      "answer": "35",
+      "question": "Which of the following is a nonic polynomial with two terms?",
+      "choices": ["$x^9$", "$x^9 + 1$", "$x^{10} - x$", "$x^8 + x^7 + x^6$"],
+      "answer": "$x^9 + 1$",
       "points": 30
     },
     {
-      "id": 179,
+      "id": 247,
       "wave": 5,
-      "question": "How many terms are in the polynomial 1 – x + x² – x³ + x⁴ – x⁵ + x⁶ – x⁷ + x⁸ – x⁹ + x¹⁰?",
-      "choices": ["11", "10", "9", "12"],
-      "answer": "11",
+      "question": "What is the degree of the polynomial $m^2n^2p^2 - 5mnp + 10$?",
+      "choices": ["6", "3", "0", "11"],
+      "answer": "6",
       "points": 30
     },
     {
-      "id": 180,
+      "id": 248,
       "wave": 5,
-      "question": "What is the degree of 100x¹⁰y⁹z⁸ – 90x⁹y¹⁰z⁸ + 80x⁸y¹⁰z⁹?",
-      "choices": ["27", "26", "25", "24"],
-      "answer": "27",
+      "question": "Classify the polynomial $x^3 - 2x^2 + 5x - 1$ by degree and number of terms.",
+      "choices": [
+        "Quadratic Trinomial",
+        "Cubic Binomial",
+        "Cubic Polynomial",
+        "Linear Polynomial"
+      ],
+      "answer": "Cubic Polynomial",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Write the polynomial $y^5 - 2y^2 + 7y^3 - 10$ in standard form and state its leading coefficient.",
+      "choices": [
+        "$y^5 + 7y^3 - 2y^2 - 10$, Leading coefficient 1",
+        "$-10 - 2y^2 + 7y^3 + y^5$, Leading coefficient -10",
+        "$7y^3 + y^5 - 2y^2 - 10$, Leading coefficient 7",
+        "$y^5 - 2y^2 + 7y^3 - 10$, Leading coefficient 1"
+      ],
+      "answer": "$y^5 + 7y^3 - 2y^2 - 10$, Leading coefficient 1",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "What is the degree of the polynomial $a^2b^3c^4d^5$?",
+      "choices": ["2", "3", "4", "14"],
+      "answer": "14",
       "points": 30
     }
   ]

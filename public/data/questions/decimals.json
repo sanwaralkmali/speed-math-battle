@@ -1,2015 +1,2007 @@
 {
-    "title": "Decimals Operations",
-    "description": "Work with decimals like a pro! Whether it’s shopping, measuring, or solving tricky problems, practice decimal operations in a game that rewards accuracy and speed!",
-    "waves": 5,
-    "timePerQuestion": 30,
-    "questions": [
-  {
-    "id": 1,
-    "wave": 1,
-    "question": "What is 2.3 + 1.5?",
-    "choices": ["3.8", "4.8", "2.8", "3.5"],
-    "answer": "3.8",
-    "points": 10
-  },
-  {
-    "id": 2,
-    "wave": 1,
-    "question": "What is 4.7 - 2.2?",
-    "choices": ["2.5", "3.5", "2.9", "1.5"],
-    "answer": "2.5",
-    "points": 10
-  },
-  {
-    "id": 3,
-    "wave": 1,
-    "question": "What is 1.6 + 3.1?",
-    "choices": ["4.7", "5.7", "4.2", "3.7"],
-    "answer": "4.7",
-    "points": 10
-  },
-  {
-    "id": 4,
-    "wave": 1,
-    "question": "What is 5.8 - 1.4?",
-    "choices": ["4.4", "5.4", "3.4", "4.2"],
-    "answer": "4.4",
-    "points": 10
-  },
-  {
-    "id": 5,
-    "wave": 1,
-    "question": "What is 3.2 + 2.6?",
-    "choices": ["5.8", "6.8", "5.2", "4.8"],
-    "answer": "5.8",
-    "points": 10
-  },
-  {
-    "id": 6,
-    "wave": 1,
-    "question": "What is 7.3 - 4.1?",
-    "choices": ["3.2", "4.2", "2.2", "3.4"],
-    "answer": "3.2",
-    "points": 10
-  },
-  {
-    "id": 7,
-    "wave": 1,
-    "question": "What is 2.8 + 1.9?",
-    "choices": ["4.7", "3.7", "5.7", "4.9"],
-    "answer": "4.7",
-    "points": 10
-  },
-  {
-    "id": 8,
-    "wave": 1,
-    "question": "What is 6.5 - 2.3?",
-    "choices": ["4.2", "5.2", "3.2", "4.8"],
-    "answer": "4.2",
-    "points": 10
-  },
-  {
-    "id": 9,
-    "wave": 1,
-    "question": "What is 1.4 + 5.2?",
-    "choices": ["6.6", "7.6", "5.6", "6.2"],
-    "answer": "6.6",
-    "points": 10
-  },
-  {
-    "id": 10,
-    "wave": 1,
-    "question": "What is 8.7 - 3.5?",
-    "choices": ["5.2", "6.2", "4.2", "5.8"],
-    "answer": "5.2",
-    "points": 10
-  },
-  {
-    "id": 11,
-    "wave": 1,
-    "question": "What is 3.6 + 2.3?",
-    "choices": ["5.9", "6.9", "4.9", "5.3"],
-    "answer": "5.9",
-    "points": 10
-  },
-  {
-    "id": 12,
-    "wave": 1,
-    "question": "What is 9.1 - 4.7?",
-    "choices": ["4.4", "5.4", "3.4", "4.8"],
-    "answer": "4.4",
-    "points": 10
-  },
-  {
-    "id": 13,
-    "wave": 1,
-    "question": "What is 2.7 + 3.8?",
-    "choices": ["6.5", "7.5", "5.5", "6.9"],
-    "answer": "6.5",
-    "points": 10
-  },
-  {
-    "id": 14,
-    "wave": 1,
-    "question": "What is 7.9 - 2.6?",
-    "choices": ["5.3", "6.3", "4.3", "5.9"],
-    "answer": "5.3",
-    "points": 10
-  },
-  {
-    "id": 15,
-    "wave": 1,
-    "question": "What is 4.1 + 1.8?",
-    "choices": ["5.9", "6.9", "4.9", "5.1"],
-    "answer": "5.9",
-    "points": 10
-  },
-  {
-    "id": 16,
-    "wave": 1,
-    "question": "What is 6.4 - 3.2?",
-    "choices": ["3.2", "4.2", "2.2", "3.6"],
-    "answer": "3.2",
-    "points": 10
-  },
-  {
-    "id": 17,
-    "wave": 1,
-    "question": "What is 1.9 + 4.5?",
-    "choices": ["6.4", "7.4", "5.4", "6.8"],
-    "answer": "6.4",
-    "points": 10
-  },
-  {
-    "id": 18,
-    "wave": 1,
-    "question": "What is 8.3 - 5.1?",
-    "choices": ["3.2", "4.2", "2.2", "3.8"],
-    "answer": "3.2",
-    "points": 10
-  },
-  {
-    "id": 19,
-    "wave": 1,
-    "question": "What is 3.5 + 2.7?",
-    "choices": ["6.2", "7.2", "5.2", "6.8"],
-    "answer": "6.2",
-    "points": 10
-  },
-  {
-    "id": 20,
-    "wave": 1,
-    "question": "What is 9.6 - 4.3?",
-    "choices": ["5.3", "6.3", "4.3", "5.9"],
-    "answer": "5.3",
-    "points": 10
-  },
-  {
-    "id": 21,
-    "wave": 1,
-    "question": "What is 2.4 + 3.9?",
-    "choices": ["6.3", "7.3", "5.3", "6.9"],
-    "answer": "6.3",
-    "points": 10
-  },
-  {
-    "id": 22,
-    "wave": 1,
-    "question": "What is 7.8 - 1.5?",
-    "choices": ["6.3", "7.3", "5.3", "6.9"],
-    "answer": "6.3",
-    "points": 10
-  },
-  {
-    "id": 23,
-    "wave": 1,
-    "question": "What is 4.6 + 2.8?",
-    "choices": ["7.4", "8.4", "6.4", "7.8"],
-    "answer": "7.4",
-    "points": 10
-  },
-  {
-    "id": 24,
-    "wave": 1,
-    "question": "What is 8.1 - 3.7?",
-    "choices": ["4.4", "5.4", "3.4", "4.8"],
-    "answer": "4.4",
-    "points": 10
-  },
-  {
-    "id": 25,
-    "wave": 1,
-    "question": "What is 1.7 + 5.6?",
-    "choices": ["7.3", "8.3", "6.3", "7.9"],
-    "answer": "7.3",
-    "points": 10
-  },
-  {
-    "id": 26,
-    "wave": 1,
-    "question": "What is 9.2 - 2.8?",
-    "choices": ["6.4", "7.4", "5.4", "6.8"],
-    "answer": "6.4",
-    "points": 10
-  },
-  {
-    "id": 27,
-    "wave": 1,
-    "question": "What is 3.8 + 4.1?",
-    "choices": ["7.9", "8.9", "6.9", "7.1"],
-    "answer": "7.9",
-    "points": 10
-  },
-  {
-    "id": 28,
-    "wave": 1,
-    "question": "What is 6.9 - 4.5?",
-    "choices": ["2.4", "3.4", "1.4", "2.8"],
-    "answer": "2.4",
-    "points": 10
-  },
-  {
-    "id": 29,
-    "wave": 1,
-    "question": "What is 5.3 + 1.6?",
-    "choices": ["6.9", "7.9", "5.9", "6.3"],
-    "answer": "6.9",
-    "points": 10
-  },
-  {
-    "id": 30,
-    "wave": 1,
-    "question": "What is 8.7 - 6.2?",
-    "choices": ["2.5", "3.5", "1.5", "2.9"],
-    "answer": "2.5",
-    "points": 10
-  },
-  {
-    "id": 31,
-    "wave": 1,
-    "question": "What is 2.1 + 4.7?",
-    "choices": ["6.8", "7.8", "5.8", "6.2"],
-    "answer": "6.8",
-    "points": 10
-  },
-  {
-    "id": 32,
-    "wave": 1,
-    "question": "What is 7.6 - 3.3?",
-    "choices": ["4.3", "5.3", "3.3", "4.9"],
-    "answer": "4.3",
-    "points": 10
-  },
-  {
-    "id": 33,
-    "wave": 1,
-    "question": "What is 4.9 + 3.4?",
-    "choices": ["8.3", "9.3", "7.3", "8.9"],
-    "answer": "8.3",
-    "points": 10
-  },
-  {
-    "id": 34,
-    "wave": 1,
-    "question": "What is 9.8 - 5.4?",
-    "choices": ["4.4", "5.4", "3.4", "4.8"],
-    "answer": "4.4",
-    "points": 10
-  },
-  {
-    "id": 35,
-    "wave": 1,
-    "question": "What is 1.3 + 6.2?",
-    "choices": ["7.5", "8.5", "6.5", "7.9"],
-    "answer": "7.5",
-    "points": 10
-  },
-  {
-    "id": 36,
-    "wave": 1,
-    "question": "What is 8.4 - 2.1?",
-    "choices": ["6.3", "7.3", "5.3", "6.9"],
-    "answer": "6.3",
-    "points": 10
-  },
-  {
-    "id": 37,
-    "wave": 1,
-    "question": "What is 3.7 + 5.8?",
-    "choices": ["9.5", "10.5", "8.5", "9.1"],
-    "answer": "9.5",
-    "points": 10
-  },
-  {
-    "id": 38,
-    "wave": 1,
-    "question": "What is 7.2 - 4.9?",
-    "choices": ["2.3", "3.3", "1.3", "2.9"],
-    "answer": "2.3",
-    "points": 10
-  },
-  {
-    "id": 39,
-    "wave": 1,
-    "question": "What is 6.1 + 2.4?",
-    "choices": ["8.5", "9.5", "7.5", "8.9"],
-    "answer": "8.5",
-    "points": 10
-  },
-  {
-    "id": 40,
-    "wave": 1,
-    "question": "What is 9.3 - 3.8?",
-    "choices": ["5.5", "6.5", "4.5", "5.9"],
-    "answer": "5.5",
-    "points": 10
-  },
-  {
-    "id": 41,
-    "wave": 1,
-    "question": "What is 2.5 + 6.7?",
-    "choices": ["9.2", "10.2", "8.2", "9.8"],
-    "answer": "9.2",
-    "points": 10
-  },
-  {
-    "id": 42,
-    "wave": 1,
-    "question": "What is 8.6 - 5.2?",
-    "choices": ["3.4", "4.4", "2.4", "3.8"],
-    "answer": "3.4",
-    "points": 10
-  },
-  {
-    "id": 43,
-    "wave": 1,
-    "question": "What is 4.8 + 1.7?",
-    "choices": ["6.5", "7.5", "5.5", "6.9"],
-    "answer": "6.5",
-    "points": 10
-  },
-  {
-    "id": 44,
-    "wave": 1,
-    "question": "What is 7.1 - 2.9?",
-    "choices": ["4.2", "5.2", "3.2", "4.8"],
-    "answer": "4.2",
-    "points": 10
-  },
-  {
-    "id": 45,
-    "wave": 1,
-    "question": "What is 5.4 + 3.6?",
-    "choices": ["9.0", "10.0", "8.0", "9.6"],
-    "answer": "9.0",
-    "points": 10
-  },
-  {
-    "id": 46,
-    "wave": 1,
-    "question": "What is 9.7 - 4.1?",
-    "choices": ["5.6", "6.6", "4.6", "5.2"],
-    "answer": "5.6",
-    "points": 10
-  },
-  {
-    "id": 47,
-    "wave": 1,
-    "question": "What is 1.8 + 7.3?",
-    "choices": ["9.1", "10.1", "8.1", "9.7"],
-    "answer": "9.1",
-    "points": 10
-  },
-  {
-    "id": 48,
-    "wave": 1,
-    "question": "What is 6.8 - 3.4?",
-    "choices": ["3.4", "4.4", "2.4", "3.8"],
-    "answer": "3.4",
-    "points": 10
-  },
-  {
-    "id": 49,
-    "wave": 1,
-    "question": "What is 4.2 + 5.9?",
-    "choices": ["10.1", "11.1", "9.1", "10.7"],
-    "answer": "10.1",
-    "points": 10
-  },
-  {
-    "id": 50,
-    "wave": 1,
-    "question": "What is 8.5 - 6.7?",
-    "choices": ["1.8", "2.8", "0.8", "2.2"],
-    "answer": "1.8",
-    "points": 10
-  },
-  {
-    "id": 51,
-    "wave": 2,
-    "question": "What is 3.25 + 2.47?",
-    "choices": ["5.72", "6.72", "4.72", "5.62"],
-    "answer": "5.72",
-    "points": 15
-  },
-  {
-    "id": 52,
-    "wave": 2,
-    "question": "What is 7.83 - 4.56?",
-    "choices": ["3.27", "4.27", "2.27", "3.37"],
-    "answer": "3.27",
-    "points": 15
-  },
-  {
-    "id": 53,
-    "wave": 2,
-    "question": "What is 2.4 × 3.5?",
-    "choices": ["8.4", "9.4", "7.4", "8.8"],
-    "answer": "8.4",
-    "points": 15
-  },
-  {
-    "id": 54,
-    "wave": 2,
-    "question": "What is 9.6 ÷ 2.4?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 55,
-    "wave": 2,
-    "question": "What is 5.68 + 3.29?",
-    "choices": ["8.97", "9.97", "7.97", "8.87"],
-    "answer": "8.97",
-    "points": 15
-  },
-  {
-    "id": 56,
-    "wave": 2,
-    "question": "What is 8.42 - 5.67?",
-    "choices": ["2.75", "3.75", "1.75", "2.85"],
-    "answer": "2.75",
-    "points": 15
-  },
-  {
-    "id": 57,
-    "wave": 2,
-    "question": "What is 1.6 × 4.5?",
-    "choices": ["7.2", "8.2", "6.2", "7.8"],
-    "answer": "7.2",
-    "points": 15
-  },
-  {
-    "id": 58,
-    "wave": 2,
-    "question": "What is 12.8 ÷ 3.2?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 59,
-    "wave": 2,
-    "question": "What is 4.73 + 6.18?",
-    "choices": ["10.91", "11.91", "9.91", "10.81"],
-    "answer": "10.91",
-    "points": 15
-  },
-  {
-    "id": 60,
-    "wave": 2,
-    "question": "What is 9.34 - 2.89?",
-    "choices": ["6.45", "7.45", "5.45", "6.55"],
-    "answer": "6.45",
-    "points": 15
-  },
-  {
-    "id": 61,
-    "wave": 2,
-    "question": "What is 2.8 × 1.5?",
-    "choices": ["4.2", "5.2", "3.2", "4.8"],
-    "answer": "4.2",
-    "points": 15
-  },
-  {
-    "id": 62,
-    "wave": 2,
-    "question": "What is 15.6 ÷ 3.9?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 63,
-    "wave": 2,
-    "question": "What is 6.47 + 1.85?",
-    "choices": ["8.32", "9.32", "7.32", "8.42"],
-    "answer": "8.32",
-    "points": 15
-  },
-  {
-    "id": 64,
-    "wave": 2,
-    "question": "What is 7.91 - 3.46?",
-    "choices": ["4.45", "5.45", "3.45", "4.55"],
-    "answer": "4.45",
-    "points": 15
-  },
-  {
-    "id": 65,
-    "wave": 2,
-    "question": "What is 3.2 × 2.1?",
-    "choices": ["6.72", "7.72", "5.72", "6.62"],
-    "answer": "6.72",
-    "points": 15
-  },
-  {
-    "id": 66,
-    "wave": 2,
-    "question": "What is 18.4 ÷ 4.6?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 67,
-    "wave": 2,
-    "question": "What is 8.56 + 4.37?",
-    "choices": ["12.93", "13.93", "11.93", "12.83"],
-    "answer": "12.93",
-    "points": 15
-  },
-  {
-    "id": 68,
-    "wave": 2,
-    "question": "What is 10.25 - 6.48?",
-    "choices": ["3.77", "4.77", "2.77", "3.87"],
-    "answer": "3.77",
-    "points": 15
-  },
-  {
-    "id": 69,
-    "wave": 2,
-    "question": "What is 1.8 × 3.6?",
-    "choices": ["6.48", "7.48", "5.48", "6.38"],
-    "answer": "6.48",
-    "points": 15
-  },
-  {
-    "id": 70,
-    "wave": 2,
-    "question": "What is 21.6 ÷ 5.4?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 71,
-    "wave": 2,
-    "question": "What is 5.29 + 7.64?",
-    "choices": ["12.93", "13.93", "11.93", "12.83"],
-    "answer": "12.93",
-    "points": 15
-  },
-  {
-    "id": 72,
-    "wave": 2,
-    "question": "What is 9.17 - 4.39?",
-    "choices": ["4.78", "5.78", "3.78", "4.88"],
-    "answer": "4.78",
-    "points": 15
-  },
-  {
-    "id": 73,
-    "wave": 2,
-    "question": "What is 4.5 × 1.2?",
-    "choices": ["5.4", "6.4", "4.4", "5.8"],
-    "answer": "5.4",
-    "points": 15
-  },
-  {
-    "id": 74,
-    "wave": 2,
-    "question": "What is 14.4 ÷ 2.4?",
-    "choices": ["6", "7", "5", "6.5"],
-    "answer": "6",
-    "points": 15
-  },
-  {
-    "id": 75,
-    "wave": 2,
-    "question": "What is 3.84 + 5.97?",
-    "choices": ["9.81", "10.81", "8.81", "9.71"],
-    "answer": "9.81",
-    "points": 15
-  },
-  {
-    "id": 76,
-    "wave": 2,
-    "question": "What is 11.63 - 7.28?",
-    "choices": ["4.35", "5.35", "3.35", "4.45"],
-    "answer": "4.35",
-    "points": 15
-  },
-  {
-    "id": 77,
-    "wave": 2,
-    "question": "What is 2.7 × 2.4?",
-    "choices": ["6.48", "7.48", "5.48", "6.38"],
-    "answer": "6.48",
-    "points": 15
-  },
-  {
-    "id": 78,
-    "wave": 2,
-    "question": "What is 16.8 ÷ 4.2?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 79,
-    "wave": 2,
-    "question": "What is 7.41 + 2.85?",
-    "choices": ["10.26", "11.26", "9.26", "10.16"],
-    "answer": "10.26",
-    "points": 15
-  },
-  {
-    "id": 80,
-    "wave": 2,
-    "question": "What is 8.72 - 5.94?",
-    "choices": ["2.78", "3.78", "1.78", "2.88"],
-    "answer": "2.78",
-    "points": 15
-  },
-  {
-    "id": 81,
-    "wave": 2,
-    "question": "What is 3.6 × 1.8?",
-    "choices": ["6.48", "7.48", "5.48", "6.38"],
-    "answer": "6.48",
-    "points": 15
-  },
-  {
-    "id": 82,
-    "wave": 2,
-    "question": "What is 19.2 ÷ 4.8?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 83,
-    "wave": 2,
-    "question": "What is 6.58 + 8.34?",
-    "choices": ["14.92", "15.92", "13.92", "14.82"],
-    "answer": "14.92",
-    "points": 15
-  },
-  {
-    "id": 84,
-    "wave": 2,
-    "question": "What is 12.47 - 9.69?",
-    "choices": ["2.78", "3.78", "1.78", "2.88"],
-    "answer": "2.78",
-    "points": 15
-  },
-  {
-    "id": 85,
-    "wave": 2,
-    "question": "What is 5.4 × 1.6?",
-    "choices": ["8.64", "9.64", "7.64", "8.54"],
-    "answer": "8.64",
-    "points": 15
-  },
-  {
-    "id": 86,
-    "wave": 2,
-    "question": "What is 22.5 ÷ 4.5?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 15
-  },
-  {
-    "id": 87,
-    "wave": 2,
-    "question": "What is 4.93 + 6.28?",
-    "choices": ["11.21", "12.21", "10.21", "11.11"],
-    "answer": "11.21",
-    "points": 15
-  },
-  {
-    "id": 88,
-    "wave": 2,
-    "question": "What is 13.56 - 8.79?",
-    "choices": ["4.77", "5.77", "3.77", "4.87"],
-    "answer": "4.77",
-    "points": 15
-  },
-  {
-    "id": 89,
-    "wave": 2,
-    "question": "What is 2.9 × 3.2?",
-    "choices": ["9.28", "10.28", "8.28", "9.18"],
-    "answer": "9.28",
-    "points": 15
-  },
-  {
-    "id": 90,
-    "wave": 2,
-    "question": "What is 17.5 ÷ 3.5?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 15
-  },
-  {
-    "id": 91,
-    "wave": 2,
-    "question": "What is 8.74 + 3.58?",
-    "choices": ["12.32", "13.32", "11.32", "12.22"],
-    "answer": "12.32",
-    "points": 15
-  },
-  {
-    "id": 92,
-    "wave": 2,
-    "question": "What is 15.21 - 7.46?",
-    "choices": ["7.75", "8.75", "6.75", "7.85"],
-    "answer": "7.75",
-    "points": 15
-  },
-  {
-    "id": 93,
-    "wave": 2,
-    "question": "What is 4.8 × 2.5?",
-    "choices": ["12", "13", "11", "12.5"],
-    "answer": "12",
-    "points": 15
-  },
-  {
-    "id": 94,
-    "wave": 2,
-    "question": "What is 24.6 ÷ 6.15?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 95,
-    "wave": 2,
-    "question": "What is 7.35 + 4.89?",
-    "choices": ["12.24", "13.24", "11.24", "12.14"],
-    "answer": "12.24",
-    "points": 15
-  },
-  {
-    "id": 96,
-    "wave": 2,
-    "question": "What is 10.84 - 6.37?",
-    "choices": ["4.47", "5.47", "3.47", "4.57"],
-    "answer": "4.47",
-    "points": 15
-  },
-  {
-    "id": 97,
-    "wave": 2,
-    "question": "What is 3.7 × 2.8?",
-    "choices": ["10.36", "11.36", "9.36", "10.26"],
-    "answer": "10.36",
-    "points": 15
-  },
-  {
-    "id": 98,
-    "wave": 2,
-    "question": "What is 20.4 ÷ 5.1?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 15
-  },
-  {
-    "id": 99,
-    "wave": 2,
-    "question": "What is 9.67 + 5.48?",
-    "choices": ["15.15", "16.15", "14.15", "15.05"],
-    "answer": "15.15",
-    "points": 15
-  },
-  {
-    "id": 100,
-    "wave": 2,
-    "question": "What is 14.92 - 8.55?",
-    "choices": ["6.37", "7.37", "5.37", "6.47"],
-    "answer": "6.37",
-    "points": 15
-  },
-  {
-    "id": 101,
-    "wave": 3,
-    "question": "What is 4.758 + 3.294?",
-    "choices": ["8.052", "9.052", "7.052", "8.142"],
-    "answer": "8.052",
-    "points": 20
-  },
-  {
-    "id": 102,
-    "wave": 3,
-    "question": "What is 12.635 - 7.897?",
-    "choices": ["4.738", "5.738", "3.738", "4.828"],
-    "answer": "4.738",
-    "points": 20
-  },
-  {
-    "id": 103,
-    "wave": 3,
-    "question": "What is 3.42 × 2.75?",
-    "choices": ["9.405", "10.405", "8.405", "9.315"],
-    "answer": "9.405",
-    "points": 20
-  },
-  {
-    "id": 104,
-    "wave": 3,
-    "question": "What is 15.68 ÷ 3.92?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 20
-  },
-  {
-    "id": 105,
-    "wave": 3,
-    "question": "What is 7.829 + 5.376?",
-    "choices": ["13.205", "14.205", "12.205", "13.115"],
-    "answer": "13.205",
-    "points": 20
-  },
-  {
-    "id": 106,
-    "wave": 3,
-    "question": "What is 18.427 - 9.659?",
-    "choices": ["8.768", "9.768", "7.768", "8.858"],
-    "answer": "8.768",
-    "points": 20
-  },
-  {
-    "id": 107,
-    "wave": 3,
-    "question": "What is 2.85 × 4.36?",
-    "choices": ["12.426", "13.426", "11.426", "12.336"],
-    "answer": "12.426",
-    "points": 20
-  },
-  {
-    "id": 108,
-    "wave": 3,
-    "question": "What is 26.25 ÷ 5.25?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 20
-  },
-  {
-    "id": 109,
-    "wave": 3,
-    "question": "What is 6.547 + 8.395?",
-    "choices": ["14.942", "15.942", "13.942", "14.852"],
-    "answer": "14.942",
-    "points": 20
-  },
-  {
-    "id": 110,
-    "wave": 3,
-    "question": "What is 21.348 - 12.579?",
-    "choices": ["8.769", "9.769", "7.769", "8.859"],
-    "answer": "8.769",
-    "points": 20
-  },
-  {
-    "id": 111,
-    "wave": 3,
-    "question": "What is 5.64 × 1.75?",
-    "choices": ["9.87", "10.87", "8.87", "9.77"],
-    "answer": "9.87",
-    "points": 20
-  },
-  {
-    "id": 112,
-    "wave": 3,
-    "question": "What is 32.76 ÷ 6.84?",
-    "choices": ["4.8", "5.8", "3.8", "4.3"],
-    "answer": "4.8",
-    "points": 20
-  },
-  {
-    "id": 113,
-    "wave": 3,
-    "question": "What is 9.283 + 4.768?",
-    "choices": ["14.051", "15.051", "13.051", "14.141"],
-    "answer": "14.051",
-    "points": 20
-  },
-  {
-    "id": 114,
-    "wave": 3,
-    "question": "What is 17.506 - 8.829?",
-    "choices": ["8.677", "9.677", "7.677", "8.767"],
-    "answer": "8.677",
-    "points": 20
-  },
-  {
-    "id": 115,
-    "wave": 3,
-    "question": "What is 4.28 × 3.15?",
-    "choices": ["13.482", "14.482", "12.482", "13.392"],
-    "answer": "13.482",
-    "points": 20
-  },
-  {
-    "id": 116,
-    "wave": 3,
-    "question": "What is 28.35 ÷ 5.67?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 20
-  },
-  {
-    "id": 117,
-    "wave": 3,
-    "question": "What is 8.649 + 7.284?",
-    "choices": ["15.933", "16.933", "14.933", "15.843"],
-    "answer": "15.933",
-    "points": 20
-  },
-  {
-    "id": 118,
-    "wave": 3,
-    "question": "What is 19.725 - 11.948?",
-    "choices": ["7.777", "8.777", "6.777", "7.867"],
-    "answer": "7.777",
-    "points": 20
-  },
-  {
-    "id": 119,
-    "wave": 3,
-    "question": "What is 6.35 × 2.48?",
-    "choices": ["15.748", "16.748", "14.748", "15.658"],
-    "answer": "15.748",
-    "points": 20
-  },
-  {
-    "id": 120,
-    "wave": 3,
-    "question": "What is 39.6 ÷ 7.2?",
-    "choices": ["5.5", "6.5", "4.5", "5"],
-    "answer": "5.5",
-    "points": 20
-  },
-  {
-    "id": 121,
-    "wave": 3,
-    "question": "What is 5.874 + 9.367?",
-    "choices": ["15.241", "16.241", "14.241", "15.151"],
-    "answer": "15.241",
-    "points": 20
-  },
-  {
-    "id": 122,
-    "wave": 3,
-    "question": "What is 23.846 - 15.729?",
-    "choices": ["8.117", "9.117", "7.117", "8.207"],
-    "answer": "8.117",
-    "points": 20
-  },
-  {
-    "id": 123,
-    "wave": 3,
-    "question": "What is 3.96 × 4.25?",
-    "choices": ["16.83", "17.83", "15.83", "16.73"],
-    "answer": "16.83",
-    "points": 20
-  },
-  {
-    "id": 124,
-    "wave": 3,
-    "question": "What is 31.5 ÷ 6.3?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 20
-  },
-  {
-    "id": 125,
-    "wave": 3,
-    "question": "What is 7.958 + 6.437?",
-    "choices": ["14.395", "15.395", "13.395", "14.485"],
-    "answer": "14.395",
-    "points": 20
-  },
-  {
-    "id": 126,
-    "wave": 3,
-    "question": "What is 20.564 - 12.789?",
-    "choices": ["7.775", "8.775", "6.775", "7.865"],
-    "answer": "7.775",
-    "points": 20
-  },
-  {
-    "id": 127,
-    "wave": 3,
-    "question": "What is 5.48 × 3.75?",
-    "choices": ["20.55", "21.55", "19.55", "20.45"],
-    "answer": "20.55",
-    "points": 20
-  },
-  {
-    "id": 128,
-    "wave": 3,
-    "question": "What is 42.84 ÷ 7.14?",
-    "choices": ["6", "7", "5", "6.5"],
-    "answer": "6",
-    "points": 20
-  },
-  {
-    "id": 129,
-    "wave": 3,
-    "question": "What is 9.476 + 8.585?",
-    "choices": ["18.061", "19.061", "17.061", "18.151"],
-    "answer": "18.061",
-    "points": 20
-  },
-  {
-    "id": 130,
-    "wave": 3,
-    "question": "What is 25.738 - 17.869?",
-    "choices": ["7.869", "8.869", "6.869", "7.959"],
-    "answer": "7.869",
-    "points": 20
-  },
-  {
-    "id": 131,
-    "wave": 3,
-    "question": "What is 4.72 × 5.25?",
-    "choices": ["24.78", "25.78", "23.78", "24.68"],
-    "answer": "24.78",
-    "points": 20
-  },
-  {
-    "id": 132,
-    "wave": 3,
-    "question": "What is 38.4 ÷ 9.6?",
-    "choices": ["4", "5", "3", "4.5"],
-    "answer": "4",
-    "points": 20
-  },
-  {
-    "id": 133,
-    "wave": 3,
-    "question": "What is 6.847 + 5.698?",
-    "choices": ["12.545", "13.545", "11.545", "12.635"],
-    "answer": "12.545",
-    "points": 20
-  },
-  {
-    "id": 134,
-    "wave": 3,
-    "question": "What is 22.936 - 14.759?",
-    "choices": ["8.177", "9.177", "7.177", "8.267"],
-    "answer": "8.177",
-    "points": 20
-  },
-  {
-    "id": 135,
-    "wave": 3,
-    "question": "What is 7.24 × 2.65?",
-    "choices": ["19.186", "20.186", "18.186", "19.096"],
-    "answer": "19.186",
-    "points": 20
-  },
-  {
-    "id": 136,
-    "wave": 3,
-    "question": "What is 45.36 ÷ 8.4?",
-    "choices": ["5.4", "6.4", "4.4", "5.9"],
-    "answer": "5.4",
-    "points": 20
-  },
-  {
-    "id": 137,
-    "wave": 3,
-    "question": "What is 8.529 + 7.846?",
-    "choices": ["16.375", "17.375", "15.375", "16.285"],
-    "answer": "16.375",
-    "points": 20
-  },
-  {
-    "id": 138,
-    "wave": 3,
-    "question": "What is 27.485 - 19.697?",
-    "choices": ["7.788", "8.788", "6.788", "7.878"],
-    "answer": "7.788",
-    "points": 20
-  },
-  {
-    "id": 139,
-    "wave": 3,
-    "question": "What is 3.85 × 6.4?",
-    "choices": ["24.64", "25.64", "23.64", "24.54"],
-    "answer": "24.64",
-    "points": 20
-  },
-  {
-    "id": 140,
-    "wave": 3,
-    "question": "What is 41.6 ÷ 6.5?",
-    "choices": ["6.4", "7.4", "5.4", "6.9"],
-    "answer": "6.4",
-    "points": 20
-  },
-  {
-    "id": 141,
-    "wave": 3,
-    "question": "What is 9.738 + 4.597?",
-    "choices": ["14.335", "15.335", "13.335", "14.425"],
-    "answer": "14.335",
-    "points": 20
-  },
-  {
-    "id": 142,
-    "wave": 3,
-    "question": "What is 24.827 - 16.959?",
-    "choices": ["7.868", "8.868", "6.868", "7.958"],
-    "answer": "7.868",
-    "points": 20
-  },
-  {
-    "id": 143,
-    "wave": 3,
-    "question": "What is 6.58 × 3.45?",
-    "choices": ["22.701", "23.701", "21.701", "22.611"],
-    "answer": "22.701",
-    "points": 20
-  },
-  {
-    "id": 144,
-    "wave": 3,
-    "question": "What is 48.3 ÷ 9.66?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 20
-  },
-  {
-    "id": 145,
-    "wave": 3,
-    "question": "What is 5.694 + 8.758?",
-    "choices": ["14.452", "15.452", "13.452", "14.542"],
-    "answer": "14.452",
-    "points": 20
-  },
-  {
-    "id": 146,
-    "wave": 3,
-    "question": "What is 21.736 - 13.889?",
-    "choices": ["7.847", "8.847", "6.847", "7.937"],
-    "answer": "7.847",
-    "points": 20
-  },
-  {
-    "id": 147,
-    "wave": 3,
-    "question": "What is 4.95 × 5.8?",
-    "choices": ["28.71", "29.71", "27.71", "28.61"],
-    "answer": "28.71",
-    "points": 20
-  },
-  {
-    "id": 148,
-    "wave": 3,
-    "question": "What is 52.5 ÷ 10.5?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 20
-  },
-  {
-    "id": 149,
-    "wave": 3,
-    "question": "What is 7.385 + 6.947?",
-    "choices": ["14.332", "15.332", "13.332", "14.422"],
-    "answer": "14.332",
-    "points": 20
-  },
-  {
-    "id": 150,
-    "wave": 3,
-    "question": "What is 29.654 - 18.777?",
-    "choices": ["10.877", "11.877", "9.877", "10.967"],
-    "answer": "10.877",
-    "points": 20
-  },
-  {
-    "id": 150,
-    "wave": 3,
-    "question": "What is 29.654 - 18.777?",
-    "choices": ["10.877", "11.877", "9.877", "10.967"],
-    "answer": "10.877",
-    "points": 20
-  },
-  {
-    "id": 151,
-    "wave": 4,
-    "question": "What is 12.4576 + 8.7389?",
-    "choices": ["21.1965", "22.1965", "20.1965", "21.2865"],
-    "answer": "21.1965",
-    "points": 25
-  },
-  {
-    "id": 152,
-    "wave": 4,
-    "question": "What is 34.8274 - 16.9537?",
-    "choices": ["17.8737", "18.8737", "16.8737", "17.9637"],
-    "answer": "17.8737",
-    "points": 25
-  },
-  {
-    "id": 153,
-    "wave": 4,
-    "question": "What is 6.785 × 4.236?",
-    "choices": ["28.741", "29.741", "27.741", "28.651"],
-    "answer": "28.741",
-    "points": 25
-  },
-  {
-    "id": 154,
-    "wave": 4,
-    "question": "What is 65.472 ÷ 12.96?",
-    "choices": ["5.05", "6.05", "4.05", "5.55"],
-    "answer": "5.05",
-    "points": 25
-  },
-  {
-    "id": 155,
-    "wave": 4,
-    "question": "What is 9.8347 + 15.6824?",
-    "choices": ["25.5171", "26.5171", "24.5171", "25.6071"],
-    "answer": "25.5171",
-    "points": 25
-  },
-  {
-    "id": 156,
-    "wave": 4,
-    "question": "What is 45.7293 - 27.8649?",
-    "choices": ["17.8644", "18.8644", "16.8644", "17.9544"],
-    "answer": "17.8644",
-    "points": 25
-  },
-  {
-    "id": 157,
-    "wave": 4,
-    "question": "What is 7.924 × 3.675?",
-    "choices": ["29.121", "30.121", "28.121", "29.031"],
-    "answer": "29.121",
-    "points": 25
-  },
-  {
-    "id": 158,
-    "wave": 4,
-    "question": "What is 78.624 ÷ 15.48?",
-    "choices": ["5.08", "6.08", "4.08", "5.58"],
-    "answer": "5.08",
-    "points": 25
-  },
-  {
-    "id": 159,
-    "wave": 4,
-    "question": "What is 18.5963 + 24.7428?",
-    "choices": ["43.3391", "44.3391", "42.3391", "43.4291"],
-    "answer": "43.3391",
-    "points": 25
-  },
-  {
-    "id": 160,
-    "wave": 4,
-    "question": "What is 52.8746 - 29.9587?",
-    "choices": ["22.9159", "23.9159", "21.9159", "22.8259"],
-    "answer": "22.9159",
-    "points": 25
-  },
-  {
-    "id": 161,
-    "wave": 4,
-    "question": "What is 5.637 × 6.428?",
-    "choices": ["36.224", "37.224", "35.224", "36.134"],
-    "answer": "36.224",
-    "points": 25
-  },
-  {
-    "id": 162,
-    "wave": 4,
-    "question": "What is 91.35 ÷ 18.27?",
-    "choices": ["5", "6", "4", "5.5"],
-    "answer": "5",
-    "points": 25
-  },
-  {
-    "id": 163,
-    "wave": 4,
-    "question": "What is 13.7849 + 19.5372?",
-    "choices": ["33.3221", "34.3221", "32.3221", "33.4121"],
-    "answer": "33.3221",
-    "points": 25
-  },
-  {
-    "id": 164,
-    "wave": 4,
-    "question": "What is 67.4826 - 38.7954?",
-    "choices": ["28.6872", "29.6872", "27.6872", "28.7772"],
-    "answer": "28.6872",
-    "points": 25
-  },
-  {
-    "id": 165,
-    "wave": 4,
-    "question": "What is 8.495 × 7.236?",
-    "choices": ["61.459", "62.459", "60.459", "61.369"],
-    "answer": "61.459",
-    "points": 25
-  },
-  {
-    "id": 166,
-    "wave": 4,
-    "question": "What is 104.76 ÷ 17.46?",
-    "choices": ["6", "7", "5", "6.5"],
-    "answer": "6",
-    "points": 25
-  },
-  {
-    "id": 167,
-    "wave": 4,
-    "question": "What is 22.6485 + 17.8937?",
-    "choices": ["40.5422", "41.5422", "39.5422", "40.6322"],
-    "answer": "40.5422",
-    "points": 25
-  },
-  {
-    "id": 168,
-    "wave": 4,
-    "question": "What is 73.9264 - 45.7839?",
-    "choices": ["28.1425", "29.1425", "27.1425", "28.2325"],
-    "answer": "28.1425",
-    "points": 25
-  },
-  {
-    "id": 169,
-    "wave": 4,
-    "question": "What is 9.758 × 5.429?",
-    "choices": ["52.97", "53.97", "51.97", "52.88"],
-    "answer": "52.97",
-    "points": 25
-  },
-  {
-    "id": 170,
-    "wave": 4,
-    "question": "What is 123.84 ÷ 19.68?",
-    "choices": ["6.29", "7.29", "5.29", "6.79"],
-    "answer": "6.29",
-    "points": 25
-  },
-  {
-    "id": 171,
-    "wave": 4,
-    "question": "What is 16.9573 + 28.4687?",
-    "choices": ["45.426", "46.426", "44.426", "45.516"],
-    "answer": "45.426",
-    "points": 25
-  },
-  {
-    "id": 172,
-    "wave": 4,
-    "question": "What is 84.7529 - 56.8764?",
-    "choices": ["27.8765", "28.8765", "26.8765", "27.9665"],
-    "answer": "27.8765",
-    "points": 25
-  },
-  {
-    "id": 173,
-    "wave": 4,
-    "question": "What is 4.867 × 8.593?",
-    "choices": ["41.822", "42.822", "40.822", "41.732"],
-    "answer": "41.822",
-    "points": 25
-  },
-  {
-    "id": 174,
-    "wave": 4,
-    "question": "What is 136.5 ÷ 21.84?",
-    "choices": ["6.25", "7.25", "5.25", "6.75"],
-    "answer": "6.25",
-    "points": 25
-  },
-  {
-    "id": 175,
-    "wave": 4,
-    "question": "What is 25.7394 + 32.8567?",
-    "choices": ["58.5961", "59.5961", "57.5961", "58.6861"],
-    "answer": "58.5961",
-    "points": 25
-  },
-  {
-    "id": 176,
-    "wave": 4,
-    "question": "What is 93.6847 - 65.9283?",
-    "choices": ["27.7564", "28.7564", "26.7564", "27.8464"],
-    "answer": "27.7564",
-    "points": 25
-  },
-  {
-    "id": 177,
-    "wave": 4,
-    "question": "What is 7.638 × 6.724?",
-    "choices": ["51.364", "52.364", "50.364", "51.274"],
-    "answer": "51.364",
-    "points": 25
-  }, 
+  "title": "Decimals Operations",
+  "description": "Work with decimals like a pro! Whether it's shopping, measuring, or solving tricky problems, practice decimal operations in a game that rewards accuracy and speed!",
+  "waves": 5,
+  "timePerQuestion": 30,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "What is $8.0 - 0.6$?",
+      "choices": ["$7.4$", "$7.9$", "$7.2$", "$6.9$"],
+      "answer": "$7.4$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "What is $9.7 + 5.5$?",
+      "choices": ["$15.0$", "$15.2$", "$15.4$", "$15.6$"],
+      "answer": "$15.2$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "What is $4.7 - 2.3$?",
+      "choices": ["$2.8$", "$2.4$", "$2.5$", "$1.9$"],
+      "answer": "$2.4$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "What is $9.2 + 4.5$?",
+      "choices": ["$13.6$", "$13.7$", "$14.0$", "$13.3$"],
+      "answer": "$13.7$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "What is $0.7 + 3.0$?",
+      "choices": ["$3.5$", "$3.9$", "$4.2$", "$3.7$"],
+      "answer": "$3.7$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "What is $7.5 + 2.7$?",
+      "choices": ["$10.5$", "$10.6$", "$10.1$", "$10.2$"],
+      "answer": "$10.2$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "What is $9.6 - 6.3$?",
+      "choices": ["$3.2$", "$3.7$", "$3.6$", "$3.3$"],
+      "answer": "$3.3$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "What is $7.8 + 1.7$?",
+      "choices": ["$9.7$", "$9.1$", "$9.5$", "$9.4$"],
+      "answer": "$9.5$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "What is $8.3 - 0.3$?",
+      "choices": ["$8.4$", "$8.0$", "$8.5$", "$7.7$"],
+      "answer": "$8.0$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "What is $5.0 + 0.1$?",
+      "choices": ["$5.6$", "$5.1$", "$5.0$", "$5.2$"],
+      "answer": "$5.1$",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "What is $3.1 - 1.0$?",
+      "choices": ["$2.1$", "$1.7$", "$2.5$", "$2.4$"],
+      "answer": "$2.1$",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "What is $7.4 + 1.8$?",
+      "choices": ["$9.0$", "$8.7$", "$9.2$", "$8.8$"],
+      "answer": "$9.2$",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "What is $8.2 - 3.5$?",
+      "choices": ["$4.4$", "$4.7$", "$4.5$", "$4.8$"],
+      "answer": "$4.7$",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "What is $7.0 - 5.4$?",
+      "choices": ["$1.4$", "$1.6$", "$2.0$", "$1.1$"],
+      "answer": "$1.6$",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "What is $9.0 + 6.7$?",
+      "choices": ["$15.7$", "$15.8$", "$16.0$", "$15.5$"],
+      "answer": "$15.7$",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "What is $0.2 + 9.7$?",
+      "choices": ["$10.0$", "$9.9$", "$9.7$", "$9.5$"],
+      "answer": "$9.9$",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "What is $8.2 - 1.1$?",
+      "choices": ["$7.5$", "$7.1$", "$6.6$", "$7.4$"],
+      "answer": "$7.1$",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "What is $4.2 + 9.0$?",
+      "choices": ["$12.8$", "$13.2$", "$13.3$", "$13.1$"],
+      "answer": "$13.2$",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "What is $8.2 - 8.1$?",
+      "choices": ["$0.1$", "$-0.2$", "$-0.3$", "$0.6$"],
+      "answer": "$0.1$",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "What is $1.6 + 3.5$?",
+      "choices": ["$5.1$", "$5.0$", "$5.5$", "$5.6$"],
+      "answer": "$5.1$",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "What is $8.5 - 0.1$?",
+      "choices": ["$8.0$", "$8.4$", "$8.2$", "$8.3$"],
+      "answer": "$8.4$",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "What is $1.7 - 1.5$?",
+      "choices": ["$0.0$", "$0.1$", "$0.3$", "$0.2$"],
+      "answer": "$0.2$",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "What is $1.1 + 3.6$?",
+      "choices": ["$4.6$", "$4.7$", "$4.9$", "$5.0$"],
+      "answer": "$4.7$",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "What is $5.9 - 4.4$?",
+      "choices": ["$1.8$", "$1.5$", "$1.3$", "$1.0$"],
+      "answer": "$1.5$",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "What is $7.8 - 6.8$?",
+      "choices": ["$0.7$", "$1.3$", "$1.0$", "$1.2$"],
+      "answer": "$1.0$",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "What is $3.8 - 1.5$?",
+      "choices": ["$2.8$", "$2.3$", "$2.4$", "$2.2$"],
+      "answer": "$2.3$",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "What is $2.9 + 4.0$?",
+      "choices": ["$6.9$", "$7.3$", "$7.4$", "$6.4$"],
+      "answer": "$6.9$",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "What is $8.3 - 7.0$?",
+      "choices": ["$1.2$", "$1.3$", "$1.5$", "$0.9$"],
+      "answer": "$1.3$",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "What is $3.4 + 6.0$?",
+      "choices": ["$9.3$", "$9.4$", "$9.0$", "$8.9$"],
+      "answer": "$9.4$",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "What is $7.4 + 6.6$?",
+      "choices": ["$14.0$", "$13.7$", "$14.1$", "$14.2$"],
+      "answer": "$14.0$",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "What is $6.4 + 9.5$?",
+      "choices": ["$15.4$", "$15.9$", "$15.7$", "$16.2$"],
+      "answer": "$15.9$",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "What is $7.6 - 5.8$?",
+      "choices": ["$1.7$", "$1.3$", "$1.8$", "$2.3$"],
+      "answer": "$1.8$",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "What is $2.4 - 0.5$?",
+      "choices": ["$1.8$", "$1.9$", "$1.7$", "$2.3$"],
+      "answer": "$1.9$",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "What is $2.6 + 7.8$?",
+      "choices": ["$10.8$", "$10.5$", "$10.4$", "$10.2$"],
+      "answer": "$10.4$",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "What is $5.7 - 0.2$?",
+      "choices": ["$5.5$", "$5.4$", "$5.9$", "$5.1$"],
+      "answer": "$5.5$",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "What is $6.5 + 6.1$?",
+      "choices": ["$12.9$", "$12.4$", "$12.1$", "$12.6$"],
+      "answer": "$12.6$",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "What is $2.9 + 7.7$?",
+      "choices": ["$10.5$", "$11.0$", "$10.6$", "$10.8$"],
+      "answer": "$10.6$",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "What is $0.3 + 6.5$?",
+      "choices": ["$6.7$", "$7.3$", "$6.8$", "$7.0$"],
+      "answer": "$6.8$",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "What is $7.2 - 3.7$?",
+      "choices": ["$3.5$", "$3.9$", "$3.3$", "$3.0$"],
+      "answer": "$3.5$",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "What is $3.8 - 2.0$?",
+      "choices": ["$2.0$", "$1.8$", "$1.7$", "$1.4$"],
+      "answer": "$1.8$",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "What is $8.5 + 8.7$?",
+      "choices": ["$17.4$", "$17.2$", "$17.3$", "$17.6$"],
+      "answer": "$17.2$",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "What is $9.0 - 5.4$?",
+      "choices": ["$3.7$", "$3.6$", "$3.9$", "$3.2$"],
+      "answer": "$3.6$",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "What is $4.3 + 0.9$?",
+      "choices": ["$5.2$", "$4.8$", "$5.1$", "$5.0$"],
+      "answer": "$5.2$",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "What is $7.9 - 2.7$?",
+      "choices": ["$4.8$", "$5.4$", "$4.9$", "$5.2$"],
+      "answer": "$5.2$",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "What is $5.2 + 6.6$?",
+      "choices": ["$11.9$", "$11.8$", "$12.1$", "$11.5$"],
+      "answer": "$11.8$",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "What is $8.7 + 5.3$?",
+      "choices": ["$14.4$", "$14.3$", "$14.0$", "$14.1$"],
+      "answer": "$14.0$",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "What is $0.3 + 7.8$?",
+      "choices": ["$7.6$", "$8.1$", "$8.4$", "$7.8$"],
+      "answer": "$8.1$",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "What is $9.5 + 8.9$?",
+      "choices": ["$18.2$", "$18.1$", "$18.4$", "$18.6$"],
+      "answer": "$18.4$",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "What is $0.8 + 0.1$?",
+      "choices": ["$1.3$", "$0.6$", "$1.0$", "$0.9$"],
+      "answer": "$0.9$",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "What is $7.5 + 3.5$?",
+      "choices": ["$10.8$", "$11.3$", "$11.0$", "$10.7$"],
+      "answer": "$11.0$",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Calculate $3.4 \\times 6$.",
+      "choices": ["$19.4$", "$20.4$", "$20.6$", "$21.4$"],
+      "answer": "$20.4$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "What is $45.91 \\times 0.01$?",
+      "choices": ["$0.459$", "$0.454$", "$0.458$", "$0.455$"],
+      "answer": "$0.459$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "What is $94.8 \\times 0.01$?",
+      "choices": ["$0.952$", "$0.943$", "$0.948$", "$0.945$"],
+      "answer": "$0.948$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Calculate $1.9 \\times 3$.",
+      "choices": ["$5.67$", "$5.71$", "$5.72$", "$5.7$"],
+      "answer": "$5.7$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Calculate $3.6 \\times 3$.",
+      "choices": ["$10.3$", "$10.8$", "$11.1$", "$10.5$"],
+      "answer": "$10.8$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "What is $83.06 \\times 0.1$?",
+      "choices": ["$8.303$", "$8.306$", "$8.305$", "$8.301$"],
+      "answer": "$8.306$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Calculate $1.24 \\times 7$.",
+      "choices": ["$8.69$", "$8.67$", "$8.66$", "$8.68$"],
+      "answer": "$8.68$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Calculate $2.2 \\times 4$.",
+      "choices": ["$8.8$", "$9.3$", "$8.7$", "$9.1$"],
+      "answer": "$8.8$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Calculate $1.8 \\times 7$.",
+      "choices": ["$12.1$", "$12.7$", "$12.5$", "$12.6$"],
+      "answer": "$12.6$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Calculate $4.52 \\times 8$.",
+      "choices": ["$36.22$", "$36.04$", "$36.16$", "$36.31$"],
+      "answer": "$36.16$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Calculate $0.22 \\times 8$.",
+      "choices": ["$1.75$", "$1.78$", "$1.74$", "$1.76$"],
+      "answer": "$1.76$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "What is $10.38 + 2.1$?",
+      "choices": ["$12.43$", "$12.48$", "$12.49$", "$12.47$"],
+      "answer": "$12.48$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "What is $98.0 \\times 0.1$?",
+      "choices": ["$9.805$", "$9.796$", "$9.797$", "$9.8$"],
+      "answer": "$9.8$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "What is $82.4 \\times 0.1$?",
+      "choices": ["$8.235$", "$8.243$", "$8.24$", "$8.241$"],
+      "answer": "$8.24$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "What is $31.77 \\times 0.01$?",
+      "choices": ["$0.317$", "$0.319$", "$0.318$", "$0.313$"],
+      "answer": "$0.318$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "What is $95.88 \\times 0.1$?",
+      "choices": ["$9.59$", "$9.591$", "$9.584$", "$9.588$"],
+      "answer": "$9.588$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "What is $5.2 - 1.28$?",
+      "choices": ["$3.9$", "$4.2$", "$4.1$", "$4.4$"],
+      "answer": "$3.9$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "What is $82.99 \\times 0.01$?",
+      "choices": ["$0.832$", "$0.83$", "$0.828$", "$0.829$"],
+      "answer": "$0.83$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Calculate $2.49 \\times 4$.",
+      "choices": ["$10.0$", "$9.98$", "$9.93$", "$9.96$"],
+      "answer": "$9.96$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "What is $41.75 \\times 0.1$?",
+      "choices": ["$4.18$", "$4.179$", "$4.174$", "$4.175$"],
+      "answer": "$4.175$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "What is $81.87 \\times 0.01$?",
+      "choices": ["$0.824$", "$0.819$", "$0.815$", "$0.814$"],
+      "answer": "$0.819$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "What is $47.2 \\times 0.1$?",
+      "choices": ["$4.723$", "$4.719$", "$4.72$", "$4.716$"],
+      "answer": "$4.72$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "What is $11.88 - 7.95$?",
+      "choices": ["$3.93$", "$3.98$", "$3.92$", "$3.88$"],
+      "answer": "$3.93$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "What is $7.38 - 5.62$?",
+      "choices": ["$1.77$", "$1.71$", "$1.76$", "$1.78$"],
+      "answer": "$1.76$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "What is $3.62 + 3.67$?",
+      "choices": ["$7.28$", "$7.29$", "$7.3$", "$7.33$"],
+      "answer": "$7.29$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "What is $76.1 \\times 0.1$?",
+      "choices": ["$7.61$", "$7.614$", "$7.608$", "$7.615$"],
+      "answer": "$7.61$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Calculate $2.8 \\times 3$.",
+      "choices": ["$8.4$", "$8.3$", "$8.7$", "$8.0$"],
+      "answer": "$8.4$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "What is $13.69 - 0.22$?",
+      "choices": ["$13.43$", "$13.47$", "$13.44$", "$13.46$"],
+      "answer": "$13.47$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "What is $37.6 \\times 0.01$?",
+      "choices": ["$0.376$", "$0.375$", "$0.371$", "$0.377$"],
+      "answer": "$0.376$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "What is $23.7 \\times 0.1$?",
+      "choices": ["$2.371$", "$2.375$", "$2.37$", "$2.368$"],
+      "answer": "$2.37$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Calculate $3.0 \\times 9$.",
+      "choices": ["$27.4$", "$26.6$", "$27.0$", "$26.4$"],
+      "answer": "$27.0$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "What is $13.69 - 7.89$?",
+      "choices": ["$5.79$", "$5.8$", "$5.81$", "$5.83$"],
+      "answer": "$5.8$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "What is $10.2 - 4.3$?",
+      "choices": ["$6.0$", "$5.6$", "$5.7$", "$5.9$"],
+      "answer": "$5.9$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "What is $56.33 \\times 0.01$?",
+      "choices": ["$0.564$", "$0.567$", "$0.566$", "$0.563$"],
+      "answer": "$0.563$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Calculate $1.08 \\times 2$.",
+      "choices": ["$2.16$", "$2.21$", "$2.14$", "$2.17$"],
+      "answer": "$2.16$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "What is $4.14 - 0.48$?",
+      "choices": ["$3.63$", "$3.7$", "$3.65$", "$3.66$"],
+      "answer": "$3.66$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "What is $6.7 - 4.7$?",
+      "choices": ["$2.0$", "$1.7$", "$1.9$", "$2.5$"],
+      "answer": "$2.0$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Calculate $3.8 \\times 7$.",
+      "choices": ["$27.6$", "$25.6$", "$26.6$", "$26.8$"],
+      "answer": "$26.6$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "What is $5.9 + 1.8$?",
+      "choices": ["$7.8$", "$7.7$", "$7.2$", "$7.9$"],
+      "answer": "$7.7$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Calculate $2.31 \\times 3$.",
+      "choices": ["$6.91$", "$6.92$", "$6.93$", "$6.89$"],
+      "answer": "$6.93$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "What is $63.6 \\times 0.01$?",
+      "choices": ["$0.631$", "$0.636$", "$0.637$", "$0.64$"],
+      "answer": "$0.636$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "What is $17.2 \\times 0.01$?",
+      "choices": ["$0.167$", "$0.169$", "$0.172$", "$0.171$"],
+      "answer": "$0.172$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "What is $3.44 + 9.9$?",
+      "choices": ["$13.33$", "$13.34$", "$13.3$", "$13.35$"],
+      "answer": "$13.34$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "What is $6.5 - 5.0$?",
+      "choices": ["$1.3$", "$1.5$", "$2.0$", "$1.2$"],
+      "answer": "$1.5$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "What is $5.9 + 1.96$?",
+      "choices": ["$7.8$", "$8.0$", "$7.9$", "$8.1$"],
+      "answer": "$7.9$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "What is $7.08 + 1.45$?",
+      "choices": ["$8.51$", "$8.52$", "$8.53$", "$8.5$"],
+      "answer": "$8.53$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "What is $8.15 + 9.8$?",
+      "choices": ["$17.98$", "$17.95$", "$18.0$", "$17.97$"],
+      "answer": "$17.95$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "What is $19.4 \\times 0.01$?",
+      "choices": ["$0.194$", "$0.195$", "$0.198$", "$0.199$"],
+      "answer": "$0.194$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "What is $88.0 \\times 0.1$?",
+      "choices": ["$8.795$", "$8.799$", "$8.796$", "$8.8$"],
+      "answer": "$8.8$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "What is $13.4 + 0.4$?",
+      "choices": ["$14.0$", "$13.8$", "$13.7$", "$13.9$"],
+      "answer": "$13.8$",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Divide $41.0 \\div 4$.",
+      "choices": ["$10.254$", "$10.245$", "$10.251$", "$10.25$"],
+      "answer": "$10.25$",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Calculate $(1.0 - 0.2) \\times 0.4$.",
+      "choices": ["$0.27$", "$0.29$", "$0.32$", "$0.34$"],
+      "answer": "$0.32$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Multiply $2.36 \\times 0.17$.",
+      "choices": ["$0.398$", "$0.404$", "$0.397$", "$0.401$"],
+      "answer": "$0.401$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Divide $49.5 \\div 9$.",
+      "choices": ["$5.49$", "$5.47$", "$5.54$", "$5.5$"],
+      "answer": "$5.5$",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Divide $43.75 \\div 7$.",
+      "choices": ["$6.26$", "$6.21$", "$6.25$", "$6.24$"],
+      "answer": "$6.25$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Divide $22.5 \\div 5$.",
+      "choices": ["$4.52$", "$4.55$", "$4.5$", "$4.51$"],
+      "answer": "$4.5$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Multiply $1.38 \\times 2.0$.",
+      "choices": ["$2.759$", "$2.764$", "$2.76$", "$2.758$"],
+      "answer": "$2.76$",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Calculate $(1.23 - 0.4) \\div 0.5$.",
+      "choices": ["$1.67$", "$1.7$", "$1.66$", "$1.63$"],
+      "answer": "$1.66$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Multiply $4.3 \\times 3.93$.",
+      "choices": ["$16.87$", "$16.9$", "$16.86$", "$16.92$"],
+      "answer": "$16.9$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Calculate $(3.78 - 0.2) \\div 1.9$.",
+      "choices": ["$1.88$", "$1.83$", "$1.93$", "$1.87$"],
+      "answer": "$1.88$",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Divide $16.0 \\div 4$.",
+      "choices": ["$4.0$", "$3.97$", "$4.05$", "$4.01$"],
+      "answer": "$4.0$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Divide $35.0 \\div 5$.",
+      "choices": ["$7.05$", "$6.98$", "$6.99$", "$7.0$"],
+      "answer": "$7.0$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Calculate $(1.78 + 1.5) \\div 1.1$.",
+      "choices": ["$2.96$", "$2.95$", "$2.98$", "$3.03$"],
+      "answer": "$2.98$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Calculate $(0.22 + 1.7) \\div 1.0$.",
+      "choices": ["$1.92$", "$1.93$", "$1.96$", "$1.9$"],
+      "answer": "$1.92$",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Divide $26.0 \\div 8$.",
+      "choices": ["$3.25$", "$3.24$", "$3.23$", "$3.27$"],
+      "answer": "$3.25$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Calculate $(2.77 - 0.8) \\div 0.8$.",
+      "choices": ["$2.49$", "$2.47$", "$2.51$", "$2.46$"],
+      "answer": "$2.46$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Multiply $0.1 \\times 5.0$.",
+      "choices": ["$0.504$", "$0.499$", "$0.505$", "$0.5$"],
+      "answer": "$0.5$",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Multiply $2.55 \\times 1.13$.",
+      "choices": ["$2.91$", "$2.87$", "$2.88$", "$2.85$"],
+      "answer": "$2.88$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Calculate $(2.69 + 1.0) \\div 1.0$.",
+      "choices": ["$3.65$", "$3.66$", "$3.72$", "$3.69$"],
+      "answer": "$3.69$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Calculate $(0.8 - 0.5) \\times 1.6$.",
+      "choices": ["$0.49$", "$0.5$", "$0.51$", "$0.48$"],
+      "answer": "$0.48$",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Calculate $(4.4 + 2.7) \\times 0.8$.",
+      "choices": ["$5.68$", "$5.73$", "$5.7$", "$5.67$"],
+      "answer": "$5.68$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Calculate $(1.8 - 0.7) \\times 1.3$.",
+      "choices": ["$1.4$", "$1.38$", "$1.43$", "$1.48$"],
+      "answer": "$1.43$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Calculate $(2.8 - 2.0) \\times 1.9$.",
+      "choices": ["$1.49$", "$1.54$", "$1.52$", "$1.56$"],
+      "answer": "$1.52$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Calculate $(3.2 + 0.6) \\times 1.7$.",
+      "choices": ["$6.46$", "$6.48$", "$6.41$", "$6.49$"],
+      "answer": "$6.46$",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Divide $24.5 \\div 7$.",
+      "choices": ["$3.54$", "$3.45$", "$3.5$", "$3.48$"],
+      "answer": "$3.5$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Calculate $(4.66 + 2.8) \\div 1.2$.",
+      "choices": ["$1.52$", "$1.53$", "$1.54$", "$1.55$"],
+      "answer": "$1.55$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Multiply $3.7 \\times 4.42$.",
+      "choices": ["$16.357$", "$16.354$", "$16.358$", "$16.349$"],
+      "answer": "$16.354$",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Divide $11.0 \\div 2$.",
+      "choices": ["$5.497$", "$5.504$", "$5.496$", "$5.5$"],
+      "answer": "$5.5$",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Calculate $(2.39 - 0.2) \\div 0.7$.",
+      "choices": ["$3.16$", "$3.09$", "$3.14$", "$3.13$"],
+      "answer": "$3.13$",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Calculate $(1.1 + 2.9) \\times 1.5$.",
+      "choices": ["$5.98$", "$6.0$", "$5.99$", "$6.04$"],
+      "answer": "$6.0$",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Divide $42.0 \\div 4$.",
+      "choices": ["$10.5$", "$10.503$", "$10.496$", "$10.504$"],
+      "answer": "$10.5$",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Multiply $4.52 \\times 1.2$.",
+      "choices": ["$5.4$", "$5.45$", "$5.42$", "$5.39$"],
+      "answer": "$5.42$",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Divide $28.0 \\div 7$.",
+      "choices": ["$3.99$", "$4.03$", "$4.02$", "$4.0$"],
+      "answer": "$4.0$",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Multiply $0.28 \\times 1.58$.",
+      "choices": ["$0.44$", "$0.47$", "$0.43$", "$0.46$"],
+      "answer": "$0.44$",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Multiply $1.2 \\times 2.06$.",
+      "choices": ["$2.472$", "$2.475$", "$2.468$", "$2.471$"],
+      "answer": "$2.472$",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Multiply $1.95 \\times 2.9$.",
+      "choices": ["$5.6553$", "$5.655$", "$5.6555$", "$5.6546$"],
+      "answer": "$5.655$",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Calculate $(4.9 - 2.4) \\times 0.6$.",
+      "choices": ["$1.48$", "$1.5$", "$1.51$", "$1.49$"],
+      "answer": "$1.5$",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Divide $36.0 \\div 6$.",
+      "choices": ["$5.99$", "$5.95$", "$5.97$", "$6.0$"],
+      "answer": "$6.0$",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Multiply $1.53 \\times 0.5$.",
+      "choices": ["$0.765$", "$0.7651$", "$0.7645$", "$0.7648$"],
+      "answer": "$0.765$",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Calculate $(2.3 - 0.8) \\times 1.7$.",
+      "choices": ["$2.56$", "$2.57$", "$2.59$", "$2.55$"],
+      "answer": "$2.55$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Divide $28.5 \\div 2$.",
+      "choices": ["$14.253$", "$14.252$", "$14.248$", "$14.25$"],
+      "answer": "$14.25$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Calculate $(4.7 + 0.5) \\times 1.5$.",
+      "choices": ["$7.75$", "$7.8$", "$7.76$", "$7.83$"],
+      "answer": "$7.8$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Multiply $4.4 \\times 3.42$.",
+      "choices": ["$15.05$", "$15.0$", "$15.04$", "$15.1$"],
+      "answer": "$15.05$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Divide $26.0 \\div 8$.",
+      "choices": ["$3.253$", "$3.25$", "$3.246$", "$3.247$"],
+      "answer": "$3.25$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Multiply $3.59 \\times 2.55$.",
+      "choices": ["$9.154$", "$9.156$", "$9.15$", "$9.155$"],
+      "answer": "$9.154$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Calculate $(3.9 - 1.3) \\times 1.9$.",
+      "choices": ["$4.94$", "$4.9$", "$4.95$", "$4.92$"],
+      "answer": "$4.94$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Calculate $(2.8 + 2.2) \\times 0.3$.",
+      "choices": ["$1.53$", "$1.45$", "$1.5$", "$1.55$"],
+      "answer": "$1.5$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Multiply $0.41 \\times 2.7$.",
+      "choices": ["$1.13$", "$1.12$", "$1.11$", "$1.14$"],
+      "answer": "$1.11$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Calculate $(3.4 - 1.1) \\times 0.8$.",
+      "choices": ["$1.89$", "$1.8$", "$1.84$", "$1.88$"],
+      "answer": "$1.84$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Calculate $(3.0 - 0.2) \\div 0.2$.",
+      "choices": ["$13.97$", "$14.04$", "$13.98$", "$14.0$"],
+      "answer": "$14.0$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Divide $4.65$ by $0.5$.",
+      "choices": ["$9.3$", "$9.2997$", "$9.2998$", "$9.3005$"],
+      "answer": "$9.3$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "An item costs $6.91$. If you buy $3$ of them, what is the total cost?",
+      "choices": ["$20.73$", "$20.75$", "$20.63$", "$20.67$"],
+      "answer": "$20.73$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "An item costs $9.01$. If you buy $7$ of them, what is the total cost?",
+      "choices": ["$63.31$", "$63.07$", "$62.77$", "$62.83$"],
+      "answer": "$63.07$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Divide $7.22$ by $4.676$.",
+      "choices": ["$1.5438$", "$1.544$", "$1.5443$", "$1.5441$"],
+      "answer": "$1.5441$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Find the product of $8.13$ and $2.486$.",
+      "choices": ["$20.213$", "$20.211$", "$20.207$", "$20.219$"],
+      "answer": "$20.211$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Calculate $4.22 + (1.14 \\div 2.06)$.",
+      "choices": ["$4.773$", "$4.771$", "$4.769$", "$4.775$"],
+      "answer": "$4.773$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "An item costs $2.67$. If you buy $6$ of them, what is the total cost?",
+      "choices": ["$15.98$", "$16.0$", "$16.02$", "$16.04$"],
+      "answer": "$16.02$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Calculate $10.28 - (2.71 \\div 0.42)$.",
+      "choices": ["$3.829$", "$3.828$", "$3.823$", "$3.826$"],
+      "answer": "$3.828$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Divide $5.1$ by $1.811$.",
+      "choices": ["$2.8162$", "$2.8165$", "$2.8161$", "$2.8157$"],
+      "answer": "$2.8161$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Calculate $8.03 - (0.42 \\div 2.54)$.",
+      "choices": ["$7.86$", "$7.868$", "$7.865$", "$7.863$"],
+      "answer": "$7.865$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Find the product of $6.77$ and $3.499$.",
+      "choices": ["$23.688$", "$23.6882$", "$23.689$", "$23.6892$"],
+      "answer": "$23.6882$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "An item costs $12.39$. If you buy $7$ of them, what is the total cost?",
+      "choices": ["$86.65$", "$86.73$", "$86.97$", "$87.13$"],
+      "answer": "$86.73$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Calculate $9.99 - (2.05 \\div 1.29)$.",
+      "choices": ["$8.402$", "$8.401$", "$8.399$", "$8.403$"],
+      "answer": "$8.401$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "An item costs $3.19$. If you buy $3$ of them, what is the total cost?",
+      "choices": ["$9.58$", "$9.57$", "$9.55$", "$9.53$"],
+      "answer": "$9.57$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Divide $3.704$ by $1.388$.",
+      "choices": ["$2.6691$", "$2.6686$", "$2.6681$", "$2.6685$"],
+      "answer": "$2.6686$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Calculate $2.84 - (1.94 \\div 1.09)$.",
+      "choices": ["$1.057$", "$1.06$", "$1.058$", "$1.059$"],
+      "answer": "$1.06$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Find the product of $9.875$ and $0.79$.",
+      "choices": ["$7.804$", "$7.801$", "$7.8$", "$7.806$"],
+      "answer": "$7.801$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Calculate $9.05 - (0.88 \\div 1.24)$.",
+      "choices": ["$8.335$", "$8.339$", "$8.34$", "$8.336$"],
+      "answer": "$8.34$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "An item costs $8.75$. If you buy $6$ of them, what is the total cost?",
+      "choices": ["$52.5$", "$52.7$", "$52.25$", "$52.35$"],
+      "answer": "$52.5$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Calculate $9.36 + (1.75 \\times 1.77)$.",
+      "choices": ["$12.453$", "$12.455$", "$12.456$", "$12.457$"],
+      "answer": "$12.457$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Calculate $7.63 + (2.6 \\times 0.93)$.",
+      "choices": ["$10.047$", "$10.048$", "$10.049$", "$10.053$"],
+      "answer": "$10.048$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Calculate $5.19 - (4.19 \\times 2.49)$.",
+      "choices": ["$2.432$", "$2.437$", "$2.441$", "$2.439$"],
+      "answer": "$2.437$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "An item costs $9.61$. If you buy $10$ of them, what is the total cost?",
+      "choices": ["$96.55$", "$96.1$", "$96.28$", "$95.92$"],
+      "answer": "$96.1$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "An item costs $9.59$. If you buy $2$ of them, what is the total cost?",
+      "choices": ["$19.23$", "$19.18$", "$19.15$", "$19.19$"],
+      "answer": "$19.18$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Find the product of $9.715$ and $3.33$.",
+      "choices": ["$32.3509$", "$32.35$", "$32.3494$", "$32.3503$"],
+      "answer": "$32.3509$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Divide $4.6$ by $4.032$.",
+      "choices": ["$1.1411$", "$1.141$", "$1.1408$", "$1.1409$"],
+      "answer": "$1.1409$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Find the product of $4.95$ and $3.975$.",
+      "choices": ["$19.6763$", "$19.6762$", "$19.6764$", "$19.6759$"],
+      "answer": "$19.6762$",
+      "points": 25
+    },
     {
       "id": 178,
       "wave": 4,
-      "question": "What is 14.529 ÷ 3.8?",
-      "choices": ["3.823", "3.924", "3.723", "3.824"],
-      "answer": "3.823",
+      "question": "Find the product of $1.26$ and $4.02$.",
+      "choices": ["$5.065$", "$5.068$", "$5.07$", "$5.067$"],
+      "answer": "$5.065$",
       "points": 25
     },
     {
       "id": 179,
       "wave": 4,
-      "question": "What is 46.382 + 17.954?",
-      "choices": ["64.336", "65.336", "63.336", "64.436"],
-      "answer": "64.336",
+      "question": "Calculate $3.51 - (1.43 \\div 1.2)$.",
+      "choices": ["$2.315$", "$2.317$", "$2.318$", "$2.322$"],
+      "answer": "$2.318$",
       "points": 25
     },
     {
       "id": 180,
       "wave": 4,
-      "question": "What is 78.456 - 29.789?",
-      "choices": ["48.667", "49.667", "47.667", "48.767"],
-      "answer": "48.667",
+      "question": "An item costs $10.53$. If you buy $8$ of them, what is the total cost?",
+      "choices": ["$84.48$", "$84.24$", "$84.16$", "$84.4$"],
+      "answer": "$84.24$",
       "points": 25
     },
     {
       "id": 181,
       "wave": 4,
-      "question": "What is 5.24 × 8.7?",
-      "choices": ["45.588", "46.588", "44.588", "45.688"],
-      "answer": "45.588",
+      "question": "Divide $5.9$ by $0.71$.",
+      "choices": ["$8.3099$", "$8.3096$", "$8.3094$", "$8.3104$"],
+      "answer": "$8.3099$",
       "points": 25
     },
     {
       "id": 182,
       "wave": 4,
-      "question": "What is 92.736 ÷ 6.4?",
-      "choices": ["14.49", "15.49", "13.49", "14.59"],
-      "answer": "14.49",
+      "question": "An item costs $13.5$. If you buy $5$ of them, what is the total cost?",
+      "choices": ["$67.32$", "$67.5$", "$67.38$", "$67.56$"],
+      "answer": "$67.5$",
       "points": 25
     },
     {
       "id": 183,
       "wave": 4,
-      "question": "What is 33.847 + 28.956?",
-      "choices": ["62.803", "63.803", "61.803", "62.903"],
-      "answer": "62.803",
+      "question": "Find the product of $4.5$ and $4.96$.",
+      "choices": ["$22.32$", "$22.3192$", "$22.3208$", "$22.3202$"],
+      "answer": "$22.32$",
       "points": 25
     },
     {
       "id": 184,
       "wave": 4,
-      "question": "What is 85.293 - 47.658?",
-      "choices": ["37.635", "38.635", "36.635", "37.735"],
-      "answer": "37.635",
+      "question": "An item costs $14.29$. If you buy $9$ of them, what is the total cost?",
+      "choices": ["$128.61$", "$129.09$", "$128.37$", "$129.21$"],
+      "answer": "$128.61$",
       "points": 25
     },
     {
       "id": 185,
       "wave": 4,
-      "question": "What is 9.36 × 4.25?",
-      "choices": ["39.78", "40.78", "38.78", "39.88"],
-      "answer": "39.78",
+      "question": "An item costs $5.26$. If you buy $9$ of them, what is the total cost?",
+      "choices": ["$47.5$", "$47.54$", "$47.38$", "$47.34$"],
+      "answer": "$47.34$",
       "points": 25
     },
     {
       "id": 186,
       "wave": 4,
-      "question": "What is 67.584 ÷ 4.8?",
-      "choices": ["14.08", "15.08", "13.08", "14.18"],
-      "answer": "14.08",
+      "question": "An item costs $1.68$. If you buy $10$ of them, what is the total cost?",
+      "choices": ["$16.8$", "$16.85$", "$16.75$", "$16.84$"],
+      "answer": "$16.8$",
       "points": 25
     },
     {
       "id": 187,
       "wave": 4,
-      "question": "What is 19.745 + 36.892?",
-      "choices": ["56.637", "57.637", "55.637", "56.737"],
-      "answer": "56.637",
+      "question": "An item costs $2.16$. If you buy $3$ of them, what is the total cost?",
+      "choices": ["$6.47$", "$6.43$", "$6.5$", "$6.48$"],
+      "answer": "$6.48$",
       "points": 25
     },
     {
       "id": 188,
       "wave": 4,
-      "question": "What is 74.835 - 38.947?",
-      "choices": ["35.888", "36.888", "34.888", "35.988"],
-      "answer": "35.888",
+      "question": "Calculate $6.24 - (1.47 \\div 0.52)$.",
+      "choices": ["$3.415$", "$3.414$", "$3.416$", "$3.413$"],
+      "answer": "$3.413$",
       "points": 25
     },
     {
       "id": 189,
       "wave": 4,
-      "question": "What is 6.72 × 7.35?",
-      "choices": ["49.392", "50.392", "48.392", "49.492"],
-      "answer": "49.392",
+      "question": "An item costs $9.28$. If you buy $3$ of them, what is the total cost?",
+      "choices": ["$27.84$", "$27.74$", "$27.78$", "$27.9$"],
+      "answer": "$27.84$",
       "points": 25
     },
     {
       "id": 190,
       "wave": 4,
-      "question": "What is 84.96 ÷ 5.6?",
-      "choices": ["15.17", "16.17", "14.17", "15.27"],
-      "answer": "15.17",
+      "question": "Find the product of $7.855$ and $1.44$.",
+      "choices": ["$11.3117$", "$11.3111$", "$11.3112$", "$11.3108$"],
+      "answer": "$11.3112$",
       "points": 25
     },
     {
       "id": 191,
       "wave": 4,
-      "question": "What is 42.386 + 19.754?",
-      "choices": ["62.14", "63.14", "61.14", "62.24"],
-      "answer": "62.14",
+      "question": "Find the product of $7.85$ and $3.78$.",
+      "choices": ["$29.6734$", "$29.6728$", "$29.672$", "$29.673$"],
+      "answer": "$29.673$",
       "points": 25
     },
     {
       "id": 192,
       "wave": 4,
-      "question": "What is 96.523 - 58.794?",
-      "choices": ["37.729", "38.729", "36.729", "37.829"],
-      "answer": "37.729",
+      "question": "An item costs $9.15$. If you buy $8$ of them, what is the total cost?",
+      "choices": ["$73.48$", "$73.2$", "$73.06$", "$72.85$"],
+      "answer": "$73.2$",
       "points": 25
     },
     {
       "id": 193,
       "wave": 4,
-      "question": "What is 8.45 × 3.26?",
-      "choices": ["27.547", "28.547", "26.547", "27.647"],
-      "answer": "27.547",
+      "question": "An item costs $1.81$. If you buy $2$ of them, what is the total cost?",
+      "choices": ["$3.62$", "$3.65$", "$3.66$", "$3.64$"],
+      "answer": "$3.62$",
       "points": 25
     },
     {
       "id": 194,
       "wave": 4,
-      "question": "What is 73.44 ÷ 6.8?",
-      "choices": ["10.8", "11.8", "9.8", "10.9"],
-      "answer": "10.8",
+      "question": "Find the product of $3.532$ and $4.01$.",
+      "choices": ["$14.162$", "$14.165$", "$14.163$", "$14.167$"],
+      "answer": "$14.163$",
       "points": 25
     },
     {
       "id": 195,
       "wave": 4,
-      "question": "What is 27.864 + 45.237?",
-      "choices": ["73.101", "74.101", "72.101", "73.201"],
-      "answer": "73.101",
+      "question": "Calculate $3.74 - (2.0 \\div 2.2)$.",
+      "choices": ["$2.835$", "$2.826$", "$2.831$", "$2.834$"],
+      "answer": "$2.831$",
       "points": 25
     },
     {
       "id": 196,
       "wave": 4,
-      "question": "What is 89.156 - 42.789?",
-      "choices": ["46.367", "47.367", "45.367", "46.467"],
-      "answer": "46.367",
+      "question": "An item costs $10.69$. If you buy $8$ of them, what is the total cost?",
+      "choices": ["$85.52$", "$85.36$", "$85.2$", "$85.12$"],
+      "answer": "$85.52$",
       "points": 25
     },
     {
       "id": 197,
       "wave": 4,
-      "question": "What is 5.83 × 9.14?",
-      "choices": ["53.286", "54.286", "52.286", "53.386"],
-      "answer": "53.286",
+      "question": "Divide $8.63$ by $4.12$.",
+      "choices": ["$2.093$", "$2.095$", "$2.091$", "$2.096$"],
+      "answer": "$2.095$",
       "points": 25
     },
     {
       "id": 198,
       "wave": 4,
-      "question": "What is 91.26 ÷ 7.2?",
-      "choices": ["12.675", "13.675", "11.675", "12.775"],
-      "answer": "12.675",
+      "question": "Find the product of $2.671$ and $0.13$.",
+      "choices": ["$0.348$", "$0.351$", "$0.347$", "$0.349$"],
+      "answer": "$0.347$",
       "points": 25
     },
     {
       "id": 199,
       "wave": 4,
-      "question": "What is 35.492 + 26.858?",
-      "choices": ["62.35", "63.35", "61.35", "62.45"],
-      "answer": "62.35",
+      "question": "An item costs $5.88$. If you buy $6$ of them, what is the total cost?",
+      "choices": ["$35.34$", "$35.22$", "$35.31$", "$35.28$"],
+      "answer": "$35.28$",
       "points": 25
     },
     {
       "id": 200,
       "wave": 4,
-      "question": "What is 87.634 - 39.276?",
-      "choices": ["48.358", "49.358", "47.358", "48.458"],
-      "answer": "48.358",
+      "question": "Calculate $6.14 + (0.72 \\div 2.11)$.",
+      "choices": ["$6.478$", "$6.483$", "$6.485$", "$6.481$"],
+      "answer": "$6.481$",
       "points": 25
     },
     {
       "id": 201,
       "wave": 5,
-      "question": "What is -15.43 + 28.67?",
-      "choices": ["13.24", "14.24", "12.24", "13.34"],
-      "answer": "13.24",
+      "question": "John started with $166.7$. He spent $7.19$ on groceries and $29.24$ on books. Then he earned $9.19$ from a small task. How much money does John have now?",
+      "choices": ["$139.2$", "$139.85$", "$139.46$", "$139.07$"],
+      "answer": "$139.46$",
       "points": 30
     },
     {
       "id": 202,
       "wave": 5,
-      "question": "What is 45.82 - (-17.39)?",
-      "choices": ["63.21", "64.21", "62.21", "63.31"],
-      "answer": "63.21",
+      "question": "John started with $88.14$. He spent $13.84$ on groceries and $17.84$ on books. Then he earned $3.49$ from a small task. How much money does John have now?",
+      "choices": ["$59.95$", "$60.15$", "$59.8$", "$59.9$"],
+      "answer": "$59.95$",
       "points": 30
     },
     {
       "id": 203,
       "wave": 5,
-      "question": "What is -6.75 × 8.4?",
-      "choices": ["-56.7", "-57.7", "-55.7", "-56.8"],
-      "answer": "-56.7",
+      "question": "What is $3.55 - \\frac{3}{8}$?",
+      "choices": ["$3.176$", "$3.177$", "$3.175$", "$3.178$"],
+      "answer": "$3.175$",
       "points": 30
     },
     {
       "id": 204,
       "wave": 5,
-      "question": "What is -84.36 ÷ (-9.6)?",
-      "choices": ["8.7875", "9.7875", "7.7875", "8.8875"],
-      "answer": "8.7875",
+      "question": "Evaluate $(12.54 + 8.95) \\times 0.82 \\div 1.47$.",
+      "choices": ["$11.9873$", "$11.9879$", "$11.9872$", "$11.9876$"],
+      "answer": "$11.9876$",
       "points": 30
     },
     {
       "id": 205,
       "wave": 5,
-      "question": "What is -23.59 + (-14.86)?",
-      "choices": ["-38.45", "-37.45", "-39.45", "-38.35"],
-      "answer": "-38.45",
+      "question": "Evaluate $(13.3 + 4.72) \\times 1.04 \\div 1.24$.",
+      "choices": ["$15.113$", "$15.1136$", "$15.1135$", "$15.1134$"],
+      "answer": "$15.1135$",
       "points": 30
     },
     {
       "id": 206,
       "wave": 5,
-      "question": "What is 37.94 - (-25.78)?",
-      "choices": ["63.72", "64.72", "62.72", "63.82"],
-      "answer": "63.72",
+      "question": "John started with $134.12$. He spent $9.27$ on groceries and $19.54$ on books. Then he earned $4.06$ from a small task. How much money does John have now?",
+      "choices": ["$109.77$", "$109.37$", "$109.57$", "$108.87$"],
+      "answer": "$109.37$",
       "points": 30
     },
     {
       "id": 207,
       "wave": 5,
-      "question": "What is -9.23 × (-5.7)?",
-      "choices": ["52.611", "53.611", "51.611", "52.711"],
-      "answer": "52.611",
+      "question": "John started with $60.84$. He spent $6.3$ on groceries and $29.71$ on books. Then he earned $6.29$ from a small task. How much money does John have now?",
+      "choices": ["$31.18$", "$31.12$", "$31.0$", "$31.21$"],
+      "answer": "$31.12$",
       "points": 30
     },
     {
       "id": 208,
       "wave": 5,
-      "question": "What is 76.48 ÷ (-8.2)?",
-      "choices": ["-9.327", "-10.327", "-8.327", "-9.427"],
-      "answer": "-9.327",
+      "question": "What is $\\frac{3}{10} + 1.2$?",
+      "choices": ["$1.495$", "$1.5$", "$1.505$", "$1.499$"],
+      "answer": "$1.5$",
       "points": 30
     },
     {
       "id": 209,
       "wave": 5,
-      "question": "What is -18.75 + 32.48?",
-      "choices": ["13.73", "14.73", "12.73", "13.83"],
-      "answer": "13.73",
+      "question": "Evaluate $(17.04 + 3.53) \\times 2.85 \\div 0.17$.",
+      "choices": ["$344.8432$", "$344.85$", "$344.8636$", "$344.8602$"],
+      "answer": "$344.85$",
       "points": 30
     },
     {
       "id": 210,
       "wave": 5,
-      "question": "What is 54.92 - (-19.37)?",
-      "choices": ["74.29", "75.29", "73.29", "74.39"],
-      "answer": "74.29",
+      "question": "What is $5.18 - \\frac{7}{8}$?",
+      "choices": ["$4.309$", "$4.305$", "$4.301$", "$4.303$"],
+      "answer": "$4.305$",
       "points": 30
     },
     {
       "id": 211,
       "wave": 5,
-      "question": "What is -7.84 × 6.25?",
-      "choices": ["-49", "-50", "-48", "-49.1"],
-      "answer": "-49",
+      "question": "Evaluate $(19.24 + 9.08) \\times 4.58 \\div 0.58$.",
+      "choices": ["$223.6325$", "$223.6303$", "$223.6259$", "$223.6215$"],
+      "answer": "$223.6303$",
       "points": 30
     },
     {
       "id": 212,
       "wave": 5,
-      "question": "What is -93.6 ÷ (-7.8)?",
-      "choices": ["12", "13", "11", "12.1"],
-      "answer": "12",
+      "question": "John started with $70.73$. He spent $15.49$ on groceries and $15.42$ on books. Then he earned $3.65$ from a small task. How much money does John have now?",
+      "choices": ["$43.47$", "$43.31$", "$43.43$", "$43.51$"],
+      "answer": "$43.47$",
       "points": 30
     },
     {
       "id": 213,
       "wave": 5,
-      "question": "What is -26.48 + (-17.93)?",
-      "choices": ["-44.41", "-43.41", "-45.41", "-44.31"],
-      "answer": "-44.41",
+      "question": "John started with $89.13$. He spent $19.37$ on groceries and $13.15$ on books. Then he earned $2.93$ from a small task. How much money does John have now?",
+      "choices": ["$59.59$", "$59.54$", "$59.44$", "$59.49$"],
+      "answer": "$59.54$",
       "points": 30
     },
     {
       "id": 214,
       "wave": 5,
-      "question": "What is 42.67 - (-28.94)?",
-      "choices": ["71.61", "72.61", "70.61", "71.71"],
-      "answer": "71.61",
+      "question": "What is $7.8 - \\frac{3}{10}$?",
+      "choices": ["$7.504$", "$7.501$", "$7.502$", "$7.5$"],
+      "answer": "$7.5$",
       "points": 30
     },
     {
       "id": 215,
       "wave": 5,
-      "question": "What is -8.36 × (-7.25)?",
-      "choices": ["60.61", "61.61", "59.61", "60.71"],
-      "answer": "60.61",
+      "question": "What is $1.4 - \\frac{1}{8}$?",
+      "choices": ["$1.27$", "$1.275$", "$1.271$", "$1.277$"],
+      "answer": "$1.275$",
       "points": 30
     },
     {
       "id": 216,
       "wave": 5,
-      "question": "What is 68.24 ÷ (-9.4)?",
-      "choices": ["-7.26", "-8.26", "-6.26", "-7.36"],
-      "answer": "-7.26",
+      "question": "Evaluate $(6.42 + 6.5) \\times 4.32 \\div 1.33$.",
+      "choices": ["$41.9657$", "$41.9641$", "$41.9669$", "$41.9637$"],
+      "answer": "$41.9657$",
       "points": 30
     },
     {
       "id": 217,
       "wave": 5,
-      "question": "What is -31.75 + 48.92?",
-      "choices": ["17.17", "18.17", "16.17", "17.27"],
-      "answer": "17.17",
+      "question": "Evaluate $(6.32 + 4.16) \\times 1.36 \\div 1.08$.",
+      "choices": ["$13.197$", "$13.1967$", "$13.1966$", "$13.1968$"],
+      "answer": "$13.197$",
       "points": 30
     },
     {
       "id": 218,
       "wave": 5,
-      "question": "What is 59.83 - (-22.67)?",
-      "choices": ["82.5", "83.5", "81.5", "82.6"],
-      "answer": "82.5",
+      "question": "What is $7.04 - \\frac{2}{5}$?",
+      "choices": ["$6.641$", "$6.64$", "$6.638$", "$6.642$"],
+      "answer": "$6.64$",
       "points": 30
     },
     {
       "id": 219,
       "wave": 5,
-      "question": "What is -5.92 × 9.75?",
-      "choices": ["-57.72", "-58.72", "-56.72", "-57.82"],
-      "answer": "-57.72",
+      "question": "John started with $184.66$. He spent $13.84$ on groceries and $23.12$ on books. Then he earned $7.97$ from a small task. How much money does John have now?",
+      "choices": ["$155.82$", "$155.37$", "$155.67$", "$156.27$"],
+      "answer": "$155.67$",
       "points": 30
     },
     {
       "id": 220,
       "wave": 5,
-      "question": "What is -78.4 ÷ (-5.6)?",
-      "choices": ["14", "15", "13", "14.1"],
-      "answer": "14",
+      "question": "John started with $194.65$. He spent $16.14$ on groceries and $10.88$ on books. Then he earned $2.11$ from a small task. How much money does John have now?",
+      "choices": ["$170.38$", "$169.42$", "$169.1$", "$169.74$"],
+      "answer": "$169.74$",
       "points": 30
     },
     {
       "id": 221,
       "wave": 5,
-      "question": "What is -19.86 + (-23.47)?",
-      "choices": ["-43.33", "-42.33", "-44.33", "-43.23"],
-      "answer": "-43.33",
+      "question": "Evaluate $(13.38 + 8.72) \\times 3.96 \\div 1.82$.",
+      "choices": ["$48.0845$", "$48.0837$", "$48.0857$", "$48.0873$"],
+      "answer": "$48.0857$",
       "points": 30
     },
     {
       "id": 222,
       "wave": 5,
-      "question": "What is 36.54 - (-31.78)?",
-      "choices": ["68.32", "69.32", "67.32", "68.42"],
-      "answer": "68.32",
+      "question": "John started with $184.09$. He spent $16.62$ on groceries and $25.83$ on books. Then he earned $4.56$ from a small task. How much money does John have now?",
+      "choices": ["$146.2$", "$145.5$", "$145.92$", "$145.78$"],
+      "answer": "$146.2$",
       "points": 30
     },
     {
       "id": 223,
       "wave": 5,
-      "question": "What is -6.48 × (-8.35)?",
-      "choices": ["54.108", "55.108", "53.108", "54.208"],
-      "answer": "54.108",
+      "question": "John started with $159.65$. He spent $8.23$ on groceries and $27.71$ on books. Then he earned $4.46$ from a small task. How much money does John have now?",
+      "choices": ["$128.41$", "$128.53$", "$127.57$", "$128.17$"],
+      "answer": "$128.17$",
       "points": 30
     },
     {
       "id": 224,
       "wave": 5,
-      "question": "What is 85.92 ÷ (-6.4)?",
-      "choices": ["-13.425", "-14.425", "-12.425", "-13.525"],
-      "answer": "-13.425",
+      "question": "John started with $73.45$. He spent $5.67$ on groceries and $11.14$ on books. Then he earned $2.89$ from a small task. How much money does John have now?",
+      "choices": ["$59.53$", "$59.33$", "$59.73$", "$59.68$"],
+      "answer": "$59.53$",
       "points": 30
     },
     {
       "id": 225,
       "wave": 5,
-      "question": "What is -24.73 + 39.58?",
-      "choices": ["14.85", "15.85", "13.85", "14.95"],
-      "answer": "14.85",
+      "question": "Evaluate $(9.69 + 4.69) \\times 4.02 \\div 0.87$.",
+      "choices": ["$66.4455$", "$66.4443$", "$66.4437$", "$66.4431$"],
+      "answer": "$66.4455$",
       "points": 30
     },
     {
       "id": 226,
       "wave": 5,
-      "question": "What is 47.26 - (-16.89)?",
-      "choices": ["64.15", "65.15", "63.15", "64.25"],
-      "answer": "64.15",
+      "question": "What is $\\frac{1}{2} + 6.2$?",
+      "choices": ["$6.7$", "$6.697$", "$6.698$", "$6.695$"],
+      "answer": "$6.7$",
       "points": 30
     },
     {
       "id": 227,
       "wave": 5,
-      "question": "What is -7.35 × 4.8?",
-      "choices": ["-35.28", "-36.28", "-34.28", "-35.38"],
-      "answer": "-35.28",
+      "question": "John started with $137.61$. He spent $8.37$ on groceries and $22.77$ on books. Then he earned $7.37$ from a small task. How much money does John have now?",
+      "choices": ["$113.84$", "$114.17$", "$113.62$", "$114.28$"],
+      "answer": "$113.84$",
       "points": 30
     },
     {
       "id": 228,
       "wave": 5,
-      "question": "What is -96.6 ÷ (-8.4)?",
-      "choices": ["11.5", "12.5", "10.5", "11.6"],
-      "answer": "11.5",
+      "question": "John started with $74.96$. He spent $16.29$ on groceries and $28.66$ on books. Then he earned $5.42$ from a small task. How much money does John have now?",
+      "choices": ["$35.43$", "$35.31$", "$35.28$", "$35.49$"],
+      "answer": "$35.43$",
       "points": 30
     },
     {
       "id": 229,
       "wave": 5,
-      "question": "What is -33.47 + (-18.95)?",
-      "choices": ["-52.42", "-51.42", "-53.42", "-52.32"],
-      "answer": "-52.42",
+      "question": "John started with $166.08$. He spent $10.39$ on groceries and $12.16$ on books. Then he earned $4.25$ from a small task. How much money does John have now?",
+      "choices": ["$147.08$", "$147.92$", "$147.78$", "$147.36$"],
+      "answer": "$147.78$",
       "points": 30
     },
     {
       "id": 230,
       "wave": 5,
-      "question": "What is 52.84 - (-27.16)?",
-      "choices": ["80", "81", "79", "80.1"],
-      "answer": "80",
+      "question": "What is $8.89 - \\frac{1}{4}$?",
+      "choices": ["$8.645$", "$8.636$", "$8.638$", "$8.64$"],
+      "answer": "$8.64$",
       "points": 30
     },
     {
       "id": 231,
       "wave": 5,
-      "question": "What is -9.57 × (-6.2)?",
-      "choices": ["59.334", "60.334", "58.334", "59.434"],
-      "answer": "59.334",
+      "question": "Evaluate $(16.04 + 2.31) \\times 0.65 \\div 0.95$.",
+      "choices": ["$12.555$", "$12.5553$", "$12.5556$", "$12.5558$"],
+      "answer": "$12.5553$",
       "points": 30
     },
     {
       "id": 232,
       "wave": 5,
-      "question": "What is 74.88 ÷ (-7.2)?",
-      "choices": ["-10.4", "-11.4", "-9.4", "-10.5"],
-      "answer": "-10.4",
+      "question": "What is $5.93 - \\frac{3}{8}$?",
+      "choices": ["$5.56$", "$5.555$", "$5.55$", "$5.557$"],
+      "answer": "$5.555$",
       "points": 30
     },
     {
       "id": 233,
       "wave": 5,
-      "question": "What is -28.64 + 41.37?",
-      "choices": ["12.73", "13.73", "11.73", "12.83"],
-      "answer": "12.73",
+      "question": "Evaluate $(12.31 + 8.16) \\times 0.68 \\div 0.14$.",
+      "choices": ["$99.4257$", "$99.4248$", "$99.4293$", "$99.4275$"],
+      "answer": "$99.4257$",
       "points": 30
     },
     {
       "id": 234,
       "wave": 5,
-      "question": "What is 63.95 - (-24.58)?",
-      "choices": ["88.53", "89.53", "87.53", "88.63"],
-      "answer": "88.53",
+      "question": "John started with $141.03$. He spent $15.07$ on groceries and $11.35$ on books. Then he earned $8.35$ from a small task. How much money does John have now?",
+      "choices": ["$122.48$", "$122.84$", "$123.2$", "$122.96$"],
+      "answer": "$122.96$",
       "points": 30
     },
     {
       "id": 235,
       "wave": 5,
-      "question": "What is -4.73 × 8.9?",
-      "choices": ["-42.097", "-43.097", "-41.097", "-42.197"],
-      "answer": "-42.097",
+      "question": "What is $\\frac{1}{8} + 6.22$?",
+      "choices": ["$6.349$", "$6.347$", "$6.345$", "$6.348$"],
+      "answer": "$6.345$",
       "points": 30
     },
     {
       "id": 236,
       "wave": 5,
-      "question": "What is -67.2 ÷ (-4.8)?",
-      "choices": ["14", "15", "13", "14.1"],
-      "answer": "14",
+      "question": "Evaluate $(15.84 + 1.84) \\times 1.76 \\div 0.97$.",
+      "choices": ["$32.078$", "$32.0792$", "$32.0801$", "$32.0789$"],
+      "answer": "$32.0792$",
       "points": 30
     },
     {
       "id": 237,
       "wave": 5,
-      "question": "What is -21.38 + (-29.74)?",
-      "choices": ["-51.12", "-50.12", "-52.12", "-51.02"],
-      "answer": "-51.12",
+      "question": "John started with $184.08$. He spent $18.33$ on groceries and $17.57$ on books. Then he earned $2.33$ from a small task. How much money does John have now?",
+      "choices": ["$151.26$", "$150.51$", "$150.96$", "$150.06$"],
+      "answer": "$150.51$",
       "points": 30
     },
     {
       "id": 238,
       "wave": 5,
-      "question": "What is 49.72 - (-33.28)?",
-      "choices": ["83", "84", "82", "83.1"],
-      "answer": "83",
+      "question": "John started with $174.06$. He spent $19.25$ on groceries and $27.88$ on books. Then he earned $7.91$ from a small task. How much money does John have now?",
+      "choices": ["$134.32$", "$134.71$", "$135.36$", "$134.84$"],
+      "answer": "$134.84$",
       "points": 30
     },
     {
       "id": 239,
       "wave": 5,
-      "question": "What is -8.94 × (-5.4)?",
-      "choices": ["48.276", "49.276", "47.276", "48.376"],
-      "answer": "48.276",
+      "question": "What is $3.56 - \\frac{7}{10}$?",
+      "choices": ["$2.861$", "$2.86$", "$2.859$", "$2.856$"],
+      "answer": "$2.86$",
       "points": 30
     },
     {
       "id": 240,
       "wave": 5,
-      "question": "What is 82.35 ÷ (-6.7)?",
-      "choices": ["-12.291", "-13.291", "-11.291", "-12.391"],
-      "answer": "-12.291",
+      "question": "Evaluate $(15.38 + 2.98) \\times 3.31 \\div 0.68$.",
+      "choices": ["$89.3716$", "$89.3668$", "$89.366$", "$89.37$"],
+      "answer": "$89.37$",
       "points": 30
     },
     {
       "id": 241,
       "wave": 5,
-      "question": "What is -35.86 + 52.94?",
-      "choices": ["17.08", "18.08", "16.08", "17.18"],
-      "answer": "17.08",
+      "question": "What is $\\frac{7}{8} + 5.57$?",
+      "choices": ["$6.442$", "$6.445$", "$6.45$", "$6.449$"],
+      "answer": "$6.445$",
       "points": 30
     },
     {
       "id": 242,
       "wave": 5,
-      "question": "What is 58.47 - (-21.95)?",
-      "choices": ["80.42", "81.42", "79.42", "80.52"],
-      "answer": "80.42",
+      "question": "What is $\\frac{4}{5} + 9.77$?",
+      "choices": ["$10.574$", "$10.572$", "$10.568$", "$10.57$"],
+      "answer": "$10.57$",
       "points": 30
     },
     {
       "id": 243,
       "wave": 5,
-      "question": "What is -6.27 × 7.8?",
-      "choices": ["-48.906", "-49.906", "-47.906", "-49.006"],
-      "answer": "-48.906",
+      "question": "What is $9.2 - \\frac{4}{5}$?",
+      "choices": ["$8.4$", "$8.397$", "$8.395$", "$8.405$"],
+      "answer": "$8.4$",
       "points": 30
     },
     {
       "id": 244,
       "wave": 5,
-      "question": "What is -91.8 ÷ (-9.0)?",
-      "choices": ["10.2", "11.2", "9.2", "10.3"],
-      "answer": "10.2",
+      "question": "What is $\\frac{1}{2} + 4.0$?",
+      "choices": ["$4.5$", "$4.498$", "$4.504$", "$4.502$"],
+      "answer": "$4.5$",
       "points": 30
     },
     {
       "id": 245,
       "wave": 5,
-      "question": "What is -27.49 + (-34.86)?",
-      "choices": ["-62.35", "-61.35", "-63.35", "-62.25"],
-      "answer": "-62.35",
+      "question": "What is $1.0 - \\frac{5}{8}$?",
+      "choices": ["$0.37$", "$0.378$", "$0.375$", "$0.377$"],
+      "answer": "$0.375$",
       "points": 30
     },
     {
       "id": 246,
       "wave": 5,
-      "question": "What is 44.38 - (-26.72)?",
-      "choices": ["71.1", "72.1", "70.1", "71.2"],
-      "answer": "71.1",
+      "question": "John started with $84.73$. He spent $12.07$ on groceries and $21.05$ on books. Then he earned $7.27$ from a small task. How much money does John have now?",
+      "choices": ["$59.03$", "$58.63$", "$58.88$", "$58.78$"],
+      "answer": "$58.88$",
       "points": 30
     },
     {
       "id": 247,
       "wave": 5,
-      "question": "What is -5.46 × (-9.3)?",
-      "choices": ["50.778", "51.778", "49.778", "50.878"],
-      "answer": "50.778",
+      "question": "Evaluate $(10.23 + 7.55) \\times 0.76 \\div 1.92$.",
+      "choices": ["$7.0384$", "$7.0374$", "$7.0375$", "$7.0379$"],
+      "answer": "$7.0379$",
       "points": 30
     },
     {
       "id": 248,
       "wave": 5,
-      "question": "What is 76.14 ÷ (-8.7)?",
-      "choices": ["-8.75", "-9.75", "-7.75", "-8.85"],
-      "answer": "-8.75",
+      "question": "What is $4.48 - \\frac{7}{8}$?",
+      "choices": ["$3.605$", "$3.609$", "$3.6$", "$3.601$"],
+      "answer": "$3.605$",
       "points": 30
     },
     {
       "id": 249,
       "wave": 5,
-      "question": "What is -39.27 + 56.83?",
-      "choices": ["17.56", "18.56", "16.56", "17.66"],
-      "answer": "17.56",
+      "question": "John started with $101.7$. He spent $8.15$ on groceries and $21.35$ on books. Then he earned $6.22$ from a small task. How much money does John have now?",
+      "choices": ["$78.42$", "$78.63$", "$78.49$", "$78.56$"],
+      "answer": "$78.42$",
       "points": 30
     },
     {
       "id": 250,
       "wave": 5,
-      "question": "What is 65.94 - (-18.47)?",
-      "choices": ["84.41", "85.41", "83.41", "84.51"],
-      "answer": "84.41",
+      "question": "John started with $118.83$. He spent $11.24$ on groceries and $26.0$ on books. Then he earned $6.85$ from a small task. How much money does John have now?",
+      "choices": ["$88.44$", "$88.76$", "$88.2$", "$88.84$"],
+      "answer": "$88.44$",
       "points": 30
     }
   ]

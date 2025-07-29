@@ -1,1377 +1,2457 @@
 {
-  "title": "Simplify Expression ",
-  "description": "score up!",
+  "title": "Simplify Expression",
+  "description": "Evaluate expressions, combine like terms, and apply the distributive property to simplify algebraic expressions.",
   "waves": 5,
-  "timePerQuestion": 30,
+  "timePerQuestion": 180,
   "questions": [
     {
       "id": 1,
       "wave": 1,
-      "question": "Evaluate x + 5 when x = 3.",
-      "choices": ["8", "2", "15", "53"],
-      "answer": "8",
+      "question": "Evaluate $3x + 5$ when $x = 2$.",
+      "choices": ["11", "8", "10", "13"],
+      "answer": "11",
       "points": 10
     },
     {
       "id": 2,
       "wave": 1,
-      "question": "Evaluate 2y when y = 4.",
-      "choices": ["6", "8", "24", "2"],
-      "answer": "8",
+      "question": "Combine like terms: $5y + 2y - y$.",
+      "choices": ["$6y$", "$7y$", "$4y$", "$8y$"],
+      "answer": "$6y$",
       "points": 10
     },
     {
       "id": 3,
       "wave": 1,
-      "question": "Evaluate a - 7 when a = 10.",
-      "choices": ["3", "17", "-3", "70"],
-      "answer": "3",
+      "question": "Expand $4(a + 3)$.",
+      "choices": ["$4a + 12$", "$4a + 3$", "$a + 12$", "$4a + 7$"],
+      "answer": "$4a + 12$",
       "points": 10
     },
     {
       "id": 4,
       "wave": 1,
-      "question": "Evaluate 3x when x = 2.",
-      "choices": ["5", "6", "32", "23"],
-      "answer": "6",
+      "question": "Evaluate $2m - 7$ when $m = 5$.",
+      "choices": ["3", "17", "-3", "7"],
+      "answer": "3",
       "points": 10
     },
     {
       "id": 5,
       "wave": 1,
-      "question": "Evaluate b + 8 when b = -2.",
-      "choices": ["10", "-10", "6", "-6"],
-      "answer": "6",
+      "question": "Simplify $8x - 3x + x$.",
+      "choices": ["$6x$", "$5x$", "$12x$", "$4x$"],
+      "answer": "$6x$",
       "points": 10
     },
     {
       "id": 6,
       "wave": 1,
-      "question": "Apply the distributive property: 2(x + 3).",
-      "choices": ["2x + 6", "2x + 3", "x + 6", "2x + 5"],
-      "answer": "2x + 6",
+      "question": "Simplify $5(2b - 1)$.",
+      "choices": ["$10b - 5$", "$10b - 1$", "$2b - 5$", "$7b - 5$"],
+      "answer": "$10b - 5$",
       "points": 10
     },
     {
       "id": 7,
       "wave": 1,
-      "question": "Apply the distributive property: 3(y + 1).",
-      "choices": ["3y + 1", "3y + 3", "y + 3", "3y + 4"],
-      "answer": "3y + 3",
+      "question": "Evaluate $10 - 4p$ when $p = 1$.",
+      "choices": ["6", "14", "4", "-6"],
+      "answer": "6",
       "points": 10
     },
     {
       "id": 8,
       "wave": 1,
-      "question": "Combine like terms: 4x + 2x.",
-      "choices": ["6x", "8x", "6x²", "2x"],
-      "answer": "6x",
+      "question": "Combine like terms: $2c + 9c - 3c$.",
+      "choices": ["$8c$", "$14c$", "$6c$", "$11c$"],
+      "answer": "$8c$",
       "points": 10
     },
     {
       "id": 9,
       "wave": 1,
-      "question": "Combine like terms: 5y + 3y.",
-      "choices": ["8y", "15y", "8y²", "53y"],
-      "answer": "8y",
+      "question": "Expand $2(x + y)$.",
+      "choices": ["$2x + 2y$", "$2x + y$", "$x + 2y$", "$xy$"],
+      "answer": "$2x + 2y$",
       "points": 10
     },
     {
       "id": 10,
       "wave": 1,
-      "question": "Evaluate m - 3 when m = 8.",
-      "choices": ["5", "11", "-5", "24"],
-      "answer": "5",
+      "question": "Evaluate $z^2 + 3$ when $z = 4$.",
+      "choices": ["19", "11", "7", "16"],
+      "answer": "19",
       "points": 10
     },
     {
       "id": 11,
       "wave": 1,
-      "question": "Apply the distributive property: 4(a + 2).",
-      "choices": ["4a + 8", "4a + 2", "a + 8", "4a + 6"],
-      "answer": "4a + 8",
+      "question": "Simplify $12k - 5k + 2k$.",
+      "choices": ["$9k$", "$7k$", "$19k$", "$5k$"],
+      "answer": "$9k$",
       "points": 10
     },
     {
       "id": 12,
       "wave": 1,
-      "question": "Combine like terms: 7z + z.",
-      "choices": ["8z", "7z", "7z²", "z"],
-      "answer": "8z",
+      "question": "Simplify $6(3 - w)$.",
+      "choices": ["$18 - 6w$", "$18 - w$", "$3 - 6w$", "$6 - 18w$"],
+      "answer": "$18 - 6w$",
       "points": 10
     },
     {
       "id": 13,
       "wave": 1,
-      "question": "Evaluate 5n when n = 1.",
-      "choices": ["5", "1", "51", "6"],
-      "answer": "5",
+      "question": "Evaluate $a + 2b$ when $a = 3, b = 4$.",
+      "choices": ["11", "9", "10", "14"],
+      "answer": "11",
       "points": 10
     },
     {
       "id": 14,
       "wave": 1,
-      "question": "Apply the distributive property: 6(x + 4).",
-      "choices": ["6x + 24", "6x + 4", "x + 24", "6x + 10"],
-      "answer": "6x + 24",
+      "question": "Combine like terms: $4x + 6 - 2x$.",
+      "choices": ["$2x + 6$", "$6x + 6$", "$8x$", "$4x$"],
+      "answer": "$2x + 6$",
       "points": 10
     },
     {
       "id": 15,
       "wave": 1,
-      "question": "Combine like terms: 9p + 4p.",
-      "choices": ["13p", "36p", "13p²", "5p"],
-      "answer": "13p",
+      "question": "Expand $-(x + 2)$.",
+      "choices": ["$-x - 2$", "$-x + 2$", "$x - 2$", "$x + 2$"],
+      "answer": "$-x - 2$",
       "points": 10
     },
     {
       "id": 16,
       "wave": 1,
-      "question": "Evaluate k + 6 when k = -1.",
-      "choices": ["5", "7", "-7", "-5"],
-      "answer": "5",
+      "question": "Evaluate $x/2 + 7$ when $x = 10$.",
+      "choices": ["12", "17", "5", "27"],
+      "answer": "12",
       "points": 10
     },
     {
       "id": 17,
       "wave": 1,
-      "question": "Apply the distributive property: 5(m + 3).",
-      "choices": ["5m + 15", "5m + 3", "m + 15", "5m + 8"],
-      "answer": "5m + 15",
+      "question": "Simplify $3y + 5 + 2y - 1$.",
+      "choices": ["$5y + 4$", "$5y + 6$", "$6y + 4$", "$6y + 6$"],
+      "answer": "$5y + 4$",
       "points": 10
     },
     {
       "id": 18,
       "wave": 1,
-      "question": "Combine like terms: 8t + 2t.",
-      "choices": ["10t", "16t", "10t²", "6t"],
-      "answer": "10t",
+      "question": "Simplify $3(a - 2b)$.",
+      "choices": ["$3a - 6b$", "$3a - 2b$", "$a - 6b$", "$6a - 3b$"],
+      "answer": "$3a - 6b$",
       "points": 10
     },
     {
       "id": 19,
       "wave": 1,
-      "question": "Evaluate 4w when w = 3.",
-      "choices": ["12", "7", "43", "34"],
-      "answer": "12",
+      "question": "Evaluate $x^2 - y$ when $x = 3, y = 5$.",
+      "choices": ["4", "14", "-2", "2"],
+      "answer": "4",
       "points": 10
     },
     {
       "id": 20,
       "wave": 1,
-      "question": "Apply the distributive property: 7(n + 1).",
-      "choices": ["7n + 7", "7n + 1", "n + 7", "7n + 8"],
-      "answer": "7n + 7",
+      "question": "Combine like terms: $7m - 3n + 2m + n$.",
+      "choices": ["$9m - 2n$", "$9m + 2n$", "$5m - 4n$", "$5m + 4n$"],
+      "answer": "$9m - 2n$",
       "points": 10
     },
     {
       "id": 21,
       "wave": 1,
-      "question": "Combine like terms: 6r + 3r.",
-      "choices": ["9r", "18r", "9r²", "3r"],
-      "answer": "9r",
+      "question": "Expand $7(c + 1)$.",
+      "choices": ["$7c + 7$", "$7c + 1$", "$c + 7$", "$7c$"],
+      "answer": "$7c + 7$",
       "points": 10
     },
     {
       "id": 22,
       "wave": 1,
-      "question": "Evaluate s - 4 when s = 9.",
-      "choices": ["5", "13", "-5", "36"],
-      "answer": "5",
+      "question": "Evaluate $2(x + 1)$ when $x = 4$.",
+      "choices": ["10", "9", "8", "12"],
+      "answer": "10",
       "points": 10
     },
     {
       "id": 23,
       "wave": 1,
-      "question": "Apply the distributive property: 3(q + 5).",
-      "choices": ["3q + 15", "3q + 5", "q + 15", "3q + 8"],
-      "answer": "3q + 15",
+      "question": "Simplify $10a - a + 3b - b$.",
+      "choices": ["$9a + 2b$", "$11a + 4b$", "$9a - 2b$", "$11a - 4b$"],
+      "answer": "$9a + 2b$",
       "points": 10
     },
     {
       "id": 24,
       "wave": 1,
-      "question": "Combine like terms: 10v + v.",
-      "choices": ["11v", "10v", "10v²", "v"],
-      "answer": "11v",
+      "question": "Simplify $-2(3y + 4)$.",
+      "choices": ["$-6y - 8$", "$-6y + 8$", "$6y + 8$", "$6y - 8$"],
+      "answer": "$-6y - 8$",
       "points": 10
     },
     {
       "id": 25,
       "wave": 1,
-      "question": "Evaluate 6d when d = 2.",
-      "choices": ["12", "8", "62", "26"],
-      "answer": "12",
+      "question": "Evaluate $3(k - 2)$ when $k = 5$.",
+      "choices": ["9", "3", "15", "12"],
+      "answer": "9",
       "points": 10
     },
     {
       "id": 26,
       "wave": 1,
-      "question": "Apply the distributive property: 8(h + 2).",
-      "choices": ["8h + 16", "8h + 2", "h + 16", "8h + 10"],
-      "answer": "8h + 16",
+      "question": "Combine like terms: $x^2 + 2x^2 - x^2$.",
+      "choices": ["$2x^2$", "$x^2$", "$3x^2$", "$0$"],
+      "answer": "$2x^2$",
       "points": 10
     },
     {
       "id": 27,
       "wave": 1,
-      "question": "Combine like terms: 12j + 3j.",
-      "choices": ["15j", "36j", "15j²", "9j"],
-      "answer": "15j",
+      "question": "Expand $1/2(4x + 6)$.",
+      "choices": ["$2x + 3$", "$2x + 6$", "$4x + 3$", "$x + 3$"],
+      "answer": "$2x + 3$",
       "points": 10
     },
     {
       "id": 28,
       "wave": 1,
-      "question": "Evaluate f + 9 when f = -3.",
-      "choices": ["6", "12", "-12", "-6"],
-      "answer": "6",
+      "question": "Evaluate $5 - (a + 2)$ when $a = 1$.",
+      "choices": ["2", "4", "6", "3"],
+      "answer": "2",
       "points": 10
     },
     {
       "id": 29,
       "wave": 1,
-      "question": "Apply the distributive property: 9(c + 1).",
-      "choices": ["9c + 9", "9c + 1", "c + 9", "9c + 10"],
-      "answer": "9c + 9",
+      "question": "Simplify $5p + 8q - 2p - 3q$.",
+      "choices": ["$3p + 5q$", "$7p + 11q$", "$3p - 5q$", "$7p - 11q$"],
+      "answer": "$3p + 5q$",
       "points": 10
     },
     {
       "id": 30,
       "wave": 1,
-      "question": "Combine like terms: 5e + 7e.",
-      "choices": ["12e", "35e", "12e²", "2e"],
-      "answer": "12e",
+      "question": "Simplify $- (m - n)$.",
+      "choices": ["$-m + n$", "$-m - n$", "$m - n$", "$m + n$"],
+      "answer": "$-m + n$",
       "points": 10
     },
-
     {
       "id": 31,
-      "wave": 2,
-      "question": "Evaluate 7g when g = 1.",
-      "choices": ["7", "1", "71", "8"],
-      "answer": "7",
-      "points": 15
+      "wave": 1,
+      "question": "Evaluate $x^2 + 2xy + y^2$ when $x=1, y=1$.",
+      "choices": ["4", "3", "1", "2"],
+      "answer": "4",
+      "points": 10
     },
     {
       "id": 32,
-      "wave": 2,
-      "question": "Apply the distributive property: 2(u + 6).",
-      "choices": ["2u + 12", "2u + 6", "u + 12", "2u + 8"],
-      "answer": "2u + 12",
-      "points": 15
+      "wave": 1,
+      "question": "Combine like terms: $7c + 2d - 5c + d$.",
+      "choices": ["$2c + 3d$", "$12c + 3d$", "$2c - d$", "$12c - d$"],
+      "answer": "$2c + 3d$",
+      "points": 10
     },
     {
       "id": 33,
-      "wave": 2,
-      "question": "Combine like terms: 11w + 2w.",
-      "choices": ["13w", "22w", "13w²", "9w"],
-      "answer": "13w",
-      "points": 15
+      "wave": 1,
+      "question": "Expand $3(2a + 5b)$.",
+      "choices": ["$6a + 15b$", "$6a + 5b$", "$2a + 15b$", "$15a + 6b$"],
+      "answer": "$6a + 15b$",
+      "points": 10
     },
     {
       "id": 34,
-      "wave": 2,
-      "question": "Evaluate i - 5 when i = 12.",
-      "choices": ["7", "17", "-7", "60"],
-      "answer": "7",
-      "points": 15
+      "wave": 1,
+      "question": "Evaluate $2x^2 - x$ when $x = 3$.",
+      "choices": ["15", "9", "12", "6"],
+      "answer": "15",
+      "points": 10
     },
     {
       "id": 35,
-      "wave": 2,
-      "question": "Apply the distributive property: 4(l + 3).",
-      "choices": ["4l + 12", "4l + 3", "l + 12", "4l + 7"],
-      "answer": "4l + 12",
-      "points": 15
+      "wave": 1,
+      "question": "Simplify $9x - 4y + 2x + 6y$.",
+      "choices": ["$11x + 2y$", "$7x + 10y$", "$11x - 2y$", "$7x - 10y$"],
+      "answer": "$11x + 2y$",
+      "points": 10
     },
     {
       "id": 36,
-      "wave": 2,
-      "question": "Combine like terms: 14x + x.",
-      "choices": ["15x", "14x", "14x²", "x"],
-      "answer": "15x",
-      "points": 15
+      "wave": 1,
+      "question": "Simplify $4(x - 3) + 2x$.",
+      "choices": ["$6x - 12$", "$4x - 12 + 2x$", "$4x - 3 + 2x$", "$6x - 3$"],
+      "answer": "$6x - 12$",
+      "points": 10
     },
     {
       "id": 37,
-      "wave": 2,
-      "question": "Evaluate 8o when o = 0.",
-      "choices": ["0", "8", "80", "88"],
-      "answer": "0",
-      "points": 15
+      "wave": 1,
+      "question": "Evaluate $5(a - b)$ when $a = 7, b = 2$.",
+      "choices": ["25", "35", "10", "5"],
+      "answer": "25",
+      "points": 10
     },
     {
       "id": 38,
-      "wave": 2,
-      "question": "Apply the distributive property: 3(r + 4).",
-      "choices": ["3r + 12", "3r + 4", "r + 12", "3r + 7"],
-      "answer": "3r + 12",
-      "points": 15
+      "wave": 1,
+      "question": "Combine like terms: $6ab + 2ab - 3ab$.",
+      "choices": ["$5ab$", "$11ab$", "$8ab$", "$ab$"],
+      "answer": "$5ab$",
+      "points": 10
     },
     {
       "id": 39,
-      "wave": 2,
-      "question": "Combine like terms: 6a + 5a.",
-      "choices": ["11a", "30a", "11a²", "1a"],
-      "answer": "11a",
-      "points": 15
+      "wave": 1,
+      "question": "Expand $-5(x - 1)$.",
+      "choices": ["$-5x + 5$", "$-5x - 5$", "$5x - 5$", "$5x + 5$"],
+      "answer": "$-5x + 5$",
+      "points": 10
     },
     {
       "id": 40,
-      "wave": 2,
-      "question": "Evaluate b + 2 when b = 7.",
-      "choices": ["9", "5", "14", "27"],
-      "answer": "9",
-      "points": 15
+      "wave": 1,
+      "question": "Evaluate $x^3 - 4$ when $x = 2$.",
+      "choices": ["4", "12", "8", "6"],
+      "answer": "4",
+      "points": 10
     },
     {
       "id": 41,
-      "wave": 2,
-      "question": "Apply the distributive property: 5(t + 2).",
-      "choices": ["5t + 10", "5t + 2", "t + 10", "5t + 7"],
-      "answer": "5t + 10",
-      "points": 15
+      "wave": 1,
+      "question": "Simplify $2(x + 3) + 5$.",
+      "choices": ["$2x + 11$", "$2x + 8$", "$2x + 6$", "$2x + 5$"],
+      "answer": "$2x + 11$",
+      "points": 10
     },
     {
       "id": 42,
-      "wave": 2,
-      "question": "Combine like terms: 13y + 4y.",
-      "choices": ["17y", "52y", "17y²", "9y"],
-      "answer": "17y",
-      "points": 15
+      "wave": 1,
+      "question": "Combine like terms: $4x^2 - x^2 + 3x$.",
+      "choices": ["$3x^2 + 3x$", "$5x^2 + 3x$", "$3x^2$", "$6x^2$"],
+      "answer": "$3x^2 + 3x$",
+      "points": 10
     },
     {
       "id": 43,
-      "wave": 2,
-      "question": "Evaluate 9z when z = 1.",
-      "choices": ["9", "1", "91", "10"],
-      "answer": "9",
-      "points": 15
+      "wave": 1,
+      "question": "Expand $10(a - 0.5)$.",
+      "choices": ["$10a - 5$", "$10a - 0.5$", "$a - 5$", "$10a - 50$"],
+      "answer": "$10a - 5$",
+      "points": 10
     },
     {
       "id": 44,
-      "wave": 2,
-      "question": "Apply the distributive property: 6(p + 1).",
-      "choices": ["6p + 6", "6p + 1", "p + 6", "6p + 7"],
-      "answer": "6p + 6",
-      "points": 15
+      "wave": 1,
+      "question": "Evaluate $A = lw$ when $l = 6, w = 3$.",
+      "choices": ["18", "9", "12", "3"],
+      "answer": "18",
+      "points": 10
     },
     {
       "id": 45,
-      "wave": 2,
-      "question": "Combine like terms: 8m + 6m.",
-      "choices": ["14m", "48m", "14m²", "2m"],
-      "answer": "14m",
-      "points": 15
+      "wave": 1,
+      "question": "Simplify $2(y + 4) - 3y$.",
+      "choices": ["$-y + 8$", "$-y + 4$", "$5y + 8$", "$2y + 8 - 3y$"],
+      "answer": "$-y + 8$",
+      "points": 10
     },
     {
       "id": 46,
-      "wave": 2,
-      "question": "Evaluate c - 1 when c = 5.",
-      "choices": ["4", "6", "-4", "5"],
-      "answer": "4",
-      "points": 15
+      "wave": 1,
+      "question": "Combine like terms: $5x + 2y - 5x + 3y$.",
+      "choices": ["$5y$", "$10x + 5y$", "$0x + 5y$", "$5y + 10x$"],
+      "answer": "$5y$",
+      "points": 10
     },
     {
       "id": 47,
-      "wave": 2,
-      "question": "Apply the distributive property: 7(d + 3).",
-      "choices": ["7d + 21", "7d + 3", "d + 21", "7d + 10"],
-      "answer": "7d + 21",
-      "points": 15
+      "wave": 1,
+      "question": "Expand $-(2x + 3)$.",
+      "choices": ["$-2x - 3$", "$-2x + 3$", "$2x - 3$", "$2x + 3$"],
+      "answer": "$-2x - 3$",
+      "points": 10
     },
     {
       "id": 48,
-      "wave": 2,
-      "question": "Combine like terms: 15n + n.",
-      "choices": ["16n", "15n", "15n²", "n"],
-      "answer": "16n",
-      "points": 15
+      "wave": 1,
+      "question": "Evaluate $P = 2(l + w)$ when $l = 5, w = 3$.",
+      "choices": ["16", "8", "10", "15"],
+      "answer": "16",
+      "points": 10
     },
     {
       "id": 49,
-      "wave": 2,
-      "question": "Evaluate 10k when k = 2.",
-      "choices": ["20", "12", "102", "210"],
-      "answer": "20",
-      "points": 15
+      "wave": 1,
+      "question": "Simplify $6(m - 1) + 2$.",
+      "choices": ["$6m - 4$", "$6m - 6$", "$6m + 1$", "$6m - 8$"],
+      "answer": "$6m - 4$",
+      "points": 10
     },
     {
       "id": 50,
-      "wave": 2,
-      "question": "Apply the distributive property: 2(s + 8).",
-      "choices": ["2s + 16", "2s + 8", "s + 16", "2s + 10"],
-      "answer": "2s + 16",
-      "points": 15
+      "wave": 1,
+      "question": "Combine like terms: $4x + 7 - 2x + 1$.",
+      "choices": ["$2x + 8$", "$6x + 8$", "$2x + 6$", "$6x + 6$"],
+      "answer": "$2x + 8$",
+      "points": 10
     },
     {
       "id": 51,
       "wave": 2,
-      "question": "Evaluate 3x + 7 when x = -2.",
-      "choices": ["1", "13", "-13", "-1"],
-      "answer": "1",
+      "question": "Evaluate $x^2 - 2xy + y^2$ when $x = 5, y = 3$.",
+      "choices": ["4", "16", "2", "8"],
+      "answer": "4",
       "points": 15
     },
     {
       "id": 52,
       "wave": 2,
-      "question": "Evaluate 2y - 5 when y = 8.",
-      "choices": ["11", "21", "3", "16"],
-      "answer": "11",
+      "question": "Simplify $3x^2 + 5x - x^2 - 2x + 7$.",
+      "choices": [
+        "$2x^2 + 3x + 7$",
+        "$4x^2 + 7x + 7$",
+        "$2x^2 + 7x + 7$",
+        "$4x^2 + 3x + 7$"
+      ],
+      "answer": "$2x^2 + 3x + 7$",
       "points": 15
     },
     {
       "id": 53,
       "wave": 2,
-      "question": "Apply the distributive property: -3(x + 4).",
-      "choices": ["-3x - 12", "-3x + 4", "3x - 12", "-3x + 12"],
-      "answer": "-3x - 12",
+      "question": "Simplify $2(x + 3) + 4(x - 1)$.",
+      "choices": ["$6x + 2$", "$6x + 5$", "$6x - 2$", "$6x + 7$"],
+      "answer": "$6x + 2$",
       "points": 15
     },
     {
       "id": 54,
       "wave": 2,
-      "question": "Apply the distributive property: 4(2a - 3).",
-      "choices": ["8a - 12", "8a + 12", "6a - 7", "2a - 12"],
-      "answer": "8a - 12",
+      "question": "Evaluate $\\frac{a+b}{2}$ when $a = 10, b = 4$.",
+      "choices": ["7", "14", "6", "3"],
+      "answer": "7",
       "points": 15
     },
     {
       "id": 55,
       "wave": 2,
-      "question": "Combine like terms: 7x + 3y + 2x.",
-      "choices": ["9x + 3y", "12xy", "7x + 5y", "12x + y"],
-      "answer": "9x + 3y",
+      "question": "Combine like terms: $7a - 2b + 3a + 5b - 4$.",
+      "choices": [
+        "$10a + 3b - 4$",
+        "$10a + 7b - 4$",
+        "$4a + 3b - 4$",
+        "$4a + 7b - 4$"
+      ],
+      "answer": "$10a + 3b - 4$",
       "points": 15
     },
     {
       "id": 56,
       "wave": 2,
-      "question": "Combine like terms: 5m - 2m + 8.",
-      "choices": ["3m + 8", "11m", "3m - 8", "5m + 6"],
-      "answer": "3m + 8",
+      "question": "Simplify $5(y - 2) - 3(y + 1)$.",
+      "choices": ["$2y - 13$", "$2y - 7$", "$2y + 7$", "$2y + 13$"],
+      "answer": "$2y - 13$",
       "points": 15
     },
     {
       "id": 57,
       "wave": 2,
-      "question": "Evaluate -4n + 6 when n = 3.",
-      "choices": ["-6", "18", "-18", "6"],
-      "answer": "-6",
+      "question": "Evaluate $3x^2 - 5x + 2$ when $x = -1$.",
+      "choices": ["10", "0", "4", "-6"],
+      "answer": "10",
       "points": 15
     },
     {
       "id": 58,
       "wave": 2,
-      "question": "Apply the distributive property: 5(3x - 2).",
-      "choices": ["15x - 10", "15x + 10", "8x - 7", "3x - 10"],
-      "answer": "15x - 10",
+      "question": "Simplify $4m^2 + 2m - m^2 + 5m - 1$.",
+      "choices": [
+        "$3m^2 + 7m - 1$",
+        "$5m^2 + 7m - 1$",
+        "$3m^2 + 3m - 1$",
+        "$5m^2 + 3m - 1$"
+      ],
+      "answer": "$3m^2 + 7m - 1$",
       "points": 15
     },
     {
       "id": 59,
       "wave": 2,
-      "question": "Combine like terms: 8p + 4q - 3p.",
-      "choices": ["5p + 4q", "9pq", "11p - 3q", "8p + q"],
-      "answer": "5p + 4q",
+      "question": "Simplify $-3(2c + 5) + 7c$.",
+      "choices": ["$c - 15$", "$c + 15$", "$-13c - 15$", "$-c - 15$"],
+      "answer": "$c - 15$",
       "points": 15
     },
     {
       "id": 60,
       "wave": 2,
-      "question": "Evaluate 6 - 2t when t = -1.",
-      "choices": ["8", "4", "-8", "-4"],
-      "answer": "8",
+      "question": "Evaluate $V = lwh$ when $l = 2, w = 3, h = 4$.",
+      "choices": ["24", "9", "12", "18"],
+      "answer": "24",
       "points": 15
     },
-
     {
       "id": 61,
-      "wave": 3,
-      "question": "Apply the distributive property: -2(4y - 5).",
-      "choices": ["-8y + 10", "-8y - 10", "8y + 10", "-8y - 5"],
-      "answer": "-8y + 10",
-      "points": 20
+      "wave": 2,
+      "question": "Combine like terms: $8x + 3y - 2x - 5y + 10$.",
+      "choices": [
+        "$6x - 2y + 10$",
+        "$10x + 8y + 10$",
+        "$6x + 2y + 10$",
+        "$10x - 8y + 10$"
+      ],
+      "answer": "$6x - 2y + 10$",
+      "points": 15
     },
     {
       "id": 62,
-      "wave": 3,
-      "question": "Combine like terms: 12a - 7a + 5b.",
-      "choices": ["5a + 5b", "12a + 5b", "5a - 7b", "19a + 5b"],
-      "answer": "5a + 5b",
-      "points": 20
+      "wave": 2,
+      "question": "Simplify $x(x + 2) + 3x$.",
+      "choices": ["$x^2 + 5x$", "$x^2 + 2x + 3x$", "$x^2 + 3x$", "$x^2 + 6x$"],
+      "answer": "$x^2 + 5x$",
+      "points": 15
     },
     {
       "id": 63,
-      "wave": 3,
-      "question": "Evaluate 5x - 8 when x = 4.",
-      "choices": ["12", "28", "-3", "32"],
-      "answer": "12",
-      "points": 20
+      "wave": 2,
+      "question": "Evaluate $P = 2l + 2w$ when $l = 4.5, w = 2.5$.",
+      "choices": ["14", "7", "13", "12"],
+      "answer": "14",
+      "points": 15
     },
     {
       "id": 64,
-      "wave": 3,
-      "question": "Apply the distributive property: 6(x + 2y).",
-      "choices": ["6x + 12y", "6x + 2y", "8xy", "6x + 8y"],
-      "answer": "6x + 12y",
-      "points": 20
+      "wave": 2,
+      "question": "Simplify $5ab - 2c + 3ab + 4c$.",
+      "choices": ["$8ab + 2c$", "$8ab - 2c$", "$2ab + 6c$", "$2ab - 6c$"],
+      "answer": "$8ab + 2c$",
+      "points": 15
     },
     {
       "id": 65,
-      "wave": 3,
-      "question": "Combine like terms: 9z - 4 + 3z + 7.",
-      "choices": ["12z + 3", "12z - 3", "6z + 11", "9z + 6"],
-      "answer": "12z + 3",
-      "points": 20
+      "wave": 2,
+      "question": "Simplify $1/2(6x - 8) - x$.",
+      "choices": ["$2x - 4$", "$3x - 4 - x$", "$3x - 8 - x$", "$2x - 8$"],
+      "answer": "$2x - 4$",
+      "points": 15
     },
     {
       "id": 66,
+      "wave": 2,
+      "question": "Evaluate $(a - b)^2$ when $a = 7, b = 4$.",
+      "choices": ["9", "1", "25", "49"],
+      "answer": "9",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Combine like terms: $x^3 + 2x^2 - 3x + 5x^3 - x^2 + x$.",
+      "choices": [
+        "$6x^3 + x^2 - 2x$",
+        "$6x^3 + 3x^2 - 4x$",
+        "$6x^3 + x^2 - 4x$",
+        "$6x^3 + 3x^2 - 2x$"
+      ],
+      "answer": "$6x^3 + x^2 - 2x$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Simplify $-4(2a - 3b) + 5a$.",
+      "choices": [
+        "$-3a + 12b$",
+        "$-8a + 12b + 5a$",
+        "$-3a - 12b$",
+        "$13a - 12b$"
+      ],
+      "answer": "$-3a + 12b$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Evaluate $2(x^2 + 1)$ when $x = -2$.",
+      "choices": ["10", "6", "8", "12"],
+      "answer": "10",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Simplify $3(x + 5) - 2(x - 3)$.",
+      "choices": ["$x + 21$", "$x + 9$", "$x - 9$", "$x - 21$"],
+      "answer": "$x + 21$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Combine like terms: $1/2 x + 1/4 x + 3/4$.",
+      "choices": [
+        "$3/4 x + 3/4$",
+        "$1/2 x + 3/4$",
+        "$3/4 x + 1/2$",
+        "$x + 3/4$"
+      ],
+      "answer": "$3/4 x + 3/4$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Evaluate $C = 2\\pi r$ when $\\pi \\approx 3.14, r = 5$.",
+      "choices": ["31.4", "10", "15.7", "3.14"],
+      "answer": "31.4",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Simplify $7(2a - 1) + 3(a + 4)$.",
+      "choices": ["$17a + 5$", "$17a + 11$", "$17a - 5$", "$17a - 11$"],
+      "answer": "$17a + 5$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Combine like terms: $5x^2y - 2xy + 3x^2y + xy$.",
+      "choices": [
+        "$8x^2y - xy$",
+        "$8x^2y + xy$",
+        "$2x^2y - 3xy$",
+        "$2x^2y + 3xy$"
+      ],
+      "answer": "$8x^2y - xy$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Simplify $x(x - 4) - 2(x + 3)$.",
+      "choices": [
+        "$x^2 - 6x - 6$",
+        "$x^2 - 2x - 6$",
+        "$x^2 - 6x + 6$",
+        "$x^2 - 2x + 6$"
+      ],
+      "answer": "$x^2 - 6x - 6$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Evaluate $2x^2 + 3y$ when $x=2, y=-1$.",
+      "choices": ["5", "11", "7", "1"],
+      "answer": "5",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Combine like terms: $1/3 y + 1/6 y - 2/3$.",
+      "choices": [
+        "$1/2 y - 2/3$",
+        "$1/3 y - 2/3$",
+        "$1/2 y + 2/3$",
+        "$1/6 y - 2/3$"
+      ],
+      "answer": "$1/2 y - 2/3$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Simplify $- (4a + 2b) + 3(a - b)$.",
+      "choices": ["$-a - 5b$", "$-a + b$", "$-7a - 5b$", "$-7a + b$"],
+      "answer": "$-a - 5b$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Evaluate $\\sqrt{x^2 + y^2}$ when $x=3, y=4$.",
+      "choices": ["5", "7", "25", "1"],
+      "answer": "5",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Simplify $2(m + 5) - (m - 3)$.",
+      "choices": ["$m + 13$", "$m + 7$", "$m - 7$", "$m - 13$"],
+      "answer": "$m + 13$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Combine like terms: $10k - 5k^2 + 2k + 7k^2$.",
+      "choices": [
+        "$2k^2 + 12k$",
+        "$12k^2 + 12k$",
+        "$2k^2 + 8k$",
+        "$12k^2 + 8k$"
+      ],
+      "answer": "$2k^2 + 12k$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Simplify $3(a + b) + 2(a - b)$.",
+      "choices": ["$5a + b$", "$5a + 5b$", "$5a - b$", "$a + 5b$"],
+      "answer": "$5a + b$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Evaluate $A = \\frac{1}{2}bh$ when $b=8, h=5$.",
+      "choices": ["20", "40", "13", "10"],
+      "answer": "20",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Combine like terms: $6xy + 3x - 2xy - x$.",
+      "choices": ["$4xy + 2x$", "$8xy + 4x$", "$4xy - 2x$", "$8xy - 4x$"],
+      "answer": "$4xy + 2x$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Simplify $-2(3y - 1) + 5(y + 2)$.",
+      "choices": ["$-y + 12$", "$-y + 8$", "$y + 12$", "$y + 8$"],
+      "answer": "$-y + 12$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Evaluate $x^2 - y^2$ when $x=5, y=3$.",
+      "choices": ["16", "34", "4", "2"],
+      "answer": "16",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Combine like terms: $x^2 + 5x - 2x^2 + 3x - 4$.",
+      "choices": [
+        "$-x^2 + 8x - 4$",
+        "$3x^2 + 8x - 4$",
+        "$-x^2 + 2x - 4$",
+        "$3x^2 + 2x - 4$"
+      ],
+      "answer": "$-x^2 + 8x - 4$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Simplify $3(2a - 3) - (a + 5)$.",
+      "choices": ["$5a - 14$", "$5a - 4$", "$7a - 14$", "$7a - 4$"],
+      "answer": "$5a - 14$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Evaluate $2(x + y) - z$ when $x=3, y=2, z=4$.",
+      "choices": ["6", "10", "12", "8"],
+      "answer": "6",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Simplify $4(x - 2y) - 2(x + y)$.",
+      "choices": ["$2x - 10y$", "$2x - 6y$", "$6x - 10y$", "$6x - 6y$"],
+      "answer": "$2x - 10y$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Combine like terms: $1/2 a + 1/3 b - 1/4 a + 1/6 b$.",
+      "choices": [
+        "$1/4 a + 1/2 b$",
+        "$3/4 a + 1/2 b$",
+        "$1/4 a + 1/6 b$",
+        "$3/4 a + 1/6 b$"
+      ],
+      "answer": "$1/4 a + 1/2 b$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Evaluate $x^2 + y^2$ when $x=-3, y=-4$.",
+      "choices": ["25", "-25", "7", "-7"],
+      "answer": "25",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Simplify $x(2x + 1) + 3(x - 2)$.",
+      "choices": [
+        "$2x^2 + 4x - 6$",
+        "$2x^2 + x + 3x - 6$",
+        "$2x^2 + 4x + 6$",
+        "$2x^2 + 2x - 6$"
+      ],
+      "answer": "$2x^2 + 4x - 6$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Combine like terms: $5m^3 + 2m^2 - m^3 - 4m^2 + 7$.",
+      "choices": [
+        "$4m^3 - 2m^2 + 7$",
+        "$6m^3 + 6m^2 + 7$",
+        "$4m^3 + 6m^2 + 7$",
+        "$6m^3 - 2m^2 + 7$"
+      ],
+      "answer": "$4m^3 - 2m^2 + 7$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Simplify $- (y + 5) - 2(y - 1)$.",
+      "choices": ["$-3y - 3$", "$-3y - 7$", "$-3y + 3$", "$-3y + 7$"],
+      "answer": "$-3y - 3$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Evaluate $A = \\pi r^2$ when $\\pi \\approx 3.14, r = 3$.",
+      "choices": ["28.26", "9.42", "18.84", "3.14"],
+      "answer": "28.26",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Combine like terms: $8x^2 - 3x + 2 - 5x^2 + x - 6$.",
+      "choices": [
+        "$3x^2 - 2x - 4$",
+        "$13x^2 - 4x - 8$",
+        "$3x^2 + 2x - 4$",
+        "$13x^2 + 4x - 8$"
+      ],
+      "answer": "$3x^2 - 2x - 4$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Simplify $2/3(9a - 6b) + a$.",
+      "choices": ["$7a - 4b$", "$6a - 4b + a$", "$6a - 6b + a$", "$7a - 6b$"],
+      "answer": "$7a - 4b$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Evaluate $(x + y)(x - y)$ when $x = 6, y = 2$.",
+      "choices": ["32", "40", "36", "4"],
+      "answer": "32",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Simplify $5(x^2 - 1) - 2(x^2 + 3)$.",
+      "choices": ["$3x^2 - 11$", "$3x^2 - 7$", "$3x^2 + 1$", "$3x^2 + 7$"],
+      "answer": "$3x^2 - 11$",
+      "points": 15
+    },
+    {
+      "id": 101,
       "wave": 3,
-      "question": "Evaluate -3w + 12 when w = -2.",
-      "choices": ["18", "6", "-18", "-6"],
+      "question": "Evaluate $x^3 - 3x^2 + 3x - 1$ when $x = -2$.",
+      "choices": ["-27", "-1", "1", "27"],
+      "answer": "-27",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Simplify $5x^3 - 2x^2 + 7x - 3x^3 + x^2 - 4x$.",
+      "choices": [
+        "$2x^3 - x^2 + 3x$",
+        "$8x^3 - 3x^2 + 11x$",
+        "$2x^3 + x^2 - 3x$",
+        "$8x^3 + 3x^2 - 11x$"
+      ],
+      "answer": "$2x^3 - x^2 + 3x$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Simplify $3[2(x + 1) - 4] + 5x$.",
+      "choices": ["$11x - 6$", "$11x + 6$", "$11x - 10$", "$11x + 10$"],
+      "answer": "$11x - 6$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Evaluate $A = \\frac{1}{2}h(b_1 + b_2)$ when $h = 4, b_1 = 6, b_2 = 8$.",
+      "choices": ["28", "56", "18", "14"],
+      "answer": "28",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Combine like terms: $1/2 x + 3/4 y - 1/4 x + 1/2 y$.",
+      "choices": [
+        "$1/4 x + 5/4 y$",
+        "$3/4 x + 5/4 y$",
+        "$1/4 x + 1/4 y$",
+        "$3/4 x + 1/4 y$"
+      ],
+      "answer": "$1/4 x + 5/4 y$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Simplify $x(x^2 - 3x + 1) - 2x^2$.",
+      "choices": [
+        "$x^3 - 5x^2 + x$",
+        "$x^3 - x^2 + x$",
+        "$x^3 - 5x^2 - x$",
+        "$x^3 - x^2 - x$"
+      ],
+      "answer": "$x^3 - 5x^2 + x$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Evaluate $(a + b)^3$ when $a = 1, b = 2$.",
+      "choices": ["27", "9", "8", "1"],
+      "answer": "27",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Combine like terms: $4x^2y - 3xy^2 + x^2y + 5xy^2$.",
+      "choices": [
+        "$5x^2y + 2xy^2$",
+        "$3x^2y + 8xy^2$",
+        "$5x^2y - 2xy^2$",
+        "$3x^2y - 8xy^2$"
+      ],
+      "answer": "$5x^2y + 2xy^2$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Simplify $-2(3x - 4y) + 5(x + y)$.",
+      "choices": ["$-x + 13y$", "$-x + 3y$", "$-x - 3y$", "$-x - 13y$"],
+      "answer": "$-x + 13y$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Evaluate $x^4 - y^4$ when $x=2, y=1$.",
+      "choices": ["15", "17", "16", "1"],
+      "answer": "15",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Simplify $7(ab - 2) - 3(ab + 4)$.",
+      "choices": ["$4ab - 26$", "$4ab - 10$", "$10ab - 26$", "$10ab - 10$"],
+      "answer": "$4ab - 26$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Combine like terms: $2/3 a - 1/2 b + 1/6 a + b$.",
+      "choices": [
+        "$5/6 a + 1/2 b$",
+        "$1/2 a + 1/2 b$",
+        "$5/6 a + 3/2 b$",
+        "$1/2 a + 3/2 b$"
+      ],
+      "answer": "$5/6 a + 1/2 b$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Simplify $x^2(x + 1) - x(x^2 - 2)$.",
+      "choices": ["$x^2 + 2x$", "$2x^2 + 2x$", "$x^2 - 2x$", "$2x^2 - 2x$"],
+      "answer": "$x^2 + 2x$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Evaluate $S = 6a^2$ when $a = 3$.",
+      "choices": ["54", "36", "18", "108"],
+      "answer": "54",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Combine like terms: $5x^2 - 3x + 8 - 2x^2 + 7x - 10$.",
+      "choices": [
+        "$3x^2 + 4x - 2$",
+        "$7x^2 + 10x - 18$",
+        "$3x^2 - 4x + 2$",
+        "$7x^2 - 10x + 18$"
+      ],
+      "answer": "$3x^2 + 4x - 2$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Simplify $1/3(9y + 3) - 1/2(4y - 2)$.",
+      "choices": ["$y + 2$", "$y + 1$", "$y - 1$", "$y - 2$"],
+      "answer": "$y + 2$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Evaluate $P = 4s$ when $s = 12.5$.",
+      "choices": ["50", "25", "40", "16.5"],
+      "answer": "50",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Combine like terms: $12c^2d + 5cd - 7c^2d - 2cd$.",
+      "choices": [
+        "$5c^2d + 3cd$",
+        "$19c^2d + 7cd$",
+        "$5c^2d - 3cd$",
+        "$19c^2d - 7cd$"
+      ],
+      "answer": "$5c^2d + 3cd$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Simplify $a(a - b) + b(a + b)$.",
+      "choices": [
+        "$a^2 + b^2$",
+        "$a^2 - b^2$",
+        "$a^2 + 2ab + b^2$",
+        "$a^2 - 2ab + b^2$"
+      ],
+      "answer": "$a^2 + b^2$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Evaluate $x^2 + y^2 + z^2$ when $x=1, y=2, z=3$.",
+      "choices": ["14", "6", "10", "12"],
+      "answer": "14",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Simplify $2[3(x - 1) + x] - 5x$.",
+      "choices": ["$3x - 6$", "$3x - 2$", "$3x - 10$", "$3x + 6$"],
+      "answer": "$3x - 6$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Combine like terms: $0.5x + 1.2y - 0.3x + 0.8y$.",
+      "choices": [
+        "$0.2x + 2y$",
+        "$0.8x + 2y$",
+        "$0.2x + 0.4y$",
+        "$0.8x + 0.4y$"
+      ],
+      "answer": "$0.2x + 2y$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Simplify $- (x^2 - 2x) + 3(x^2 + x)$.",
+      "choices": ["$2x^2 + 5x$", "$2x^2 + x$", "$2x^2 - x$", "$2x^2 - 5x$"],
+      "answer": "$2x^2 + 5x$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Evaluate $V = \\frac{4}{3}\\pi r^3$ when $\\pi \\approx 3.14, r = 3$.",
+      "choices": ["113.04", "37.68", "28.26", "84.78"],
+      "answer": "113.04",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Combine like terms: $xy^2 + 3x^2y - 2xy^2 + 4x^2y$.",
+      "choices": [
+        "$7x^2y - xy^2$",
+        "$7x^2y + xy^2$",
+        "$x^2y - xy^2$",
+        "$x^2y + xy^2$"
+      ],
+      "answer": "$7x^2y - xy^2$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Simplify $5[a + 2(b - 1)] - 3a$.",
+      "choices": [
+        "$2a + 10b - 10$",
+        "$2a + 10b - 5$",
+        "$8a + 10b - 10$",
+        "$8a + 10b - 5$"
+      ],
+      "answer": "$2a + 10b - 10$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Evaluate $E = mc^2$ when $m = 2, c = 3$.",
+      "choices": ["18", "12", "6", "9"],
       "answer": "18",
       "points": 20
     },
     {
-      "id": 67,
+      "id": 128,
       "wave": 3,
-      "question": "Apply the distributive property: 7(2m - 4).",
-      "choices": ["14m - 28", "14m + 28", "9m - 11", "2m - 28"],
-      "answer": "14m - 28",
+      "question": "Combine like terms: $x^2 + 2x + 1 - (x^2 - 3x + 2)$.",
+      "choices": ["$5x - 1$", "$5x + 3$", "$-x^2 + 5x - 1$", "$-x^2 + 5x + 3$"],
+      "answer": "$5x - 1$",
       "points": 20
     },
     {
-      "id": 68,
+      "id": 129,
       "wave": 3,
-      "question": "Combine like terms: 15r + 6s - 8r + 4s.",
-      "choices": ["7r + 10s", "23rs", "15r + 2s", "7r + 2s"],
-      "answer": "7r + 10s",
+      "question": "Simplify $2x(x + 3) - x(x - 1)$.",
+      "choices": ["$x^2 + 7x$", "$x^2 + 5x$", "$x^2 + 4x$", "$x^2 + 6x$"],
+      "answer": "$x^2 + 7x$",
       "points": 20
     },
     {
-      "id": 69,
+      "id": 130,
       "wave": 3,
-      "question": "Evaluate 4y + 9 when y = -3.",
-      "choices": ["-3", "21", "-21", "3"],
-      "answer": "-3",
+      "question": "Evaluate $P = I^2R$ when $I = 2, R = 5$.",
+      "choices": ["20", "10", "100", "25"],
+      "answer": "20",
       "points": 20
     },
     {
-      "id": 70,
+      "id": 131,
       "wave": 3,
-      "question": "Apply the distributive property: -5(2k + 3).",
-      "choices": ["-10k - 15", "-10k + 15", "10k - 15", "-10k + 3"],
-      "answer": "-10k - 15",
+      "question": "Combine like terms: $4(x + 2) - 3x + 1$.",
+      "choices": ["$x + 9$", "$x + 7$", "$7x + 9$", "$7x + 7$"],
+      "answer": "$x + 9$",
       "points": 20
     },
     {
-      "id": 71,
+      "id": 132,
       "wave": 3,
-      "question": "Combine like terms: 20v - 12v + 8.",
-      "choices": ["8v + 8", "32v + 8", "8v - 8", "20v + 4"],
-      "answer": "8v + 8",
+      "question": "Simplify $1/4(8y - 12) + 1/2(2y + 4)$.",
+      "choices": ["$3y - 1$", "$3y - 5$", "$3y + 1$", "$3y + 5$"],
+      "answer": "$3y - 1$",
       "points": 20
     },
     {
-      "id": 72,
+      "id": 133,
       "wave": 3,
-      "question": "Evaluate 7 - 5h when h = 2.",
-      "choices": ["-3", "17", "-17", "3"],
-      "answer": "-3",
+      "question": "Evaluate $A = \\pi (R^2 - r^2)$ when $\\pi \\approx 3.14, R=5, r=3$.",
+      "choices": ["50.24", "25.12", "78.5", "28.26"],
+      "answer": "50.24",
       "points": 20
     },
     {
-      "id": 73,
+      "id": 134,
       "wave": 3,
-      "question": "Apply the distributive property: 8(3n - 1).",
-      "choices": ["24n - 8", "24n + 8", "11n - 9", "3n - 8"],
-      "answer": "24n - 8",
+      "question": "Combine like terms: $6ab^2 - 2a^2b + 3ab^2 + a^2b$.",
+      "choices": [
+        "$9ab^2 - a^2b$",
+        "$9ab^2 + a^2b$",
+        "$3ab^2 - 3a^2b$",
+        "$3ab^2 + 3a^2b$"
+      ],
+      "answer": "$9ab^2 - a^2b$",
       "points": 20
     },
     {
-      "id": 74,
+      "id": 135,
       "wave": 3,
-      "question": "Combine like terms: 6t + 9u - 2t + 5u.",
-      "choices": ["4t + 14u", "22tu", "8t + 4u", "4t + 4u"],
-      "answer": "4t + 14u",
+      "question": "Simplify $-3(a - 2b) - 2(a + 3b)$.",
+      "choices": ["$-5a$", "$-5a + 12b$", "$-5a - 12b$", "$-5a + 6b$"],
+      "answer": "$-5a$",
       "points": 20
     },
     {
-      "id": 75,
+      "id": 136,
       "wave": 3,
-      "question": "Evaluate -2j - 4 when j = 5.",
-      "choices": ["-14", "6", "-6", "14"],
-      "answer": "-14",
-      "points": 20
-    },
-    {
-      "id": 76,
-      "wave": 3,
-      "question": "Apply the distributive property: 9(x - 3y).",
-      "choices": ["9x - 27y", "9x + 27y", "6x - 12y", "9x - 3y"],
-      "answer": "9x - 27y",
-      "points": 20
-    },
-    {
-      "id": 77,
-      "wave": 3,
-      "question": "Combine like terms: 18c - 11c + 5d.",
-      "choices": ["7c + 5d", "29c + 5d", "7c - 11d", "18c + 5d"],
-      "answer": "7c + 5d",
-      "points": 20
-    },
-    {
-      "id": 78,
-      "wave": 3,
-      "question": "Evaluate 3q + 15 when q = -4.",
-      "choices": ["3", "27", "-27", "-3"],
-      "answer": "3",
-      "points": 20
-    },
-    {
-      "id": 79,
-      "wave": 3,
-      "question": "Apply the distributive property: -4(5g - 2).",
-      "choices": ["-20g + 8", "-20g - 8", "20g + 8", "-20g - 2"],
-      "answer": "-20g + 8",
-      "points": 20
-    },
-    {
-      "id": 80,
-      "wave": 3,
-      "question": "Combine like terms: 25e - 18e + 12f.",
-      "choices": ["7e + 12f", "43e + 12f", "7e - 18f", "25e + 12f"],
-      "answer": "7e + 12f",
-      "points": 20
-    },
-    {
-      "id": 81,
-      "wave": 3,
-      "question": "Evaluate 8 - 3l when l = -1.",
-      "choices": ["11", "5", "-5", "-11"],
-      "answer": "11",
-      "points": 20
-    },
-    {
-      "id": 82,
-      "wave": 3,
-      "question": "Apply the distributive property: 12(2i + 1).",
-      "choices": ["24i + 12", "24i + 1", "14i + 13", "2i + 12"],
-      "answer": "24i + 12",
-      "points": 20
-    },
-    {
-      "id": 83,
-      "wave": 3,
-      "question": "Combine like terms: 14x + 8y - 9x + 3y.",
-      "choices": ["5x + 11y", "31xy", "23x + 5y", "5x + 5y"],
-      "answer": "5x + 11y",
-      "points": 20
-    },
-    {
-      "id": 84,
-      "wave": 3,
-      "question": "Evaluate -6b + 20 when b = 3.",
-      "choices": ["2", "38", "-38", "-2"],
+      "question": "Evaluate $\\frac{x+y+z}{3}$ when $x=1, y=2, z=3$.",
+      "choices": ["2", "6", "1", "3"],
       "answer": "2",
       "points": 20
     },
     {
-      "id": 85,
+      "id": 137,
       "wave": 3,
-      "question": "Apply the distributive property: 10(4p - 7).",
-      "choices": ["40p - 70", "40p + 70", "14p - 17", "4p - 70"],
-      "answer": "40p - 70",
+      "question": "Simplify $x(x^2 - x + 5) - x^3 + 2x^2$.",
+      "choices": [
+        "$x^2 + 5x$",
+        "$x^3 - x^2 + 5x - x^3 + 2x^2$",
+        "$x^2 - 5x$",
+        "$-x^2 + 5x$"
+      ],
+      "answer": "$x^2 + 5x$",
       "points": 20
     },
     {
-      "id": 86,
+      "id": 138,
       "wave": 3,
-      "question": "Combine like terms: 22s + 15t - 16s + 9t.",
-      "choices": ["6s + 24t", "62st", "38s + 6t", "6s + 6t"],
-      "answer": "6s + 24t",
+      "question": "Combine like terms: $0.75m - 0.25n + 0.5m + n$.",
+      "choices": [
+        "$1.25m + 0.75n$",
+        "$1.25m + 1.25n$",
+        "$0.25m + 0.75n$",
+        "$0.25m + 1.25n$"
+      ],
+      "answer": "$1.25m + 0.75n$",
       "points": 20
     },
     {
-      "id": 87,
+      "id": 139,
       "wave": 3,
-      "question": "Evaluate 5f - 18 when f = 6.",
-      "choices": ["12", "48", "-48", "-12"],
-      "answer": "12",
+      "question": "Simplify $4[x - (2x + 1)] + 3x$.",
+      "choices": ["$-x - 4$", "$-x + 4$", "$7x - 4$", "$7x + 4$"],
+      "answer": "$-x - 4$",
       "points": 20
     },
     {
-      "id": 88,
+      "id": 140,
       "wave": 3,
-      "question": "Apply the distributive property: -7(3o + 4).",
-      "choices": ["-21o - 28", "-21o + 28", "21o - 28", "-21o + 4"],
-      "answer": "-21o - 28",
+      "question": "Evaluate $F = G\\frac{m_1 m_2}{r^2}$ when $G = 1, m_1 = 2, m_2 = 3, r = 1$.",
+      "choices": ["6", "12", "1", "0"],
+      "answer": "6",
       "points": 20
     },
     {
-      "id": 89,
+      "id": 141,
       "wave": 3,
-      "question": "Combine like terms: 30w - 24w + 17z.",
-      "choices": ["6w + 17z", "54w + 17z", "6w - 24z", "30w + 17z"],
-      "answer": "6w + 17z",
+      "question": "Combine like terms: $2x^3 - 5x + 1 - (x^3 + 2x - 3)$.",
+      "choices": [
+        "$x^3 - 7x + 4$",
+        "$x^3 - 3x - 2$",
+        "$3x^3 - 7x + 4$",
+        "$3x^3 - 3x - 2$"
+      ],
+      "answer": "$x^3 - 7x + 4$",
       "points": 20
     },
     {
-      "id": 90,
+      "id": 142,
       "wave": 3,
-      "question": "Evaluate 12 - 4r when r = -2.",
-      "choices": ["20", "4", "-4", "-20"],
+      "question": "Simplify $1/5(10x + 15) - 1/3(6x - 9)$.",
+      "choices": ["$5$", "$4x + 8$", "$4x - 2$", "$2x + 3 - 2x + 3$"],
+      "answer": "$5$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Evaluate $A = s^2$ when $s = 7.5$.",
+      "choices": ["56.25", "15", "30", "7.5"],
+      "answer": "56.25",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Combine like terms: $x^2y^2 - 3xy + 2x^2y^2 + 5xy$.",
+      "choices": [
+        "$3x^2y^2 + 2xy$",
+        "$3x^2y^2 - 2xy$",
+        "$-x^2y^2 + 8xy$",
+        "$-x^2y^2 - 8xy$"
+      ],
+      "answer": "$3x^2y^2 + 2xy$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Simplify $2(a^2 + 3a - 1) - a(a + 5)$.",
+      "choices": [
+        "$a^2 + a - 2$",
+        "$a^2 + 11a - 2$",
+        "$a^2 + a + 2$",
+        "$a^2 + 11a + 2$"
+      ],
+      "answer": "$a^2 + a - 2$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Evaluate $V = \\frac{1}{3}Bh$ when $B = 9, h = 6$.",
+      "choices": ["18", "54", "27", "3"],
+      "answer": "18",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Combine like terms: $0.2x^2 - 0.5x + 1 - 0.1x^2 + 0.3x - 0.4$.",
+      "choices": [
+        "$0.1x^2 - 0.2x + 0.6$",
+        "$0.3x^2 - 0.8x + 1.4$",
+        "$0.1x^2 + 0.2x - 0.6$",
+        "$0.3x^2 + 0.8x - 1.4$"
+      ],
+      "answer": "$0.1x^2 - 0.2x + 0.6$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Simplify $x[x(x - 1) + 2] - x^2$.",
+      "choices": [
+        "$x^3 + x$",
+        "$x^3 - x^2 + 2x - x^2$",
+        "$x^3 - 2x^2 + 2x$",
+        "$x^3 + 2x$"
+      ],
+      "answer": "$x^3 - 2x^2 + 2x$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Evaluate $A = \\frac{1}{2}d_1 d_2$ when $d_1 = 10, d_2 = 8$.",
+      "choices": ["40", "80", "18", "9"],
+      "answer": "40",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Simplify $4(x^2 + 2x - 3) - 2(x^2 - x + 1)$.",
+      "choices": [
+        "$2x^2 + 10x - 14$",
+        "$2x^2 + 6x - 10$",
+        "$2x^2 + 10x - 10$",
+        "$2x^2 + 6x - 14$"
+      ],
+      "answer": "$2x^2 + 10x - 14$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Evaluate $\\frac{2(x+y)^2}{z}$ when $x=1, y=2, z=3$.",
+      "choices": ["6", "18", "12", "9"],
+      "answer": "6",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Simplify $3x^4 - 2x^3 + 5x^2 - x^4 + 4x^3 - 2x^2 + 1$.",
+      "choices": [
+        "$2x^4 + 2x^3 + 3x^2 + 1$",
+        "$4x^4 + 6x^3 + 7x^2 + 1$",
+        "$2x^4 - 2x^3 + 3x^2 + 1$",
+        "$4x^4 - 6x^3 + 7x^2 + 1$"
+      ],
+      "answer": "$2x^4 + 2x^3 + 3x^2 + 1$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Simplify $x[2(x^2 - 3) + 4x] - 3x^2$.",
+      "choices": [
+        "$2x^3 + x^2 - 6x$",
+        "$2x^3 + 4x^2 - 6x - 3x^2$",
+        "$2x^3 + 7x^2 - 6x$",
+        "$2x^3 - x^2 - 6x$"
+      ],
+      "answer": "$2x^3 + x^2 - 6x$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Evaluate $A = P(1 + rt)$ when $P = 1000, r = 0.05, t = 2$.",
+      "choices": ["1100", "100", "1050", "1005"],
+      "answer": "1100",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Combine like terms: $1/3 x^2 - 1/2 x + 2/3 x^2 + 1/4 x - 1$.",
+      "choices": [
+        "$x^2 - 1/4 x - 1$",
+        "$x^2 - 3/4 x - 1$",
+        "$1/3 x^2 - 1/4 x - 1$",
+        "$1/3 x^2 - 3/4 x - 1$"
+      ],
+      "answer": "$x^2 - 1/4 x - 1$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Simplify $2x(x^2 - 3x + 5) - x^2(2x - 1)$.",
+      "choices": [
+        "$-5x^2 + 10x$",
+        "$-7x^2 + 10x$",
+        "$-5x^2 + 5x$",
+        "$-7x^2 + 5x$"
+      ],
+      "answer": "$-5x^2 + 10x$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Evaluate $S = 2(lw + lh + wh)$ when $l=2, w=3, h=4$.",
+      "choices": ["52", "26", "48", "24"],
+      "answer": "52",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Combine like terms: $a^2b + 3ab^2 - 5a^2b + 2ab^2 - 4ab$.",
+      "choices": [
+        "$-4a^2b + 5ab^2 - 4ab$",
+        "$-4a^2b + ab^2 - 4ab$",
+        "$6a^2b + 5ab^2 - 4ab$",
+        "$6a^2b + ab^2 - 4ab$"
+      ],
+      "answer": "$-4a^2b + 5ab^2 - 4ab$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Simplify $-5(2a - 3b) + 2(a - 4b) - (a + b)$.",
+      "choices": [
+        "$-9a + 6b$",
+        "$-9a + 8b$",
+        "$-9a + 15b + 2a - 8b - a - b$",
+        "$-9a + 24b$"
+      ],
+      "answer": "$-9a + 6b$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Evaluate $x^2 - 4xy + 4y^2$ when $x=5, y=2$.",
+      "choices": ["1", "9", "4", "16"],
+      "answer": "1",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Simplify $3[x(x + 2) - 1] - 2x^2 + 5$.",
+      "choices": [
+        "$x^2 + 6x + 2$",
+        "$x^2 + 6x + 8$",
+        "$x^2 + 2x + 2$",
+        "$x^2 + 2x + 8$"
+      ],
+      "answer": "$x^2 + 6x + 2$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Combine like terms: $0.7a^2 - 0.3a + 0.1 - 0.4a^2 + 0.6a - 0.2$.",
+      "choices": [
+        "$0.3a^2 + 0.3a - 0.1$",
+        "$1.1a^2 + 0.9a + 0.3$",
+        "$0.3a^2 - 0.3a + 0.1$",
+        "$1.1a^2 - 0.9a - 0.3$"
+      ],
+      "answer": "$0.3a^2 + 0.3a - 0.1$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Simplify $x^2(x - 3) + x(2x^2 + x) - 5x^2$.",
+      "choices": [
+        "$3x^3 - 7x^2$",
+        "$3x^3 - 3x^2 + x^2 - 5x^2$",
+        "$3x^3 - 9x^2$",
+        "$3x^3 - 11x^2$"
+      ],
+      "answer": "$3x^3 - 7x^2$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Evaluate $\\frac{x^2 - y^2}{x + y}$ when $x=10, y=5$.",
+      "choices": ["5", "15", "75", "25"],
+      "answer": "5",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Combine like terms: $1/2 xy + 1/3 x - 1/4 xy + 2/3 x$.",
+      "choices": [
+        "$1/4 xy + x$",
+        "$3/4 xy + x$",
+        "$1/4 xy + 1/3 x$",
+        "$3/4 xy + 1/3 x$"
+      ],
+      "answer": "$1/4 xy + x$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Simplify $2/3(6x - 9y) - 1/2(4x + 2y)$.",
+      "choices": ["$2x - 7y$", "$4x - 6y - 2x - y$", "$2x - 5y$", "$6x - 7y$"],
+      "answer": "$2x - 7y$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Evaluate $F = ma$ when $m = 10, a = 9.8$.",
+      "choices": ["98", "19.8", "980", "1.98"],
+      "answer": "98",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Combine like terms: $x^3 + 2x^2 + x - (2x^3 - x^2 + 3x)$.",
+      "choices": [
+        "$-x^3 + 3x^2 - 2x$",
+        "$-x^3 + x^2 + 4x$",
+        "$3x^3 + 3x^2 - 2x$",
+        "$3x^3 + x^2 + 4x$"
+      ],
+      "answer": "$-x^3 + 3x^2 - 2x$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Simplify $5[2(a + 3) - 4a] + 10$.",
+      "choices": ["$-10a + 40$", "$-10a + 20$", "$-10a + 30$", "$-10a + 50$"],
+      "answer": "$-10a + 40$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Evaluate $V = \\frac{1}{3}\\pi r^2 h$ when $\\pi \\approx 3.14, r=3, h=5$.",
+      "choices": ["47.1", "15.7", "94.2", "23.55"],
+      "answer": "47.1",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Combine like terms: $0.1x^3 + 0.2x^2 - 0.3x + 0.4x^3 - 0.1x^2 + 0.5x$.",
+      "choices": [
+        "$0.5x^3 + 0.1x^2 + 0.2x$",
+        "$0.5x^3 + 0.3x^2 + 0.8x$",
+        "$0.3x^3 + 0.1x^2 + 0.2x$",
+        "$0.3x^3 + 0.3x^2 + 0.8x$"
+      ],
+      "answer": "$0.5x^3 + 0.1x^2 + 0.2x$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Simplify $x(x^2 + x - 1) - 2x(x - 3)$.",
+      "choices": [
+        "$x^3 - x^2 + 7x$",
+        "$x^3 - x^2 - 5x$",
+        "$x^3 + 3x^2 + 5x$",
+        "$x^3 + 3x^2 - 7x$"
+      ],
+      "answer": "$x^3 - x^2 + 7x$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Evaluate $A = \\frac{1}{2}(a+b)h$ when $a=5, b=7, h=4$.",
+      "choices": ["24", "48", "16", "12"],
+      "answer": "24",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Combine like terms: $3(x - 2) + 2(x + 5) - (x - 1)$.",
+      "choices": ["$4x + 5$", "$4x + 15$", "$4x + 3$", "$4x + 10$"],
+      "answer": "$4x + 5$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Simplify $-2(x^2 - 3x + 1) + 3(x^2 + x - 2)$.",
+      "choices": [
+        "$x^2 + 9x - 8$",
+        "$x^2 + 3x - 4$",
+        "$x^2 + 9x - 4$",
+        "$x^2 + 3x - 8$"
+      ],
+      "answer": "$x^2 + 9x - 8$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Evaluate $x^y + y^x$ when $x=2, y=3$.",
+      "choices": ["17", "14", "10", "12"],
+      "answer": "17",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Combine like terms: $1/5 a^2 - 2/5 a + 1/10 a^2 + 1/2 a$.",
+      "choices": [
+        "$3/10 a^2 + 1/10 a$",
+        "$3/10 a^2 + 9/10 a$",
+        "$1/5 a^2 + 1/10 a$",
+        "$1/5 a^2 + 9/10 a$"
+      ],
+      "answer": "$3/10 a^2 + 1/10 a$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Simplify $a[3(a - 2b) + b] - 2a^2$.",
+      "choices": ["$a^2 - 5ab$", "$a^2 - 7ab$", "$-a^2 - 5ab$", "$-a^2 - 7ab$"],
+      "answer": "$a^2 - 5ab$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Evaluate $C = \\frac{5}{9}(F - 32)$ when $F = 68$.",
+      "choices": ["20", "36", "100", "0"],
       "answer": "20",
-      "points": 20
-    },
-
-    {
-      "id": 91,
-      "wave": 4,
-      "question": "Apply the distributive property: 15(2x - 5).",
-      "choices": ["30x - 75", "30x + 75", "17x - 20", "2x - 75"],
-      "answer": "30x - 75",
       "points": 25
     },
     {
-      "id": 92,
+      "id": 180,
       "wave": 4,
-      "question": "Combine like terms: 28a + 12b - 19a + 8b.",
-      "choices": ["9a + 20b", "67ab", "47a + 4b", "9a + 4b"],
-      "answer": "9a + 20b",
+      "question": "Simplify $6(x^2y - xy) - 3(x^2y + 2xy)$.",
+      "choices": [
+        "$3x^2y - 12xy$",
+        "$3x^2y - 4xy$",
+        "$9x^2y - 12xy$",
+        "$9x^2y - 4xy$"
+      ],
+      "answer": "$3x^2y - 12xy$",
       "points": 25
     },
     {
-      "id": 93,
+      "id": 181,
       "wave": 4,
-      "question": "Evaluate -8m + 24 when m = 4.",
-      "choices": ["-8", "56", "-56", "8"],
-      "answer": "-8",
+      "question": "Combine like terms: $x^4 - 3x^2 + 5 - (2x^4 + x^2 - 3)$.",
+      "choices": [
+        "$-x^4 - 4x^2 + 8$",
+        "$-x^4 - 2x^2 + 2$",
+        "$3x^4 - 4x^2 + 8$",
+        "$3x^4 - 2x^2 + 2$"
+      ],
+      "answer": "$-x^4 - 4x^2 + 8$",
       "points": 25
     },
     {
-      "id": 94,
+      "id": 182,
       "wave": 4,
-      "question": "Apply the distributive property: 11(6d - 3).",
-      "choices": ["66d - 33", "66d + 33", "17d - 14", "6d - 33"],
-      "answer": "66d - 33",
+      "question": "Simplify $2[x(x + 1) - (x - 2)] + 3x$.",
+      "choices": [
+        "$2x^2 + 3x + 4$",
+        "$2x^2 + 5x + 4$",
+        "$2x^2 + 3x - 4$",
+        "$2x^2 + 5x - 4$"
+      ],
+      "answer": "$2x^2 + 3x + 4$",
       "points": 25
     },
     {
-      "id": 95,
+      "id": 183,
       "wave": 4,
-      "question": "Combine like terms: 35k + 28n - 27k + 15n.",
-      "choices": ["8k + 43n", "105kn", "62k + 13n", "8k + 13n"],
-      "answer": "8k + 43n",
+      "question": "Evaluate $A = \\frac{1}{2}bh$ when $b = 12, h = 1/3$.",
+      "choices": ["2", "4", "6", "1"],
+      "answer": "2",
       "points": 25
     },
     {
-      "id": 96,
+      "id": 184,
       "wave": 4,
-      "question": "Evaluate 7v - 21 when v = 5.",
-      "choices": ["14", "56", "-56", "-14"],
+      "question": "Combine like terms: $0.8y^3 + 0.1y^2 - 0.6y - 0.3y^3 + 0.4y^2 + 0.2y$.",
+      "choices": [
+        "$0.5y^3 + 0.5y^2 - 0.4y$",
+        "$1.1y^3 + 0.5y^2 - 0.4y$",
+        "$0.5y^3 + 0.3y^2 - 0.8y$",
+        "$1.1y^3 + 0.3y^2 - 0.8y$"
+      ],
+      "answer": "$0.5y^3 + 0.5y^2 - 0.4y$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Simplify $x(x^2 - 2x + 1) + 3x^2 - 5x$.",
+      "choices": [
+        "$x^3 + x^2 - 4x$",
+        "$x^3 - 2x^2 + x + 3x^2 - 5x$",
+        "$x^3 + x^2 - 6x$",
+        "$x^3 - 2x^2 - 4x$"
+      ],
+      "answer": "$x^3 + x^2 - 4x$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Evaluate $x^2 + y^2 + z^2$ when $x=-1, y=-2, z=-3$.",
+      "choices": ["14", "6", "-14", "-6"],
       "answer": "14",
       "points": 25
     },
     {
-      "id": 97,
+      "id": 187,
       "wave": 4,
-      "question": "Apply the distributive property: -9(4u + 6).",
-      "choices": ["-36u - 54", "-36u + 54", "36u - 54", "-36u + 6"],
-      "answer": "-36u - 54",
+      "question": "Combine like terms: $1/4(8x - 4) + 1/3(9x + 6)$.",
+      "choices": ["$5x + 0$", "$2x - 1 + 3x + 2$", "$5x + 1$", "$5x + 3$"],
+      "answer": "$5x + 1$",
       "points": 25
     },
     {
-      "id": 98,
+      "id": 188,
       "wave": 4,
-      "question": "Combine like terms: 45y - 32y + 25z.",
-      "choices": ["13y + 25z", "77y + 25z", "13y - 32z", "45y + 25z"],
-      "answer": "13y + 25z",
-      "points": 25
-    },
-    {
-      "id": 99,
-      "wave": 4,
-      "question": "Evaluate 18 - 6q when q = -3.",
-      "choices": ["36", "0", "-36", "12"],
-      "answer": "36",
-      "points": 25
-    },
-    {
-      "id": 100,
-      "wave": 4,
-      "question": "Apply the distributive property: 13(5h - 8).",
-      "choices": ["65h - 104", "65h + 104", "18h - 21", "5h - 104"],
-      "answer": "65h - 104",
-      "points": 25
-    },
-
-    {
-      "id": 101,
-      "wave": 4,
-      "question": "Evaluate 2x² + 5x - 3 when x = -2.",
-      "choices": ["-5", "15", "-15", "5"],
-      "answer": "-5",
-      "points": 25
-    },
-    {
-      "id": 102,
-      "wave": 4,
-      "question": "Evaluate 3y² - 4y + 7 when y = 3.",
-      "choices": ["22", "34", "-2", "16"],
-      "answer": "22",
-      "points": 25
-    },
-    {
-      "id": 103,
-      "wave": 4,
-      "question": "Apply the distributive property: -3(2x - 4y + 5).",
+      "question": "Simplify $a(a^2 + 2a - 3) - (a^3 - a^2 + 5a)$.",
       "choices": [
-        "-6x + 12y - 15",
-        "-6x - 12y - 15",
-        "6x + 12y + 15",
-        "-6x + 12y + 15"
+        "$3a^2 - 8a$",
+        "$3a^2 + 2a$",
+        "$a^3 + 2a^2 - 3a - a^3 + a^2 - 5a$",
+        "$3a^2 - 2a$"
       ],
-      "answer": "-6x + 12y - 15",
+      "answer": "$3a^2 - 8a$",
       "points": 25
     },
     {
-      "id": 104,
+      "id": 189,
       "wave": 4,
-      "question": "Apply the distributive property: 4(3a + 2b - 5c).",
+      "question": "Evaluate $V = \\frac{1}{3}\\pi r^2 h$ when $\\pi \\approx 3.14, r=2, h=6$.",
+      "choices": ["25.12", "12.56", "50.24", "75.36"],
+      "answer": "25.12",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Simplify $3(x^2 - xy + y^2) - 2(x^2 + xy - y^2)$.",
       "choices": [
-        "12a + 8b - 20c",
-        "12a - 8b + 20c",
-        "7a + 6b - 9c",
-        "12a + 8b + 20c"
+        "$x^2 - 5xy + 5y^2$",
+        "$x^2 - xy + y^2$",
+        "$x^2 - 5xy + y^2$",
+        "$x^2 - xy + 5y^2$"
       ],
-      "answer": "12a + 8b - 20c",
+      "answer": "$x^2 - 5xy + 5y^2$",
       "points": 25
     },
     {
-      "id": 105,
+      "id": 191,
       "wave": 4,
-      "question": "Combine like terms: 5x² + 3x + 2x² - 7x + 4.",
+      "question": "Combine like terms: $x^5 + 3x^3 - 2x^2 + 4x^5 - x^3 + 5x^2$.",
       "choices": [
-        "7x² - 4x + 4",
-        "10x² - 4x + 4",
-        "7x² + 10x + 4",
-        "5x² - 4x + 6"
+        "$5x^5 + 2x^3 + 3x^2$",
+        "$5x^5 + 4x^3 + 7x^2$",
+        "$4x^5 + 2x^3 + 3x^2$",
+        "$4x^5 + 4x^3 + 7x^2$"
       ],
-      "answer": "7x² - 4x + 4",
+      "answer": "$5x^5 + 2x^3 + 3x^2$",
       "points": 25
     },
     {
-      "id": 106,
+      "id": 192,
       "wave": 4,
-      "question": "Combine like terms: 8m + 6n - 3m + 9p - 4n + 2p.",
+      "question": "Simplify $2[3(y + 2) - y] - 4(y - 1)$.",
+      "choices": ["$2y + 16$", "$2y + 8$", "$2y + 10$", "$2y + 12$"],
+      "answer": "$2y + 16$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Evaluate $A = \\frac{1}{2}bh$ when $b = 5, h = 2.4$.",
+      "choices": ["6", "12", "10", "5"],
+      "answer": "6",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Combine like terms: $0.25x^2y - 0.5xy^2 + 0.75x^2y + xy^2$.",
       "choices": [
-        "5m + 2n + 11p",
-        "11m + 10n + 11p",
-        "5m + 10n + 7p",
-        "8m + 2n + 11p"
+        "$x^2y + 0.5xy^2$",
+        "$x^2y + 1.5xy^2$",
+        "$0.5x^2y + 0.5xy^2$",
+        "$0.5x^2y + 1.5xy^2$"
       ],
-      "answer": "5m + 2n + 11p",
+      "answer": "$x^2y + 0.5xy^2$",
       "points": 25
     },
     {
-      "id": 107,
+      "id": 195,
       "wave": 4,
-      "question": "Evaluate -x² + 6x - 8 when x = 4.",
-      "choices": ["-8", "8", "24", "-24"],
-      "answer": "-8",
-      "points": 25
-    },
-    {
-      "id": 108,
-      "wave": 4,
-      "question": "Apply the distributive property: 5(2x² - 3x + 1).",
+      "question": "Simplify $x(x^3 - 2x^2 + 5x) - x^2(x^2 - 3x + 1)$.",
       "choices": [
-        "10x² - 15x + 5",
-        "10x² + 15x - 5",
-        "7x² - 8x + 6",
-        "10x² - 15x - 5"
+        "$x^3 + 4x^2$",
+        "$x^4 - 2x^3 + 5x^2 - x^4 + 3x^3 - x^2$",
+        "$x^3 + 6x^2$",
+        "$x^3 + 4x^2 - 5x$"
       ],
-      "answer": "10x² - 15x + 5",
+      "answer": "$x^3 + 4x^2$",
       "points": 25
     },
     {
-      "id": 109,
+      "id": 196,
       "wave": 4,
-      "question": "Combine like terms: 12y² - 8y + 3y² + 5y - 7.",
+      "question": "Evaluate $(x + y + z)^2$ when $x=1, y=1, z=1$.",
+      "choices": ["9", "3", "6", "1"],
+      "answer": "9",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Combine like terms: $1/2(4a - 6b) - 1/3(3a + 9b)$.",
+      "choices": ["$a - 5b$", "$2a - 3b - a - 3b$", "$a - b$", "$3a - 5b$"],
+      "answer": "$a - 6b$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Simplify $4[2(m + 1) - (m - 3)] - 5m$.",
+      "choices": ["$-m + 20$", "$-m + 16$", "$3m + 20$", "$3m + 16$"],
+      "answer": "$-m + 20$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Evaluate $A = \\pi r^2$ when $\\pi \\approx 3.14, r = 10$.",
+      "choices": ["314", "31.4", "62.8", "100"],
+      "answer": "314",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Simplify $x^2(3x - 2) + x(x^2 + 5x) - 4x^2$.",
       "choices": [
-        "15y² - 3y - 7",
-        "15y² + 13y - 7",
-        "9y² - 3y - 4",
-        "12y² - 3y - 2"
+        "$4x^3 - x^2$",
+        "$4x^3 + 3x^2$",
+        "$4x^3 - 7x^2$",
+        "$4x^3 + 7x^2$"
       ],
-      "answer": "15y² - 3y - 7",
+      "answer": "$4x^3 - x^2$",
       "points": 25
     },
     {
-      "id": 110,
-      "wave": 4,
-      "question": "Evaluate 4a² - 7a + 2 when a = -1.",
-      "choices": ["13", "-1", "9", "-9"],
-      "answer": "13",
-      "points": 25
-    },
-    {
-      "id": 111,
-      "wave": 4,
-      "question": "Apply the distributive property: -2(4x² + 3y - 6z).",
-      "choices": [
-        "-8x² - 6y + 12z",
-        "-8x² + 6y - 12z",
-        "8x² - 6y + 12z",
-        "-8x² - 6y - 12z"
-      ],
-      "answer": "-8x² - 6y + 12z",
-      "points": 25
-    },
-    {
-      "id": 112,
-      "wave": 4,
-      "question": "Combine like terms: 9t² + 4s + 6t² - 2s + 8t - 3.",
-      "choices": [
-        "15t² + 2s + 8t - 3",
-        "15t² + 6s + 8t - 3",
-        "9t² + 2s + 8t + 3",
-        "15t² + 2s - 3"
-      ],
-      "answer": "15t² + 2s + 8t - 3",
-      "points": 25
-    },
-    {
-      "id": 113,
-      "wave": 4,
-      "question": "Evaluate 2b² + 3b - 5 when b = 3.",
-      "choices": ["22", "40", "4", "13"],
-      "answer": "22",
-      "points": 25
-    },
-    {
-      "id": 114,
-      "wave": 4,
-      "question": "Apply the distributive property: 6(x² - 4y + 3z).",
-      "choices": [
-        "6x² - 24y + 18z",
-        "6x² + 24y - 18z",
-        "7x² - 10y + 9z",
-        "6x² - 24y - 18z"
-      ],
-      "answer": "6x² - 24y + 18z",
-      "points": 25
-    },
-    {
-      "id": 115,
-      "wave": 4,
-      "question": "Combine like terms: 7c² - 5c + 4d² + 2c - 3c² + d².",
-      "choices": [
-        "4c² - 3c + 5d²",
-        "10c² - 3c + 5d²",
-        "4c² - 7c + 3d²",
-        "7c² - 3c + 5d²"
-      ],
-      "answer": "4c² - 3c + 5d²",
-      "points": 25
-    },
-    {
-      "id": 116,
-      "wave": 4,
-      "question": "Evaluate -3f² + 8f - 1 when f = 2.",
-      "choices": ["3", "-1", "27", "-17"],
+      "id": 201,
+      "wave": 5,
+      "question": "Evaluate $\\frac{x^3 + y^3}{x + y}$ when $x=2, y=1$.",
+      "choices": ["3", "7", "9", "1"],
       "answer": "3",
-      "points": 25
-    },
-    {
-      "id": 117,
-      "wave": 4,
-      "question": "Apply the distributive property: -4(2g² - 5h + 7).",
-      "choices": [
-        "-8g² + 20h - 28",
-        "-8g² - 20h - 28",
-        "8g² + 20h + 28",
-        "-8g² + 20h + 28"
-      ],
-      "answer": "-8g² + 20h - 28",
-      "points": 25
-    },
-    {
-      "id": 118,
-      "wave": 4,
-      "question": "Combine like terms: 11k² + 8j - 7k² + 3k + 5j - 2.",
-      "choices": [
-        "4k² + 13j + 3k - 2",
-        "4k² + 3j + 3k - 2",
-        "18k² + 13j + 3k - 2",
-        "4k² + 13j - 2"
-      ],
-      "answer": "4k² + 13j + 3k - 2",
-      "points": 25
-    },
-    {
-      "id": 119,
-      "wave": 4,
-      "question": "Evaluate 5m² - 2m + 6 when m = -2.",
-      "choices": ["30", "14", "2", "26"],
-      "answer": "30",
-      "points": 25
-    },
-
-    {
-      "id": 120,
-      "wave": 4,
-      "question": "Apply the distributive property: 7(3n² + 4p - 2q).",
-      "choices": [
-        "21n² + 28p - 14q",
-        "21n² - 28p + 14q",
-        "10n² + 11p - 9q",
-        "21n² + 28p + 14q"
-      ],
-      "answer": "21n² + 28p - 14q",
-      "points": 25
-    },
-    {
-      "id": 121,
-      "wave": 5,
-      "question": "Combine like terms: 14r² - 9r + 6r² + 12r - 8 + 3r².",
-      "choices": [
-        "23r² + 3r - 8",
-        "23r² - 21r - 8",
-        "20r² + 3r - 5",
-        "14r² + 3r - 5"
-      ],
-      "answer": "23r² + 3r - 8",
       "points": 30
     },
     {
-      "id": 122,
+      "id": 202,
       "wave": 5,
-      "question": "Evaluate 6w² + w - 10 when w = -3.",
-      "choices": ["35", "-13", "41", "23"],
-      "answer": "35",
-      "points": 30
-    },
-    {
-      "id": 123,
-      "wave": 5,
-      "question": "Apply the distributive property: -5(4x² - 6y + 8z).",
+      "question": "Simplify $2x^5 - 3x^4 + x^3 - 4x^5 + 2x^4 - 5x^3 + 7$.",
       "choices": [
-        "-20x² + 30y - 40z",
-        "-20x² - 30y - 40z",
-        "20x² + 30y + 40z",
-        "-20x² + 30y + 40z"
+        "$-2x^5 - x^4 - 4x^3 + 7$",
+        "$-2x^5 - 5x^4 - 6x^3 + 7$",
+        "$6x^5 - x^4 - 4x^3 + 7$",
+        "$6x^5 - 5x^4 - 6x^3 + 7$"
       ],
-      "answer": "-20x² + 30y - 40z",
+      "answer": "$-2x^5 - x^4 - 4x^3 + 7$",
       "points": 30
     },
     {
-      "id": 124,
+      "id": 203,
       "wave": 5,
-      "question": "Combine like terms: 18v² + 7u - 12v² + 4v + 9u - 6.",
+      "question": "Simplify $3[2x(x - 1) - (x^2 + 5)] + 4x^2$.",
       "choices": [
-        "6v² + 16u + 4v - 6",
-        "6v² + 2u + 4v - 6",
-        "30v² + 16u + 4v - 6",
-        "6v² + 16u - 6"
+        "$7x^2 - 6x - 15$",
+        "$7x^2 - 3x - 15$",
+        "$7x^2 - 6x + 15$",
+        "$7x^2 - 3x + 15$"
       ],
-      "answer": "6v² + 16u + 4v - 6",
+      "answer": "$7x^2 - 6x - 15$",
       "points": 30
     },
     {
-      "id": 125,
+      "id": 204,
       "wave": 5,
-      "question": "Evaluate -4l² + 9l - 2 when l = 2.",
-      "choices": ["0", "28", "-4", "12"],
+      "question": "Evaluate $A = \\frac{1}{2}ab\\sin C$ when $a=4, b=5, C=30^\\circ$ ($\\sin 30^\\circ = 0.5$).",
+      "choices": ["5", "10", "20", "2.5"],
+      "answer": "5",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Combine like terms: $1/2 x^3 - 1/4 x^2 + 1/8 x - 1/4 x^3 + 1/2 x^2 - 1/4 x$.",
+      "choices": [
+        "$1/4 x^3 + 1/4 x^2 - 1/8 x$",
+        "$3/4 x^3 + 3/4 x^2 - 3/8 x$",
+        "$1/4 x^3 + 3/4 x^2 - 1/8 x$",
+        "$3/4 x^3 + 1/4 x^2 - 3/8 x$"
+      ],
+      "answer": "$1/4 x^3 + 1/4 x^2 - 1/8 x$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Simplify $x^2(x^2 - 2x + 1) - x(x^3 - 3x^2 + 4x)$.",
+      "choices": [
+        "$x^2 - 3x^2 - 3x$",
+        "$x^4 - 2x^3 + x^2 - x^4 + 3x^3 - 4x^2$",
+        "$x^3 - 3x^2$",
+        "$x^3 + 3x^2 - 3x$"
+      ],
+      "answer": "$x^3 - 3x^2$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Evaluate $V = \\frac{1}{3}\\pi r^2 h$ when $r=1, h=3$ (leave in terms of $\\pi$).",
+      "choices": ["$\\pi$", "$3\\pi$", "$9\\pi$", "$1/3\\pi$"],
+      "answer": "$\\pi$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Combine like terms: $0.6a^3 - 0.2a^2 + 0.4a - (0.3a^3 + 0.5a^2 - 0.1a)$.",
+      "choices": [
+        "$0.3a^3 - 0.7a^2 + 0.5a$",
+        "$0.3a^3 + 0.3a^2 + 0.3a$",
+        "$0.9a^3 - 0.7a^2 + 0.5a$",
+        "$0.9a^3 + 0.3a^2 + 0.3a$"
+      ],
+      "answer": "$0.3a^3 - 0.7a^2 + 0.5a$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Simplify $-4[a(a - 1) - (a^2 + 2)] + 5a$.",
+      "choices": ["$9a + 8$", "$9a - 8$", "$a + 8$", "$a - 8$"],
+      "answer": "$9a + 8$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Evaluate $A = \\frac{1}{2}h(b_1 + b_2)$ when $h = 2, b_1 = 1/2, b_2 = 3/2$.",
+      "choices": ["2", "1", "4", "3"],
+      "answer": "2",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Combine like terms: $x^2(x - 1) + x(x^2 + 2) - 3x^2$.",
+      "choices": [
+        "$2x^3 - 4x^2 + 2x$",
+        "$2x^3 - 2x^2 + 2x$",
+        "$2x^3 - 4x^2 - 2x$",
+        "$2x^3 - 2x^2 - 2x$"
+      ],
+      "answer": "$2x^3 - 4x^2 + 2x$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Simplify $5(x^3 - 2x^2 + 3x) - 2x(x^2 - 5x + 1)$.",
+      "choices": [
+        "$3x^3 + 15x + 13x$",
+        "$3x^3 - 20x^2 + 13x$",
+        "$3x^3 + 15x^2 + 13x$",
+        "$3x^3 - 20x^2 + 13x$"
+      ],
+      "answer": "$3x^3 + 15x^2 + 13x$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Evaluate $(x + y)^2 - (x - y)^2$ when $x=5, y=2$.",
+      "choices": ["40", "20", "10", "50"],
+      "answer": "40",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Combine like terms: $1/4(12x - 8y) - 1/2(6x + 4y)$.",
+      "choices": ["$-4y$", "$3x - 2y - 3x - 2y$", "$-8y$", "$6x - 4y$"],
+      "answer": "$-4y$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Simplify $x[x(x + 3) - 2(x - 1)] + 4x^2$.",
+      "choices": [
+        "$x^3 + 5x^2 + 2x$",
+        "$x^3 + 9x^2 + 2x$",
+        "$x^3 + 5x^2 - 2x$",
+        "$x^3 + 9x^2 - 2x$"
+      ],
+      "answer": "$x^3 + 5x^2 + 2x$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Evaluate $V = \\frac{1}{3}Bh$ when $B = 25, h = 3/5$.",
+      "choices": ["5", "15", "25", "1"],
+      "answer": "5",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Combine like terms: $0.5ab^2 - 0.2a^2b + 0.3ab^2 + 0.4a^2b$.",
+      "choices": [
+        "$0.8ab^2 + 0.2a^2b$",
+        "$0.8ab^2 + 0.6a^2b$",
+        "$0.2ab^2 + 0.2a^2b$",
+        "$0.2ab^2 + 0.6a^2b$"
+      ],
+      "answer": "$0.8ab^2 + 0.2a^2b$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Simplify $2(a^3 - 3a^2 + 5a) - a(a^2 - 4a + 1)$.",
+      "choices": [
+        "$a^3 - 2a^2 + 9a$",
+        "$a^3 - 10a^2 + 9a$",
+        "$a^3 - 2a^2 + 11a$",
+        "$a^3 - 10a^2 + 11a$"
+      ],
+      "answer": "$a^3 - 2a^2 + 9a$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Evaluate $x^2 + y^2 - z^2$ when $x=5, y=12, z=13$.",
+      "choices": ["0", "25", "144", "169"],
       "answer": "0",
       "points": 30
     },
     {
-      "id": 126,
+      "id": 220,
       "wave": 5,
-      "question": "Apply the distributive property: 8(2s² - 3t + 5u).",
+      "question": "Simplify $-3[2(x + y) - (x - y)] + 5x - 2y$.",
+      "choices": ["$-2x - 11y$", "$-2x - 13y$", "$-2x - 7y$", "$-2x - 9y$"],
+      "answer": "$-2x - 11y$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Combine like terms: $1/2(x^2 - 4x) + 1/3(6x^2 + 9x)$.",
       "choices": [
-        "16s² - 24t + 40u",
-        "16s² + 24t - 40u",
-        "10s² - 11t + 13u",
-        "16s² - 24t - 40u"
+        "$2.5x^2 + x$",
+        "$x^2 - 2x + 2x^2 + 3x$",
+        "$2.5x^2 - x$",
+        "$3.5x^2 + x$"
       ],
-      "answer": "16s² - 24t + 40u",
+      "answer": "$2.5x^2 + x$",
       "points": 30
     },
     {
-      "id": 127,
+      "id": 222,
       "wave": 5,
-      "question": "Combine like terms: 25e² - 15e + 8e² + 7e - 12 + 4e².",
+      "question": "Simplify $x^2(x^2 + x - 1) - x(x^3 + 2x^2 - 3x)$.",
       "choices": [
-        "37e² - 8e - 12",
-        "37e² + 22e - 12",
-        "33e² - 8e - 8",
-        "25e² - 8e - 8"
+        "$-x^3 + 2x^2$",
+        "$-x^3 + 4x^2$",
+        "$-x^3 - 2x^2$",
+        "$-x^3 - 4x^2$"
       ],
-      "answer": "37e² - 8e - 12",
+      "answer": "$-x^3 + 2x^2$",
       "points": 30
     },
     {
-      "id": 128,
+      "id": 223,
       "wave": 5,
-      "question": "Evaluate 7q² - 5q + 3 when q = -1.",
-      "choices": ["15", "-5", "1", "9"],
-      "answer": "15",
-      "points": 30
-    },
-    {
-      "id": 129,
-      "wave": 5,
-      "question": "Apply the distributive property: -6(3i² + 7j - 4k).",
-      "choices": [
-        "-18i² - 42j + 24k",
-        "-18i² + 42j - 24k",
-        "18i² - 42j + 24k",
-        "-18i² - 42j - 24k"
-      ],
-      "answer": "-18i² - 42j + 24k",
-      "points": 30
-    },
-    {
-      "id": 130,
-      "wave": 5,
-      "question": "Combine like terms: 32h² + 11g - 18h² + 6h + 8g - 9.",
-      "choices": [
-        "14h² + 19g + 6h - 9",
-        "14h² + 3g + 6h - 9",
-        "50h² + 19g + 6h - 9",
-        "14h² + 19g - 9"
-      ],
-      "answer": "14h² + 19g + 6h - 9",
-      "points": 30
-    },
-    {
-      "id": 131,
-      "wave": 5,
-      "question": "Evaluate 8d² + 3d - 7 when d = -2.",
-      "choices": ["19", "-1", "41", "25"],
-      "answer": "19",
-      "points": 30
-    },
-    {
-      "id": 132,
-      "wave": 5,
-      "question": "Apply the distributive property: 9(4o² - 2p + 6q).",
-      "choices": [
-        "36o² - 18p + 54q",
-        "36o² + 18p - 54q",
-        "13o² - 11p + 15q",
-        "36o² - 18p - 54q"
-      ],
-      "answer": "36o² - 18p + 54q",
-      "points": 30
-    },
-    {
-      "id": 133,
-      "wave": 5,
-      "question": "Combine like terms: 42z² - 28z + 15z² + 19z - 16 + 7z².",
-      "choices": [
-        "64z² - 9z - 16",
-        "64z² + 47z - 16",
-        "57z² - 9z - 9",
-        "42z² - 9z - 9"
-      ],
-      "answer": "64z² - 9z - 16",
-      "points": 30
-    },
-    {
-      "id": 134,
-      "wave": 5,
-      "question": "Evaluate -2c² + 7c - 4 when c = 3.",
-      "choices": ["-1", "35", "-13", "17"],
-      "answer": "-1",
-      "points": 30
-    },
-    {
-      "id": 135,
-      "wave": 5,
-      "question": "Apply the distributive property: -7(5a² + 3b - 8c).",
-      "choices": [
-        "-35a² - 21b + 56c",
-        "-35a² + 21b - 56c",
-        "35a² - 21b + 56c",
-        "-35a² - 21b - 56c"
-      ],
-      "answer": "-35a² - 21b + 56c",
-      "points": 30
-    },
-    {
-      "id": 136,
-      "wave": 5,
-      "question": "Combine like terms: 29x² + 14y - 21x² + 8x + 12y - 5.",
-      "choices": [
-        "8x² + 26y + 8x - 5",
-        "8x² + 2y + 8x - 5",
-        "50x² + 26y + 8x - 5",
-        "8x² + 26y - 5"
-      ],
-      "answer": "8x² + 26y + 8x - 5",
-      "points": 30
-    },
-    {
-      "id": 137,
-      "wave": 5,
-      "question": "Evaluate 9n² - 4n + 1 when n = -1.",
-      "choices": ["14", "6", "-4", "4"],
-      "answer": "14",
-      "points": 30
-    },
-    {
-      "id": 138,
-      "wave": 5,
-      "question": "Apply the distributive property: 10(6f² - 4g + 2h).",
-      "choices": [
-        "60f² - 40g + 20h",
-        "60f² + 40g - 20h",
-        "16f² - 14g + 12h",
-        "60f² - 40g - 20h"
-      ],
-      "answer": "60f² - 40g + 20h",
-      "points": 30
-    },
-    {
-      "id": 139,
-      "wave": 5,
-      "question": "Combine like terms: 48w² - 35w + 22w² + 28w - 19 + 12w².",
-      "choices": [
-        "82w² - 7w - 19",
-        "82w² + 63w - 19",
-        "70w² - 7w - 7",
-        "48w² - 7w - 7"
-      ],
-      "answer": "82w² - 7w - 19",
-      "points": 30
-    },
-    {
-      "id": 140,
-      "wave": 5,
-      "question": "Evaluate -5t² + 12t - 6 when t = 2.",
-      "choices": ["-2", "38", "-26", "14"],
-      "answer": "-2",
-      "points": 30
-    },
-    {
-      "id": 141,
-      "wave": 5,
-      "question": "Apply the distributive property: -8(2r² + 5s - 3t).",
-      "choices": [
-        "-16r² - 40s + 24t",
-        "-16r² + 40s - 24t",
-        "16r² - 40s + 24t",
-        "-16r² - 40s - 24t"
-      ],
-      "answer": "-16r² - 40s + 24t",
-      "points": 30
-    },
-    {
-      "id": 142,
-      "wave": 5,
-      "question": "Combine like terms: 56v² + 23u - 38v² + 15v + 17u - 8.",
-      "choices": [
-        "18v² + 40u + 15v - 8",
-        "18v² + 6u + 15v - 8",
-        "94v² + 40u + 15v - 8",
-        "18v² + 40u - 8"
-      ],
-      "answer": "18v² + 40u + 15v - 8",
-      "points": 30
-    },
-    {
-      "id": 143,
-      "wave": 5,
-      "question": "Evaluate 6j² + 8j - 3 when j = -3.",
-      "choices": ["21", "75", "-33", "45"],
+      "question": "Evaluate $P = 2l + 2w$ when $l = 10, w = 1/2$.",
+      "choices": ["21", "11", "20.5", "10.5"],
       "answer": "21",
       "points": 30
     },
     {
-      "id": 144,
+      "id": 224,
       "wave": 5,
-      "question": "Apply the distributive property: 12(3k² - 7l + 4m).",
+      "question": "Combine like terms: $0.2x^4 - 0.1x^3 + 0.3x^2 - (0.1x^4 + 0.2x^3 - 0.1x^2)$.",
       "choices": [
-        "36k² - 84l + 48m",
-        "36k² + 84l - 48m",
-        "15k² - 19l + 16m",
-        "36k² - 84l - 48m"
+        "$0.1x^4 - 0.3x^3 + 0.4x^2$",
+        "$0.3x^4 - 0.3x^3 + 0.4x^2$",
+        "$0.1x^4 + 0.1x^3 + 0.2x^2$",
+        "$0.3x^4 + 0.1x^3 + 0.2x^2$"
       ],
-      "answer": "36k² - 84l + 48m",
+      "answer": "$0.1x^4 - 0.3x^3 + 0.4x^2$",
       "points": 30
     },
     {
-      "id": 145,
+      "id": 225,
       "wave": 5,
-      "question": "Combine like terms: 63p² - 42p + 28p² + 35p - 21 + 16p².",
+      "question": "Simplify $4[x^2 - (x - 1)^2] - 2x$.",
       "choices": [
-        "107p² - 7p - 21",
-        "107p² + 77p - 21",
-        "91p² - 7p - 7",
-        "63p² - 7p - 7"
+        "$6x - 4$",
+        "$2x^2 - 2x + 1 - 2x$",
+        "$6x + 4$",
+        "$2x^2 - 6x - 4$"
       ],
-      "answer": "107p² - 7p - 21",
+      "answer": "$6x - 4$",
       "points": 30
     },
     {
-      "id": 146,
+      "id": 226,
       "wave": 5,
-      "question": "Evaluate -7q² + 15q - 8 when q = 2.",
-      "choices": ["-6", "50", "-36", "22"],
-      "answer": "-6",
+      "question": "Evaluate $(a + b + c)^3$ when $a=1, b=0, c=0$.",
+      "choices": ["1", "3", "9", "27"],
+      "answer": "1",
       "points": 30
     },
     {
-      "id": 147,
+      "id": 227,
       "wave": 5,
-      "question": "Apply the distributive property: -9(4x² + 6y - 5z).",
+      "question": "Combine like terms: $1/3(9a^2 - 6a) - 1/4(8a^2 + 12a)$.",
       "choices": [
-        "-36x² - 54y + 45z",
-        "-36x² + 54y - 45z",
-        "36x² - 54y + 45z",
-        "-36x² - 54y - 45z"
+        "$a^2 - 5a$",
+        "$3a^2 - 2a - 2a^2 - 3a$",
+        "$a^2 + a$",
+        "$5a^2 - 5a$"
       ],
-      "answer": "-36x² - 54y + 45z",
+      "answer": "$a^2 - 5a$",
       "points": 30
     },
     {
-      "id": 148,
+      "id": 228,
       "wave": 5,
-      "question": "Combine like terms: 72b² + 31a - 49b² + 24b + 26a - 12.",
+      "question": "Simplify $x(x(x - 1) + 2x) - x^2(x - 3)$.",
       "choices": [
-        "23b² + 57a + 24b - 12",
-        "23b² + 5a + 24b - 12",
-        "121b² + 57a + 24b - 12",
-        "23b² + 57a - 12"
+        "$4x^2$",
+        "$x^3 + x^2 - x^3 + 3x^2$",
+        "$2x^3 + 4x^2$",
+        "$4x^2 - 2x^3$"
       ],
-      "answer": "23b² + 57a + 24b - 12",
+      "answer": "$4x^2$",
       "points": 30
     },
     {
-      "id": 149,
+      "id": 229,
       "wave": 5,
-      "question": "Evaluate 10e² - 6e + 2 when e = -1.",
-      "choices": ["18", "-4", "6", "14"],
-      "answer": "18",
+      "question": "Evaluate $A = \\frac{1}{2}bh$ when $b = 2/3, h = 9$.",
+      "choices": ["3", "6", "9", "1"],
+      "answer": "3",
       "points": 30
     },
     {
-      "id": 150,
+      "id": 230,
       "wave": 5,
-      "question": "Apply the distributive property: 15(2d² - 8f + 3g).",
+      "question": "Simplify $2x^2(x - 3) - x(x^2 - 5x + 1) + 3x^2$.",
       "choices": [
-        "30d² - 120f + 45g",
-        "30d² + 120f - 45g",
-        "17d² - 23f + 18g",
-        "30d² - 120f - 45g"
+        "$x^3 + 2x^2 - x$",
+        "$x^3 - 4x^2 - x$",
+        "$x^3 + 2x^2 + x$",
+        "$x^3 - 4x^2 + x$"
       ],
-      "answer": "30d² - 120f + 45g",
+      "answer": "$x^3 + 2x^2 - x$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Combine like terms: $0.1(x + y) + 0.2(x - y) - 0.3x$.",
+      "choices": [
+        "$-0.1y$",
+        "$0.3x - 0.1y - 0.3x$",
+        "$0.1y$",
+        "$-0.3x + 0.1y$"
+      ],
+      "answer": "$-0.1y$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Simplify $3[x^2 + 2(x - 1)] - 2x(x + 3)$.",
+      "choices": [
+        "$x^2 - 6$",
+        "$x^2 + 6x - 6 - 2x^2 - 6x$",
+        "$-x^2 - 6$",
+        "$-x^2 + 6$"
+      ],
+      "answer": "$x^2 - 6$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Evaluate $x^2 + y^2 + z^2$ when $x=0, y=0, z=0$.",
+      "choices": ["0", "1", "2", "3"],
+      "answer": "0",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Combine like terms: $1/2(a^3 + 2a^2) - 1/4(2a^3 - 4a^2)$.",
+      "choices": [
+        "$2a^2$",
+        "$1/2a^3 + a^2 - 1/2a^3 + a^2$",
+        "$a^3 + 2a^2$",
+        "$0$"
+      ],
+      "answer": "$2a^2$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Simplify $-2[x(x + 1) - (x^2 - 3)] + 5x$.",
+      "choices": ["$7x - 6$", "$7x + 6$", "$3x - 6$", "$3x + 6$"],
+      "answer": "$7x - 6$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Evaluate $V = \\frac{1}{3}Bh$ when $B = 36, h = 1/2$.",
+      "choices": ["6", "12", "18", "3"],
+      "answer": "6",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Combine like terms: $0.4x^2y - 0.1xy^2 + 0.6x^2y - 0.3xy^2$.",
+      "choices": [
+        "$x^2y - 0.4xy^2$",
+        "$x^2y - 0.2xy^2$",
+        "$0.2x^2y - 0.4xy^2$",
+        "$0.2x^2y - 0.2xy^2$"
+      ],
+      "answer": "$x^2y - 0.4xy^2$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Simplify $x(x^2 - 3x + 2) - x^2(x - 4) + 5x$.",
+      "choices": [
+        "$x^2 + 7x$",
+        "$x^3 - 3x^2 + 2x - x^3 + 4x^2 + 5x$",
+        "$x^2 + 3x$",
+        "$x^2 - 7x$"
+      ],
+      "answer": "$x^2 + 7x$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Evaluate $C = \\frac{9}{5}C + 32$ when $C = 25$.",
+      "choices": ["77", "45", "25", "50"],
+      "answer": "77",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Simplify $3(x^3 - x^2 + x) - x(2x^2 - 5x + 3)$.",
+      "choices": [
+        "$x^3 + 2x^2$",
+        "$x^3 + 2x^2 - 3x$",
+        "$x^3 - 8x^2 + 6x$",
+        "$x^3 - 8x^2 + 3x$"
+      ],
+      "answer": "$x^3 + 2x^2$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Combine like terms: $1/2(x^3 - 2x^2) + 1/3(3x^3 + 6x^2)$.",
+      "choices": [
+        "$1.5x^3 + x^2$",
+        "$0.5x^3 - x^2 + x^3 + 2x^2$",
+        "$1.5x^3 - x^2$",
+        "$2x^3 + x^2$"
+      ],
+      "answer": "$1.5x^3 + x^2$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Simplify $2[a(a + 2) - (a^2 - 1)] - 3a$.",
+      "choices": ["$a + 2$", "$a + 4$", "$2a + 2$", "$2a + 4$"],
+      "answer": "$a + 2$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Evaluate $x^2 + y^2 + z^2$ when $x=1/2, y=1/2, z=1/2$.",
+      "choices": ["3/4", "1/4", "1/2", "1"],
+      "answer": "3/4",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Combine like terms: $0.5(m^2 - 2m) + 0.25(4m^2 + 8m)$.",
+      "choices": [
+        "$1.5m^2 + m$",
+        "$0.5m^2 - m + m^2 + 2m$",
+        "$1.5m^2 - m$",
+        "$2.5m^2 + m$"
+      ],
+      "answer": "$1.5m^2 + m$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Simplify $x(x^3 - 4x^2 + 2x) - x^2(x^2 - 5x + 1)$.",
+      "choices": [
+        "$x^3 + x^2$",
+        "$x^4 - 4x^3 + 2x^2 - x^4 + 5x^3 - x^2$",
+        "$x^3 + x^2 + x$",
+        "$x^3 - x^2$"
+      ],
+      "answer": "$x^3 + x^2$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Evaluate $A = \\pi r^2$ when $r = 1/\\sqrt{\\pi}$.",
+      "choices": ["1", "$\\pi$", "$1/\\pi$", "$\\sqrt{\\pi}$"],
+      "answer": "1",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Combine like terms: $1/2(a^2b - ab^2) + 1/4(2a^2b + 4ab^2)$.",
+      "choices": [
+        "$a^2b + 1/2 ab^2$",
+        "$a^2b + 3/2 ab^2$",
+        "$1/2 a^2b + 1/2 ab^2 + 1/2 a^2b + ab^2$",
+        "$1/2 a^2b + 3/2 ab^2$"
+      ],
+      "answer": "$a^2b + 1/2 ab^2$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Simplify $-3[x(x - 2) - (x^2 + x)] + 4x$.",
+      "choices": ["$13x$", "$13x - 3x^2$", "$13x + 3x^2$", "$x$"],
+      "answer": "$13x$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Evaluate $x^2 - y^2$ when $x = \\sqrt{5}, y = \\sqrt{3}$.",
+      "choices": ["2", "8", "$\\sqrt{2}$", "$\\sqrt{8}$"],
+      "answer": "2",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Simplify $2x^3(x - 1) - x^2(x^2 + 3x - 2) + 5x^3$.",
+      "choices": [
+        "$x^4 + 0x^3 + 2x^2$",
+        "$x^4 + 0x^3 + 2x^2$",
+        "$x^4 + 0x^3 + 2x^2$",
+        "$x^4 + 0x^3 + 2x^2$"
+      ],
+      "answer": "$x^4 + 0x^3 + 2x^2$",
       "points": 30
     }
   ]

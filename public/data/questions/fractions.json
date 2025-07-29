@@ -1,262 +1,3199 @@
 {
   "title": "Math Operations with Fractions",
-  "description": "Fractions can be fun! Solve problems with different denominators, mix and match whole numbers and fractions, and master the four operations step by step. Let’s make fractions your new favorite!",
+  "description": "Fractions can be fun! Solve problems with different denominators, mixed numbers, and complex fractions.",
   "waves": 5,
-  "timePerQuestion": 20,
+  "timePerQuestion": 30,
   "questions": [
-    {"id":1,"wave":1,"question":"What is 1/2 + 1/2?","choices":["0","1","2","3"],"answer":"1","points":10},
-    {"id":2,"wave":1,"question":"What is 1/4 + 1/4?","choices":["1/4","1/2","3/4","1"],"answer":"1/2","points":10},
-    {"id":3,"wave":1,"question":"What is 2/3 + 1/3?","choices":["1/3","2/3","1","4/3"],"answer":"1","points":10},
-    {"id":4,"wave":1,"question":"What is 3/5 + 1/5?","choices":["1/5","2/5","3/5","4/5"],"answer":"4/5","points":10},
-    {"id":5,"wave":1,"question":"What is 1 - 1/2?","choices":["1/4","1/2","3/4","1"],"answer":"1/2","points":10},
-    {"id":6,"wave":1,"question":"What is 3/4 - 1/4?","choices":["0","1/2","3/4","1"],"answer":"1/2","points":10},
-    {"id":7,"wave":1,"question":"What is 4/5 - 2/5?","choices":["1/5","2/5","3/5","4/5"],"answer":"2/5","points":10},
-    {"id":8,"wave":1,"question":"What is 1/2 × 1/2?","choices":["1/4","1/2","3/4","1"],"answer":"1/4","points":10},
-    {"id":9,"wave":1,"question":"What is 2/3 × 1/3?","choices":["1/9","2/9","1/3","2/3"],"answer":"2/9","points":10},
-    {"id":10,"wave":1,"question":"What is 3/4 ÷ 1/4?","choices":["1","2","3","4"],"answer":"3","points":10},
-    {"id":11,"wave":1,"question":"What is 2/5 ÷ 1/5?","choices":["1","2","3","4"],"answer":"2","points":10},
-    {"id":12,"wave":1,"question":"What is 1/6 + 1/6?","choices":["1/6","1/3","1/2","2/3"],"answer":"1/3","points":10},
-    {"id":13,"wave":1,"question":"What is 1/8 + 1/8?","choices":["1/8","1/4","3/8","1/2"],"answer":"1/4","points":10},
-    {"id":14,"wave":1,"question":"What is 3/7 + 2/7?","choices":["2/7","3/7","5/7","1"],"answer":"5/7","points":10},
-    {"id":15,"wave":1,"question":"What is 5/8 - 3/8?","choices":["1/8","1/4","3/8","1/2"],"answer":"1/4","points":10},
-    {"id":16,"wave":1,"question":"What is 7/9 - 4/9?","choices":["1/9","2/9","1/3","4/9"],"answer":"1/3","points":10},
-    {"id":17,"wave":1,"question":"What is 3/5 × 1/5?","choices":["1/25","3/25","1/5","3/5"],"answer":"3/25","points":10},
-    {"id":18,"wave":1,"question":"What is 4/7 × 2/7?","choices":["4/49","8/49","2/7","4/7"],"answer":"8/49","points":10},
-    {"id":19,"wave":1,"question":"What is 5/6 ÷ 5/6?","choices":["1/6","1/3","1/2","1"],"answer":"1","points":10},
-    {"id":20,"wave":1,"question":"What is 3/8 ÷ 1/8?","choices":["1","2","3","4"],"answer":"3","points":10},
-    {"id":21,"wave":1,"question":"What is 2/3 + 1/6?","choices":["1/2","2/3","5/6","1"],"answer":"5/6","points":10},
-    {"id":22,"wave":1,"question":"What is 3/4 + 1/8?","choices":["5/8","3/4","7/8","1"],"answer":"7/8","points":10},
-    {"id":23,"wave":1,"question":"What is 5/6 - 1/3?","choices":["1/2","2/3","5/6","1"],"answer":"1/2","points":10},
-    {"id":24,"wave":1,"question":"What is 7/8 - 1/4?","choices":["5/8","3/4","7/8","1"],"answer":"5/8","points":10},
-    {"id":25,"wave":1,"question":"What is 1/4 × 2/3?","choices":["1/12","1/6","1/4","1/3"],"answer":"1/6","points":10},
-    {"id":26,"wave":1,"question":"What is 2/5 × 3/4?","choices":["3/10","1/2","2/5","3/4"],"answer":"3/10","points":10},
-    {"id":27,"wave":1,"question":"What is 3/4 ÷ 2/3?","choices":["8/9","9/8","1","3/2"],"answer":"9/8","points":10},
-    {"id":28,"wave":1,"question":"What is 5/6 ÷ 1/3?","choices":["5/2","5/3","5/6","1/3"],"answer":"5/2","points":10},
-    {"id":29,"wave":1,"question":"What is 1/2 + 1/4?","choices":["1/4","1/2","3/4","1"],"answer":"3/4","points":10},
-    {"id":30,"wave":1,"question":"What is 1/2 - 1/4?","choices":["1/4","1/2","3/4","1"],"answer":"1/4","points":10},
-    {"id":31,"wave":1,"question":"What is 1/2 × 1/4?","choices":["1/8","1/4","1/2","3/4"],"answer":"1/8","points":10},
-    {"id":32,"wave":1,"question":"What is 1/2 ÷ 1/4?","choices":["1/2","1","2","4"],"answer":"2","points":10},
-    {"id":33,"wave":1,"question":"What is 2/5 + 1/10?","choices":["1/2","2/5","3/5","1"],"answer":"1/2","points":10},
-    {"id":34,"wave":1,"question":"What is 3/4 - 1/8?","choices":["5/8","3/4","7/8","1"],"answer":"5/8","points":10},
-    {"id":35,"wave":1,"question":"What is 2/3 × 3/5?","choices":["2/5","1/2","3/5","5/6"],"answer":"2/5","points":10},
-    {"id":36,"wave":1,"question":"What is 4/5 ÷ 2/5?","choices":["1","2","4/5","2/5"],"answer":"2","points":10},
-    {"id":37,"wave":1,"question":"What is 3/8 + 1/8?","choices":["1/4","3/8","1/2","5/8"],"answer":"1/2","points":10},
-    {"id":38,"wave":1,"question":"What is 5/6 - 1/6?","choices":["2/3","5/6","1","1/2"],"answer":"2/3","points":10},
-    {"id":39,"wave":1,"question":"What is 4/9 × 3/4?","choices":["1/3","4/9","3/4","1"],"answer":"1/3","points":10},
-    {"id":40,"wave":1,"question":"What is 7/8 ÷ 7/8?","choices":["1/8","1/4","1/2","1"],"answer":"1","points":10},
-    {"id":41,"wave":1,"question":"What is 2/7 + 3/7?","choices":["5/7","1","6/7","4/7"],"answer":"5/7","points":10},
-    {"id":42,"wave":1,"question":"What is 5/9 - 2/9?","choices":["1/3","5/9","2/9","7/9"],"answer":"1/3","points":10},
-    {"id":43,"wave":1,"question":"What is 3/5 × 2/5?","choices":["6/25","3/5","2/5","1"],"answer":"6/25","points":10},
-    {"id":44,"wave":1,"question":"What is 5/6 ÷ 1/2?","choices":["5/3","5/6","1/2","2/5"],"answer":"5/3","points":10},
-    {"id":45,"wave":1,"question":"What is 1/3 + 2/3?","choices":["1/3","2/3","1","4/3"],"answer":"1","points":10},
-    {"id":46,"wave":1,"question":"What is 7/8 - 3/8?","choices":["1/2","3/8","5/8","1"],"answer":"1/2","points":10},
-    {"id":47,"wave":1,"question":"What is 5/7 × 1/7?","choices":["5/49","5/7","1/7","1"],"answer":"5/49","points":10},
-    {"id":48,"wave":1,"question":"What is 8/9 ÷ 2/9?","choices":["4","8/9","2/9","1"],"answer":"4","points":10},
-    {"id":49,"wave":1,"question":"What is 2/9 + 4/9?","choices":["2/3","2/9","4/9","1"],"answer":"2/3","points":10},
-    {"id":50,"wave":1,"question":"What is 3/10 × 5/6?","choices":["1/4","3/10","5/6","1/2"],"answer":"1/4","points":10},
-
-    {"id":51,"wave":2,"question":"What is 3/4 + 2/3?","choices":["17/12","11/12","1 1/12","1 1/6"],"answer":"17/12","points":15},
-    {"id":52,"wave":2,"question":"What is 5/6 + 1/4?","choices":["13/12","11/12","7/12","1"],"answer":"13/12","points":15},
-    {"id":53,"wave":2,"question":"What is 7/8 + 1/6?","choices":["25/24","23/24","1 1/24","1 1/12"],"answer":"25/24","points":15},
-    {"id":54,"wave":2,"question":"What is 2/3 - 1/4?","choices":["5/12","1/12","1/2","2/3"],"answer":"5/12","points":15},
-    {"id":55,"wave":2,"question":"What is 3/4 - 2/5?","choices":["7/20","1/20","1/2","3/5"],"answer":"7/20","points":15},
-    {"id":56,"wave":2,"question":"What is 4/5 - 1/3?","choices":["7/15","2/15","1/2","3/5"],"answer":"7/15","points":15},
-    {"id":57,"wave":2,"question":"What is 3/4 × 2/3?","choices":["1/2","3/4","2/3","1"],"answer":"1/2","points":15},
-    {"id":58,"wave":2,"question":"What is 5/6 × 3/4?","choices":["5/8","1/2","3/4","5/6"],"answer":"5/8","points":15},
-    {"id":59,"wave":2,"question":"What is 2/5 × 3/7?","choices":["6/35","1/5","3/7","2/7"],"answer":"6/35","points":15},
-    {"id":60,"wave":2,"question":"What is 3/4 ÷ 2/3?","choices":["9/8","3/4","2/3","1"],"answer":"9/8","points":15},
-    {"id":61,"wave":2,"question":"What is 5/6 ÷ 3/4?","choices":["10/9","5/6","3/4","1"],"answer":"10/9","points":15},
-    {"id":62,"wave":2,"question":"What is 4/7 ÷ 2/5?","choices":["10/7","4/7","2/5","1"],"answer":"10/7","points":15},
-    {"id":63,"wave":2,"question":"What is 5/8 + 1/6?","choices":["19/24","17/24","7/12","1"],"answer":"19/24","points":15},
-    {"id":64,"wave":2,"question":"What is 7/10 + 1/4?","choices":["19/20","17/20","9/10","1"],"answer":"19/20","points":15},
-    {"id":65,"wave":2,"question":"What is 2/3 + 3/5?","choices":["19/15","11/15","1 1/15","1 2/5"],"answer":"19/15","points":15},
-    {"id":66,"wave":2,"question":"What is 5/6 - 1/4?","choices":["7/12","1/12","1/2","5/12"],"answer":"7/12","points":15},
-    {"id":67,"wave":2,"question":"What is 7/8 - 1/3?","choices":["13/24","5/24","1/2","2/3"],"answer":"13/24","points":15},
-    {"id":68,"wave":2,"question":"What is 4/5 - 2/3?","choices":["2/15","4/15","1/5","1/3"],"answer":"2/15","points":15},
-    {"id":69,"wave":2,"question":"What is 3/5 × 4/7?","choices":["12/35","3/5","4/7","1/2"],"answer":"12/35","points":15},
-    {"id":70,"wave":2,"question":"What is 5/6 × 2/5?","choices":["1/3","5/6","2/5","1/2"],"answer":"1/3","points":15},
-    {"id":71,"wave":2,"question":"What is 7/8 × 4/7?","choices":["1/2","7/8","4/7","1"],"answer":"1/2","points":15},
-    {"id":72,"wave":2,"question":"What is 4/5 ÷ 3/5?","choices":["4/3","4/5","3/5","1"],"answer":"4/3","points":15},
-    {"id":73,"wave":2,"question":"What is 7/9 ÷ 2/3?","choices":["7/6","7/9","2/3","1"],"answer":"7/6","points":15},
-    {"id":74,"wave":2,"question":"What is 5/8 + 3/8?","choices":["1/2","5/8","3/4","1"],"answer":"1","points":15},
-    {"id":75,"wave":2,"question":"What is 7/12 + 5/12?","choices":["1/2","7/12","5/6","1"],"answer":"1","points":15},
-    {"id":76,"wave":2,"question":"What is 9/10 - 3/10?","choices":["3/5","9/10","3/10","6/10"],"answer":"3/5","points":15},
-    {"id":77,"wave":2,"question":"What is 7/9 - 2/9?","choices":["5/9","7/9","2/9","1"],"answer":"5/9","points":15},
-    {"id":78,"wave":2,"question":"What is 3/4 × 2/5?","choices":["3/10","1/2","2/5","3/4"],"answer":"3/10","points":15},
-    {"id":79,"wave":2,"question":"What is 5/6 × 3/10?","choices":["1/4","5/6","3/10","1/2"],"answer":"1/4","points":15},
-    {"id":80,"wave":2,"question":"What is 8/9 ÷ 4/9?","choices":["2","8/9","4/9","1"],"answer":"2","points":15},
-    {"id":81,"wave":2,"question":"What is 5/6 + 2/9?","choices":["19/18","11/18","1 1/18","1 1/9"],"answer":"19/18","points":15},
-    {"id":82,"wave":2,"question":"What is 7/10 + 2/5?","choices":["11/10","9/10","1 1/10","1 1/5"],"answer":"11/10","points":15},
-    {"id":83,"wave":2,"question":"What is 3/4 + 5/8?","choices":["11/8","9/8","1 3/8","1 1/2"],"answer":"11/8","points":15},
-    {"id":84,"wave":2,"question":"What is 5/6 - 1/2?","choices":["1/3","5/6","1/2","2/3"],"answer":"1/3","points":15},
-    {"id":85,"wave":2,"question":"What is 7/8 - 1/4?","choices":["5/8","7/8","3/4","1"],"answer":"5/8","points":15},
-    {"id":86,"wave":2,"question":"What is 4/5 - 1/3?","choices":["7/15","2/15","1/3","4/5"],"answer":"7/15","points":15},
-    {"id":87,"wave":2,"question":"What is 2/3 × 3/7?","choices":["2/7","2/3","3/7","1"],"answer":"2/7","points":15},
-    {"id":88,"wave":2,"question":"What is 3/4 × 4/9?","choices":["1/3","3/4","4/9","1"],"answer":"1/3","points":15},
-    {"id":89,"wave":2,"question":"What is 5/6 × 3/8?","choices":["5/16","5/6","3/8","1/2"],"answer":"5/16","points":15},
-    {"id":90,"wave":2,"question":"What is 7/8 ÷ 7/10?","choices":["5/4","7/8","7/10","10/7"],"answer":"5/4","points":15},
-    {"id":91,"wave":2,"question":"What is 4/5 ÷ 2/15?","choices":["6","4/5","2/15","5/2"],"answer":"6","points":15},
-    {"id":92,"wave":2,"question":"What is 3/8 + 5/12?","choices":["19/24","17/24","1 1/24","1 1/12"],"answer":"19/24","points":15},
-    {"id":93,"wave":2,"question":"What is 5/6 + 3/10?","choices":["17/15","16/15","1 1/15","1 2/5"],"answer":"17/15","points":15},
-    {"id":94,"wave":2,"question":"What is 7/12 + 5/8?","choices":["29/24","23/24","1 5/24","1 1/4"],"answer":"29/24","points":15},
-    {"id":95,"wave":2,"question":"What is 11/12 - 5/8?","choices":["7/24","5/24","1/2","2/3"],"answer":"7/24","points":15},
-    {"id":96,"wave":2,"question":"What is 13/15 - 7/10?","choices":["1/6","1/10","1/5","2/5"],"answer":"1/6","points":15},
-    {"id":97,"wave":2,"question":"What is 17/18 - 5/12?","choices":["19/36","13/36","1/2","2/3"],"answer":"19/36","points":15},
-    {"id":98,"wave":2,"question":"What is 3/5 × 5/9?","choices":["1/3","3/5","5/9","1"],"answer":"1/3","points":15},
-    {"id":99,"wave":2,"question":"What is 7/8 × 4/7?","choices":["1/2","7/8","4/7","1"],"answer":"1/2","points":15},
-    {"id":100,"wave":2,"question":"What is 9/10 ÷ 3/5?","choices":["3/2","9/10","3/5","5/3"],"answer":"3/2","points":15},
-
-    {"id":101,"wave":3,"question":"What is 3/4 + 5/6?","choices":["19/12","1 7/12","1 1/2","2"],"answer":"19/12","points":20},
-    {"id":102,"wave":3,"question":"What is 5/6 + 7/8?","choices":["41/24","1 17/24","1 1/2","2"],"answer":"41/24","points":20},
-    {"id":103,"wave":3,"question":"What is 7/8 + 9/10?","choices":["79/40","1 39/40","1 1/2","2"],"answer":"79/40","points":20},
-    {"id":104,"wave":3,"question":"What is 9/10 + 11/12?","choices":["107/60","1 47/60","1 1/2","2"],"answer":"107/60","points":20},
-    {"id":105,"wave":3,"question":"What is 11/12 + 13/14?","choices":["167/84","1 83/84","1 1/2","2"],"answer":"167/84","points":20},
-{"id":106,"wave":3,"question":"What is 3/4 - 5/6?","choices":["-1/12","1/12","1/6","1/3"],"answer":"-1/12","points":20},
-{"id":107,"wave":3,"question":"What is 5/6 - 7/8?","choices":["-1/24","1/24","1/12","1/6"],"answer":"-1/24","points":20},
-{"id":108,"wave":3,"question":"What is 7/8 - 9/10?","choices":["-1/40","1/40","1/20","1/10"],"answer":"-1/40","points":20},
-{"id":109,"wave":3,"question":"What is 9/10 - 11/12?","choices":["-1/60","1/60","1/30","1/15"],"answer":"-1/60","points":20},
-{"id":110,"wave":3,"question":"What is 11/12 - 13/14?","choices":["-1/84","1/84","1/42","1/21"],"answer":"-1/84","points":20},
-{"id":111,"wave":3,"question":"What is 3/4 × 5/6?","choices":["5/8","1/2","3/4","5/6"],"answer":"5/8","points":20},
-{"id":112,"wave":3,"question":"What is 5/6 × 7/8?","choices":["35/48","5/6","7/8","3/4"],"answer":"35/48","points":20},
-{"id":113,"wave":3,"question":"What is 7/8 × 9/10?","choices":["63/80","7/8","9/10","3/4"],"answer":"63/80","points":20},
-{"id":114,"wave":3,"question":"What is 9/10 × 11/12?","choices":["33/40","9/10","11/12","3/4"],"answer":"33/40","points":20},
-{"id":115,"wave":3,"question":"What is 11/12 × 13/14?","choices":["143/168","11/12","13/14","5/6"],"answer":"143/168","points":20},
-{"id":116,"wave":3,"question":"What is 3/4 ÷ 5/6?","choices":["9/10","3/4","5/6","6/5"],"answer":"9/10","points":20},
-{"id":117,"wave":3,"question":"What is 5/6 ÷ 7/8?","choices":["20/21","5/6","7/8","6/5"],"answer":"20/21","points":20},
-{"id":118,"wave":3,"question":"What is 7/8 ÷ 9/10?","choices":["35/36","7/8","9/10","8/7"],"answer":"35/36","points":20},
-{"id":119,"wave":3,"question":"What is 9/10 ÷ 11/12?","choices":["54/55","9/10","11/12","10/9"],"answer":"54/55","points":20},
-{"id":120,"wave":3,"question":"What is 11/12 ÷ 13/14?","choices":["77/78","11/12","13/14","12/11"],"answer":"77/78","points":20},
-{"id":121,"wave":3,"question":"What is 4/5 + 3/7?","choices":["43/35","31/35","1 8/35","1 1/5"],"answer":"43/35","points":20},
-{"id":122,"wave":3,"question":"What is 5/7 + 4/9?","choices":["73/63","1 10/63","1 1/2","2"],"answer":"73/63","points":20},
-{"id":123,"wave":3,"question":"What is 7/9 + 5/8?","choices":["101/72","1 29/72","1 1/2","2"],"answer":"101/72","points":20},
-{"id":124,"wave":3,"question":"What is 8/11 + 7/12?","choices":["163/132","1 31/132","1 1/2","2"],"answer":"163/132","points":20},
-{"id":125,"wave":3,"question":"What is 9/13 + 8/15?","choices":["271/195","1 76/195","1 1/2","2"],"answer":"271/195","points":20},
-{"id":126,"wave":3,"question":"What is 4/5 - 3/7?","choices":["13/35","11/35","1/5","2/5"],"answer":"13/35","points":20},
-{"id":127,"wave":3,"question":"What is 5/7 - 4/9?","choices":["17/63","11/63","1/7","2/7"],"answer":"17/63","points":20},
-{"id":128,"wave":3,"question":"What is 7/9 - 5/8?","choices":["11/72","1/72","1/8","1/9"],"answer":"11/72","points":20},
-{"id":129,"wave":3,"question":"What is 8/11 - 7/12?","choices":["19/132","1/132","1/11","1/12"],"answer":"19/132","points":20},
-{"id":130,"wave":3,"question":"What is 9/13 - 8/15?","choices":["31/195","1/195","1/13","1/15"],"answer":"31/195","points":20},
-{"id":131,"wave":3,"question":"What is 4/5 × 3/7?","choices":["12/35","4/5","3/7","1/2"],"answer":"12/35","points":20},
-{"id":132,"wave":3,"question":"What is 5/7 × 4/9?","choices":["20/63","5/7","4/9","1/2"],"answer":"20/63","points":20},
-{"id":133,"wave":3,"question":"What is 7/9 × 5/8?","choices":["35/72","7/9","5/8","1/2"],"answer":"35/72","points":20},
-{"id":134,"wave":3,"question":"What is 8/11 × 7/12?","choices":["14/33","8/11","7/12","1/2"],"answer":"14/33","points":20},
-{"id":135,"wave":3,"question":"What is 9/13 × 8/15?","choices":["24/65","9/13","8/15","1/2"],"answer":"24/65","points":20},
-{"id":136,"wave":3,"question":"What is 4/5 ÷ 3/7?","choices":["28/15","4/5","3/7","12/35"],"answer":"28/15","points":20},
-{"id":137,"wave":3,"question":"What is 5/7 ÷ 4/9?","choices":["45/28","5/7","4/9","20/63"],"answer":"45/28","points":20},
-{"id":138,"wave":3,"question":"What is 7/9 ÷ 5/8?","choices":["56/45","7/9","5/8","35/72"],"answer":"56/45","points":20},
-{"id":139,"wave":3,"question":"What is 8/11 ÷ 7/12?","choices":["96/77","8/11","7/12","14/33"],"answer":"96/77","points":20},
-{"id":140,"wave":3,"question":"What is 9/13 ÷ 8/15?","choices":["135/104","9/13","8/15","24/65"],"answer":"135/104","points":20},
-{"id":141,"wave":3,"question":"What is 5/6 + 7/9?","choices":["29/18","1 11/18","1 1/2","2"],"answer":"29/18","points":20},
-{"id":142,"wave":3,"question":"What is 7/8 + 5/12?","choices":["31/24","1 7/24","1 1/2","2"],"answer":"31/24","points":20},
-{"id":143,"wave":3,"question":"What is 9/10 + 7/15?","choices":["41/30","1 11/30","1 1/2","2"],"answer":"41/30","points":20},
-{"id":144,"wave":3,"question":"What is 11/12 + 9/16?","choices":["95/48","1 47/48","2","2 1/2"],"answer":"95/48","points":20},
-{"id":145,"wave":3,"question":"What is 13/15 + 11/18?","choices":["119/90","1 29/90","1 1/2","2"],"answer":"119/90","points":20},
-{"id":146,"wave":3,"question":"What is 5/6 - 7/9?","choices":["1/18","-1/18","1/9","1/6"],"answer":"-1/18","points":20},
-{"id":147,"wave":3,"question":"What is 7/8 - 5/12?","choices":["11/24","1/24","1/2","1/3"],"answer":"11/24","points":20},
-{"id":148,"wave":3,"question":"What is 9/10 - 7/15?","choices":["13/30","11/30","1/2","1/3"],"answer":"13/30","points":20},
-{"id":149,"wave":3,"question":"What is 11/12 - 9/16?","choices":["17/48","13/48","1/2","1/3"],"answer":"17/48","points":20},
-{"id":150,"wave":3,"question":"What is 13/15 - 11/18?","choices":["19/90","17/90","1/2","1/3"],"answer":"19/90","points":20},
-
-{"id":151,"wave":4,"question":"What is 7/8 + 9/10?","choices":["79/40","1 39/40","2","2 1/2"],"answer":"79/40","points":25},
-{"id":152,"wave":4,"question":"What is 9/10 + 11/12?","choices":["107/60","1 47/60","2","2 1/2"],"answer":"107/60","points":25},
-{"id":153,"wave":4,"question":"What is 11/12 + 13/14?","choices":["167/84","1 83/84","2","2 1/2"],"answer":"167/84","points":25},
-{"id":154,"wave":4,"question":"What is 13/14 + 15/16?","choices":["227/112","2 3/112","2","2 1/2"],"answer":"227/112","points":25},
-{"id":155,"wave":4,"question":"What is 15/16 + 17/18?","choices":["263/144","1 119/144","2","2 1/2"],"answer":"263/144","points":25},
-{"id":156,"wave":4,"question":"What is 7/8 - 9/10?","choices":["-1/40","1/40","1/20","1/10"],"answer":"-1/40","points":25},
-{"id":157,"wave":4,"question":"What is 9/10 - 11/12?","choices":["-1/60","1/60","1/30","1/15"],"answer":"-1/60","points":25},
-{"id":158,"wave":4,"question":"What is 11/12 - 13/14?","choices":["-1/84","1/84","1/42","1/21"],"answer":"-1/84","points":25},
-{"id":159,"wave":4,"question":"What is 13/14 - 15/16?","choices":["-1/112","1/112","1/56","1/28"],"answer":"-1/112","points":25},
-{"id":160,"wave":4,"question":"What is 15/16 - 17/18?","choices":["-1/144","1/144","1/72","1/36"],"answer":"-1/144","points":25},
-{"id":161,"wave":4,"question":"What is 7/8 × 9/10?","choices":["63/80","7/8","9/10","3/4"],"answer":"63/80","points":25},
-{"id":162,"wave":4,"question":"What is 9/10 × 11/12?","choices":["33/40","9/10","11/12","3/4"],"answer":"33/40","points":25},
-{"id":163,"wave":4,"question":"What is 11/12 × 13/14?","choices":["143/168","11/12","13/14","5/6"],"answer":"143/168","points":25},
-{"id":164,"wave":4,"question":"What is 13/14 × 15/16?","choices":["195/224","13/14","15/16","7/8"],"answer":"195/224","points":25},
-{"id":165,"wave":4,"question":"What is 15/16 × 17/18?","choices":["255/288","15/16","17/18","5/6"],"answer":"255/288","points":25},
-{"id":166,"wave":4,"question":"What is 7/8 ÷ 9/10?","choices":["35/36","7/8","9/10","8/7"],"answer":"35/36","points":25},
-{"id":167,"wave":4,"question":"What is 9/10 ÷ 11/12?","choices":["54/55","9/10","11/12","10/9"],"answer":"54/55","points":25},
-{"id":168,"wave":4,"question":"What is 11/12 ÷ 13/14?","choices":["77/78","11/12","13/14","12/11"],"answer":"77/78","points":25},
-{"id":169,"wave":4,"question":"What is 13/14 ÷ 15/16?","choices":["104/105","13/14","15/16","15/14"],"answer":"104/105","points":25},
-{"id":170,"wave":4,"question":"What is 15/16 ÷ 17/18?","choices":["135/136","15/16","17/18","18/17"],"answer":"135/136","points":25},
-{"id":171,"wave":4,"question":"What is 4/5 + 2/3?","choices":["22/15","1 7/15","1 1/2","2"],"answer":"22/15","points":25},
-{"id":172,"wave":4,"question":"What is 5/7 + 3/4?","choices":["41/28","1 13/28","1 1/2","2"],"answer":"41/28","points":25},
-{"id":173,"wave":4,"question":"What is 7/9 + 4/5?","choices":["71/45","1 26/45","1 1/2","2"],"answer":"71/45","points":25},
-{"id":174,"wave":4,"question":"What is 8/11 + 5/6?","choices":["103/66","1 37/66","1 1/2","2"],"answer":"103/66","points":25},
-{"id":175,"wave":4,"question":"What is 9/13 + 6/7?","choices":["141/91","1 50/91","1 1/2","2"],"answer":"141/91","points":25},
-{"id":176,"wave":4,"question":"What is 4/5 - 2/3?","choices":["2/15","1/15","1/5","1/3"],"answer":"2/15","points":25},
-{"id":177,"wave":4,"question":"What is 5/7 - 3/4?","choices":["-1/28","1/28","1/7","1/4"],"answer":"-1/28","points":25},
-{"id":178,"wave":4,"question":"What is 7/9 - 4/5?","choices":["-1/45","1/45","1/9","1/5"],"answer":"-1/45","points":25},
-{"id":179,"wave":4,"question":"What is 8/11 - 5/6?","choices":["-7/66","7/66","1/11","1/6"],"answer":"-7/66","points":25},
-{"id":180,"wave":4,"question":"What is 9/13 - 6/7?","choices":["-15/91","15/91","1/13","1/7"],"answer":"-15/91","points":25},
-{"id":181,"wave":4,"question":"What is 4/5 × 3/7?","choices":["12/35","4/5","3/7","1/2"],"answer":"12/35","points":25},
-{"id":182,"wave":4,"question":"What is 5/7 × 4/9?","choices":["20/63","5/7","4/9","1/2"],"answer":"20/63","points":25},
-{"id":183,"wave":4,"question":"What is 7/9 × 5/8?","choices":["35/72","7/9","5/8","1/2"],"answer":"35/72","points":25},
-{"id":184,"wave":4,"question":"What is 8/11 × 5/6?","choices":["20/33","8/11","5/6","1/2"],"answer":"20/33","points":25},
-{"id":185,"wave":4,"question":"What is 9/13 × 4/5?","choices":["36/65","9/13","4/5","1/2"],"answer":"36/65","points":25},
-{"id":186,"wave":4,"question":"What is 4/5 ÷ 3/7?","choices":["28/15","4/5","3/7","12/35"],"answer":"28/15","points":25},
-{"id":187,"wave":4,"question":"What is 5/7 ÷ 4/9?","choices":["45/28","5/7","4/9","20/63"],"answer":"45/28","points":25},
-{"id":188,"wave":4,"question":"What is 7/9 ÷ 5/8?","choices":["56/45","7/9","5/8","35/72"],"answer":"56/45","points":25},
-{"id":189,"wave":4,"question":"What is 8/11 ÷ 5/6?","choices":["48/55","8/11","5/6","20/33"],"answer":"48/55","points":25},
-{"id":190,"wave":4,"question":"What is 9/13 ÷ 4/5?","choices":["45/52","9/13","4/5","36/65"],"answer":"45/52","points":25},
-
-{"id":191,"wave":5,"question":"What is -1/2 + 3/4?","choices":["1/4","1/2","3/4","1"],"answer":"1/4","points":30},
-{"id":192,"wave":5,"question":"What is -2/3 + 5/6?","choices":["1/6","1/3","1/2","2/3"],"answer":"1/6","points":30},
-{"id":193,"wave":5,"question":"What is -3/4 + 7/8?","choices":["1/8","1/4","3/8","1/2"],"answer":"1/8","points":30},
-{"id":194,"wave":5,"question":"What is -4/5 + 9/10?","choices":["1/10","1/5","3/10","2/5"],"answer":"1/10","points":30},
-{"id":195,"wave":5,"question":"What is -5/6 + 11/12?","choices":["1/12","1/6","1/4","1/3"],"answer":"1/12","points":30},
-{"id":196,"wave":5,"question":"What is -1/2 - 1/3?","choices":["-5/6","-1/2","-1/3","-1/6"],"answer":"-5/6","points":30},
-{"id":197,"wave":5,"question":"What is -2/3 - 3/4?","choices":["-17/12","-3/2","-1","-1/2"],"answer":"-17/12","points":30},
-{"id":198,"wave":5,"question":"What is -3/4 - 4/5?","choices":["-31/20","-3/2","-1","-1/2"],"answer":"-31/20","points":30},
-{"id":199,"wave":5,"question":"What is -4/5 - 5/6?","choices":["-49/30","-3/2","-1","-1/2"],"answer":"-49/30","points":30},
-{"id":200,"wave":5,"question":"What is -5/6 - 6/7?","choices":["-71/42","-2","-1","-1/2"],"answer":"-71/42","points":30},
-{"id":201,"wave":5,"question":"What is -1/2 × 3/4?","choices":["-3/8","-1/2","-1/4","-1/8"],"answer":"-3/8","points":30},
-{"id":202,"wave":5,"question":"What is -2/3 × 3/5?","choices":["-2/5","-2/3","-3/5","-1/2"],"answer":"-2/5","points":30},
-{"id":203,"wave":5,"question":"What is -3/4 × 4/7?","choices":["-3/7","-3/4","-4/7","-1/2"],"answer":"-3/7","points":30},
-{"id":204,"wave":5,"question":"What is -4/5 × 5/8?","choices":["-1/2","-4/5","-5/8","-1/4"],"answer":"-1/2","points":30},
-{"id":205,"wave":5,"question":"What is -5/6 × 6/11?","choices":["-5/11","-5/6","-6/11","-1/2"],"answer":"-5/11","points":30},
-{"id":206,"wave":5,"question":"What is -1/2 ÷ 3/4?","choices":["-2/3","-1/2","-3/4","-1"],"answer":"-2/3","points":30},
-{"id":207,"wave":5,"question":"What is -2/3 ÷ 3/5?","choices":["-10/9","-2/3","-3/5","-1"],"answer":"-10/9","points":30},
-{"id":208,"wave":5,"question":"What is -3/4 ÷ 4/7?","choices":["-21/16","-3/4","-4/7","-1"],"answer":"-21/16","points":30},
-{"id":209,"wave":5,"question":"What is -4/5 ÷ 5/8?","choices":["-32/25","-4/5","-5/8","-1"],"answer":"-32/25","points":30},
-{"id":210,"wave":5,"question":"What is -5/6 ÷ 6/11?","choices":["-55/36","-5/6","-6/11","-1"],"answer":"-55/36","points":30},
-{"id":211,"wave":5,"question":"What is -7/8 + 8/9?","choices":["1/72","-1/72","1/36","-1/36"],"answer":"1/72","points":30},
-{"id":212,"wave":5,"question":"What is -8/9 + 9/10?","choices":["1/90","-1/90","1/45","-1/45"],"answer":"1/90","points":30},
-{"id":213,"wave":5,"question":"What is -9/10 + 10/11?","choices":["1/110","-1/110","1/55","-1/55"],"answer":"1/110","points":30},
-{"id":214,"wave":5,"question":"What is -10/11 + 11/12?","choices":["1/132","-1/132","1/66","-1/66"],"answer":"1/132","points":30},
-{"id":215,"wave":5,"question":"What is -11/12 + 12/13?","choices":["1/156","-1/156","1/78","-1/78"],"answer":"1/156","points":30},
-{"id":216,"wave":5,"question":"What is -7/8 - 8/9?","choices":["-127/72","-2","-1","-1/2"],"answer":"-127/72","points":30},
-{"id":217,"wave":5,"question":"What is -8/9 - 9/10?","choices":["-161/90","-2","-1","-1/2"],"answer":"-161/90","points":30},
-{"id":218,"wave":5,"question":"What is -9/10 - 10/11?","choices":["-199/110","-2","-1","-1/2"],"answer":"-199/110","points":30},
-{"id":219,"wave":5,"question":"What is -10/11 - 11/12?","choices":["-241/132","-2","-1","-1/2"],"answer":"-241/132","points":30},
-{"id":220,"wave":5,"question":"What is -11/12 - 12/13?","choices":["-287/156","-2","-1","-1/2"],"answer":"-287/156","points":30},
-{"id":221,"wave":5,"question":"What is -7/8 × 8/9?","choices":["-7/9","-7/8","-8/9","-1"],"answer":"-7/9","points":30},
-{"id":222,"wave":5,"question":"What is -8/9 × 9/10?","choices":["-4/5","-8/9","-9/10","-1"],"answer":"-4/5","points":30},
-{"id":223,"wave":5,"question":"What is -9/10 × 10/11?","choices":["-9/11","-9/10","-10/11","-1"],"answer":"-9/11","points":30},
-{"id":224,"wave":5,"question":"What is -10/11 × 11/12?","choices":["-5/6","-10/11","-11/12","-1"],"answer":"-5/6","points":30},
-{"id":225,"wave":5,"question":"What is -11/12 × 12/13?","choices":["-11/13","-11/12","-12/13","-1"],"answer":"-11/13","points":30},
-{"id":226,"wave":5,"question":"What is -7/8 ÷ 8/9?","choices":["-63/64","-7/8","-8/9","-1"],"answer":"-63/64","points":30},
-{"id":227,"wave":5,"question":"What is -8/9 ÷ 9/10?","choices":["-80/81","-8/9","-9/10","-1"],"answer":"-80/81","points":30},
-{"id":228,"wave":5,"question":"What is -9/10 ÷ 10/11?","choices":["-99/100","-9/10","-10/11","-1"],"answer":"-99/100","points":30},
-{"id":229,"wave":5,"question":"What is -10/11 ÷ 11/12?","choices":["-120/121","-10/11","-11/12","-1"],"answer":"-120/121","points":30},
-{"id":230,"wave":5,"question":"What is -11/12 ÷ 12/13?","choices":["-143/144","-11/12","-12/13","-1"],"answer":"-143/144","points":30},
-{"id":231,"wave":5,"question":"What is 1/2 + (-1/4)?","choices":["1/4","1/2","3/4","1"],"answer":"1/4","points":30},
-{"id":232,"wave":5,"question":"What is 2/3 + (-1/6)?","choices":["1/2","2/3","5/6","1"],"answer":"1/2","points":30},
-{"id":233,"wave":5,"question":"What is 3/4 + (-2/5)?","choices":["7/20","11/20","1/2","1"],"answer":"7/20","points":30},
-{"id":234,"wave":5,"question":"What is 4/5 + (-3/10)?","choices":["1/2","4/5","3/10","7/10"],"answer":"1/2","points":30},
-{"id":235,"wave":5,"question":"What is 5/6 + (-1/3)?","choices":["1/2","5/6","1/3","2/3"],"answer":"1/2","points":30},
-{"id":236,"wave":5,"question":"What is 1/2 - (-1/4)?","choices":["3/4","1/2","1/4","1"],"answer":"3/4","points":30},
-{"id":237,"wave":5,"question":"What is 2/3 - (-1/6)?","choices":["5/6","2/3","1/6","1"],"answer":"5/6","points":30},
-{"id":238,"wave":5,"question":"What is 3/4 - (-2/5)?","choices":["23/20","3/4","2/5","1"],"answer":"23/20","points":30},
-{"id":239,"wave":5,"question":"What is 4/5 - (-3/10)?","choices":["11/10","4/5","3/10","7/10"],"answer":"11/10","points":30},
-{"id":240,"wave":5,"question":"What is 5/6 - (-1/3)?","choices":["7/6","5/6","1/3","2/3"],"answer":"7/6","points":30},
-{"id":241,"wave":5,"question":"What is 1/2 × (-1/3)?","choices":["-1/6","-1/2","-1/3","1/6"],"answer":"-1/6","points":30},
-{"id":242,"wave":5,"question":"What is 2/3 × (-3/4)?","choices":["-1/2","-2/3","-3/4","1/2"],"answer":"-1/2","points":30},
-{"id":243,"wave":5,"question":"What is 3/4 × (-2/5)?","choices":["-3/10","-3/4","-2/5","3/10"],"answer":"-3/10","points":30},
-{"id":244,"wave":5,"question":"What is 4/5 × (-3/8)?","choices":["-3/10","-4/5","-3/8","3/10"],"answer":"-3/10","points":30},
-{"id":245,"wave":5,"question":"What is 5/6 × (-4/7)?","choices":["-10/21","-5/6","-4/7","10/21"],"answer":"-10/21","points":30},
-{"id":246,"wave":5,"question":"What is 1/2 ÷ (-1/4)?","choices":["-2","-1/2","-1/4","2"],"answer":"-2","points":30},
-{"id":247,"wave":5,"question":"What is 2/3 ÷ (-1/3)?","choices":["-2","-2/3","-1/3","2"],"answer":"-2","points":30},
-{"id":248,"wave":5,"question":"What is 3/4 ÷ (-2/5)?","choices":["-15/8","-3/4","-2/5","15/8"],"answer":"-15/8","points":30},
-{"id":249,"wave":5,"question":"What is 4/5 ÷ (-3/10)?","choices":["-8/3","-4/5","-3/10","8/3"],"answer":"-8/3","points":30},
-{"id":250,"wave":5,"question":"What is 5/6 ÷ (-5/12)?","choices":["-2","-5/6","-5/12","2"],"answer":"-2","points":30}
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{4} + \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} - \\frac{1}{3} $?",
+      "choices": [
+        "$ 0 $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ 0 $",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{2} \\times \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{1}{8} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{1}{8} $",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} \\div \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{3}{2} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{2}{3} $",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{2}{4} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{2}{4} $",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "What is $ \\frac{2}{5} + \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{3}{5} $",
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{3}{6} $"
+      ],
+      "answer": "$ \\frac{3}{5} $",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "What is $ \\frac{4}{5} - \\frac{2}{5} $?",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{4}{5} $",
+        "$ \\frac{6}{5} $",
+        "$ \\frac{2}{4} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{5} \\times \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{1}{15} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{1}{15} $",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{4} \\div \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{4}{3} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{2}{3} $?",
+      "choices": [
+        "$ \\frac{4}{6} $",
+        "$ \\frac{2}{6} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{4}{6} $",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{6} + \\frac{2}{6} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{3}{6} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{3}{7} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "What is $ \\frac{5}{6} - \\frac{1}{6} $?",
+      "choices": [
+        "$ \\frac{2}{3} $",
+        "$ \\frac{4}{6} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{4}{5} $"
+      ],
+      "answer": "$ \\frac{2}{3} $",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{2} \\times \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{1}{10} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{1}{10} $",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{5} \\div \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{4}{5} $",
+        "$ \\frac{1}{20} $",
+        "$ \\frac{5}{4} $",
+        "$ \\frac{1}{9} $"
+      ],
+      "answer": "$ \\frac{4}{5} $",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{3}{4} $?",
+      "choices": [
+        "$ \\frac{6}{8} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{4}{5} $",
+        "$ \\frac{2}{4} $"
+      ],
+      "answer": "$ \\frac{6}{8} $",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{5} + \\frac{3}{5} $?",
+      "choices": [
+        "$ \\frac{4}{5} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{4}{6} $"
+      ],
+      "answer": "$ \\frac{4}{5} $",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "What is $ \\frac{3}{4} - \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{4} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{2}{3} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} \\times \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{1}{12} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{1}{12} $",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{2} \\div \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{5}{2} $",
+        "$ \\frac{1}{10} $",
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{5}{2} $",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{2}{6} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{2}{6} $",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "What is $ \\frac{2}{3} + \\frac{1}{3} $?",
+      "choices": [
+        "$ 1 $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{3}{3} $",
+        "$ \\frac{3}{4} $"
+      ],
+      "answer": "$ 1 $",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "What is $ \\frac{5}{6} - \\frac{3}{6} $?",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{2}{6} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{5} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{4} \\times \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{1}{8} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{1}{8} $",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} \\div \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{5}{3} $",
+        "$ \\frac{1}{15} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{8} $"
+      ],
+      "answer": "$ \\frac{5}{3} $",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{2}{8} $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{2}{8} $",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{2} + \\frac{1}{2} $?",
+      "choices": [
+        "$ 1 $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{2} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 $",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "What is $ \\frac{3}{5} - \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{4}{5} $",
+        "$ \\frac{2}{4} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{5} \\times \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{1}{10} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{1}{10} $",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{4} \\div \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{5}{4} $",
+        "$ \\frac{1}{20} $",
+        "$ \\frac{4}{5} $",
+        "$ \\frac{1}{9} $"
+      ],
+      "answer": "$ \\frac{5}{4} $",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{2}{5} $?",
+      "choices": [
+        "$ \\frac{4}{10} $",
+        "$ \\frac{2}{10} $",
+        "$ \\frac{3}{6} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{4}{10} $",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} + \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{3}{3} $",
+        "$ \\frac{2}{4} $"
+      ],
+      "answer": "$ \\frac{2}{3} $",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "What is $ \\frac{4}{5} - \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{3}{5} $",
+        "$ \\frac{4}{5} $",
+        "$ \\frac{5}{5} $",
+        "$ \\frac{3}{4} $"
+      ],
+      "answer": "$ \\frac{3}{5} $",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{2} \\times \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{1}{6} $",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} \\div \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{4}{3} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{4}{3} $",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{3}{5} $?",
+      "choices": [
+        "$ \\frac{6}{10} $",
+        "$ \\frac{3}{10} $",
+        "$ \\frac{4}{6} $",
+        "$ \\frac{2}{5} $"
+      ],
+      "answer": "$ \\frac{6}{10} $",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{4} + \\frac{2}{4} $?",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{2}{4} $",
+        "$ \\frac{3}{5} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "What is $ \\frac{2}{3} - \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{3}{3} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{2} \\times \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{1}{10} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{1}{10} $",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{5} \\div \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{15} $",
+        "$ \\frac{5}{3} $",
+        "$ \\frac{1}{8} $"
+      ],
+      "answer": "$ \\frac{3}{5} $",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{2}{10} $",
+        "$ \\frac{1}{10} $",
+        "$ \\frac{3}{6} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{2}{10} $",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "What is $ \\frac{2}{5} + \\frac{2}{5} $?",
+      "choices": [
+        "$ \\frac{4}{5} $",
+        "$ \\frac{2}{5} $",
+        "$ \\frac{4}{6} $",
+        "$ \\frac{4}{4} $"
+      ],
+      "answer": "$ \\frac{4}{5} $",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "What is $ \\frac{3}{6} - \\frac{1}{6} $?",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{2}{6} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{5} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} \\times \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{1}{15} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{1}{15} $",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{2} \\div \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{3}{2} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{3}{2} $",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{2}{4} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{8} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{5} + \\frac{1}{5} $?",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{2}{6} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "What is $ \\frac{4}{6} - \\frac{1}{6} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{3}{6} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{3}{5} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{4} \\times \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{1}{12} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{1}{12} $",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "What is $ \\frac{1}{3} \\div \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{3}{2} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{2}{3} $",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Which fraction is equivalent to $ \\frac{3}{6} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{3}{12} $",
+        "$ \\frac{4}{7} $",
+        "$ \\frac{2}{3} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{2} + \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{2}{6} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{2} - \\frac{1}{6} $?",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{2}{8} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Calculate $ \\frac{2}{3} \\times \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{1}{6} $",
+        "$ \\frac{2}{12} $",
+        "$ \\frac{3}{7} $",
+        "$ \\frac{2}{7} $"
+      ],
+      "answer": "$ \\frac{1}{6} $",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Divide $ \\frac{3}{4} $ by $ \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{3}{2} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{4}{6} $",
+        "$ \\frac{2}{3} $"
+      ],
+      "answer": "$ \\frac{3}{2} $",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Convert the mixed number $ 1 \\frac{1}{2} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{3}{2} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{1} $",
+        "$ \\frac{4}{2} $"
+      ],
+      "answer": "$ \\frac{3}{2} $",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{3} + \\frac{1}{6} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{9} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "What is $ \\frac{2}{3} - \\frac{1}{6} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{3}{9} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{2}{3} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Calculate $ \\frac{1}{2} \\times \\frac{3}{4} $.",
+      "choices": [
+        "$ \\frac{3}{8} $",
+        "$ \\frac{4}{6} $",
+        "$ \\frac{3}{6} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{3}{8} $",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Divide $ \\frac{2}{5} $ by $ \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{4}{5} $",
+        "$ \\frac{2}{10} $",
+        "$ \\frac{5}{4} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{4}{5} $",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Convert the mixed number $ 1 \\frac{1}{3} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{4}{3} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{3}{1} $",
+        "$ \\frac{5}{3} $"
+      ],
+      "answer": "$ \\frac{4}{3} $",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{4} + \\frac{1}{8} $?",
+      "choices": [
+        "$ \\frac{3}{8} $",
+        "$ \\frac{2}{12} $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{3}{8} $",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "What is $ \\frac{3}{4} - \\frac{1}{8} $?",
+      "choices": [
+        "$ \\frac{5}{8} $",
+        "$ \\frac{2}{12} $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{3}{4} $"
+      ],
+      "answer": "$ \\frac{5}{8} $",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Calculate $ \\frac{3}{5} \\times \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{3}{10} $",
+        "$ \\frac{4}{7} $",
+        "$ \\frac{3}{7} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{3}{10} $",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Divide $ \\frac{1}{3} $ by $ \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{4}{3} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{4}{3} $",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Convert the mixed number $ 2 \\frac{1}{2} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{5}{2} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{1} $",
+        "$ \\frac{6}{2} $"
+      ],
+      "answer": "$ \\frac{5}{2} $",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{2} + \\frac{3}{8} $?",
+      "choices": [
+        "$ \\frac{7}{8} $",
+        "$ \\frac{4}{10} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{7}{8} $",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "What is $ \\frac{5}{6} - \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{4}{9} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{5}{6} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Calculate $ \\frac{1}{4} \\times \\frac{2}{5} $.",
+      "choices": [
+        "$ \\frac{1}{10} $",
+        "$ \\frac{3}{9} $",
+        "$ \\frac{2}{20} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{1}{10} $",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Divide $ \\frac{3}{5} $ by $ \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{9}{5} $",
+        "$ \\frac{3}{15} $",
+        "$ \\frac{5}{9} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{9}{5} $",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Convert the mixed number $ 2 \\frac{1}{3} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{7}{3} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{3}{1} $",
+        "$ \\frac{8}{3} $"
+      ],
+      "answer": "$ \\frac{7}{3} $",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "What is $ \\frac{2}{5} + \\frac{3}{10} $?",
+      "choices": [
+        "$ \\frac{7}{10} $",
+        "$ \\frac{5}{15} $",
+        "$ \\frac{3}{10} $",
+        "$ \\frac{2}{5} $"
+      ],
+      "answer": "$ \\frac{7}{10} $",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "What is $ \\frac{4}{5} - \\frac{3}{10} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{15} $",
+        "$ \\frac{3}{10} $",
+        "$ \\frac{4}{5} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Calculate $ \\frac{1}{5} \\times \\frac{2}{3} $.",
+      "choices": [
+        "$ \\frac{2}{15} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{2}{8} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{2}{15} $",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Divide $ \\frac{1}{2} $ by $ \\frac{1}{5} $.",
+      "choices": [
+        "$ \\frac{5}{2} $",
+        "$ \\frac{1}{10} $",
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{5}{2} $",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Convert the mixed number $ 3 \\frac{1}{2} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{7}{2} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{1} $",
+        "$ \\frac{8}{2} $"
+      ],
+      "answer": "$ \\frac{7}{2} $",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "What is $ \\frac{3}{4} + \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{5}{4} $",
+        "$ \\frac{4}{6} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{3}{4} $"
+      ],
+      "answer": "$ \\frac{5}{4} $",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "What is $ \\frac{2}{3} - \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{3} $"
+      ],
+      "answer": "$ \\frac{1}{6} $",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Calculate $ \\frac{1}{3} \\times \\frac{2}{5} $.",
+      "choices": [
+        "$ \\frac{2}{15} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{2}{8} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{2}{15} $",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Divide $ \\frac{1}{4} $ by $ \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{4}{3} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Convert the mixed number $ 3 \\frac{1}{4} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{13}{4} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{4}{1} $",
+        "$ \\frac{14}{4} $"
+      ],
+      "answer": "$ \\frac{13}{4} $",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{6} + \\frac{1}{3} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{9} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{6} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "What is $ \\frac{5}{8} - \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{3}{8} $",
+        "$ \\frac{4}{12} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{5}{8} $"
+      ],
+      "answer": "$ \\frac{3}{8} $",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Calculate $ \\frac{2}{5} \\times \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{2}{15} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{2}{8} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{2}{15} $",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Divide $ \\frac{1}{5} $ by $ \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{10} $",
+        "$ \\frac{5}{2} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Convert the mixed number $ 1 \\frac{2}{3} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{5}{3} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{3}{1} $",
+        "$ \\frac{6}{3} $"
+      ],
+      "answer": "$ \\frac{5}{3} $",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{3} + \\frac{2}{9} $?",
+      "choices": [
+        "$ \\frac{5}{9} $",
+        "$ \\frac{3}{12} $",
+        "$ \\frac{2}{9} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{5}{9} $",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "What is $ \\frac{7}{8} - \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{3}{8} $",
+        "$ \\frac{6}{10} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{7}{8} $"
+      ],
+      "answer": "$ \\frac{3}{8} $",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Calculate $ \\frac{3}{4} \\times \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{1}{4} $",
+        "$ \\frac{4}{7} $",
+        "$ \\frac{3}{12} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{1}{4} $",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Divide $ \\frac{2}{3} $ by $ \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{8}{3} $",
+        "$ \\frac{2}{12} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{8}{3} $",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Convert the mixed number $ 2 \\frac{3}{4} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{11}{4} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{4}{1} $",
+        "$ \\frac{12}{4} $"
+      ],
+      "answer": "$ \\frac{11}{4} $",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{5} + \\frac{3}{10} $?",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{4}{15} $",
+        "$ \\frac{3}{10} $",
+        "$ \\frac{1}{5} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "What is $ \\frac{5}{6} - \\frac{1}{2} $?",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{4}{8} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{5}{6} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Calculate $ \\frac{1}{2} \\times \\frac{4}{5} $.",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{5}{7} $",
+        "$ \\frac{4}{10} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Divide $ \\frac{3}{4} $ by $ \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{9}{4} $",
+        "$ \\frac{3}{12} $",
+        "$ \\frac{4}{9} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{9}{4} $",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Convert the mixed number $ 1 \\frac{3}{5} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{8}{5} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{5}{1} $",
+        "$ \\frac{9}{5} $"
+      ],
+      "answer": "$ \\frac{8}{5} $",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "What is $ \\frac{1}{2} + \\frac{1}{8} $?",
+      "choices": [
+        "$ \\frac{5}{8} $",
+        "$ \\frac{2}{10} $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{5}{8} $",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "What is $ \\frac{2}{3} - \\frac{1}{4} $?",
+      "choices": [
+        "$ \\frac{5}{12} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{2}{3} $"
+      ],
+      "answer": "$ \\frac{5}{12} $",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Calculate $ \\frac{2}{3} \\times \\frac{3}{4} $.",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{5}{7} $",
+        "$ \\frac{6}{12} $",
+        "$ \\frac{2}{3} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Divide $ \\frac{1}{2} $ by $ \\frac{1}{4} $.",
+      "choices": [
+        "$ 2 $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{4}{2} $",
+        "$ \\frac{1}{6} $"
+      ],
+      "answer": "$ 2 $",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Convert the mixed number $ 2 \\frac{1}{4} $ to an improper fraction.",
+      "choices": [
+        "$ \\frac{9}{4} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{4}{1} $",
+        "$ \\frac{10}{4} $"
+      ],
+      "answer": "$ \\frac{9}{4} $",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Add $ 1 \\frac{1}{2} $ and $ 2 \\frac{1}{3} $.",
+      "choices": [
+        "$ 3 \\frac{5}{6} $",
+        "$ 3 \\frac{2}{5} $",
+        "$ 4 \\frac{1}{2} $",
+        "$ 3 \\frac{5}{7} $"
+      ],
+      "answer": "$ 3 \\frac{5}{6} $",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{4} $ from $ 3 \\frac{1}{2} $.",
+      "choices": [
+        "$ 2 \\frac{1}{4} $",
+        "$ 2 \\frac{1}{6} $",
+        "$ 2 \\frac{1}{5} $",
+        "$ 2 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 \\frac{1}{4} $",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{2} $ by $ 2 \\frac{1}{4} $.",
+      "choices": [
+        "$ 3 \\frac{3}{8} $",
+        "$ 2 \\frac{1}{8} $",
+        "$ 3 \\frac{1}{2} $",
+        "$ 3 \\frac{1}{4} $"
+      ],
+      "answer": "$ 3 \\frac{3}{8} $",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Divide $ 2 \\frac{1}{2} $ by $ 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 2 $",
+        "$ 1 \\frac{1}{2} $",
+        "$ 2 \\frac{1}{2} $",
+        "$ 1 $",
+        "$ 2 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 $",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{7}{3} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{1}{3} $",
+        "$ 1 \\frac{2}{3} $",
+        "$ 3 \\frac{1}{3} $",
+        "$ 2 \\frac{1}{4} $"
+      ],
+      "answer": "$ 2 \\frac{1}{3} $",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Add $ 1 \\frac{1}{3} $ and $ 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 2 \\frac{7}{12} $",
+        "$ 2 \\frac{2}{7} $",
+        "$ 3 \\frac{1}{3} $",
+        "$ 2 \\frac{7}{13} $"
+      ],
+      "answer": "$ 2 \\frac{7}{12} $",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{3} $ from $ 2 \\frac{1}{2} $.",
+      "choices": [
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{5} $",
+        "$ 1 \\frac{1}{7} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{1}{6} $",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{3} $ by $ 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 2 $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 2 \\frac{1}{2} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 $",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Divide $ 1 \\frac{3}{4} $ by $ \\frac{1}{2} $.",
+      "choices": [
+        "$ 3 \\frac{1}{2} $",
+        "$ 1 \\frac{3}{8} $",
+        "$ 3 \\frac{1}{3} $",
+        "$ 1 \\frac{1}{2} $"
+      ],
+      "answer": "$ 3 \\frac{1}{2} $",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{9}{4} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{1}{4} $",
+        "$ 1 \\frac{3}{4} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 2 \\frac{1}{5} $"
+      ],
+      "answer": "$ 2 \\frac{1}{4} $",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Add $ 2 \\frac{1}{4} $ and $ 1 \\frac{1}{5} $.",
+      "choices": [
+        "$ 3 \\frac{9}{20} $",
+        "$ 3 \\frac{2}{9} $",
+        "$ 4 \\frac{1}{4} $",
+        "$ 3 \\frac{9}{21} $"
+      ],
+      "answer": "$ 3 \\frac{9}{20} $",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{2} $ from $ 3 \\frac{1}{3} $.",
+      "choices": [
+        "$ 1 \\frac{5}{6} $",
+        "$ 1 \\frac{1}{5} $",
+        "$ 1 \\frac{1}{7} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{5}{6} $",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{2}{3} $ by $ 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 2 \\frac{1}{12} $",
+        "$ 1 \\frac{2}{12} $",
+        "$ 2 \\frac{1}{5} $",
+        "$ 2 \\frac{1}{4} $"
+      ],
+      "answer": "$ 2 \\frac{1}{12} $",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Divide $ 3 \\frac{1}{2} $ by $ 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 2 \\frac{5}{8} $",
+        "$ 2 \\frac{1}{2} $",
+        "$ 2 \\frac{5}{9} $",
+        "$ 2 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 \\frac{5}{8} $",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{11}{5} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{1}{5} $",
+        "$ 1 \\frac{4}{5} $",
+        "$ 3 \\frac{1}{5} $",
+        "$ 2 \\frac{1}{6} $"
+      ],
+      "answer": "$ 2 \\frac{1}{5} $",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Add $ 1 \\frac{1}{4} $ and $ 2 \\frac{1}{6} $.",
+      "choices": [
+        "$ 3 \\frac{5}{12} $",
+        "$ 3 \\frac{2}{10} $",
+        "$ 4 \\frac{1}{4} $",
+        "$ 3 \\frac{5}{13} $"
+      ],
+      "answer": "$ 3 \\frac{5}{12} $",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{5} $ from $ 2 \\frac{1}{2} $.",
+      "choices": [
+        "$ 1 \\frac{3}{10} $",
+        "$ 1 \\frac{1}{7} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{3}{10} $",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{4} $ by $ 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 1 \\frac{2}{3} $",
+        "$ 1 \\frac{1}{12} $",
+        "$ 1 \\frac{2}{4} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{2}{3} $",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Divide $ 2 \\frac{1}{3} $ by $ 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 1 \\frac{5}{9} $",
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{5}{10} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{5}{9} $",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{13}{4} $ to a mixed number.",
+      "choices": [
+        "$ 3 \\frac{1}{4} $",
+        "$ 2 \\frac{3}{4} $",
+        "$ 4 \\frac{1}{4} $",
+        "$ 3 \\frac{1}{5} $"
+      ],
+      "answer": "$ 3 \\frac{1}{4} $",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Add $ 1 \\frac{1}{5} $ and $ 2 \\frac{1}{2} $.",
+      "choices": [
+        "$ 3 \\frac{7}{10} $",
+        "$ 3 \\frac{2}{7} $",
+        "$ 4 \\frac{1}{5} $",
+        "$ 3 \\frac{7}{11} $"
+      ],
+      "answer": "$ 3 \\frac{7}{10} $",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{3} $ from $ 3 \\frac{1}{4} $.",
+      "choices": [
+        "$ 1 \\frac{11}{12} $",
+        "$ 1 \\frac{1}{7} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{11}{12} $",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{3} $ by $ 2 \\frac{1}{2} $.",
+      "choices": [
+        "$ 3 \\frac{1}{3} $",
+        "$ 2 \\frac{1}{6} $",
+        "$ 3 \\frac{1}{2} $",
+        "$ 3 \\frac{1}{4} $"
+      ],
+      "answer": "$ 3 \\frac{1}{3} $",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Divide $ 2 \\frac{1}{2} $ by $ 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 1 \\frac{7}{8} $",
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{7}{9} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{7}{8} $",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{15}{6} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{1}{2} $",
+        "$ 1 \\frac{5}{6} $",
+        "$ 3 \\frac{1}{6} $",
+        "$ 2 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 \\frac{1}{2} $",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Add $ 2 \\frac{1}{2} $ and $ 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 3 \\frac{5}{6} $",
+        "$ 3 \\frac{2}{5} $",
+        "$ 4 \\frac{1}{2} $",
+        "$ 3 \\frac{5}{7} $"
+      ],
+      "answer": "$ 3 \\frac{5}{6} $",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{6} $ from $ 3 \\frac{1}{2} $.",
+      "choices": [
+        "$ 2 \\frac{1}{3} $",
+        "$ 2 \\frac{1}{7} $",
+        "$ 2 \\frac{1}{5} $",
+        "$ 2 \\frac{1}{4} $"
+      ],
+      "answer": "$ 2 \\frac{1}{3} $",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{4} $ by $ 2 \\frac{1}{3} $.",
+      "choices": [
+        "$ 2 \\frac{11}{12} $",
+        "$ 2 \\frac{1}{12} $",
+        "$ 2 \\frac{1}{5} $",
+        "$ 2 \\frac{1}{4} $"
+      ],
+      "answer": "$ 2 \\frac{11}{12} $",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Divide $ 3 \\frac{1}{3} $ by $ 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 2 \\frac{2}{9} $",
+        "$ 2 \\frac{1}{2} $",
+        "$ 2 \\frac{2}{10} $",
+        "$ 2 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 \\frac{2}{9} $",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{10}{4} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{1}{2} $",
+        "$ 1 \\frac{3}{4} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 2 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 \\frac{1}{2} $",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Add $ 1 \\frac{1}{6} $ and $ 2 \\frac{1}{4} $.",
+      "choices": [
+        "$ 3 \\frac{5}{12} $",
+        "$ 3 \\frac{2}{10} $",
+        "$ 4 \\frac{1}{6} $",
+        "$ 3 \\frac{5}{13} $"
+      ],
+      "answer": "$ 3 \\frac{5}{12} $",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{4} $ from $ 3 \\frac{1}{3} $.",
+      "choices": [
+        "$ 1 \\frac{11}{12} $",
+        "$ 1 \\frac{1}{7} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{11}{12} $",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{2} $ by $ 1 \\frac{2}{5} $.",
+      "choices": [
+        "$ 2 \\frac{1}{10} $",
+        "$ 1 \\frac{2}{10} $",
+        "$ 2 \\frac{1}{6} $",
+        "$ 2 \\frac{1}{4} $"
+      ],
+      "answer": "$ 2 \\frac{1}{10} $",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Divide $ 2 \\frac{1}{4} $ by $ 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{1}{3} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{1}{2} $",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{14}{5} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{4}{5} $",
+        "$ 1 \\frac{4}{5} $",
+        "$ 3 \\frac{4}{5} $",
+        "$ 2 \\frac{4}{6} $"
+      ],
+      "answer": "$ 2 \\frac{4}{5} $",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Add $ 1 \\frac{1}{2} $ and $ 1 \\frac{2}{3} $.",
+      "choices": [
+        "$ 3 \\frac{1}{6} $",
+        "$ 2 \\frac{3}{5} $",
+        "$ 3 \\frac{1}{2} $",
+        "$ 3 \\frac{1}{7} $"
+      ],
+      "answer": "$ 3 \\frac{1}{6} $",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{3} $ from $ 2 \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{11}{12} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{11}{12} $",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{3} $ by $ 1 \\frac{1}{5} $.",
+      "choices": [
+        "$ 1 \\frac{13}{15} $",
+        "$ 1 \\frac{1}{15} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{13}{15} $",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Divide $ 1 \\frac{1}{2} $ by $ 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 1 \\frac{1}{5} $",
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{1}{5} $",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{17}{8} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{1}{8} $",
+        "$ 1 \\frac{7}{8} $",
+        "$ 3 \\frac{1}{8} $",
+        "$ 2 \\frac{1}{9} $"
+      ],
+      "answer": "$ 2 \\frac{1}{8} $",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Add $ 1 \\frac{1}{4} $ and $ 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 2 \\frac{7}{12} $",
+        "$ 2 \\frac{2}{7} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 2 \\frac{7}{13} $"
+      ],
+      "answer": "$ 2 \\frac{7}{12} $",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{2} $ from $ 2 \\frac{1}{5} $.",
+      "choices": [
+        "$ \\frac{7}{10} $",
+        "$ \\frac{1}{7} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{7}{10} $",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{2} $ by $ 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 2 $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 2 \\frac{1}{2} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 $",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Divide $ 2 \\frac{1}{2} $ by $ 1 \\frac{2}{3} $.",
+      "choices": [
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{1}{3} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{1}{2} $",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{19}{6} $ to a mixed number.",
+      "choices": [
+        "$ 3 \\frac{1}{6} $",
+        "$ 2 \\frac{5}{6} $",
+        "$ 4 \\frac{1}{6} $",
+        "$ 3 \\frac{1}{7} $"
+      ],
+      "answer": "$ 3 \\frac{1}{6} $",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Add $ 2 \\frac{1}{3} $ and $ 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 3 \\frac{5}{6} $",
+        "$ 3 \\frac{2}{5} $",
+        "$ 4 \\frac{1}{3} $",
+        "$ 3 \\frac{5}{7} $"
+      ],
+      "answer": "$ 3 \\frac{5}{6} $",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Subtract $ 1 \\frac{1}{2} $ from $ 3 \\frac{1}{4} $.",
+      "choices": [
+        "$ 1 \\frac{3}{4} $",
+        "$ 1 \\frac{1}{7} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{3}{4} $",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Multiply $ 1 \\frac{1}{5} $ by $ 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 1 \\frac{4}{5} $",
+        "$ 1 \\frac{1}{10} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{4}{5} $",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Divide $ 3 \\frac{1}{2} $ by $ 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 2 \\frac{4}{5} $",
+        "$ 2 \\frac{1}{2} $",
+        "$ 2 \\frac{4}{6} $",
+        "$ 2 \\frac{1}{3} $"
+      ],
+      "answer": "$ 2 \\frac{4}{5} $",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Convert the improper fraction $ \\frac{21}{8} $ to a mixed number.",
+      "choices": [
+        "$ 2 \\frac{5}{8} $",
+        "$ 1 \\frac{7}{8} $",
+        "$ 3 \\frac{1}{8} $",
+        "$ 2 \\frac{5}{9} $"
+      ],
+      "answer": "$ 2 \\frac{5}{8} $",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{2} + \\frac{1}{3}) - \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{7}{12} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{5}{12} $",
+        "$ \\frac{7}{13} $"
+      ],
+      "answer": "$ \\frac{7}{12} $",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{1}{2} \\times \\frac{2}{3}) \\div \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{4}{3} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{6} $"
+      ],
+      "answer": "$ \\frac{4}{3} $",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{4} = \\frac{3}{4}$.",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{1}{2} = \\frac{3}{8}$.",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{2}{3} + \\frac{1}{4}) - \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{5}{12} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{7}{12} $",
+        "$ \\frac{5}{13} $"
+      ],
+      "answer": "$ \\frac{5}{12} $",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{3}{4} \\times \\frac{1}{2}) \\div \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{9}{8} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{8}{9} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{9}{8} $",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{3} = \\frac{2}{3}$.",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{2} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{1}{3} = \\frac{2}{9}$.",
+      "choices": [
+        "$ \\frac{2}{3} $",
+        "$ \\frac{2}{9} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{9} $"
+      ],
+      "answer": "$ \\frac{2}{3} $",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{4} + \\frac{1}{5}) - \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{ -1}{20} $",
+        "$ \\frac{1}{20} $",
+        "$ \\frac{9}{20} $",
+        "$ \\frac{ -1}{21} $"
+      ],
+      "answer": "$ \\frac{ -1}{20} $",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{2}{5} \\times \\frac{1}{2}) \\div \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{5}{3} $",
+        "$ \\frac{1}{10} $"
+      ],
+      "answer": "$ \\frac{3}{5} $",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{2}{5} = \\frac{4}{5}$.",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{4}{5} $",
+        "$ \\frac{3}{5} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{2}{3} = \\frac{4}{9}$.",
+      "choices": [
+        "$ \\frac{2}{3} $",
+        "$ \\frac{4}{9} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{9} $"
+      ],
+      "answer": "$ \\frac{2}{3} $",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{3} + \\frac{1}{6}) - \\frac{1}{2} $.",
+      "choices": [
+        "$ 0 $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ 0 $",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{3}{5} \\times \\frac{1}{3}) \\div \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{5}{2} $",
+        "$ \\frac{1}{15} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{5} = \\frac{3}{5}$.",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{3}{4} = \\frac{9}{16}$.",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{9}{16} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{1}{16} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{2} + \\frac{3}{4}) - \\frac{1}{8} $.",
+      "choices": [
+        "$ \\frac{9}{8} $",
+        "$ \\frac{1}{8} $",
+        "$ \\frac{7}{8} $",
+        "$ \\frac{9}{9} $"
+      ],
+      "answer": "$ \\frac{9}{8} $",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{1}{4} \\times \\frac{2}{3}) \\div \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{3}{1} $",
+        "$ \\frac{1}{12} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{6} = \\frac{5}{6}$.",
+      "choices": [
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{5}{6} $",
+        "$ \\frac{1}{3} $"
+      ],
+      "answer": "$ \\frac{2}{3} $",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{1}{4} = \\frac{3}{16}$.",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{3}{16} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{1}{16} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{2}{5} + \\frac{1}{2}) - \\frac{3}{10} $.",
+      "choices": [
+        "$ \\frac{3}{5} $",
+        "$ \\frac{1}{10} $",
+        "$ \\frac{7}{10} $",
+        "$ \\frac{3}{11} $"
+      ],
+      "answer": "$ \\frac{3}{5} $",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{1}{3} \\times \\frac{3}{4}) \\div \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{2}{1} $",
+        "$ \\frac{1}{12} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{3}{4} = \\frac{7}{8}$.",
+      "choices": [
+        "$ \\frac{1}{8} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{7}{8} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{1}{8} $",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{2}{5} = \\frac{4}{25}$.",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{4}{25} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{1}{25} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{2} + \\frac{1}{6}) - \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{1}{5} \\times \\frac{2}{3}) \\div \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{4}{15} $",
+        "$ \\frac{2}{15} $",
+        "$ \\frac{15}{4} $",
+        "$ \\frac{1}{10} $"
+      ],
+      "answer": "$ \\frac{4}{15} $",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{2} = \\frac{5}{6}$.",
+      "choices": [
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{5}{6} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{1}{3} $",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{3}{5} = \\frac{6}{25}$.",
+      "choices": [
+        "$ \\frac{2}{5} $",
+        "$ \\frac{6}{25} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{1}{25} $"
+      ],
+      "answer": "$ \\frac{2}{5} $",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{3}{4} + \\frac{1}{2}) - \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{11}{12} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{5}{12} $",
+        "$ \\frac{11}{13} $"
+      ],
+      "answer": "$ \\frac{11}{12} $",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{2}{3} \\times \\frac{1}{4}) \\div \\frac{1}{5} $.",
+      "choices": [
+        "$ \\frac{5}{6} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{6}{5} $",
+        "$ \\frac{1}{12} $"
+      ],
+      "answer": "$ \\frac{5}{6} $",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{3} = \\frac{7}{9}$.",
+      "choices": [
+        "$ \\frac{4}{9} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{7}{9} $",
+        "$ \\frac{1}{9} $"
+      ],
+      "answer": "$ \\frac{4}{9} $",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{1}{2} = \\frac{5}{12}$.",
+      "choices": [
+        "$ \\frac{5}{6} $",
+        "$ \\frac{5}{12} $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{12} $"
+      ],
+      "answer": "$ \\frac{5}{6} $",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{4} + \\frac{2}{3}) - \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{5}{12} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{7}{12} $",
+        "$ \\frac{5}{13} $"
+      ],
+      "answer": "$ \\frac{5}{12} $",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{1}{2} \\times \\frac{3}{5}) \\div \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{6}{5} $",
+        "$ \\frac{3}{10} $",
+        "$ \\frac{5}{6} $",
+        "$ \\frac{1}{20} $"
+      ],
+      "answer": "$ \\frac{6}{5} $",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{2}{3} = \\frac{7}{9}$.",
+      "choices": [
+        "$ \\frac{1}{9} $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{7}{9} $",
+        "$ \\frac{1}{8} $"
+      ],
+      "answer": "$ \\frac{1}{9} $",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{1}{3} = \\frac{4}{15}$.",
+      "choices": [
+        "$ \\frac{4}{5} $",
+        "$ \\frac{4}{15} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{1}{15} $"
+      ],
+      "answer": "$ \\frac{4}{5} $",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{5} + \\frac{1}{2}) - \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{7}{20} $",
+        "$ \\frac{1}{20} $",
+        "$ \\frac{9}{20} $",
+        "$ \\frac{7}{21} $"
+      ],
+      "answer": "$ \\frac{7}{20} $",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{2}{3} \\times \\frac{1}{5}) \\div \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{4}{15} $",
+        "$ \\frac{2}{15} $",
+        "$ \\frac{15}{4} $",
+        "$ \\frac{1}{10} $"
+      ],
+      "answer": "$ \\frac{4}{15} $",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{4} = \\frac{5}{8}$.",
+      "choices": [
+        "$ \\frac{3}{8} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{5}{8} $",
+        "$ \\frac{1}{7} $"
+      ],
+      "answer": "$ \\frac{3}{8} $",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{1}{4} = \\frac{5}{24}$.",
+      "choices": [
+        "$ \\frac{5}{6} $",
+        "$ \\frac{5}{24} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{1}{24} $"
+      ],
+      "answer": "$ \\frac{5}{6} $",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{3} + \\frac{3}{4}) - \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{7}{12} $",
+        "$ \\frac{1}{12} $",
+        "$ \\frac{5}{12} $",
+        "$ \\frac{7}{13} $"
+      ],
+      "answer": "$ \\frac{7}{12} $",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{2}{5} \\times \\frac{1}{3}) \\div \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{8}{15} $",
+        "$ \\frac{2}{15} $",
+        "$ \\frac{15}{8} $",
+        "$ \\frac{1}{10} $"
+      ],
+      "answer": "$ \\frac{8}{15} $",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{1}{3} = \\frac{5}{6}$.",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{5}{6} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{3}{4} = \\frac{15}{28}$.",
+      "choices": [
+        "$ \\frac{5}{7} $",
+        "$ \\frac{15}{28} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{1}{28} $"
+      ],
+      "answer": "$ \\frac{5}{7} $",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{2} + \\frac{2}{5}) - \\frac{1}{4} $.",
+      "choices": [
+        "$ \\frac{13}{20} $",
+        "$ \\frac{1}{20} $",
+        "$ \\frac{9}{20} $",
+        "$ \\frac{13}{21} $"
+      ],
+      "answer": "$ \\frac{13}{20} $",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{3}{4} \\times \\frac{2}{5}) \\div \\frac{1}{3} $.",
+      "choices": [
+        "$ \\frac{9}{10} $",
+        "$ \\frac{3}{10} $",
+        "$ \\frac{10}{9} $",
+        "$ \\frac{1}{20} $"
+      ],
+      "answer": "$ \\frac{9}{10} $",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Solve for $ x $: $x + \\frac{2}{5} = \\frac{9}{10}$.",
+      "choices": [
+        "$ \\frac{1}{2} $",
+        "$ \\frac{2}{5} $",
+        "$ \\frac{9}{10} $",
+        "$ \\frac{1}{4} $"
+      ],
+      "answer": "$ \\frac{1}{2} $",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Solve for $ x $: $x \\times \\frac{1}{5} = \\frac{3}{20}$.",
+      "choices": [
+        "$ \\frac{3}{4} $",
+        "$ \\frac{3}{20} $",
+        "$ \\frac{1}{5} $",
+        "$ \\frac{1}{20} $"
+      ],
+      "answer": "$ \\frac{3}{4} $",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Calculate $ (\\frac{1}{4} + \\frac{1}{3}) - \\frac{1}{2} $.",
+      "choices": [
+        "$ \\frac{1}{12} $",
+        "$ \\frac{1}{13} $",
+        "$ \\frac{7}{12} $",
+        "$ \\frac{1}{11} $"
+      ],
+      "answer": "$ \\frac{1}{12} $",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Evaluate $ (\\frac{1}{2} \\times \\frac{1}{3}) \\div \\frac{1}{5} $.",
+      "choices": [
+        "$ \\frac{5}{6} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{6}{5} $",
+        "$ \\frac{1}{30} $"
+      ],
+      "answer": "$ \\frac{5}{6} $",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{2} + \\frac{1}{3}}}{{\\frac{1}{4} - \\frac{1}{5}}}$",
+      "choices": [
+        "$ \\frac{50}{3} $",
+        "$ \\frac{5}{6} $",
+        "$ \\frac{1}{20} $",
+        "$ \\frac{50}{4} $"
+      ],
+      "answer": "$ \\frac{50}{3} $",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{2} + 1 \\frac{1}{3}) \\times 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 3 \\frac{17}{24} $",
+        "$ 2 \\frac{5}{6} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 3 \\frac{17}{25} $"
+      ],
+      "answer": "$ 3 \\frac{17}{24} $",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "A baker used $ \\frac{1}{3} $ of a $ 30 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 20 $ kg", "$ 10 $ kg", "$ 15 $ kg", "$ 25 $ kg"],
+      "answer": "$ 20 $ kg",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{2} = 3 \\frac{1}{4} $.",
+      "choices": [
+        "$ 1 \\frac{3}{4} $",
+        "$ 1 \\frac{1}{2} $",
+        "$ 2 \\frac{1}{4} $",
+        "$ 1 \\frac{3}{5} $"
+      ],
+      "answer": "$ 1 \\frac{3}{4} $",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{2}{3} + \\frac{1}{4}}}{{\\frac{1}{2} - \\frac{1}{6}}}$",
+      "choices": [
+        "$ \\frac{11}{4} $",
+        "$ \\frac{11}{12} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{11}{5} $"
+      ],
+      "answer": "$ \\frac{11}{4} $",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{3} + 1 \\frac{1}{4}) \\times 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 3 \\frac{7}{8} $",
+        "$ 2 \\frac{7}{12} $",
+        "$ 3 \\frac{1}{2} $",
+        "$ 3 \\frac{7}{9} $"
+      ],
+      "answer": "$ 3 \\frac{7}{8} $",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "A baker used $ \\frac{1}{4} $ of a $ 40 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 30 $ kg", "$ 10 $ kg", "$ 20 $ kg", "$ 35 $ kg"],
+      "answer": "$ 30 $ kg",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{3} = 2 \\frac{2}{3} $.",
+      "choices": [
+        "$ 1 \\frac{1}{3} $",
+        "$ 1 \\frac{1}{2} $",
+        "$ 2 \\frac{1}{3} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{1}{3} $",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{4} + \\frac{1}{5}}}{{\\frac{1}{2} - \\frac{1}{3}}}$",
+      "choices": [
+        "$ \\frac{27}{10} $",
+        "$ \\frac{9}{20} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{27}{11} $"
+      ],
+      "answer": "$ \\frac{27}{10} $",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{4} + 1 \\frac{1}{5}) \\times 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 3 \\frac{1}{5} $",
+        "$ 2 \\frac{9}{20} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 3 \\frac{1}{6} $"
+      ],
+      "answer": "$ 3 \\frac{1}{5} $",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "A baker used $ \\frac{2}{5} $ of a $ 50 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 30 $ kg", "$ 20 $ kg", "$ 25 $ kg", "$ 35 $ kg"],
+      "answer": "$ 30 $ kg",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{2}{5} = 3 \\frac{1}{5} $.",
+      "choices": [
+        "$ 1 \\frac{4}{5} $",
+        "$ 1 \\frac{2}{5} $",
+        "$ 2 \\frac{1}{5} $",
+        "$ 1 \\frac{4}{6} $"
+      ],
+      "answer": "$ 1 \\frac{4}{5} $",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{3} + \\frac{1}{6}}}{{\\frac{1}{2} - \\frac{1}{4}}}$",
+      "choices": [
+        "$ 2 $",
+        "$ \\frac{1}{2} $",
+        "$ \\frac{1}{4} $",
+        "$ 2 \\frac{1}{2} $"
+      ],
+      "answer": "$ 2 $",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{2} + 1 \\frac{2}{3}) \\times 1 \\frac{1}{5} $.",
+      "choices": [
+        "$ 3 \\frac{1}{10} $",
+        "$ 3 \\frac{1}{6} $",
+        "$ 3 \\frac{1}{5} $",
+        "$ 3 \\frac{1}{11} $"
+      ],
+      "answer": "$ 3 \\frac{1}{10} $",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "A baker used $ \\frac{1}{5} $ of a $ 60 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 48 $ kg", "$ 12 $ kg", "$ 30 $ kg", "$ 50 $ kg"],
+      "answer": "$ 48 $ kg",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{4} = 2 \\frac{3}{4} $.",
+      "choices": [
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{1}{4} $",
+        "$ 2 \\frac{1}{4} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{1}{2} $",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{2} + \\frac{3}{4}}}{{\\frac{1}{8} - \\frac{1}{16}}}$",
+      "choices": [
+        "$ 22 $",
+        "$ \\frac{5}{4} $",
+        "$ \\frac{1}{16} $",
+        "$ 22 \\frac{1}{2} $"
+      ],
+      "answer": "$ 22 $",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{2}{3} + 1 \\frac{1}{2}) \\times 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 3 \\frac{11}{24} $",
+        "$ 3 \\frac{1}{6} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 3 \\frac{11}{25} $"
+      ],
+      "answer": "$ 3 \\frac{11}{24} $",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "A baker used $ \\frac{3}{4} $ of a $ 24 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 6 $ kg", "$ 18 $ kg", "$ 12 $ kg", "$ 9 $ kg"],
+      "answer": "$ 6 $ kg",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{5} = 2 \\frac{3}{5} $.",
+      "choices": [
+        "$ 1 \\frac{2}{5} $",
+        "$ 1 \\frac{1}{5} $",
+        "$ 2 \\frac{1}{5} $",
+        "$ 1 \\frac{2}{6} $"
+      ],
+      "answer": "$ 1 \\frac{2}{5} $",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{2}{5} + \\frac{1}{2}}}{{\\frac{3}{10} - \\frac{1}{5}}}$",
+      "choices": [
+        "$ 7 $",
+        "$ \\frac{9}{10} $",
+        "$ \\frac{1}{10} $",
+        "$ 7 \\frac{1}{2} $"
+      ],
+      "answer": "$ 7 $",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{3} + 1 \\frac{2}{5}) \\times 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 4 \\frac{1}{5} $",
+        "$ 2 \\frac{11}{15} $",
+        "$ 4 \\frac{1}{4} $",
+        "$ 4 \\frac{1}{6} $"
+      ],
+      "answer": "$ 4 \\frac{1}{5} $",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "A baker used $ \\frac{2}{3} $ of a $ 36 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 12 $ kg", "$ 24 $ kg", "$ 18 $ kg", "$ 15 $ kg"],
+      "answer": "$ 12 $ kg",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{6} = 2 \\frac{5}{6} $.",
+      "choices": [
+        "$ 1 \\frac{2}{3} $",
+        "$ 1 \\frac{1}{6} $",
+        "$ 2 \\frac{1}{6} $",
+        "$ 1 \\frac{2}{4} $"
+      ],
+      "answer": "$ 1 \\frac{2}{3} $",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{2} + \\frac{1}{6}}}{{\\frac{1}{3} - \\frac{1}{9}}}$",
+      "choices": [
+        "$ 3 $",
+        "$ \\frac{2}{3} $",
+        "$ \\frac{2}{9} $",
+        "$ 3 \\frac{1}{2} $"
+      ],
+      "answer": "$ 3 $",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{4} + 1 \\frac{2}{3}) \\times 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 4 \\frac{1}{8} $",
+        "$ 2 \\frac{11}{12} $",
+        "$ 4 \\frac{1}{4} $",
+        "$ 4 \\frac{1}{9} $"
+      ],
+      "answer": "$ 4 \\frac{1}{8} $",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "A baker used $ \\frac{1}{2} $ of a $ 48 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 24 $ kg", "$ 24 $ kg", "$ 12 $ kg", "$ 30 $ kg"],
+      "answer": "$ 24 $ kg",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{3} = 2 \\frac{7}{9} $.",
+      "choices": [
+        "$ 1 \\frac{4}{9} $",
+        "$ 1 \\frac{1}{3} $",
+        "$ 2 \\frac{1}{9} $",
+        "$ 1 \\frac{4}{10} $"
+      ],
+      "answer": "$ 1 \\frac{4}{9} $",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{2} + \\frac{1}{4}}}{{\\frac{1}{3} - \\frac{1}{6}}}$",
+      "choices": [
+        "$ \\frac{9}{2} $",
+        "$ \\frac{3}{4} $",
+        "$ \\frac{1}{6} $",
+        "$ \\frac{9}{3} $"
+      ],
+      "answer": "$ \\frac{9}{2} $",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{5} + 1 \\frac{1}{2}) \\times 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 3 \\frac{13}{15} $",
+        "$ 2 \\frac{7}{10} $",
+        "$ 3 \\frac{1}{3} $",
+        "$ 3 \\frac{13}{16} $"
+      ],
+      "answer": "$ 3 \\frac{13}{15} $",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "A baker used $ \\frac{2}{5} $ of a $ 45 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 27 $ kg", "$ 18 $ kg", "$ 22 $ kg", "$ 30 $ kg"],
+      "answer": "$ 27 $ kg",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{2}{3} = 3 \\frac{1}{6} $.",
+      "choices": [
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{2}{3} $",
+        "$ 2 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{1}{2} $",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{3} + \\frac{3}{4}}}{{\\frac{1}{2} - \\frac{1}{6}}}$",
+      "choices": [
+        "$ \\frac{13}{4} $",
+        "$ \\frac{13}{12} $",
+        "$ \\frac{1}{3} $",
+        "$ \\frac{13}{5} $"
+      ],
+      "answer": "$ \\frac{13}{4} $",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{2} + 1 \\frac{1}{4}) \\times 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 3 \\frac{2}{3} $",
+        "$ 2 \\frac{3}{4} $",
+        "$ 3 \\frac{1}{2} $",
+        "$ 3 \\frac{2}{4} $"
+      ],
+      "answer": "$ 3 \\frac{2}{3} $",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "A baker used $ \\frac{1}{3} $ of a $ 39 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 26 $ kg", "$ 13 $ kg", "$ 19 $ kg", "$ 30 $ kg"],
+      "answer": "$ 26 $ kg",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{4} = 2 \\frac{5}{8} $.",
+      "choices": [
+        "$ 1 \\frac{3}{8} $",
+        "$ 1 \\frac{1}{4} $",
+        "$ 2 \\frac{1}{8} $",
+        "$ 1 \\frac{3}{9} $"
+      ],
+      "answer": "$ 1 \\frac{3}{8} $",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{2}{3} + \\frac{1}{5}}}{{\\frac{1}{2} - \\frac{1}{4}}}$",
+      "choices": [
+        "$ \\frac{52}{15} $",
+        "$ \\frac{13}{15} $",
+        "$ \\frac{1}{4} $",
+        "$ \\frac{52}{16} $"
+      ],
+      "answer": "$ \\frac{52}{15} $",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{3} + 1 \\frac{3}{4}) \\times 1 \\frac{1}{2} $.",
+      "choices": [
+        "$ 4 \\frac{1}{24} $",
+        "$ 3 \\frac{1}{12} $",
+        "$ 4 \\frac{1}{4} $",
+        "$ 4 \\frac{1}{25} $"
+      ],
+      "answer": "$ 4 \\frac{1}{24} $",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "A baker used $ \\frac{1}{4} $ of a $ 32 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 24 $ kg", "$ 8 $ kg", "$ 16 $ kg", "$ 28 $ kg"],
+      "answer": "$ 24 $ kg",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{2}{5} = 2 \\frac{9}{10} $.",
+      "choices": [
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{2}{5} $",
+        "$ 2 \\frac{1}{10} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{1}{2} $",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{2} + \\frac{2}{5}}}{{\\frac{1}{4} - \\frac{1}{10}}}$",
+      "choices": [
+        "$ \\frac{27}{3} $",
+        "$ \\frac{9}{10} $",
+        "$ \\frac{3}{20} $",
+        "$ \\frac{27}{4} $"
+      ],
+      "answer": "$ \\frac{27}{3} $",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{2} + 1 \\frac{1}{5}) \\times 1 \\frac{1}{4} $.",
+      "choices": [
+        "$ 3 \\frac{3}{8} $",
+        "$ 2 \\frac{7}{10} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 3 \\frac{3}{9} $"
+      ],
+      "answer": "$ 3 \\frac{3}{8} $",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "A baker used $ \\frac{1}{5} $ of a $ 55 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 44 $ kg", "$ 11 $ kg", "$ 27 $ kg", "$ 50 $ kg"],
+      "answer": "$ 44 $ kg",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{2} = 2 \\frac{5}{6} $.",
+      "choices": [
+        "$ 1 \\frac{1}{3} $",
+        "$ 1 \\frac{1}{2} $",
+        "$ 2 \\frac{1}{6} $",
+        "$ 1 \\frac{1}{4} $"
+      ],
+      "answer": "$ 1 \\frac{1}{3} $",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{3} + \\frac{2}{5}}}{{\\frac{1}{2} - \\frac{1}{5}}}$",
+      "choices": [
+        "$ \\frac{22}{9} $",
+        "$ \\frac{11}{15} $",
+        "$ \\frac{3}{10} $",
+        "$ \\frac{22}{10} $"
+      ],
+      "answer": "$ \\frac{22}{9} $",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{3} + 1 \\frac{1}{2}) \\times 1 \\frac{1}{5} $.",
+      "choices": [
+        "$ 3 \\frac{1}{10} $",
+        "$ 2 \\frac{5}{6} $",
+        "$ 3 \\frac{1}{5} $",
+        "$ 3 \\frac{1}{11} $"
+      ],
+      "answer": "$ 3 \\frac{1}{10} $",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "A baker used $ \\frac{3}{5} $ of a $ 40 $ kg bag of flour. How many kilograms of flour are left?",
+      "choices": ["$ 16 $ kg", "$ 24 $ kg", "$ 20 $ kg", "$ 28 $ kg"],
+      "answer": "$ 16 $ kg",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Solve for $ x $: $ x + 1 \\frac{1}{4} = 2 \\frac{3}{4} $.",
+      "choices": [
+        "$ 1 \\frac{1}{2} $",
+        "$ 1 \\frac{1}{4} $",
+        "$ 2 \\frac{1}{4} $",
+        "$ 1 \\frac{1}{3} $"
+      ],
+      "answer": "$ 1 \\frac{1}{2} $",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Simplify the complex fraction: $\\frac{{\\frac{1}{4} + \\frac{2}{3}}}{{\\frac{1}{2} - \\frac{1}{8}}}$",
+      "choices": [
+        "$ \\frac{44}{15} $",
+        "$ \\frac{11}{12} $",
+        "$ \\frac{3}{8} $",
+        "$ \\frac{44}{16} $"
+      ],
+      "answer": "$ \\frac{44}{15} $",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Calculate $ (1 \\frac{1}{2} + 1 \\frac{3}{4}) \\times 1 \\frac{1}{3} $.",
+      "choices": [
+        "$ 4 \\frac{1}{3} $",
+        "$ 3 \\frac{1}{4} $",
+        "$ 4 \\frac{1}{2} $",
+        "$ 4 \\frac{1}{4} $"
+      ],
+      "answer": "$ 4 \\frac{1}{3} $",
+      "points": 30
+    }
   ]
 }

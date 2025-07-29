@@ -1,258 +1,2633 @@
 {
-    "title": "Fraction ↔ Percentage",
-    "description": "Switch between fractions and percentages like a pro. Ready to hit 100 %?",
-    "waves": 5,
-    "timePerQuestion": 20,
-    "questions": [
-      {"id":1,"wave":1,"question":"Convert 1/2 to a percentage","choices":["25 %","50 %","75 %","100 %"],"answer":"50 %","points":10},
-      {"id":2,"wave":1,"question":"Convert 25 % to a fraction","choices":["1/3","1/4","1/5","1/2"],"answer":"1/4","points":10},
-      {"id":3,"wave":1,"question":"Convert 3/4 to a percentage","choices":["65 %","70 %","75 %","80 %"],"answer":"75 %","points":10},
-      {"id":4,"wave":1,"question":"Convert 50 % to a fraction","choices":["1/3","1/2","2/5","3/4"],"answer":"1/2","points":10},
-      {"id":5,"wave":1,"question":"Convert 1/5 to a percentage","choices":["10 %","20 %","25 %","50 %"],"answer":"20 %","points":10},
-      {"id":6,"wave":1,"question":"Convert 75 % to a fraction","choices":["2/3","3/4","4/5","5/6"],"answer":"3/4","points":10},
-      {"id":7,"wave":1,"question":"Convert 4/5 to a percentage","choices":["75 %","80 %","85 %","90 %"],"answer":"80 %","points":10},
-      {"id":8,"wave":1,"question":"Convert 10 % to a fraction","choices":["1/5","1/10","1/8","1/12"],"answer":"1/10","points":10},
-      {"id":9,"wave":1,"question":"Convert 3/5 to a percentage","choices":["50 %","60 %","65 %","70 %"],"answer":"60 %","points":10},
-      {"id":10,"wave":1,"question":"Convert 20 % to a fraction","choices":["1/4","1/5","1/6","1/8"],"answer":"1/5","points":10},
-      {"id":11,"wave":1,"question":"Convert 2/5 to a percentage","choices":["35 %","40 %","45 %","50 %"],"answer":"40 %","points":10},
-      {"id":12,"wave":1,"question":"Convert 30 % to a fraction","choices":["3/10","2/5","1/3","4/15"],"answer":"3/10","points":10},
-      {"id":13,"wave":1,"question":"Convert 1/4 to a percentage","choices":["20 %","25 %","30 %","40 %"],"answer":"25 %","points":10},
-      {"id":14,"wave":1,"question":"Convert 40 % to a fraction","choices":["2/5","3/8","1/3","4/9"],"answer":"2/5","points":10},
-      {"id":15,"wave":1,"question":"Convert 1/10 to a percentage","choices":["5 %","10 %","15 %","20 %"],"answer":"10 %","points":10},
-      {"id":16,"wave":1,"question":"Convert 60 % to a fraction","choices":["2/3","3/5","5/8","7/10"],"answer":"3/5","points":10},
-      {"id":17,"wave":1,"question":"Convert 7/10 to a percentage","choices":["65 %","70 %","75 %","80 %"],"answer":"70 %","points":10},
-      {"id":18,"wave":1,"question":"Convert 70 % to a fraction","choices":["7/10","3/4","2/3","5/7"],"answer":"7/10","points":10},
-      {"id":19,"wave":1,"question":"Convert 9/10 to a percentage","choices":["85 %","90 %","95 %","100 %"],"answer":"90 %","points":10},
-      {"id":20,"wave":1,"question":"Convert 80 % to a fraction","choices":["3/4","4/5","5/6","7/8"],"answer":"4/5","points":10},
-      {"id":21,"wave":1,"question":"Convert 2/10 to a percentage","choices":["15 %","20 %","25 %","30 %"],"answer":"20 %","points":10},
-      {"id":22,"wave":1,"question":"Convert 90 % to a fraction","choices":["8/9","9/10","7/8","6/7"],"answer":"9/10","points":10},
-      {"id":23,"wave":1,"question":"Convert 3/10 to a percentage","choices":["25 %","30 %","35 %","40 %"],"answer":"30 %","points":10},
-      {"id":24,"wave":1,"question":"Convert 5 % to a fraction","choices":["1/15","1/20","1/25","1/10"],"answer":"1/20","points":10},
-      {"id":25,"wave":1,"question":"Convert 4/10 to a percentage","choices":["35 %","40 %","45 %","50 %"],"answer":"40 %","points":10},
-      {"id":26,"wave":1,"question":"Convert 15 % to a fraction","choices":["3/20","1/6","2/15","1/5"],"answer":"3/20","points":10},
-      {"id":27,"wave":1,"question":"Convert 6/10 to a percentage","choices":["55 %","60 %","65 %","70 %"],"answer":"60 %","points":10},
-      {"id":28,"wave":1,"question":"Convert 35 % to a fraction","choices":["7/20","3/8","2/5","3/10"],"answer":"7/20","points":10},
-      {"id":29,"wave":1,"question":"Convert 8/10 to a percentage","choices":["75 %","80 %","85 %","90 %"],"answer":"80 %","points":10},
-      {"id":30,"wave":1,"question":"Convert 45 % to a fraction","choices":["9/20","2/5","7/15","3/7"],"answer":"9/20","points":10},
-      {"id":31,"wave":1,"question":"Convert 5/10 to a percentage","choices":["45 %","50 %","55 %","60 %"],"answer":"50 %","points":10},
-      {"id":32,"wave":1,"question":"Convert 55 % to a fraction","choices":["11/20","3/5","7/12","5/9"],"answer":"11/20","points":10},
-      {"id":33,"wave":1,"question":"Convert 7/20 to a percentage","choices":["30 %","35 %","40 %","45 %"],"answer":"35 %","points":10},
-      {"id":34,"wave":1,"question":"Convert 65 % to a fraction","choices":["13/20","2/3","3/4","5/8"],"answer":"13/20","points":10},
-      {"id":35,"wave":1,"question":"Convert 9/20 to a percentage","choices":["40 %","45 %","50 %","55 %"],"answer":"45 %","points":10},
-      {"id":36,"wave":1,"question":"Convert 85 % to a fraction","choices":["17/20","4/5","7/8","5/6"],"answer":"17/20","points":10},
-      {"id":37,"wave":1,"question":"Convert 11/20 to a percentage","choices":["50 %","55 %","60 %","65 %"],"answer":"55 %","points":10},
-      {"id":38,"wave":1,"question":"Convert 95 % to a fraction","choices":["19/20","9/10","8/9","7/8"],"answer":"19/20","points":10},
-      {"id":39,"wave":1,"question":"Convert 13/20 to a percentage","choices":["60 %","65 %","70 %","75 %"],"answer":"65 %","points":10},
-      {"id":40,"wave":1,"question":"Convert 100 % to a fraction","choices":["9/9","10/10","1/1","All of these"],"answer":"All of these","points":10},
-      {"id":41,"wave":1,"question":"Convert 15/20 to a percentage","choices":["70 %","75 %","80 %","85 %"],"answer":"75 %","points":10},
-      {"id":42,"wave":1,"question":"Convert 12 % to a fraction","choices":["3/25","1/8","2/15","1/10"],"answer":"3/25","points":10},
-      {"id":43,"wave":1,"question":"Convert 17/20 to a percentage","choices":["80 %","85 %","90 %","95 %"],"answer":"85 %","points":10},
-      {"id":44,"wave":1,"question":"Convert 28 % to a fraction","choices":["7/25","2/7","3/10","1/4"],"answer":"7/25","points":10},
-      {"id":45,"wave":1,"question":"Convert 19/20 to a percentage","choices":["90 %","95 %","100 %","105 %"],"answer":"95 %","points":10},
-      {"id":46,"wave":1,"question":"Convert 32 % to a fraction","choices":["8/25","16/50","4/12","2/5"],"answer":"8/25","points":10},
-      {"id":47,"wave":1,"question":"Convert 1/25 to a percentage","choices":["3 %","4 %","5 %","6 %"],"answer":"4 %","points":10},
-      {"id":48,"wave":1,"question":"Convert 36 % to a fraction","choices":["9/25","18/50","12/33","3/8"],"answer":"9/25","points":10},
-      {"id":49,"wave":1,"question":"Convert 2/25 to a percentage","choices":["6 %","8 %","10 %","12 %"],"answer":"8 %","points":10},
-      {"id":50,"wave":1,"question":"Convert 48 % to a fraction","choices":["12/25","24/50","48/100","All of these"],"answer":"All of these","points":10},
-      {"id":51,"wave":2,"question":"Convert 1/3 to a percentage","choices":["30 %","33 ⅓ %","35 %","40 %"],"answer":"33 ⅓ %","points":15},
-      {"id":52,"wave":2,"question":"Convert 66 ⅔ % to a fraction","choices":["2/3","3/4","4/5","5/6"],"answer":"2/3","points":15},
-      {"id":53,"wave":2,"question":"Convert 2/3 to a percentage","choices":["60 %","66 ⅔ %","70 %","75 %"],"answer":"66 ⅔ %","points":15},
-      {"id":54,"wave":2,"question":"Convert 16 ⅔ % to a fraction","choices":["1/6","1/5","1/4","1/3"],"answer":"1/6","points":15},
-      {"id":55,"wave":2,"question":"Convert 5/6 to a percentage","choices":["80 %","83 ⅓ %","85 %","87 %"],"answer":"83 ⅓ %","points":15},
-      {"id":56,"wave":2,"question":"Convert 14 ⅖ % to a fraction","choices":["18/125","12/85","7/50","11/77"],"answer":"18/125","points":15},
-      {"id":57,"wave":2,"question":"Convert 7/8 to a percentage","choices":["85 %","87 ½ %","88 %","90 %"],"answer":"87 ½ %","points":15},
-      {"id":58,"wave":2,"question":"Convert 12 ½ % to a fraction","choices":["1/8","1/7","1/9","1/10"],"answer":"1/8","points":15},
-      {"id":59,"wave":2,"question":"Convert 3/8 to a percentage","choices":["35 %","37 ½ %","40 %","42 %"],"answer":"37 ½ %","points":15},
-      {"id":60,"wave":2,"question":"Convert 62 ½ % to a fraction","choices":["5/8","3/5","2/3","7/10"],"answer":"5/8","points":15},
-      {"id":61,"wave":2,"question":"Convert 5/8 to a percentage","choices":["60 %","62 ½ %","65 %","66 %"],"answer":"62 ½ %","points":15},
-      {"id":62,"wave":2,"question":"Convert 37 ½ % to a fraction","choices":["3/8","2/5","4/9","7/15"],"answer":"3/8","points":15},
-      {"id":63,"wave":2,"question":"Convert 1/6 to a percentage","choices":["15 %","16 ⅔ %","18 %","20 %"],"answer":"16 ⅔ %","points":15},
-      {"id":64,"wave":2,"question":"Convert 83 ⅓ % to a fraction","choices":["5/6","6/7","7/8","8/9"],"answer":"5/6","points":15},
-      {"id":65,"wave":2,"question":"Convert 4/9 to a percentage","choices":["42 %","44 %","44 ⅘ %","44 ⁴⁄₉ %"],"answer":"44 ⁴⁄₉ %","points":15},
-      {"id":66,"wave":2,"question":"Convert 55 ⅝ % to a fraction","choices":["89/160","111/200","445/800","89/160"],"answer":"89/160","points":15},
-      {"id":67,"wave":2,"question":"Convert 7/9 to a percentage","choices":["75 %","77 %","77 ⁷⁄₉ %","78 %"],"answer":"77 ⁷⁄₉ %","points":15},
-      {"id":68,"wave":2,"question":"Convert 22 ½ % to a fraction","choices":["9/40","11/50","2/9","3/13"],"answer":"9/40","points":15},
-      {"id":69,"wave":2,"question":"Convert 8/9 to a percentage","choices":["85 %","88 %","88 ⁸⁄₉ %","90 %"],"answer":"88 ⁸⁄₉ %","points":15},
-      {"id":70,"wave":2,"question":"Convert 27 ½ % to a fraction","choices":["11/40","7/25","3/11","5/18"],"answer":"11/40","points":15},
-      {"id":71,"wave":2,"question":"Convert 1/8 to a percentage","choices":["10 %","12 ½ %","15 %","20 %"],"answer":"12 ½ %","points":15},
-      {"id":72,"wave":2,"question":"Convert 87 ½ % to a fraction","choices":["7/8","6/7","5/6","4/5"],"answer":"7/8","points":15},
-      {"id":73,"wave":2,"question":"Convert 3/16 to a percentage","choices":["16 ½ %","18 ¾ %","18 ⅛ %","19 %"],"answer":"18 ¾ %","points":15},
-      {"id":74,"wave":2,"question":"Convert 31 ¼ % to a fraction","choices":["5/16","1/3","7/22","3/10"],"answer":"5/16","points":15},
-      {"id":75,"wave":2,"question":"Convert 5/12 to a percentage","choices":["40 %","41 ⅔ %","42 %","43 %"],"answer":"41 ⅔ %","points":15},
-      {"id":76,"wave":2,"question":"Convert 58 ⅓ % to a fraction","choices":["7/12","5/8","3/5","11/20"],"answer":"7/12","points":15},
-      {"id":77,"wave":2,"question":"Convert 7/12 to a percentage","choices":["55 %","58 ⅓ %","60 %","62 %"],"answer":"58 ⅓ %","points":15},
-      {"id":78,"wave":2,"question":"Convert 11/12 to a percentage","choices":["90 %","91 %","91 ⅔ %","92 %"],"answer":"91 ⅔ %","points":15},
-      {"id":79,"wave":2,"question":"Convert 91 ⅔ % to a fraction","choices":["11/12","10/11","8/9","9/10"],"answer":"11/12","points":15},
-      {"id":80,"wave":2,"question":"Convert 1/12 to a percentage","choices":["7 %","8 %","8 ⅓ %","9 %"],"answer":"8 ⅓ %","points":15},
-      {"id":81,"wave":3,"question":"Convert 7/25 to a percentage","choices":["25 %","28 %","30 %","32 %"],"answer":"28 %","points":20},
-      {"id":82,"wave":3,"question":"Convert 32 % to a fraction","choices":["8/25","16/50","4/12","2/6"],"answer":"8/25","points":20},
-      {"id":83,"wave":3,"question":"Convert 11/25 to a percentage","choices":["40 %","42 %","44 %","45 %"],"answer":"44 %","points":20},
-      {"id":84,"wave":3,"question":"Convert 36 % to a fraction","choices":["9/25","18/50","12/33","6/15"],"answer":"9/25","points":20},
-      {"id":85,"wave":3,"question":"Convert 13/25 to a percentage","choices":["48 %","50 %","52 %","55 %"],"answer":"52 %","points":20},
-      {"id":86,"wave":3,"question":"Convert 44 % to a fraction","choices":["11/25","22/50","4/9","2/5"],"answer":"11/25","points":20},
-      {"id":87,"wave":3,"question":"Convert 16/25 to a percentage","choices":["60 %","62 %","64 %","65 %"],"answer":"64 %","points":20},
-      {"id":88,"wave":3,"question":"Convert 52 % to a fraction","choices":["13/25","26/50","12/23","5/10"],"answer":"13/25","points":20},
-      {"id":89,"wave":3,"question":"Convert 18/25 to a percentage","choices":["70 %","71 %","72 %","75 %"],"answer":"72 %","points":20},
-      {"id":90,"wave":3,"question":"Convert 56 % to a fraction","choices":["14/25","28/50","11/20","7/12"],"answer":"14/25","points":20},
-      {"id":91,"wave":3,"question":"Convert 21/25 to a percentage","choices":["82 %","83 %","84 %","85 %"],"answer":"84 %","points":20},
-      {"id":92,"wave":3,"question":"Convert 60 % to a fraction","choices":["3/5","15/25","6/10","12/20"],"answer":"3/5","points":20},
-      {"id":93,"wave":3,"question":"Convert 23/25 to a percentage","choices":["90 %","91 %","92 %","95 %"],"answer":"92 %","points":20},
-      {"id":94,"wave":3,"question":"Convert 64 % to a fraction","choices":["16/25","32/50","8/12","4/6"],"answer":"16/25","points":20},
-      {"id":95,"wave":3,"question":"Convert 24/25 to a percentage","choices":["94 %","95 %","96 %","98 %"],"answer":"96 %","points":20},
-      {"id":96,"wave":3,"question":"Convert 68 % to a fraction","choices":["17/25","34/50","7/10","2/3"],"answer":"17/25","points":20},
-      {"id":97,"wave":3,"question":"Convert 2/25 to a percentage","choices":["6 %","8 %","10 %","12 %"],"answer":"8 %","points":20},
-      {"id":98,"wave":3,"question":"Convert 72 % to a fraction","choices":["18/25","36/50","7/9","3/4"],"answer":"18/25","points":20},
-      {"id":99,"wave":3,"question":"Convert 3/25 to a percentage","choices":["10 %","11 %","12 %","15 %"],"answer":"12 %","points":20},
-      {"id":100,"wave":3,"question":"Convert 76 % to a fraction","choices":["19/25","38/50","3/4","7/9"],"answer":"19/25","points":20},
-      {"id":101,"wave":3,"question":"Convert 4/25 to a percentage","choices":["14 %","15 %","16 %","18 %"],"answer":"16 %","points":20},
-      {"id":102,"wave":3,"question":"Convert 80 % to a fraction","choices":["4/5","20/25","8/10","16/20"],"answer":"4/5","points":20},
-      {"id":103,"wave":3,"question":"Convert 6/25 to a percentage","choices":["22 %","24 %","25 %","26 %"],"answer":"24 %","points":20},
-      {"id":104,"wave":3,"question":"Convert 84 % to a fraction","choices":["21/25","42/50","4/5","5/6"],"answer":"21/25","points":20},
-      {"id":105,"wave":3,"question":"Convert 8/25 to a percentage","choices":["30 %","31 %","32 %","34 %"],"answer":"32 %","points":20},
-      {"id":106,"wave":3,"question":"Convert 88 % to a fraction","choices":["22/25","44/50","4/5","8/9"],"answer":"22/25","points":20},
-      {"id":107,"wave":3,"question":"Convert 9/25 to a percentage","choices":["34 %","35 %","36 %","38 %"],"answer":"36 %","points":20},
-      {"id":108,"wave":3,"question":"Convert 92 % to a fraction","choices":["23/25","46/50","11/12","9/10"],"answer":"23/25","points":20},
-      {"id":109,"wave":3,"question":"Convert 1/5 to a percentage","choices":["15 %","20 %","25 %","30 %"],"answer":"20 %","points":20},
-      {"id":110,"wave":3,"question":"Convert 96 % to a fraction","choices":["24/25","48/50","12/13","19/20"],"answer":"24/25","points":20},
-      {"id":111,"wave":3,"question":"Convert 2/5 to a percentage","choices":["35 %","40 %","45 %","50 %"],"answer":"40 %","points":20},
-      {"id":112,"wave":3,"question":"Convert 5 % to a fraction","choices":["1/20","1/25","1/15","1/10"],"answer":"1/20","points":20},
-      {"id":113,"wave":3,"question":"Convert 3/5 to a percentage","choices":["55 %","60 %","65 %","70 %"],"answer":"60 %","points":20},
-      {"id":114,"wave":3,"question":"Convert 15 % to a fraction","choices":["3/20","1/6","2/13","1/5"],"answer":"3/20","points":20},
-      {"id":115,"wave":3,"question":"Convert 4/5 to a percentage","choices":["75 %","80 %","85 %","90 %"],"answer":"80 %","points":20},
-      {"id":116,"wave":3,"question":"Convert 25 % to a fraction","choices":["1/4","2/8","3/12","All of these"],"answer":"All of these","points":20},
-      {"id":117,"wave":3,"question":"Convert 1/50 to a percentage","choices":["1 %","2 %","3 %","5 %"],"answer":"2 %","points":20},
-      {"id":118,"wave":3,"question":"Convert 35 % to a fraction","choices":["7/20","3/8","2/5","3/10"],"answer":"7/20","points":20},
-      {"id":119,"wave":3,"question":"Convert 2/50 to a percentage","choices":["3 %","4 %","5 %","6 %"],"answer":"4 %","points":20},
-      {"id":120,"wave":3,"question":"Convert 45 % to a fraction","choices":["9/20","2/5","7/15","3/7"],"answer":"9/20","points":20},
-      {"id":121,"wave":3,"question":"Convert 3/50 to a percentage","choices":["5 %","6 %","7 %","8 %"],"answer":"6 %","points":20},
-      {"id":122,"wave":3,"question":"Convert 55 % to a fraction","choices":["11/20","3/5","7/12","5/9"],"answer":"11/20","points":20},
-      {"id":123,"wave":3,"question":"Convert 4/50 to a percentage","choices":["7 %","8 %","9 %","10 %"],"answer":"8 %","points":20},
-      {"id":124,"wave":3,"question":"Convert 65 % to a fraction","choices":["13/20","2/3","3/4","5/8"],"answer":"13/20","points":20},
-      {"id":125,"wave":3,"question":"Convert 5/50 to a percentage","choices":["9 %","10 %","11 %","12 %"],"answer":"10 %","points":20},
-      {"id":126,"wave":3,"question":"Convert 75 % to a fraction","choices":["3/4","6/8","9/12","All of these"],"answer":"All of these","points":20},
-      {"id":127,"wave":3,"question":"Convert 6/50 to a percentage","choices":["11 %","12 %","13 %","14 %"],"answer":"12 %","points":20},
-      {"id":128,"wave":3,"question":"Convert 85 % to a fraction","choices":["17/20","4/5","7/8","5/6"],"answer":"17/20","points":20},
-      {"id":129,"wave":3,"question":"Convert 7/50 to a percentage","choices":["13 %","14 %","15 %","16 %"],"answer":"14 %","points":20},
-      {"id":130,"wave":3,"question":"Convert 95 % to a fraction","choices":["19/20","9/10","8/9","7/8"],"answer":"19/20","points":20},
-      {"id":131,"wave":3,"question":"Convert 8/50 to a percentage","choices":["15 %","16 %","17 %","18 %"],"answer":"16 %","points":20},
-      {"id":132,"wave":3,"question":"Convert 50 % to a fraction","choices":["1/2","2/4","3/6","All of these"],"answer":"All of these","points":20},
-      {"id":133,"wave":3,"question":"Convert 9/50 to a percentage","choices":["17 %","18 %","19 %","20 %"],"answer":"18 %","points":20},
-      {"id":134,"wave":3,"question":"Convert 90 % to a fraction","choices":["9/10","18/20","27/30","All of these"],"answer":"All of these","points":20},
-      {"id":135,"wave":3,"question":"Convert 10/50 to a percentage","choices":["18 %","19 %","20 %","21 %"],"answer":"20 %","points":20},
-      {"id":136,"wave":3,"question":"Convert 10 % to a fraction","choices":["1/10","2/20","3/30","All of these"],"answer":"All of these","points":20},
-      {"id":137,"wave":4,"question":"Convert 11/40 to a percentage","choices":["26 %","27 %","27 ½ %","28 %"],"answer":"27 ½ %","points":25},
-      {"id":138,"wave":4,"question":"Convert 27 ½ % to a fraction","choices":["11/40","7/25","5/18","3/11"],"answer":"11/40","points":25},
-      {"id":139,"wave":4,"question":"Convert 13/40 to a percentage","choices":["31 %","32 %","32 ½ %","33 %"],"answer":"32 ½ %","points":25},
-      {"id":140,"wave":4,"question":"Convert 32 ½ % to a fraction","choices":["13/40","5/16","7/20","9/25"],"answer":"13/40","points":25},
-      {"id":141,"wave":4,"question":"Convert 17/40 to a percentage","choices":["41 %","42 %","42 ½ %","43 %"],"answer":"42 ½ %","points":25},
-      {"id":142,"wave":4,"question":"Convert 42 ½ % to a fraction","choices":["17/40","4/9","7/16","9/20"],"answer":"17/40","points":25},
-      {"id":143,"wave":4,"question":"Convert 19/40 to a percentage","choices":["46 %","47 %","47 ½ %","48 %"],"answer":"47 ½ %","points":25},
-      {"id":144,"wave":4,"question":"Convert 47 ½ % to a fraction","choices":["19/40","9/20","5/11","7/15"],"answer":"19/40","points":25},
-      {"id":145,"wave":4,"question":"Convert 21/40 to a percentage","choices":["51 %","52 %","52 ½ %","53 %"],"answer":"52 ½ %","points":25},
-      {"id":146,"wave":4,"question":"Convert 52 ½ % to a fraction","choices":["21/40","5/9","11/20","13/25"],"answer":"21/40","points":25},
-      {"id":147,"wave":4,"question":"Convert 23/40 to a percentage","choices":["56 %","57 %","57 ½ %","58 %"],"answer":"57 ½ %","points":25},
-      {"id":148,"wave":4,"question":"Convert 57 ½ % to a fraction","choices":["23/40","3/5","7/12","5/8"],"answer":"23/40","points":25},
-      {"id":149,"wave":4,"question":"Convert 27/40 to a percentage","choices":["66 %","67 %","67 ½ %","68 %"],"answer":"67 ½ %","points":25},
-      {"id":150,"wave":4,"question":"Convert 67 ½ % to a fraction","choices":["27/40","2/3","11/16","7/10"],"answer":"27/40","points":25},
-      {"id":151,"wave":4,"question":"Convert 29/40 to a percentage","choices":["71 %","72 %","72 ½ %","73 %"],"answer":"72 ½ %","points":25},
-      {"id":152,"wave":4,"question":"Convert 72 ½ % to a fraction","choices":["29/40","7/9","3/4","11/15"],"answer":"29/40","points":25},
-      {"id":153,"wave":4,"question":"Convert 31/40 to a percentage","choices":["76 %","77 %","77 ½ %","78 %"],"answer":"77 ½ %","points":25},
-      {"id":154,"wave":4,"question":"Convert 77 ½ % to a fraction","choices":["31/40","4/5","5/6","7/9"],"answer":"31/40","points":25},
-      {"id":155,"wave":4,"question":"Convert 33/40 to a percentage","choices":["81 %","82 %","82 ½ %","83 %"],"answer":"82 ½ %","points":25},
-      {"id":156,"wave":4,"question":"Convert 82 ½ % to a fraction","choices":["33/40","5/6","2/3","7/8"],"answer":"33/40","points":25},
-      {"id":157,"wave":4,"question":"Convert 37/40 to a percentage","choices":["91 %","92 %","92 ½ %","93 %"],"answer":"92 ½ %","points":25},
-      {"id":158,"wave":4,"question":"Convert 92 ½ % to a fraction","choices":["37/40","7/8","9/10","11/12"],"answer":"37/40","points":25},
-      {"id":159,"wave":4,"question":"Convert 39/40 to a percentage","choices":["96 %","97 %","97 ½ %","98 %"],"answer":"97 ½ %","points":25},
-      {"id":160,"wave":4,"question":"Convert 97 ½ % to a fraction","choices":["39/40","9/10","19/20","24/25"],"answer":"39/40","points":25},
-      {"id":161,"wave":4,"question":"Convert 3/80 to a percentage","choices":["3 %","3 ½ %","3 ¾ %","4 %"],"answer":"3 ¾ %","points":25},
-      {"id":162,"wave":4,"question":"Convert 3 ¾ % to a fraction","choices":["3/80","1/25","1/20","1/16"],"answer":"3/80","points":25},
-      {"id":163,"wave":4,"question":"Convert 7/80 to a percentage","choices":["8 %","8 ½ %","8 ¾ %","9 %"],"answer":"8 ¾ %","points":25},
-      {"id":164,"wave":4,"question":"Convert 8 ¾ % to a fraction","choices":["7/80","9/100","1/12","3/35"],"answer":"7/80","points":25},
-      {"id":165,"wave":4,"question":"Convert 11/80 to a percentage","choices":["13 %","13 ½ %","13 ¾ %","14 %"],"answer":"13 ¾ %","points":25},
-      {"id":166,"wave":4,"question":"Convert 13 ¾ % to a fraction","choices":["11/80","7/50","3/20","1/7"],"answer":"11/80","points":25},
-      {"id":167,"wave":4,"question":"Convert 13/80 to a percentage","choices":["15 %","16 %","16 ¼ %","17 %"],"answer":"16 ¼ %","points":25},
-      {"id":168,"wave":4,"question":"Convert 16 ¼ % to a fraction","choices":["13/80","4/25","1/6","3/18"],"answer":"13/80","points":25},
-      {"id":169,"wave":4,"question":"Convert 17/80 to a percentage","choices":["20 %","21 %","21 ¼ %","22 %"],"answer":"21 ¼ %","points":25},
-      {"id":170,"wave":4,"question":"Convert 21 ¼ % to a fraction","choices":["17/80","1/5","2/9","3/14"],"answer":"17/80","points":25},
-      {"id":171,"wave":4,"question":"Convert 19/80 to a percentage","choices":["23 %","23 ¾ %","24 %","25 %"],"answer":"23 ¾ %","points":25},
-      {"id":172,"wave":4,"question":"Convert 23 ¾ % to a fraction","choices":["19/80","6/25","1/4","2/9"],"answer":"19/80","points":25},
-      {"id":173,"wave":4,"question":"Convert 21/80 to a percentage","choices":["26 %","26 ¼ %","27 %","28 %"],"answer":"26 ¼ %","points":25},
-      {"id":174,"wave":4,"question":"Convert 26 ¼ % to a fraction","choices":["21/80","5/19","1/4","3/11"],"answer":"21/80","points":25},
-      {"id":175,"wave":4,"question":"Convert 23/80 to a percentage","choices":["28 %","28 ¾ %","29 %","30 %"],"answer":"28 ¾ %","points":25},
-      {"id":176,"wave":4,"question":"Convert 28 ¾ % to a fraction","choices":["23/80","7/25","2/7","1/3"],"answer":"23/80","points":25},
-      {"id":177,"wave":4,"question":"Convert 27/80 to a percentage","choices":["33 %","33 ¾ %","34 %","35 %"],"answer":"33 ¾ %","points":25},
-      {"id":178,"wave":4,"question":"Convert 33 ¾ % to a fraction","choices":["27/80","1/3","4/11","5/14"],"answer":"27/80","points":25},
-      {"id":179,"wave":4,"question":"Convert 29/80 to a percentage","choices":["35 %","36 %","36 ¼ %","37 %"],"answer":"36 ¼ %","points":25},
-      {"id":180,"wave":4,"question":"Convert 36 ¼ % to a fraction","choices":["29/80","7/20","3/8","2/5"],"answer":"29/80","points":25},
-      {"id":181,"wave":4,"question":"Convert 31/80 to a percentage","choices":["38 %","38 ¾ %","39 %","40 %"],"answer":"38 ¾ %","points":25},
-      {"id":182,"wave":4,"question":"Convert 38 ¾ % to a fraction","choices":["31/80","2/5","3/7","5/12"],"answer":"31/80","points":25},
-      {"id":183,"wave":4,"question":"Convert 33/80 to a percentage","choices":["40 %","41 %","41 ¼ %","42 %"],"answer":"41 ¼ %","points":25},
-      {"id":184,"wave":4,"question":"Convert 41 ¼ % to a fraction","choices":["33/80","1/2","5/12","3/7"],"answer":"33/80","points":25},
-      {"id":185,"wave":4,"question":"Convert 37/80 to a percentage","choices":["45 %","45 ¼ %","46 %","46 ¼ %"],"answer":"46 ¼ %","points":25},
-      {"id":186,"wave":4,"question":"Convert 46 ¼ % to a fraction","choices":["37/80","3/7","2/5","4/9"],"answer":"37/80","points":25},
-      {"id":187,"wave":4,"question":"Convert 39/80 to a percentage","choices":["48 %","48 ¾ %","49 %","50 %"],"answer":"48 ¾ %","points":25},
-      {"id":188,"wave":4,"question":"Convert 48 ¾ % to a fraction","choices":["39/80","1/2","3/5","5/9"],"answer":"39/80","points":25},
-      {"id":189,"wave":4,"question":"Convert 41/80 to a percentage","choices":["50 %","51 %","51 ¼ %","52 %"],"answer":"51 ¼ %","points":25},
-      {"id":190,"wave":4,"question":"Convert 51 ¼ % to a fraction","choices":["41/80","1/2","5/9","3/5"],"answer":"41/80","points":25},
-      {"id":191,"wave":4,"question":"Convert 43/80 to a percentage","choices":["53 %","53 ¾ %","54 %","55 %"],"answer":"53 ¾ %","points":25},
-      {"id":192,"wave":4,"question":"Convert 53 ¾ % to a fraction","choices":["43/80","3/5","7/13","2/3"],"answer":"43/80","points":25},
-      {"id":193,"wave":4,"question":"Convert 47/80 to a percentage","choices":["58 %","58 ¾ %","59 %","60 %"],"answer":"58 ¾ %","points":25},
-      {"id":194,"wave":4,"question":"Convert 58 ¾ % to a fraction","choices":["47/80","3/5","7/12","5/8"],"answer":"47/80","points":25},
-      {"id":195,"wave":4,"question":"Convert 49/80 to a percentage","choices":["60 %","61 %","61 ¼ %","62 %"],"answer":"61 ¼ %","points":25},
-      {"id":196,"wave":4,"question":"Convert 61 ¼ % to a fraction","choices":["49/80","3/5","5/8","2/3"],"answer":"49/80","points":25},
-      {"id":197,"wave":4,"question":"Convert 51/80 to a percentage","choices":["63 %","63 ¾ %","64 %","65 %"],"answer":"63 ¾ %","points":25},
-      {"id":198,"wave":4,"question":"Convert 63 ¾ % to a fraction","choices":["51/80","2/3","3/5","5/7"],"answer":"51/80","points":25},
-      {"id":199,"wave":4,"question":"Convert 53/80 to a percentage","choices":["65 %","66 %","66 ¼ %","67 %"],"answer":"66 ¼ %","points":25},
-      {"id":200,"wave":4,"question":"Convert 66 ¼ % to a fraction","choices":["53/80","2/3","3/5","7/10"],"answer":"53/80","points":25},
-      {"id":201,"wave":5,"question":"Convert 1 1/2 to a percentage","choices":["140 %","150 %","160 %","175 %"],"answer":"150 %","points":30},
-      {"id":202,"wave":5,"question":"Convert 250 % to a mixed number","choices":["2 1/2","2 2/3","2 3/4","3 1/4"],"answer":"2 1/2","points":30},
-      {"id":203,"wave":5,"question":"Convert 3 3/4 to a percentage","choices":["350 %","375 %","400 %","425 %"],"answer":"375 %","points":30},
-      {"id":204,"wave":5,"question":"Convert 425 % to a mixed number","choices":["4 1/4","4 1/2","4 2/5","4 3/4"],"answer":"4 1/4","points":30},
-      {"id":205,"wave":5,"question":"Convert 2 2/3 to a percentage","choices":["260 %","266 ⅔ %","270 %","275 %"],"answer":"266 ⅔ %","points":30},
-      {"id":206,"wave":5,"question":"Convert 150 % to a mixed number","choices":["1 1/2","1 2/3","1 3/4","2 1/4"],"answer":"1 1/2","points":30},
-      {"id":207,"wave":5,"question":"Convert 5 1/4 to a percentage","choices":["500 %","525 %","550 %","575 %"],"answer":"525 %","points":30},
-      {"id":208,"wave":5,"question":"Convert 625 % to a mixed number","choices":["6 1/4","6 1/2","6 2/3","6 3/4"],"answer":"6 1/4","points":30},
-      {"id":209,"wave":5,"question":"Convert 7 1/3 to a percentage","choices":["733 ⅓ %","750 %","766 ⅔ %","800 %"],"answer":"733 ⅓ %","points":30},
-      {"id":210,"wave":5,"question":"Convert 333 ⅓ % to a mixed number","choices":["3 1/3","3 1/2","3 2/3","3 3/4"],"answer":"3 1/3","points":30},
-      {"id":211,"wave":5,"question":"Convert 4 5/8 to a percentage","choices":["450 %","462 ½ %","475 %","500 %"],"answer":"462 ½ %","points":30},
-      {"id":212,"wave":5,"question":"Convert 562 ½ % to a mixed number","choices":["5 5/8","5 2/3","5 3/4","6 1/8"],"answer":"5 5/8","points":30},
-      {"id":213,"wave":5,"question":"Convert 8 2/5 to a percentage","choices":["820 %","840 %","860 %","880 %"],"answer":"840 %","points":30},
-      {"id":214,"wave":5,"question":"Convert 880 % to a mixed number","choices":["8 4/5","8 3/4","9 1/5","9 2/5"],"answer":"8 4/5","points":30},
-      {"id":215,"wave":5,"question":"Convert 3 7/8 to a percentage","choices":["375 %","387 ½ %","400 %","425 %"],"answer":"387 ½ %","points":30},
-      {"id":216,"wave":5,"question":"Convert 437 ½ % to a mixed number","choices":["4 3/8","4 1/2","4 2/3","4 3/4"],"answer":"4 3/8","points":30},
-      {"id":217,"wave":5,"question":"Convert 6 3/5 to a percentage","choices":["650 %","660 %","680 %","700 %"],"answer":"660 %","points":30},
-      {"id":218,"wave":5,"question":"Convert 720 % to a mixed number","choices":["7 1/5","7 2/5","7 1/2","7 3/5"],"answer":"7 1/5","points":30},
-      {"id":219,"wave":5,"question":"Convert 9 1/8 to a percentage","choices":["900 %","912 ½ %","925 %","950 %"],"answer":"912 ½ %","points":30},
-      {"id":220,"wave":5,"question":"Convert 275 % to a mixed number","choices":["2 3/4","2 2/3","2 4/5","3 1/4"],"answer":"2 3/4","points":30},
-      {"id":221,"wave":5,"question":"Convert 1 5/6 to a percentage","choices":["180 %","183 ⅓ %","185 %","190 %"],"answer":"183 ⅓ %","points":30},
-      {"id":222,"wave":5,"question":"Convert 116 ⅔ % to a mixed number","choices":["1 1/6","1 1/5","1 1/4","1 1/3"],"answer":"1 1/6","points":30},
-      {"id":223,"wave":5,"question":"Convert 4 2/9 to a percentage","choices":["440 %","444 ⁴⁄₉ %","450 %","455 %"],"answer":"444 ⁴⁄₉ %","points":30},
-      {"id":224,"wave":5,"question":"Convert 555 ⁵⁄₉ % to a mixed number","choices":["5 5/9","5 1/2","5 2/3","5 3/4"],"answer":"5 5/9","points":30},
-      {"id":225,"wave":5,"question":"Convert 7 3/11 to a percentage","choices":["727 ³⁄₁₁ %","730 %","733 ⅓ %","750 %"],"answer":"727 ³⁄₁₁ %","points":30},
-      {"id":226,"wave":5,"question":"Convert 818 ²⁄₁₁ % to a mixed number","choices":["8 2/11","8 1/5","8 1/4","8 3/11"],"answer":"8 2/11","points":30},
-      {"id":227,"wave":5,"question":"Convert 2 11/12 to a percentage","choices":["290 %","291 ⅔ %","295 %","300 %"],"answer":"291 ⅔ %","points":30},
-      {"id":228,"wave":5,"question":"Convert 108 ⅓ % to a mixed number","choices":["1 1/12","1 1/10","1 1/8","1 1/6"],"answer":"1 1/12","points":30},
-      {"id":229,"wave":5,"question":"Convert 5 7/9 to a percentage","choices":["560 %","570 %","577 ⁷⁄₉ %","580 %"],"answer":"577 ⁷⁄₉ %","points":30},
-      {"id":230,"wave":5,"question":"Convert 622 ²⁄₉ % to a mixed number","choices":["6 2/9","6 1/4","6 1/3","6 3/8"],"answer":"6 2/9","points":30},
-      {"id":231,"wave":5,"question":"Convert 8 4/7 to a percentage","choices":["840 %","850 %","857 ¹⁄₇ %","860 %"],"answer":"857 ¹⁄₇ %","points":30},
-      {"id":232,"wave":5,"question":"Convert 914 ²⁄₇ % to a mixed number","choices":["9 2/7","9 1/4","9 1/3","9 3/8"],"answer":"9 2/7","points":30},
-      {"id":233,"wave":5,"question":"Convert 3 5/7 to a percentage","choices":["350 %","357 ¹⁄₇ %","360 %","365 %"],"answer":"357 ¹⁄₇ %","points":30},
-      {"id":234,"wave":5,"question":"Convert 442 ⁶⁄₇ % to a mixed number","choices":["4 6/7","4 2/3","4 3/4","4 5/6"],"answer":"4 6/7","points":30},
-      {"id":235,"wave":5,"question":"Convert 6 7/8 to a percentage","choices":["680 %","687 ½ %","690 %","700 %"],"answer":"687 ½ %","points":30},
-      {"id":236,"wave":5,"question":"Convert 812 ½ % to a mixed number","choices":["8 1/8","8 1/4","8 1/2","8 3/4"],"answer":"8 1/8","points":30},
-      {"id":237,"wave":5,"question":"Convert 9 3/8 to a percentage","choices":["925 %","937 ½ %","950 %","975 %"],"answer":"937 ½ %","points":30},
-      {"id":238,"wave":5,"question":"Convert 662 ½ % to a mixed number","choices":["6 5/8","6 2/3","6 3/4","6 7/8"],"answer":"6 5/8","points":30},
-      {"id":239,"wave":5,"question":"Convert 1 7/8 to a percentage","choices":["175 %","187 ½ %","200 %","225 %"],"answer":"187 ½ %","points":30},
-      {"id":240,"wave":5,"question":"Convert 337 ½ % to a mixed number","choices":["3 3/8","3 1/3","3 2/5","3 1/2"],"answer":"3 3/8","points":30},
-      {"id":241,"wave":5,"question":"Convert 4 7/9 to a percentage","choices":["470 %","477 ⁷⁄₉ %","480 %","490 %"],"answer":"477 ⁷⁄₉ %","points":30},
-      {"id":242,"wave":5,"question":"Convert 533 ⅓ % to a mixed number","choices":["5 1/3","5 2/5","5 3/8","5 4/7"],"answer":"5 1/3","points":30},
-      {"id":243,"wave":5,"question":"Convert 7 5/12 to a percentage","choices":["750 %","758 ⅓ %","760 %","775 %"],"answer":"758 ⅓ %","points":30},
-      {"id":244,"wave":5,"question":"Convert 816 ⅔ % to a mixed number","choices":["8 1/6","8 1/5","8 1/4","8 1/3"],"answer":"8 1/6","points":30},
-      {"id":245,"wave":5,"question":"Convert 2 9/10 to a percentage","choices":["280 %","285 %","290 %","295 %"],"answer":"290 %","points":30},
-      {"id":246,"wave":5,"question":"Convert 305 % to a mixed number","choices":["3 1/20","3 1/10","3 1/5","3 1/4"],"answer":"3 1/20","points":30},
-      {"id":247,"wave":5,"question":"Convert 5 11/12 to a percentage","choices":["580 %","590 %","591 ⅔ %","600 %"],"answer":"591 ⅔ %","points":30},
-      {"id":248,"wave":5,"question":"Convert 708 ⅓ % to a mixed number","choices":["7 1/12","7 1/10","7 1/8","7 1/6"],"answer":"7 1/12","points":30},
-      {"id":249,"wave":5,"question":"Convert 8 13/16 to a percentage","choices":["860 %","862 ½ %","865 %","875 %"],"answer":"862 ½ %","points":30},
-      {"id":250,"wave":5,"question":"Convert 931 ¼ % to a mixed number","choices":["9 5/16","9 1/4","9 3/8","9 1/3"],"answer":"9 5/16","points":30}
-    ]
-  }
+  "title": "Fraction to Percentage Challenge",
+  "description": "Master the art of converting between fractions and percentages.",
+  "waves": 5,
+  "timePerQuestion": 30,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{4}$ to a percentage.",
+      "choices": ["$10\\%$", "$25\\%$", "$40\\%$", "$50\\%$"],
+      "answer": "$25\\%$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Convert $75\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{3}{4}$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{2}$ to a percentage.",
+      "choices": ["$25\\%$", "$50\\%$", "$75\\%$", "$100\\%$"],
+      "answer": "$50\\%$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "Convert $20\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": "$\\frac{1}{5}$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{10}$ to a percentage.",
+      "choices": ["$15\\%$", "$20\\%$", "$25\\%$", "$30\\%$"],
+      "answer": "$30\\%$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Convert $10\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{10}$"
+      ],
+      "answer": "$\\frac{1}{10}$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "Convert $\\frac{4}{5}$ to a percentage.",
+      "choices": ["$40\\%$", "$60\\%$", "$80\\%$", "$90\\%$"],
+      "answer": "$80\\%$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Convert $50\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "answer": "$\\frac{1}{2}$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{5}$ to a percentage.",
+      "choices": ["$10\\%$", "$15\\%$", "$20\\%$", "$25\\%$"],
+      "answer": "$20\\%$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "Convert $25\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": "$\\frac{1}{4}$",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{10}$ to a percentage.",
+      "choices": ["$1\\%$", "$5\\%$", "$10\\%$", "$20\\%$"],
+      "answer": "$10\\%$",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Convert $30\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{3}{10}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{3}{5}$"
+      ],
+      "answer": "$\\frac{3}{10}$",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{5}$ to a percentage.",
+      "choices": ["$30\\%$", "$40\\%$", "$50\\%$", "$60\\%$"],
+      "answer": "$60\\%$",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Convert $60\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{3}{5}$",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{1}$ to a percentage.",
+      "choices": ["$1\\%$", "$10\\%$", "$50\\%$", "$100\\%$"],
+      "answer": "$100\\%$",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "Convert $100\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{1}$",
+        "$\\frac{2}{1}$",
+        "$\\frac{10}{100}$"
+      ],
+      "answer": "$\\frac{1}{1}$",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{20}$ to a percentage.",
+      "choices": ["$1\\%$", "$5\\%$", "$10\\%$", "$20\\%$"],
+      "answer": "$5\\%$",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Convert $5\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{20}$",
+        "$\\frac{1}{50}$",
+        "$\\frac{5}{100}$"
+      ],
+      "answer": "$\\frac{1}{20}$",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{8}$ to a percentage.",
+      "choices": ["$10.5\\%$", "$12.5\\%$", "$15\\%$", "$18.5\\%$"],
+      "answer": "$12.5\\%$",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Convert $12.5\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{10}$"
+      ],
+      "answer": "$\\frac{1}{8}$",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Convert $\\frac{2}{3}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$60.00\\%$", "$66.66\\%$", "$66.67\\%$", "$70.00\\%$"],
+      "answer": "$66.67\\%$",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "Convert $33.33\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": "$\\frac{1}{3}$",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{3}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$33.0\\%$", "$33.3\\%$", "$33.5\\%$", "$34.0\\%$"],
+      "answer": "$33.3\\%$",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Convert $66.67\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "answer": "$\\frac{2}{3}$",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{100}$ to a percentage.",
+      "choices": ["$0.1\\%$", "$1\\%$", "$10\\%$", "$100\\%$"],
+      "answer": "$1\\%$",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Convert $1\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{50}$",
+        "$\\frac{1}{100}$",
+        "$\\frac{1}{200}$"
+      ],
+      "answer": "$\\frac{1}{100}$",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{25}$ to a percentage.",
+      "choices": ["$2\\%$", "$4\\%$", "$5\\%$", "$10\\%$"],
+      "answer": "$4\\%$",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "Convert $4\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{20}$",
+        "$\\frac{1}{25}$",
+        "$\\frac{2}{50}$",
+        "$\\frac{4}{100}$"
+      ],
+      "answer": "$\\frac{1}{25}$",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{50}$ to a percentage.",
+      "choices": ["$1\\%$", "$2\\%$", "$5\\%$", "$10\\%$"],
+      "answer": "$2\\%$",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Convert $2\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{25}$",
+        "$\\frac{1}{50}$",
+        "$\\frac{2}{100}$",
+        "$\\frac{1}{20}$"
+      ],
+      "answer": "$\\frac{1}{50}$",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{4}$ to a percentage.",
+      "choices": ["$25\\%$", "$50\\%$", "$75\\%$", "$100\\%$"],
+      "answer": "$75\\%$",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Convert $80\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{4}{5}$",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Convert $\\frac{2}{5}$ to a percentage.",
+      "choices": ["$20\\%$", "$30\\%$", "$40\\%$", "$50\\%$"],
+      "answer": "$40\\%$",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "Convert $40\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{10}$"
+      ],
+      "answer": "$\\frac{2}{5}$",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Convert $\\frac{7}{10}$ to a percentage.",
+      "choices": ["$7\\%$", "$17\\%$", "$70\\%$", "$700\\%$"],
+      "answer": "$70\\%$",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Convert $70\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{7}{10}$",
+        "$\\frac{7}{20}$",
+        "$\\frac{7}{25}$",
+        "$\\frac{70}{100}$"
+      ],
+      "answer": "$\\frac{7}{10}$",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "Convert $\\frac{9}{10}$ to a percentage.",
+      "choices": ["$9\\%$", "$19\\%$", "$90\\%$", "$900\\%$"],
+      "answer": "$90\\%$",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Convert $90\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{9}{10}$",
+        "$\\frac{9}{20}$",
+        "$\\frac{9}{25}$",
+        "$\\frac{90}{100}$"
+      ],
+      "answer": "$\\frac{9}{10}$",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{2}$ to a percentage.",
+      "choices": ["$50\\%$", "$100\\%$", "$150\\%$", "$200\\%$"],
+      "answer": "$150\\%$",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "Convert $150\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{2}$",
+        "$\\frac{5}{2}$",
+        "$\\frac{15}{10}$"
+      ],
+      "answer": "$\\frac{3}{2}$",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Convert $\\frac{5}{4}$ to a percentage.",
+      "choices": ["$100\\%$", "$125\\%$", "$150\\%$", "$175\\%$"],
+      "answer": "$125\\%$",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Convert $125\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{5}{4}$",
+        "$\\frac{125}{100}$"
+      ],
+      "answer": "$\\frac{5}{4}$",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{200}$ to a percentage.",
+      "choices": ["$0.05\\%$", "$0.5\\%$", "$1\\%$", "$5\\%$"],
+      "answer": "$0.5\\%$",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Convert $0.5\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{50}$",
+        "$\\frac{1}{100}$",
+        "$\\frac{1}{200}$",
+        "$\\frac{5}{1000}$"
+      ],
+      "answer": "$\\frac{1}{200}$",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{500}$ to a percentage.",
+      "choices": ["$0.1\\%$", "$0.2\\%$", "$0.5\\%$", "$1\\%$"],
+      "answer": "$0.2\\%$",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "Convert $0.2\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{100}$",
+        "$\\frac{1}{200}$",
+        "$\\frac{1}{500}$",
+        "$\\frac{2}{1000}$"
+      ],
+      "answer": "$\\frac{1}{500}$",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{1}$ to a percentage.",
+      "choices": ["$3\\%$", "$30\\%$", "$100\\%$", "$300\\%$"],
+      "answer": "$300\\%$",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Convert $200\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{1}$",
+        "$\\frac{2}{1}$",
+        "$\\frac{200}{100}$"
+      ],
+      "answer": "$\\frac{2}{1}$",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{1000}$ to a percentage.",
+      "choices": ["$0.01\\%$", "$0.1\\%$", "$1\\%$", "$10\\%$"],
+      "answer": "$0.1\\%$",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Convert $0.1\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{100}$",
+        "$\\frac{1}{200}$",
+        "$\\frac{1}{500}$",
+        "$\\frac{1}{1000}$"
+      ],
+      "answer": "$\\frac{1}{1000}$",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "Convert $\\frac{3}{8}$ to a percentage.",
+      "choices": ["$30\\%$", "$37.5\\%$", "$40\\%$", "$42.5\\%$"],
+      "answer": "$37.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Convert $62.5\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{6}{10}$"
+      ],
+      "answer": "$\\frac{5}{8}$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Convert $\\frac{5}{6}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$83.3\\%$", "$83.6\\%$", "$85.0\\%$", "$86.7\\%$"],
+      "answer": "$83.3\\%$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "Convert $83.33\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{5}{6}$",
+        "$\\frac{7}{8}$"
+      ],
+      "answer": "$\\frac{5}{6}$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Convert $\\frac{7}{8}$ to a percentage.",
+      "choices": ["$75\\%$", "$87.5\\%$", "$90\\%$", "$92.5\\%$"],
+      "answer": "$87.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Convert $87.5\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{7}{8}$"
+      ],
+      "answer": "$\\frac{7}{8}$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{6}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$16.0\\%$", "$16.6\\%$", "$16.7\\%$", "$17.0\\%$"],
+      "answer": "$16.7\\%$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Convert $16.67\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": "$\\frac{1}{6}$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{9}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$1.1\\%$", "$11.1\\%$", "$11.9\\%$", "$1.11\\%$"],
+      "answer": "$11.1\\%$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "Convert $11.11\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{9}$",
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{11}$"
+      ],
+      "answer": "$\\frac{1}{9}$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Convert $\\frac{2}{9}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$20.0\\%$", "$22.2\\%$", "$22.5\\%$", "$23.0\\%$"],
+      "answer": "$22.2\\%$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Convert $22.22\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{10}$"
+      ],
+      "answer": "$\\frac{2}{9}$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "Convert $\\frac{4}{9}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$40.0\\%$", "$44.4\\%$", "$44.5\\%$", "$45.0\\%$"],
+      "answer": "$44.4\\%$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Convert $44.44\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{4}{9}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": "$\\frac{4}{9}$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Convert $\\frac{5}{9}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$50.0\\%$", "$55.5\\%$", "$55.6\\%$", "$56.0\\%$"],
+      "answer": "$55.6\\%$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "Convert $55.56\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{9}$",
+        "$\\frac{2}{3}$"
+      ],
+      "answer": "$\\frac{5}{9}$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Convert $\\frac{7}{9}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$70.0\\%$", "$77.7\\%$", "$77.8\\%$", "$78.0\\%$"],
+      "answer": "$77.8\\%$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Convert $77.78\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{7}{9}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{7}{9}$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{16}$ to a percentage.",
+      "choices": ["$6.00\\%$", "$6.25\\%$", "$6.50\\%$", "$16.00\\%$"],
+      "answer": "$6.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Convert $6.25\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{20}$"
+      ],
+      "answer": "$\\frac{1}{16}$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Convert $\\frac{3}{16}$ to a percentage.",
+      "choices": ["$18.00\\%$", "$18.75\\%$", "$19.00\\%$", "$20.00\\%$"],
+      "answer": "$18.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "Convert $18.75\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{8}$",
+        "$\\frac{3}{16}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{16}$"
+      ],
+      "answer": "$\\frac{3}{16}$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Convert $\\frac{5}{16}$ to a percentage.",
+      "choices": ["$30.00\\%$", "$31.25\\%$", "$32.00\\%$", "$35.00\\%$"],
+      "answer": "$31.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Convert $31.25\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{5}{16}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": "$\\frac{5}{16}$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "Convert $\\frac{7}{16}$ to a percentage.",
+      "choices": ["$40.00\\%$", "$43.75\\%$", "$45.00\\%$", "$46.25\\%$"],
+      "answer": "$43.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Convert $43.75\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{3}{8}$",
+        "$\\frac{7}{16}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{9}{16}$"
+      ],
+      "answer": "$\\frac{7}{16}$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Convert $\\frac{9}{16}$ to a percentage.",
+      "choices": ["$50.00\\%$", "$56.25\\%$", "$58.00\\%$", "$60.00\\%$"],
+      "answer": "$56.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "Convert $56.25\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{9}{16}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{11}{16}$"
+      ],
+      "answer": "$\\frac{9}{16}$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Convert $\\frac{11}{16}$ to a percentage.",
+      "choices": ["$60.00\\%$", "$62.50\\%$", "$68.75\\%$", "$70.00\\%$"],
+      "answer": "$68.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Convert $68.75\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{5}{8}$",
+        "$\\frac{11}{16}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{13}{16}$"
+      ],
+      "answer": "$\\frac{11}{16}$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "Convert $\\frac{13}{16}$ to a percentage.",
+      "choices": ["$80.00\\%$", "$81.25\\%$", "$82.00\\%$", "$85.00\\%$"],
+      "answer": "$81.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Convert $81.25\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{13}{16}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{15}{16}$"
+      ],
+      "answer": "$\\frac{13}{16}$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Convert $\\frac{15}{16}$ to a percentage.",
+      "choices": ["$90.00\\%$", "$93.75\\%$", "$95.00\\%$", "$96.25\\%$"],
+      "answer": "$93.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "Convert $93.75\\%$ to a fraction in simplest form.",
+      "choices": [
+        "$\\frac{7}{8}$",
+        "$\\frac{15}{16}$",
+        "$\\frac{1}{1}$",
+        "$\\frac{17}{16}$"
+      ],
+      "answer": "$\\frac{15}{16}$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{30}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$3.0\\%$", "$3.3\\%$", "$3.4\\%$", "$3.5\\%$"],
+      "answer": "$3.3\\%$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Convert $3.33\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{20}$",
+        "$\\frac{1}{30}$",
+        "$\\frac{1}{33}$"
+      ],
+      "answer": "$\\frac{1}{30}$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{12}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$8.0\\%$", "$8.3\\%$", "$8.5\\%$", "$9.0\\%$"],
+      "answer": "$8.3\\%$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Convert $8.33\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{15}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": "$\\frac{1}{12}$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Convert $\\frac{5}{12}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$41.0\\%$", "$41.6\\%$", "$41.7\\%$", "$42.0\\%$"],
+      "answer": "$41.7\\%$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "Convert $41.67\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{12}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": "$\\frac{5}{12}$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Convert $\\frac{7}{12}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$58.0\\%$", "$58.3\\%$", "$58.4\\%$", "$59.0\\%$"],
+      "answer": "$58.3\\%$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Convert $58.33\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{12}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{2}{3}$"
+      ],
+      "answer": "$\\frac{7}{12}$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "Convert $\\frac{11}{12}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$90.0\\%$", "$91.6\\%$", "$91.7\\%$", "$92.0\\%$"],
+      "answer": "$91.7\\%$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Convert $91.67\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{5}{6}$",
+        "$\\frac{11}{12}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{9}{10}$"
+      ],
+      "answer": "$\\frac{11}{12}$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{15}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$6.0\\%$", "$6.6\\%$", "$6.7\\%$", "$7.0\\%$"],
+      "answer": "$6.7\\%$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "Convert $6.67\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{15}$",
+        "$\\frac{1}{16}$"
+      ],
+      "answer": "$\\frac{1}{15}$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Convert $\\frac{2}{15}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$13.0\\%$", "$13.3\\%$", "$13.4\\%$", "$14.0\\%$"],
+      "answer": "$13.3\\%$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Convert $13.33\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{15}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{1}{8}$"
+      ],
+      "answer": "$\\frac{2}{15}$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "Convert $\\frac{4}{15}$ to a percentage (rounded to one decimal place).",
+      "choices": ["$26.0\\%$", "$26.6\\%$", "$26.7\\%$", "$27.0\\%$"],
+      "answer": "$26.7\\%$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Convert $26.67\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{4}{15}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": "$\\frac{4}{15}$",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "Convert $\\frac{1}{7}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$14.28\\%$", "$14.29\\%$", "$14.30\\%$", "$14.35\\%$"],
+      "answer": "$14.29\\%$",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Convert $14.29\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{2}{15}$"
+      ],
+      "answer": "$\\frac{1}{7}$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Convert $\\frac{2}{7}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$28.57\\%$", "$28.58\\%$", "$28.60\\%$", "$28.65\\%$"],
+      "answer": "$28.57\\%$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "Convert $28.57\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{6}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": "$\\frac{2}{7}$",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Convert $\\frac{3}{7}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$42.85\\%$", "$42.86\\%$", "$42.90\\%$", "$43.00\\%$"],
+      "answer": "$42.86\\%$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Convert $42.86\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{4}{9}$",
+        "$\\frac{2}{5}$"
+      ],
+      "answer": "$\\frac{3}{7}$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "Convert $\\frac{4}{7}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$57.14\\%$", "$57.15\\%$", "$57.20\\%$", "$57.25\\%$"],
+      "answer": "$57.14\\%$",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Convert $57.14\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{9}$"
+      ],
+      "answer": "$\\frac{4}{7}$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Convert $\\frac{5}{7}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$71.42\\%$", "$71.43\\%$", "$71.50\\%$", "$71.60\\%$"],
+      "answer": "$71.43\\%$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "Convert $71.43\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{6}{8}$",
+        "$\\frac{7}{9}$"
+      ],
+      "answer": "$\\frac{5}{7}$",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Convert $\\frac{6}{7}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$85.71\\%$", "$85.72\\%$", "$85.75\\%$", "$85.80\\%$"],
+      "answer": "$85.71\\%$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Convert $85.71\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{6}{7}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{8}{9}$"
+      ],
+      "answer": "$\\frac{6}{7}$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "Convert $\\frac{1}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$9.09\\%$", "$9.10\\%$", "$9.11\\%$", "$9.12\\%$"],
+      "answer": "$9.09\\%$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Convert $9.09\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{9}$",
+        "$\\frac{1}{10}$",
+        "$\\frac{1}{11}$",
+        "$\\frac{1}{12}$"
+      ],
+      "answer": "$\\frac{1}{11}$",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Convert $\\frac{2}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$18.18\\%$", "$18.19\\%$", "$18.20\\%$", "$18.25\\%$"],
+      "answer": "$18.18\\%$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "Convert $18.18\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{2}{11}$",
+        "$\\frac{1}{6}$"
+      ],
+      "answer": "$\\frac{2}{11}$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Convert $\\frac{3}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$27.27\\%$", "$27.28\\%$", "$27.30\\%$", "$27.35\\%$"],
+      "answer": "$27.27\\%$",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Convert $27.27\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{3}{11}$",
+        "$\\frac{1}{3}$"
+      ],
+      "answer": "$\\frac{3}{11}$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "Convert $\\frac{4}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$36.36\\%$", "$36.37\\%$", "$36.40\\%$", "$36.45\\%$"],
+      "answer": "$36.36\\%$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Convert $36.36\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{4}{11}$",
+        "$\\frac{3}{8}$"
+      ],
+      "answer": "$\\frac{4}{11}$",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Convert $\\frac{5}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$45.45\\%$", "$45.46\\%$", "$45.50\\%$", "$45.55\\%$"],
+      "answer": "$45.45\\%$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "Convert $45.45\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{5}{11}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{4}{9}$"
+      ],
+      "answer": "$\\frac{5}{11}$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Convert $\\frac{6}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$54.54\\%$", "$54.55\\%$", "$54.60\\%$", "$54.65\\%$"],
+      "answer": "$54.55\\%$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Convert $54.55\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{6}{11}$",
+        "$\\frac{5}{9}$"
+      ],
+      "answer": "$\\frac{6}{11}$",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "Convert $\\frac{7}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$63.63\\%$", "$63.64\\%$", "$63.65\\%$", "$63.70\\%$"],
+      "answer": "$63.64\\%$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Convert $63.64\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{7}{11}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{3}{5}$"
+      ],
+      "answer": "$\\frac{7}{11}$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Convert $\\frac{8}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$72.72\\%$", "$72.73\\%$", "$72.75\\%$", "$72.80\\%$"],
+      "answer": "$72.73\\%$",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "Convert $72.73\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{8}{11}$",
+        "$\\frac{7}{9}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{8}{11}$",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Convert $\\frac{9}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$81.81\\%$", "$81.82\\%$", "$81.85\\%$", "$81.90\\%$"],
+      "answer": "$81.82\\%$",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Convert $81.82\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{9}{11}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{8}{9}$"
+      ],
+      "answer": "$\\frac{9}{11}$",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "Convert $\\frac{10}{11}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$90.90\\%$", "$90.91\\%$", "$90.95\\%$", "$91.00\\%$"],
+      "answer": "$90.91\\%$",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Convert $90.91\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{9}{10}$",
+        "$\\frac{10}{11}$",
+        "$\\frac{11}{12}$",
+        "$\\frac{9}{10}$"
+      ],
+      "answer": "$\\frac{10}{11}$",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Convert $\\frac{1}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$7.69\\%$", "$7.70\\%$", "$7.75\\%$", "$7.80\\%$"],
+      "answer": "$7.69\\%$",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "Convert $7.69\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{13}$",
+        "$\\frac{1}{14}$",
+        "$\\frac{1}{15}$"
+      ],
+      "answer": "$\\frac{1}{13}$",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Convert $\\frac{2}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$15.38\\%$", "$15.39\\%$", "$15.40\\%$", "$15.45\\%$"],
+      "answer": "$15.38\\%$",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Convert $15.38\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{2}{13}$",
+        "$\\frac{1}{7}$",
+        "$\\frac{2}{11}$"
+      ],
+      "answer": "$\\frac{2}{13}$",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "Convert $\\frac{3}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$23.07\\%$", "$23.08\\%$", "$23.10\\%$", "$23.15\\%$"],
+      "answer": "$23.08\\%$",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Convert $23.08\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{3}{13}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": "$\\frac{3}{13}$",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Convert $\\frac{4}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$30.76\\%$", "$30.77\\%$", "$30.80\\%$", "$30.85\\%$"],
+      "answer": "$30.77\\%$",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "Convert $30.77\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{4}{13}$",
+        "$\\frac{3}{10}$"
+      ],
+      "answer": "$\\frac{4}{13}$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Convert $\\frac{5}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$38.46\\%$", "$38.47\\%$", "$38.50\\%$", "$38.55\\%$"],
+      "answer": "$38.46\\%$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Convert $38.46\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{5}{13}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{4}{11}$"
+      ],
+      "answer": "$\\frac{5}{13}$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "Convert $\\frac{6}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$46.15\\%$", "$46.16\\%$", "$46.20\\%$", "$46.25\\%$"],
+      "answer": "$46.15\\%$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Convert $46.15\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{6}{13}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{5}{11}$"
+      ],
+      "answer": "$\\frac{6}{13}$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Convert $\\frac{7}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$53.84\\%$", "$53.85\\%$", "$53.90\\%$", "$53.95\\%$"],
+      "answer": "$53.85\\%$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "Convert $53.85\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{13}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{9}$"
+      ],
+      "answer": "$\\frac{7}{13}$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Convert $\\frac{8}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$61.53\\%$", "$61.54\\%$", "$61.55\\%$", "$61.60\\%$"],
+      "answer": "$61.54\\%$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Convert $61.54\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{8}{13}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{3}{5}$"
+      ],
+      "answer": "$\\frac{8}{13}$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "Convert $\\frac{9}{13}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$69.23\\%$", "$69.24\\%$", "$69.25\\%$", "$69.30\\%$"],
+      "answer": "$69.23\\%$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Convert $69.23\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{9}{13}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{8}{11}$"
+      ],
+      "answer": "$\\frac{9}{13}$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "Convert $\\frac{1}{14}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$7.14\\%$", "$7.15\\%$", "$7.16\\%$", "$7.20\\%$"],
+      "answer": "$7.14\\%$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "Convert $7.14\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{13}$",
+        "$\\frac{1}{14}$",
+        "$\\frac{1}{15}$",
+        "$\\frac{1}{16}$"
+      ],
+      "answer": "$\\frac{1}{14}$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "Convert $\\frac{3}{14}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$21.42\\%$", "$21.43\\%$", "$21.44\\%$", "$21.45\\%$"],
+      "answer": "$21.43\\%$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "Convert $21.43\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{3}{14}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{1}{4}$"
+      ],
+      "answer": "$\\frac{3}{14}$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "Convert $\\frac{5}{14}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$35.71\\%$", "$35.72\\%$", "$35.75\\%$", "$35.80\\%$"],
+      "answer": "$35.71\\%$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "Convert $35.71\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{5}{14}$",
+        "$\\frac{3}{8}$"
+      ],
+      "answer": "$\\frac{5}{14}$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "Convert $\\frac{9}{14}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$64.28\\%$", "$64.29\\%$", "$64.30\\%$", "$64.35\\%$"],
+      "answer": "$64.29\\%$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "Convert $64.29\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{9}{14}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{7}{11}$"
+      ],
+      "answer": "$\\frac{9}{14}$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "Convert $\\frac{11}{14}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$78.57\\%$", "$78.58\\%$", "$78.60\\%$", "$78.65\\%$"],
+      "answer": "$78.57\\%$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "Convert $78.57\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{11}{14}$",
+        "$\\frac{7}{9}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{11}{14}$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "Convert $\\frac{13}{14}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$92.85\\%$", "$92.86\\%$", "$92.90\\%$", "$92.95\\%$"],
+      "answer": "$92.86\\%$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "Convert $92.86\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{6}{7}$",
+        "$\\frac{13}{14}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{9}{10}$"
+      ],
+      "answer": "$\\frac{13}{14}$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "Convert $\\frac{1}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$5.88\\%$", "$5.89\\%$", "$5.90\\%$", "$5.95\\%$"],
+      "answer": "$5.88\\%$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "Convert $5.88\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{17}$",
+        "$\\frac{1}{18}$",
+        "$\\frac{1}{20}$"
+      ],
+      "answer": "$\\frac{1}{17}$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "Convert $\\frac{2}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$11.76\\%$", "$11.77\\%$", "$11.80\\%$", "$11.85\\%$"],
+      "answer": "$11.76\\%$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "Convert $11.76\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{8}$",
+        "$\\frac{2}{17}$",
+        "$\\frac{1}{9}$",
+        "$\\frac{1}{7}$"
+      ],
+      "answer": "$\\frac{2}{17}$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "Convert $\\frac{3}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$17.64\\%$", "$17.65\\%$", "$17.70\\%$", "$17.75\\%$"],
+      "answer": "$17.65\\%$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "Convert $17.65\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{3}{17}$",
+        "$\\frac{2}{11}$",
+        "$\\frac{1}{6}$"
+      ],
+      "answer": "$\\frac{3}{17}$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "Convert $\\frac{4}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$23.52\\%$", "$23.53\\%$", "$23.55\\%$", "$23.60\\%$"],
+      "answer": "$23.53\\%$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "Convert $23.53\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{4}{17}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{3}{13}$"
+      ],
+      "answer": "$\\frac{4}{17}$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "Convert $\\frac{5}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$29.41\\%$", "$29.42\\%$", "$29.45\\%$", "$29.50\\%$"],
+      "answer": "$29.41\\%$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "Convert $29.41\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{5}{17}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{4}{13}$"
+      ],
+      "answer": "$\\frac{5}{17}$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "Convert $\\frac{6}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$35.29\\%$", "$35.30\\%$", "$35.31\\%$", "$35.35\\%$"],
+      "answer": "$35.29\\%$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "Convert $35.29\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{6}{17}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{5}{14}$"
+      ],
+      "answer": "$\\frac{6}{17}$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "Convert $\\frac{7}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$41.17\\%$", "$41.18\\%$", "$41.20\\%$", "$41.25\\%$"],
+      "answer": "$41.18\\%$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "Convert $41.18\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{17}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{5}{12}$"
+      ],
+      "answer": "$\\frac{7}{17}$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "Convert $\\frac{8}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$47.05\\%$", "$47.06\\%$", "$47.10\\%$", "$47.15\\%$"],
+      "answer": "$47.06\\%$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "Convert $47.06\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{8}{17}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{4}{9}$"
+      ],
+      "answer": "$\\frac{8}{17}$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "Convert $\\frac{9}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$52.94\\%$", "$52.95\\%$", "$52.90\\%$", "$53.00\\%$"],
+      "answer": "$52.94\\%$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "Convert $52.94\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{9}{17}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{9}$"
+      ],
+      "answer": "$\\frac{9}{17}$",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "Convert $\\frac{10}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$58.82\\%$", "$58.83\\%$", "$58.85\\%$", "$58.90\\%$"],
+      "answer": "$58.82\\%$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "Convert $58.82\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{5}$",
+        "$\\frac{10}{17}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{6}{11}$"
+      ],
+      "answer": "$\\frac{10}{17}$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "Convert $\\frac{11}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$64.70\\%$", "$64.71\\%$", "$64.72\\%$", "$64.75\\%$"],
+      "answer": "$64.71\\%$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "Convert $64.71\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{11}{17}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{7}{11}$"
+      ],
+      "answer": "$\\frac{11}{17}$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "Convert $\\frac{12}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$70.58\\%$", "$70.59\\%$", "$70.60\\%$", "$70.65\\%$"],
+      "answer": "$70.59\\%$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "Convert $70.59\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{7}{10}$",
+        "$\\frac{12}{17}$",
+        "$\\frac{7}{9}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{12}{17}$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "Convert $\\frac{13}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$76.47\\%$", "$76.48\\%$", "$76.50\\%$", "$76.55\\%$"],
+      "answer": "$76.47\\%$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "Convert $76.47\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{13}{17}$",
+        "$\\frac{7}{9}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{13}{17}$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "Convert $\\frac{14}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$82.35\\%$", "$82.36\\%$", "$82.40\\%$", "$82.45\\%$"],
+      "answer": "$82.35\\%$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "Convert $82.35\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{14}{17}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{8}{9}$"
+      ],
+      "answer": "$\\frac{14}{17}$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "Convert $\\frac{15}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$88.23\\%$", "$88.24\\%$", "$88.25\\%$", "$88.30\\%$"],
+      "answer": "$88.24\\%$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "Convert $88.24\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{7}{8}$",
+        "$\\frac{15}{17}$",
+        "$\\frac{8}{9}$",
+        "$\\frac{9}{10}$"
+      ],
+      "answer": "$\\frac{15}{17}$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "Convert $\\frac{16}{17}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$94.11\\%$", "$94.12\\%$", "$94.15\\%$", "$94.20\\%$"],
+      "answer": "$94.12\\%$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "Convert $94.12\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{9}{10}$",
+        "$\\frac{16}{17}$",
+        "$\\frac{11}{12}$",
+        "$\\frac{15}{16}$"
+      ],
+      "answer": "$\\frac{16}{17}$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "Convert $\\frac{1}{18}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$5.55\\%$", "$5.56\\%$", "$5.57\\%$", "$5.60\\%$"],
+      "answer": "$5.56\\%$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "Convert $5.56\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{18}$",
+        "$\\frac{1}{20}$",
+        "$\\frac{1}{15}$"
+      ],
+      "answer": "$\\frac{1}{18}$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "Convert $\\frac{5}{18}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$27.77\\%$", "$27.78\\%$", "$27.80\\%$", "$27.85\\%$"],
+      "answer": "$27.78\\%$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "Convert $27.78\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{18}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{3}{11}$"
+      ],
+      "answer": "$\\frac{5}{18}$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "Convert $\\frac{7}{18}$ to a percentage (rounded to two decimal places).",
+      "choices": ["$38.88\\%$", "$38.89\\%$", "$38.90\\%$", "$38.95\\%$"],
+      "answer": "$38.89\\%$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "Convert $38.89\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{7}{18}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{4}{11}$"
+      ],
+      "answer": "$\\frac{7}{18}$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "Convert $\\frac{1}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$5.263\\%$", "$5.264\\%$", "$5.265\\%$", "$5.270\\%$"],
+      "answer": "$5.263\\%$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "Convert $5.263\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{18}$",
+        "$\\frac{1}{19}$",
+        "$\\frac{1}{20}$",
+        "$\\frac{1}{25}$"
+      ],
+      "answer": "$\\frac{1}{19}$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "Convert $\\frac{2}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$10.526\\%$", "$10.527\\%$", "$10.528\\%$", "$10.530\\%$"],
+      "answer": "$10.526\\%$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "Convert $10.526\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{9}$",
+        "$\\frac{2}{19}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{10}$"
+      ],
+      "answer": "$\\frac{2}{19}$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "Convert $\\frac{3}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$15.789\\%$", "$15.790\\%$", "$15.791\\%$", "$15.800\\%$"],
+      "answer": "$15.789\\%$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "Convert $15.789\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{6}$",
+        "$\\frac{3}{19}$",
+        "$\\frac{2}{11}$",
+        "$\\frac{1}{7}$"
+      ],
+      "answer": "$\\frac{3}{19}$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "Convert $\\frac{4}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$21.052\\%$", "$21.053\\%$", "$21.054\\%$", "$21.060\\%$"],
+      "answer": "$21.053\\%$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "Convert $21.053\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{4}{19}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{3}{14}$"
+      ],
+      "answer": "$\\frac{4}{19}$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "Convert $\\frac{5}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$26.315\\%$", "$26.316\\%$", "$26.317\\%$", "$26.320\\%$"],
+      "answer": "$26.316\\%$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "Convert $26.316\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{3}$",
+        "$\\frac{5}{19}$",
+        "$\\frac{2}{7}$",
+        "$\\frac{4}{15}$"
+      ],
+      "answer": "$\\frac{5}{19}$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "Convert $\\frac{6}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$31.578\\%$", "$31.579\\%$", "$31.580\\%$", "$31.585\\%$"],
+      "answer": "$31.579\\%$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "Convert $31.579\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{6}{19}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{5}{16}$"
+      ],
+      "answer": "$\\frac{6}{19}$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "Convert $\\frac{7}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$36.842\\%$", "$36.843\\%$", "$36.844\\%$", "$36.850\\%$"],
+      "answer": "$36.842\\%$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "Convert $36.842\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{7}{19}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{4}{11}$"
+      ],
+      "answer": "$\\frac{7}{19}$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "Convert $\\frac{8}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$42.105\\%$", "$42.106\\%$", "$42.107\\%$", "$42.110\\%$"],
+      "answer": "$42.105\\%$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "Convert $42.105\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{8}{19}$",
+        "$\\frac{3}{7}$",
+        "$\\frac{4}{9}$"
+      ],
+      "answer": "$\\frac{8}{19}$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "Convert $\\frac{9}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$47.368\\%$", "$47.369\\%$", "$47.370\\%$", "$47.375\\%$"],
+      "answer": "$47.368\\%$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "Convert $47.368\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{9}{19}$",
+        "$\\frac{4}{7}$",
+        "$\\frac{5}{9}$"
+      ],
+      "answer": "$\\frac{9}{19}$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "Convert $\\frac{10}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$52.631\\%$", "$52.632\\%$", "$52.633\\%$", "$52.635\\%$"],
+      "answer": "$52.632\\%$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "Convert $52.632\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{10}{19}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{9}$"
+      ],
+      "answer": "$\\frac{10}{19}$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "Convert $\\frac{11}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$57.894\\%$", "$57.895\\%$", "$57.896\\%$", "$57.900\\%$"],
+      "answer": "$57.895\\%$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "Convert $57.895\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{5}$",
+        "$\\frac{11}{19}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{6}{11}$"
+      ],
+      "answer": "$\\frac{11}{19}$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "Convert $\\frac{12}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$63.157\\%$", "$63.158\\%$", "$63.159\\%$", "$63.160\\%$"],
+      "answer": "$63.158\\%$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "Convert $63.158\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{3}$",
+        "$\\frac{12}{19}$",
+        "$\\frac{5}{8}$",
+        "$\\frac{7}{11}$"
+      ],
+      "answer": "$\\frac{12}{19}$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "Convert $\\frac{13}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$68.421\\%$", "$68.422\\%$", "$68.423\\%$", "$68.425\\%$"],
+      "answer": "$68.421\\%$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "Convert $68.421\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{13}{19}$",
+        "$\\frac{7}{10}$",
+        "$\\frac{8}{11}$"
+      ],
+      "answer": "$\\frac{13}{19}$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "Convert $\\frac{14}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$73.684\\%$", "$73.685\\%$", "$73.686\\%$", "$73.690\\%$"],
+      "answer": "$73.684\\%$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "Convert $73.684\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{3}{4}$",
+        "$\\frac{14}{19}$",
+        "$\\frac{7}{9}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{14}{19}$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "Convert $\\frac{15}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$78.947\\%$", "$78.948\\%$", "$78.949\\%$", "$78.950\\%$"],
+      "answer": "$78.947\\%$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "Convert $78.947\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{4}{5}$",
+        "$\\frac{15}{19}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{8}{9}$"
+      ],
+      "answer": "$\\frac{15}{19}$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "Convert $\\frac{16}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$84.210\\%$", "$84.211\\%$", "$84.212\\%$", "$84.215\\%$"],
+      "answer": "$84.211\\%$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "Convert $84.211\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{5}{6}$",
+        "$\\frac{16}{19}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{9}{10}$"
+      ],
+      "answer": "$\\frac{16}{19}$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "Convert $\\frac{17}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$89.473\\%$", "$89.474\\%$", "$89.475\\%$", "$89.480\\%$"],
+      "answer": "$89.474\\%$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "Convert $89.474\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{9}{10}$",
+        "$\\frac{17}{19}$",
+        "$\\frac{11}{12}$",
+        "$\\frac{15}{16}$"
+      ],
+      "answer": "$\\frac{17}{19}$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "Convert $\\frac{18}{19}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$94.736\\%$", "$94.737\\%$", "$94.738\\%$", "$94.740\\%$"],
+      "answer": "$94.737\\%$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "Convert $94.737\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{19}{20}$",
+        "$\\frac{18}{19}$",
+        "$\\frac{15}{16}$",
+        "$\\frac{9}{10}$"
+      ],
+      "answer": "$\\frac{18}{19}$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "Convert $\\frac{1}{21}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$4.761\\%$", "$4.762\\%$", "$4.763\\%$", "$4.765\\%$"],
+      "answer": "$4.762\\%$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "Convert $4.762\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{20}$",
+        "$\\frac{1}{21}$",
+        "$\\frac{1}{22}$",
+        "$\\frac{1}{25}$"
+      ],
+      "answer": "$\\frac{1}{21}$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "Convert $\\frac{2}{21}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$9.523\\%$", "$9.524\\%$", "$9.525\\%$", "$9.530\\%$"],
+      "answer": "$9.524\\%$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "Convert $9.524\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{10}$",
+        "$\\frac{2}{21}$",
+        "$\\frac{1}{11}$",
+        "$\\frac{1}{9}$"
+      ],
+      "answer": "$\\frac{2}{21}$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "Convert $\\frac{4}{21}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$19.047\\%$", "$19.048\\%$", "$19.049\\%$", "$19.050\\%$"],
+      "answer": "$19.048\\%$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "Convert $19.048\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{5}$",
+        "$\\frac{4}{21}$",
+        "$\\frac{2}{11}$",
+        "$\\frac{3}{16}$"
+      ],
+      "answer": "$\\frac{4}{21}$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "Convert $\\frac{5}{21}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$23.809\\%$", "$23.810\\%$", "$23.811\\%$", "$23.815\\%$"],
+      "answer": "$23.810\\%$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "Convert $23.810\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\frac{5}{21}$",
+        "$\\frac{2}{9}$",
+        "$\\frac{3}{13}$"
+      ],
+      "answer": "$\\frac{5}{21}$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "Convert $\\frac{8}{21}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$38.095\\%$", "$38.096\\%$", "$38.097\\%$", "$38.100\\%$"],
+      "answer": "$38.095\\%$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "Convert $38.095\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{2}{5}$",
+        "$\\frac{8}{21}$",
+        "$\\frac{3}{8}$",
+        "$\\frac{4}{11}$"
+      ],
+      "answer": "$\\frac{8}{21}$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "Convert $\\frac{10}{21}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$47.619\\%$", "$47.620\\%$", "$47.621\\%$", "$47.625\\%$"],
+      "answer": "$47.619\\%$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "Convert $47.619\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{10}{21}$",
+        "$\\frac{4}{9}$",
+        "$\\frac{5}{11}$"
+      ],
+      "answer": "$\\frac{10}{21}$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "Convert $\\frac{11}{21}$ to a percentage (rounded to three decimal places).",
+      "choices": ["$52.380\\%$", "$52.381\\%$", "$52.382\\%$", "$52.385\\%$"],
+      "answer": "$52.381\\%$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "Convert $52.381\\%$ to a fraction (approximately).",
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\frac{11}{21}$",
+        "$\\frac{3}{5}$",
+        "$\\frac{5}{9}$"
+      ],
+      "answer": "$\\frac{11}{21}$",
+      "points": 30
+    }
+  ]
+}
