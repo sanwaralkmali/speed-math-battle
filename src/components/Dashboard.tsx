@@ -107,14 +107,27 @@ interface DashboardProps {
 function DashboardFooter() {
   return (
     <footer className="w-full py-4 text-center text-sm text-muted-foreground border-t bg-background/80 backdrop-blur-sm font-cairo flex-shrink-0">
-      <a
-        href="https://sanwaralkmali.github.io/mathlogame"
-        className="flex items-center justify-center gap-2 hover:opacity-80 transition-opacity"
-      >
-        <img src="/MATHLOGAME.png" alt="MATHLOGAME" className="h-12 w-auto" />
-        Powered by
-        <span className="mathlogame-logo"> MATHLOGAME</span>
-      </a>
+      <div className="flex items-center justify-center gap-2">
+        <div className="mathlogame-logo-container">
+          <img
+            src="/MATHLOGAME-light.png"
+            alt="MATHLOGAME"
+            className="h-12 w-auto logo-dark"
+          />
+          <img
+            src="/MATHLOGAME-dark.png"
+            alt="MATHLOGAME"
+            className="h-12 w-auto logo-light"
+          />
+        </div>
+        <a
+          href="https://sanwaralkmali.github.io/mathlogame"
+          className="hover:opacity-80 transition-opacity"
+        >
+          Powered by
+          <span className="mathlogame-logo"> MATHLOGAME</span>
+        </a>
+      </div>
     </footer>
   );
 }
