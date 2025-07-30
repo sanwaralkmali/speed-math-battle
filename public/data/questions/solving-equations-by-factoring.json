@@ -1114,8 +1114,8 @@
       "choices": [
         "$y = 2$",
         "$y = -2$",
-        "$y = 2, y = \\pm i\\sqrt{5/2}$",
-        "$y = -2, y = \\pm i\\sqrt{5/2}$"
+        "$y = 2, y = \\pm i\\sqrt{\\frac{5}{2}}$",
+        "$y = -2, y = \\pm i\\sqrt{\\frac{5}{2}}$"
       ],
       "answer": "$y = 2$",
       "points": 20

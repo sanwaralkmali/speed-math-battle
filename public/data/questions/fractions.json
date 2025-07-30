@@ -486,19 +486,6 @@
       "points": 10
     },
     {
-      "id": 38,
-      "wave": 1,
-      "question": "What is $ \\frac{1}{2} \\times \\frac{1}{5} $?",
-      "choices": [
-        "$ \\frac{1}{10} $",
-        "$ \\frac{1}{2} $",
-        "$ \\frac{1}{7} $",
-        "$ \\frac{1}{5} $"
-      ],
-      "answer": "$ \\frac{1}{10} $",
-      "points": 10
-    },
-    {
       "id": 39,
       "wave": 1,
       "question": "What is $ \\frac{1}{5} \\div \\frac{1}{3} $?",
@@ -626,19 +613,6 @@
         "$ \\frac{1}{3} $"
       ],
       "answer": "$ \\frac{1}{12} $",
-      "points": 10
-    },
-    {
-      "id": 49,
-      "wave": 1,
-      "question": "What is $ \\frac{1}{3} \\div \\frac{1}{2} $?",
-      "choices": [
-        "$ \\frac{2}{3} $",
-        "$ \\frac{1}{6} $",
-        "$ \\frac{3}{2} $",
-        "$ \\frac{1}{5} $"
-      ],
-      "answer": "$ \\frac{2}{3} $",
       "points": 10
     },
     {
@@ -2635,7 +2609,12 @@
       "id": 203,
       "wave": 5,
       "question": "A baker used $ \\frac{1}{3} $ of a $ 30 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 20 $ kg", "$ 10 $ kg", "$ 15 $ kg", "$ 25 $ kg"],
+      "choices": [
+        "$ 20 $ kg",
+        "$ 10 $ kg",
+        "$ 15 $ kg",
+        "$ 25 $ kg"
+      ],
       "answer": "$ 20 $ kg",
       "points": 30
     },
@@ -2682,7 +2661,12 @@
       "id": 207,
       "wave": 5,
       "question": "A baker used $ \\frac{1}{4} $ of a $ 40 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 30 $ kg", "$ 10 $ kg", "$ 20 $ kg", "$ 35 $ kg"],
+      "choices": [
+        "$ 30 $ kg",
+        "$ 10 $ kg",
+        "$ 20 $ kg",
+        "$ 35 $ kg"
+      ],
       "answer": "$ 30 $ kg",
       "points": 30
     },
@@ -2729,7 +2713,12 @@
       "id": 211,
       "wave": 5,
       "question": "A baker used $ \\frac{2}{5} $ of a $ 50 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 30 $ kg", "$ 20 $ kg", "$ 25 $ kg", "$ 35 $ kg"],
+      "choices": [
+        "$ 30 $ kg",
+        "$ 20 $ kg",
+        "$ 25 $ kg",
+        "$ 35 $ kg"
+      ],
       "answer": "$ 30 $ kg",
       "points": 30
     },
@@ -2776,7 +2765,12 @@
       "id": 215,
       "wave": 5,
       "question": "A baker used $ \\frac{1}{5} $ of a $ 60 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 48 $ kg", "$ 12 $ kg", "$ 30 $ kg", "$ 50 $ kg"],
+      "choices": [
+        "$ 48 $ kg",
+        "$ 12 $ kg",
+        "$ 30 $ kg",
+        "$ 50 $ kg"
+      ],
       "answer": "$ 48 $ kg",
       "points": 30
     },
@@ -2823,7 +2817,12 @@
       "id": 219,
       "wave": 5,
       "question": "A baker used $ \\frac{3}{4} $ of a $ 24 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 6 $ kg", "$ 18 $ kg", "$ 12 $ kg", "$ 9 $ kg"],
+      "choices": [
+        "$ 6 $ kg",
+        "$ 18 $ kg",
+        "$ 12 $ kg",
+        "$ 9 $ kg"
+      ],
       "answer": "$ 6 $ kg",
       "points": 30
     },
@@ -2870,7 +2869,12 @@
       "id": 223,
       "wave": 5,
       "question": "A baker used $ \\frac{2}{3} $ of a $ 36 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 12 $ kg", "$ 24 $ kg", "$ 18 $ kg", "$ 15 $ kg"],
+      "choices": [
+        "$ 12 $ kg",
+        "$ 24 $ kg",
+        "$ 18 $ kg",
+        "$ 15 $ kg"
+      ],
       "answer": "$ 12 $ kg",
       "points": 30
     },
@@ -2917,7 +2921,12 @@
       "id": 227,
       "wave": 5,
       "question": "A baker used $ \\frac{1}{2} $ of a $ 48 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 24 $ kg", "$ 24 $ kg", "$ 12 $ kg", "$ 30 $ kg"],
+      "choices": [
+        "$ 24 $ kg",
+        "$ 24 $ kg",
+        "$ 12 $ kg",
+        "$ 30 $ kg"
+      ],
       "answer": "$ 24 $ kg",
       "points": 30
     },
@@ -2964,7 +2973,12 @@
       "id": 231,
       "wave": 5,
       "question": "A baker used $ \\frac{2}{5} $ of a $ 45 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 27 $ kg", "$ 18 $ kg", "$ 22 $ kg", "$ 30 $ kg"],
+      "choices": [
+        "$ 27 $ kg",
+        "$ 18 $ kg",
+        "$ 22 $ kg",
+        "$ 30 $ kg"
+      ],
       "answer": "$ 27 $ kg",
       "points": 30
     },
@@ -3011,7 +3025,12 @@
       "id": 235,
       "wave": 5,
       "question": "A baker used $ \\frac{1}{3} $ of a $ 39 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 26 $ kg", "$ 13 $ kg", "$ 19 $ kg", "$ 30 $ kg"],
+      "choices": [
+        "$ 26 $ kg",
+        "$ 13 $ kg",
+        "$ 19 $ kg",
+        "$ 30 $ kg"
+      ],
       "answer": "$ 26 $ kg",
       "points": 30
     },
@@ -3058,7 +3077,12 @@
       "id": 239,
       "wave": 5,
       "question": "A baker used $ \\frac{1}{4} $ of a $ 32 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 24 $ kg", "$ 8 $ kg", "$ 16 $ kg", "$ 28 $ kg"],
+      "choices": [
+        "$ 24 $ kg",
+        "$ 8 $ kg",
+        "$ 16 $ kg",
+        "$ 28 $ kg"
+      ],
       "answer": "$ 24 $ kg",
       "points": 30
     },
@@ -3105,7 +3129,12 @@
       "id": 243,
       "wave": 5,
       "question": "A baker used $ \\frac{1}{5} $ of a $ 55 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 44 $ kg", "$ 11 $ kg", "$ 27 $ kg", "$ 50 $ kg"],
+      "choices": [
+        "$ 44 $ kg",
+        "$ 11 $ kg",
+        "$ 27 $ kg",
+        "$ 50 $ kg"
+      ],
       "answer": "$ 44 $ kg",
       "points": 30
     },
@@ -3152,21 +3181,13 @@
       "id": 247,
       "wave": 5,
       "question": "A baker used $ \\frac{3}{5} $ of a $ 40 $ kg bag of flour. How many kilograms of flour are left?",
-      "choices": ["$ 16 $ kg", "$ 24 $ kg", "$ 20 $ kg", "$ 28 $ kg"],
-      "answer": "$ 16 $ kg",
-      "points": 30
-    },
-    {
-      "id": 248,
-      "wave": 5,
-      "question": "Solve for $ x $: $ x + 1 \\frac{1}{4} = 2 \\frac{3}{4} $.",
       "choices": [
-        "$ 1 \\frac{1}{2} $",
-        "$ 1 \\frac{1}{4} $",
-        "$ 2 \\frac{1}{4} $",
-        "$ 1 \\frac{1}{3} $"
+        "$ 16 $ kg",
+        "$ 24 $ kg",
+        "$ 20 $ kg",
+        "$ 28 $ kg"
       ],
-      "answer": "$ 1 \\frac{1}{2} $",
+      "answer": "$ 16 $ kg",
       "points": 30
     },
     {

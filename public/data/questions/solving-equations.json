@@ -152,7 +152,7 @@
       "id": 19,
       "wave": 1,
       "question": "Solve for $r$: $\\frac{2}{3}r = 4$.",
-      "choices": ["$r = 6$", "$r = 8/3$", "$r = 12$", "$r = 2$"],
+      "choices": ["$r = 6$", "$r = \\frac{8}{3}$", "$r = 12$", "$r = 2$"],
       "answer": "$r = 6$",
       "points": 10
     },
@@ -232,15 +232,25 @@
       "id": 29,
       "wave": 1,
       "question": "Solve for $b$: $b + \\frac{3}{4} = \\frac{1}{4}$.",
-      "choices": ["$b = -1/2$", "$b = 1/2$", "$b = 1$", "$b = -1$"],
-      "answer": "$b = -1/2$",
+      "choices": [
+        "$b = -\\frac{1}{2}$",
+        "$b = \\frac{1}{2}$",
+        "$b = 1$",
+        "$b = -1$"
+      ],
+      "answer": "$b = -\\frac{1}{2}$",
       "points": 10
     },
     {
       "id": 30,
       "wave": 1,
       "question": "Solve for $c$: $c - \\frac{2}{5} = \\frac{3}{5}$.",
-      "choices": ["$c = 1$", "$c = 1/5$", "$c = -1/5$", "$c = -1$"],
+      "choices": [
+        "$c = 1$",
+        "$c = \\frac{1}{5}$",
+        "$c = -\\frac{1}{5}$",
+        "$c = -1$"
+      ],
       "answer": "$c = 1$",
       "points": 10
     },
@@ -360,7 +370,12 @@
       "id": 45,
       "wave": 1,
       "question": "Solve for $s$: $s + \\frac{2}{3} = \\frac{5}{3}$.",
-      "choices": ["$s = 1$", "$s = 7/3$", "$s = 3/3$", "$s = 2/3$"],
+      "choices": [
+        "$s = 1$",
+        "$s = \\frac{7}{3}$",
+        "$s = \\frac{3}{3}$",
+        "$s = \\frac{2}{3}$"
+      ],
       "answer": "$s = 1$",
       "points": 10
     },
@@ -368,7 +383,7 @@
       "id": 46,
       "wave": 1,
       "question": "Solve for $t$: $t - \\frac{1}{5} = \\frac{4}{5}$.",
-      "choices": ["$t = 1$", "$t = 3/5$", "$t = 0.8$", "$t = 0.2$"],
+      "choices": ["$t = 1$", "$t = \\frac{3}{5}$", "$t = 0.8$", "$t = 0.2$"],
       "answer": "$t = 1$",
       "points": 10
     },
@@ -376,7 +391,7 @@
       "id": 47,
       "wave": 1,
       "question": "Solve for $u$: $\\frac{3}{4}u = 9$.",
-      "choices": ["$u = 12$", "$u = 6.75$", "$u = 3$", "$u = 27/4$"],
+      "choices": ["$u = 12$", "$u = 6.75$", "$u = 3$", "$u = \\frac{27}{4}$"],
       "answer": "$u = 12$",
       "points": 10
     },
@@ -416,7 +431,7 @@
       "id": 52,
       "wave": 2,
       "question": "Solve for $y$: $3y - 4 = 14$.",
-      "choices": ["$y = 6$", "$y = 10/3$", "$y = 18$", "$y = 5$"],
+      "choices": ["$y = 6$", "$y = \\frac{10}{3}$", "$y = 18$", "$y = 5$"],
       "answer": "$y = 6$",
       "points": 15
     },
@@ -440,7 +455,12 @@
       "id": 55,
       "wave": 2,
       "question": "Solve for $c$: $5c + 12 = 2$.",
-      "choices": ["$c = -2$", "$c = 2$", "$c = 14/5$", "$c = -14/5$"],
+      "choices": [
+        "$c = -2$",
+        "$c = 2$",
+        "$c = \\frac{14}{5}$",
+        "$c = -\\frac{14}{5}$"
+      ],
       "answer": "$c = -2$",
       "points": 15
     },
@@ -448,7 +468,12 @@
       "id": 56,
       "wave": 2,
       "question": "Solve for $d$: $7d - 1 = -15$.",
-      "choices": ["$d = -2$", "$d = 2$", "$d = -16/7$", "$d = 16/7$"],
+      "choices": [
+        "$d = -2$",
+        "$d = 2$",
+        "$d = -\\frac{16}{7}$",
+        "$d = \\frac{16}{7}$"
+      ],
       "answer": "$d = -2$",
       "points": 15
     },
@@ -480,7 +505,7 @@
       "id": 60,
       "wave": 2,
       "question": "Solve for $h$: $15 - 3h = 0$.",
-      "choices": ["$h = 5$", "$h = -5$", "$h = 15/3$", "$h = 0$"],
+      "choices": ["$h = 5$", "$h = -5$", "$h = \\frac{15}{3}$", "$h = 0$"],
       "answer": "$h = 5$",
       "points": 15
     },
@@ -520,7 +545,12 @@
       "id": 65,
       "wave": 2,
       "question": "Solve for $m$: $3m + \\frac{1}{2} = \\frac{7}{2}$.",
-      "choices": ["$m = 1$", "$m = 2$", "$m = 3/2$", "$m = 5/2$"],
+      "choices": [
+        "$m = 1$",
+        "$m = 2$",
+        "$m = \\frac{3}{2}$",
+        "$m = \\frac{5}{2}$"
+      ],
       "answer": "$m = 1$",
       "points": 15
     },
@@ -528,7 +558,12 @@
       "id": 66,
       "wave": 2,
       "question": "Solve for $n$: $2n - \\frac{1}{3} = \\frac{5}{3}$.",
-      "choices": ["$n = 1$", "$n = 2$", "$n = 1/3$", "$n = 5/3$"],
+      "choices": [
+        "$n = 1$",
+        "$n = 2$",
+        "$n = \\frac{1}{3}$",
+        "$n = \\frac{5}{3}$"
+      ],
       "answer": "$n = 1$",
       "points": 15
     },
@@ -640,15 +675,20 @@
       "id": 80,
       "wave": 2,
       "question": "Solve for $c$: $4c + \\frac{1}{4} = \\frac{9}{4}$.",
-      "choices": ["$c = 1/2$", "$c = 1$", "$c = 2$", "$c = 1/4$"],
-      "answer": "$c = 1/2$",
+      "choices": [
+        "$c = \\frac{1}{2}$",
+        "$c = 1$",
+        "$c = 2$",
+        "$c = \\frac{1}{4}$"
+      ],
+      "answer": "$c = \\frac{1}{2}$",
       "points": 15
     },
     {
       "id": 81,
       "wave": 2,
       "question": "Solve for $d$: $5d - \\frac{2}{3} = \\frac{13}{3}$.",
-      "choices": ["$d = 1$", "$d = 5/3$", "$d = 3$", "$d = 2$"],
+      "choices": ["$d = 1$", "$d = \\frac{5}{3}$", "$d = 3$", "$d = 2$"],
       "answer": "$d = 1$",
       "points": 15
     },
@@ -656,7 +696,7 @@
       "id": 82,
       "wave": 2,
       "question": "Solve for $e$: $\\frac{3}{2}e + 4 = 10$.",
-      "choices": ["$e = 4$", "$e = 10/3$", "$e = 8$", "$e = 12$"],
+      "choices": ["$e = 4$", "$e = \\frac{10}{3}$", "$e = 8$", "$e = 12$"],
       "answer": "$e = 4$",
       "points": 15
     },
@@ -680,7 +720,12 @@
       "id": 85,
       "wave": 2,
       "question": "Solve for $h$: $-4h - 10 = 6$.",
-      "choices": ["$h = -4$", "$h = 4$", "$h = -16/4$", "$h = 16/4$"],
+      "choices": [
+        "$h = -4$",
+        "$h = 4$",
+        "$h = -\\frac{16}{4}$",
+        "$h = \\frac{16}{4}$"
+      ],
       "answer": "$h = -4$",
       "points": 15
     },
@@ -760,7 +805,7 @@
       "id": 95,
       "wave": 2,
       "question": "Solve for $s$: $6s + \\frac{1}{3} = \\frac{19}{3}$.",
-      "choices": ["$s = 1$", "$s = 2$", "$s = 3$", "$s = 1/3$"],
+      "choices": ["$s = 1$", "$s = 2$", "$s = 3$", "$s = \\frac{1}{3}$"],
       "answer": "$s = 1$",
       "points": 15
     },
@@ -768,8 +813,8 @@
       "id": 96,
       "wave": 2,
       "question": "Solve for $t$: $4t - \\frac{3}{4} = \\frac{17}{4}$.",
-      "choices": ["$t = 5/4$", "$t = 1$", "$t = 2$", "$t = 3$"],
-      "answer": "$t = 5/4$",
+      "choices": ["$t = \\frac{5}{4}$", "$t = 1$", "$t = 2$", "$t = 3$"],
+      "answer": "$t = \\frac{5}{4}$",
       "points": 15
     },
     {
@@ -816,7 +861,12 @@
       "id": 102,
       "wave": 3,
       "question": "Solve for $y$: $3y - 10 = -1$.",
-      "choices": ["$y = 3$", "$y = -3$", "$y = 11/3$", "$y = -11/3$"],
+      "choices": [
+        "$y = 3$",
+        "$y = -3$",
+        "$y = \\frac{11}{3}$",
+        "$y = -\\frac{11}{3}$"
+      ],
       "answer": "$y = 3$",
       "points": 20
     },
@@ -840,7 +890,12 @@
       "id": 105,
       "wave": 3,
       "question": "Solve for $c$: $-5c + 8 = 18$.",
-      "choices": ["$c = -2$", "$c = 2$", "$c = -26/5$", "$c = 26/5$"],
+      "choices": [
+        "$c = -2$",
+        "$c = 2$",
+        "$c = -\\frac{26}{5}$",
+        "$c = \\frac{26}{5}$"
+      ],
       "answer": "$c = -2$",
       "points": 20
     },
@@ -848,7 +903,12 @@
       "id": 106,
       "wave": 3,
       "question": "Solve for $d$: $-6d - 4 = 20$.",
-      "choices": ["$d = -4$", "$d = 4$", "$d = -24/6$", "$d = 24/6$"],
+      "choices": [
+        "$d = -4$",
+        "$d = 4$",
+        "$d = -\\frac{24}{6}$",
+        "$d = \\frac{24}{6}$"
+      ],
       "answer": "$d = -4$",
       "points": 20
     },
@@ -864,7 +924,12 @@
       "id": 108,
       "wave": 3,
       "question": "Solve for $f$: $-10 - 5f = 10$.",
-      "choices": ["$f = -4$", "$f = 4$", "$f = -20/5$", "$f = 20/5$"],
+      "choices": [
+        "$f = -4$",
+        "$f = 4$",
+        "$f = -\\frac{20}{5}$",
+        "$f = \\frac{20}{5}$"
+      ],
       "answer": "$f = -4$",
       "points": 20
     },
@@ -872,7 +937,12 @@
       "id": 109,
       "wave": 3,
       "question": "Solve for $g$: $1.5g + 2 = -1$.",
-      "choices": ["$g = -2$", "$g = 2$", "$g = -3/1.5$", "$g = 3/1.5$"],
+      "choices": [
+        "$g = -2$",
+        "$g = 2$",
+        "$g = -\\frac{3}{1}.5$",
+        "$g = \\frac{3}{1}.5$"
+      ],
       "answer": "$g = -2$",
       "points": 20
     },
@@ -944,7 +1014,12 @@
       "id": 118,
       "wave": 3,
       "question": "Solve for $q$: $-7q - 3 = -17$.",
-      "choices": ["$q = 2$", "$q = -2$", "$q = -14/7$", "$q = 14/7$"],
+      "choices": [
+        "$q = 2$",
+        "$q = -2$",
+        "$q = -\\frac{14}{7}$",
+        "$q = \\frac{14}{7}$"
+      ],
       "answer": "$q = 2$",
       "points": 20
     },
@@ -960,7 +1035,12 @@
       "id": 120,
       "wave": 3,
       "question": "Solve for $s$: $-20 - 4s = -4$.",
-      "choices": ["$s = -4$", "$s = 4$", "$s = -16/4$", "$s = 16/4$"],
+      "choices": [
+        "$s = -4$",
+        "$s = 4$",
+        "$s = -\\frac{16}{4}$",
+        "$s = \\frac{16}{4}$"
+      ],
       "answer": "$s = -4$",
       "points": 20
     },
@@ -1032,15 +1112,25 @@
       "id": 129,
       "wave": 3,
       "question": "Solve for $b$: $10b - \\frac{3}{4} = -\\frac{23}{4}$.",
-      "choices": ["$b = -1/2$", "$b = 1/2$", "$b = -1$", "$b = 1$"],
-      "answer": "$b = -1/2$",
+      "choices": [
+        "$b = -\\frac{1}{2}$",
+        "$b = \\frac{1}{2}$",
+        "$b = -1$",
+        "$b = 1$"
+      ],
+      "answer": "$b = -\\frac{1}{2}$",
       "points": 20
     },
     {
       "id": 130,
       "wave": 3,
       "question": "Solve for $c$: $\\frac{5}{2}c + 1 = -4$.",
-      "choices": ["$c = -2$", "$c = 2$", "$c = -10/5$", "$c = 10/5$"],
+      "choices": [
+        "$c = -2$",
+        "$c = 2$",
+        "$c = -\\frac{10}{5}$",
+        "$c = \\frac{10}{5}$"
+      ],
       "answer": "$c = -2$",
       "points": 20
     },
@@ -1120,16 +1210,26 @@
       "id": 140,
       "wave": 3,
       "question": "Solve for $m$: $9m + \\frac{2}{3} = -\\frac{7}{3}$.",
-      "choices": ["$m = -1/3$", "$m = 1/3$", "$m = -1$", "$m = 1$"],
-      "answer": "$m = -1/3$",
+      "choices": [
+        "$m = -\\frac{1}{3}$",
+        "$m = \\frac{1}{3}$",
+        "$m = -1$",
+        "$m = 1$"
+      ],
+      "answer": "$m = -\\frac{1}{3}$",
       "points": 20
     },
     {
       "id": 141,
       "wave": 3,
       "question": "Solve for $n$: $12n - \\frac{1}{2} = -\\frac{13}{2}$.",
-      "choices": ["$n = -1/2$", "$n = 1/2$", "$n = -1$", "$n = 1$"],
-      "answer": "$n = -1/2$",
+      "choices": [
+        "$n = -\\frac{1}{2}$",
+        "$n = \\frac{1}{2}$",
+        "$n = -1$",
+        "$n = 1$"
+      ],
+      "answer": "$n = -\\frac{1}{2}$",
       "points": 20
     },
     {
@@ -1160,7 +1260,12 @@
       "id": 145,
       "wave": 3,
       "question": "Solve for $s$: $-8s - 2 = 14$.",
-      "choices": ["$s = -2$", "$s = 2$", "$s = -16/8$", "$s = 16/8$"],
+      "choices": [
+        "$s = -2$",
+        "$s = 2$",
+        "$s = -\\frac{16}{8}$",
+        "$s = \\frac{16}{8}$"
+      ],
       "answer": "$s = -2$",
       "points": 20
     },
@@ -1176,7 +1281,12 @@
       "id": 147,
       "wave": 3,
       "question": "Solve for $u$: $-30 - 5u = -5$.",
-      "choices": ["$u = -5$", "$u = 5$", "$u = -25/5$", "$u = 25/5$"],
+      "choices": [
+        "$u = -5$",
+        "$u = 5$",
+        "$u = -\\frac{25}{5}$",
+        "$u = \\frac{25}{5}$"
+      ],
       "answer": "$u = -5$",
       "points": 20
     },
@@ -1192,7 +1302,7 @@
       "id": 149,
       "wave": 3,
       "question": "Solve for $w$: $75 - 3w = 0$.",
-      "choices": ["$w = 25$", "$w = -25$", "$w = 75/3$", "$w = 0$"],
+      "choices": ["$w = 25$", "$w = -25$", "$w = \\frac{75}{3}$", "$w = 0$"],
       "answer": "$w = 25$",
       "points": 20
     },
@@ -1216,7 +1326,7 @@
       "id": 152,
       "wave": 4,
       "question": "Solve for $y$: $3(y - 2) = 9$.",
-      "choices": ["$y = 5$", "$y = 3$", "$y = 1$", "$y = 11/3$"],
+      "choices": ["$y = 5$", "$y = 3$", "$y = 1$", "$y = \\frac{11}{3}$"],
       "answer": "$y = 5$",
       "points": 25
     },
@@ -1296,7 +1406,7 @@
       "id": 162,
       "wave": 4,
       "question": "Solve for $j$: $4y - 8 = y + 7$.",
-      "choices": ["$y = 5$", "$y = 15/3$", "$y = 3$", "$y = -5$"],
+      "choices": ["$y = 5$", "$y = \\frac{15}{3}$", "$y = 3$", "$y = -5$"],
       "answer": "$y = 5$",
       "points": 25
     },
@@ -1304,7 +1414,7 @@
       "id": 163,
       "wave": 4,
       "question": "Solve for $k$: $x + 10 = 5x - 2$.",
-      "choices": ["$x = 3$", "$x = 12/4$", "$x = 2$", "$x = -3$"],
+      "choices": ["$x = 3$", "$x = \\frac{12}{4}$", "$x = 2$", "$x = -3$"],
       "answer": "$x = 3$",
       "points": 25
     },
@@ -1360,7 +1470,7 @@
       "id": 170,
       "wave": 4,
       "question": "Solve for $s$: $3y + 1 = 5y - 7$.",
-      "choices": ["$y = 4$", "$y = 8/2$", "$y = -4$", "$y = -8$"],
+      "choices": ["$y = 4$", "$y = \\frac{8}{2}$", "$y = -4$", "$y = -8$"],
       "answer": "$y = 4$",
       "points": 25
     },
@@ -1384,7 +1494,7 @@
       "id": 173,
       "wave": 4,
       "question": "Solve for $v$: $5x - (x + 2) = 10$.",
-      "choices": ["$x = 3$", "$x = 12/4$", "$x = 2$", "$x = -3$"],
+      "choices": ["$x = 3$", "$x = \\frac{12}{4}$", "$x = 2$", "$x = -3$"],
       "answer": "$x = 3$",
       "points": 25
     },
@@ -1392,7 +1502,7 @@
       "id": 174,
       "wave": 4,
       "question": "Solve for $w$: $7y - (2y - 3) = 18$.",
-      "choices": ["$y = 3$", "$y = 15/5$", "$y = 2$", "$y = -3$"],
+      "choices": ["$y = 3$", "$y = \\frac{15}{5}$", "$y = 2$", "$y = -3$"],
       "answer": "$y = 3$",
       "points": 25
     },
@@ -1440,7 +1550,7 @@
       "id": 180,
       "wave": 4,
       "question": "Solve for $c$: $5y - 2 = 2y + 10$.",
-      "choices": ["$y = 4$", "$y = 12/3$", "$y = 3$", "$y = -4$"],
+      "choices": ["$y = 4$", "$y = \\frac{12}{3}$", "$y = 3$", "$y = -4$"],
       "answer": "$y = 4$",
       "points": 25
     },
@@ -1448,7 +1558,7 @@
       "id": 181,
       "wave": 4,
       "question": "Solve for $d$: $2(x + 5) = 4x - 2$.",
-      "choices": ["$x = 6$", "$x = 12/2$", "$x = 4$", "$x = -6$"],
+      "choices": ["$x = 6$", "$x = \\frac{12}{2}$", "$x = 4$", "$x = -6$"],
       "answer": "$x = 6$",
       "points": 25
     },
@@ -1456,7 +1566,7 @@
       "id": 182,
       "wave": 4,
       "question": "Solve for $e$: $3(y - 4) = y - 6$.",
-      "choices": ["$y = 3$", "$y = 6/2$", "$y = 2$", "$y = -3$"],
+      "choices": ["$y = 3$", "$y = \\frac{6}{2}$", "$y = 2$", "$y = -3$"],
       "answer": "$y = 3$",
       "points": 25
     },
@@ -1464,7 +1574,7 @@
       "id": 183,
       "wave": 4,
       "question": "Solve for $f$: $6x - (2x + 1) = 11$.",
-      "choices": ["$x = 3$", "$x = 12/4$", "$x = 2$", "$x = -3$"],
+      "choices": ["$x = 3$", "$x = \\frac{12}{4}$", "$x = 2$", "$x = -3$"],
       "answer": "$x = 3$",
       "points": 25
     },
@@ -1472,7 +1582,7 @@
       "id": 184,
       "wave": 4,
       "question": "Solve for $g$: $8y - (3y - 5) = 20$.",
-      "choices": ["$y = 3$", "$y = 15/5$", "$y = 2$", "$y = -3$"],
+      "choices": ["$y = 3$", "$y = \\frac{15}{5}$", "$y = 2$", "$y = -3$"],
       "answer": "$y = 3$",
       "points": 25
     },
@@ -1512,7 +1622,12 @@
       "id": 189,
       "wave": 4,
       "question": "Solve for $l$: $x + 5 = -2x - 4$.",
-      "choices": ["$x = -3$", "$x = 3$", "$x = -9/3$", "$x = 9/3$"],
+      "choices": [
+        "$x = -3$",
+        "$x = 3$",
+        "$x = -\\frac{9}{3}$",
+        "$x = \\frac{9}{3}$"
+      ],
       "answer": "$x = -3$",
       "points": 25
     },
@@ -1520,7 +1635,7 @@
       "id": 190,
       "wave": 4,
       "question": "Solve for $m$: $7y - 1 = 3y + 7$.",
-      "choices": ["$y = 2$", "$y = 8/4$", "$y = 1$", "$y = -2$"],
+      "choices": ["$y = 2$", "$y = \\frac{8}{4}$", "$y = 1$", "$y = -2$"],
       "answer": "$y = 2$",
       "points": 25
     },
@@ -1544,7 +1659,7 @@
       "id": 193,
       "wave": 4,
       "question": "Solve for $q$: $4x - (x - 3) = 12$.",
-      "choices": ["$x = 3$", "$x = 9/3$", "$x = 2$", "$x = -3$"],
+      "choices": ["$x = 3$", "$x = \\frac{9}{3}$", "$x = 2$", "$x = -3$"],
       "answer": "$x = 3$",
       "points": 25
     },
@@ -1552,7 +1667,7 @@
       "id": 194,
       "wave": 4,
       "question": "Solve for $r$: $9y - (4y - 2) = 22$.",
-      "choices": ["$y = 4$", "$y = 20/5$", "$y = 3$", "$y = -4$"],
+      "choices": ["$y = 4$", "$y = \\frac{20}{5}$", "$y = 3$", "$y = -4$"],
       "answer": "$y = 4$",
       "points": 25
     },
@@ -1592,7 +1707,12 @@
       "id": 199,
       "wave": 4,
       "question": "Solve for $w$: $5x + 2 = -x - 10$.",
-      "choices": ["$x = -2$", "$x = 2$", "$x = -12/6$", "$x = 12/6$"],
+      "choices": [
+        "$x = -2$",
+        "$x = 2$",
+        "$x = -\\frac{12}{6}$",
+        "$x = \\frac{12}{6}$"
+      ],
       "answer": "$x = -2$",
       "points": 25
     },
@@ -1600,7 +1720,7 @@
       "id": 200,
       "wave": 4,
       "question": "Solve for $x$: $8y - 3 = 2y + 9$.",
-      "choices": ["$y = 2$", "$y = 12/6$", "$y = 1$", "$y = -2$"],
+      "choices": ["$y = 2$", "$y = \\frac{12}{6}$", "$y = 1$", "$y = -2$"],
       "answer": "$y = 2$",
       "points": 25
     },
@@ -1616,7 +1736,12 @@
       "id": 202,
       "wave": 5,
       "question": "Solve for $y$: $4(y - 1) + 2 = y - 8$.",
-      "choices": ["$y = -2$", "$y = 2$", "$y = -10/3$", "$y = 10/3$"],
+      "choices": [
+        "$y = -2$",
+        "$y = 2$",
+        "$y = -\\frac{10}{3}$",
+        "$y = \\frac{10}{3}$"
+      ],
       "answer": "$y = -2$",
       "points": 30
     },
@@ -1624,7 +1749,12 @@
       "id": 203,
       "wave": 5,
       "question": "Solve for $a$: $2(a - 3) + a = 5a + 4$.",
-      "choices": ["$a = -5$", "$a = 5$", "$a = -10/2$", "$a = 10/2$"],
+      "choices": [
+        "$a = -5$",
+        "$a = 5$",
+        "$a = -\\frac{10}{2}$",
+        "$a = \\frac{10}{2}$"
+      ],
       "answer": "$a = -5$",
       "points": 30
     },
@@ -1632,7 +1762,12 @@
       "id": 204,
       "wave": 5,
       "question": "Solve for $b$: $7(b + 1) - 3b = 2b - 5$.",
-      "choices": ["$b = -6$", "$b = 6$", "$b = -12/2$", "$b = 12/2$"],
+      "choices": [
+        "$b = -6$",
+        "$b = 6$",
+        "$b = -\\frac{12}{2}$",
+        "$b = \\frac{12}{2}$"
+      ],
       "answer": "$b = -6$",
       "points": 30
     },
@@ -1640,7 +1775,7 @@
       "id": 205,
       "wave": 5,
       "question": "Solve for $c$: $x + 2(x - 3) = 15$.",
-      "choices": ["$x = 7$", "$x = 3$", "$x = 5$", "$x = 21/3$"],
+      "choices": ["$x = 7$", "$x = 3$", "$x = 5$", "$x = \\frac{21}{3}$"],
       "answer": "$x = 7$",
       "points": 30
     },
@@ -1648,7 +1783,7 @@
       "id": 206,
       "wave": 5,
       "question": "Solve for $d$: $5y - (y + 4) = 12$.",
-      "choices": ["$y = 4$", "$y = 16/4$", "$y = 2$", "$y = -4$"],
+      "choices": ["$y = 4$", "$y = \\frac{16}{4}$", "$y = 2$", "$y = -4$"],
       "answer": "$y = 4$",
       "points": 30
     },
@@ -1656,7 +1791,7 @@
       "id": 207,
       "wave": 5,
       "question": "Solve for $e$: $2(x + 1) + 3(x - 2) = 11$.",
-      "choices": ["$x = 3$", "$x = 15/5$", "$x = 2$", "$x = -3$"],
+      "choices": ["$x = 3$", "$x = \\frac{15}{5}$", "$x = 2$", "$x = -3$"],
       "answer": "$x = 3$",
       "points": 30
     },
@@ -1664,7 +1799,7 @@
       "id": 208,
       "wave": 5,
       "question": "Solve for $f$: $4(y - 3) - 2(y + 1) = 0$.",
-      "choices": ["$y = 7$", "$y = 14/2$", "$y = 5$", "$y = -7$"],
+      "choices": ["$y = 7$", "$y = \\frac{14}{2}$", "$y = 5$", "$y = -7$"],
       "answer": "$y = 7$",
       "points": 30
     },
@@ -1704,8 +1839,13 @@
       "id": 213,
       "wave": 5,
       "question": "Solve for $k$: $x - (2x + 3) = 4(x - 1)$.",
-      "choices": ["$x = 1/5$", "$x = -1/5$", "$x = 1$", "$x = -1$"],
-      "answer": "$x = 1/5$",
+      "choices": [
+        "$x = \\frac{1}{5}$",
+        "$x = -\\frac{1}{5}$",
+        "$x = 1$",
+        "$x = -1$"
+      ],
+      "answer": "$x = \\frac{1}{5}$",
       "points": 30
     },
     {
@@ -1720,7 +1860,7 @@
       "id": 215,
       "wave": 5,
       "question": "Solve for $m$: $3(x - 2) - (x + 4) = 0$.",
-      "choices": ["$x = 5$", "$x = 10/2$", "$x = 3$", "$x = -5$"],
+      "choices": ["$x = 5$", "$x = \\frac{10}{2}$", "$x = 3$", "$x = -5$"],
       "answer": "$x = 5$",
       "points": 30
     },
@@ -1776,7 +1916,7 @@
       "id": 222,
       "wave": 5,
       "question": "Solve for $u$: $4y - 2(y - 5) = 14$.",
-      "choices": ["$y = 2$", "$y = 4/2$", "$y = 1$", "$y = -2$"],
+      "choices": ["$y = 2$", "$y = \\frac{4}{2}$", "$y = 1$", "$y = -2$"],
       "answer": "$y = 2$",
       "points": 30
     },
@@ -1784,7 +1924,7 @@
       "id": 223,
       "wave": 5,
       "question": "Solve for $v$: $5(x + 2) - (2x - 1) = 17$.",
-      "choices": ["$x = 2$", "$x = 6/3$", "$x = 1$", "$x = -2$"],
+      "choices": ["$x = 2$", "$x = \\frac{6}{3}$", "$x = 1$", "$x = -2$"],
       "answer": "$x = 2$",
       "points": 30
     },
@@ -1792,7 +1932,7 @@
       "id": 224,
       "wave": 5,
       "question": "Solve for $w$: $6(y - 3) - 2(y + 4) = 2$.",
-      "choices": ["$y = 7$", "$y = 28/4$", "$y = 5$", "$y = -7$"],
+      "choices": ["$y = 7$", "$y = \\frac{28}{4}$", "$y = 5$", "$y = -7$"],
       "answer": "$y = 7$",
       "points": 30
     },
@@ -1800,7 +1940,7 @@
       "id": 225,
       "wave": 5,
       "question": "Solve for $x$: $0.25(x + 4) = 0.5(x - 2)$.",
-      "choices": ["$x = 8$", "$x = 12/0.25$", "$x = 4$", "$x = 12$"],
+      "choices": ["$x = 8$", "$x = \\frac{12}{0}.25$", "$x = 4$", "$x = 12$"],
       "answer": "$x = 8$",
       "points": 30
     },
@@ -1808,7 +1948,7 @@
       "id": 226,
       "wave": 5,
       "question": "Solve for $y$: $0.8(y - 1) = 0.4(y + 2)$.",
-      "choices": ["$y = 4$", "$y = 1.6/0.4$", "$y = 2$", "$y = 1$"],
+      "choices": ["$y = 4$", "$y = 1.\\frac{6}{0}.4$", "$y = 2$", "$y = 1$"],
       "answer": "$y = 4$",
       "points": 30
     },
@@ -1832,8 +1972,13 @@
       "id": 229,
       "wave": 5,
       "question": "Solve for $b$: $x + 3 = 2x - 5(x - 1)$.",
-      "choices": ["$x = 1/2$", "$x = -1/2$", "$x = 1$", "$x = -1$"],
-      "answer": "$x = 1/2$",
+      "choices": [
+        "$x = \\frac{1}{2}$",
+        "$x = -\\frac{1}{2}$",
+        "$x = 1$",
+        "$x = -1$"
+      ],
+      "answer": "$x = \\frac{1}{2}$",
       "points": 30
     },
     {
@@ -1848,7 +1993,7 @@
       "id": 231,
       "wave": 5,
       "question": "Solve for $d$: $4(x - 1) - 2(x + 2) = 0$.",
-      "choices": ["$x = 4$", "$x = 8/2$", "$x = 2$", "$x = -4$"],
+      "choices": ["$x = 4$", "$x = \\frac{8}{2}$", "$x = 2$", "$x = -4$"],
       "answer": "$x = 4$",
       "points": 30
     },
@@ -1864,7 +2009,7 @@
       "id": 233,
       "wave": 5,
       "question": "Solve for $f$: $0.1(x - 5) + 0.2(x + 5) = 1$.",
-      "choices": ["$x = 5$", "$x = 10/0.3$", "$x = 2$", "$x = 3$"],
+      "choices": ["$x = 5$", "$x = \\frac{10}{0}.3$", "$x = 2$", "$x = 3$"],
       "answer": "$x = 5$",
       "points": 30
     },
@@ -1912,7 +2057,7 @@
       "id": 239,
       "wave": 5,
       "question": "Solve for $l$: $2(x + 4) + x = 5(x - 2)$.",
-      "choices": ["$x = 9$", "$x = 18/2$", "$x = 5$", "$x = -9$"],
+      "choices": ["$x = 9$", "$x = \\frac{18}{2}$", "$x = 5$", "$x = -9$"],
       "answer": "$x = 9$",
       "points": 30
     },
@@ -1960,15 +2105,20 @@
       "id": 245,
       "wave": 5,
       "question": "Solve for $s$: $x - 4(x + 2) = 2(x - 1)$.",
-      "choices": ["$x = -6/5$", "$x = 6/5$", "$x = -1$", "$x = 1$"],
-      "answer": "$x = -6/5$",
+      "choices": [
+        "$x = -\\frac{6}{5}$",
+        "$x = \\frac{6}{5}$",
+        "$x = -1$",
+        "$x = 1$"
+      ],
+      "answer": "$x = -\\frac{6}{5}$",
       "points": 30
     },
     {
       "id": 246,
       "wave": 5,
       "question": "Solve for $t$: $5y - 3(y - 4) = 4(y + 1)$.",
-      "choices": ["$y = 4$", "$y = 8/2$", "$y = 2$", "$y = -4$"],
+      "choices": ["$y = 4$", "$y = \\frac{8}{2}$", "$y = 2$", "$y = -4$"],
       "answer": "$y = 4$",
       "points": 30
     },

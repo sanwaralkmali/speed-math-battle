@@ -395,19 +395,6 @@
       "points": 10
     },
     {
-      "id": 31,
-      "wave": 1,
-      "question": "To which number set does $0.0$ belong?",
-      "choices": [
-        "Natural Numbers",
-        "Whole Numbers",
-        "Irrational Numbers",
-        "Imaginary Numbers"
-      ],
-      "answer": "Whole Numbers",
-      "points": 10
-    },
-    {
       "id": 32,
       "wave": 1,
       "question": "To which number set does $-9$ belong?",
@@ -564,19 +551,6 @@
       "points": 10
     },
     {
-      "id": 44,
-      "wave": 1,
-      "question": "To which number set does $0.0$ belong?",
-      "choices": [
-        "Natural Numbers",
-        "Whole Numbers",
-        "Irrational Numbers",
-        "Imaginary Numbers"
-      ],
-      "answer": "Whole Numbers",
-      "points": 10
-    },
-    {
       "id": 45,
       "wave": 1,
       "question": "To which number set does $4-3i$ belong?",
@@ -658,7 +632,12 @@
       "id": 51,
       "wave": 2,
       "question": "Which of the following is an irrational number?",
-      "choices": ["$\\sqrt{4}$", "$0.121212...$", "$\\sqrt{10}$", "$-7$"],
+      "choices": [
+        "$\\sqrt{4}$",
+        "$0.121212...$",
+        "$\\sqrt{10}$",
+        "$-7$"
+      ],
       "answer": "$\\sqrt{10}$",
       "points": 15
     },
@@ -679,7 +658,12 @@
       "id": 53,
       "wave": 2,
       "question": "Is $0$ an integer? If so, is it also a natural number?",
-      "choices": ["Yes, no", "No, yes", "Yes, yes", "No, no"],
+      "choices": [
+        "Yes, no",
+        "No, yes",
+        "Yes, yes",
+        "No, no"
+      ],
       "answer": "Yes, no",
       "points": 15
     },
@@ -700,7 +684,12 @@
       "id": 55,
       "wave": 2,
       "question": "Can a complex number be a real number? If so, give an example.",
-      "choices": ["No", "Yes, $5i$", "Yes, $7$", "Yes, $2+3i$"],
+      "choices": [
+        "No",
+        "Yes, $5i$",
+        "Yes, $7$",
+        "Yes, $2+3i$"
+      ],
       "answer": "Yes, $7$",
       "points": 15
     },
@@ -708,7 +697,12 @@
       "id": 56,
       "wave": 2,
       "question": "Which of the following is a whole number but not a natural number?",
-      "choices": ["$1$", "$-2$", "$0$", "$\\frac{1}{2}$"],
+      "choices": [
+        "$1$",
+        "$-2$",
+        "$0$",
+        "$\\frac{1}{2}$"
+      ],
       "answer": "$0$",
       "points": 15
     },
@@ -716,7 +710,12 @@
       "id": 57,
       "wave": 2,
       "question": "Which of the following is an integer but not a whole number?",
-      "choices": ["$5$", "$0$", "$-8$", "$0.5$"],
+      "choices": [
+        "$5$",
+        "$0$",
+        "$-8$",
+        "$0.5$"
+      ],
       "answer": "$-8$",
       "points": 15
     },
@@ -724,7 +723,10 @@
       "id": 58,
       "wave": 2,
       "question": "Is every rational number a real number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "Yes",
       "points": 15
     },
@@ -732,7 +734,12 @@
       "id": 59,
       "wave": 2,
       "question": "Which of the following is an imaginary number?",
-      "choices": ["$\\sqrt{-9}$", "$4$", "$\\sqrt{9}$", "$0$"],
+      "choices": [
+        "$\\sqrt{-9}$",
+        "$4$",
+        "$\\sqrt{9}$",
+        "$0$"
+      ],
       "answer": "$\\sqrt{-9}$",
       "points": 15
     },
@@ -740,7 +747,10 @@
       "id": 60,
       "wave": 2,
       "question": "Can a natural number be an irrational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -748,7 +758,12 @@
       "id": 61,
       "wave": 2,
       "question": "Which of the following is a real number?",
-      "choices": ["$2i$", "$3+i$", "$-15$", "$\\sqrt{-4}$"],
+      "choices": [
+        "$2i$",
+        "$3+i$",
+        "$-15$",
+        "$\\sqrt{-4}$"
+      ],
       "answer": "$-15$",
       "points": 15
     },
@@ -769,23 +784,25 @@
       "id": 63,
       "wave": 2,
       "question": "Is $\\frac{1}{3}$ a rational number? If so, is it also an integer?",
-      "choices": ["Yes, no", "No, yes", "Yes, yes", "No, no"],
+      "choices": [
+        "Yes, no",
+        "No, yes",
+        "Yes, yes",
+        "No, no"
+      ],
       "answer": "Yes, no",
-      "points": 15
-    },
-    {
-      "id": 64,
-      "wave": 2,
-      "question": "Which of the following is an irrational number?",
-      "choices": ["$0.5$", "$\\sqrt{25}$", "$\\sqrt{13}$", "$-\\frac{1}{2}$"],
-      "answer": "$\\sqrt{13}$",
       "points": 15
     },
     {
       "id": 65,
       "wave": 2,
       "question": "Can an imaginary number be a real number? If so, give an example.",
-      "choices": ["No", "Yes, $0$", "Yes, $2i$", "Yes, $5$"],
+      "choices": [
+        "No",
+        "Yes, $0$",
+        "Yes, $2i$",
+        "Yes, $5$"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -793,7 +810,12 @@
       "id": 66,
       "wave": 2,
       "question": "Which of the following is a natural number but not a whole number?",
-      "choices": ["$0$", "$-5$", "$1$", "$\\frac{1}{3}$"],
+      "choices": [
+        "$0$",
+        "$-5$",
+        "$1$",
+        "$\\frac{1}{3}$"
+      ],
       "answer": "$1$",
       "points": 15
     },
@@ -801,7 +823,12 @@
       "id": 67,
       "wave": 2,
       "question": "Which of the following is a real number but not a rational number?",
-      "choices": ["$0.2$", "$\\sqrt{9}$", "$\\pi$", "$-6$"],
+      "choices": [
+        "$0.2$",
+        "$\\sqrt{9}$",
+        "$\\pi$",
+        "$-6$"
+      ],
       "answer": "$\\pi$",
       "points": 15
     },
@@ -809,7 +836,10 @@
       "id": 68,
       "wave": 2,
       "question": "Is every integer a whole number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -817,7 +847,12 @@
       "id": 69,
       "wave": 2,
       "question": "Which of the following is a complex number?",
-      "choices": ["$7$", "$\\sqrt{2}$", "$0$", "$2-i$"],
+      "choices": [
+        "$7$",
+        "$\\sqrt{2}$",
+        "$0$",
+        "$2-i$"
+      ],
       "answer": "$2-i$",
       "points": 15
     },
@@ -825,7 +860,10 @@
       "id": 70,
       "wave": 2,
       "question": "Can a rational number be an irrational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -833,7 +871,12 @@
       "id": 71,
       "wave": 2,
       "question": "Which of the following is a non-integer rational number?",
-      "choices": ["$4$", "$-2$", "$\\frac{3}{5}$", "$\\sqrt{7}$"],
+      "choices": [
+        "$4$",
+        "$-2$",
+        "$\\frac{3}{5}$",
+        "$\\sqrt{7}$"
+      ],
       "answer": "$\\frac{3}{5}$",
       "points": 15
     },
@@ -854,7 +897,12 @@
       "id": 73,
       "wave": 2,
       "question": "Is $\\sqrt{2}$ a real number? If so, is it also a rational number?",
-      "choices": ["Yes, no", "No, yes", "Yes, yes", "No, no"],
+      "choices": [
+        "Yes, no",
+        "No, yes",
+        "Yes, yes",
+        "No, no"
+      ],
       "answer": "Yes, no",
       "points": 15
     },
@@ -862,7 +910,12 @@
       "id": 74,
       "wave": 2,
       "question": "Which of the following is a pure imaginary number?",
-      "choices": ["$5$", "$2+3i$", "$-i$", "$\\sqrt{2}$"],
+      "choices": [
+        "$5$",
+        "$2+3i$",
+        "$-i$",
+        "$\\sqrt{2}$"
+      ],
       "answer": "$-i$",
       "points": 15
     },
@@ -870,7 +923,10 @@
       "id": 75,
       "wave": 2,
       "question": "Can a whole number be an irrational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -878,7 +934,12 @@
       "id": 76,
       "wave": 2,
       "question": "Which of the following is a real number that is not an integer?",
-      "choices": ["$10$", "$-3$", "$0$", "$1.2$"],
+      "choices": [
+        "$10$",
+        "$-3$",
+        "$0$",
+        "$1.2$"
+      ],
       "answer": "$1.2$",
       "points": 15
     },
@@ -886,7 +947,12 @@
       "id": 77,
       "wave": 2,
       "question": "Which of the following is a complex number that is not a real number?",
-      "choices": ["$5$", "$-2$", "$3i$", "$\\sqrt{16}$"],
+      "choices": [
+        "$5$",
+        "$-2$",
+        "$3i$",
+        "$\\sqrt{16}$"
+      ],
       "answer": "$3i$",
       "points": 15
     },
@@ -894,7 +960,10 @@
       "id": 78,
       "wave": 2,
       "question": "Is every real number a complex number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "Yes",
       "points": 15
     },
@@ -902,7 +971,12 @@
       "id": 79,
       "wave": 2,
       "question": "Which of the following is a rational number that is not an integer?",
-      "choices": ["$7$", "$-4$", "$0$", "$\\frac{2}{5}$"],
+      "choices": [
+        "$7$",
+        "$-4$",
+        "$0$",
+        "$\\frac{2}{5}$"
+      ],
       "answer": "$\\frac{2}{5}$",
       "points": 15
     },
@@ -910,7 +984,10 @@
       "id": 80,
       "wave": 2,
       "question": "Can an integer be an irrational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -918,7 +995,12 @@
       "id": 81,
       "wave": 2,
       "question": "Which of the following is a natural number?",
-      "choices": ["$-3$", "$0$", "$\\frac{1}{2}$", "$8$"],
+      "choices": [
+        "$-3$",
+        "$0$",
+        "$\\frac{1}{2}$",
+        "$8$"
+      ],
       "answer": "$8$",
       "points": 15
     },
@@ -939,7 +1021,12 @@
       "id": 83,
       "wave": 2,
       "question": "Is $2+i$ a real number? If so, is it also a complex number?",
-      "choices": ["Yes, no", "No, yes", "Yes, yes", "No, no"],
+      "choices": [
+        "Yes, no",
+        "No, yes",
+        "Yes, yes",
+        "No, no"
+      ],
       "answer": "No, yes",
       "points": 15
     },
@@ -947,7 +1034,12 @@
       "id": 84,
       "wave": 2,
       "question": "Which of the following is a whole number?",
-      "choices": ["$-1$", "$0.5$", "$0$", "$\\sqrt{2}$"],
+      "choices": [
+        "$-1$",
+        "$0.5$",
+        "$0$",
+        "$\\sqrt{2}$"
+      ],
       "answer": "$0$",
       "points": 15
     },
@@ -955,7 +1047,10 @@
       "id": 85,
       "wave": 2,
       "question": "Can a real number be an imaginary number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -963,7 +1058,12 @@
       "id": 86,
       "wave": 2,
       "question": "Which of the following is an integer?",
-      "choices": ["$\\frac{1}{4}$", "$\\pi$", "$-12$", "$\\sqrt{3}$"],
+      "choices": [
+        "$\\frac{1}{4}$",
+        "$\\pi$",
+        "$-12$",
+        "$\\sqrt{3}$"
+      ],
       "answer": "$-12$",
       "points": 15
     },
@@ -971,7 +1071,12 @@
       "id": 87,
       "wave": 2,
       "question": "Which of the following is a complex number that is also a real number?",
-      "choices": ["$2i$", "$5+0i$", "$1+i$", "$\\sqrt{-1}$"],
+      "choices": [
+        "$2i$",
+        "$5+0i$",
+        "$1+i$",
+        "$\\sqrt{-1}$"
+      ],
       "answer": "$5+0i$",
       "points": 15
     },
@@ -979,23 +1084,21 @@
       "id": 88,
       "wave": 2,
       "question": "Is every complex number a real number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
-      "points": 15
-    },
-    {
-      "id": 89,
-      "wave": 2,
-      "question": "Which of the following is an irrational number?",
-      "choices": ["$0.25$", "$\\sqrt{1.44}$", "$\\sqrt{20}$", "$-10$"],
-      "answer": "$\\sqrt{20}$",
       "points": 15
     },
     {
       "id": 90,
       "wave": 2,
       "question": "Can a rational number be a natural number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "Yes",
       "points": 15
     },
@@ -1003,7 +1106,12 @@
       "id": 91,
       "wave": 2,
       "question": "Which of the following is a non-natural whole number?",
-      "choices": ["$5$", "$-3$", "$0$", "$\\frac{1}{2}$"],
+      "choices": [
+        "$5$",
+        "$-3$",
+        "$0$",
+        "$\\frac{1}{2}$"
+      ],
       "answer": "$0$",
       "points": 15
     },
@@ -1024,7 +1132,12 @@
       "id": 93,
       "wave": 2,
       "question": "Is $0.666...$ (repeating) a rational number? If so, is it also an integer?",
-      "choices": ["Yes, no", "No, yes", "Yes, yes", "No, no"],
+      "choices": [
+        "Yes, no",
+        "No, yes",
+        "Yes, yes",
+        "No, no"
+      ],
       "answer": "Yes, no",
       "points": 15
     },
@@ -1032,7 +1145,12 @@
       "id": 94,
       "wave": 2,
       "question": "Which of the following is a real number that is not a whole number?",
-      "choices": ["$5$", "$0$", "$-7$", "$\\frac{1}{4}$"],
+      "choices": [
+        "$5$",
+        "$0$",
+        "$-7$",
+        "$\\frac{1}{4}$"
+      ],
       "answer": "$-7$",
       "points": 15
     },
@@ -1040,23 +1158,23 @@
       "id": 95,
       "wave": 2,
       "question": "Can an irrational number be a rational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
-      "points": 15
-    },
-    {
-      "id": 96,
-      "wave": 2,
-      "question": "Which of the following is an imaginary number?",
-      "choices": ["$0$", "$\\sqrt{5}$", "$-2i$", "$-5$"],
-      "answer": "$-2i$",
       "points": 15
     },
     {
       "id": 97,
       "wave": 2,
       "question": "Which of the following is a complex number that is not an imaginary number?",
-      "choices": ["$3i$", "$0$", "$4+0i$", "$-2i$"],
+      "choices": [
+        "$3i$",
+        "$0$",
+        "$4+0i$",
+        "$-2i$"
+      ],
       "answer": "$4+0i$",
       "points": 15
     },
@@ -1064,7 +1182,10 @@
       "id": 98,
       "wave": 2,
       "question": "Is every whole number a natural number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 15
     },
@@ -1072,7 +1193,12 @@
       "id": 99,
       "wave": 2,
       "question": "Which of the following is a rational number that is also an integer?",
-      "choices": ["$\\frac{1}{2}$", "$\\sqrt{4}$", "$0.7$", "$\\pi$"],
+      "choices": [
+        "$\\frac{1}{2}$",
+        "$\\sqrt{4}$",
+        "$0.7$",
+        "$\\pi$"
+      ],
       "answer": "$\\sqrt{4}$",
       "points": 15
     },
@@ -1080,7 +1206,10 @@
       "id": 100,
       "wave": 2,
       "question": "Can a complex number be an imaginary number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "Yes",
       "points": 15
     },
@@ -1127,7 +1256,12 @@
       "id": 104,
       "wave": 3,
       "question": "Which of these numbers is both a real number and a complex number, but not an imaginary number?",
-      "choices": ["$5i$", "$7$", "$2+3i$", "$\\sqrt{-1}$"],
+      "choices": [
+        "$5i$",
+        "$7$",
+        "$2+3i$",
+        "$\\sqrt{-1}$"
+      ],
       "answer": "$7$",
       "points": 20
     },
@@ -1187,7 +1321,12 @@
       "id": 109,
       "wave": 3,
       "question": "Which of these numbers is a complex number but not a real number?",
-      "choices": ["$-5$", "$\\pi$", "$2-i$", "$0$"],
+      "choices": [
+        "$-5$",
+        "$\\pi$",
+        "$2-i$",
+        "$0$"
+      ],
       "answer": "$2-i$",
       "points": 20
     },
@@ -1247,7 +1386,12 @@
       "id": 114,
       "wave": 3,
       "question": "Which of these numbers is a real number but not a rational number?",
-      "choices": ["$0.3$", "$\\sqrt{16}$", "$\\sqrt{17}$", "$-10$"],
+      "choices": [
+        "$0.3$",
+        "$\\sqrt{16}$",
+        "$\\sqrt{17}$",
+        "$-10$"
+      ],
       "answer": "$\\sqrt{17}$",
       "points": 20
     },
@@ -1307,7 +1451,12 @@
       "id": 119,
       "wave": 3,
       "question": "Which of these numbers is an imaginary number but not a real number?",
-      "choices": ["$0$", "$5i$", "$2$", "$-3$"],
+      "choices": [
+        "$0$",
+        "$5i$",
+        "$2$",
+        "$-3$"
+      ],
       "answer": "$5i$",
       "points": 20
     },
@@ -1367,7 +1516,12 @@
       "id": 124,
       "wave": 3,
       "question": "Which of these numbers is a complex number that is neither real nor imaginary?",
-      "choices": ["$5$", "$2i$", "$3+4i$", "$0$"],
+      "choices": [
+        "$5$",
+        "$2i$",
+        "$3+4i$",
+        "$0$"
+      ],
       "answer": "$3+4i$",
       "points": 20
     },
@@ -1427,7 +1581,12 @@
       "id": 129,
       "wave": 3,
       "question": "Which of these numbers is a real number that is also an integer?",
-      "choices": ["$\\sqrt{2}$", "$0.7$", "$-8$", "$3i$"],
+      "choices": [
+        "$\\sqrt{2}$",
+        "$0.7$",
+        "$-8$",
+        "$3i$"
+      ],
       "answer": "$-8$",
       "points": 20
     },
@@ -1487,7 +1646,12 @@
       "id": 134,
       "wave": 3,
       "question": "Which of these numbers is an integer that is also a whole number?",
-      "choices": ["$-5$", "$0$", "$\\frac{1}{2}$", "$\\sqrt{2}$"],
+      "choices": [
+        "$-5$",
+        "$0$",
+        "$\\frac{1}{2}$",
+        "$\\sqrt{2}$"
+      ],
       "answer": "$0$",
       "points": 20
     },
@@ -1495,7 +1659,10 @@
       "id": 135,
       "wave": 3,
       "question": "Can a number be both an imaginary number and a real number, other than $0$?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 20
     },
@@ -1542,7 +1709,12 @@
       "id": 139,
       "wave": 3,
       "question": "Which of these numbers is a rational number that is also a natural number?",
-      "choices": ["$0$", "$-2$", "$\\frac{1}{3}$", "$4$"],
+      "choices": [
+        "$0$",
+        "$-2$",
+        "$\\frac{1}{3}$",
+        "$4$"
+      ],
       "answer": "$4$",
       "points": 20
     },
@@ -1550,7 +1722,10 @@
       "id": 140,
       "wave": 3,
       "question": "Can a number be both a complex number and an irrational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "Yes",
       "points": 20
     },
@@ -1597,7 +1772,12 @@
       "id": 144,
       "wave": 3,
       "question": "Which of these numbers is an integer that is not a natural number?",
-      "choices": ["$5$", "$0$", "$-3$", "$\\frac{1}{2}$"],
+      "choices": [
+        "$5$",
+        "$0$",
+        "$-3$",
+        "$\\frac{1}{2}$"
+      ],
       "answer": "$-3$",
       "points": 20
     },
@@ -1605,7 +1785,10 @@
       "id": 145,
       "wave": 3,
       "question": "Can a number be both a whole number and a rational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "Yes",
       "points": 20
     },
@@ -1652,7 +1835,12 @@
       "id": 149,
       "wave": 3,
       "question": "Which of these numbers is a complex number that is also an imaginary number?",
-      "choices": ["$5$", "$2+3i$", "$-4i$", "$\\sqrt{2}$"],
+      "choices": [
+        "$5$",
+        "$2+3i$",
+        "$-4i$",
+        "$\\sqrt{2}$"
+      ],
       "answer": "$-4i$",
       "points": 20
     },
@@ -1660,7 +1848,10 @@
       "id": 150,
       "wave": 3,
       "question": "Can a number be both a complex number and a natural number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "Yes",
       "points": 20
     },
@@ -2201,7 +2392,10 @@
       "id": 192,
       "wave": 4,
       "question": "If a number is an element of the set of rational numbers, can it also be an irrational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 25
     },
@@ -2261,7 +2455,10 @@
       "id": 197,
       "wave": 4,
       "question": "If a number is an element of the set of integers, can it also be an irrational number?",
-      "choices": ["Yes", "No"],
+      "choices": [
+        "Yes",
+        "No"
+      ],
       "answer": "No",
       "points": 25
     },
@@ -2334,7 +2531,12 @@
       "id": 203,
       "wave": 5,
       "question": "If a number is a non-zero real number, it cannot be which of the following?",
-      "choices": ["Rational", "Irrational", "Imaginary", "Integer"],
+      "choices": [
+        "Rational",
+        "Irrational",
+        "Imaginary",
+        "Integer"
+      ],
       "answer": "Imaginary",
       "points": 30
     },
@@ -2342,7 +2544,12 @@
       "id": 204,
       "wave": 5,
       "question": "Which of the following numbers is a rational number, but not a whole number or an integer?",
-      "choices": ["$5$", "$-3$", "$0.75$", "$\\sqrt{2}$"],
+      "choices": [
+        "$5$",
+        "$-3$",
+        "$0.75$",
+        "$\\sqrt{2}$"
+      ],
       "answer": "$0.75$",
       "points": 30
     },
@@ -2389,7 +2596,12 @@
       "id": 208,
       "wave": 5,
       "question": "If a number is a non-zero imaginary number, it cannot be which of the following?",
-      "choices": ["Complex", "Pure Imaginary", "Real", "Of the form $bi$"],
+      "choices": [
+        "Complex",
+        "Pure Imaginary",
+        "Real",
+        "Of the form $bi$"
+      ],
       "answer": "Real",
       "points": 30
     },
@@ -2397,7 +2609,12 @@
       "id": 209,
       "wave": 5,
       "question": "Which of the following numbers is an integer, but not a natural number or a whole number?",
-      "choices": ["$5$", "$0$", "$-10$", "$\\frac{1}{3}$"],
+      "choices": [
+        "$5$",
+        "$0$",
+        "$-10$",
+        "$\\frac{1}{3}$"
+      ],
       "answer": "$-10$",
       "points": 30
     },
@@ -2412,19 +2629,6 @@
         "They are identical sets."
       ],
       "answer": "They are mutually exclusive sets within the Real Numbers.",
-      "points": 30
-    },
-    {
-      "id": 211,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is FALSE?",
-      "choices": [
-        "Every whole number is a rational number.",
-        "Every rational number is a real number.",
-        "Every imaginary number is a complex number.",
-        "Every irrational number is an integer."
-      ],
-      "answer": "Every irrational number is an integer.",
       "points": 30
     },
     {
@@ -2444,7 +2648,12 @@
       "id": 213,
       "wave": 5,
       "question": "If a number is a non-zero imaginary number, it must be which of the following?",
-      "choices": ["Real", "Rational", "Complex", "Integer"],
+      "choices": [
+        "Real",
+        "Rational",
+        "Complex",
+        "Integer"
+      ],
       "answer": "Complex",
       "points": 30
     },
@@ -2452,7 +2661,12 @@
       "id": 214,
       "wave": 5,
       "question": "Which of the following numbers is a real number, but not an integer or a rational number?",
-      "choices": ["$7$", "$-4$", "$\\sqrt{19}$", "$0.5$"],
+      "choices": [
+        "$7$",
+        "$-4$",
+        "$\\sqrt{19}$",
+        "$0.5$"
+      ],
       "answer": "$\\sqrt{19}$",
       "points": 30
     },
@@ -2467,19 +2681,6 @@
         "They are identical sets."
       ],
       "answer": "Natural Numbers are a subset of Integers.",
-      "points": 30
-    },
-    {
-      "id": 216,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is TRUE?",
-      "choices": [
-        "Every natural number is an irrational number.",
-        "Every integer is a whole number.",
-        "Every real number is an imaginary number.",
-        "Every rational number is a complex number."
-      ],
-      "answer": "Every rational number is a complex number.",
       "points": 30
     },
     {
@@ -2499,7 +2700,12 @@
       "id": 218,
       "wave": 5,
       "question": "If a number is a natural number, it must be which of the following?",
-      "choices": ["Negative", "Zero", "Positive", "Imaginary"],
+      "choices": [
+        "Negative",
+        "Zero",
+        "Positive",
+        "Imaginary"
+      ],
       "answer": "Positive",
       "points": 30
     },
@@ -2507,7 +2713,12 @@
       "id": 219,
       "wave": 5,
       "question": "Which of the following numbers is a complex number that is not a real number and not a pure imaginary number?",
-      "choices": ["$5$", "$2i$", "$4-7i$", "$0$"],
+      "choices": [
+        "$5$",
+        "$2i$",
+        "$4-7i$",
+        "$0$"
+      ],
       "answer": "$4-7i$",
       "points": 30
     },
@@ -2522,19 +2733,6 @@
         "They are identical sets."
       ],
       "answer": "Whole Numbers are a subset of Integers.",
-      "points": 30
-    },
-    {
-      "id": 221,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is FALSE?",
-      "choices": [
-        "Every integer is a real number.",
-        "Every rational number is an integer.",
-        "Every imaginary number is a complex number.",
-        "Every natural number is a whole number."
-      ],
-      "answer": "Every rational number is an integer.",
       "points": 30
     },
     {
@@ -2554,7 +2752,12 @@
       "id": 223,
       "wave": 5,
       "question": "If a number is an integer, it cannot be which of the following?",
-      "choices": ["Rational", "Real", "Irrational", "Complex"],
+      "choices": [
+        "Rational",
+        "Real",
+        "Irrational",
+        "Complex"
+      ],
       "answer": "Irrational",
       "points": 30
     },
@@ -2562,7 +2765,12 @@
       "id": 224,
       "wave": 5,
       "question": "Which of the following numbers is a whole number, but not a natural number?",
-      "choices": ["$1$", "$-5$", "$0$", "$\\frac{1}{2}$"],
+      "choices": [
+        "$1$",
+        "$-5$",
+        "$0$",
+        "$\\frac{1}{2}$"
+      ],
       "answer": "$0$",
       "points": 30
     },
@@ -2577,19 +2785,6 @@
         "They are identical sets."
       ],
       "answer": "They are mutually exclusive sets, except for $0$.",
-      "points": 30
-    },
-    {
-      "id": 226,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is TRUE?",
-      "choices": [
-        "Every rational number is an irrational number.",
-        "Every imaginary number is a real number.",
-        "Every real number is either rational or irrational.",
-        "Every complex number is an integer."
-      ],
-      "answer": "Every real number is either rational or irrational.",
       "points": 30
     },
     {
@@ -2609,7 +2804,12 @@
       "id": 228,
       "wave": 5,
       "question": "If a number is a rational number, it must be which of the following?",
-      "choices": ["Irrational", "Imaginary", "Real", "Natural"],
+      "choices": [
+        "Irrational",
+        "Imaginary",
+        "Real",
+        "Natural"
+      ],
       "answer": "Real",
       "points": 30
     },
@@ -2617,7 +2817,12 @@
       "id": 229,
       "wave": 5,
       "question": "Which of the following numbers is an irrational number that is also a real number?",
-      "choices": ["$0.5$", "$-2$", "$\\sqrt{23}$", "$\\frac{1}{4}$"],
+      "choices": [
+        "$0.5$",
+        "$-2$",
+        "$\\sqrt{23}$",
+        "$\\frac{1}{4}$"
+      ],
       "answer": "$\\sqrt{23}$",
       "points": 30
     },
@@ -2632,19 +2837,6 @@
         "They are identical sets."
       ],
       "answer": "Rational Numbers are a subset of Real Numbers.",
-      "points": 30
-    },
-    {
-      "id": 231,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is FALSE?",
-      "choices": [
-        "Every natural number is a rational number.",
-        "Every integer is a complex number.",
-        "Every real number is a rational number.",
-        "Every whole number is a real number."
-      ],
-      "answer": "Every real number is a rational number.",
       "points": 30
     },
     {
@@ -2677,7 +2869,12 @@
       "id": 234,
       "wave": 5,
       "question": "Which of the following numbers is a natural number, but not a whole number?",
-      "choices": ["$0$", "$-2$", "$1$", "$\\frac{1}{2}$"],
+      "choices": [
+        "$0$",
+        "$-2$",
+        "$1$",
+        "$\\frac{1}{2}$"
+      ],
       "answer": "None of the above (all natural numbers are whole numbers)",
       "points": 30
     },
@@ -2692,19 +2889,6 @@
         "They are identical sets."
       ],
       "answer": "Natural Numbers are a subset of Whole Numbers.",
-      "points": 30
-    },
-    {
-      "id": 236,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is TRUE?",
-      "choices": [
-        "Every irrational number is an integer.",
-        "Every whole number is a natural number.",
-        "Every complex number can be written as $a+bi$ where $a$ and $b$ are real numbers.",
-        "Every real number is a rational number."
-      ],
-      "answer": "Every complex number can be written as $a+bi$ where $a$ and $b$ are real numbers.",
       "points": 30
     },
     {
@@ -2737,7 +2921,12 @@
       "id": 239,
       "wave": 5,
       "question": "Which of the following numbers is a real number that is not a natural number or an integer?",
-      "choices": ["$1$", "$-5$", "$0.1$", "$0$"],
+      "choices": [
+        "$1$",
+        "$-5$",
+        "$0.1$",
+        "$0$"
+      ],
       "answer": "$0.1$",
       "points": 30
     },
@@ -2752,19 +2941,6 @@
         "They are identical sets."
       ],
       "answer": "Whole Numbers are a subset of Integers.",
-      "points": 30
-    },
-    {
-      "id": 241,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is FALSE?",
-      "choices": [
-        "Every rational number is a complex number.",
-        "Every real number is an integer.",
-        "Every imaginary number is a complex number.",
-        "Every natural number is a real number."
-      ],
-      "answer": "Every real number is an integer.",
       "points": 30
     },
     {
@@ -2784,7 +2960,12 @@
       "id": 243,
       "wave": 5,
       "question": "If a number is an irrational number, it must be which of the following?",
-      "choices": ["Rational", "Integer", "Real", "Imaginary"],
+      "choices": [
+        "Rational",
+        "Integer",
+        "Real",
+        "Imaginary"
+      ],
       "answer": "Real",
       "points": 30
     },
@@ -2792,7 +2973,12 @@
       "id": 244,
       "wave": 5,
       "question": "Which of the following numbers is a complex number that is also a real number?",
-      "choices": ["$3i$", "$2+0i$", "$-5i$", "$\\sqrt{-4}$"],
+      "choices": [
+        "$3i$",
+        "$2+0i$",
+        "$-5i$",
+        "$\\sqrt{-4}$"
+      ],
       "answer": "$2+0i$",
       "points": 30
     },
@@ -2807,19 +2993,6 @@
         "They are identical sets."
       ],
       "answer": "Imaginary Numbers are a subset of Complex Numbers.",
-      "points": 30
-    },
-    {
-      "id": 246,
-      "wave": 5,
-      "question": "Which of the following statements about number sets is TRUE?",
-      "choices": [
-        "Every integer is an irrational number.",
-        "Every natural number is an integer.",
-        "Every real number is an imaginary number.",
-        "Every rational number is a whole number."
-      ],
-      "answer": "Every natural number is an integer.",
       "points": 30
     },
     {
@@ -2839,7 +3012,12 @@
       "id": 248,
       "wave": 5,
       "question": "If a number is an imaginary number, it must be which of the following?",
-      "choices": ["Real", "Rational", "Complex", "Integer"],
+      "choices": [
+        "Real",
+        "Rational",
+        "Complex",
+        "Integer"
+      ],
       "answer": "Complex",
       "points": 30
     },
@@ -2847,7 +3025,12 @@
       "id": 249,
       "wave": 5,
       "question": "Which of the following numbers is a rational number that is also an integer?",
-      "choices": ["$0.3$", "$-7$", "$\\frac{1}{5}$", "$\\sqrt{10}$"],
+      "choices": [
+        "$0.3$",
+        "$-7$",
+        "$\\frac{1}{5}$",
+        "$\\sqrt{10}$"
+      ],
       "answer": "$-7$",
       "points": 30
     },

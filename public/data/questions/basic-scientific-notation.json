@@ -1804,7 +1804,7 @@
     {
       "id": 155,
       "wave": 4,
-      "question": "The speed of light is approximately $3 \\times 10^8$ m/s. How far does light travel in $2 \\times 10^{-6}$ seconds?",
+      "question": "The speed of light is approximately $3 \\times 10^8$ \\frac{m}{s}. How far does light travel in $2 \\times 10^{-6}$ seconds?",
       "choices": [
         "$6 \\times 10^2$ m",
         "$6 \\times 10^{14}$ m",
@@ -2428,7 +2428,7 @@
     {
       "id": 203,
       "wave": 5,
-      "question": "If a star is $4.5 \\times 10^{16}$ meters away and light travels at $3 \\times 10^8$ m/s, how many years does it take for light to reach Earth? (1 year $\\approx 3.15 \\times 10^7$ seconds)",
+      "question": "If a star is $4.5 \\times 10^{16}$ meters away and light travels at $3 \\times 10^8$ \\frac{m}{s}, how many years does it take for light to reach Earth? (1 year $\\approx 3.15 \\times 10^7$ seconds)",
       "choices": [
         "$4.76 \\times 10^0$ years",
         "$4.76 \\times 10^1$ years",
