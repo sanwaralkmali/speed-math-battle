@@ -1508,14 +1508,14 @@
     {
       "id": 123,
       "wave": 3,
-      "question": "Simplify: $(x + 1/x)(x - 1/x)$",
+      "question": "Simplify: $(x + \\frac{1}{x})(x - \\frac{1}{x})$",
       "choices": [
-        "$x^2 - 1/x^2$",
-        "$x^2 + 1/x^2$",
+        "$x^2 - \\frac{1}{x^2}$",
+        "$x^2 + \\frac{1}{x^2}$",
         "$x^2 - 1$",
-        "$x^2 - 2 + 1/x^2$"
+        "$x^2 - 2 + \\frac{1}{x^2}$"
       ],
-      "answer": "$x^2 - 1/x^2$",
+      "answer": "$x^2 - \\frac{1}{x^2}$",
       "points": 20
     },
     {
@@ -1802,27 +1802,27 @@
     {
       "id": 146,
       "wave": 3,
-      "question": "Simplify: $(x + 1/x)^2$",
+      "question": "Simplify: $(x + \\frac{1}{x})^2$",
       "choices": [
-        "$x^2 + 2 + 1/x^2$",
-        "$x^2 + 1/x^2$",
+        "$x^2 + 2 + \\frac{1}{x^2}$",
+        "$x^2 + \\frac{1}{x^2}$",
         "$x^2 + 1$",
-        "$x^2 + 2/x + 1/x^2$"
+        "$x^2 + 2/x + \\frac{1}{x^2}$"
       ],
-      "answer": "$x^2 + 2 + 1/x^2$",
+      "answer": "$x^2 + 2 + \\frac{1}{x^2}$",
       "points": 20
     },
     {
       "id": 147,
       "wave": 3,
-      "question": "Simplify: $(y - 1/y)^2$",
+      "question": "Simplify: $(y - \\frac{1}{y})^2$",
       "choices": [
-        "$y^2 - 2 + 1/y^2$",
-        "$y^2 + 1/y^2$",
+        "$y^2 - 2 + \\frac{1}{y^2}$",
+        "$y^2 + \\frac{1}{y^2}$",
         "$y^2 - 1$",
-        "$y^2 - 2/y + 1/y^2$"
+        "$y^2 - 2/y + \\frac{1}{y^2}$"
       ],
-      "answer": "$y^2 - 2 + 1/y^2$",
+      "answer": "$y^2 - 2 + \\frac{1}{y^2}$",
       "points": 20
     },
     {
@@ -2075,27 +2075,27 @@
     {
       "id": 167,
       "wave": 4,
-      "question": "Simplify: $(x + 1/x)(x^2 + 1/x^2 - 1)$",
+      "question": "Simplify: $(x + \\frac{1}{x})(x^2 + \\frac{1}{x^2} - 1)$",
       "choices": [
-        "$x^3 + 1/x^3$",
-        "$x^3 - 1/x^3$",
+        "$x^3 + \\frac{1}{x^3}$",
+        "$x^3 - \\frac{1}{x^3}$",
         "$x^3 + 1$",
-        "$x^3 + x + 1/x + 1/x^3 - x - 1/x$"
+        "$x^3 + x + \\frac{1}{x} + \\frac{1}{x^3} - x - \\frac{1}{x}$"
       ],
-      "answer": "$x^3 + 1/x^3$",
+      "answer": "$x^3 + \\frac{1}{x^3}$",
       "points": 25
     },
     {
       "id": 168,
       "wave": 4,
-      "question": "Simplify: $(y - 1/y)(y^2 + 1/y^2 + 1)$",
+      "question": "Simplify: $(y - \\frac{1}{y})(y^2 + \\frac{1}{y^2} + 1)$",
       "choices": [
-        "$y^3 - 1/y^3$",
-        "$y^3 + 1/y^3$",
+        "$y^3 - \\frac{1}{y^3}$",
+        "$y^3 + \\frac{1}{y^3}$",
         "$y^3 - 1$",
-        "$y^3 - y - 1/y + 1/y^3 + y + 1/y$"
+        "$y^3 - y - \\frac{1}{y} + \\frac{1}{y^3} + y + \\frac{1}{y}$"
       ],
-      "answer": "$y^3 - 1/y^3$",
+      "answer": "$y^3 - \\frac{1}{y^3}$",
       "points": 25
     },
     {
@@ -2200,14 +2200,14 @@
     {
       "id": 177,
       "wave": 4,
-      "question": "Simplify: $(x^2 + 1/x^2)(x^2 - 1/x^2)$",
+      "question": "Simplify: $(x^2 + \\frac{1}{x^2})(x^2 - \\frac{1}{x^2})$",
       "choices": [
-        "$x^4 - 1/x^4$",
-        "$x^4 + 1/x^4$",
+        "$x^4 - \\frac{1}{x^4}$",
+        "$x^4 + \\frac{1}{x^4}$",
         "$x^4 - 1$",
-        "$x^4 - 2 + 1/x^4$"
+        "$x^4 - 2 + \\frac{1}{x^4}$"
       ],
-      "answer": "$x^4 - 1/x^4$",
+      "answer": "$x^4 - \\frac{1}{x^4}$",
       "points": 25
     },
     {
@@ -2559,27 +2559,27 @@
     {
       "id": 205,
       "wave": 5,
-      "question": "Simplify: $(x + 1/x)(x^3 - x + 1/x)$",
+      "question": "Simplify: $(x + \\frac{1}{x})(x^3 - x + \\frac{1}{x})$",
       "choices": [
-        "$x^4 + 1/x^2 - 1 + x^2 + 1/x^4 - 1/x^2$",
-        "$x^4 + x^2 + 1/x^2 + 1/x^4$",
-        "$x^4 + 1/x^4$",
-        "$x^4 - 1/x^4 + x^2 + 1/x^2$"
+        "$x^4 + \\frac{1}{x^2} - 1 + x^2 + \\frac{1}{x^4} - \\frac{1}{x^2}$",
+        "$x^4 + x^2 + \\frac{1}{x^2} + \\frac{1}{x^4}$",
+        "$x^4 + \\frac{1}{x^4}$",
+        "$x^4 - \\frac{1}{x^4} + x^2 + \\frac{1}{x^2}$"
       ],
-      "answer": "$x^4 + x^2 + 1/x^2 + 1/x^4$",
+      "answer": "$x^4 + x^2 + \\frac{1}{x^2} + \\frac{1}{x^4}$",
       "points": 30
     },
     {
       "id": 206,
       "wave": 5,
-      "question": "Simplify: $(a^n - 1/a^n)(a^{2n} + 1 + 1/a^{2n})$",
+      "question": "Simplify: $(a^n - \\frac{1}{a^n})(a^{2n} + 1 + \\frac{1}{a}^{2n})$",
       "choices": [
-        "$a^{3n} - 1/a^{3n}$",
-        "$a^{3n} + 1/a^{3n}$",
-        "$a^{3n} - a^n + 1/a^n - 1/a^{3n}$",
+        "$a^{3n} - \\frac{1}{a}^{3n}$",
+        "$a^{3n} + \\frac{1}{a}^{3n}$",
+        "$a^{3n} - a^n + \\frac{1}{a^n} - \\frac{1}{a}^{3n}$",
         "$a^{3n} - 1$"
       ],
-      "answer": "$a^{3n} - 1/a^{3n}$",
+      "answer": "$a^{3n} - \\frac{1}{a}^{3n}$",
       "points": 30
     },
     {
@@ -2676,27 +2676,27 @@
     {
       "id": 215,
       "wave": 5,
-      "question": "Simplify: $(x + 1/x)^3$",
+      "question": "Simplify: $(x + \\frac{1}{x})^3$",
       "choices": [
-        "$x^3 + 3x + 3/x + 1/x^3$",
-        "$x^3 + 1/x^3$",
-        "$x^3 + 3x^2(1/x) + 3x(1/x^2) + (1/x)^3$",
-        "$x^3 + 3/x + 1/x^3$"
+        "$x^3 + 3x + 3/x + \\frac{1}{x^3}$",
+        "$x^3 + \\frac{1}{x^3}$",
+        "$x^3 + 3x^2(\\frac{1}{x}) + 3x(\\frac{1}{x^2}) + (\\frac{1}{x})^3$",
+        "$x^3 + 3/x + \\frac{1}{x^3}$"
       ],
-      "answer": "$x^3 + 3x + 3/x + 1/x^3$",
+      "answer": "$x^3 + 3x + 3/x + \\frac{1}{x^3}$",
       "points": 30
     },
     {
       "id": 216,
       "wave": 5,
-      "question": "Simplify: $(y - 1/y)^3$",
+      "question": "Simplify: $(y - \\frac{1}{y})^3$",
       "choices": [
-        "$y^3 - 3y + 3/y - 1/y^3$",
-        "$y^3 - 1/y^3$",
-        "$y^3 - 3y^2(1/y) + 3y(1/y^2) - (1/y)^3$",
-        "$y^3 - 3/y - 1/y^3$"
+        "$y^3 - 3y + 3/y - \\frac{1}{y^3}$",
+        "$y^3 - \\frac{1}{y^3}$",
+        "$y^3 - 3y^2(\\frac{1}{y}) + 3y(\\frac{1}{y^2}) - (\\frac{1}{y})^3$",
+        "$y^3 - 3/y - \\frac{1}{y^3}$"
       ],
-      "answer": "$y^3 - 3y + 3/y - 1/y^3$",
+      "answer": "$y^3 - 3y + 3/y - \\frac{1}{y^3}$",
       "points": 30
     },
     {
@@ -3079,14 +3079,14 @@
     {
       "id": 246,
       "wave": 5,
-      "question": "Simplify: $(x^2 - 1/x^2)(x^4 + 1 + 1/x^4)$",
+      "question": "Simplify: $(x^2 - \\frac{1}{x^2})(x^4 + 1 + \\frac{1}{x^4})$",
       "choices": [
-        "$x^6 - 1/x^6$",
-        "$x^6 + 1/x^6$",
-        "$x^6 - x^2 + 1/x^2 - 1/x^6$",
+        "$x^6 - \\frac{1}{x^6}$",
+        "$x^6 + \\frac{1}{x^6}$",
+        "$x^6 - x^2 + \\frac{1}{x^2} - \\frac{1}{x^6}$",
         "$x^6 - 1$"
       ],
-      "answer": "$x^6 - 1/x^6$",
+      "answer": "$x^6 - \\frac{1}{x^6}$",
       "points": 30
     },
     {

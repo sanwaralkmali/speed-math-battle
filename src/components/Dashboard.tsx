@@ -24,7 +24,7 @@ import { useRef } from "react";
 import { useState as useReactState } from "react";
 
 interface SkillsData {
-  [group: string]: string[];
+  [skill: string]: string[]; // Each skill maps to an array of filenames
 }
 
 const PLAYER_COLORS = [
@@ -185,9 +185,19 @@ function InstructionsModal() {
 }
 
 // Helper to fetch skill title from question JSON
-async function fetchSkillTitle(skill: string): Promise<string | null> {
+async function fetchSkillTitle(
+  skill: string,
+  skillsData?: SkillsData
+): Promise<string | null> {
   try {
-    const res = await fetch(`/data/questions/${skill}.json`);
+    let filePath = `/data/questions/${skill}.json`;
+
+    // If we have skillsData, use the correct file path
+    if (skillsData && skillsData[skill] && skillsData[skill].length > 0) {
+      filePath = `/data/questions/${skillsData[skill][0]}`;
+    }
+
+    const res = await fetch(filePath);
     if (!res.ok) return null;
     const data = await res.json();
     return data.title || null;
@@ -223,31 +233,40 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
   const [skillTitles, setSkillTitles] = useState<{ [skill: string]: string }>(
     {}
   );
+  const [skillsData, setSkillsData] = useState<SkillsData>({});
   const fetchedTitles = useRef<{ [skill: string]: boolean }>({});
   const isSmallScreen = useIsSmallScreen();
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const group = params.get("skill");
-    if (!group) {
+    const skillParam = params.get("skill");
+
+    if (!skillParam) {
       setSkills([]);
       setLoading(false);
       setNotFound(true);
       return;
     }
+
     fetch("/data/skills.json")
       .then((res) => res.json())
       .then((data: SkillsData) => {
-        if (data[group]) {
-          setSkills(data[group]);
-          // Auto-select if only one skill
-          if (data[group].length === 1) {
-            setSelectedSkill(data[group][0]);
-          }
+        setSkillsData(data);
+        // Check if the skill parameter exists in the skills data
+        if (data[skillParam]) {
+          // If it exists, show just this skill
+          setSkills([skillParam]);
+          setSelectedSkill(skillParam);
           setNotFound(false);
         } else {
-          setSkills([]);
-          setNotFound(true);
+          // If not found, show all available skills
+          const availableSkills = Object.keys(data);
+          setSkills(availableSkills);
+          // Auto-select if only one skill
+          if (availableSkills.length === 1) {
+            setSelectedSkill(availableSkills[0]);
+          }
+          setNotFound(false);
         }
         setLoading(false);
       })
@@ -264,14 +283,14 @@ export default function Dashboard({ onStartGame }: DashboardProps) {
     skills.forEach((skill) => {
       if (!fetchedTitles.current[skill]) {
         fetchedTitles.current[skill] = true;
-        fetchSkillTitle(skill).then((title) => {
+        fetchSkillTitle(skill, skillsData).then((title) => {
           if (title) {
             setSkillTitles((prev) => ({ ...prev, [skill]: title }));
           }
         });
       }
     });
-  }, [skills]);
+  }, [skills, skillsData]);
 
   const handleSkillClick = (skill: string) => {
     setSelectedSkill(skill);

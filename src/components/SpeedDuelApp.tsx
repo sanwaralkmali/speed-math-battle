@@ -4,8 +4,22 @@ import GameScreen from "./GameScreen";
 import { GameType } from "@/types/game";
 
 // Helper to get the questions file path
-function getQuestionsFile(skill: string) {
-  return `/data/questions/${skill}.json`;
+async function getQuestionsFile(skill: string): Promise<string> {
+  try {
+    const res = await fetch("/data/skills.json");
+    if (!res.ok) throw new Error("Failed to load skills data");
+    const skillsData = await res.json();
+
+    if (skillsData[skill] && skillsData[skill].length > 0) {
+      return `/data/questions/${skillsData[skill][0]}`;
+    }
+
+    // Fallback to old structure
+    return `/data/questions/${skill}.json`;
+  } catch {
+    // Fallback to old structure
+    return `/data/questions/${skill}.json`;
+  }
 }
 
 // Difficulty configuration
@@ -65,7 +79,7 @@ export default function SpeedDuelApp() {
       difficulty,
     });
     try {
-      const res = await fetch(getQuestionsFile(skill));
+      const res = await fetch(await getQuestionsFile(skill));
       if (!res.ok) throw new Error("Failed to load questions");
       const data = await res.json();
 

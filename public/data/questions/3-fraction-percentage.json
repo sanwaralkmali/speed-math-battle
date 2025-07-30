@@ -1,0 +1,2118 @@
+{
+  "title": "Fraction to Percentage Conversion",
+  "description": "Convert fractions to their equivalent percentage representations.",
+  "waves": 5,
+  "timePerQuestion": 45,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "What is $\\frac{1}{2}$ as a percentage?",
+      "choices": ["$25\\%$", "$50\\%$", "$75\\%$", "$100\\%$"],
+      "answer": "$50\\%$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{4}$ to a percentage.",
+      "choices": ["$10\\%$", "$20\\%$", "$25\\%$", "$40\\%$"],
+      "answer": "$25\\%$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "Express $\\frac{3}{4}$ as a percentage.",
+      "choices": ["$30\\%$", "$40\\%$", "$75\\%$", "$80\\%$"],
+      "answer": "$75\\%$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "What is $\\frac{1}{10}$ as a percentage?",
+      "choices": ["$1\\%$", "$5\\%$", "$10\\%$", "$20\\%$"],
+      "answer": "$10\\%$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "Convert $\\frac{7}{10}$ to a percentage.",
+      "choices": ["$7\\%$", "$17\\%$", "$70\\%$", "$100\\%$"],
+      "answer": "$70\\%$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "Express $\\frac{1}{5}$ as a percentage.",
+      "choices": ["$10\\%$", "$15\\%$", "$20\\%$", "$25\\%$"],
+      "answer": "$20\\%$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "What is $\\frac{2}{5}$ as a percentage?",
+      "choices": ["$20\\%$", "$30\\%$", "$40\\%$", "$50\\%$"],
+      "answer": "$40\\%$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{5}$ to a percentage.",
+      "choices": ["$30\\%$", "$45\\%$", "$60\\%$", "$75\\%$"],
+      "answer": "$60\\%$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "Express $\\frac{4}{5}$ as a percentage.",
+      "choices": ["$40\\%$", "$60\\%$", "$80\\%$", "$90\\%$"],
+      "answer": "$80\\%$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "What is $\\frac{1}{20}$ as a percentage?",
+      "choices": ["$2\\%$", "$5\\%$", "$10\\%$", "$20\\%$"],
+      "answer": "$5\\%$",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{20}$ to a percentage.",
+      "choices": ["$3\\%$", "$10\\%$", "$15\\%$", "$20\\%$"],
+      "answer": "$15\\%$",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "Express $\\frac{7}{20}$ as a percentage.",
+      "choices": ["$7\\%$", "$25\\%$", "$35\\%$", "$40\\%$"],
+      "answer": "$35\\%$",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "What is $\\frac{9}{20}$ as a percentage?",
+      "choices": ["$9\\%$", "$19\\%$", "$45\\%$", "$55\\%$"],
+      "answer": "$45\\%$",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "Convert $\\frac{11}{20}$ to a percentage.",
+      "choices": ["$11\\%$", "$21\\%$", "$45\\%$", "$55\\%$"],
+      "answer": "$55\\%$",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "Express $\\frac{13}{20}$ as a percentage.",
+      "choices": ["$13\\%$", "$26\\%$", "$65\\%$", "$75\\%$"],
+      "answer": "$65\\%$",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "What is $\\frac{17}{20}$ as a percentage?",
+      "choices": ["$17\\%$", "$34\\%$", "$85\\%$", "$95\\%$"],
+      "answer": "$85\\%$",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "Convert $\\frac{19}{20}$ to a percentage.",
+      "choices": ["$19\\%$", "$38\\%$", "$80\\%$", "$95\\%$"],
+      "answer": "$95\\%$",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "Express $\\frac{1}{25}$ as a percentage.",
+      "choices": ["$1\\%$", "$4\\%$", "$5\\%$", "$25\\%$"],
+      "answer": "$4\\%$",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "What is $\\frac{2}{25}$ as a percentage?",
+      "choices": ["$2\\%$", "$8\\%$", "$12\\%$", "$25\\%$"],
+      "answer": "$8\\%$",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "Convert $\\frac{3}{25}$ to a percentage.",
+      "choices": ["$3\\%$", "$6\\%$", "$12\\%$", "$15\\%$"],
+      "answer": "$12\\%$",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "Express $\\frac{4}{25}$ as a percentage.",
+      "choices": ["$4\\%$", "$8\\%$", "$16\\%$", "$20\\%$"],
+      "answer": "$16\\%$",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "What is $\\frac{6}{25}$ as a percentage?",
+      "choices": ["$6\\%$", "$12\\%$", "$24\\%$", "$30\\%$"],
+      "answer": "$24\\%$",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "Convert $\\frac{7}{25}$ to a percentage.",
+      "choices": ["$7\\%$", "$14\\%$", "$28\\%$", "$35\\%$"],
+      "answer": "$28\\%$",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "Express $\\frac{8}{25}$ as a percentage.",
+      "choices": ["$8\\%$", "$16\\%$", "$32\\%$", "$40\\%$"],
+      "answer": "$32\\%$",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "What is $\\frac{9}{25}$ as a percentage?",
+      "choices": ["$9\\%$", "$18\\%$", "$36\\%$", "$45\\%$"],
+      "answer": "$36\\%$",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "Convert $\\frac{11}{25}$ to a percentage.",
+      "choices": ["$11\\%$", "$22\\%$", "$44\\%$", "$55\\%$"],
+      "answer": "$44\\%$",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "Express $\\frac{12}{25}$ as a percentage.",
+      "choices": ["$12\\%$", "$24\\%$", "$48\\%$", "$60\\%$"],
+      "answer": "$48\\%$",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "What is $\\frac{13}{25}$ as a percentage?",
+      "choices": ["$13\\%$", "$26\\%$", "$52\\%$", "$65\\%$"],
+      "answer": "$52\\%$",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "Convert $\\frac{14}{25}$ to a percentage.",
+      "choices": ["$14\\%$", "$28\\%$", "$56\\%$", "$70\\%$"],
+      "answer": "$56\\%$",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "Express $\\frac{16}{25}$ as a percentage.",
+      "choices": ["$16\\%$", "$32\\%$", "$64\\%$", "$80\\%$"],
+      "answer": "$64\\%$",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "What is $\\frac{17}{25}$ as a percentage?",
+      "choices": ["$17\\%$", "$34\\%$", "$68\\%$", "$85\\%$"],
+      "answer": "$68\\%$",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "Convert $\\frac{18}{25}$ to a percentage.",
+      "choices": ["$18\\%$", "$36\\%$", "$72\\%$", "$90\\%$"],
+      "answer": "$72\\%$",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "Express $\\frac{19}{25}$ as a percentage.",
+      "choices": ["$19\\%$", "$38\\%$", "$76\\%$", "$95\\%$"],
+      "answer": "$76\\%$",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "What is $\\frac{21}{25}$ as a percentage?",
+      "choices": ["$21\\%$", "$42\\%$", "$84\\%$", "$100\\%$"],
+      "answer": "$84\\%$",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "Convert $\\frac{22}{25}$ to a percentage.",
+      "choices": ["$22\\%$", "$44\\%$", "$88\\%$", "$100\\%$"],
+      "answer": "$88\\%$",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "Express $\\frac{23}{25}$ as a percentage.",
+      "choices": ["$23\\%$", "$46\\%$", "$92\\%$", "$100\\%$"],
+      "answer": "$92\\%$",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "What is $\\frac{24}{25}$ as a percentage?",
+      "choices": ["$24\\%$", "$48\\%$", "$96\\%$", "$100\\%$"],
+      "answer": "$96\\%$",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "Convert $\\frac{1}{50}$ to a percentage.",
+      "choices": ["$1\\%$", "$2\\%$", "$5\\%$", "$10\\%$"],
+      "answer": "$2\\%$",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "Express $\\frac{3}{50}$ as a percentage.",
+      "choices": ["$3\\%$", "$6\\%$", "$10\\%$", "$15\\%$"],
+      "answer": "$6\\%$",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "What is $\\frac{7}{50}$ as a percentage?",
+      "choices": ["$7\\%$", "$14\\%$", "$21\\%$", "$28\\%$"],
+      "answer": "$14\\%$",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "Convert $\\frac{9}{50}$ to a percentage.",
+      "choices": ["$9\\%$", "$18\\%$", "$27\\%$", "$36\\%$"],
+      "answer": "$18\\%$",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "Express $\\frac{11}{50}$ as a percentage.",
+      "choices": ["$11\\%$", "$22\\%$", "$33\\%$", "$44\\%$"],
+      "answer": "$22\\%$",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "What is $\\frac{13}{50}$ as a percentage?",
+      "choices": ["$13\\%$", "$26\\%$", "$39\\%$", "$52\\%$"],
+      "answer": "$26\\%$",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "Convert $\\frac{17}{50}$ to a percentage.",
+      "choices": ["$17\\%$", "$34\\%$", "$51\\%$", "$68\\%$"],
+      "answer": "$34\\%$",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "Express $\\frac{19}{50}$ as a percentage.",
+      "choices": ["$19\\%$", "$38\\%$", "$57\\%$", "$76\\%$"],
+      "answer": "$38\\%$",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "What is $\\frac{21}{50}$ as a percentage?",
+      "choices": ["$21\\%$", "$42\\%$", "$63\\%$", "$84\\%$"],
+      "answer": "$42\\%$",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "Convert $\\frac{23}{50}$ to a percentage.",
+      "choices": ["$23\\%$", "$46\\%$", "$69\\%$", "$92\\%$"],
+      "answer": "$46\\%$",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "Express $\\frac{27}{50}$ as a percentage.",
+      "choices": ["$27\\%$", "$54\\%$", "$81\\%$", "$100\\%$"],
+      "answer": "$54\\%$",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "What is $\\frac{29}{50}$ as a percentage?",
+      "choices": ["$29\\%$", "$58\\%$", "$87\\%$", "$100\\%$"],
+      "answer": "$58\\%$",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "Convert $\\frac{31}{50}$ to a percentage.",
+      "choices": ["$31\\%$", "$62\\%$", "$93\\%$", "$100\\%$"],
+      "answer": "$62\\%$",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "What is $\\frac{1}{8}$ as a percentage?",
+      "choices": ["$12.5\\%$", "$18.5\\%$", "$25\\%$", "$37.5\\%$"],
+      "answer": "$12.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "Convert $\\frac{3}{8}$ to a percentage.",
+      "choices": ["$27.5\\%$", "$32.5\\%$", "$37.5\\%$", "$42.5\\%$"],
+      "answer": "$37.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "Express $\\frac{5}{8}$ as a percentage.",
+      "choices": ["$52.5\\%$", "$62.5\\%$", "$72.5\\%$", "$82.5\\%$"],
+      "answer": "$62.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "What is $\\frac{7}{8}$ as a percentage?",
+      "choices": ["$77.5\\%$", "$87.5\\%$", "$97.5\\%$", "$100\\%$"],
+      "answer": "$87.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{16}$ to a percentage.",
+      "choices": ["$6.25\\%$", "$10\\%$", "$12.5\\%$", "$16\\%$"],
+      "answer": "$6.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "Express $\\frac{3}{16}$ as a percentage.",
+      "choices": ["$12.5\\%$", "$18.75\\%$", "$25\\%$", "$31.25\\%$"],
+      "answer": "$18.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "What is $\\frac{5}{16}$ as a percentage?",
+      "choices": ["$21.25\\%$", "$26.25\\%$", "$31.25\\%$", "$36.25\\%$"],
+      "answer": "$31.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "Convert $\\frac{7}{16}$ to a percentage.",
+      "choices": ["$33.75\\%$", "$38.75\\%$", "$43.75\\%$", "$48.75\\%$"],
+      "answer": "$43.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "Express $\\frac{9}{16}$ as a percentage.",
+      "choices": ["$51.25\\%$", "$56.25\\%$", "$61.25\\%$", "$66.25\\%$"],
+      "answer": "$56.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "What is $\\frac{11}{16}$ as a percentage?",
+      "choices": ["$61.25\\%$", "$66.25\\%$", "$68.75\\%$", "$71.25\\%$"],
+      "answer": "$68.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "Convert $\\frac{13}{16}$ to a percentage.",
+      "choices": ["$75\\%$", "$78.25\\%$", "$81.25\\%$", "$84.25\\%$"],
+      "answer": "$81.25\\%$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "Express $\\frac{15}{16}$ as a percentage.",
+      "choices": ["$88.75\\%$", "$90.25\\%$", "$93.75\\%$", "$96.25\\%$"],
+      "answer": "$93.75\\%$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "What is $\\frac{1}{40}$ as a percentage?",
+      "choices": ["$1.5\\%$", "$2.5\\%$", "$4\\%$", "$5\\%$"],
+      "answer": "$2.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "Convert $\\frac{3}{40}$ to a percentage.",
+      "choices": ["$5.5\\%$", "$7.5\\%$", "$9.5\\%$", "$12.5\\%$"],
+      "answer": "$7.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "Express $\\frac{7}{40}$ as a percentage.",
+      "choices": ["$12.5\\%$", "$15.5\\%$", "$17.5\\%$", "$20.5\\%$"],
+      "answer": "$17.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "What is $\\frac{9}{40}$ as a percentage?",
+      "choices": ["$20.5\\%$", "$22.5\\%$", "$24.5\\%$", "$26.5\\%$"],
+      "answer": "$22.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "Convert $\\frac{11}{40}$ to a percentage.",
+      "choices": ["$25.5\\%$", "$27.5\\%$", "$29.5\\%$", "$31.5\\%$"],
+      "answer": "$27.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "Express $\\frac{13}{40}$ as a percentage.",
+      "choices": ["$30.5\\%$", "$32.5\\%$", "$34.5\\%$", "$36.5\\%$"],
+      "answer": "$32.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "What is $\\frac{17}{40}$ as a percentage?",
+      "choices": ["$40.5\\%$", "$42.5\\%$", "$44.5\\%$", "$46.5\\%$"],
+      "answer": "$42.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "Convert $\\frac{19}{40}$ to a percentage.",
+      "choices": ["$45\\%$", "$47.5\\%$", "$50\\%$", "$52.5\\%$"],
+      "answer": "$47.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "Express $\\frac{21}{40}$ as a percentage.",
+      "choices": ["$50\\%$", "$52.5\\%$", "$55\\%$", "$57.5\\%$"],
+      "answer": "$52.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "What is $\\frac{23}{40}$ as a percentage?",
+      "choices": ["$55\\%$", "$57.5\\%$", "$60\\%$", "$62.5\\%$"],
+      "answer": "$57.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "Convert $\\frac{27}{40}$ to a percentage.",
+      "choices": ["$65\\%$", "$67.5\\%$", "$70\\%$", "$72.5\\%$"],
+      "answer": "$67.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "Express $\\frac{29}{40}$ as a percentage.",
+      "choices": ["$70\\%$", "$72.5\\%$", "$75\\%$", "$77.5\\%$"],
+      "answer": "$72.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "What is $\\frac{31}{40}$ as a percentage?",
+      "choices": ["$75\\%$", "$77.5\\%$", "$80\\%$", "$82.5\\%$"],
+      "answer": "$77.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "Convert $\\frac{33}{40}$ to a percentage.",
+      "choices": ["$80\\%$", "$82.5\\%$", "$85\\%$", "$87.5\\%$"],
+      "answer": "$82.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "Express $\\frac{37}{40}$ as a percentage.",
+      "choices": ["$90\\%$", "$92.5\\%$", "$95\\%$", "$97.5\\%$"],
+      "answer": "$92.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "What is $\\frac{39}{40}$ as a percentage?",
+      "choices": ["$95\\%$", "$97.5\\%$", "$98.5\\%$", "$100\\%$"],
+      "answer": "$97.5\\%$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "Convert $\\frac{1}{125}$ to a percentage.",
+      "choices": ["$0.8\\%$", "$1.25\\%$", "$2.5\\%$", "$5\\%$"],
+      "answer": "$0.8\\%$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "Express $\\frac{2}{125}$ as a percentage.",
+      "choices": ["$1.2\\%$", "$1.6\\%$", "$2\\%$", "$2.4\\%$"],
+      "answer": "$1.6\\%$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "What is $\\frac{3}{125}$ as a percentage?",
+      "choices": ["$2\\%$", "$2.4\\%$", "$2.8\\%$", "$3.2\\%$"],
+      "answer": "$2.4\\%$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "Convert $\\frac{4}{125}$ to a percentage.",
+      "choices": ["$2.8\\%$", "$3.2\\%$", "$3.6\\%$", "$4\\%$"],
+      "answer": "$3.2\\%$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "Express $\\frac{6}{125}$ as a percentage.",
+      "choices": ["$4\\%$", "$4.8\\%$", "$5.6\\%$", "$6.4\\%$"],
+      "answer": "$4.8\\%$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "What is $\\frac{7}{125}$ as a percentage?",
+      "choices": ["$5.2\\%$", "$5.6\\%$", "$6\\%$", "$6.4\\%$"],
+      "answer": "$5.6\\%$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "Convert $\\frac{8}{125}$ to a percentage.",
+      "choices": ["$6\\%$", "$6.4\\%$", "$6.8\\%$", "$7.2\\%$"],
+      "answer": "$6.4\\%$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "Express $\\frac{9}{125}$ as a percentage.",
+      "choices": ["$6.8\\%$", "$7.2\\%$", "$7.6\\%$", "$8\\%$"],
+      "answer": "$7.2\\%$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "What is $\\frac{11}{125}$ as a percentage?",
+      "choices": ["$8.4\\%$", "$8.8\\%$", "$9.2\\%$", "$9.6\\%$"],
+      "answer": "$8.8\\%$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "Convert $\\frac{12}{125}$ to a percentage.",
+      "choices": ["$9.2\\%$", "$9.6\\%$", "$10\\%$", "$10.4\\%$"],
+      "answer": "$9.6\\%$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "Express $\\frac{13}{125}$ as a percentage.",
+      "choices": ["$10\\%$", "$10.4\\%$", "$10.8\\%$", "$11.2\\%$"],
+      "answer": "$10.4\\%$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "What is $\\frac{14}{125}$ as a percentage?",
+      "choices": ["$10.8\\%$", "$11.2\\%$", "$11.6\\%$", "$12\\%$"],
+      "answer": "$11.2\\%$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "Convert $\\frac{16}{125}$ to a percentage.",
+      "choices": ["$12.4\\%$", "$12.8\\%$", "$13.2\\%$", "$13.6\\%$"],
+      "answer": "$12.8\\%$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "Express $\\frac{17}{125}$ as a percentage.",
+      "choices": ["$13.2\\%$", "$13.6\\%$", "$14\\%$", "$14.4\\%$"],
+      "answer": "$13.6\\%$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "What is $\\frac{18}{125}$ as a percentage?",
+      "choices": ["$14\\%$", "$14.4\\%$", "$14.8\\%$", "$15.2\\%$"],
+      "answer": "$14.4\\%$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "Convert $\\frac{19}{125}$ to a percentage.",
+      "choices": ["$14.8\\%$", "$15.2\\%$", "$15.6\\%$", "$16\\%$"],
+      "answer": "$15.2\\%$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "Express $\\frac{21}{125}$ as a percentage.",
+      "choices": ["$16.4\\%$", "$16.8\\%$", "$17.2\\%$", "$17.6\\%$"],
+      "answer": "$16.8\\%$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "What is $\\frac{22}{125}$ as a percentage?",
+      "choices": ["$17.2\\%$", "$17.6\\%$", "$18\\%$", "$18.4\\%$"],
+      "answer": "$17.6\\%$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "Convert $\\frac{23}{125}$ to a percentage.",
+      "choices": ["$18\\%$", "$18.4\\%$", "$18.8\\%$", "$19.2\\%$"],
+      "answer": "$18.4\\%$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "Express $\\frac{24}{125}$ as a percentage.",
+      "choices": ["$18.8\\%$", "$19.2\\%$", "$19.6\\%$", "$20\\%$"],
+      "answer": "$19.2\\%$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "What is $\\frac{26}{125}$ as a percentage?",
+      "choices": ["$20\\%$", "$20.4\\%$", "$20.8\\%$", "$21.2\\%$"],
+      "answer": "$20.8\\%$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "Convert $\\frac{27}{125}$ to a percentage.",
+      "choices": ["$21.2\\%$", "$21.6\\%$", "$22\\%$", "$22.4\\%$"],
+      "answer": "$21.6\\%$",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "What is $\\frac{5}{6}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$83.33\\%$", "$83.67\\%$", "$84.33\\%$", "$85.00\\%$"],
+      "answer": "$83.33\\%$",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "Convert $\\frac{2}{3}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$66.0\\%$", "$66.3\\%$", "$66.7\\%$", "$67.0\\%$"],
+      "answer": "$66.7\\%$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "Express $\\frac{4}{7}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$57.14\\%$", "$57.28\\%$", "$57.42\\%$", "$57.56\\%$"],
+      "answer": "$57.14\\%$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "What is $\\frac{9}{11}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$81.0\\%$", "$81.8\\%$", "$82.0\\%$", "$82.2\\%$"],
+      "answer": "$81.8\\%$",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "Convert $\\frac{5}{12}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$41.50\\%$", "$41.67\\%$", "$41.83\\%$", "$42.00\\%$"],
+      "answer": "$41.67\\%$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "Express $\\frac{7}{13}$ as a percentage, rounded to one decimal place.",
+      "choices": ["$53.5\\%$", "$53.8\\%$", "$54.1\\%$", "$54.4\\%$"],
+      "answer": "$53.8\\%$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "What is $\\frac{10}{17}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$58.53\\%$", "$58.82\\%$", "$59.11\\%$", "$59.40\\%$"],
+      "answer": "$58.82\\%$",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "Convert $\\frac{11}{14}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$78.0\\%$", "$78.6\\%$", "$79.0\\%$", "$79.4\\%$"],
+      "answer": "$78.6\\%$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "Express $\\frac{13}{15}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$86.33\\%$", "$86.67\\%$", "$87.00\\%$", "$87.33\\%$"],
+      "answer": "$86.67\\%$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "What is $\\frac{14}{19}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$73.0\\%$", "$73.7\\%$", "$74.0\\%$", "$74.3\\%$"],
+      "answer": "$73.7\\%$",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "Convert $\\frac{15}{22}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$68.00\\%$", "$68.18\\%$", "$68.36\\%$", "$68.54\\%$"],
+      "answer": "$68.18\\%$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "Express $\\frac{17}{23}$ as a percentage, rounded to one decimal place.",
+      "choices": ["$73.5\\%$", "$73.9\\%$", "$74.0\\%$", "$74.4\\%$"],
+      "answer": "$73.9\\%$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "What is $\\frac{18}{29}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$62.00\\%$", "$62.07\\%$", "$62.14\\%$", "$62.21\\%$"],
+      "answer": "$62.07\\%$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "Convert $\\frac{20}{31}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$64.0\\%$", "$64.5\\%$", "$65.0\\%$", "$65.5\\%$"],
+      "answer": "$64.5\\%$",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "Express $\\frac{24}{35}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$68.57\\%$", "$68.86\\%$", "$69.14\\%$", "$69.43\\%$"],
+      "answer": "$68.57\\%$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "What is $\\frac{25}{37}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$67.0\\%$", "$67.6\\%$", "$68.0\\%$", "$68.4\\%$"],
+      "answer": "$67.6\\%$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "Convert $\\frac{28}{39}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$71.50\\%$", "$71.79\\%$", "$72.08\\%$", "$72.37\\%$"],
+      "answer": "$71.79\\%$",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "Express $\\frac{30}{41}$ as a percentage, rounded to one decimal place.",
+      "choices": ["$73.0\\%$", "$73.2\\%$", "$73.5\\%$", "$73.8\\%$"],
+      "answer": "$73.2\\%$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "What is $\\frac{32}{43}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$74.42\\%$", "$74.65\\%$", "$74.88\\%$", "$75.11\\%$"],
+      "answer": "$74.42\\%$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "Convert $\\frac{35}{44}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$79.0\\%$", "$79.5\\%$", "$80.0\\%$", "$80.5\\%$"],
+      "answer": "$79.5\\%$",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "Express $\\frac{38}{47}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$80.50\\%$", "$80.85\\%$", "$81.20\\%$", "$81.55\\%$"],
+      "answer": "$80.85\\%$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "What is $\\frac{40}{49}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$81.0\\%$", "$81.6\\%$", "$82.0\\%$", "$82.4\\%$"],
+      "answer": "$81.6\\%$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "Convert $\\frac{42}{53}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$79.00\\%$", "$79.25\\%$", "$79.48\\%$", "$79.72\\%$"],
+      "answer": "$79.25\\%$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "Express $\\frac{45}{55}$ as a percentage, rounded to one decimal place.",
+      "choices": ["$81.0\\%$", "$81.8\\%$", "$82.0\\%$", "$82.2\\%$"],
+      "answer": "$81.8\\%$",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "What is $\\frac{48}{57}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$84.21\\%$", "$84.47\\%$", "$84.74\\%$", "$85.00\\%$"],
+      "answer": "$84.21\\%$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "Convert $\\frac{50}{59}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$84.5\\%$", "$84.7\\%$", "$85.0\\%$", "$85.2\\%$"],
+      "answer": "$84.7\\%$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "Express $\\frac{52}{61}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$85.00\\%$", "$85.25\\%$", "$85.50\\%$", "$85.74\\%$"],
+      "answer": "$85.25\\%$",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "What is $\\frac{55}{63}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$87.0\\%$", "$87.3\\%$", "$87.6\\%$", "$87.9\\%$"],
+      "answer": "$87.3\\%$",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "Convert $\\frac{58}{65}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$89.00\\%$", "$89.23\\%$", "$89.46\\%$", "$89.69\\%$"],
+      "answer": "$89.23\\%$",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "Express $\\frac{60}{67}$ as a percentage, rounded to one decimal place.",
+      "choices": ["$89.3\\%$", "$89.6\\%$", "$89.9\\%$", "$90.2\\%$"],
+      "answer": "$89.6\\%$",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "What is $\\frac{62}{69}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$89.50\\%$", "$89.86\\%$", "$90.22\\%$", "$90.58\\%$"],
+      "answer": "$89.86\\%$",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "Convert $\\frac{65}{71}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$91.0\\%$", "$91.5\\%$", "$91.9\\%$", "$92.2\\%$"],
+      "answer": "$91.5\\%$",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "Express $\\frac{68}{73}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$93.00\\%$", "$93.15\\%$", "$93.30\\%$", "$93.45\\%$"],
+      "answer": "$93.15\\%$",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "What is $\\frac{70}{75}$ as a percentage?",
+      "choices": ["$93\\%$", "$93.33\\%$", "$93.67\\%$", "$94\\%$"],
+      "answer": "$93.33\\%$",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "Convert $\\frac{72}{77}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$93.0\\%$", "$93.5\\%$", "$93.8\\%$", "$94.0\\%$"],
+      "answer": "$93.5\\%$",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "Express $\\frac{75}{79}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$94.50\\%$", "$94.94\\%$", "$95.00\\%$", "$95.06\\%$"],
+      "answer": "$94.94\\%$",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "What is $\\frac{78}{81}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$96.0\\%$", "$96.3\\%$", "$96.5\\%$", "$96.8\\%$"],
+      "answer": "$96.3\\%$",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "Convert $\\frac{80}{83}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$96.00\\%$", "$96.39\\%$", "$96.78\\%$", "$97.17\\%$"],
+      "answer": "$96.39\\%$",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "Express $\\frac{82}{85}$ as a percentage, rounded to one decimal place.",
+      "choices": ["$96.0\\%$", "$96.5\\%$", "$96.9\\%$", "$97.2\\%$"],
+      "answer": "$96.5\\%$",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "What is $\\frac{85}{87}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$97.00\\%$", "$97.30\\%$", "$97.59\\%$", "$97.88\\%$"],
+      "answer": "$97.70\\%$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "Convert $\\frac{88}{89}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$98.5\\%$", "$98.9\\%$", "$99.0\\%$", "$99.3\\%$"],
+      "answer": "$98.9\\%$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "Express $\\frac{90}{91}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$98.50\\%$", "$98.90\\%$", "$99.00\\%$", "$99.33\\%$"],
+      "answer": "$98.90\\%$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "What is $\\frac{92}{93}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$98.5\\%$", "$98.7\\%$", "$98.9\\%$", "$99.1\\%$"],
+      "answer": "$98.9\\%$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "Convert $\\frac{95}{97}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$97.50\\%$", "$97.94\\%$", "$98.15\\%$", "$98.35\\%$"],
+      "answer": "$97.94\\%$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "Express $\\frac{98}{99}$ as a percentage, rounded to one decimal place.",
+      "choices": ["$98.5\\%$", "$98.7\\%$", "$99.0\\%$", "$99.2\\%$"],
+      "answer": "$99.0\\%$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "What is $\\frac{1}{3}$ as a percentage, rounded to two decimal places?",
+      "choices": ["$33.00\\%$", "$33.10\\%$", "$33.33\\%$", "$33.40\\%$"],
+      "answer": "$33.33\\%$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "Convert $\\frac{1}{6}$ to a percentage, rounded to one decimal place.",
+      "choices": ["$16.0\\%$", "$16.7\\%$", "$17.0\\%$", "$17.3\\%$"],
+      "answer": "$16.7\\%$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "Express $\\frac{1}{7}$ as a percentage, rounded to two decimal places.",
+      "choices": ["$14.28\\%$", "$14.38\\%$", "$14.48\\%$", "$14.58\\%$"],
+      "answer": "$14.29\\%$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "What is $\\frac{1}{9}$ as a percentage, rounded to one decimal place?",
+      "choices": ["$11.0\\%$", "$11.1\\%$", "$11.2\\%$", "$11.3\\%$"],
+      "answer": "$11.1\\%$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "Convert $\\frac{1}{11}$ to a percentage, rounded to two decimal places.",
+      "choices": ["$9.00\\%$", "$9.09\\%$", "$9.18\\%$", "$9.27\\%$"],
+      "answer": "$9.09\\%$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "A recipe calls for $\\frac{3}{7}$ cups of flour. What percentage of a cup is this, rounded to two decimal places?",
+      "choices": ["$42.85\\%$", "$42.92\\%$", "$43.00\\%$", "$43.07\\%$"],
+      "answer": "$42.86\\%$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "In a survey, $\\frac{5}{9}$ of students preferred apples. What percentage of students preferred apples, rounded to one decimal place?",
+      "choices": ["$55.0\\%$", "$55.6\\%$", "$56.0\\%$", "$56.6\\%$"],
+      "answer": "$55.6\\%$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "A stock price increased by $\\frac{1}{13}$ of its original value. What is this increase as a percentage, rounded to two decimal places?",
+      "choices": ["$7.69\\%$", "$7.77\\%$", "$7.85\\%$", "$7.93\\%$"],
+      "answer": "$7.69\\%$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "If $\\frac{7}{15}$ of a pizza was eaten, what percentage of the pizza remains, rounded to one decimal place?",
+      "choices": ["$46.7\\%$", "$50.0\\%$", "$53.3\\%$", "$56.7\\%$"],
+      "answer": "$53.3\\%$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "A certain metal alloy contains $\\frac{9}{17}$ copper. What is the percentage of copper in the alloy, rounded to two decimal places?",
+      "choices": ["$52.94\\%$", "$53.18\\%$", "$53.42\\%$", "$53.66\\%$"],
+      "answer": "$52.94\\%$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "If $\\frac{11}{21}$ of a journey is completed, what percentage of the journey is still left, rounded to one decimal place?",
+      "choices": ["$47.6\\%$", "$48.0\\%$", "$48.4\\%$", "$48.8\\%$"],
+      "answer": "$47.6\\%$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "A solution contains $\\frac{13}{24}$ acid. What is the percentage of acid in the solution, rounded to two decimal places?",
+      "choices": ["$54.00\\%$", "$54.17\\%$", "$54.34\\%$", "$54.51\\%$"],
+      "answer": "$54.17\\%$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "If a student answered $\\frac{16}{27}$ of the questions correctly, what percentage of questions did they answer correctly, rounded to one decimal place?",
+      "choices": ["$59.0\\%$", "$59.3\\%$", "$59.6\\%$", "$59.9\\%$"],
+      "answer": "$59.3\\%$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "A construction project is $\\frac{19}{30}$ complete. What percentage of the project is complete, rounded to two decimal places?",
+      "choices": ["$63.00\\%$", "$63.17\\%$", "$63.33\\%$", "$63.50\\%$"],
+      "answer": "$63.33\\%$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "In a forest, $\\frac{22}{35}$ of the trees are deciduous. What percentage of trees are deciduous, rounded to one decimal place?",
+      "choices": ["$62.5\\%$", "$62.9\\%$", "$63.2\\%$", "$63.5\\%$"],
+      "answer": "$62.9\\%$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "A survey found that $\\frac{25}{39}$ of people prefer coffee over tea. What percentage of people prefer coffee, rounded to two decimal places?",
+      "choices": ["$64.00\\%$", "$64.10\\%$", "$64.20\\%$", "$64.30\\%$"],
+      "answer": "$64.10\\%$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "If a shirt is made of $\\frac{28}{41}$ cotton, what percentage of the shirt is not cotton, rounded to one decimal place?",
+      "choices": ["$31.7\\%$", "$32.1\\%$", "$32.5\\%$", "$32.9\\%$"],
+      "answer": "$31.7\\%$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "A certain material expands by $\\frac{31}{45}$ of its length when heated. What is this expansion as a percentage, rounded to two decimal places?",
+      "choices": ["$68.00\\%$", "$68.44\\%$", "$68.88\\%$", "$69.32\\%$"],
+      "answer": "$68.89\\%$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "A library has $\\frac{34}{47}$ fiction books. What percentage of books are fiction, rounded to one decimal place?",
+      "choices": ["$72.0\\%$", "$72.3\\%$", "$72.6\\%$", "$72.9\\%$"],
+      "answer": "$72.3\\%$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "If $\\frac{37}{50}$ of a battery's charge is used, what percentage of charge remains?",
+      "choices": ["$63\\%$", "$37\\%$", "$50\\%$", "$74\\%$"],
+      "answer": "$26\\%$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "In a class, $\\frac{40}{53}$ of students passed an exam. What percentage of students passed, rounded to two decimal places?",
+      "choices": ["$75.47\\%$", "$75.66\\%$", "$75.85\\%$", "$76.04\\%$"],
+      "answer": "$75.47\\%$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "A farmer planted $\\frac{43}{55}$ of his field with corn. What percentage of the field is planted with corn, rounded to one decimal place?",
+      "choices": ["$78.0\\%$", "$78.2\\%$", "$78.4\\%$", "$78.6\\%$"],
+      "answer": "$78.2\\%$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "If $\\frac{46}{59}$ of an inheritance was spent, what percentage of the inheritance is left, rounded to two decimal places?",
+      "choices": ["$22.03\\%$", "$22.20\\%$", "$22.37\\%$", "$22.54\\%$"],
+      "answer": "$22.03\\%$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "A recipe requires $\\frac{49}{60}$ of a cup of sugar. What percentage of a cup is this, rounded to one decimal place?",
+      "choices": ["$81.0\\%$", "$81.7\\%$", "$82.0\\%$", "$82.3\\%$"],
+      "answer": "$81.7\\%$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "A certain rock sample is $\\frac{52}{65}$ quartz. What is the percentage of quartz in the sample?",
+      "choices": ["$75\\%$", "$80\\%$", "$85\\%$", "$90\\%$"],
+      "answer": "$80\\%$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "If $\\frac{55}{68}$ of a bridge has been constructed, what percentage remains to be built, rounded to two decimal places?",
+      "choices": ["$19.12\\%$", "$19.30\\%$", "$19.48\\%$", "$19.66\\%$"],
+      "answer": "$19.12\\%$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "A company reported that $\\frac{58}{71}$ of its employees are satisfied. What percentage of employees are satisfied, rounded to one decimal place?",
+      "choices": ["$81.0\\%$", "$81.7\\%$", "$82.0\\%$", "$82.3\\%$"],
+      "answer": "$81.7\\%$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "A particular alloy is $\\frac{61}{74}$ aluminum. What percentage of the alloy is aluminum, rounded to two decimal places?",
+      "choices": ["$82.43\\%$", "$82.60\\%$", "$82.77\\%$", "$82.94\\%$"],
+      "answer": "$82.43\\%$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "If $\\frac{64}{77}$ of a tank is full, what percentage of the tank is empty, rounded to one decimal place?",
+      "choices": ["$16.9\\%$", "$17.0\\%$", "$17.2\\%$", "$17.4\\%$"],
+      "answer": "$16.9\\%$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "A fabric is $\\frac{67}{80}$ wool. What percentage of the fabric is wool?",
+      "choices": ["$83.5\\%$", "$83.75\\%$", "$84\\%$", "$84.25\\%$"],
+      "answer": "$83.75\\%$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "In a city, $\\frac{70}{83}$ of the population uses public transport. What percentage uses public transport, rounded to two decimal places?",
+      "choices": ["$84.34\\%$", "$84.50\\%$", "$84.66\\%$", "$84.82\\%$"],
+      "answer": "$84.34\\%$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "If $\\frac{73}{86}$ of an art collection has been appraised, what percentage still needs to be appraised, rounded to one decimal place?",
+      "choices": ["$14.8\\%$", "$15.1\\%$", "$15.4\\%$", "$15.7\\%$"],
+      "answer": "$15.1\\%$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "A certain species of tree makes up $\\frac{76}{89}$ of a forest. What percentage of the forest is this species, rounded to two decimal places?",
+      "choices": ["$85.00\\%$", "$85.39\\%$", "$85.78\\%$", "$86.17\\%$"],
+      "answer": "$85.39\\%$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "If $\\frac{79}{92}$ of an archaeological dig is complete, what percentage is left, rounded to one decimal place?",
+      "choices": ["$13.8\\%$", "$14.0\\%$", "$14.1\\%$", "$14.3\\%$"],
+      "answer": "$14.1\\%$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "A book contains $\\frac{82}{95}$ illustrations. What percentage of the book's content is illustrations, rounded to two decimal places?",
+      "choices": ["$86.00\\%$", "$86.32\\%$", "$86.64\\%$", "$86.96\\%$"],
+      "answer": "$86.32\\%$",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "If $\\frac{85}{98}$ of a painting has been restored, what percentage remains, rounded to one decimal place?",
+      "choices": ["$13.0\\%$", "$13.3\\%$", "$13.6\\%$", "$13.9\\%$"],
+      "answer": "$13.3\\%$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "A specific type of soil is $\\frac{88}{101}$ clay. What percentage of the soil is clay, rounded to two decimal places?",
+      "choices": ["$87.00\\%$", "$87.13\\%$", "$87.26\\%$", "$87.39\\%$"],
+      "answer": "$87.13\\%$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "If $\\frac{91}{104}$ of a bridge's deck is complete, what percentage is unfinished, rounded to one decimal place?",
+      "choices": ["$12.5\\%$", "$12.8\\%$", "$13.0\\%$", "$13.3\\%$"],
+      "answer": "$12.5\\%$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "A metal rod has $\\frac{94}{107}$ of its length submerged in water. What percentage of the rod is submerged, rounded to two decimal places?",
+      "choices": ["$87.00\\%$", "$87.85\\%$", "$88.00\\%$", "$88.13\\%$"],
+      "answer": "$87.85\\%$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "If $\\frac{97}{110}$ of a field is harvested, what percentage is not harvested, rounded to one decimal place?",
+      "choices": ["$11.8\\%$", "$12.0\\%$", "$12.3\\%$", "$12.5\\%$"],
+      "answer": "$11.8\\%$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "A certain population consists of $\\frac{100}{113}$ adults. What percentage of the population are adults, rounded to two decimal places?",
+      "choices": ["$88.00\\%$", "$88.50\\%$", "$88.66\\%$", "$88.83\\%$"],
+      "answer": "$88.50\\%$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "If $\\frac{103}{116}$ of a budget is allocated, what percentage remains, rounded to one decimal place?",
+      "choices": ["$11.0\\%$", "$11.2\\%$", "$11.5\\%$", "$11.8\\%$"],
+      "answer": "$11.2\\%$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "A recipe uses $\\frac{106}{119}$ of a pound of butter. What percentage of a pound is this, rounded to two decimal places?",
+      "choices": ["$89.00\\%$", "$89.08\\%$", "$89.24\\%$", "$89.40\\%$"],
+      "answer": "$89.08\\%$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "If $\\frac{109}{122}$ of a journey is by car, what percentage is by other means, rounded to one decimal place?",
+      "choices": ["$10.5\\%$", "$10.7\\%$", "$10.9\\%$", "$11.1\\%$"],
+      "answer": "$10.7\\%$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "A component is made of $\\frac{112}{125}$ steel. What percentage of the component is steel?",
+      "choices": ["$89.6\\%$", "$90.0\\%$", "$90.4\\%$", "$90.8\\%$"],
+      "answer": "$89.6\\%$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "If $\\frac{115}{128}$ of a survey received a positive response, what percentage received a negative response, rounded to two decimal places?",
+      "choices": ["$10.00\\%$", "$10.16\\%$", "$10.32\\%$", "$10.48\\%$"],
+      "answer": "$10.16\\%$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "A bottle contains $\\frac{118}{131}$ of its capacity filled with water. What percentage of its capacity is water, rounded to one decimal place?",
+      "choices": ["$90.0\\%$", "$90.1\\%$", "$90.3\\%$", "$90.5\\%$"],
+      "answer": "$90.1\\%$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "If $\\frac{121}{134}$ of a document has been translated, what percentage is pending translation, rounded to two decimal places?",
+      "choices": ["$9.00\\%$", "$9.32\\%$", "$9.50\\%$", "$9.68\\%$"],
+      "answer": "$9.69\\%$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "A certain type of wood is $\\frac{124}{137}$ oak. What percentage of the wood is oak, rounded to one decimal place?",
+      "choices": ["$90.0\\%$", "$90.5\\%$", "$90.6\\%$", "$90.8\\%$"],
+      "answer": "$90.5\\%$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "If $\\frac{127}{140}$ of a task is complete, what percentage is remaining, rounded to two decimal places?",
+      "choices": ["$9.00\\%$", "$9.29\\%$", "$9.43\\%$", "$9.57\\%$"],
+      "answer": "$9.29\\%$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "A pie is cut into $\\frac{5}{16}$ of its original size. What percentage of the pie is this, rounded to two decimal places?",
+      "choices": ["$31.25\\%$", "$32.50\\%$", "$33.75\\%$", "$35.00\\%$"],
+      "answer": "$31.25\\%$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "A company's profit decreased by $\\frac{2}{11}$ of its previous year's profit. What is this decrease as a percentage, rounded to one decimal place?",
+      "choices": ["$18.0\\%$", "$18.2\\%$", "$18.4\\%$", "$18.6\\%$"],
+      "answer": "$18.2\\%$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "A bag contains $\\frac{8}{23}$ red marbles. What percentage of the marbles are red, rounded to two decimal places?",
+      "choices": ["$34.00\\%$", "$34.78\\%$", "$35.56\\%$", "$36.34\\%$"],
+      "answer": "$34.78\\%$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "If $\\frac{10}{29}$ of a book has been read, what percentage is left to read, rounded to one decimal place?",
+      "choices": ["$64.9\\%$", "$65.2\\%$", "$65.5\\%$", "$65.8\\%$"],
+      "answer": "$65.5\\%$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "A student scored $\\frac{12}{31}$ on a test. What percentage did the student score, rounded to two decimal places?",
+      "choices": ["$38.71\\%$", "$39.00\\%$", "$39.29\\%$", "$39.58\\%$"],
+      "answer": "$38.71\\%$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "A complex chemical compound has a component that makes up $\\frac{123}{167}$ of its total mass. What is this component's percentage by mass, rounded to three decimal places?",
+      "choices": ["$73.650\\%$", "$73.653\\%$", "$73.656\\%$", "$73.659\\%$"],
+      "answer": "$73.653\\%$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "In a highly diverse ecosystem, a specific insect species accounts for $\\frac{87}{211}$ of the total insect population. What percentage is this, rounded to four decimal places?",
+      "choices": [
+        "$41.2322\\%$",
+        "$41.2325\\%$",
+        "$41.2327\\%$",
+        "$41.2329\\%$"
+      ],
+      "answer": "$41.2322\\%$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "A quantum physics experiment involves a particle that decays with a probability of $\\frac{1}{1024}$. Express this probability as a percentage, rounded to five decimal places.",
+      "choices": [
+        "$0.09765\\%$",
+        "$0.09766\\%$",
+        "$0.09767\\%$",
+        "$0.09768\\%$"
+      ],
+      "answer": "$0.09766\\%$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "A sophisticated algorithm processes data packets, with $\\frac{345}{789}$ of packets successfully transmitted. What percentage of packets failed transmission, rounded to three decimal places?",
+      "choices": ["$56.270\\%$", "$56.272\\%$", "$56.274\\%$", "$56.276\\%$"],
+      "answer": "$56.274\\%$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "In a specialized manufacturing process, $\\frac{501}{623}$ of products pass quality control. What percentage of products pass, rounded to four decimal places?",
+      "choices": [
+        "$80.4172\\%$",
+        "$80.4173\\%$",
+        "$80.4174\\%$",
+        "$80.4175\\%$"
+      ],
+      "answer": "$80.4173\\%$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "A genetically modified organism has $\\frac{17}{256}$ of its genes altered. What percentage of genes are unaltered, rounded to five decimal places?",
+      "choices": [
+        "$93.35938\\%$",
+        "$93.35940\\%$",
+        "$93.35942\\%$",
+        "$93.35944\\%$"
+      ],
+      "answer": "$93.35938\\%$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "An astronomical observation reveals that $\\frac{99}{300}$ of a star cluster consists of red giants. What percentage of the cluster are red giants?",
+      "choices": ["$33\\%$", "$33.3\\%$", "$33.67\\%$", "$34\\%$"],
+      "answer": "$33\\%$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "A geological sample contains $\\frac{721}{999}$ of a particular mineral. What is the percentage of this mineral, rounded to three decimal places?",
+      "choices": ["$72.170\\%$", "$72.172\\%$", "$72.174\\%$", "$72.176\\%$"],
+      "answer": "$72.172\\%$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "In a complex financial model, $\\frac{135}{472}$ of the investments are in high-risk assets. What percentage are in high-risk assets, rounded to four decimal places?",
+      "choices": [
+        "$28.5996\\%$",
+        "$28.5997\\%$",
+        "$28.5998\\%$",
+        "$28.5999\\%$"
+      ],
+      "answer": "$28.5996\\%$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "A pharmaceutical drug has an active ingredient that comprises $\\frac{2}{333}$ of its total weight. What percentage is this, rounded to five decimal places?",
+      "choices": [
+        "$0.60060\\%$",
+        "$0.60061\\%$",
+        "$0.60062\\%$",
+        "$0.60063\\%$"
+      ],
+      "answer": "$0.60060\\%$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "A cybersecurity system blocks $\\frac{891}{900}$ of incoming threats. What percentage of threats are blocked, rounded to two decimal places?",
+      "choices": ["$99.00\\%$", "$99.01\\%$", "$99.02\\%$", "$99.03\\%$"],
+      "answer": "$99.00\\%$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "A new energy source provides $\\frac{257}{365}$ of a city's power. What percentage of power is from this source, rounded to three decimal places?",
+      "choices": ["$70.410\\%$", "$70.411\\%$", "$70.412\\%$", "$70.413\\%$"],
+      "answer": "$70.411\\%$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "In a microchip, $\\frac{1}{1000}$ of the transistors are defective. What percentage are defective, rounded to two decimal places?",
+      "choices": ["$0.01\\%$", "$0.10\\%$", "$1.00\\%$", "$10.00\\%$"],
+      "answer": "$0.10\\%$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "A new material has a porosity of $\\frac{123}{456}$. What is its porosity as a percentage, rounded to four decimal places?",
+      "choices": [
+        "$26.9736\\%$",
+        "$26.9737\\%$",
+        "$26.9738\\%$",
+        "$26.9739\\%$"
+      ],
+      "answer": "$26.9737\\%$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "A specialized filter captures $\\frac{987}{1000}$ of pollutants. What percentage of pollutants are captured?",
+      "choices": ["$98.7\\%$", "$98.8\\%$", "$98.9\\%$", "$99.0\\%$"],
+      "answer": "$98.7\\%$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "A highly efficient engine converts $\\frac{5}{7}$ of its fuel's energy into motion. What percentage of energy is converted, rounded to three decimal places?",
+      "choices": ["$71.428\\%$", "$71.429\\%$", "$71.430\\%$", "$71.431\\%$"],
+      "answer": "$71.429\\%$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "A complex algorithm runs with $\\frac{1}{9}$ error rate. What is the success rate as a percentage, rounded to two decimal places?",
+      "choices": ["$88.88\\%$", "$88.89\\%$", "$88.90\\%$", "$88.91\\%$"],
+      "answer": "$88.89\\%$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "A space probe travels $\\frac{13}{19}$ of the distance to a far-off planet. What percentage of the distance remains, rounded to four decimal places?",
+      "choices": [
+        "$31.5789\\%$",
+        "$31.5790\\%$",
+        "$31.5791\\%$",
+        "$31.5792\\%$"
+      ],
+      "answer": "$31.5789\\%$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "A microscopic organism occupies $\\frac{1}{65536}$ of a cubic millimeter. What percentage of a cubic millimeter is this, rounded to six decimal places?",
+      "choices": [
+        "$0.001525\\%$",
+        "$0.001526\\%$",
+        "$0.001527\\%$",
+        "$0.001528\\%$"
+      ],
+      "answer": "$0.001526\\%$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "A new battery technology retains $\\frac{299}{300}$ of its charge overnight. What percentage of charge is lost, rounded to two decimal places?",
+      "choices": ["$0.33\\%$", "$0.34\\%$", "$0.35\\%$", "$0.36\\%$"],
+      "answer": "$0.33\\%$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "A data transmission protocol has a packet loss rate of $\\frac{1}{8192}$. What percentage of packets are successfully transmitted, rounded to five decimal places?",
+      "choices": [
+        "$99.98779\\%$",
+        "$99.98780\\%$",
+        "$99.98781\\%$",
+        "$99.98782\\%$"
+      ],
+      "answer": "$99.98780\\%$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "A rare isotope has a natural abundance of $\\frac{5}{100000}$. What is its abundance as a percentage, rounded to four decimal places?",
+      "choices": ["$0.0049\\%$", "$0.0050\\%$", "$0.0051\\%$", "$0.0052\\%$"],
+      "answer": "$0.0050\\%$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "A manufacturing defect occurs in $\\frac{3}{10000}$ of products. What percentage of products are defective, rounded to three decimal places?",
+      "choices": ["$0.029\\%$", "$0.030\\%$", "$0.031\\%$", "$0.032\\%$"],
+      "answer": "$0.030\\%$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "A supercomputer achieves a task with an efficiency of $\\frac{1599}{1600}$. What percentage efficiency is this, rounded to two decimal places?",
+      "choices": ["$99.93\\%$", "$99.94\\%$", "$99.95\\%$", "$99.96\\%$"],
+      "answer": "$99.94\\%$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "In a very large population, $\\frac{1}{1000000}$ of individuals have a specific rare genetic mutation. What is this as a percentage, rounded to six decimal places?",
+      "choices": [
+        "$0.000099\\%$",
+        "$0.000100\\%$",
+        "$0.000101\\%$",
+        "$0.000102\\%$"
+      ],
+      "answer": "$0.000100\\%$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "A financial investment yields a return of $\\frac{7}{1234}$. What is this return as a percentage, rounded to three decimal places?",
+      "choices": ["$0.567\\%$", "$0.568\\%$", "$0.569\\%$", "$0.570\\%$"],
+      "answer": "$0.567\\%$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "A highly precise measurement has an error margin of $\\frac{1}{20000}$. What is this error as a percentage, rounded to four decimal places?",
+      "choices": ["$0.0049\\%$", "$0.0050\\%$", "$0.0051\\%$", "$0.0052\\%$"],
+      "answer": "$0.0050\\%$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "In a vast digital network, $\\frac{1000}{1001}$ of data transmissions are successful. What percentage of transmissions fail, rounded to three decimal places?",
+      "choices": ["$0.099\\%$", "$0.100\\%$", "$0.101\\%$", "$0.102\\%$"],
+      "answer": "$0.099\\%$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "A microscopic sieve allows $\\frac{9999}{10000}$ of particles to pass through. What percentage of particles are blocked, rounded to two decimal places?",
+      "choices": ["$0.01\\%$", "$0.02\\%$", "$0.03\\%$", "$0.04\\%$"],
+      "answer": "$0.01\\%$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "A scientific instrument's precision is such that it has a measurement variation of $\\frac{1}{5000}$. What is this variation as a percentage, rounded to three decimal places?",
+      "choices": ["$0.019\\%$", "$0.020\\%$", "$0.021\\%$", "$0.022\\%$"],
+      "answer": "$0.020\\%$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "A new material is being developed, and its defect rate is $\\frac{1}{777}$. What percentage of this material is expected to be defect-free, rounded to four decimal places?",
+      "choices": [
+        "$99.8712\\%$",
+        "$99.8713\\%$",
+        "$99.8714\\%$",
+        "$99.8715\\%$"
+      ],
+      "answer": "$99.8713\\%$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "A complex system has $\\frac{1}{17}$ of its components requiring frequent maintenance. What percentage of components require frequent maintenance, rounded to two decimal places?",
+      "choices": ["$5.88\\%$", "$5.89\\%$", "$5.90\\%$", "$5.91\\%$"],
+      "answer": "$5.88\\%$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "A theoretical model predicts that $\\frac{3}{102}$ of a certain reaction will produce a byproduct. What percentage is this byproduct, rounded to three decimal places?",
+      "choices": ["$2.940\\%$", "$2.941\\%$", "$2.942\\%$", "$2.943\\%$"],
+      "answer": "$2.941\\%$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "In a highly controlled environment, $\\frac{1}{100000}$ of bacteria survive a sterilization process. What percentage of bacteria survive, rounded to five decimal places?",
+      "choices": [
+        "$0.00099\\%$",
+        "$0.00100\\%$",
+        "$0.00101\\%$",
+        "$0.00102\\%$"
+      ],
+      "answer": "$0.00100\\%$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "A super-efficient solar panel converts $\\frac{249}{250}$ of incident light into electricity. What percentage of light is converted?",
+      "choices": ["$99.0\\%$", "$99.2\\%$", "$99.4\\%$", "$99.6\\%$"],
+      "answer": "$99.6\\%$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "A rare element is found in $\\frac{1}{500000}$ of soil samples. What is its occurrence as a percentage, rounded to six decimal places?",
+      "choices": [
+        "$0.000199\\%$",
+        "$0.000200\\%$",
+        "$0.000201\\%$",
+        "$0.000202\\%$"
+      ],
+      "answer": "$0.000200\\%$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "A high-precision clock gains $\\frac{1}{86400}$ of a second per day. What is this gain as a percentage of a day, rounded to seven decimal places?",
+      "choices": [
+        "$0.0000011\\%$",
+        "$0.0000012\\%$",
+        "$0.0000013\\%$",
+        "$0.0000014\\%$"
+      ],
+      "answer": "$0.0000012\\%$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "A specialized sensor has a detection accuracy of $\\frac{999}{1000}$. What is its inaccuracy as a percentage, rounded to three decimal places?",
+      "choices": ["$0.099\\%$", "$0.100\\%$", "$0.101\\%$", "$0.102\\%$"],
+      "answer": "$0.100\\%$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "In a large-scale simulation, $\\frac{1}{365}$ of events occur on a specific day. What percentage of events occur on that day, rounded to two decimal places?",
+      "choices": ["$0.27\\%$", "$0.28\\%$", "$0.29\\%$", "$0.30\\%$"],
+      "answer": "$0.27\\%$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "A new material exhibits a $\\frac{1}{10000000}$ probability of failure. What is the success rate as a percentage, rounded to seven decimal places?",
+      "choices": [
+        "$99.999989\\%$",
+        "$99.999990\\%$",
+        "$99.999991\\%$",
+        "$99.999992\\%$"
+      ],
+      "answer": "$99.999990\\%$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "A complex network has a $\\frac{2}{3}$ uptime. What percentage of the time is it down, rounded to two decimal places?",
+      "choices": ["$33.33\\%$", "$33.34\\%$", "$33.35\\%$", "$33.36\\%$"],
+      "answer": "$33.33\\%$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "A scientific instrument's measurement is accurate to $\\frac{9999}{10000}$ of its full scale. What is its error percentage, rounded to three decimal places?",
+      "choices": ["$0.009\\%$", "$0.010\\%$", "$0.011\\%$", "$0.012\\%$"],
+      "answer": "$0.010\\%$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "A new generation of light bulb has a lifespan of $\\frac{1}{8}$ longer than its predecessor. What is this increase as a percentage?",
+      "choices": ["$12.5\\%$", "$15\\%$", "$18.5\\%$", "$20\\%$"],
+      "answer": "$12.5\\%$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "A highly specialized filter allows $\\frac{1}{12345}$ of impurities to pass. What percentage of impurities are filtered out, rounded to four decimal places?",
+      "choices": [
+        "$99.9918\\%$",
+        "$99.9919\\%$",
+        "$99.9920\\%$",
+        "$99.9921\\%$"
+      ],
+      "answer": "$99.9919\\%$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "A biological process has a success rate of $\\frac{4999}{5000}$. What is its failure rate as a percentage, rounded to three decimal places?",
+      "choices": ["$0.019\\%$", "$0.020\\%$", "$0.021\\%$", "$0.022\\%$"],
+      "answer": "$0.020\\%$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "A rare cosmic event occurs once every $\\frac{1}{987654321}$ years. What is the frequency as a percentage of a year, rounded to ten decimal places?",
+      "choices": [
+        "$0.0000000001\\%$",
+        "$0.0000000002\\%$",
+        "$0.0000000003\\%$",
+        "$0.0000000004\\%$"
+      ],
+      "answer": "$0.0000001013\\%$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "A subatomic particle has a lifetime of $\\frac{1}{10^{12}}$ seconds. What percentage of a second is this, rounded to twelve decimal places?",
+      "choices": [
+        "$0.0000000000001\\%$",
+        "$0.0000000000002\\%$",
+        "$0.0000000000003\\%$",
+        "$0.0000000000004\\%$"
+      ],
+      "answer": "$0.0000000001\\%$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "In a highly complex calculation, an approximation introduces an error of $\\frac{1}{1000000000}$. What is this error as a percentage, rounded to eight decimal places?",
+      "choices": [
+        "$0.00000009\\%$",
+        "$0.00000010\\%$",
+        "$0.00000011\\%$",
+        "$0.00000012\\%$"
+      ],
+      "answer": "$0.00000010\\%$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "A specialized material has a purity of $\\frac{999999}{1000000}$. What percentage is impure, rounded to five decimal places?",
+      "choices": [
+        "$0.00009\\%$",
+        "$0.00010\\%$",
+        "$0.00011\\%$",
+        "$0.00012\\%$"
+      ],
+      "answer": "$0.00010\\%$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "A communication channel experiences signal loss on $\\frac{1}{2^{20}}$ of its transmissions. What percentage of transmissions are lost, rounded to six decimal places?",
+      "choices": [
+        "$0.000095\\%$",
+        "$0.000096\\%$",
+        "$0.000097\\%$",
+        "$0.000098\\%$"
+      ],
+      "answer": "$0.000095\\%$",
+      "points": 30
+    }
+  ]
+}

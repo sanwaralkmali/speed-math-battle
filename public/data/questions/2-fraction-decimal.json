@@ -1,0 +1,2008 @@
+{
+  "title": "Fraction to Decimal Conversion",
+  "description": "Convert fractions to their equivalent decimal form.",
+  "waves": 5,
+  "timePerQuestion": 45,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{1}{2} \\text{ to a decimal.} $",
+      "choices": ["$ 0.2 $", "$ 0.5 $", "$ 1.2 $", "$ 2.0 $"],
+      "answer": "$ 0.5 $",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{1}{4} \\text{?} $",
+      "choices": ["$ 0.14 $", "$ 0.25 $", "$ 0.4 $", "$ 1.4 $"],
+      "answer": "$ 0.25 $",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{3}{4} \\text{ as a decimal.} $",
+      "choices": ["$ 0.34 $", "$ 0.75 $", "$ 3.4 $", "$ 0.65 $"],
+      "answer": "$ 0.75 $",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{1}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 0.15 $", "$ 0.5 $", "$ 0.2 $", "$ 5.1 $"],
+      "answer": "$ 0.2 $",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{1}{10} $",
+      "choices": ["$ 0.01 $", "$ 0.1 $", "$ 1.0 $", "$ 10.1 $"],
+      "answer": "$ 0.1 $",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{2}{5} \\text{ as a decimal?} $",
+      "choices": ["$ 0.25 $", "$ 0.4 $", "$ 0.52 $", "$ 2.5 $"],
+      "answer": "$ 0.4 $",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{3}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 0.3 $", "$ 0.13 $", "$ 3.0 $", "$ 10.3 $"],
+      "answer": "$ 0.3 $",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{1}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 0.125 $", "$ 0.8 $", "$ 0.18 $", "$ 1.8 $"],
+      "answer": "$ 0.125 $",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{2}{4} \\text{?} $",
+      "choices": ["$ 0.24 $", "$ 0.4 $", "$ 0.5 $", "$ 0.8 $"],
+      "answer": "$ 0.5 $",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{4}{5} $",
+      "choices": ["$ 0.45 $", "$ 0.54 $", "$ 0.8 $", "$ 4.5 $"],
+      "answer": "$ 0.8 $",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{2}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 0.2 $", "$ 0.12 $", "$ 2.0 $", "$ 10.2 $"],
+      "answer": "$ 0.2 $",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{5}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 0.5 $", "$ 0.15 $", "$ 5.0 $", "$ 10.5 $"],
+      "answer": "$ 0.5 $",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{1}{20} \\text{ as a decimal?} $",
+      "choices": ["$ 0.05 $", "$ 0.2 $", "$ 0.02 $", "$ 1.2 $"],
+      "answer": "$ 0.05 $",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{2}{8} \\text{ to a decimal.} $",
+      "choices": ["$ 0.28 $", "$ 0.25 $", "$ 0.82 $", "$ 2.8 $"],
+      "answer": "$ 0.25 $",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{6}{10} $",
+      "choices": ["$ 0.06 $", "$ 0.6 $", "$ 6.0 $", "$ 10.6 $"],
+      "answer": "$ 0.6 $",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{1}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 0.04 $", "$ 0.25 $", "$ 0.4 $", "$ 1.25 $"],
+      "answer": "$ 0.04 $",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{3}{5} \\text{?} $",
+      "choices": ["$ 0.35 $", "$ 0.53 $", "$ 0.6 $", "$ 3.5 $"],
+      "answer": "$ 0.6 $",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{7}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 0.7 $", "$ 0.17 $", "$ 7.0 $", "$ 10.7 $"],
+      "answer": "$ 0.7 $",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{4}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 0.04 $", "$ 0.4 $", "$ 4.0 $", "$ 10.4 $"],
+      "answer": "$ 0.4 $",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{9}{10} \\text{ as a decimal?} $",
+      "choices": ["$ 0.09 $", "$ 0.9 $", "$ 9.0 $", "$ 10.9 $"],
+      "answer": "$ 0.9 $",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{1}{50} \\text{ to a decimal.} $",
+      "choices": ["$ 0.02 $", "$ 0.2 $", "$ 0.05 $", "$ 1.5 $"],
+      "answer": "$ 0.02 $",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{3}{20} $",
+      "choices": ["$ 0.15 $", "$ 0.32 $", "$ 0.03 $", "$ 3.2 $"],
+      "answer": "$ 0.15 $",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{2}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 0.08 $", "$ 0.25 $", "$ 0.02 $", "$ 2.25 $"],
+      "answer": "$ 0.08 $",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{1}{2} \\text{?} $",
+      "choices": ["$ 0.12 $", "$ 0.2 $", "$ 0.5 $", "$ 1.2 $"],
+      "answer": "$ 0.5 $",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{3}{25} \\text{ to a decimal.} $",
+      "choices": ["$ 0.12 $", "$ 0.325 $", "$ 0.03 $", "$ 3.25 $"],
+      "answer": "$ 0.12 $",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{1}{4} $",
+      "choices": ["$ 0.14 $", "$ 0.25 $", "$ 0.4 $", "$ 1.4 $"],
+      "answer": "$ 0.25 $",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{2}{5} \\text{ as a decimal?} $",
+      "choices": ["$ 0.25 $", "$ 0.4 $", "$ 0.52 $", "$ 2.5 $"],
+      "answer": "$ 0.4 $",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{3}{4} \\text{ as a decimal.} $",
+      "choices": ["$ 0.34 $", "$ 0.75 $", "$ 3.4 $", "$ 0.65 $"],
+      "answer": "$ 0.75 $",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{1}{20} \\text{ to a decimal.} $",
+      "choices": ["$ 0.05 $", "$ 0.2 $", "$ 0.02 $", "$ 1.2 $"],
+      "answer": "$ 0.05 $",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{1}{10} $",
+      "choices": ["$ 0.01 $", "$ 0.1 $", "$ 1.0 $", "$ 10.1 $"],
+      "answer": "$ 0.1 $",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{3}{20} \\text{ as a decimal?} $",
+      "choices": ["$ 0.15 $", "$ 0.32 $", "$ 0.03 $", "$ 3.2 $"],
+      "answer": "$ 0.15 $",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{2}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 0.08 $", "$ 0.25 $", "$ 0.02 $", "$ 2.25 $"],
+      "answer": "$ 0.08 $",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{1}{50} \\text{ to a decimal.} $",
+      "choices": ["$ 0.02 $", "$ 0.2 $", "$ 0.05 $", "$ 1.5 $"],
+      "answer": "$ 0.02 $",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{3}{25} $",
+      "choices": ["$ 0.12 $", "$ 0.325 $", "$ 0.03 $", "$ 3.25 $"],
+      "answer": "$ 0.12 $",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{2}{4} \\text{?} $",
+      "choices": ["$ 0.24 $", "$ 0.4 $", "$ 0.5 $", "$ 0.8 $"],
+      "answer": "$ 0.5 $",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{4}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 0.04 $", "$ 0.4 $", "$ 4.0 $", "$ 10.4 $"],
+      "answer": "$ 0.4 $",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{6}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 0.06 $", "$ 0.6 $", "$ 6.0 $", "$ 10.6 $"],
+      "answer": "$ 0.6 $",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{9}{10} \\text{ as a decimal?} $",
+      "choices": ["$ 0.09 $", "$ 0.9 $", "$ 9.0 $", "$ 10.9 $"],
+      "answer": "$ 0.9 $",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{8}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 0.08 $", "$ 0.8 $", "$ 8.0 $", "$ 10.8 $"],
+      "answer": "$ 0.8 $",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{1}{2} $",
+      "choices": ["$ 0.2 $", "$ 0.5 $", "$ 1.2 $", "$ 2.0 $"],
+      "answer": "$ 0.5 $",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{1}{4} \\text{ as a decimal?} $",
+      "choices": ["$ 0.14 $", "$ 0.25 $", "$ 0.4 $", "$ 1.4 $"],
+      "answer": "$ 0.25 $",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{3}{5} \\text{ as a decimal.} $",
+      "choices": ["$ 0.35 $", "$ 0.53 $", "$ 0.6 $", "$ 3.5 $"],
+      "answer": "$ 0.6 $",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{1}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 0.15 $", "$ 0.5 $", "$ 0.2 $", "$ 5.1 $"],
+      "answer": "$ 0.2 $",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{2}{10} \\text{?} $",
+      "choices": ["$ 0.2 $", "$ 0.12 $", "$ 2.0 $", "$ 10.2 $"],
+      "answer": "$ 0.2 $",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{3}{10} $",
+      "choices": ["$ 0.3 $", "$ 0.13 $", "$ 3.0 $", "$ 10.3 $"],
+      "answer": "$ 0.3 $",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{1}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 0.125 $", "$ 0.8 $", "$ 0.18 $", "$ 1.8 $"],
+      "answer": "$ 0.125 $",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "$ \\text{Convert } \\frac{4}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 0.45 $", "$ 0.54 $", "$ 0.8 $", "$ 4.5 $"],
+      "answer": "$ 0.8 $",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "$ \\text{What is } \\frac{5}{10} \\text{ as a decimal?} $",
+      "choices": ["$ 0.5 $", "$ 0.15 $", "$ 5.0 $", "$ 10.5 $"],
+      "answer": "$ 0.5 $",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "$ \\text{Find the decimal form of } \\frac{7}{10} $",
+      "choices": ["$ 0.7 $", "$ 0.17 $", "$ 7.0 $", "$ 10.7 $"],
+      "answer": "$ 0.7 $",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "$ \\text{Express } \\frac{1}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 0.04 $", "$ 0.25 $", "$ 0.4 $", "$ 1.25 $"],
+      "answer": "$ 0.04 $",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "$ \\text{Convert } 1 \\frac{1}{2} \\text{ to a decimal.} $",
+      "choices": ["$ 1.2 $", "$ 1.5 $", "$ 0.5 $", "$ 2.1 $"],
+      "answer": "$ 1.5 $",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "$ \\text{What is the decimal equivalent of } 2 \\frac{1}{4} \\text{?} $",
+      "choices": ["$ 2.14 $", "$ 2.25 $", "$ 2.4 $", "$ 4.25 $"],
+      "answer": "$ 2.25 $",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "$ \\text{Express } 3 \\frac{3}{4} \\text{ as a decimal.} $",
+      "choices": ["$ 3.34 $", "$ 3.75 $", "$ 3.4 $", "$ 4.75 $"],
+      "answer": "$ 3.75 $",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "$ \\text{Convert } 4 \\frac{1}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 4.15 $", "$ 4.5 $", "$ 4.2 $", "$ 5.4 $"],
+      "answer": "$ 4.2 $",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 5 \\frac{1}{10} $",
+      "choices": ["$ 5.01 $", "$ 5.1 $", "$ 5.0 $", "$ 10.5 $"],
+      "answer": "$ 5.1 $",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "$ \\text{What is } 6 \\frac{2}{5} \\text{ as a decimal?} $",
+      "choices": ["$ 6.25 $", "$ 6.4 $", "$ 6.52 $", "$ 6.5 $"],
+      "answer": "$ 6.4 $",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "$ \\text{Convert } 7 \\frac{3}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 7.3 $", "$ 7.13 $", "$ 7.03 $", "$ 10.7 $"],
+      "answer": "$ 7.3 $",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "$ \\text{Express } 8 \\frac{1}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 8.125 $", "$ 8.8 $", "$ 8.18 $", "$ 8.08 $"],
+      "answer": "$ 8.125 $",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "$ \\text{What is the decimal equivalent of } 9 \\frac{2}{4} \\text{?} $",
+      "choices": ["$ 9.24 $", "$ 9.4 $", "$ 9.5 $", "$ 9.8 $"],
+      "answer": "$ 9.5 $",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 10 \\frac{4}{5} $",
+      "choices": ["$ 10.45 $", "$ 10.54 $", "$ 10.8 $", "$ 10.5 $"],
+      "answer": "$ 10.8 $",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "$ \\text{Convert } 11 \\frac{2}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 11.2 $", "$ 11.12 $", "$ 11.02 $", "$ 12.1 $"],
+      "answer": "$ 11.2 $",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "$ \\text{Express } 12 \\frac{5}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 12.5 $", "$ 12.15 $", "$ 12.05 $", "$ 12.0 $"],
+      "answer": "$ 12.5 $",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "$ \\text{What is } 13 \\frac{1}{20} \\text{ as a decimal?} $",
+      "choices": ["$ 13.05 $", "$ 13.2 $", "$ 13.02 $", "$ 13.12 $"],
+      "answer": "$ 13.05 $",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "$ \\text{Convert } 14 \\frac{2}{8} \\text{ to a decimal.} $",
+      "choices": ["$ 14.28 $", "$ 14.25 $", "$ 14.82 $", "$ 14.05 $"],
+      "answer": "$ 14.25 $",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 15 \\frac{6}{10} $",
+      "choices": ["$ 15.06 $", "$ 15.6 $", "$ 15.61 $", "$ 16.0 $"],
+      "answer": "$ 15.6 $",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "$ \\text{Express } 16 \\frac{1}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 16.04 $", "$ 16.25 $", "$ 16.4 $", "$ 16.125 $"],
+      "answer": "$ 16.04 $",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "$ \\text{What is the decimal equivalent of } 17 \\frac{3}{5} \\text{?} $",
+      "choices": ["$ 17.35 $", "$ 17.53 $", "$ 17.6 $", "$ 17.5 $"],
+      "answer": "$ 17.6 $",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "$ \\text{Convert } 18 \\frac{7}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 18.7 $", "$ 18.17 $", "$ 18.07 $", "$ 18.71 $"],
+      "answer": "$ 18.7 $",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "$ \\text{Express } 19 \\frac{4}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 19.04 $", "$ 19.4 $", "$ 19.41 $", "$ 20.4 $"],
+      "answer": "$ 19.4 $",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "$ \\text{What is } 20 \\frac{9}{10} \\text{ as a decimal?} $",
+      "choices": ["$ 20.09 $", "$ 20.9 $", "$ 20.91 $", "$ 21.0 $"],
+      "answer": "$ 20.9 $",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "$ \\text{Convert } 21 \\frac{1}{50} \\text{ to a decimal.} $",
+      "choices": ["$ 21.02 $", "$ 21.2 $", "$ 21.05 $", "$ 21.5 $"],
+      "answer": "$ 21.02 $",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 22 \\frac{3}{20} $",
+      "choices": ["$ 22.15 $", "$ 22.32 $", "$ 22.03 $", "$ 22.3 $"],
+      "answer": "$ 22.15 $",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "$ \\text{Express } 23 \\frac{2}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 23.08 $", "$ 23.25 $", "$ 23.02 $", "$ 23.2 $"],
+      "answer": "$ 23.08 $",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "$ \\text{What is the decimal equivalent of } 24 \\frac{1}{2} \\text{?} $",
+      "choices": ["$ 24.12 $", "$ 24.2 $", "$ 24.5 $", "$ 24.51 $"],
+      "answer": "$ 24.5 $",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "$ \\text{Convert } 25 \\frac{3}{25} \\text{ to a decimal.} $",
+      "choices": ["$ 25.12 $", "$ 25.325 $", "$ 25.03 $", "$ 25.3 $"],
+      "answer": "$ 25.12 $",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 26 \\frac{1}{4} $",
+      "choices": ["$ 26.14 $", "$ 26.25 $", "$ 26.4 $", "$ 26.5 $"],
+      "answer": "$ 26.25 $",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "$ \\text{What is } 27 \\frac{2}{5} \\text{ as a decimal?} $",
+      "choices": ["$ 27.25 $", "$ 27.4 $", "$ 27.52 $", "$ 27.5 $"],
+      "answer": "$ 27.4 $",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "$ \\text{Express } 28 \\frac{3}{4} \\text{ as a decimal.} $",
+      "choices": ["$ 28.34 $", "$ 28.75 $", "$ 28.4 $", "$ 28.65 $"],
+      "answer": "$ 28.75 $",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "$ \\text{Convert } 29 \\frac{1}{20} \\text{ to a decimal.} $",
+      "choices": ["$ 29.05 $", "$ 29.2 $", "$ 29.02 $", "$ 29.12 $"],
+      "answer": "$ 29.05 $",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 30 \\frac{1}{10} $",
+      "choices": ["$ 30.01 $", "$ 30.1 $", "$ 30.11 $", "$ 31.0 $"],
+      "answer": "$ 30.1 $",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "$ \\text{What is } 31 \\frac{3}{20} \\text{ as a decimal?} $",
+      "choices": ["$ 31.15 $", "$ 31.32 $", "$ 31.03 $", "$ 31.3 $"],
+      "answer": "$ 31.15 $",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "$ \\text{Express } 32 \\frac{2}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 32.08 $", "$ 32.25 $", "$ 32.02 $", "$ 32.2 $"],
+      "answer": "$ 32.08 $",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "$ \\text{Convert } 33 \\frac{1}{50} \\text{ to a decimal.} $",
+      "choices": ["$ 33.02 $", "$ 33.2 $", "$ 33.05 $", "$ 33.15 $"],
+      "answer": "$ 33.02 $",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 34 \\frac{3}{25} $",
+      "choices": ["$ 34.12 $", "$ 34.325 $", "$ 34.03 $", "$ 34.3 $"],
+      "answer": "$ 34.12 $",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "$ \\text{What is the decimal equivalent of } 35 \\frac{2}{4} \\text{?} $",
+      "choices": ["$ 35.24 $", "$ 35.4 $", "$ 35.5 $", "$ 35.8 $"],
+      "answer": "$ 35.5 $",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "$ \\text{Convert } 36 \\frac{4}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 36.04 $", "$ 36.4 $", "$ 36.41 $", "$ 37.0 $"],
+      "answer": "$ 36.4 $",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "$ \\text{Express } 37 \\frac{6}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 37.06 $", "$ 37.6 $", "$ 37.61 $", "$ 38.0 $"],
+      "answer": "$ 37.6 $",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "$ \\text{What is } 38 \\frac{9}{10} \\text{ as a decimal?} $",
+      "choices": ["$ 38.09 $", "$ 38.9 $", "$ 38.91 $", "$ 39.0 $"],
+      "answer": "$ 38.9 $",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "$ \\text{Convert } 39 \\frac{8}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 39.08 $", "$ 39.8 $", "$ 39.81 $", "$ 40.0 $"],
+      "answer": "$ 39.8 $",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 40 \\frac{1}{2} $",
+      "choices": ["$ 40.2 $", "$ 40.5 $", "$ 40.12 $", "$ 41.0 $"],
+      "answer": "$ 40.5 $",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "$ \\text{What is } 41 \\frac{1}{4} \\text{ as a decimal?} $",
+      "choices": ["$ 41.14 $", "$ 41.25 $", "$ 41.4 $", "$ 42.0 $"],
+      "answer": "$ 41.25 $",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "$ \\text{Express } 42 \\frac{3}{5} \\text{ as a decimal.} $",
+      "choices": ["$ 42.35 $", "$ 42.53 $", "$ 42.6 $", "$ 43.0 $"],
+      "answer": "$ 42.6 $",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "$ \\text{Convert } 43 \\frac{1}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 43.15 $", "$ 43.5 $", "$ 43.2 $", "$ 44.0 $"],
+      "answer": "$ 43.2 $",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "$ \\text{What is the decimal equivalent of } 44 \\frac{2}{10} \\text{?} $",
+      "choices": ["$ 44.2 $", "$ 44.12 $", "$ 44.02 $", "$ 45.0 $"],
+      "answer": "$ 44.2 $",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 45 \\frac{3}{10} $",
+      "choices": ["$ 45.3 $", "$ 45.13 $", "$ 45.03 $", "$ 46.0 $"],
+      "answer": "$ 45.3 $",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "$ \\text{Express } 46 \\frac{1}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 46.125 $", "$ 46.8 $", "$ 46.18 $", "$ 47.0 $"],
+      "answer": "$ 46.125 $",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "$ \\text{Convert } 47 \\frac{4}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 47.45 $", "$ 47.54 $", "$ 47.8 $", "$ 48.0 $"],
+      "answer": "$ 47.8 $",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "$ \\text{What is } 48 \\frac{5}{10} \\text{ as a decimal?} $",
+      "choices": ["$ 48.5 $", "$ 48.15 $", "$ 48.05 $", "$ 49.0 $"],
+      "answer": "$ 48.5 $",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "$ \\text{Find the decimal form of } 49 \\frac{7}{10} $",
+      "choices": ["$ 49.7 $", "$ 49.17 $", "$ 49.07 $", "$ 50.0 $"],
+      "answer": "$ 49.7 $",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "$ \\text{Express } 50 \\frac{1}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 50.04 $", "$ 50.25 $", "$ 50.4 $", "$ 51.0 $"],
+      "answer": "$ 50.04 $",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{3}{8} \\text{ to a decimal.} $",
+      "choices": ["$ 0.375 $", "$ 0.38 $", "$ 0.83 $", "$ 3.8 $"],
+      "answer": "$ 0.375 $",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{5}{8} \\text{?} $",
+      "choices": ["$ 0.58 $", "$ 0.625 $", "$ 0.85 $", "$ 5.8 $"],
+      "answer": "$ 0.625 $",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{7}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 0.78 $", "$ 0.875 $", "$ 0.75 $", "$ 7.8 $"],
+      "answer": "$ 0.875 $",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{2}{3} \\text{ to a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.666 $", "$ 0.667 $", "$ 0.23 $", "$ 0.333 $"],
+      "answer": "$ 0.667 $",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{1}{6} \\text{ (rounded to three decimal places).} $",
+      "choices": ["$ 0.166 $", "$ 0.167 $", "$ 0.616 $", "$ 1.66 $"],
+      "answer": "$ 0.167 $",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "$ \\text{What is } \\frac{5}{6} \\text{ as a decimal (rounded to three decimal places)?} $",
+      "choices": ["$ 0.833 $", "$ 0.834 $", "$ 0.56 $", "$ 0.65 $"],
+      "answer": "$ 0.833 $",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{1}{3} \\text{ to a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.33 $", "$ 0.333 $", "$ 0.334 $", "$ 1.33 $"],
+      "answer": "$ 0.333 $",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{4}{9} \\text{ as a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.44 $", "$ 0.45 $", "$ 0.49 $", "$ 0.4 $"],
+      "answer": "$ 0.44 $",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{5}{9} \\text{ (rounded to two decimal places)?} $",
+      "choices": ["$ 0.55 $", "$ 0.56 $", "$ 0.59 $", "$ 0.5 $"],
+      "answer": "$ 0.56 $",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{7}{9} \\text{ (rounded to three decimal places).} $",
+      "choices": ["$ 0.777 $", "$ 0.778 $", "$ 0.779 $", "$ 0.78 $"],
+      "answer": "$ 0.778 $",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{1}{11} \\text{ to a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.09 $", "$ 0.11 $", "$ 0.091 $", "$ 0.1 $"],
+      "answer": "$ 0.09 $",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{3}{11} \\text{ as a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.272 $", "$ 0.273 $", "$ 0.311 $", "$ 0.27 $"],
+      "answer": "$ 0.273 $",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "$ \\text{What is } \\frac{5}{11} \\text{ as a decimal (rounded to two decimal places)?} $",
+      "choices": ["$ 0.45 $", "$ 0.46 $", "$ 0.511 $", "$ 0.55 $"],
+      "answer": "$ 0.45 $",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{1}{12} \\text{ to a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.083 $", "$ 0.084 $", "$ 0.12 $", "$ 0.83 $"],
+      "answer": "$ 0.083 $",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{5}{12} \\text{ (rounded to three decimal places).} $",
+      "choices": ["$ 0.416 $", "$ 0.417 $", "$ 0.512 $", "$ 0.42 $"],
+      "answer": "$ 0.417 $",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "$ \\text{What is } \\frac{7}{12} \\text{ as a decimal (rounded to two decimal places)?} $",
+      "choices": ["$ 0.58 $", "$ 0.59 $", "$ 0.712 $", "$ 0.583 $"],
+      "answer": "$ 0.58 $",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{1}{15} \\text{ as a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.066 $", "$ 0.067 $", "$ 0.15 $", "$ 0.07 $"],
+      "answer": "$ 0.067 $",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{4}{15} \\text{ to a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.266 $", "$ 0.267 $", "$ 0.415 $", "$ 0.27 $"],
+      "answer": "$ 0.267 $",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{2}{9} \\text{ (rounded to three decimal places)?} $",
+      "choices": ["$ 0.222 $", "$ 0.223 $", "$ 0.29 $", "$ 0.22 $"],
+      "answer": "$ 0.222 $",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{8}{9} \\text{ (rounded to two decimal places).} $",
+      "choices": ["$ 0.88 $", "$ 0.89 $", "$ 0.899 $", "$ 0.8 $"],
+      "answer": "$ 0.89 $",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{1}{7} \\text{ as a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.142 $", "$ 0.143 $", "$ 0.17 $", "$ 0.14 $"],
+      "answer": "$ 0.143 $",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{2}{7} \\text{ to a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.28 $", "$ 0.29 $", "$ 0.27 $", "$ 0.285 $"],
+      "answer": "$ 0.29 $",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "$ \\text{What is } \\frac{3}{7} \\text{ as a decimal (rounded to three decimal places)?} $",
+      "choices": ["$ 0.428 $", "$ 0.429 $", "$ 0.37 $", "$ 0.43 $"],
+      "answer": "$ 0.429 $",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{4}{7} \\text{ (rounded to two decimal places).} $",
+      "choices": ["$ 0.57 $", "$ 0.58 $", "$ 0.47 $", "$ 0.571 $"],
+      "answer": "$ 0.57 $",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{5}{7} \\text{ as a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.714 $", "$ 0.715 $", "$ 0.57 $", "$ 0.71 $"],
+      "answer": "$ 0.714 $",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{6}{7} \\text{ to a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.85 $", "$ 0.86 $", "$ 0.67 $", "$ 0.857 $"],
+      "answer": "$ 0.86 $",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{1}{9} \\text{ (rounded to three decimal places)?} $",
+      "choices": ["$ 0.111 $", "$ 0.112 $", "$ 0.19 $", "$ 0.11 $"],
+      "answer": "$ 0.111 $",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{2}{6} \\text{ (rounded to two decimal places).} $",
+      "choices": ["$ 0.33 $", "$ 0.34 $", "$ 0.26 $", "$ 0.3 $"],
+      "answer": "$ 0.33 $",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{3}{6} \\text{ as a decimal.} $",
+      "choices": ["$ 0.36 $", "$ 0.5 $", "$ 0.63 $", "$ 3.6 $"],
+      "answer": "$ 0.5 $",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{4}{6} \\text{ to a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.666 $", "$ 0.667 $", "$ 0.46 $", "$ 0.67 $"],
+      "answer": "$ 0.667 $",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "$ \\text{What is } \\frac{1}{8} \\text{ as a decimal?} $",
+      "choices": ["$ 0.125 $", "$ 0.18 $", "$ 0.81 $", "$ 1.8 $"],
+      "answer": "$ 0.125 $",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{2}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 0.28 $", "$ 0.25 $", "$ 0.82 $", "$ 2.8 $"],
+      "answer": "$ 0.25 $",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{3}{8} \\text{ to a decimal.} $",
+      "choices": ["$ 0.375 $", "$ 0.38 $", "$ 0.83 $", "$ 3.8 $"],
+      "answer": "$ 0.375 $",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{4}{8} $",
+      "choices": ["$ 0.48 $", "$ 0.5 $", "$ 0.84 $", "$ 4.8 $"],
+      "answer": "$ 0.5 $",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{5}{8} \\text{?} $",
+      "choices": ["$ 0.58 $", "$ 0.625 $", "$ 0.85 $", "$ 5.8 $"],
+      "answer": "$ 0.625 $",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{6}{8} \\text{ to a decimal.} $",
+      "choices": ["$ 0.68 $", "$ 0.75 $", "$ 0.86 $", "$ 6.8 $"],
+      "answer": "$ 0.75 $",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{7}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 0.78 $", "$ 0.875 $", "$ 0.75 $", "$ 7.8 $"],
+      "answer": "$ 0.875 $",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "$ \\text{What is } \\frac{1}{6} \\text{ as a decimal (rounded to two decimal places)?} $",
+      "choices": ["$ 0.16 $", "$ 0.17 $", "$ 0.61 $", "$ 0.166 $"],
+      "answer": "$ 0.17 $",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{3}{6} $",
+      "choices": ["$ 0.36 $", "$ 0.5 $", "$ 0.63 $", "$ 3.6 $"],
+      "answer": "$ 0.5 $",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{5}{6} \\text{ as a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.83 $", "$ 0.84 $", "$ 0.56 $", "$ 0.833 $"],
+      "answer": "$ 0.83 $",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{1}{3} \\text{ to a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.33 $", "$ 0.34 $", "$ 0.13 $", "$ 0.3 $"],
+      "answer": "$ 0.33 $",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "$ \\text{What is } \\frac{2}{3} \\text{ as a decimal (rounded to three decimal places)?} $",
+      "choices": ["$ 0.666 $", "$ 0.667 $", "$ 0.23 $", "$ 0.66 $"],
+      "answer": "$ 0.667 $",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{1}{9} \\text{ as a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.11 $", "$ 0.12 $", "$ 0.19 $", "$ 0.1 $"],
+      "answer": "$ 0.11 $",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{4}{9} \\text{ to a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.444 $", "$ 0.445 $", "$ 0.49 $", "$ 0.44 $"],
+      "answer": "$ 0.444 $",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{2}{11} \\text{ (rounded to three decimal places)?} $",
+      "choices": ["$ 0.181 $", "$ 0.182 $", "$ 0.211 $", "$ 0.18 $"],
+      "answer": "$ 0.182 $",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{6}{11} \\text{ (rounded to two decimal places).} $",
+      "choices": ["$ 0.54 $", "$ 0.55 $", "$ 0.61 $", "$ 0.545 $"],
+      "answer": "$ 0.55 $",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "$ \\text{Express } \\frac{1}{12} \\text{ as a decimal (rounded to two decimal places).} $",
+      "choices": ["$ 0.08 $", "$ 0.09 $", "$ 0.12 $", "$ 0.83 $"],
+      "answer": "$ 0.08 $",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "$ \\text{Convert } \\frac{7}{12} \\text{ to a decimal (rounded to three decimal places).} $",
+      "choices": ["$ 0.583 $", "$ 0.584 $", "$ 0.712 $", "$ 0.58 $"],
+      "answer": "$ 0.583 $",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{2}{15} \\text{ (rounded to three decimal places)?} $",
+      "choices": ["$ 0.133 $", "$ 0.134 $", "$ 0.215 $", "$ 0.13 $"],
+      "answer": "$ 0.133 $",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "$ \\text{Find the decimal form of } \\frac{8}{15} \\text{ (rounded to two decimal places).} $",
+      "choices": ["$ 0.53 $", "$ 0.54 $", "$ 0.81 $", "$ 0.533 $"],
+      "answer": "$ 0.53 $",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "$ \\text{Convert } 2 \\frac{3}{16} \\text{ to a decimal.} $",
+      "choices": ["$ 2.1875 $", "$ 2.316 $", "$ 2.163 $", "$ 2.375 $"],
+      "answer": "$ 2.1875 $",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "$ \\text{What is the decimal equivalent of } 5 \\frac{7}{16} \\text{?} $",
+      "choices": ["$ 5.4375 $", "$ 5.716 $", "$ 5.625 $", "$ 5.5625 $"],
+      "answer": "$ 5.4375 $",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "$ \\text{Express } 10 \\frac{9}{16} \\text{ as a decimal.} $",
+      "choices": ["$ 10.916 $", "$ 10.5625 $", "$ 10.625 $", "$ 10.875 $"],
+      "answer": "$ 10.5625 $",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "$ \\text{Convert } 15 \\frac{1}{16} \\text{ to a decimal.} $",
+      "choices": ["$ 15.0625 $", "$ 15.116 $", "$ 15.161 $", "$ 15.125 $"],
+      "answer": "$ 15.0625 $",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 20 \\frac{13}{16} $",
+      "choices": ["$ 20.8125 $", "$ 20.1316 $", "$ 20.75 $", "$ 20.9375 $"],
+      "answer": "$ 20.8125 $",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "$ \\text{What is } 25 \\frac{15}{16} \\text{ as a decimal?} $",
+      "choices": ["$ 25.9375 $", "$ 25.1516 $", "$ 25.875 $", "$ 25.9 $"],
+      "answer": "$ 25.9375 $",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "$ \\text{Convert } 30 \\frac{1}{20} \\text{ to a decimal.} $",
+      "choices": ["$ 30.05 $", "$ 30.2 $", "$ 30.02 $", "$ 30.5 $"],
+      "answer": "$ 30.05 $",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "$ \\text{Express } 35 \\frac{7}{20} \\text{ as a decimal.} $",
+      "choices": ["$ 35.35 $", "$ 35.72 $", "$ 35.2 $", "$ 35.25 $"],
+      "answer": "$ 35.35 $",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "$ \\text{What is the decimal equivalent of } 40 \\frac{11}{20} \\text{?} $",
+      "choices": ["$ 40.55 $", "$ 40.112 $", "$ 40.115 $", "$ 40.45 $"],
+      "answer": "$ 40.55 $",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 45 \\frac{19}{20} $",
+      "choices": ["$ 45.95 $", "$ 45.192 $", "$ 45.85 $", "$ 45.9 $"],
+      "answer": "$ 45.95 $",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "$ \\text{Convert } 50 \\frac{1}{25} \\text{ to a decimal.} $",
+      "choices": ["$ 50.04 $", "$ 50.25 $", "$ 50.4 $", "$ 50.125 $"],
+      "answer": "$ 50.04 $",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "$ \\text{Express } 55 \\frac{7}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 55.28 $", "$ 55.725 $", "$ 55.7 $", "$ 55.25 $"],
+      "answer": "$ 55.28 $",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "$ \\text{What is } 60 \\frac{14}{25} \\text{ as a decimal?} $",
+      "choices": ["$ 60.56 $", "$ 60.142 $", "$ 60.4 $", "$ 60.6 $"],
+      "answer": "$ 60.56 $",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "$ \\text{Convert } 65 \\frac{23}{25} \\text{ to a decimal.} $",
+      "choices": ["$ 65.92 $", "$ 65.232 $", "$ 65.88 $", "$ 65.9 $"],
+      "answer": "$ 65.92 $",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 70 \\frac{3}{40} $",
+      "choices": ["$ 70.075 $", "$ 70.34 $", "$ 70.03 $", "$ 70.75 $"],
+      "answer": "$ 70.075 $",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "$ \\text{What is } 75 \\frac{7}{40} \\text{ as a decimal?} $",
+      "choices": ["$ 75.175 $", "$ 75.74 $", "$ 75.14 $", "$ 75.25 $"],
+      "answer": "$ 75.175 $",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "$ \\text{Express } 80 \\frac{13}{40} \\text{ as a decimal.} $",
+      "choices": ["$ 80.325 $", "$ 80.134 $", "$ 80.4 $", "$ 80.3 $"],
+      "answer": "$ 80.325 $",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "$ \\text{Convert } 85 \\frac{31}{40} \\text{ to a decimal.} $",
+      "choices": ["$ 85.775 $", "$ 85.314 $", "$ 85.75 $", "$ 85.7 $"],
+      "answer": "$ 85.775 $",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "$ \\text{What is the decimal equivalent of } 90 \\frac{1}{50} \\text{?} $",
+      "choices": ["$ 90.02 $", "$ 90.2 $", "$ 90.05 $", "$ 90.15 $"],
+      "answer": "$ 90.02 $",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 95 \\frac{17}{50} $",
+      "choices": ["$ 95.34 $", "$ 95.175 $", "$ 95.17 $", "$ 95.35 $"],
+      "answer": "$ 95.34 $",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "$ \\text{Express } 100 \\frac{37}{50} \\text{ as a decimal.} $",
+      "choices": ["$ 100.74 $", "$ 100.375 $", "$ 100.75 $", "$ 100.37 $"],
+      "answer": "$ 100.74 $",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "$ \\text{Convert } 105 \\frac{49}{50} \\text{ to a decimal.} $",
+      "choices": ["$ 105.98 $", "$ 105.495 $", "$ 105.9 $", "$ 105.99 $"],
+      "answer": "$ 105.98 $",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "$ \\text{What is } 110 \\frac{1}{8} \\text{ as a decimal?} $",
+      "choices": ["$ 110.125 $", "$ 110.18 $", "$ 110.8 $", "$ 110.1 $"],
+      "answer": "$ 110.125 $",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 115 \\frac{3}{8} $",
+      "choices": ["$ 115.375 $", "$ 115.38 $", "$ 115.3 $", "$ 115.4 $"],
+      "answer": "$ 115.375 $",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "$ \\text{Express } 120 \\frac{5}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 120.625 $", "$ 120.58 $", "$ 120.6 $", "$ 120.5 $"],
+      "answer": "$ 120.625 $",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "$ \\text{Convert } 125 \\frac{7}{8} \\text{ to a decimal.} $",
+      "choices": ["$ 125.875 $", "$ 125.78 $", "$ 125.75 $", "$ 125.8 $"],
+      "answer": "$ 125.875 $",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "$ \\text{What is the decimal equivalent of } 130 \\frac{1}{4} \\text{?} $",
+      "choices": ["$ 130.25 $", "$ 130.4 $", "$ 130.14 $", "$ 130.5 $"],
+      "answer": "$ 130.25 $",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 135 \\frac{3}{4} $",
+      "choices": ["$ 135.75 $", "$ 135.34 $", "$ 135.3 $", "$ 135.8 $"],
+      "answer": "$ 135.75 $",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "$ \\text{Express } 140 \\frac{1}{2} \\text{ as a decimal.} $",
+      "choices": ["$ 140.5 $", "$ 140.2 $", "$ 140.12 $", "$ 140.4 $"],
+      "answer": "$ 140.5 $",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "$ \\text{Convert } 145 \\frac{1}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 145.2 $", "$ 145.5 $", "$ 145.15 $", "$ 145.12 $"],
+      "answer": "$ 145.2 $",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "$ \\text{What is } 150 \\frac{2}{5} \\text{ as a decimal?} $",
+      "choices": ["$ 150.4 $", "$ 150.52 $", "$ 150.25 $", "$ 150.5 $"],
+      "answer": "$ 150.4 $",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 155 \\frac{3}{5} $",
+      "choices": ["$ 155.6 $", "$ 155.53 $", "$ 155.35 $", "$ 155.5 $"],
+      "answer": "$ 155.6 $",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "$ \\text{Express } 160 \\frac{4}{5} \\text{ as a decimal.} $",
+      "choices": ["$ 160.8 $", "$ 160.45 $", "$ 160.54 $", "$ 160.4 $"],
+      "answer": "$ 160.8 $",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "$ \\text{Convert } 165 \\frac{1}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 165.1 $", "$ 165.11 $", "$ 165.01 $", "$ 165.15 $"],
+      "answer": "$ 165.1 $",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "$ \\text{What is the decimal equivalent of } 170 \\frac{3}{10} \\text{?} $",
+      "choices": ["$ 170.3 $", "$ 170.13 $", "$ 170.03 $", "$ 170.31 $"],
+      "answer": "$ 170.3 $",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 175 \\frac{7}{10} $",
+      "choices": ["$ 175.7 $", "$ 175.17 $", "$ 175.07 $", "$ 175.71 $"],
+      "answer": "$ 175.7 $",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "$ \\text{Express } 180 \\frac{9}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 180.9 $", "$ 180.09 $", "$ 180.91 $", "$ 181.0 $"],
+      "answer": "$ 180.9 $",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "$ \\text{Convert } 185 \\frac{1}{2} \\text{ to a decimal.} $",
+      "choices": ["$ 185.5 $", "$ 185.2 $", "$ 185.12 $", "$ 185.4 $"],
+      "answer": "$ 185.5 $",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "$ \\text{What is } 190 \\frac{1}{4} \\text{ as a decimal?} $",
+      "choices": ["$ 190.25 $", "$ 190.4 $", "$ 190.14 $", "$ 190.5 $"],
+      "answer": "$ 190.25 $",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 195 \\frac{3}{4} $",
+      "choices": ["$ 195.75 $", "$ 195.34 $", "$ 195.3 $", "$ 195.8 $"],
+      "answer": "$ 195.75 $",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "$ \\text{Express } 200 \\frac{1}{5} \\text{ as a decimal.} $",
+      "choices": ["$ 200.2 $", "$ 200.5 $", "$ 200.15 $", "$ 200.12 $"],
+      "answer": "$ 200.2 $",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "$ \\text{Convert } 205 \\frac{2}{5} \\text{ to a decimal.} $",
+      "choices": ["$ 205.4 $", "$ 205.52 $", "$ 205.25 $", "$ 205.5 $"],
+      "answer": "$ 205.4 $",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "$ \\text{What is } 210 \\frac{3}{5} \\text{ as a decimal?} $",
+      "choices": ["$ 210.6 $", "$ 210.53 $", "$ 210.35 $", "$ 210.5 $"],
+      "answer": "$ 210.6 $",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 215 \\frac{4}{5} $",
+      "choices": ["$ 215.8 $", "$ 215.45 $", "$ 215.54 $", "$ 215.4 $"],
+      "answer": "$ 215.8 $",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "$ \\text{Express } 220 \\frac{1}{10} \\text{ as a decimal.} $",
+      "choices": ["$ 220.1 $", "$ 220.11 $", "$ 220.01 $", "$ 220.15 $"],
+      "answer": "$ 220.1 $",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "$ \\text{Convert } 225 \\frac{3}{10} \\text{ to a decimal.} $",
+      "choices": ["$ 225.3 $", "$ 225.13 $", "$ 225.03 $", "$ 225.31 $"],
+      "answer": "$ 225.3 $",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "$ \\text{What is the decimal equivalent of } 230 \\frac{7}{10} \\text{?} $",
+      "choices": ["$ 230.7 $", "$ 230.17 $", "$ 230.07 $", "$ 230.71 $"],
+      "answer": "$ 230.7 $",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "$ \\text{Find the decimal form of } 235 \\frac{9}{10} $",
+      "choices": ["$ 235.9 $", "$ 235.09 $", "$ 235.91 $", "$ 236.0 $"],
+      "answer": "$ 235.9 $",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "$ \\text{Express } 240 \\frac{1}{8} \\text{ as a decimal.} $",
+      "choices": ["$ 240.125 $", "$ 240.18 $", "$ 240.8 $", "$ 240.1 $"],
+      "answer": "$ 240.125 $",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "$ \\text{Convert } 245 \\frac{3}{8} \\text{ to a decimal.} $",
+      "choices": ["$ 245.375 $", "$ 245.38 $", "$ 245.3 $", "$ 245.4 $"],
+      "answer": "$ 245.375 $",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{1}{3} \\text{ to a decimal, rounded to the nearest thousandth.} $",
+      "choices": ["$ 0.33 $", "$ 0.333 $", "$ 0.334 $", "$ 0.3 $"],
+      "answer": "$ 0.333 $",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{2}{3} \\text{, rounded to the nearest thousandth?} $",
+      "choices": ["$ 0.666 $", "$ 0.667 $", "$ 0.67 $", "$ 0.66 $"],
+      "answer": "$ 0.667 $",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{1}{6} \\text{ as a decimal, rounded to four decimal places.} $",
+      "choices": ["$ 0.1666 $", "$ 0.1667 $", "$ 0.167 $", "$ 0.16 $"],
+      "answer": "$ 0.1667 $",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{5}{6} \\text{ to a decimal, rounded to five decimal places.} $",
+      "choices": ["$ 0.83333 $", "$ 0.83334 $", "$ 0.8333 $", "$ 0.8334 $"],
+      "answer": "$ 0.83333 $",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{1}{7} \\text{, rounded to four decimal places?} $",
+      "choices": ["$ 0.1428 $", "$ 0.1429 $", "$ 0.143 $", "$ 0.142 $"],
+      "answer": "$ 0.1429 $",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{3}{7} \\text{ as a decimal, rounded to three decimal places.} $",
+      "choices": ["$ 0.428 $", "$ 0.429 $", "$ 0.43 $", "$ 0.42 $"],
+      "answer": "$ 0.429 $",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{5}{7} \\text{ to a decimal, rounded to five decimal places.} $",
+      "choices": ["$ 0.71428 $", "$ 0.71429 $", "$ 0.7143 $", "$ 0.714 $"],
+      "answer": "$ 0.71429 $",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{1}{9} \\text{, rounded to three decimal places?} $",
+      "choices": ["$ 0.111 $", "$ 0.112 $", "$ 0.11 $", "$ 0.12 $"],
+      "answer": "$ 0.111 $",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{4}{9} \\text{, rounded to four decimal places.} $",
+      "choices": ["$ 0.4444 $", "$ 0.4445 $", "$ 0.444 $", "$ 0.4446 $"],
+      "answer": "$ 0.4444 $",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{7}{9} \\text{ as a decimal, rounded to five decimal places.} $",
+      "choices": ["$ 0.77777 $", "$ 0.77778 $", "$ 0.7778 $", "$ 0.7777 $"],
+      "answer": "$ 0.77778 $",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{1}{11} \\text{ to a decimal, rounded to three decimal places.} $",
+      "choices": ["$ 0.09 $", "$ 0.091 $", "$ 0.090 $", "$ 0.092 $"],
+      "answer": "$ 0.091 $",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{3}{11} \\text{, rounded to four decimal places?} $",
+      "choices": ["$ 0.2727 $", "$ 0.2728 $", "$ 0.273 $", "$ 0.272 $"],
+      "answer": "$ 0.2727 $",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{5}{11} \\text{ as a decimal, rounded to five decimal places.} $",
+      "choices": ["$ 0.45454 $", "$ 0.45455 $", "$ 0.4546 $", "$ 0.4545 $"],
+      "answer": "$ 0.45455 $",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{1}{12} \\text{ to a decimal, rounded to four decimal places.} $",
+      "choices": ["$ 0.0833 $", "$ 0.0834 $", "$ 0.083 $", "$ 0.08 $"],
+      "answer": "$ 0.0833 $",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{5}{12} \\text{, rounded to three decimal places?} $",
+      "choices": ["$ 0.416 $", "$ 0.417 $", "$ 0.41 $", "$ 0.42 $"],
+      "answer": "$ 0.417 $",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{7}{12} \\text{ as a decimal, rounded to five decimal places.} $",
+      "choices": ["$ 0.58333 $", "$ 0.58334 $", "$ 0.5834 $", "$ 0.5833 $"],
+      "answer": "$ 0.58333 $",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{1}{15} \\text{ to a decimal, rounded to three decimal places.} $",
+      "choices": ["$ 0.066 $", "$ 0.067 $", "$ 0.07 $", "$ 0.06 $"],
+      "answer": "$ 0.067 $",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{4}{15} \\text{, rounded to four decimal places?} $",
+      "choices": ["$ 0.2666 $", "$ 0.2667 $", "$ 0.267 $", "$ 0.26 $"],
+      "answer": "$ 0.2667 $",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{8}{15} \\text{, rounded to five decimal places.} $",
+      "choices": ["$ 0.53333 $", "$ 0.53334 $", "$ 0.5334 $", "$ 0.5333 $"],
+      "answer": "$ 0.53333 $",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{1}{13} \\text{ as a decimal, rounded to three decimal places.} $",
+      "choices": ["$ 0.076 $", "$ 0.077 $", "$ 0.07 $", "$ 0.08 $"],
+      "answer": "$ 0.077 $",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{2}{13} \\text{ to a decimal, rounded to four decimal places.} $",
+      "choices": ["$ 0.1538 $", "$ 0.1539 $", "$ 0.154 $", "$ 0.153 $"],
+      "answer": "$ 0.1538 $",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{4}{13} \\text{, rounded to five decimal places?} $",
+      "choices": ["$ 0.30769 $", "$ 0.3077 $", "$ 0.3076 $", "$ 0.30770 $"],
+      "answer": "$ 0.30769 $",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{1}{14} \\text{ as a decimal, rounded to three decimal places.} $",
+      "choices": ["$ 0.071 $", "$ 0.0714 $", "$ 0.072 $", "$ 0.07 $"],
+      "answer": "$ 0.071 $",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{3}{14} \\text{ to a decimal, rounded to four decimal places.} $",
+      "choices": ["$ 0.2142 $", "$ 0.2143 $", "$ 0.214 $", "$ 0.21 $"],
+      "answer": "$ 0.2143 $",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{5}{14} \\text{, rounded to five decimal places?} $",
+      "choices": ["$ 0.35714 $", "$ 0.35715 $", "$ 0.3571 $", "$ 0.3572 $"],
+      "answer": "$ 0.35714 $",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{1}{16} $",
+      "choices": ["$ 0.0625 $", "$ 0.16 $", "$ 0.06 $", "$ 0.161 $"],
+      "answer": "$ 0.0625 $",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{5}{16} \\text{ as a decimal.} $",
+      "choices": ["$ 0.3125 $", "$ 0.516 $", "$ 0.312 $", "$ 0.31 $"],
+      "answer": "$ 0.3125 $",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{9}{16} \\text{ to a decimal.} $",
+      "choices": ["$ 0.5625 $", "$ 0.916 $", "$ 0.563 $", "$ 0.56 $"],
+      "answer": "$ 0.5625 $",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{13}{16} \\text{?} $",
+      "choices": ["$ 0.8125 $", "$ 0.1316 $", "$ 0.81 $", "$ 0.813 $"],
+      "answer": "$ 0.8125 $",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{15}{16} $",
+      "choices": ["$ 0.9375 $", "$ 0.1516 $", "$ 0.938 $", "$ 0.93 $"],
+      "answer": "$ 0.9375 $",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{1}{20} \\text{ as a decimal.} $",
+      "choices": ["$ 0.05 $", "$ 0.2 $", "$ 0.02 $", "$ 0.5 $"],
+      "answer": "$ 0.05 $",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{3}{20} \\text{ to a decimal.} $",
+      "choices": ["$ 0.15 $", "$ 0.32 $", "$ 0.03 $", "$ 0.3 $"],
+      "answer": "$ 0.15 $",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "$ \\text{What is } \\frac{7}{20} \\text{ as a decimal?} $",
+      "choices": ["$ 0.35 $", "$ 0.72 $", "$ 0.2 $", "$ 0.7 $"],
+      "answer": "$ 0.35 $",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{9}{20} $",
+      "choices": ["$ 0.45 $", "$ 0.92 $", "$ 0.9 $", "$ 0.2 $"],
+      "answer": "$ 0.45 $",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{11}{20} \\text{ as a decimal.} $",
+      "choices": ["$ 0.55 $", "$ 0.112 $", "$ 0.11 $", "$ 0.5 $"],
+      "answer": "$ 0.55 $",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{13}{20} \\text{ to a decimal.} $",
+      "choices": ["$ 0.65 $", "$ 0.132 $", "$ 0.6 $", "$ 0.5 $"],
+      "answer": "$ 0.65 $",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{17}{20} \\text{?} $",
+      "choices": ["$ 0.85 $", "$ 0.172 $", "$ 0.8 $", "$ 0.9 $"],
+      "answer": "$ 0.85 $",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{19}{20} $",
+      "choices": ["$ 0.95 $", "$ 0.192 $", "$ 0.9 $", "$ 0.8 $"],
+      "answer": "$ 0.95 $",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{1}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 0.04 $", "$ 0.25 $", "$ 0.4 $", "$ 0.02 $"],
+      "answer": "$ 0.04 $",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{3}{25} \\text{ to a decimal.} $",
+      "choices": ["$ 0.12 $", "$ 0.325 $", "$ 0.03 $", "$ 0.1 $"],
+      "answer": "$ 0.12 $",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "$ \\text{What is } \\frac{7}{25} \\text{ as a decimal?} $",
+      "choices": ["$ 0.28 $", "$ 0.725 $", "$ 0.7 $", "$ 0.3 $"],
+      "answer": "$ 0.28 $",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{9}{25} $",
+      "choices": ["$ 0.36 $", "$ 0.925 $", "$ 0.3 $", "$ 0.4 $"],
+      "answer": "$ 0.36 $",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{11}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 0.44 $", "$ 0.112 $", "$ 0.4 $", "$ 0.5 $"],
+      "answer": "$ 0.44 $",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{13}{25} \\text{ to a decimal.} $",
+      "choices": ["$ 0.52 $", "$ 0.132 $", "$ 0.5 $", "$ 0.6 $"],
+      "answer": "$ 0.52 $",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{17}{25} \\text{?} $",
+      "choices": ["$ 0.68 $", "$ 0.172 $", "$ 0.6 $", "$ 0.7 $"],
+      "answer": "$ 0.68 $",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{19}{25} $",
+      "choices": ["$ 0.76 $", "$ 0.192 $", "$ 0.7 $", "$ 0.8 $"],
+      "answer": "$ 0.76 $",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "$ \\text{Express } \\frac{21}{25} \\text{ as a decimal.} $",
+      "choices": ["$ 0.84 $", "$ 0.212 $", "$ 0.8 $", "$ 0.9 $"],
+      "answer": "$ 0.84 $",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "$ \\text{Convert } \\frac{23}{25} \\text{ to a decimal.} $",
+      "choices": ["$ 0.92 $", "$ 0.232 $", "$ 0.9 $", "$ 0.95 $"],
+      "answer": "$ 0.92 $",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "$ \\text{What is the decimal equivalent of } \\frac{49}{50} \\text{?} $",
+      "choices": ["$ 0.98 $", "$ 0.495 $", "$ 0.9 $", "$ 0.89 $"],
+      "answer": "$ 0.98 $",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "$ \\text{Find the decimal form of } \\frac{3}{40} $",
+      "choices": ["$ 0.075 $", "$ 0.34 $", "$ 0.03 $", "$ 0.75 $"],
+      "answer": "$ 0.075 $",
+      "points": 30
+    }
+  ]
+}

@@ -1,0 +1,2028 @@
+{
+  "title": "Greatest Common Factor (GCF) Challenge",
+  "description": "Find the greatest common factor for pairs and sets of numbers.",
+  "waves": 5,
+  "timePerQuestion": 45,
+  "questions": [
+    {
+      "id": 1,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 6 \\text{ and } 9$",
+      "choices": ["$1$", "$2$", "$3$", "$6$"],
+      "answer": "$3$",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 4 \\text{ and } 8$",
+      "choices": ["$1$", "$2$", "$4$", "$8$"],
+      "answer": "$4$",
+      "points": 10
+    },
+    {
+      "id": 3,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 10 \\text{ and } 15$",
+      "choices": ["$1$", "$2$", "$5$", "$10$"],
+      "answer": "$5$",
+      "points": 10
+    },
+    {
+      "id": 4,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 7 \\text{ and } 14$",
+      "choices": ["$1$", "$2$", "$7$", "$14$"],
+      "answer": "$7$",
+      "points": 10
+    },
+    {
+      "id": 5,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 12 \\text{ and } 18$",
+      "choices": ["$2$", "$3$", "$6$", "$9$"],
+      "answer": "$6$",
+      "points": 10
+    },
+    {
+      "id": 6,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 8 \\text{ and } 12$",
+      "choices": ["$2$", "$4$", "$6$", "$8$"],
+      "answer": "$4$",
+      "points": 10
+    },
+    {
+      "id": 7,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 5 \\text{ and } 10$",
+      "choices": ["$1$", "$2$", "$5$", "$10$"],
+      "answer": "$5$",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 9 \\text{ and } 12$",
+      "choices": ["$1$", "$3$", "$6$", "$9$"],
+      "answer": "$3$",
+      "points": 10
+    },
+    {
+      "id": 9,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 14 \\text{ and } 21$",
+      "choices": ["$2$", "$7$", "$14$", "$3$"],
+      "answer": "$7$",
+      "points": 10
+    },
+    {
+      "id": 10,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 16 \\text{ and } 20$",
+      "choices": ["$2$", "$4$", "$8$", "$10$"],
+      "answer": "$4$",
+      "points": 10
+    },
+    {
+      "id": 11,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 3 \\text{ and } 6$",
+      "choices": ["$1$", "$2$", "$3$", "$6$"],
+      "answer": "$3$",
+      "points": 10
+    },
+    {
+      "id": 12,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 15 \\text{ and } 20$",
+      "choices": ["$1$", "$3$", "$5$", "$10$"],
+      "answer": "$5$",
+      "points": 10
+    },
+    {
+      "id": 13,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 18 \\text{ and } 24$",
+      "choices": ["$2$", "$3$", "$6$", "$9$"],
+      "answer": "$6$",
+      "points": 10
+    },
+    {
+      "id": 14,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 20 \\text{ and } 25$",
+      "choices": ["$1$", "$2$", "$5$", "$10$"],
+      "answer": "$5$",
+      "points": 10
+    },
+    {
+      "id": 15,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 21 \\text{ and } 28$",
+      "choices": ["$3$", "$7$", "$14$", "$21$"],
+      "answer": "$7$",
+      "points": 10
+    },
+    {
+      "id": 16,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 24 \\text{ and } 30$",
+      "choices": ["$2$", "$3$", "$6$", "$12$"],
+      "answer": "$6$",
+      "points": 10
+    },
+    {
+      "id": 17,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 25 \\text{ and } 30$",
+      "choices": ["$1$", "$2$", "$5$", "$10$"],
+      "answer": "$5$",
+      "points": 10
+    },
+    {
+      "id": 18,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 27 \\text{ and } 36$",
+      "choices": ["$3$", "$9$", "$18$", "$27$"],
+      "answer": "$9$",
+      "points": 10
+    },
+    {
+      "id": 19,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 28 \\text{ and } 35$",
+      "choices": ["$2$", "$4$", "$7$", "$14$"],
+      "answer": "$7$",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 32 \\text{ and } 40$",
+      "choices": ["$2$", "$4$", "$8$", "$16$"],
+      "answer": "$8$",
+      "points": 10
+    },
+    {
+      "id": 21,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 35 \\text{ and } 42$",
+      "choices": ["$5$", "$7$", "$14$", "$21$"],
+      "answer": "$7$",
+      "points": 10
+    },
+    {
+      "id": 22,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 36 \\text{ and } 45$",
+      "choices": ["$3$", "$6$", "$9$", "$12$"],
+      "answer": "$9$",
+      "points": 10
+    },
+    {
+      "id": 23,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 40 \\text{ and } 50$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 24,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 42 \\text{ and } 49$",
+      "choices": ["$2$", "$7$", "$14$", "$21$"],
+      "answer": "$7$",
+      "points": 10
+    },
+    {
+      "id": 25,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 45 \\text{ and } 54$",
+      "choices": ["$3$", "$5$", "$9$", "$15$"],
+      "answer": "$9$",
+      "points": 10
+    },
+    {
+      "id": 26,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 48 \\text{ and } 56$",
+      "choices": ["$2$", "$4$", "$8$", "$16$"],
+      "answer": "$8$",
+      "points": 10
+    },
+    {
+      "id": 27,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 50 \\text{ and } 60$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 28,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 54 \\text{ and } 63$",
+      "choices": ["$3$", "$6$", "$9$", "$18$"],
+      "answer": "$9$",
+      "points": 10
+    },
+    {
+      "id": 29,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 56 \\text{ and } 64$",
+      "choices": ["$2$", "$4$", "$8$", "$16$"],
+      "answer": "$8$",
+      "points": 10
+    },
+    {
+      "id": 30,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 63 \\text{ and } 72$",
+      "choices": ["$3$", "$7$", "$9$", "$21$"],
+      "answer": "$9$",
+      "points": 10
+    },
+    {
+      "id": 31,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 64 \\text{ and } 72$",
+      "choices": ["$2$", "$4$", "$8$", "$16$"],
+      "answer": "$8$",
+      "points": 10
+    },
+    {
+      "id": 32,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 70 \\text{ and } 80$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 33,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 72 \\text{ and } 81$",
+      "choices": ["$3$", "$6$", "$9$", "$18$"],
+      "answer": "$9$",
+      "points": 10
+    },
+    {
+      "id": 34,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 75 \\text{ and } 90$",
+      "choices": ["$3$", "$5$", "$15$", "$25$"],
+      "answer": "$15$",
+      "points": 10
+    },
+    {
+      "id": 35,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 80 \\text{ and } 90$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 36,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 81 \\text{ and } 90$",
+      "choices": ["$3$", "$9$", "$18$", "$27$"],
+      "answer": "$9$",
+      "points": 10
+    },
+    {
+      "id": 37,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 84 \\text{ and } 96$",
+      "choices": ["$2$", "$4$", "$12$", "$14$"],
+      "answer": "$12$",
+      "points": 10
+    },
+    {
+      "id": 38,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 90 \\text{ and } 100$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 39,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 96 \\text{ and } 108$",
+      "choices": ["$2$", "$4$", "$12$", "$16$"],
+      "answer": "$12$",
+      "points": 10
+    },
+    {
+      "id": 40,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 100 \\text{ and } 110$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 41,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 108 \\text{ and } 120$",
+      "choices": ["$2$", "$4$", "$12$", "$18$"],
+      "answer": "$12$",
+      "points": 10
+    },
+    {
+      "id": 42,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 110 \\text{ and } 121$",
+      "choices": ["$1$", "$2$", "$11$", "$22$"],
+      "answer": "$11$",
+      "points": 10
+    },
+    {
+      "id": 43,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 120 \\text{ and } 130$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 10
+    },
+    {
+      "id": 44,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 125 \\text{ and } 150$",
+      "choices": ["$5$", "$10$", "$25$", "$50$"],
+      "answer": "$25$",
+      "points": 10
+    },
+    {
+      "id": 45,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 132 \\text{ and } 144$",
+      "choices": ["$2$", "$4$", "$12$", "$24$"],
+      "answer": "$12$",
+      "points": 10
+    },
+    {
+      "id": 46,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 140 \\text{ and } 160$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$20$",
+      "points": 10
+    },
+    {
+      "id": 47,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 150 \\text{ and } 175$",
+      "choices": ["$5$", "$10$", "$25$", "$50$"],
+      "answer": "$25$",
+      "points": 10
+    },
+    {
+      "id": 48,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 168 \\text{ and } 180$",
+      "choices": ["$2$", "$4$", "$12$", "$24$"],
+      "answer": "$12$",
+      "points": 10
+    },
+    {
+      "id": 49,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 175 \\text{ and } 200$",
+      "choices": ["$5$", "$10$", "$25$", "$50$"],
+      "answer": "$25$",
+      "points": 10
+    },
+    {
+      "id": 50,
+      "wave": 1,
+      "question": "$\\text{Find the GCF of } 192 \\text{ and } 216$",
+      "choices": ["$2$", "$4$", "$24$", "$48$"],
+      "answer": "$24$",
+      "points": 10
+    },
+    {
+      "id": 51,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 12, 18 \\text{ and } 24$",
+      "choices": ["$2$", "$3$", "$6$", "$12$"],
+      "answer": "$6$",
+      "points": 15
+    },
+    {
+      "id": 52,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 15, 20 \\text{ and } 25$",
+      "choices": ["$1$", "$3$", "$5$", "$10$"],
+      "answer": "$5$",
+      "points": 15
+    },
+    {
+      "id": 53,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 16, 24 \\text{ and } 32$",
+      "choices": ["$2$", "$4$", "$8$", "$16$"],
+      "answer": "$8$",
+      "points": 15
+    },
+    {
+      "id": 54,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 20, 30 \\text{ and } 40$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 15
+    },
+    {
+      "id": 55,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 21, 28 \\text{ and } 35$",
+      "choices": ["$3$", "$7$", "$14$", "$21$"],
+      "answer": "$7$",
+      "points": 15
+    },
+    {
+      "id": 56,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 24, 36 \\text{ and } 48$",
+      "choices": ["$2$", "$4$", "$12$", "$24$"],
+      "answer": "$12$",
+      "points": 15
+    },
+    {
+      "id": 57,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 25, 50 \\text{ and } 75$",
+      "choices": ["$5$", "$10$", "$25$", "$50$"],
+      "answer": "$25$",
+      "points": 15
+    },
+    {
+      "id": 58,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 27, 45 \\text{ and } 63$",
+      "choices": ["$3$", "$9$", "$18$", "$27$"],
+      "answer": "$9$",
+      "points": 15
+    },
+    {
+      "id": 59,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 30, 40 \\text{ and } 50$",
+      "choices": ["$2$", "$5$", "$10$", "$20$"],
+      "answer": "$10$",
+      "points": 15
+    },
+    {
+      "id": 60,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 32, 48 \\text{ and } 64$",
+      "choices": ["$2$", "$4$", "$16$", "$32$"],
+      "answer": "$16$",
+      "points": 15
+    },
+    {
+      "id": 61,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 35, 56 \\text{ and } 70$",
+      "choices": ["$5$", "$7$", "$14$", "$35$"],
+      "answer": "$7$",
+      "points": 15
+    },
+    {
+      "id": 62,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 36, 54 \\text{ and } 72$",
+      "choices": ["$3$", "$6$", "$9$", "$18$"],
+      "answer": "$18$",
+      "points": 15
+    },
+    {
+      "id": 63,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 40, 60 \\text{ and } 80$",
+      "choices": ["$5$", "$10$", "$20$", "$40$"],
+      "answer": "$20$",
+      "points": 15
+    },
+    {
+      "id": 64,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 42, 63 \\text{ and } 84$",
+      "choices": ["$3$", "$7$", "$21$", "$42$"],
+      "answer": "$21$",
+      "points": 15
+    },
+    {
+      "id": 65,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 45, 75 \\text{ and } 90$",
+      "choices": ["$3$", "$5$", "$15$", "$45$"],
+      "answer": "$15$",
+      "points": 15
+    },
+    {
+      "id": 66,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 48, 72 \\text{ and } 96$",
+      "choices": ["$4$", "$8$", "$24$", "$48$"],
+      "answer": "$24$",
+      "points": 15
+    },
+    {
+      "id": 67,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 50, 75 \\text{ and } 100$",
+      "choices": ["$5$", "$10$", "$25$", "$50$"],
+      "answer": "$25$",
+      "points": 15
+    },
+    {
+      "id": 68,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 54, 81 \\text{ and } 108$",
+      "choices": ["$3$", "$9$", "$27$", "$54$"],
+      "answer": "$27$",
+      "points": 15
+    },
+    {
+      "id": 69,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 56, 84 \\text{ and } 112$",
+      "choices": ["$4$", "$7$", "$14$", "$28$"],
+      "answer": "$28$",
+      "points": 15
+    },
+    {
+      "id": 70,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 60, 90 \\text{ and } 120$",
+      "choices": ["$5$", "$10$", "$30$", "$60$"],
+      "answer": "$30$",
+      "points": 15
+    },
+    {
+      "id": 71,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 64, 96 \\text{ and } 128$",
+      "choices": ["$4$", "$8$", "$32$", "$64$"],
+      "answer": "$32$",
+      "points": 15
+    },
+    {
+      "id": 72,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 66, 99 \\text{ and } 132$",
+      "choices": ["$3$", "$11$", "$33$", "$66$"],
+      "answer": "$33$",
+      "points": 15
+    },
+    {
+      "id": 73,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 70, 105 \\text{ and } 140$",
+      "choices": ["$5$", "$7$", "$35$", "$70$"],
+      "answer": "$35$",
+      "points": 15
+    },
+    {
+      "id": 74,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 72, 108 \\text{ and } 144$",
+      "choices": ["$4$", "$6$", "$36$", "$72$"],
+      "answer": "$36$",
+      "points": 15
+    },
+    {
+      "id": 75,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 75, 100 \\text{ and } 125$",
+      "choices": ["$5$", "$10$", "$25$", "$75$"],
+      "answer": "$25$",
+      "points": 15
+    },
+    {
+      "id": 76,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 80, 120 \\text{ and } 160$",
+      "choices": ["$5$", "$10$", "$40$", "$80$"],
+      "answer": "$40$",
+      "points": 15
+    },
+    {
+      "id": 77,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 84, 126 \\text{ and } 168$",
+      "choices": ["$4$", "$7$", "$21$", "$42$"],
+      "answer": "$42$",
+      "points": 15
+    },
+    {
+      "id": 78,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 90, 135 \\text{ and } 180$",
+      "choices": ["$5$", "$9$", "$45$", "$90$"],
+      "answer": "$45$",
+      "points": 15
+    },
+    {
+      "id": 79,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 96, 144 \\text{ and } 192$",
+      "choices": ["$4$", "$8$", "$48$", "$96$"],
+      "answer": "$48$",
+      "points": 15
+    },
+    {
+      "id": 80,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 100, 150 \\text{ and } 200$",
+      "choices": ["$5$", "$10$", "$50$", "$100$"],
+      "answer": "$50$",
+      "points": 15
+    },
+    {
+      "id": 81,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 108, 162 \\text{ and } 216$",
+      "choices": ["$3$", "$9$", "$54$", "$108$"],
+      "answer": "$54$",
+      "points": 15
+    },
+    {
+      "id": 82,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 112, 168 \\text{ and } 224$",
+      "choices": ["$4$", "$7$", "$28$", "$56$"],
+      "answer": "$56$",
+      "points": 15
+    },
+    {
+      "id": 83,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 120, 180 \\text{ and } 240$",
+      "choices": ["$5$", "$10$", "$60$", "$120$"],
+      "answer": "$60$",
+      "points": 15
+    },
+    {
+      "id": 84,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 126, 189 \\text{ and } 252$",
+      "choices": ["$3$", "$7$", "$21$", "$63$"],
+      "answer": "$63$",
+      "points": 15
+    },
+    {
+      "id": 85,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 132, 198 \\text{ and } 264$",
+      "choices": ["$6$", "$11$", "$33$", "$66$"],
+      "answer": "$66$",
+      "points": 15
+    },
+    {
+      "id": 86,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 140, 210 \\text{ and } 280$",
+      "choices": ["$5$", "$10$", "$70$", "$140$"],
+      "answer": "$70$",
+      "points": 15
+    },
+    {
+      "id": 87,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 144, 216 \\text{ and } 288$",
+      "choices": ["$4$", "$8$", "$72$", "$144$"],
+      "answer": "$72$",
+      "points": 15
+    },
+    {
+      "id": 88,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 150, 225 \\text{ and } 300$",
+      "choices": ["$5$", "$15$", "$75$", "$150$"],
+      "answer": "$75$",
+      "points": 15
+    },
+    {
+      "id": 89,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 156, 234 \\text{ and } 312$",
+      "choices": ["$6$", "$13$", "$39$", "$78$"],
+      "answer": "$78$",
+      "points": 15
+    },
+    {
+      "id": 90,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 160, 240 \\text{ and } 320$",
+      "choices": ["$5$", "$10$", "$80$", "$160$"],
+      "answer": "$80$",
+      "points": 15
+    },
+    {
+      "id": 91,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 165, 240 \\text{ and } 330$",
+      "choices": ["$5$", "$15$", "$30$", "$33$"],
+      "answer": "$15$",
+      "points": 15
+    },
+    {
+      "id": 92,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 170, 255 \\text{ and } 340$",
+      "choices": ["$5$", "$10$", "$17$", "$85$"],
+      "answer": "$85$",
+      "points": 15
+    },
+    {
+      "id": 93,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 180, 270 \\text{ and } 360$",
+      "choices": ["$10$", "$30$", "$90$", "$180$"],
+      "answer": "$90$",
+      "points": 15
+    },
+    {
+      "id": 94,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 182, 273 \\text{ and } 364$",
+      "choices": ["$7$", "$13$", "$91$", "$182$"],
+      "answer": "$91$",
+      "points": 15
+    },
+    {
+      "id": 95,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 190, 285 \\text{ and } 380$",
+      "choices": ["$5$", "$10$", "$19$", "$95$"],
+      "answer": "$95$",
+      "points": 15
+    },
+    {
+      "id": 96,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 195, 260 \\text{ and } 325$",
+      "choices": ["$5$", "$13$", "$65$", "$195$"],
+      "answer": "$65$",
+      "points": 15
+    },
+    {
+      "id": 97,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 200, 300 \\text{ and } 400$",
+      "choices": ["$10$", "$50$", "$100$", "$200$"],
+      "answer": "$100$",
+      "points": 15
+    },
+    {
+      "id": 98,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 210, 315 \\text{ and } 420$",
+      "choices": ["$5$", "$15$", "$105$", "$210$"],
+      "answer": "$105$",
+      "points": 15
+    },
+    {
+      "id": 99,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 220, 330 \\text{ and } 440$",
+      "choices": ["$10$", "$20$", "$110$", "$220$"],
+      "answer": "$110$",
+      "points": 15
+    },
+    {
+      "id": 100,
+      "wave": 2,
+      "question": "$\\text{Find the GCF of } 225, 300 \\text{ and } 375$",
+      "choices": ["$5$", "$15$", "$25$", "$75$"],
+      "answer": "$75$",
+      "points": 15
+    },
+    {
+      "id": 101,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 12x, 18x^2 \\text{ and } 24x^3$",
+      "choices": ["$2x$", "$3x$", "$6x$", "$12x$"],
+      "answer": "$6x$",
+      "points": 20
+    },
+    {
+      "id": 102,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 15y^2, 20y^3 \\text{ and } 25y$",
+      "choices": ["$y$", "$5y$", "$5y^2$", "$5y^3$"],
+      "answer": "$5y$",
+      "points": 20
+    },
+    {
+      "id": 103,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 16ab, 24a^2b \\text{ and } 32ab^2$",
+      "choices": ["$2ab$", "$4ab$", "$8ab$", "$16ab$"],
+      "answer": "$8ab$",
+      "points": 20
+    },
+    {
+      "id": 104,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 20x^2y, 30xy^2 \\text{ and } 40xyz$",
+      "choices": ["$5xy$", "$10xy$", "$10xyz$", "$20xy$"],
+      "answer": "$10xy$",
+      "points": 20
+    },
+    {
+      "id": 105,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 21mn, 28m^2n^2 \\text{ and } 35m^3n$",
+      "choices": ["$7mn$", "$7m^2n$", "$7m^3n$", "$7mn^2$"],
+      "answer": "$7mn$",
+      "points": 20
+    },
+    {
+      "id": 106,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 24p^2q, 36pq^2 \\text{ and } 48p^3q^3$",
+      "choices": ["$6pq$", "$12pq$", "$12p^2q^2$", "$24pq$"],
+      "answer": "$12pq$",
+      "points": 20
+    },
+    {
+      "id": 107,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 25r^2s, 50rs^2 \\text{ and } 75r^3s^3$",
+      "choices": ["$5rs$", "$25rs$", "$25r^2s^2$", "$25r^3s^3$"],
+      "answer": "$25rs$",
+      "points": 20
+    },
+    {
+      "id": 108,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 27uv, 45u^2v \\text{ and } 63uv^2$",
+      "choices": ["$3uv$", "$9uv$", "$9u^2v$", "$9uv^2$"],
+      "answer": "$9uv$",
+      "points": 20
+    },
+    {
+      "id": 109,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 30a^2b^2, 40ab^3 \\text{ and } 50a^3b$",
+      "choices": ["$5ab$", "$10ab$", "$10a^2b^2$", "$10a^3b^3$"],
+      "answer": "$10ab$",
+      "points": 20
+    },
+    {
+      "id": 110,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 32x^3y, 48x^2y^2 \\text{ and } 64xy^3$",
+      "choices": ["$4xy$", "$8xy$", "$16xy$", "$16x^2y^2$"],
+      "answer": "$16xy$",
+      "points": 20
+    },
+    {
+      "id": 111,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 35c^2d, 56cd^2 \\text{ and } 70c^3d^3$",
+      "choices": ["$7cd$", "$7c^2d$", "$7cd^2$", "$7c^3d^3$"],
+      "answer": "$7cd$",
+      "points": 20
+    },
+    {
+      "id": 112,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 36e^2f^2, 54e^3f \\text{ and } 72ef^3$",
+      "choices": ["$6ef$", "$9ef$", "$18ef$", "$18e^2f^2$"],
+      "answer": "$18ef$",
+      "points": 20
+    },
+    {
+      "id": 113,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 40g^2h, 60gh^2 \\text{ and } 80g^3h^3$",
+      "choices": ["$10gh$", "$20gh$", "$20g^2h^2$", "$20g^3h^3$"],
+      "answer": "$20gh$",
+      "points": 20
+    },
+    {
+      "id": 114,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 42jk, 63j^2k^2 \\text{ and } 84j^3k$",
+      "choices": ["$7jk$", "$21jk$", "$21j^2k$", "$21jk^2$"],
+      "answer": "$21jk$",
+      "points": 20
+    },
+    {
+      "id": 115,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 45p^2q^2, 75p^3q \\text{ and } 90pq^3$",
+      "choices": ["$5pq$", "$15pq$", "$15p^2q$", "$15pq^2$"],
+      "answer": "$15pq$",
+      "points": 20
+    },
+    {
+      "id": 116,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 48r^3s, 72rs^2 \\text{ and } 96r^2s^3$",
+      "choices": ["$8rs$", "$12rs$", "$24rs$", "$24r^2s^2$"],
+      "answer": "$24rs$",
+      "points": 20
+    },
+    {
+      "id": 117,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 50uv, 75u^2v^2 \\text{ and } 100u^3v$",
+      "choices": ["$5uv$", "$10uv$", "$25uv$", "$25u^2v$"],
+      "answer": "$25uv$",
+      "points": 20
+    },
+    {
+      "id": 118,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 54x^2y, 81xy^2 \\text{ and } 108x^3y^3$",
+      "choices": ["$9xy$", "$27xy$", "$27x^2y^2$", "$27x^3y^3$"],
+      "answer": "$27xy$",
+      "points": 20
+    },
+    {
+      "id": 119,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 56ab^2, 84a^2b \\text{ and } 112a^3b^3$",
+      "choices": ["$7ab$", "$14ab$", "$28ab$", "$28a^2b^2$"],
+      "answer": "$28ab$",
+      "points": 20
+    },
+    {
+      "id": 120,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 60mn, 90m^2n^2 \\text{ and } 120m^3n$",
+      "choices": ["$10mn$", "$30mn$", "$30m^2n$", "$30mn^2$"],
+      "answer": "$30mn$",
+      "points": 20
+    },
+    {
+      "id": 121,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 64p^2q, 96pq^2 \\text{ and } 128p^3q^3$",
+      "choices": ["$8pq$", "$16pq$", "$32pq$", "$32p^2q^2$"],
+      "answer": "$32pq$",
+      "points": 20
+    },
+    {
+      "id": 122,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 66rs, 99r^2s^2 \\text{ and } 132r^3s$",
+      "choices": ["$11rs$", "$33rs$", "$33r^2s$", "$33rs^2$"],
+      "answer": "$33rs$",
+      "points": 20
+    },
+    {
+      "id": 123,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 70uv^2, 105u^2v \\text{ and } 140u^3v^3$",
+      "choices": ["$5uv$", "$7uv$", "$35uv$", "$35u^2v^2$"],
+      "answer": "$35uv$",
+      "points": 20
+    },
+    {
+      "id": 124,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 72x^2y^2, 108x^3y \\text{ and } 144xy^3$",
+      "choices": ["$6xy$", "$12xy$", "$36xy$", "$36x^2y^2$"],
+      "answer": "$36xy$",
+      "points": 20
+    },
+    {
+      "id": 125,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 75ab, 100a^2b^2 \\text{ and } 125a^3b$",
+      "choices": ["$5ab$", "$25ab$", "$25a^2b$", "$25ab^2$"],
+      "answer": "$25ab$",
+      "points": 20
+    },
+    {
+      "id": 126,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 80mn^2, 120m^2n \\text{ and } 160m^3n^3$",
+      "choices": ["$10mn$", "$20mn$", "$40mn$", "$40m^2n^2$"],
+      "answer": "$40mn$",
+      "points": 20
+    },
+    {
+      "id": 127,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 84pq, 126p^2q^2 \\text{ and } 168p^3q$",
+      "choices": ["$7pq$", "$14pq$", "$21pq$", "$42pq$"],
+      "answer": "$42pq$",
+      "points": 20
+    },
+    {
+      "id": 128,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 90rs^2, 135r^2s \\text{ and } 180r^3s^3$",
+      "choices": ["$5rs$", "$9rs$", "$15rs$", "$45rs$"],
+      "answer": "$45rs$",
+      "points": 20
+    },
+    {
+      "id": 129,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 96uv, 144u^2v^2 \\text{ and } 192u^3v$",
+      "choices": ["$8uv$", "$16uv$", "$24uv$", "$48uv$"],
+      "answer": "$48uv$",
+      "points": 20
+    },
+    {
+      "id": 130,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 100x^2y, 150xy^2 \\text{ and } 200x^3y^3$",
+      "choices": ["$10xy$", "$25xy$", "$50xy$", "$50x^2y^2$"],
+      "answer": "$50xy$",
+      "points": 20
+    },
+    {
+      "id": 131,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 108ab, 162a^2b^2 \\text{ and } 216a^3b$",
+      "choices": ["$9ab$", "$18ab$", "$27ab$", "$54ab$"],
+      "answer": "$54ab$",
+      "points": 20
+    },
+    {
+      "id": 132,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 112cd^2, 168c^2d \\text{ and } 224c^3d^3$",
+      "choices": ["$14cd$", "$28cd$", "$56cd$", "$56c^2d^2$"],
+      "answer": "$56cd$",
+      "points": 20
+    },
+    {
+      "id": 133,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 120ef, 180e^2f^2 \\text{ and } 240e^3f$",
+      "choices": ["$10ef$", "$20ef$", "$30ef$", "$60ef$"],
+      "answer": "$60ef$",
+      "points": 20
+    },
+    {
+      "id": 134,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 126gh, 189g^2h^2 \\text{ and } 252g^3h$",
+      "choices": ["$7gh$", "$9gh$", "$21gh$", "$63gh$"],
+      "answer": "$63gh$",
+      "points": 20
+    },
+    {
+      "id": 135,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 132jk^2, 198j^2k \\text{ and } 264j^3k^3$",
+      "choices": ["$11jk$", "$22jk$", "$33jk$", "$66jk$"],
+      "answer": "$66jk$",
+      "points": 20
+    },
+    {
+      "id": 136,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 140mn, 210m^2n^2 \\text{ and } 280m^3n$",
+      "choices": ["$10mn$", "$20mn$", "$35mn$", "$70mn$"],
+      "answer": "$70mn$",
+      "points": 20
+    },
+    {
+      "id": 137,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 144pq^2, 216p^2q \\text{ and } 288p^3q^3$",
+      "choices": ["$12pq$", "$24pq$", "$36pq$", "$72pq$"],
+      "answer": "$72pq$",
+      "points": 20
+    },
+    {
+      "id": 138,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 150rs, 225r^2s^2 \\text{ and } 300r^3s$",
+      "choices": ["$15rs$", "$25rs$", "$50rs$", "$75rs$"],
+      "answer": "$75rs$",
+      "points": 20
+    },
+    {
+      "id": 139,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 156uv^2, 234u^2v \\text{ and } 312u^3v^3$",
+      "choices": ["$13uv$", "$26uv$", "$39uv$", "$78uv$"],
+      "answer": "$78uv$",
+      "points": 20
+    },
+    {
+      "id": 140,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 160xy, 240x^2y^2 \\text{ and } 320x^3y$",
+      "choices": ["$10xy$", "$20xy$", "$40xy$", "$80xy$"],
+      "answer": "$80xy$",
+      "points": 20
+    },
+    {
+      "id": 141,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 165ab^2, 240a^2b \\text{ and } 330a^3b^3$",
+      "choices": ["$5ab$", "$15ab$", "$30ab$", "$33ab$"],
+      "answer": "$15ab$",
+      "points": 20
+    },
+    {
+      "id": 142,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 170cd, 255c^2d^2 \\text{ and } 340c^3d$",
+      "choices": ["$10cd$", "$17cd$", "$34cd$", "$85cd$"],
+      "answer": "$85cd$",
+      "points": 20
+    },
+    {
+      "id": 143,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 180ef^2, 270e^2f \\text{ and } 360e^3f^3$",
+      "choices": ["$10ef$", "$30ef$", "$90ef$", "$90e^2f^2$"],
+      "answer": "$90ef$",
+      "points": 20
+    },
+    {
+      "id": 144,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 182gh, 273g^2h^2 \\text{ and } 364g^3h$",
+      "choices": ["$7gh$", "$13gh$", "$26gh$", "$91gh$"],
+      "answer": "$91gh$",
+      "points": 20
+    },
+    {
+      "id": 145,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 190jk^2, 285j^2k \\text{ and } 380j^3k^3$",
+      "choices": ["$10jk$", "$19jk$", "$38jk$", "$95jk$"],
+      "answer": "$95jk$",
+      "points": 20
+    },
+    {
+      "id": 146,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 195mn, 260m^2n^2 \\text{ and } 325m^3n$",
+      "choices": ["$5mn$", "$13mn$", "$39mn$", "$65mn$"],
+      "answer": "$65mn$",
+      "points": 20
+    },
+    {
+      "id": 147,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 200pq^2, 300p^2q \\text{ and } 400p^3q^3$",
+      "choices": ["$10pq$", "$25pq$", "$50pq$", "$100pq$"],
+      "answer": "$100pq$",
+      "points": 20
+    },
+    {
+      "id": 148,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 210rs, 315r^2s^2 \\text{ and } 420r^3s$",
+      "choices": ["$15rs$", "$21rs$", "$35rs$", "$105rs$"],
+      "answer": "$105rs$",
+      "points": 20
+    },
+    {
+      "id": 149,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 220uv^2, 330u^2v \\text{ and } 440u^3v^3$",
+      "choices": ["$10uv$", "$20uv$", "$55uv$", "$110uv$"],
+      "answer": "$110uv$",
+      "points": 20
+    },
+    {
+      "id": 150,
+      "wave": 3,
+      "question": "$\\text{Find the GCF of } 225wx, 300w^2x^2 \\text{ and } 375w^3x$",
+      "choices": ["$5wx$", "$15wx$", "$25wx$", "$75wx$"],
+      "answer": "$75wx$",
+      "points": 20
+    },
+    {
+      "id": 151,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 12x^2y^3, 18x^3y^2 \\text{ and } 24x^4y$",
+      "choices": ["$2x^2y$", "$3x^2y$", "$6x^2y$", "$12x^2y$"],
+      "answer": "$6x^2y$",
+      "points": 25
+    },
+    {
+      "id": 152,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 15a^4b^2, 20a^2b^3 \\text{ and } 25a^3b$",
+      "choices": ["$5ab$", "$5a^2b$", "$5a^2b^2$", "$5a^3b$"],
+      "answer": "$5a^2b$",
+      "points": 25
+    },
+    {
+      "id": 153,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 16m^5n^3, 24m^3n^4 \\text{ and } 32m^4n^2$",
+      "choices": ["$4m^3n^2$", "$8m^3n^2$", "$8m^4n^3$", "$16m^3n^2$"],
+      "answer": "$8m^3n^2$",
+      "points": 25
+    },
+    {
+      "id": 154,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 20p^3q^4, 30p^4q^2 \\text{ and } 40p^2q^3$",
+      "choices": ["$5p^2q^2$", "$10p^2q^2$", "$10p^3q^3$", "$20p^2q^2$"],
+      "answer": "$10p^2q^2$",
+      "points": 25
+    },
+    {
+      "id": 155,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 21r^5s^2, 28r^3s^4 \\text{ and } 35r^4s^3$",
+      "choices": ["$7r^3s^2$", "$7r^4s^3$", "$7r^5s^4$", "$7r^2s^2$"],
+      "answer": "$7r^3s^2$",
+      "points": 25
+    },
+    {
+      "id": 156,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 24u^2v^5, 36u^4v^3 \\text{ and } 48u^3v^4$",
+      "choices": ["$6u^2v^3$", "$12u^2v^3$", "$12u^3v^4$", "$24u^2v^3$"],
+      "answer": "$12u^2v^3$",
+      "points": 25
+    },
+    {
+      "id": 157,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 25x^3y^2, 50x^4y^3 \\text{ and } 75x^2y^4$",
+      "choices": ["$5x^2y^2$", "$25x^2y^2$", "$25x^3y^3$", "$25x^4y^4$"],
+      "answer": "$25x^2y^2$",
+      "points": 25
+    },
+    {
+      "id": 158,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 27a^2b^3, 45a^3b^2 \\text{ and } 63a^4b^4$",
+      "choices": ["$3a^2b^2$", "$9a^2b^2$", "$9a^3b^3$", "$9a^4b^4$"],
+      "answer": "$9a^2b^2$",
+      "points": 25
+    },
+    {
+      "id": 159,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 30c^4d^5, 40c^5d^3 \\text{ and } 50c^3d^4$",
+      "choices": ["$5c^3d^3$", "$10c^3d^3$", "$10c^4d^4$", "$10c^5d^5$"],
+      "answer": "$10c^3d^3$",
+      "points": 25
+    },
+    {
+      "id": 160,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 32e^3f^2, 48e^2f^3 \\text{ and } 64e^4f^4$",
+      "choices": ["$4e^2f^2$", "$8e^2f^2$", "$16e^2f^2$", "$16e^3f^3$"],
+      "answer": "$16e^2f^2$",
+      "points": 25
+    },
+    {
+      "id": 161,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 35g^5h^3, 56g^3h^4 \\text{ and } 70g^4h^2$",
+      "choices": ["$7g^3h^2$", "$7g^4h^3$", "$7g^5h^4$", "$7g^2h^2$"],
+      "answer": "$7g^3h^2$",
+      "points": 25
+    },
+    {
+      "id": 162,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 36j^2k^5, 54j^4k^3 \\text{ and } 72j^3k^4$",
+      "choices": ["$6j^2k^3$", "$18j^2k^3$", "$18j^3k^4$", "$18j^4k^5$"],
+      "answer": "$18j^2k^3$",
+      "points": 25
+    },
+    {
+      "id": 163,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 40m^3n^2, 60m^4n^3 \\text{ and } 80m^2n^4$",
+      "choices": ["$10m^2n^2$", "$20m^2n^2$", "$20m^3n^3$", "$40m^2n^2$"],
+      "answer": "$20m^2n^2$",
+      "points": 25
+    },
+    {
+      "id": 164,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 42p^5q^3, 63p^3q^4 \\text{ and } 84p^4q^2$",
+      "choices": ["$7p^3q^2$", "$21p^3q^2$", "$21p^4q^3$", "$21p^5q^4$"],
+      "answer": "$21p^3q^2$",
+      "points": 25
+    },
+    {
+      "id": 165,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 45r^2s^3, 75r^3s^2 \\text{ and } 90r^4s^4$",
+      "choices": ["$5r^2s^2$", "$15r^2s^2$", "$15r^3s^3$", "$15r^4s^4$"],
+      "answer": "$15r^2s^2$",
+      "points": 25
+    },
+    {
+      "id": 166,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 48u^3v^2, 72u^2v^3 \\text{ and } 96u^4v^4$",
+      "choices": ["$8u^2v^2$", "$12u^2v^2$", "$24u^2v^2$", "$24u^3v^3$"],
+      "answer": "$24u^2v^2$",
+      "points": 25
+    },
+    {
+      "id": 167,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 50x^4y^2, 75x^2y^4 \\text{ and } 100x^3y^3$",
+      "choices": ["$5x^2y^2$", "$25x^2y^2$", "$25x^3y^3$", "$25x^4y^4$"],
+      "answer": "$25x^2y^2$",
+      "points": 25
+    },
+    {
+      "id": 168,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 54a^3b^2, 81a^2b^3 \\text{ and } 108a^4b^4$",
+      "choices": ["$9a^2b^2$", "$27a^2b^2$", "$27a^3b^3$", "$27a^4b^4$"],
+      "answer": "$27a^2b^2$",
+      "points": 25
+    },
+    {
+      "id": 169,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 56c^5d^3, 84c^3d^4 \\text{ and } 112c^4d^2$",
+      "choices": ["$7c^3d^2$", "$14c^3d^2$", "$28c^3d^2$", "$28c^4d^3$"],
+      "answer": "$28c^3d^2$",
+      "points": 25
+    },
+    {
+      "id": 170,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 60e^3f^4, 90e^4f^2 \\text{ and } 120e^2f^3$",
+      "choices": ["$10e^2f^2$", "$20e^2f^2$", "$30e^2f^2$", "$30e^3f^3$"],
+      "answer": "$30e^2f^2$",
+      "points": 25
+    },
+    {
+      "id": 171,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 64g^2h^3, 96g^3h^2 \\text{ and } 128g^4h^4$",
+      "choices": ["$8g^2h^2$", "$16g^2h^2$", "$32g^2h^2$", "$32g^3h^3$"],
+      "answer": "$32g^2h^2$",
+      "points": 25
+    },
+    {
+      "id": 172,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 66j^5k^2, 99j^3k^4 \\text{ and } 132j^4k^3$",
+      "choices": ["$11j^3k^2$", "$33j^3k^2$", "$33j^4k^3$", "$33j^5k^4$"],
+      "answer": "$33j^3k^2$",
+      "points": 25
+    },
+    {
+      "id": 173,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 70m^2n^3, 105m^3n^2 \\text{ and } 140m^4n^4$",
+      "choices": ["$5m^2n^2$", "$7m^2n^2$", "$35m^2n^2$", "$35m^3n^3$"],
+      "answer": "$35m^2n^2$",
+      "points": 25
+    },
+    {
+      "id": 174,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 72p^4q^5, 108p^5q^3 \\text{ and } 144p^3q^4$",
+      "choices": ["$6p^3q^3$", "$12p^3q^3$", "$36p^3q^3$", "$36p^4q^4$"],
+      "answer": "$36p^3q^3$",
+      "points": 25
+    },
+    {
+      "id": 175,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 75r^3s^2, 100r^2s^3 \\text{ and } 125r^4s^4$",
+      "choices": ["$5r^2s^2$", "$25r^2s^2$", "$25r^3s^3$", "$25r^4s^4$"],
+      "answer": "$25r^2s^2$",
+      "points": 25
+    },
+    {
+      "id": 176,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 80u^2v^3, 120u^3v^2 \\text{ and } 160u^4v^4$",
+      "choices": ["$10u^2v^2$", "$20u^2v^2$", "$40u^2v^2$", "$40u^3v^3$"],
+      "answer": "$40u^2v^2$",
+      "points": 25
+    },
+    {
+      "id": 177,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 84x^5y^2, 126x^3y^4 \\text{ and } 168x^4y^3$",
+      "choices": ["$7x^3y^2$", "$14x^3y^2$", "$21x^3y^2$", "$42x^3y^2$"],
+      "answer": "$42x^3y^2$",
+      "points": 25
+    },
+    {
+      "id": 178,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 90a^2b^3, 135a^3b^2 \\text{ and } 180a^4b^4$",
+      "choices": ["$5a^2b^2$", "$9a^2b^2$", "$15a^2b^2$", "$45a^2b^2$"],
+      "answer": "$45a^2b^2$",
+      "points": 25
+    },
+    {
+      "id": 179,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 96c^4d^5, 144c^5d^3 \\text{ and } 192c^3d^4$",
+      "choices": ["$8c^3d^3$", "$16c^3d^3$", "$24c^3d^3$", "$48c^3d^3$"],
+      "answer": "$48c^3d^3$",
+      "points": 25
+    },
+    {
+      "id": 180,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 100e^3f^2, 150e^2f^3 \\text{ and } 200e^4f^4$",
+      "choices": ["$10e^2f^2$", "$25e^2f^2$", "$50e^2f^2$", "$50e^3f^3$"],
+      "answer": "$50e^2f^2$",
+      "points": 25
+    },
+    {
+      "id": 181,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 108g^5h^3, 162g^3h^4 \\text{ and } 216g^4h^2$",
+      "choices": ["$9g^3h^2$", "$18g^3h^2$", "$27g^3h^2$", "$54g^3h^2$"],
+      "answer": "$54g^3h^2$",
+      "points": 25
+    },
+    {
+      "id": 182,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 112j^2k^5, 168j^4k^3 \\text{ and } 224j^3k^4$",
+      "choices": ["$14j^2k^3$", "$28j^2k^3$", "$56j^2k^3$", "$56j^3k^4$"],
+      "answer": "$56j^2k^3$",
+      "points": 25
+    },
+    {
+      "id": 183,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 120m^3n^2, 180m^4n^3 \\text{ and } 240m^2n^4$",
+      "choices": ["$10m^2n^2$", "$20m^2n^2$", "$30m^2n^2$", "$60m^2n^2$"],
+      "answer": "$60m^2n^2$",
+      "points": 25
+    },
+    {
+      "id": 184,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 126p^5q^3, 189p^3q^4 \\text{ and } 252p^4q^2$",
+      "choices": ["$7p^3q^2$", "$9p^3q^2$", "$21p^3q^2$", "$63p^3q^2$"],
+      "answer": "$63p^3q^2$",
+      "points": 25
+    },
+    {
+      "id": 185,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 132r^2s^3, 198r^3s^2 \\text{ and } 264r^4s^4$",
+      "choices": ["$11r^2s^2$", "$22r^2s^2$", "$33r^2s^2$", "$66r^2s^2$"],
+      "answer": "$66r^2s^2$",
+      "points": 25
+    },
+    {
+      "id": 186,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 140u^3v^2, 210u^2v^3 \\text{ and } 280u^4v^4$",
+      "choices": ["$10u^2v^2$", "$20u^2v^2$", "$35u^2v^2$", "$70u^2v^2$"],
+      "answer": "$70u^2v^2$",
+      "points": 25
+    },
+    {
+      "id": 187,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 144x^5y^3, 216x^3y^4 \\text{ and } 288x^4y^2$",
+      "choices": ["$12x^3y^2$", "$24x^3y^2$", "$36x^3y^2$", "$72x^3y^2$"],
+      "answer": "$72x^3y^2$",
+      "points": 25
+    },
+    {
+      "id": 188,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 150a^2b^3, 225a^3b^2 \\text{ and } 300a^4b^4$",
+      "choices": ["$15a^2b^2$", "$25a^2b^2$", "$50a^2b^2$", "$75a^2b^2$"],
+      "answer": "$75a^2b^2$",
+      "points": 25
+    },
+    {
+      "id": 189,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 156c^4d^5, 234c^5d^3 \\text{ and } 312c^3d^4$",
+      "choices": ["$13c^3d^3$", "$26c^3d^3$", "$39c^3d^3$", "$78c^3d^3$"],
+      "answer": "$78c^3d^3$",
+      "points": 25
+    },
+    {
+      "id": 190,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 160e^3f^2, 240e^2f^3 \\text{ and } 320e^4f^4$",
+      "choices": ["$10e^2f^2$", "$20e^2f^2$", "$40e^2f^2$", "$80e^2f^2$"],
+      "answer": "$80e^2f^2$",
+      "points": 25
+    },
+    {
+      "id": 191,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 165g^5h^3, 240g^3h^4 \\text{ and } 330g^4h^2$",
+      "choices": ["$5g^3h^2$", "$15g^3h^2$", "$30g^3h^2$", "$33g^3h^2$"],
+      "answer": "$15g^3h^2$",
+      "points": 25
+    },
+    {
+      "id": 192,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 170j^2k^5, 255j^4k^3 \\text{ and } 340j^3k^4$",
+      "choices": ["$10j^2k^3$", "$17j^2k^3$", "$34j^2k^3$", "$85j^2k^3$"],
+      "answer": "$85j^2k^3$",
+      "points": 25
+    },
+    {
+      "id": 193,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 180m^3n^2, 270m^4n^3 \\text{ and } 360m^2n^4$",
+      "choices": ["$10m^2n^2$", "$30m^2n^2$", "$90m^2n^2$", "$90m^3n^3$"],
+      "answer": "$90m^2n^2$",
+      "points": 25
+    },
+    {
+      "id": 194,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 182p^5q^3, 273p^3q^4 \\text{ and } 364p^4q^2$",
+      "choices": ["$7p^3q^2$", "$13p^3q^2$", "$26p^3q^2$", "$91p^3q^2$"],
+      "answer": "$91p^3q^2$",
+      "points": 25
+    },
+    {
+      "id": 195,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 190r^2s^3, 285r^3s^2 \\text{ and } 380r^4s^4$",
+      "choices": ["$10r^2s^2$", "$19r^2s^2$", "$38r^2s^2$", "$95r^2s^2$"],
+      "answer": "$95r^2s^2$",
+      "points": 25
+    },
+    {
+      "id": 196,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 195u^3v^2, 260u^2v^3 \\text{ and } 325u^4v^4$",
+      "choices": ["$5u^2v^2$", "$13u^2v^2$", "$39u^2v^2$", "$65u^2v^2$"],
+      "answer": "$65u^2v^2$",
+      "points": 25
+    },
+    {
+      "id": 197,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 200x^4y^2, 300x^2y^4 \\text{ and } 400x^3y^3$",
+      "choices": ["$10x^2y^2$", "$25x^2y^2$", "$50x^2y^2$", "$100x^2y^2$"],
+      "answer": "$100x^2y^2$",
+      "points": 25
+    },
+    {
+      "id": 198,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 210a^3b^2, 315a^2b^3 \\text{ and } 420a^4b^4$",
+      "choices": ["$15a^2b^2$", "$21a^2b^2$", "$35a^2b^2$", "$105a^2b^2$"],
+      "answer": "$105a^2b^2$",
+      "points": 25
+    },
+    {
+      "id": 199,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 220c^5d^3, 330c^3d^4 \\text{ and } 440c^4d^2$",
+      "choices": ["$10c^3d^2$", "$20c^3d^2$", "$55c^3d^2$", "$110c^3d^2$"],
+      "answer": "$110c^3d^2$",
+      "points": 25
+    },
+    {
+      "id": 200,
+      "wave": 4,
+      "question": "$\\text{Find the GCF of } 225e^2f^3, 300e^3f^2 \\text{ and } 375e^4f^4$",
+      "choices": ["$5e^2f^2$", "$15e^2f^2$", "$25e^2f^2$", "$75e^2f^2$"],
+      "answer": "$75e^2f^2$",
+      "points": 25
+    },
+    {
+      "id": 201,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 12x^2y^3z, 18x^3y^2z^2 \\text{ and } 24x^4yz^3$",
+      "choices": ["$2x^2yz$", "$3x^2yz$", "$6x^2yz$", "$12x^2yz$"],
+      "answer": "$6x^2yz$",
+      "points": 30
+    },
+    {
+      "id": 202,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 15a^4b^2c^3, 20a^2b^3c^4 \\text{ and } 25a^3bc^2$",
+      "choices": ["$5a^2bc^2$", "$5a^3b^2c^3$", "$5a^4b^3c^4$", "$5a^2b^2c^2$"],
+      "answer": "$5a^2bc^2$",
+      "points": 30
+    },
+    {
+      "id": 203,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 16m^5n^3p^4, 24m^3n^4p^5 \\text{ and } 32m^4n^2p^3$",
+      "choices": [
+        "$4m^3n^2p^3$",
+        "$8m^3n^2p^3$",
+        "$8m^4n^3p^4$",
+        "$16m^3n^2p^3$"
+      ],
+      "answer": "$8m^3n^2p^3$",
+      "points": 30
+    },
+    {
+      "id": 204,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 20p^3q^4r^2, 30p^4q^2r^3 \\text{ and } 40p^2q^3r^4$",
+      "choices": [
+        "$5p^2q^2r^2$",
+        "$10p^2q^2r^2$",
+        "$10p^3q^3r^3$",
+        "$20p^2q^2r^2$"
+      ],
+      "answer": "$10p^2q^2r^2$",
+      "points": 30
+    },
+    {
+      "id": 205,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 21s^5t^2u^3, 28s^3t^4u^5 \\text{ and } 35s^4t^3u^2$",
+      "choices": [
+        "$7s^3t^2u^2$",
+        "$7s^4t^3u^3$",
+        "$7s^5t^4u^5$",
+        "$7s^2t^2u^2$"
+      ],
+      "answer": "$7s^3t^2u^2$",
+      "points": 30
+    },
+    {
+      "id": 206,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 24v^2w^5x^3, 36v^4w^3x^2 \\text{ and } 48v^3w^4x^4$",
+      "choices": [
+        "$6v^2w^3x^2$",
+        "$12v^2w^3x^2$",
+        "$12v^3w^4x^3$",
+        "$24v^2w^3x^2$"
+      ],
+      "answer": "$12v^2w^3x^2$",
+      "points": 30
+    },
+    {
+      "id": 207,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 25y^3z^2, 50y^4z^3 \\text{ and } 75y^2z^4$",
+      "choices": ["$5y^2z^2$", "$25y^2z^2$", "$25y^3z^3$", "$25y^4z^4$"],
+      "answer": "$25y^2z^2$",
+      "points": 30
+    },
+    {
+      "id": 208,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 27abc, 45a^2b^2c^2 \\text{ and } 63a^3b^3c^3$",
+      "choices": ["$3abc$", "$9abc$", "$9a^2b^2c^2$", "$9a^3b^3c^3$"],
+      "answer": "$9abc$",
+      "points": 30
+    },
+    {
+      "id": 209,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 30def, 40d^2e^2f^2 \\text{ and } 50d^3e^3f^3$",
+      "choices": ["$5def$", "$10def$", "$10d^2e^2f^2$", "$10d^3e^3f^3$"],
+      "answer": "$10def$",
+      "points": 30
+    },
+    {
+      "id": 210,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 32ghi, 48g^2h^2i^2 \\text{ and } 64g^3h^3i^3$",
+      "choices": ["$4ghi$", "$8ghi$", "$16ghi$", "$16g^2h^2i^2$"],
+      "answer": "$16ghi$",
+      "points": 30
+    },
+    {
+      "id": 211,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 35jkl, 56j^2k^2l^2 \\text{ and } 70j^3k^3l^3$",
+      "choices": ["$7jkl$", "$14jkl$", "$35jkl$", "$35j^2k^2l^2$"],
+      "answer": "$7jkl$",
+      "points": 30
+    },
+    {
+      "id": 212,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 36mno, 54m^2n^2o^2 \\text{ and } 72m^3n^3o^3$",
+      "choices": ["$6mno$", "$9mno$", "$18mno$", "$18m^2n^2o^2$"],
+      "answer": "$18mno$",
+      "points": 30
+    },
+    {
+      "id": 213,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 40pqr, 60p^2q^2r^2 \\text{ and } 80p^3q^3r^3$",
+      "choices": ["$10pqr$", "$20pqr$", "$20p^2q^2r^2$", "$40pqr$"],
+      "answer": "$20pqr$",
+      "points": 30
+    },
+    {
+      "id": 214,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 42stu, 63s^2t^2u^2 \\text{ and } 84s^3t^3u^3$",
+      "choices": ["$7stu$", "$21stu$", "$21s^2t^2u^2$", "$42stu$"],
+      "answer": "$21stu$",
+      "points": 30
+    },
+    {
+      "id": 215,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 45vwx, 75v^2w^2x^2 \\text{ and } 90v^3w^3x^3$",
+      "choices": ["$5vwx$", "$15vwx$", "$15v^2w^2x^2$", "$45vwx$"],
+      "answer": "$15vwx$",
+      "points": 30
+    },
+    {
+      "id": 216,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 48yza, 72y^2z^2a^2 \\text{ and } 96y^3z^3a^3$",
+      "choices": ["$8yza$", "$12yza$", "$24yza$", "$24y^2z^2a^2$"],
+      "answer": "$24yza$",
+      "points": 30
+    },
+    {
+      "id": 217,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 50bcd, 75b^2c^2d^2 \\text{ and } 100b^3c^3d^3$",
+      "choices": ["$5bcd$", "$10bcd$", "$25bcd$", "$25b^2c^2d^2$"],
+      "answer": "$25bcd$",
+      "points": 30
+    },
+    {
+      "id": 218,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 54efg, 81e^2f^2g^2 \\text{ and } 108e^3f^3g^3$",
+      "choices": ["$9efg$", "$27efg$", "$27e^2f^2g^2$", "$27e^3f^3g^3$"],
+      "answer": "$27efg$",
+      "points": 30
+    },
+    {
+      "id": 219,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 56hij, 84h^2i^2j^2 \\text{ and } 112h^3i^3j^3$",
+      "choices": ["$7hij$", "$14hij$", "$28hij$", "$28h^2i^2j^2$"],
+      "answer": "$28hij$",
+      "points": 30
+    },
+    {
+      "id": 220,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 60klm, 90k^2l^2m^2 \\text{ and } 120k^3l^3m^3$",
+      "choices": ["$10klm$", "$20klm$", "$30klm$", "$30k^2l^2m^2$"],
+      "answer": "$30klm$",
+      "points": 30
+    },
+    {
+      "id": 221,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 64nop, 96n^2o^2p^2 \\text{ and } 128n^3o^3p^3$",
+      "choices": ["$8nop$", "$16nop$", "$32nop$", "$32n^2o^2p^2$"],
+      "answer": "$32nop$",
+      "points": 30
+    },
+    {
+      "id": 222,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 66qrs, 99q^2r^2s^2 \\text{ and } 132q^3r^3s^3$",
+      "choices": ["$11qrs$", "$22qrs$", "$33qrs$", "$33q^2r^2s^2$"],
+      "answer": "$33qrs$",
+      "points": 30
+    },
+    {
+      "id": 223,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 70tuv, 105t^2u^2v^2 \\text{ and } 140t^3u^3v^3$",
+      "choices": ["$5tuv$", "$7tuv$", "$35tuv$", "$35t^2u^2v^2$"],
+      "answer": "$35tuv$",
+      "points": 30
+    },
+    {
+      "id": 224,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 72wxy, 108w^2x^2y^2 \\text{ and } 144w^3x^3y^3$",
+      "choices": ["$6wxy$", "$12wxy$", "$36wxy$", "$36w^2x^2y^2$"],
+      "answer": "$36wxy$",
+      "points": 30
+    },
+    {
+      "id": 225,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 75zab, 100z^2a^2b^2 \\text{ and } 125z^3a^3b^3$",
+      "choices": ["$5zab$", "$10zab$", "$25zab$", "$25z^2a^2b^2$"],
+      "answer": "$25zab$",
+      "points": 30
+    },
+    {
+      "id": 226,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 80cde, 120c^2d^2e^2 \\text{ and } 160c^3d^3e^3$",
+      "choices": ["$10cde$", "$20cde$", "$40cde$", "$40c^2d^2e^2$"],
+      "answer": "$40cde$",
+      "points": 30
+    },
+    {
+      "id": 227,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 84fgh, 126f^2g^2h^2 \\text{ and } 168f^3g^3h^3$",
+      "choices": ["$7fgh$", "$14fgh$", "$21fgh$", "$42fgh$"],
+      "answer": "$42fgh$",
+      "points": 30
+    },
+    {
+      "id": 228,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 90ijk, 135i^2j^2k^2 \\text{ and } 180i^3j^3k^3$",
+      "choices": ["$5ijk$", "$9ijk$", "$15ijk$", "$45ijk$"],
+      "answer": "$45ijk$",
+      "points": 30
+    },
+    {
+      "id": 229,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 96lmn, 144l^2m^2n^2 \\text{ and } 192l^3m^3n^3$",
+      "choices": ["$8lmn$", "$16lmn$", "$24lmn$", "$48lmn$"],
+      "answer": "$48lmn$",
+      "points": 30
+    },
+    {
+      "id": 230,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 100opq, 150o^2p^2q^2 \\text{ and } 200o^3p^3q^3$",
+      "choices": ["$10opq$", "$25opq$", "$50opq$", "$50o^2p^2q^2$"],
+      "answer": "$50opq$",
+      "points": 30
+    },
+    {
+      "id": 231,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 108rst, 162r^2s^2t^2 \\text{ and } 216r^3s^3t^3$",
+      "choices": ["$9rst$", "$18rst$", "$27rst$", "$54rst$"],
+      "answer": "$54rst$",
+      "points": 30
+    },
+    {
+      "id": 232,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 112uvw, 168u^2v^2w^2 \\text{ and } 224u^3v^3w^3$",
+      "choices": ["$14uvw$", "$28uvw$", "$56uvw$", "$56u^2v^2w^2$"],
+      "answer": "$56uvw$",
+      "points": 30
+    },
+    {
+      "id": 233,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 120xyz, 180x^2y^2z^2 \\text{ and } 240x^3y^3z^3$",
+      "choices": ["$10xyz$", "$20xyz$", "$30xyz$", "$60xyz$"],
+      "answer": "$60xyz$",
+      "points": 30
+    },
+    {
+      "id": 234,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 126abc, 189a^2b^2c^2 \\text{ and } 252a^3b^3c^3$",
+      "choices": ["$7abc$", "$9abc$", "$21abc$", "$63abc$"],
+      "answer": "$63abc$",
+      "points": 30
+    },
+    {
+      "id": 235,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 132def, 198d^2e^2f^2 \\text{ and } 264d^3e^3f^3$",
+      "choices": ["$11def$", "$22def$", "$33def$", "$66def$"],
+      "answer": "$66def$",
+      "points": 30
+    },
+    {
+      "id": 236,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 140ghi, 210g^2h^2i^2 \\text{ and } 280g^3h^3i^3$",
+      "choices": ["$10ghi$", "$20ghi$", "$35ghi$", "$70ghi$"],
+      "answer": "$70ghi$",
+      "points": 30
+    },
+    {
+      "id": 237,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 144jkl, 216j^2k^2l^2 \\text{ and } 288j^3k^3l^3$",
+      "choices": ["$12jkl$", "$24jkl$", "$36jkl$", "$72jkl$"],
+      "answer": "$72jkl$",
+      "points": 30
+    },
+    {
+      "id": 238,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 150mno, 225m^2n^2o^2 \\text{ and } 300m^3n^3o^3$",
+      "choices": ["$15mno$", "$25mno$", "$50mno$", "$75mno$"],
+      "answer": "$75mno$",
+      "points": 30
+    },
+    {
+      "id": 239,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 156pqr, 234p^2q^2r^2 \\text{ and } 312p^3q^3r^3$",
+      "choices": ["$13pqr$", "$26pqr$", "$39pqr$", "$78pqr$"],
+      "answer": "$78pqr$",
+      "points": 30
+    },
+    {
+      "id": 240,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 160stu, 240s^2t^2u^2 \\text{ and } 320s^3t^3u^3$",
+      "choices": ["$10stu$", "$20stu$", "$40stu$", "$80stu$"],
+      "answer": "$80stu$",
+      "points": 30
+    },
+    {
+      "id": 241,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 165vwx, 240v^2w^2x^2 \\text{ and } 330v^3w^3x^3$",
+      "choices": ["$5vwx$", "$15vwx$", "$30vwx$", "$33vwx$"],
+      "answer": "$15vwx$",
+      "points": 30
+    },
+    {
+      "id": 242,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 170yza, 255y^2z^2a^2 \\text{ and } 340y^3z^3a^3$",
+      "choices": ["$10yza$", "$17yza$", "$34yza$", "$85yza$"],
+      "answer": "$85yza$",
+      "points": 30
+    },
+    {
+      "id": 243,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 180bcd, 270b^2c^2d^2 \\text{ and } 360b^3c^3d^3$",
+      "choices": ["$10bcd$", "$30bcd$", "$90bcd$", "$90b^2c^2d^2$"],
+      "answer": "$90bcd$",
+      "points": 30
+    },
+    {
+      "id": 244,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 182efg, 273e^2f^2g^2 \\text{ and } 364e^3f^3g^3$",
+      "choices": ["$7efg$", "$13efg$", "$26efg$", "$91efg$"],
+      "answer": "$91efg$",
+      "points": 30
+    },
+    {
+      "id": 245,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 190hij, 285h^2i^2j^2 \\text{ and } 380h^3i^3j^3$",
+      "choices": ["$10hij$", "$19hij$", "$38hij$", "$95hij$"],
+      "answer": "$95hij$",
+      "points": 30
+    },
+    {
+      "id": 246,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 195klm, 260k^2l^2m^2 \\text{ and } 325k^3l^3m^3$",
+      "choices": ["$5klm$", "$13klm$", "$39klm$", "$65klm$"],
+      "answer": "$65klm$",
+      "points": 30
+    },
+    {
+      "id": 247,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 200nop, 300n^2o^2p^2 \\text{ and } 400n^3o^3p^3$",
+      "choices": ["$10nop$", "$25nop$", "$50nop$", "$100nop$"],
+      "answer": "$100nop$",
+      "points": 30
+    },
+    {
+      "id": 248,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 210qrs, 315q^2r^2s^2 \\text{ and } 420q^3r^3s^3$",
+      "choices": ["$15qrs$", "$21qrs$", "$35qrs$", "$105qrs$"],
+      "answer": "$105qrs$",
+      "points": 30
+    },
+    {
+      "id": 249,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 220tuv, 330t^2u^2v^2 \\text{ and } 440t^3u^3v^3$",
+      "choices": ["$10tuv$", "$20tuv$", "$55tuv$", "$110tuv$"],
+      "answer": "$110tuv$",
+      "points": 30
+    },
+    {
+      "id": 250,
+      "wave": 5,
+      "question": "$\\text{Find the GCF of } 225wxy, 300w^2x^2y^2 \\text{ and } 375w^3x^3y^3$",
+      "choices": ["$5wxy$", "$15wxy$", "$25wxy$", "$75wxy$"],
+      "answer": "$75wxy$",
+      "points": 30
+    }
+  ]
+}
