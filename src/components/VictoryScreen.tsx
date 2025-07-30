@@ -42,16 +42,16 @@ export const VictoryScreen = ({
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-white to-orange-50 flex items-center justify-center p-3 sm:p-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center p-6">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-full max-w-lg sm:max-w-2xl"
+        className="w-full max-w-2xl"
       >
         {/* Victory Header */}
         <motion.div
-          className="text-center mb-4 sm:mb-8"
+          className="text-center mb-8"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
@@ -60,61 +60,58 @@ export const VictoryScreen = ({
             animate={{ rotate: [0, -10, 10, -10, 0] }}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
-            <Trophy className="w-16 h-16 sm:w-24 sm:h-24 text-yellow-500 mx-auto mb-2 sm:mb-4" />
+            <Trophy className="w-20 h-20 text-yellow-500 mx-auto mb-4" />
           </motion.div>
-          <h1 className="text-2xl sm:text-4xl font-bold mb-1 sm:mb-2">
-            <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold mb-2">
+            <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">
               Victory!
             </span>
           </h1>
           <motion.p
-            className="text-lg sm:text-2xl font-semibold"
+            className="text-xl font-semibold text-slate-700"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7 }}
           >
-            <span style={{ color: winner.color }}>{winner.name}</span> wins the
-            battle!
+            <span style={{ color: winner.color }}>{winner.name}</span> wins the battle!
           </motion.p>
         </motion.div>
 
         {/* Game Stats */}
-        <Card className="game-card mb-4 sm:mb-6">
-          <CardHeader className="pb-2 sm:pb-4">
-            <CardTitle className="text-center text-base sm:text-lg">
+        <Card className="bg-white/90 backdrop-blur-sm border-0 shadow-lg mb-6">
+          <CardHeader className="text-center pb-4">
+            <CardTitle className="text-lg font-semibold text-slate-700">
               Battle Results
             </CardTitle>
           </CardHeader>
-          <CardContent className="p-3 sm:p-6">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6">
+          <CardContent className="p-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Winner Stats */}
               <motion.div
-                className="text-center p-3 sm:p-4 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-lg border-2 border-yellow-200"
+                className="text-center p-6 bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border-2 border-yellow-200"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                <Trophy className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-500 mx-auto mb-1 sm:mb-2" />
-                <h3 className="font-bold text-sm sm:text-lg mb-1 sm:mb-2">
+                <Trophy className="w-8 h-8 text-yellow-500 mx-auto mb-3" />
+                <h3 className="font-bold text-lg mb-2">
                   {winner.name}
                 </h3>
-                <div className="space-y-1 sm:space-y-2">
-                  <Badge className="bg-yellow-500 text-white text-xs sm:text-sm">
-                    Winner - {winner.score} points
+                <div className="space-y-2">
+                  <Badge className="bg-yellow-500 text-white text-sm">
+                    {winner.score} points
                   </Badge>
-                  <p
-                    className={`font-semibold text-xs sm:text-sm ${winnerRating.color}`}
-                  >
+                  <p className={`font-semibold text-sm ${winnerRating.color}`}>
                     {winnerRating.rating}
                   </p>
                   <div className="flex justify-center gap-1">
                     {Array.from({ length: 3 }, (_, i) => (
                       <Star
                         key={i}
-                        className={`w-3 h-3 sm:w-4 sm:h-4 ${
+                        className={`w-4 h-4 ${
                           i < winnerRating.stars
                             ? "text-yellow-500 fill-yellow-500"
-                            : "text-gray-300"
+                            : "text-slate-300"
                         }`}
                       />
                     ))}
@@ -124,34 +121,32 @@ export const VictoryScreen = ({
 
               {/* Loser Stats */}
               <motion.div
-                className="text-center p-3 sm:p-4 bg-muted/30 rounded-lg border"
+                className="text-center p-6 bg-slate-50 rounded-xl border-2 border-slate-200"
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                <div className="w-6 h-6 sm:w-8 sm:h-8 bg-muted rounded-full mx-auto mb-1 sm:mb-2 flex items-center justify-center text-xs sm:text-sm font-bold">
+                <div className="w-8 h-8 bg-slate-400 rounded-full mx-auto mb-3 flex items-center justify-center text-sm font-bold text-white">
                   2
                 </div>
-                <h3 className="font-bold text-sm sm:text-lg mb-1 sm:mb-2">
+                <h3 className="font-bold text-lg mb-2">
                   {loser.name}
                 </h3>
-                <div className="space-y-1 sm:space-y-2">
-                  <Badge variant="secondary" className="text-xs sm:text-sm">
+                <div className="space-y-2">
+                  <Badge className="bg-slate-500 text-white text-sm">
                     {loser.score} points
                   </Badge>
-                  <p
-                    className={`font-semibold text-xs sm:text-sm ${loserRating.color}`}
-                  >
+                  <p className={`font-semibold text-sm ${loserRating.color}`}>
                     {loserRating.rating}
                   </p>
                   <div className="flex justify-center gap-1">
                     {Array.from({ length: 3 }, (_, i) => (
                       <Star
                         key={i}
-                        className={`w-3 h-3 sm:w-4 sm:h-4 ${
+                        className={`w-4 h-4 ${
                           i < loserRating.stars
                             ? "text-yellow-500 fill-yellow-500"
-                            : "text-gray-300"
+                            : "text-slate-300"
                         }`}
                       />
                     ))}
@@ -164,24 +159,24 @@ export const VictoryScreen = ({
 
         {/* Action Buttons */}
         <motion.div
-          className="flex flex-col sm:flex-row gap-2 sm:gap-4 mt-3 sm:mt-4"
+          className="flex flex-col sm:flex-row gap-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
           <Button
             onClick={onRematch}
-            className="flex-1 h-9 sm:h-12 text-sm sm:text-lg font-semibold bg-gradient-to-r from-yellow-400 to-orange-400 hover:opacity-90"
+            className="flex-1 h-12 text-base font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
           >
-            <RotateCcw className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
+            <RotateCcw className="w-5 h-5 mr-2" />
             Rematch
           </Button>
           <Button
             onClick={onReturnHome}
             variant="outline"
-            className="flex-1 h-9 sm:h-12 px-3 sm:px-6 text-sm sm:text-lg"
+            className="flex-1 h-12 text-base font-semibold border-slate-300 hover:bg-slate-50"
           >
-            <Home className="w-4 h-4 sm:w-5 sm:h-5 mr-1 sm:mr-2" />
+            <Home className="w-5 h-5 mr-2" />
             New Game
           </Button>
         </motion.div>

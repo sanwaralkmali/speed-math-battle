@@ -159,7 +159,17 @@ All colors MUST be HSL.
   }
   
   .skill-card.selected {
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 0 30px hsl(221.2 83.2% 53.3% / 0.4);
+    transform: scale(1.05);
+    box-shadow: var(--shadow-gaming);
+  }
+
+  .mathlogame-logo {
+    font-family: 'Cairo', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(135deg, #4BB3FD 0%, #10B981 50%, #4BB3FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }
